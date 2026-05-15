@@ -24,6 +24,7 @@ def generate(
     csv_path: Annotated[str | None, typer.Option("--csv-path", help="CSV output path.")] = None,
     schema_output_path: Annotated[str | None, typer.Option("--schema-output-path", help="Path to output the CREATE TABLE SQL schema. If not specified, schema will be printed to console.")] = None,
     rules_file: Annotated[str | None, typer.Option("--rules-file", help="Path to the rule store JSON file.")] = None,
+    models_pool_file: Annotated[str | None, typer.Option("--models-pool-file", help="Path to the models pool JSON file.")] = None,
     rules_autosave: Annotated[bool | None, typer.Option("--rules-autosave/--no-rules-autosave", help="Automatically persist high-confidence LLM outputs to the rule store.")] = None,
     refresh_rules: Annotated[bool, typer.Option("--refresh-rules/--no-refresh-rules", help="Bypass existing rule store hits and force every column through the LLM (results still honor --rules-autosave).")] = False,
     rules_min_confidence: Annotated[float | None, typer.Option("--rules-min-confidence", help="Minimum LLM confidence required before saving to the rule store.")] = None,
@@ -51,6 +52,7 @@ def generate(
         # Build settings with CLI overrides
         settings = Settings(
             rules_file=rules_file or base_settings.rules_file,
+            llm_models_pool_file=models_pool_file or base_settings.llm_models_pool_file,
             rules_autosave=base_settings.rules_autosave if rules_autosave is None else rules_autosave,
             rules_min_confidence=rules_min_confidence or base_settings.rules_min_confidence,
             llm_enabled=enable_llm and not disable_llm,
@@ -116,6 +118,8 @@ def generate(
     typer.echo(f"llm_resolved_count: {result.llm_resolved_count}")
     typer.echo(f"fallback_resolved_count: {result.fallback_resolved_count}")
     typer.echo(f"value_pools_generated: {sum(1 for f in result.fields if f.value_pool)}")
+    if result.model_used:
+        typer.echo(f"model_used: {result.model_used}")
 
     typer.secho("\nOutput Result", fg=typer.colors.GREEN, bold=True)
     typer.echo(f"output: {result.output}")

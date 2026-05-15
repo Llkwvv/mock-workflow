@@ -18,6 +18,7 @@ class GenerationPreview(BaseModel):
     llm_resolved_count: int = 0
     rules_resolved_count: int = 0
     fallback_resolved_count: int = 0
+    model_used: str | None = None
 
 
 class GenerationResult(GenerationPreview):
@@ -52,6 +53,7 @@ def build_generation_preview(
         llm_resolved_count=resolution.llm_resolved_count,
         rules_resolved_count=resolution.rules_resolved_count,
         fallback_resolved_count=resolution.fallback_resolved_count,
+        model_used=resolution.model_used,
     )
 
 

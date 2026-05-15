@@ -26,6 +26,12 @@ class Settings(BaseSettings):
     llm_value_pool_enabled: bool = Field(default=False, description="Generate per-field value pools via LLM and persist them")
     llm_value_pool_size: int = Field(default=50, ge=1, le=500, description="Target number of values per generated pool")
 
+    # Model pool 配置 (自动探测可用模型)
+    llm_models_pool_file: str | None = Field(
+        default_factory=lambda: str(Path(__file__).resolve().parent / "rules" / "models-pool.json"),
+        description="Path to models pool JSON file"
+    )
+
     model_config = SettingsConfigDict(env_file=".env", env_prefix="MOCKAGENT_", extra="ignore")
 
 

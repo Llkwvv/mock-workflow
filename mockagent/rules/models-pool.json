@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "name": "qwen3:8b",
+      "enabled": true,
+      "priority": 1,
+      "description": "Qwen3 8B model"
+    },
+    {
+      "name": "qwen2.5:14b",
+      "enabled": true,
+      "priority": 2,
+      "description": "Qwen2.5 14B model"
+    },
+    {
+      "name": "llama3:8b",
+      "enabled": true,
+      "priority": 3,
+      "description": "Llama3 8B model"
+    },
+    {
+      "name": "deepseek-r1:14b",
+      "enabled": true,
+      "priority": 4,
+      "description": "DeepSeek R1 14B model"
+    }
+  ]
+}
