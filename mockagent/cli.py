@@ -10,6 +10,35 @@ from mockagent.services.generation import generate_to_output, build_generation_p
 app = typer.Typer(help="MockAgent CLI for sample-driven mock data generation.")
 
 
+@app.command()
+def web(
+    host: Annotated[str, typer.Option("--host", help="Host to bind to.")] = "0.0.0.0",
+    port: Annotated[int, typer.Option("--port", help="Port to listen on.")] = 8000,
+) -> None:
+    """Start the MockAgent web interface."""
+    try:
+        import uvicorn
+    except ImportError:
+        typer.secho(
+            "Error: web interface requires FastAPI and uvicorn.\n"
+            "Install with: pip install 'mockagent[web]' or 'pip install fastapi uvicorn python-multipart jinja2 aiofiles'",
+            fg=typer.colors.RED,
+            err=True,
+        )
+        raise typer.Exit(code=1)
+
+    typer.secho(f"Starting MockAgent web server on http://{host}:{port}", fg=typer.colors.GREEN, bold=True)
+    typer.secho("Press Ctrl+C to stop", fg=typer.colors.YELLOW)
+    uvicorn.run(
+        "mockagent.api.app:create_app",
+        host=host,
+        port=port,
+        reload=False,
+        log_level="info",
+    )
+
+
+
 @app.callback()
 def main() -> None:
     pass

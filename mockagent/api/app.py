@@ -1,2 +1,7 @@
+"""FastAPI application for web interface."""
+from mockagent.web.app import app
+
+
 def create_app():
-    raise RuntimeError("FastAPI service mode is not part of the CLI-first MVP. Add FastAPI dependencies before enabling it.")
+    """Create and return the FastAPI app."""
+    return app

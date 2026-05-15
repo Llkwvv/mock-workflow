@@ -1,14 +1,32 @@
 """OpenAI-compatible LLM field parser implementation."""
 
 import json
+import logging
 from typing import Any
 
-from openai import OpenAI, APITimeoutError, APIConnectionError
+from openai import APIConnectionError, APIError, APITimeoutError, BadRequestError, OpenAI
 
 from mockagent.config import get_settings
 from mockagent.llm.base import LLMFieldParser
 from mockagent.llm.prompt import build_field_analysis_prompt
 from mockagent.schemas.field import FieldSpec, SampleProfile, SqlType, FieldSemantic
+
+
+logger = logging.getLogger(__name__)
+
+
+def _safe_dump(value: Any) -> str:
+    try:
+        if hasattr(value, "model_dump"):
+            return json.dumps(value.model_dump(), ensure_ascii=False, default=str)[:4000]
+        if hasattr(value, "response") and getattr(value, "response", None) is not None:
+            response = getattr(value, "response")
+            body = getattr(response, "text", None)
+            if body:
+                return str(body)[:4000]
+        return str(value)[:4000]
+    except Exception as exc:
+        return f"<failed to dump object: {exc}>"
 
 
 class OpenAIFieldParser(LLMFieldParser):
@@ -78,8 +96,47 @@ class OpenAIFieldParser(LLMFieldParser):
                 temperature=self.temperature,
             )
 
-            content = response.choices[0].message.content
+            if response is None:
+                logger.error(
+                    "LLM returned no response: model=%s base_url=%s columns=%s",
+                    self.model,
+                    self.base_url,
+                    columns,
+                )
+                raise ValueError("LLM returned no response")
+            if not response.choices:
+                logger.error(
+                    "LLM returned no choices: model=%s base_url=%s columns=%s response=%s",
+                    self.model,
+                    self.base_url,
+                    columns,
+                    _safe_dump(response),
+                )
+                raise ValueError("LLM returned no choices")
+
+            choice = response.choices[0]
+            message = getattr(choice, "message", None)
+            if message is None:
+                finish_reason = getattr(choice, "finish_reason", None)
+                logger.error(
+                    "LLM returned no message: model=%s base_url=%s columns=%s finish_reason=%s choice=%s",
+                    self.model,
+                    self.base_url,
+                    columns,
+                    finish_reason,
+                    _safe_dump(choice),
+                )
+                raise ValueError(f"LLM returned no message (finish_reason={finish_reason})")
+
+            content = message.content
             if not content:
+                logger.error(
+                    "LLM returned empty content: model=%s base_url=%s columns=%s message=%s",
+                    self.model,
+                    self.base_url,
+                    columns,
+                    _safe_dump(message),
+                )
                 raise ValueError("LLM returned empty response")
 
             parsed = json.loads(content)
@@ -89,6 +146,12 @@ class OpenAIFieldParser(LLMFieldParser):
             raise TimeoutError(f"LLM request timed out after {self.timeout}s: {e}") from e
         except APIConnectionError as e:
             raise ConnectionError(f"Failed to connect to LLM API: {e}") from e
+        except BadRequestError as e:
+            logger.error("LLM bad request: model=%s base_url=%s error=%s", self.model, self.base_url, _safe_dump(e))
+            raise ValueError(f"LLM bad request: {e}") from e
+        except APIError as e:
+            logger.error("LLM API error: model=%s base_url=%s error=%s", self.model, self.base_url, _safe_dump(e))
+            raise ValueError(f"LLM API error: {e}") from e
         except json.JSONDecodeError as e:
             raise ValueError(f"LLM returned invalid JSON: {e}") from e
 

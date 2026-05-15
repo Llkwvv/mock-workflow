@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MockAgent - 智能样本驱动的Mock数据生成系统</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>MockAgent</h1>
+                <p class="subtitle">智能样本驱动的Mock数据生成系统</p>
+            </div>
+            <div class="header-stats">
+                <div class="stat">
+                    <span class="stat-number" id="stat-total">0</span>
+                    <span class="stat-label">总任务</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" id="stat-running">0</span>
+                    <span class="stat-label">运行中</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" id="stat-completed">0</span>
+                    <span class="stat-label">已完成</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Quick Action Bar -->
+        <div class="quick-actions">
+            <button class="btn btn-primary" onclick="showNewTaskModal()">
+                <span>➕</span> 新建任务
+            </button>
+            <button class="btn btn-secondary" onclick="refreshAll()">
+                <span>🔄</span> 刷新全部
+            </button>
+        </div>
+
+        <!-- Main Upload & Quick Submit Section -->
+        <section class="card upload-card">
+            <div class="card-header">
+                <h2>📤 提交文件与任务</h2>
+            </div>
+            <div class="upload-body">
+                <div class="upload-left">
+                    <div class="file-upload-area main-upload" id="mainFileUpload">
+                        <div class="file-upload-icon">📁</div>
+                        <p>拖拽文件到此处，或点击选择</p>
+                        <small>支持 CSV, XLS, XLSX 格式</small>
+                    </div>
+                    <input type="file" id="mainFileInput" accept=".csv,.xls,.xlsx" style="display:none">
+                    <div class="file-info" id="mainFileInfo" style="display:none">
+                        <span class="file-icon">📄</span>
+                        <span id="mainFileName"></span>
+                        <span class="file-size" id="mainFileSize"></span>
+                        <button type="button" class="btn btn-sm btn-secondary" onclick="clearMainFile()">移除</button>
+                    </div>
+                </div>
+                <div class="upload-right">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>目标表名</label>
+                            <input type="text" id="quickTableName" value="auto_table" placeholder="表名">
+                        </div>
+                        <div class="form-group">
+                            <label>生成行数</label>
+                            <input type="number" id="quickRows" value="100" min="1" max="100000" placeholder="行数">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>或选择已有样本</label>
+                        <select id="quickExistingSample" class="form-select">
+                            <option value="">-- 选择服务器上的样本文件 --</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary btn-block" id="quickSubmitBtn" onclick="quickSubmitTask()">
+                        🚀 提交生成任务
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content Grid -->
+        <div class="main-grid">
+            <!-- Task List Section -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>📋 任务列表与管理</h2>
+                    <div class="card-actions">
+                        <select id="statusFilter" onchange="filterTasks()">
+                            <option value="all">全部状态</option>
+                            <option value="pending">待处理</option>
+                            <option value="running">运行中</option>
+                            <option value="completed">已完成</option>
+                            <option value="failed">失败</option>
+                            <option value="cancelled">已取消</option>
+                        </select>
+                        <input type="text" id="searchInput" placeholder="搜索文件名或表名..." oninput="filterTasks()">
+                    </div>
+                </div>
+                <div id="taskList" class="task-list">
+                    <div class="empty-state">
+                        <div class="empty-icon">📭</div>
+                        <p>暂无任务</p>
+                        <button class="btn btn-primary btn-sm" onclick="showNewTaskModal()">创建第一个任务</button>
+                    </div>
+                </div>
+                <div class="pagination-bar" id="pagination"></div>
+            </section>
+
+            <!-- Preview Section -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>📊 生成数据预览 (最近10条)</h2>
+                    <div class="card-actions">
+                        <span class="preview-count" id="previewCount">0 条数据</span>
+                        <button class="btn btn-secondary btn-sm" onclick="refreshPreview()">
+                            🔄 刷新
+                        </button>
+                    </div>
+                </div>
+                <div id="previewContent" class="preview-content">
+                    <div class="empty-state">
+                        <div class="empty-icon">🔍</div>
+                        <p>完成生成任务后，数据预览将显示在此处</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <!-- New Task Modal -->
+    <div class="modal" id="newTaskModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🆕 新建生成任务</h2>
+                <button class="close-btn" onclick="closeModal('newTaskModal')">&times;</button>
+            </div>
+            <form id="newTaskForm" onsubmit="createTask(event)">
+                <div class="form-group">
+                    <label>样本文件 *</label>
+                    <div class="file-upload-area" id="modalFileUpload" onclick="document.getElementById('modalFileInput').click()">
+                        <div class="file-upload-icon">📤</div>
+                        <p>点击或拖拽文件到此区域</p>
+                        <small>支持 CSV, XLS, XLSX 格式</small>
+                    </div>
+                    <input type="file" id="modalFileInput" accept=".csv,.xls,.xlsx" style="display:none" onchange="handleModalFileSelect(event)">
+                    <div class="file-info" id="modalFileInfo" style="display:none">
+                        <span id="modalFileName"></span>
+                        <button type="button" class="btn btn-danger btn-sm" onclick="clearFile()">✕</button>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>表名 *</label>
+                        <input type="text" id="newTableName" value="auto_table" required>
+                    </div>
+                    <div class="form-group">
+                        <label>生成行数 *</label>
+                        <input type="number" id="newRows" value="100" min="1" max="100000" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>现有样本文件 (从服务器选择)</label>
+                    <select id="existingSample" class="form-select">
+                        <option value="">-- 选择现有样本文件 --</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('newTaskModal')">取消</button>
+                    <button type="submit" class="btn btn-primary" id="submitTaskBtn">
+                        提交生成
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Preview Modal -->
+    <div class="modal" id="previewModal">
+        <div class="modal-content large">
+            <div class="modal-header">
+                <h2>📄 数据预览</h2>
+                <button class="close-btn" onclick="closeModal('previewModal')">&times;</button>
+            </div>
+            <div id="previewModalContent">
+                <div class="loading">加载中...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
+
