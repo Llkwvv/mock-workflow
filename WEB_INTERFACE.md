@@ -1,9 +1,9 @@
 
-# MockAgent Web Interface
+# Mockworkflow Web Interface
 
 ## Overview
 
-The MockAgent web interface provides a user-friendly browser-based frontend for the MockAgent CLI tool. It allows you to:
+The Mockworkflow web interface provides a user-friendly browser-based frontend for the Mockworkflow CLI tool. It allows you to:
 
 1. **Upload sample files** (CSV, Excel) for mock data generation
 2. **Submit generation tasks** with custom table names and row counts
@@ -21,10 +21,10 @@ The web interface is built on:
 
 ### Key Components
 
-- `mockagent/web/app.py` - Main FastAPI application with all routes and HTML frontend
-- `mockagent/web/task_manager.py` - In-memory task state management with async locks
-- `mockagent/api/app.py` - FastAPI app factory
-- `mockagent/api/routes.py` - API router exports
+- `mockworkflow/web/app.py` - Main FastAPI application with all routes and HTML frontend
+- `mockworkflow/web/task_manager.py` - In-memory task state management with async locks
+- `mockworkflow/api/app.py` - FastAPI app factory
+- `mockworkflow/api/routes.py` - API router exports
 
 ## Installation
 
@@ -56,7 +56,7 @@ pip install fastapi uvicorn python-multipart jinja2 aiofiles
 **Option 1: Using the CLI command**
 
 ```bash
-mockagent web --host 0.0.0.0 --port 8000
+mockworkflow web --host 0.0.0.0 --port 8000
 ```
 
 **Option 2: Using the standalone script**
@@ -68,7 +68,7 @@ python run_web.py
 **Option 3: Using uvicorn directly**
 
 ```bash
-uvicorn mockagent.api.app:create_app --host 0.0.0.0 --port 8000 --reload
+uvicorn mockworkflow.api.app:create_app --host 0.0.0.0 --port 8000 --reload
 ```
 
 Then open your browser to: **http://localhost:8000**
@@ -308,7 +308,7 @@ Content-Type: multipart/form-data
 The web interface reuses the existing generation service without modification:
 
 ```python
-from mockagent.services.generation import build_generation_preview, generate_to_output
+from mockworkflow.services.generation import build_generation_preview, generate_to_output
 
 # Build preview (field resolution, SQL generation, 5-row preview)
 preview = build_generation_preview(
@@ -373,12 +373,52 @@ The web interface uses vanilla JavaScript (no frameworks) and is compatible with
 
 ## Future Enhancements
 
-Potential improvements:
-- Persistent task storage (SQLite, Redis)
-- Task result export (download CSV)
-- Multiple file upload
-- Task scheduling/cron jobs
-- User authentication
-- Task history and statistics
-- WebSocket for real-time updates
+### Web界面功能状态总览
+
+#### 1. 文件上传
+| 功能 | 状态 | 说明 |
+|------|------|------|
+| CSV文件上传 | ✅ 已完成 | 拖拽和点击上传 |
+| Excel文件上传 | ✅ 已完成 | 支持 .xls 和 .xlsx |
+| 多文件批量上传 | ✅ 已完成 | 拖拽多个文件 |
+| 文件列表展示 | ✅ 已完成 | samples目录文件浏览 |
+
+#### 2. 参数配置
+| 功能 | 状态 | 说明 |
+|------|------|------|
+| 表名配置 | ✅ 已完成 | 手动输入或自动生成 |
+| 行数配置 | ✅ 已完成 | 1-100000范围 |
+| 数据库导出开关 | ✅ 已完成 | 导出到MySQL |
+
+#### 3. 任务管理
+| 功能 | 状态 | 说明 |
+|------|------|------|
+| 任务创建 | ✅ 已完成 | 单个和批量创建 |
+| 任务状态显示 | ✅ 已完成 | pending/running/completed/failed |
+| 任务进度显示 | ✅ 已完成 | 进度条展示 |
+| 任务列表刷新 | ✅ 已完成 | 3秒自动刷新 |
+| 任务取消 | ✅ 已完成 | 删除进行中任务 |
+| 任务详情查看 | ✅ 已完成 | 字段信息、SQL、预览数据 |
+| 持久化存储 | ❌ 未完成 | 重启后任务丢失 |
+| 任务历史记录 | ❌ 未完成 | 查看历史任务 |
+| 任务统计图表 | ❌ 未完成 | 可视化统计 |
+
+#### 4. 结果展示
+| 功能 | 状态 | 说明 |
+|------|------|------|
+| 字段信息展示 | ✅ 已完成 | 类型、语义、置信度 |
+| SQL预览 | ✅ 已完成 | CREATE TABLE语句 |
+| 数据表格预览 | ✅ 已完成 | 5行样例数据 |
+| CSV文件下载 | ✅ 已完成 | 任务完成后可下载CSV文件 |
+| JSON格式导出 | ❌ 未完成 | JSON格式输出 |
+| Excel格式导出 | ❌ 未完成 | Excel格式输出 |
+
+#### 5. 系统功能
+| 功能 | 状态 | 说明 |
+|------|------|------|
+| 健康检查 | ✅ 已完成 | /health 接口 |
+| API文档 | ✅ 已完成 | FastAPI自动生成 |
+| WebSocket实时 | ❌ 未完成 | 当前3秒轮询 |
+| 用户认证 | ❌ 未完成 | 登录/权限控制 |
+| 任务定时调度 | ❌ 未完成 | 定时执行任务 |
 
