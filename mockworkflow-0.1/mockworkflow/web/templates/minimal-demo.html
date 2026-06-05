@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Style Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-400: #9ca3af;
+            --gray-500: #6b7280;
+            --gray-600: #4b5563;
+            --gray-700: #374151;
+            --gray-800: #1f2937;
+            --gray-900: #111827;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--gray-50);
+            color: var(--gray-900);
+            line-height: 1.6;
+        }
+
+        /* 顶部导航 */
+        .navbar {
+            background: white;
+            border-bottom: 1px solid var(--gray-200);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .navbar-content {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .nav-stats {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-stat {
+            text-align: center;
+        }
+
+        .nav-stat-value {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--gray-900);
+        }
+
+        .nav-stat-label {
+            font-size: 0.75rem;
+            color: var(--gray-500);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* 主容器 */
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* 网格布局 */
+        .grid {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .grid-cols-1 { grid-template-columns: 1fr; }
+        .grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+
+        /* 卡片 */
+        .card {
+            background: white;
+            border-radius: 0.75rem;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+
+        .card-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--gray-200);
+            background: var(--gray-50);
+        }
+
+        .card-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--gray-900);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card-footer {
+            padding: 1rem 1.5rem;
+            border-top: 1px solid var(--gray-200);
+            background: var(--gray-50);
+        }
+
+        /* 按钮 */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: 1px solid transparent;
+            text-decoration: none;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: var(--gray-700);
+            border-color: var(--gray-300);
+        }
+
+        .btn-secondary:hover {
+            background: var(--gray-50);
+            border-color: var(--gray-400);
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #059669;
+        }
+
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #dc2626;
+        }
+
+        .btn-sm {
+            padding: 0.375rem 0.75rem;
+            font-size: 0.75rem;
+        }
+
+        .btn-block {
+            width: 100%;
+        }
+
+        /* 表单 */
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--gray-700);
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control {
+            display: block;
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            border: 1px solid var(--gray-300);
+            border-radius: 0.5rem;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .form-select {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+            background-position: right 0.5rem center;
+            background-repeat: no-repeat;
+            background-size: 1.5em 1.5em;
+            padding-right: 2.5rem;
+        }
+
+        /* 进度条 */
+        .progress {
+            height: 0.5rem;
+            background: var(--gray-200);
+            border-radius: 0.25rem;
+            overflow: hidden;
+            margin: 1rem 0;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: var(--primary);
+            transition: width 0.3s ease;
+        }
+
+        /* 状态标签 */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .badge-success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .badge-warning {
+            background: #fed7aa;
+            color: #92400e;
+        }
+
+        .badge-danger {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .badge-info {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        /* 表格 */
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table th,
+        .table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .table th {
+            font-weight: 600;
+            color: var(--gray-700);
+            background: var(--gray-50);
+        }
+
+        .table tbody tr:hover {
+            background: var(--gray-50);
+        }
+
+        /* 上传区域 */
+        .upload-area {
+            border: 2px dashed var(--gray-300);
+            border-radius: 0.75rem;
+            padding: 3rem;
+            text-align: center;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .upload-area:hover,
+        .upload-area.dragover {
+            border-color: var(--primary);
+            background: rgba(37, 99, 235, 0.05);
+        }
+
+        .upload-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        /* 统计数字 */
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+        }
+
+        /* 返回按钮 */
+        .back-btn {
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            background: white;
+            color: var(--gray-700);
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            box-shadow: var(--shadow);
+            transition: all 0.2s ease;
+            z-index: 1000;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .grid-cols-2 { grid-template-columns: 1fr; }
+            .grid-cols-3 { grid-template-columns: 1fr; }
+            .nav-stats { display: none; }
+            .container { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- 返回按钮 -->
+    <a href="/" class="back-btn">← 返回主系统</a>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">Mockworkflow</div>
+            <div class="nav-stats">
+                <div class="nav-stat">
+                    <div class="nav-stat-value">1,234</div>
+                    <div class="nav-stat-label">总任务</div>
+                </div>
+                <div class="nav-stat">
+                    <div class="nav-stat-value">12</div>
+                    <div class="nav-stat-label">运行中</div>
+                </div>
+                <div class="nav-stat">
+                    <div class="nav-stat-value">98.5%</div>
+                    <div class="nav-stat-label">成功率</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- 主要内容网格 -->
+        <div class="grid grid-cols-3">
+            <!-- 文件上传 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">📁 文件上传</h2>
+                </div>
+                <div class="card-body">
+                    <div class="upload-area" id="uploadArea">
+                        <div class="upload-icon">📁</div>
+                        <p>拖拽文件到此处或点击选择</p>
+                        <p style="color: var(--gray-500); font-size: 0.875rem; margin-top: 0.5rem;">
+                            支持 CSV, XLS, XLSX 格式
+                        </p>
+                    </div>
+                    <div class="form-group" style="margin-top: 1rem;">
+                        <label class="form-label">或选择文件</label>
+                        <input type="file" class="form-control" accept=".csv,.xls,.xlsx">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 快速设置 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">⚙️ 快速设置</h2>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label class="form-label">生成行数</label>
+                        <input type="number" class="form-control" value="100" min="1" max="100000">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">表名前缀</label>
+                        <input type="text" class="form-control" placeholder="test_">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">导出选项</label>
+                        <select class="form-control form-select">
+                            <option value="preview">仅预览</option>
+                            <option value="csv">CSV文件</option>
+                            <option value="mysql">MySQL数据库</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label style="display: flex; align-items: center; cursor: pointer;">
+                            <input type="checkbox" checked style="margin-right: 0.5rem;">
+                            <span>启用自动表名生成</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary btn-block">🚀 开始生成</button>
+                </div>
+            </div>
+
+            <!-- 实时统计 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">📊 实时统计</h2>
+                </div>
+                <div class="card-body">
+                    <div class="stat-grid">
+                        <div class="stat-item">
+                            <div class="stat-value">1,234</div>
+                            <div class="stat-label">总任务数</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">98.5%</div>
+                            <div class="stat-label">成功率</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">456</div>
+                            <div class="stat-label">今日任务</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">2.3s</div>
+                            <div class="stat-label">平均耗时</div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 1.5rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                            <span style="font-size: 0.875rem; color: var(--gray-600);">今日进度</span>
+                            <span style="font-size: 0.875rem; font-weight: 600;">75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-secondary btn-block">🔄 刷新数据</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 任务列表 -->
+        <div class="card" style="margin-top: 2rem;">
+            <div class="card-header">
+                <h2 class="card-title">📋 任务列表</h2>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>任务ID</th>
+                            <th>文件名</th>
+                            <th>表名</th>
+                            <th>行数</th>
+                            <th>状态</th>
+                            <th>创建时间</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#1234</td>
+                            <td>sample_data.csv</td>
+                            <td>sample_data</td>
+                            <td>100</td>
+                            <td><span class="badge badge-success">已完成</span></td>
+                            <td>2024-06-04 14:20</td>
+                            <td>
+                                <button class="btn btn-sm btn-primary">查看</button>
+                                <button class="btn btn-sm btn-danger">删除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#1235</td>
+                            <td>test_data.xlsx</td>
+                            <td>test_data</td>
+                            <td>500</td>
+                            <td><span class="badge badge-warning">运行中</span></td>
+                            <td>2024-06-04 14:25</td>
+                            <td>
+                                <button class="btn btn-sm btn-secondary">取消</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#1236</td>
+                            <td>users.csv</td>
+                            <td>users</td>
+                            <td>1000</td>
+                            <td><span class="badge badge-info">待处理</span></td>
+                            <td>2024-06-04 14:30</td>
+                            <td>
+                                <button class="btn btn-sm btn-primary">开始</button>
+                                <button class="btn btn-sm btn-danger">删除</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 定时任务 -->
+        <div class="grid grid-cols-2" style="margin-top: 2rem;">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">⏰ 定时任务</h2>
+                </div>
+                <div class="card-body">
+                    <div style="margin-bottom: 1rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div style="font-weight: 600;">每日数据备份</div>
+                                <div style="font-size: 0.875rem; color: var(--gray-500);">每天 02:00 执行</div>
+                            </div>
+                            <span class="badge badge-success">已启用</span>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div style="font-weight: 600;">数据清理</div>
+                                <div style="font-size: 0.875rem; color: var(--gray-500);">每周日 04:00 执行</div>
+                            </div>
+                            <span class="badge badge-success">已启用</span>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div style="font-weight: 600;">报表生成</div>
+                                <div style="font-size: 0.875rem; color: var(--gray-500);">每月1号 01:00 执行</div>
+                            </div>
+                            <span class="badge badge-danger">已禁用</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary">+ 新建定时任务</button>
+                </div>
+            </div>
+
+            <!-- 样本文件管理 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">📁 样本文件</h2>
+                </div>
+                <div class="card-body">
+                    <div style="margin-bottom: 1rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div style="font-weight: 600;">sample_data.csv</div>
+                                <div style="font-size: 0.875rem; color: var(--gray-500);">2.3 MB • 2024-06-04</div>
+                            </div>
+                            <div>
+                                <button class="btn btn-sm btn-secondary">使用</button>
+                                <button class="btn btn-sm btn-danger">删除</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div style="font-weight: 600;">test_data.xlsx</div>
+                                <div style="font-size: 0.875rem; color: var(--gray-500);">1.1 MB • 2024-06-03</div>
+                            </div>
+                            <div>
+                                <button class="btn btn-sm btn-secondary">使用</button>
+                                <button class="btn btn-sm btn-danger">删除</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div style="font-weight: 600;">users.csv</div>
+                                <div style="font-size: 0.875rem; color: var(--gray-500);">856 KB • 2024-06-02</div>
+                            </div>
+                            <div>
+                                <button class="btn btn-sm btn-secondary">使用</button>
+                                <button class="btn btn-sm btn-danger">删除</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary">+ 上传新文件</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 说明卡片 -->
+        <div class="card" style="margin-top: 2rem;">
+            <div class="card-header">
+                <h2 class="card-title">🎨 极简风格特点</h2>
+            </div>
+            <div class="card-body">
+                <div class="grid grid-cols-2">
+                    <div>
+                        <h3 style="color: var(--primary); margin-bottom: 0.5rem;">✨ 简洁清爽</h3>
+                        <p style="color: var(--gray-600);">去除多余装饰，专注功能本身</p>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--primary); margin-bottom: 0.5rem;">🎯 层次清晰</h3>
+                        <p style="color: var(--gray-600);">通过颜色和间距建立视觉层次</p>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--primary); margin-bottom: 0.5rem;">📱 响应式设计</h3>
+                        <p style="color: var(--gray-600);">完美适配各种屏幕尺寸</p>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--primary); margin-bottom: 0.5rem;">⚡ 高效操作</h3>
+                        <p style="color: var(--gray-600);">减少点击步骤，提升工作效率</p>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <button class="btn btn-primary" onclick="alert('喜欢极简风格吗？我可以帮你应用到主系统中！')">应用极简风格</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 上传区域交互
+        const uploadArea = document.getElementById('uploadArea');
+        
+        uploadArea.addEventListener('click', () => {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.csv,.xls,.xlsx';
+            input.click();
+        });
+
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            console.log('Files dropped:', e.dataTransfer.files);
+        });
+    </script>
+</body>
+</html>

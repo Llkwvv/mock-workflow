@@ -1,0 +1,1 @@
+MYSQL_DIALECT = "mysql"

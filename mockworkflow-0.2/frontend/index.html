@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockworkflow - 样本驱动的 Mock 数据生成</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { cursor: none !important; }
+        html, body { cursor: none !important; }
+    </style>
+</head>
+<body style="background:var(--bg-gradient);color:var(--text-primary);font-family:system-ui,-apple-system,sans-serif;min-height:100vh;overflow-x:hidden;cursor:none !important;">
+<div id="particles-bg"></div>
+
+<button class="theme-toggle" onclick="toggleTheme()">
+    <span id="theme-icon">🌙</span>
+    <span id="theme-text">暗色模式</span>
+</button>
+
+<div class="container">
+    <!-- HOME PAGE -->
+    <div id="page-home">
+        <h1 class="tech-title">Mockworkflow</h1>
+
+        <div class="demo-grid">
+            <!-- 1. 快速生成 -->
+            <div class="glass-card" onclick="navigateTo('generate')">
+                <div style="font-size:3rem;text-align:center;margin-bottom:16px;">🚀</div>
+                <h2 style="text-align:center;margin-bottom:10px;">快速生成</h2>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">普通 / 批量 / Schema / 模板 多入口一键生成</p>
+                <div style="margin-top:16px;text-align:center;">
+                    <span class="neon-btn">进入 →</span>
+                </div>
+            </div>
+
+            <!-- 2. 任务中心 -->
+            <div class="glass-card" onclick="navigateTo('tasks')">
+                <div style="font-size:3rem;text-align:center;margin-bottom:16px;">📋</div>
+                <h2 style="text-align:center;margin-bottom:10px;">任务中心</h2>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">任务列表、状态监控、取消与重试</p>
+                <div style="margin-top:16px;text-align:center;">
+                    <span class="neon-btn">进入 →</span>
+                </div>
+            </div>
+
+            <!-- 3. 定时调度 -->
+            <div class="glass-card" onclick="navigateTo('schedules')">
+                <div style="font-size:3rem;text-align:center;margin-bottom:16px;">⏰</div>
+                <h2 style="text-align:center;margin-bottom:10px;">定时调度</h2>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">定时任务与 Webhook 事件通知</p>
+                <div style="margin-top:16px;text-align:center;">
+                    <span class="neon-btn">进入 →</span>
+                </div>
+            </div>
+
+            <!-- 4. 样本中心 -->
+            <div class="glass-card" onclick="navigateTo('samples')">
+                <div style="font-size:3rem;text-align:center;margin-bottom:16px;">📁</div>
+                <h2 style="text-align:center;margin-bottom:10px;">样本中心</h2>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">样本管理与 Few-shot 学习</p>
+                <div style="margin-top:16px;text-align:center;">
+                    <span class="neon-btn">进入 →</span>
+                </div>
+            </div>
+
+            <!-- 5. 监控审计 -->
+            <div class="glass-card" onclick="navigateTo('monitor')">
+                <div style="font-size:3rem;text-align:center;margin-bottom:16px;">📊</div>
+                <h2 style="text-align:center;margin-bottom:10px;">监控审计</h2>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">统计分析、Prometheus 指标与审计日志</p>
+                <div style="margin-top:16px;text-align:center;">
+                    <span class="neon-btn">进入 →</span>
+                </div>
+            </div>
+
+            <!-- 6. 生成引擎 -->
+            <div class="glass-card" onclick="navigateTo('engine')">
+                <div style="font-size:3rem;text-align:center;margin-bottom:16px;">🎯</div>
+                <h2 style="text-align:center;margin-bottom:10px;">生成引擎</h2>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">分布拟合、趋势模拟、脱敏与字段编辑</p>
+                <div style="margin-top:16px;text-align:center;">
+                    <span class="neon-btn">进入 →</span>
+                </div>
+            </div>
+
+            <!-- 7. 插件扩展 -->
+            <div class="glass-card" onclick="navigateTo('plugins')">
+                <div style="font-size:3rem;text-align:center;margin-bottom:16px;">🔧</div>
+                <h2 style="text-align:center;margin-bottom:10px;">插件扩展</h2>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">Faker Provider、缓存层与自定义生成器</p>
+                <div style="margin-top:16px;text-align:center;">
+                    <span class="neon-btn">进入 →</span>
+                </div>
+            </div>
+
+            <!-- 8. 系统设置 -->
+            <div class="glass-card" onclick="navigateTo('settings')">
+                <div style="font-size:3rem;text-align:center;margin-bottom:16px;">⚙️</div>
+                <h2 style="text-align:center;margin-bottom:10px;">系统设置</h2>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">配置信息、LLM 参数与系统状态</p>
+                <div style="margin-top:16px;text-align:center;">
+                    <span class="neon-btn">进入 →</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TASKS PAGE -->
+    <div id="page-tasks" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">📋 任务中心</h1>
+        </div>
+        <div class="grid-2">
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-title">📋 任务列表</div>
+                    <button class="neon-btn secondary" style="padding:6px 14px;font-size:12px;" onclick="loadTasks()">� 刷新</button>
+                </div>
+                <div id="taskList" style="max-height:500px;overflow-y:auto;">
+                    <p style="text-align:center;color:var(--text-muted);padding:40px;">暂无任务</p>
+                </div>
+            </div>
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-title">� 任务详情</div>
+                </div>
+                <div id="taskDetail" style="margin-top:16px;">
+                    <p style="text-align:center;color:var(--text-muted);padding:40px;">请选择一个任务查看详情</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCHEDULES PAGE -->
+    <div id="page-schedules" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">⏰ 定时任务</h1>
+        </div>
+        <div class="grid-2">
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">创建定时任务</div></div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>样本文件</label>
+                        <select id="scheduleSample" class="glow-input"></select>
+                    </div>
+                    <div class="form-group">
+                        <label>表名</label>
+                        <input type="text" id="scheduleTable" class="glow-input" placeholder="auto_table">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>生成行数</label>
+                        <input type="number" id="scheduleRows" class="glow-input" value="100" min="1">
+                    </div>
+                    <div class="form-group">
+                        <label>执行频率</label>
+                        <select id="scheduleType" class="glow-input" onchange="updateCronFields()">
+                            <option value="daily">每天</option>
+                            <option value="weekly">每周</option>
+                            <option value="monthly">每月</option>
+                            <option value="custom">自定义</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row" id="cronDailyFields">
+                    <div class="form-group">
+                        <label>执行时间</label>
+                        <input type="time" id="scheduleTime" class="glow-input" value="09:00">
+                    </div>
+                </div>
+                <div class="form-row" id="cronWeeklyFields" style="display:none;">
+                    <div class="form-group">
+                        <label>星期</label>
+                        <select id="scheduleWeekday" class="glow-input">
+                            <option value="1">周一</option>
+                            <option value="2">周二</option>
+                            <option value="3">周三</option>
+                            <option value="4">周四</option>
+                            <option value="5">周五</option>
+                            <option value="6">周六</option>
+                            <option value="0">周日</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>执行时间</label>
+                        <input type="time" id="scheduleWeeklyTime" class="glow-input" value="09:00">
+                    </div>
+                </div>
+                <div class="form-row" id="cronMonthlyFields" style="display:none;">
+                    <div class="form-group">
+                        <label>日期</label>
+                        <select id="scheduleDay" class="glow-input">
+                            <option value="1">1日</option>
+                            <option value="2">2日</option>
+                            <option value="3">3日</option>
+                            <option value="4">4日</option>
+                            <option value="5">5日</option>
+                            <option value="6">6日</option>
+                            <option value="7">7日</option>
+                            <option value="8">8日</option>
+                            <option value="9">9日</option>
+                            <option value="10">10日</option>
+                            <option value="11">11日</option>
+                            <option value="12">12日</option>
+                            <option value="13">13日</option>
+                            <option value="14">14日</option>
+                            <option value="15">15日</option>
+                            <option value="16">16日</option>
+                            <option value="17">17日</option>
+                            <option value="18">18日</option>
+                            <option value="19">19日</option>
+                            <option value="20">20日</option>
+                            <option value="21">21日</option>
+                            <option value="22">22日</option>
+                            <option value="23">23日</option>
+                            <option value="24">24日</option>
+                            <option value="25">25日</option>
+                            <option value="26">26日</option>
+                            <option value="27">27日</option>
+                            <option value="28">28日</option>
+                            <option value="29">29日</option>
+                            <option value="30">30日</option>
+                            <option value="31">31日</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>执行时间</label>
+                        <input type="time" id="scheduleMonthlyTime" class="glow-input" value="09:00">
+                    </div>
+                </div>
+                <div class="form-row" id="cronCustomFields" style="display:none;">
+                    <div class="form-group">
+                        <label>Cron 表达式</label>
+                        <input type="text" id="scheduleCron" class="glow-input" placeholder="0 9 * * *">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group" style="display:flex;align-items:center;gap:10px;">
+                        <input type="checkbox" id="scheduleDbExport" style="width:18px;height:18px;cursor:pointer;">
+                        <label for="scheduleDbExport" style="margin:0;cursor:pointer;">导出到数据库</label>
+                    </div>
+                </div>
+                <button class="neon-btn" onclick="createSchedule()">创建定时任务</button>
+            </div>
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-title">📊 定时任务列表</div>
+                    <button class="neon-btn secondary" style="padding:6px 14px;font-size:12px;" onclick="loadSchedules()">🔄 刷新</button>
+                </div>
+                <div id="scheduleList">
+                    <p style="text-align:center;color:var(--text-muted);padding:40px;">暂无定时任务</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SAMPLES PAGE -->
+    <div id="page-samples" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">📁 样本中心</h1>
+        </div>
+        <div class="glass-card">
+            <div class="card-header">
+                <div class="card-title">📤 文件上传</div>
+            </div>
+            <div class="drop-zone" id="sampleDropZone" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)" onclick="document.getElementById('sampleFileInput').click()">
+                <p style="font-size:2.5rem;margin-bottom:10px;">📁</p>
+                <p>拖拽文件到此处或点击选择</p>
+                <p style="font-size:0.85rem;opacity:0.6;margin-top:6px;">支持 CSV, XLS, XLSX 格式</p>
+            </div>
+            <input type="file" id="sampleFileInput" style="display:none" accept=".csv,.xls,.xlsx" onchange="handleFileSelect(event)">
+            <div id="uploadPreview" style="margin-top:12px;display:none;">
+                <div class="sample-item">
+                    <div class="sample-info">
+                        <span class="sample-name" id="uploadFileName"></span>
+                        <span class="sample-meta" id="uploadFileSize"></span>
+                    </div>
+                    <button class="neon-btn" style="padding:6px 14px;font-size:12px;" onclick="uploadFile()">上传</button>
+                </div>
+            </div>
+        </div>
+        <div class="glass-card">
+            <div class="card-header">
+                <div class="card-title">📋 样本文件列表</div>
+                <button class="neon-btn secondary" style="padding:6px 14px;font-size:12px;" onclick="loadSamples()">🔄 刷新</button>
+            </div>
+            <div id="sampleList" style="max-height:500px;overflow-y:auto;">
+                <p style="text-align:center;color:var(--text-muted);padding:40px;">加载中...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- STATS PAGE -->
+    <div id="page-stats" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">📊 监控审计</h1>
+        </div>
+        <div class="grid-3">
+            <div class="glass-card stat-card">
+                <div class="stat-label">总任务数</div>
+                <div class="stat-value" id="statTotal">0</div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-label">成功率</div>
+                <div class="stat-value" id="statSuccessRate">0%</div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-label">平均行数</div>
+                <div class="stat-value" id="statAvgRows">0</div>
+            </div>
+        </div>
+        <div class="grid-2">
+            <div class="glass-card">
+                <div class="card-title">📊 任务状态分布</div>
+                <canvas id="statusChart" style="max-height:300px;"></canvas>
+            </div>
+            <div class="glass-card">
+                <div class="card-title">📈 每日任务趋势</div>
+                <canvas id="dailyChart" style="max-height:300px;"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- BATCH PAGE -->
+    <div id="page-batch" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">� 文件导入</h1>
+        </div>
+        <div class="glass-card">
+            <div class="card-header"><div class="card-title">📂 选择文件</div></div>
+            <div class="drop-zone" onclick="document.getElementById('batchFileInput').click()">
+                <p style="font-size:2.5rem;margin-bottom:10px;">📂</p>
+                <p>选择单个或多个文件创建任务</p>
+                <p style="font-size:0.85rem;opacity:0.6;margin-top:6px;">支持 CSV, XLS, XLSX 格式</p>
+            </div>
+            <input type="file" id="batchFileInput" style="display:none" multiple accept=".csv,.xls,.xlsx" onchange="handleBatchFiles(event)">
+            <div id="batchFilesList" style="margin-top:16px;"></div>
+            <div class="form-row" style="margin-top:16px;">
+                <div class="form-group">
+                    <label>每文件行数</label>
+                    <input type="number" id="batchRows" class="glow-input" value="100">
+                </div>
+                <div class="form-group">
+                    <label>表名前缀</label>
+                    <input type="text" id="batchPrefix" class="glow-input" placeholder="可选">
+                </div>
+            </div>
+            <div style="display:flex;gap:10px;margin-top:16px;">
+                <button class="neon-btn" onclick="submitBatch()">🚀 创建任务</button>
+                <button class="neon-btn secondary" onclick="goHome()">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- GENERATE PAGE -->
+    <div id="page-generate" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">🚀 快速生成</h1>
+        </div>
+        <div class="demo-grid">
+            <div class="glass-card" onclick="navigateTo('batch')">
+                <div style="font-size:3rem;text-align:center;margin-bottom:16px;">📁</div>
+                <h2 style="text-align:center;margin-bottom:10px;">文件导入</h2>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">上传单个或多个文件生成 Mock 数据</p>
+                <div style="margin-top:16px;text-align:center;">
+                    <span class="neon-btn">进入 →</span>
+                </div>
+            </div>
+            <div class="glass-card" onclick="navigateTo('schema')">
+                <div style="font-size:3rem;text-align:center;margin-bottom:16px;">🔄</div>
+                <h2 style="text-align:center;margin-bottom:10px;">Schema 导入</h2>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">从数据库表结构反向生成</p>
+                <div style="margin-top:16px;text-align:center;">
+                    <span class="neon-btn">进入 →</span>
+                </div>
+            </div>
+            <div class="glass-card" onclick="navigateTo('templates')">
+                <div style="font-size:3rem;text-align:center;margin-bottom:16px;">📋</div>
+                <h2 style="text-align:center;margin-bottom:10px;">模板填充</h2>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">使用保存的模板快速生成</p>
+                <div style="margin-top:16px;text-align:center;">
+                    <span class="neon-btn">进入 →</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MONITOR PAGE -->
+    <div id="page-monitor" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">📊 监控审计</h1>
+        </div>
+        <div class="grid-3">
+            <div class="glass-card stat-card">
+                <div class="stat-label">总任务数</div>
+                <div class="stat-value" id="monStatTotal">0</div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-label">成功率</div>
+                <div class="stat-value" id="monStatSuccessRate">0%</div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-label">平均行数</div>
+                <div class="stat-value" id="monStatAvgRows">0</div>
+            </div>
+        </div>
+        <div class="grid-2">
+            <div class="glass-card">
+                <div class="card-title">📊 任务状态分布</div>
+                <canvas id="monStatusChart" style="max-height:300px;"></canvas>
+            </div>
+            <div class="glass-card">
+                <div class="card-title">📈 每日任务趋势</div>
+                <canvas id="monDailyChart" style="max-height:300px;"></canvas>
+            </div>
+        </div>
+        <div class="glass-card" style="margin-top:20px;">
+            <div class="card-header"><div class="card-title">🔍 Prometheus 指标 / 审计日志（预留）</div></div>
+            <div style="margin-top:16px;opacity:0.7;">
+                <p>📡 Prometheus 指标暴露：<code>/metrics</code> 端点（待实现）</p>
+                <p>📝 审计日志：记录谁、何时、用哪个样本生成了多少数据（待实现）</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ENGINE PAGE -->
+    <div id="page-engine" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">🎛️ 生成引擎</h1>
+        </div>
+        <div class="grid-2">
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">✏️ 字段级在线编辑</div></div>
+                <div style="margin-top:16px;opacity:0.7;">
+                    <p>允许手动调整推断出的字段类型、长度、语义后再生成（待实现）</p>
+                </div>
+            </div>
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">📐 分布拟合生成</div></div>
+                <div style="margin-top:16px;opacity:0.7;">
+                    <p>基于样本统计分布（正态、泊松、幂律）生成数据（待实现）</p>
+                </div>
+            </div>
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">📈 数据趋势模拟</div></div>
+                <div style="margin-top:16px;opacity:0.7;">
+                    <p>时间序列数据支持趋势、季节性、异常值模拟（待实现）</p>
+                </div>
+            </div>
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">🔒 数据脱敏模式</div></div>
+                <div style="margin-top:16px;opacity:0.7;">
+                    <p>差分隐私处理真实样本，输出脱敏版本（待实现）</p>
+                </div>
+            </div>
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">📏 数据量预估</div></div>
+                <div style="margin-top:16px;opacity:0.7;">
+                    <p>根据字段数和目标行数预估存储占用与生成时长（待实现）</p>
+                </div>
+            </div>
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">🔗 Embedding 相似列匹配</div></div>
+                <div style="margin-top:16px;opacity:0.7;">
+                    <p>向量相似度匹配历史规则，解决列名不同语义相同（待实现）</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PLUGINS PAGE -->
+    <div id="page-plugins" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">🔌 插件扩展</h1>
+        </div>
+        <div class="grid-2">
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">🔧 插件化 Faker Provider</div></div>
+                <div style="margin-top:16px;opacity:0.7;">
+                    <p>允许用户注册自定义生成器：医疗术语、法律条款、金融工具（待实现）</p>
+                </div>
+            </div>
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">💾 结果缓存层</div></div>
+                <div style="margin-top:16px;opacity:0.7;">
+                    <p>相同样本+参数的请求缓存预览结果，减少重复计算（待实现）</p>
+                </div>
+            </div>
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">🧪 自动数据质量评估</div></div>
+                <div style="margin-top:16px;opacity:0.7;">
+                    <p>生成后用 LLM 或规则检查数据一致性，自动标记异常（待实现）</p>
+                </div>
+            </div>
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">🎓 Few-shot 样本学习</div></div>
+                <div style="margin-top:16px;opacity:0.7;">
+                    <p>LLM 学习样本值风格特征，如特定公司的产品命名规则（待实现）</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SETTINGS PAGE -->
+    <div id="page-settings" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">⚙️ 系统设置</h1>
+        </div>
+        <div class="grid-2">
+            <div class="glass-card">
+                <div class="card-title">🖥️ 系统信息</div>
+                <div style="margin-top:16px;" id="systemInfo">
+                    <p style="opacity:0.7;">加载中...</p>
+                </div>
+            </div>
+            <div class="glass-card">
+                <div class="card-title">📊 实时状态</div>
+                <div style="margin-top:16px;" id="realtimeStatus">
+                    <p style="opacity:0.7;">WebSocket 连接中...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCHEMA IMPORT PAGE -->
+    <div id="page-schema" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">🔄 Schema 反向导入</h1>
+        </div>
+        <div class="grid-2">
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">🔗 数据库连接</div></div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>MySQL 连接地址</label>
+                        <input type="text" id="schemaDbHost" class="glow-input" value="127.0.0.1:3306">
+                    </div>
+                    <div class="form-group">
+                        <label>数据库名</label>
+                        <input type="text" id="schemaDbName" class="glow-input" value="mockagent_test">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>用户名</label>
+                        <input type="text" id="schemaDbUser" class="glow-input" value="mockagent">
+                    </div>
+                    <div class="form-group">
+                        <label>密码</label>
+                        <input type="password" id="schemaDbPass" class="glow-input" value="mock123">
+                    </div>
+                </div>
+                <button class="neon-btn" onclick="connectAndListTables()">连接并列出表</button>
+            </div>
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-title">📋 表结构列表</div>
+                    <button class="neon-btn secondary" style="padding:6px 14px;font-size:12px;" onclick="selectAllSchemaTables()">全选</button>
+                </div>
+                <div id="schemaTableList" style="margin-top:16px;">
+                    <p style="opacity:0.7;">请先连接数据库...</p>
+                </div>
+            </div>
+        </div>
+        <div class="glass-card" style="margin-top:20px;">
+            <div class="card-header"><div class="card-title">📝 生成配置</div></div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>目标行数</label>
+                    <input type="number" id="schemaRows" class="glow-input" value="100" min="1" max="100000">
+                </div>
+                <div class="form-group">
+                    <label>输出方式</label>
+                    <select id="schemaOutput" class="glow-input">
+                        <option value="preview">预览</option>
+                        <option value="csv">CSV</option>
+                        <option value="mysql">MySQL</option>
+                    </select>
+                </div>
+            </div>
+            <button class="neon-btn" onclick="generateFromSchema()">🚀 从 Schema 生成 Mock 数据</button>
+        </div>
+    </div>
+
+    <!-- TEMPLATES PAGE -->
+    <div id="page-templates" style="display:none;">
+        <div class="page-header">
+            <button class="back-btn" onclick="goBack()">← 返回上一级</button>
+            <button class="back-btn" onclick="goHome()">← 返回首页</button>
+            <h1 class="page-title">📋 模板管理</h1>
+        </div>
+        <div class="grid-2">
+            <div class="glass-card">
+                <div class="card-header"><div class="card-title">➕ 创建新模板</div></div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>模板名称</label>
+                        <input type="text" id="templateName" class="glow-input" placeholder="例如：出租车 GPS 数据模板">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>样本文件</label>
+                        <select id="templateSample" class="glow-input">
+                            <option value="">-- 选择样本文件 --</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>默认行数</label>
+                        <input type="number" id="templateRows" class="glow-input" value="100" min="1" max="100000">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>输出方式</label>
+                        <select id="templateOutput" class="glow-input">
+                            <option value="preview">预览</option>
+                            <option value="csv">CSV</option>
+                            <option value="json">JSON</option>
+                            <option value="mysql">MySQL</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>描述</label>
+                        <input type="text" id="templateDesc" class="glow-input" placeholder="模板用途描述">
+                    </div>
+                </div>
+                <button class="neon-btn" onclick="saveTemplate()">💾 保存模板</button>
+            </div>
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-title">📂 已保存模板</div>
+                    <button class="neon-btn secondary" style="padding:6px 14px;font-size:12px;" onclick="loadTemplates()">🔄 刷新</button>
+                </div>
+                <div id="templateList" style="margin-top:16px;">
+                    <p style="opacity:0.7;">加载中...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Toast Container -->
+<div class="toast-container" id="toastContainer"></div>
+
+<script src="static/js/main.js" defer></script>
+</body>
+</html>

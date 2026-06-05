@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockworkflow - 智能样本驱动的Mock数据生成系统</title>
+    <link rel="stylesheet" href="/static/css/style.css?v=20260604m">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+    <script src="/static/js/main.js?v=20260604m" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>Mockworkflow</h1>
+            </div>
+            <div class="header-stats">
+                <div class="stat">
+                    <span class="stat-number" id="stat-total">0</span>
+                    <span class="stat-label">总任务</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" id="stat-running">0</span>
+                    <span class="stat-label">运行中</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" id="stat-completed">0</span>
+                    <span class="stat-label">已完成</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Unified Upload Section -->
+        <section class="card upload-card">
+            <div class="card-header">
+                <h2>📤 提交文件与任务</h2>
+            </div>
+
+            <div class="upload-body">
+                <div class="upload-left">
+                    <div class="file-upload-area main-upload" id="mainFileUpload">
+                        <div class="file-upload-icon">📁</div>
+                        <p>拖拽文件到此处，或点击选择</p>
+                        <small>支持 CSV, XLS, XLSX（多文件自动批量）</small>
+                    </div>
+                    <input type="file" id="mainFileInput" accept=".csv,.xls,.xlsx" multiple style="display:none">
+                    <div id="mainFileInfo" class="file-info" style="display:none">
+                        <span class="file-icon">📄</span>
+                        <span id="mainFileName"></span>
+                        <span class="file-size" id="mainFileSize"></span>
+                        <button type="button" class="btn btn-sm btn-secondary" onclick="clearMainFile()">移除</button>
+                    </div>
+                    <div id="batchFileInfo" style="display:none">
+                        <div class="batch-files-list" id="batchFilesList"></div>
+                        <button type="button" class="btn btn-sm btn-secondary" onclick="clearBatchFiles()">清空全部</button>
+                    </div>
+                </div>
+                <div class="upload-right">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>生成行数</label>
+                            <input type="number" id="quickRows" value="100" min="1" max="100000" placeholder="行数">
+                        </div>
+                    </div>
+                    <div id="batchOptionsGroup" style="display:none;">
+                        <div class="form-group">
+                            <label>表名前缀 <small>(批量)</small></label>
+                            <input type="text" id="batchTablePrefix" placeholder="可选前缀">
+                        </div>
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="check-label">
+                            <input type="checkbox" id="quickEnableDbExport" checked>
+                            <span>导出到数据库</span>
+                        </label>
+                    </div>
+                    <button class="btn btn-primary btn-block" id="submitBtn" onclick="submitTask()">
+                        🚀 提交生成任务
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content Grid -->
+        <div class="main-grid">
+            <!-- Task List Section -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>📋 任务列表与管理</h2>
+                    <div class="card-actions">
+                        <select id="statusFilter" onchange="filterTasks()">
+                            <option value="all">全部状态</option>
+                            <option value="pending">待处理</option>
+                            <option value="running">运行中</option>
+                            <option value="completed">已完成</option>
+                            <option value="failed">失败</option>
+                            <option value="cancelled">已取消</option>
+                        </select>
+                        <input type="text" id="searchInput" placeholder="搜索文件名或表名..." oninput="filterTasks()">
+                    </div>
+                </div>
+                <div id="taskList" class="task-list">
+                    <div class="empty-state">
+                        <div class="empty-icon">📭</div>
+                        <p>暂无任务</p>
+                        <button class="btn btn-primary btn-sm" onclick="showNewTaskModal()">创建第一个任务</button>
+                    </div>
+                </div>
+                <div class="pagination-bar" id="pagination"></div>
+            </section>
+
+            <!-- Preview Section -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>📊 生成数据预览 (最近10条)</h2>
+                    <div class="card-actions">
+                        <span class="preview-count" id="previewCount">0 条数据</span>
+                        <button class="btn btn-secondary btn-sm" onclick="refreshPreview()">
+                            🔄 刷新
+                        </button>
+                    </div>
+                </div>
+                <div id="previewContent" class="preview-content">
+                    <div class="empty-state">
+                        <div class="empty-icon">🔍</div>
+                        <p>完成生成任务后，数据预览将显示在此处</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Statistics Charts Section -->
+        <section class="card stats-card">
+            <div class="card-header">
+                <h2>📈 任务统计</h2>
+                <div class="card-actions">
+                    <button class="btn btn-secondary btn-sm" onclick="loadStatistics()">
+                        🔄 刷新统计
+                    </button>
+                </div>
+            </div>
+            <div class="stats-grid">
+                <div class="stats-summary">
+                    <div class="summary-item">
+                        <span class="summary-value" id="stats-total">0</span>
+                        <span class="summary-label">总任务数</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="summary-value" id="stats-success-rate">0%</span>
+                        <span class="summary-label">成功率</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="summary-value" id="stats-avg-rows">0</span>
+                        <span class="summary-label">平均行数</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="summary-value" id="stats-total-rows">0</span>
+                        <span class="summary-label">总生成行数</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="summary-value" id="stats-avg-time">0s</span>
+                        <span class="summary-label">平均耗时</span>
+                    </div>
+                </div>
+                <div class="charts-grid">
+                    <div class="chart-container">
+                        <h3>任务状态分布</h3>
+                        <canvas id="statusChart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h3>每日任务趋势 (近14天)</h3>
+                        <canvas id="dailyChart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h3>热门表名 Top 10</h3>
+                        <canvas id="tableChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scheduled Tasks Section -->
+        <section class="card">
+            <div class="card-header">
+                <h2>⏰ 定时任务</h2>
+                <div class="card-actions">
+                    <button class="btn btn-primary btn-sm" onclick="showScheduleModal()">+ 新建定时任务</button>
+                    <button class="btn btn-secondary btn-sm" onclick="loadSchedules()">🔄 刷新</button>
+                </div>
+            </div>
+            <div id="scheduleList" class="schedule-list">
+                <div class="empty-state">
+                    <div class="empty-icon">⏰</div>
+                    <p>暂无定时任务</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sample Files Section -->
+        <section class="card">
+            <div class="card-header">
+                <h2>📁 样本文件管理</h2>
+                <div class="card-actions">
+                    <button class="btn btn-primary btn-sm" onclick="showUploadModal()">+ 上传文件</button>
+                    <button class="btn btn-secondary btn-sm" onclick="loadSamples()">🔄 刷新</button>
+                </div>
+            </div>
+            <div id="sampleList" class="sample-list">
+                <div class="empty-state">
+                    <div class="empty-icon">📁</div>
+                    <p>暂无样本文件</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- New Task Modal -->
+    <div class="modal" id="newTaskModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🆕 新建生成任务</h2>
+                <button class="close-btn" onclick="closeModal('newTaskModal')">&times;</button>
+            </div>
+            <form id="newTaskForm" onsubmit="createTask(event)">
+                <div class="form-group">
+                    <label>样本文件 *</label>
+                    <div class="file-upload-area" id="modalFileUpload" onclick="document.getElementById('modalFileInput').click()">
+                        <div class="file-upload-icon">📤</div>
+                        <p>点击或拖拽文件到此区域</p>
+                        <small>支持 CSV, XLS, XLSX 格式</small>
+                    </div>
+                    <input type="file" id="modalFileInput" accept=".csv,.xls,.xlsx" style="display:none" onchange="handleModalFileSelect(event)">
+                    <div class="file-info" id="modalFileInfo" style="display:none">
+                        <span id="modalFileName"></span>
+                        <button type="button" class="btn btn-danger btn-sm" onclick="clearFile()">✕</button>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>生成行数 *</label>
+                        <input type="number" id="newRows" value="100" min="1" max="100000" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>现有样本文件 (从服务器选择)</label>
+                    <select id="existingSample" class="form-select">
+                        <option value="">-- 选择现有样本文件 --</option>
+                    </select>
+                </div>
+                <div class="form-group form-check">
+                    <label class="check-label">
+                        <input type="checkbox" id="newEnableDbExport" checked>
+                        <span>导出到数据库</span>
+                    </label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('newTaskModal')">取消</button>
+                    <button type="submit" class="btn btn-primary" id="submitTaskBtn">
+                        提交生成
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Preview Modal -->
+    <div class="modal" id="previewModal">
+        <div class="modal-content large">
+            <div class="modal-header">
+                <h2>📄 数据预览</h2>
+                <button class="close-btn" onclick="closeModal('previewModal')">&times;</button>
+            </div>
+            <div id="previewModalContent">
+                <div class="loading">加载中...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Schedule Modal -->
+    <div class="modal" id="scheduleModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>⏰ 新建定时任务</h2>
+                <button class="close-btn" onclick="closeModal('scheduleModal')">&times;</button>
+            </div>
+            <form id="scheduleForm" onsubmit="createSchedule(event)">
+                <div class="form-group">
+                    <label>样本文件 *</label>
+                    <select id="scheduleSample" class="form-select" required>
+                        <option value="">-- 选择样本文件 --</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>表名 *</label>
+                    <input type="text" id="scheduleTableName" placeholder="auto_table" required>
+                </div>
+                <div class="form-group">
+                    <label>生成行数 *</label>
+                    <input type="number" id="scheduleRows" value="100" min="1" max="100000" required>
+                </div>
+                <div class="form-group">
+                    <label>Cron 表达式 *</label>
+                    <input type="text" id="scheduleCron" placeholder="0 * * * *" required>
+                    <small>格式: 分 时 日 月 周 (例如: 0 * * * * 表示每小时执行)</small>
+                </div>
+                <div class="form-group form-check">
+                    <label class="check-label">
+                        <input type="checkbox" id="scheduleEnableDbExport" checked>
+                        <span>导出到数据库</span>
+                    </label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('scheduleModal')">取消</button>
+                    <button type="submit" class="btn btn-primary">创建定时任务</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Upload Modal -->
+    <div class="modal" id="uploadModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>📤 上传样本文件</h2>
+                <button class="close-btn" onclick="closeModal('uploadModal')">&times;</button>
+            </div>
+            <form id="uploadForm" onsubmit="uploadSampleFile(event)">
+                <div class="form-group">
+                    <label>选择文件 *</label>
+                    <div class="file-upload-area" id="uploadFileArea" onclick="document.getElementById('uploadFileInput').click()">
+                        <div class="file-upload-icon">📤</div>
+                        <p>点击或拖拽文件到此区域</p>
+                        <small>支持 CSV, XLS, XLSX 格式</small>
+                    </div>
+                    <input type="file" id="uploadFileInput" accept=".csv,.xls,.xlsx" style="display:none" onchange="handleUploadFileSelect(event)">
+                    <div class="file-info" id="uploadFileInfo" style="display:none">
+                        <span id="uploadFileName"></span>
+                        <button type="button" class="btn btn-danger btn-sm" onclick="clearUploadFile()">✕</button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('uploadModal')">取消</button>
+                    <button type="submit" class="btn btn-primary" id="uploadBtn">上传</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+</body>
+</html>
+

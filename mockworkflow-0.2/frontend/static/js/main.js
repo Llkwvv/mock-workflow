@@ -1,0 +1,1402 @@
+// Mockworkflow Frontend - Particle Tech Style with Page Navigation
+const API_BASE = 'http://localhost:8000';
+let ws = null;
+let charts = {};
+let mainUploadedFile = null;
+let batchFiles = [];
+let currentPage = 'home';
+let navigationHistory = [];
+
+// ========== Theme ==========
+function toggleTheme() {
+    const body = document.body;
+    const icon = document.getElementById('theme-icon');
+    const text = document.getElementById('theme-text');
+    if (body.classList.contains('light-mode')) {
+        body.classList.remove('light-mode');
+        icon.textContent = '🌙';
+        text.textContent = '暗色模式';
+        localStorage.setItem('theme', 'dark');
+    } else {
+        body.classList.add('light-mode');
+        icon.textContent = '☀️';
+        text.textContent = '亮色模式';
+        localStorage.setItem('theme', 'light');
+    }
+    recreateParticles();
+}
+
+function initTheme() {
+    const saved = localStorage.getItem('theme');
+    if (saved === 'light') {
+        document.body.classList.add('light-mode');
+        document.getElementById('theme-icon').textContent = '☀️';
+        document.getElementById('theme-text').textContent = '亮色模式';
+    }
+}
+
+// ========== Particles ==========
+function createParticles() {
+    const container = document.getElementById('particles-bg');
+    if (!container) return;
+    container.innerHTML = '';
+    const colors = document.body.classList.contains('light-mode')
+        ? ['#0ea5e9','#8b5cf6','#38bdf8','#a78bfa','#f472b6']
+        : ['#00d4ff','#ff00ff','#0099cc','#cc00cc','#ff6b6b'];
+    for (let i = 0; i < 60; i++) {
+        const p = document.createElement('div');
+        p.className = 'particle';
+        const s = Math.random() * 4 + 2;
+        p.style.width = s + 'px'; p.style.height = s + 'px';
+        p.style.left = Math.random() * 100 + '%';
+        p.style.animationDelay = Math.random() * 8 + 's';
+        p.style.background = colors[Math.floor(Math.random() * colors.length)];
+        p.style.boxShadow = `0 0 ${s * 2}px ${colors[Math.floor(Math.random() * colors.length)]}`;
+        container.appendChild(p);
+    }
+}
+
+function recreateParticles() {
+    createParticles();
+}
+
+let lastCrackTime = 0;
+const CRACK_COOLDOWN = 400; // ms, 防止连点导致卡顿
+
+// ========== Click Glass Crack Effect (Finger Press Shatter) ==========
+function createExplosion(x, y) {
+    const now = Date.now();
+    if (now - lastCrackTime < CRACK_COOLDOWN) return;
+    lastCrackTime = now;
+    const container = document.getElementById('particles-bg');
+    if (!container) return;
+
+    const svgNS = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(svgNS, 'svg');
+    svg.setAttribute('width', '100%');
+    svg.setAttribute('height', '100%');
+    svg.style.cssText = `
+        position: fixed;
+        top: 0; left: 0;
+        width: 100vw; height: 100vh;
+        pointer-events: none;
+        z-index: 9999;
+        overflow: visible;
+    `;
+    container.appendChild(svg);
+
+    const palette = [
+        'rgba(220, 240, 255, 0.95)',
+        'rgba(180, 220, 255, 0.85)',
+        'rgba(255, 255, 255, 0.92)',
+        'rgba(200, 230, 255, 0.8)',
+        'rgba(160, 210, 255, 0.75)',
+        'rgba(240, 248, 255, 0.6)',
+    ];
+
+    function rnd(a, b) { return a + Math.random() * (b - a); }
+    function rndInt(a, b) { return Math.floor(rnd(a, b + 1)); }
+
+    function makeZigzag(sx, sy, angle, len, segsOverride) {
+        const segs = segsOverride || rndInt(4, 10);
+        const segLen = len / segs;
+        let cx = sx, cy = sy, ca = angle;
+        const pts = [{ x: cx, y: cy }];
+
+        for (let i = 0; i < segs; i++) {
+            ca += (Math.random() - 0.5) * 0.7;
+            if (Math.random() < 0.15) ca += (Math.random() > 0.5 ? 1.4 : -1.4);
+            const drift = segLen * rnd(0.35, 0.6);
+            cx += Math.cos(ca) * segLen + (Math.random() - 0.5) * drift;
+            cy += Math.sin(ca) * segLen + (Math.random() - 0.5) * drift;
+            pts.push({ x: cx, y: cy });
+        }
+        return pts;
+    }
+
+    function ptsToD(pts) {
+        let d = `M ${pts[0].x.toFixed(1)} ${pts[0].y.toFixed(1)}`;
+        for (let i = 1; i < pts.length; i++) {
+            d += ` L ${pts[i].x.toFixed(1)} ${pts[i].y.toFixed(1)}`;
+        }
+        return d;
+    }
+
+    function addPath(d, stroke, sw, filterStr, delay, dur) {
+        const p = document.createElementNS(svgNS, 'path');
+        p.setAttribute('d', d);
+        p.setAttribute('stroke', stroke);
+        p.setAttribute('stroke-width', sw);
+        p.setAttribute('fill', 'none');
+        p.setAttribute('stroke-linecap', 'round');
+        p.setAttribute('stroke-linejoin', 'round');
+        if (filterStr) p.style.filter = filterStr;
+        svg.appendChild(p);
+        return { el: p, type: 'path', delay, dur };
+    }
+
+    const cracks = [];
+    const allPts = [];
+    const MAIN_LEN_MIN = 40, MAIN_LEN_MAX = 90;
+
+    // === 1. 中心受压效果 ===
+    const centerDot = document.createElementNS(svgNS, 'circle');
+    centerDot.setAttribute('cx', x);
+    centerDot.setAttribute('cy', y);
+    centerDot.setAttribute('r', 0);
+    centerDot.setAttribute('fill', 'rgba(255,255,255,0.9)');
+    centerDot.style.filter = 'drop-shadow(0 0 6px rgba(255,255,255,0.8))';
+    svg.appendChild(centerDot);
+    cracks.push({ el: centerDot, type: 'dot', delay: 0, dur: 300 });
+
+    const shockRing = document.createElementNS(svgNS, 'circle');
+    shockRing.setAttribute('cx', x);
+    shockRing.setAttribute('cy', y);
+    shockRing.setAttribute('r', 3);
+    shockRing.setAttribute('fill', 'none');
+    shockRing.setAttribute('stroke', 'rgba(200,230,255,0.4)');
+    shockRing.setAttribute('stroke-width', 1.5);
+    shockRing.style.filter = 'drop-shadow(0 0 4px rgba(180,220,255,0.3))';
+    svg.appendChild(shockRing);
+    cracks.push({ el: shockRing, type: 'ring', delay: 20, dur: 400 });
+
+    // === 2. 主裂纹（从中心向外放射，不规则） ===
+    const mainCount = rndInt(4, 6);
+    for (let i = 0; i < mainCount; i++) {
+        const baseAngle = (Math.PI * 2 * i) / mainCount;
+        const angle = baseAngle + rnd(-0.35, 0.35);
+        const len = i % 3 === 0 ? rnd(30, 60) : rnd(MAIN_LEN_MIN, MAIN_LEN_MAX);
+        const color = palette[rndInt(0, palette.length - 1)];
+        const w = len < 50 ? rnd(1.2, 2.2) : rnd(0.8, 1.6);
+
+        const pts = makeZigzag(x, y, angle, len);
+        allPts.push(...pts);
+
+        cracks.push(addPath(
+            ptsToD(pts), color, w,
+            `drop-shadow(0 0 ${w * 2.5}px ${color})`,
+            rnd(40, 100), rnd(250, 400)
+        ));
+
+        const forks = rndInt(0, 2);
+        for (let f = 0; f < forks; f++) {
+            const idx = rndInt(Math.floor(pts.length * 0.35), pts.length - 2);
+            const sp = pts[idx];
+            const fa = angle + rnd(-1.6, 1.6);
+            const fl = len * rnd(0.2, 0.55);
+            const fpts = makeZigzag(sp.x, sp.y, fa, fl);
+            allPts.push(...fpts);
+            cracks.push(addPath(
+                ptsToD(fpts), palette[rndInt(0, palette.length - 1)], w * 0.55,
+                `drop-shadow(0 0 ${w}px rgba(180,220,255,0.5))`,
+                rnd(80, 160), rnd(180, 320)
+            ));
+
+            if (Math.random() < 0.15 && fpts.length > 3) {
+                const idx2 = rndInt(1, fpts.length - 2);
+                const sp2 = fpts[idx2];
+                const fa2 = fa + rnd(-1.5, 1.5);
+                const fl2 = fl * rnd(0.25, 0.5);
+                const f2pts = makeZigzag(sp2.x, sp2.y, fa2, fl2, rndInt(2, 5));
+                cracks.push(addPath(
+                    ptsToD(f2pts), 'rgba(255,255,255,0.5)', w * 0.3,
+                    null, rnd(120, 200), rnd(100, 180)
+                ));
+            }
+        }
+    }
+
+    // === 3. 同心环形裂纹（按压应力环） ===
+    const ringCount = rndInt(1, 2);
+    for (let r = 0; r < ringCount; r++) {
+        const ringR = rnd(15, 55);
+        const startA = rnd(0, Math.PI * 2);
+        const sweep = rnd(2.0, 4.5);
+        const largeArc = sweep > Math.PI ? 1 : 0;
+        const sx = x + Math.cos(startA) * ringR;
+        const sy = y + Math.sin(startA) * ringR;
+        const ex = x + Math.cos(startA + sweep) * ringR;
+        const ey = y + Math.sin(startA + sweep) * ringR;
+        const rd = `M ${sx.toFixed(1)} ${sy.toFixed(1)} A ${ringR.toFixed(1)} ${ringR.toFixed(1)} 0 ${largeArc} 1 ${ex.toFixed(1)} ${ey.toFixed(1)}`;
+
+        cracks.push(addPath(
+            rd, 'rgba(200,230,255,0.55)', rnd(0.5, 1.0),
+            'drop-shadow(0 0 3px rgba(180,220,255,0.35))',
+            rnd(60, 120), rnd(280, 380)
+        ));
+    }
+
+    // === 4. 外围交叉连接（形成碎块边界） ===
+    for (let i = 0; i < allPts.length; i++) {
+        for (let j = i + 1; j < allPts.length; j++) {
+            const dx = allPts[j].x - allPts[i].x;
+            const dy = allPts[j].y - allPts[i].y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < 35 && dist > 10 && Math.random() < 0.08) {
+                const angle = Math.atan2(dy, dx);
+                const segs = rndInt(2, 4);
+                const midPts = makeZigzag(allPts[i].x, allPts[i].y, angle, dist * rnd(0.6, 1.0), segs);
+                cracks.push(addPath(
+                    ptsToD(midPts),
+                    'rgba(200,230,255,0.4)', rnd(0.4, 0.9),
+                    null, rnd(150, 280), rnd(100, 180)
+                ));
+            }
+        }
+    }
+
+    // === 5. 远端碎屑 ===
+    for (let i = 0; i < rndInt(3, 5); i++) {
+        const dist = rnd(60, 120);
+        const angle = rnd(0, Math.PI * 2);
+        const fx = x + Math.cos(angle) * dist;
+        const fy = y + Math.sin(angle) * dist;
+        const fa = rnd(0, Math.PI * 2);
+        const fl = rnd(8, 30);
+        const fpts = makeZigzag(fx, fy, fa, fl, rndInt(2, 4));
+        cracks.push(addPath(
+            ptsToD(fpts), 'rgba(255,255,255,0.35)', rnd(0.3, 0.7),
+            null, rnd(120, 240), rnd(60, 130)
+        ));
+    }
+
+    // === 6. 微小碎片 ===
+    for (let i = 0; i < rndInt(3, 5); i++) {
+        const dist = rnd(20, 100);
+        const angle = rnd(0, Math.PI * 2);
+        const fx = x + Math.cos(angle) * dist;
+        const fy = y + Math.sin(angle) * dist;
+        const frag = document.createElementNS(svgNS, 'line');
+        frag.setAttribute('x1', fx);
+        frag.setAttribute('y1', fy);
+        frag.setAttribute('x2', fx + rnd(-12, 12));
+        frag.setAttribute('y2', fy + rnd(-12, 12));
+        frag.setAttribute('stroke', 'rgba(255,255,255,0.4)');
+        frag.setAttribute('stroke-width', rnd(0.3, 0.7));
+        frag.setAttribute('stroke-linecap', 'round');
+        svg.appendChild(frag);
+        cracks.push({ el: frag, type: 'path', delay: rnd(50, 160), dur: rnd(80, 150) });
+    }
+
+    // === 动画触发 ===
+    requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+            cracks.forEach(c => {
+                if (c.type === 'dot') {
+                    c.el.animate([
+                        { r: 0, opacity: 1 },
+                        { r: 6, opacity: 0.9, offset: 0.5 },
+                        { r: 2, opacity: 0 }
+                    ], { duration: c.dur, delay: c.delay, easing: 'ease-out', fill: 'forwards' });
+                } else if (c.type === 'ring') {
+                    c.el.animate([
+                        { r: 2, opacity: 0.7, strokeWidth: 2.5 },
+                        { r: 35, opacity: 0, strokeWidth: 0.3 }
+                    ], { duration: c.dur, delay: c.delay, easing: 'ease-out', fill: 'forwards' });
+                } else {
+                    const len = c.el.getTotalLength ? c.el.getTotalLength() : 20;
+                    c.el.style.strokeDasharray = len;
+                    c.el.style.strokeDashoffset = len;
+                    c.el.animate([
+                        { strokeDashoffset: len, opacity: 0 },
+                        { strokeDashoffset: len, opacity: 1, offset: 0.02 },
+                        { strokeDashoffset: 0, opacity: 1 }
+                    ], {
+                        duration: c.dur,
+                        delay: c.delay,
+                        easing: 'ease-out',
+                        fill: 'forwards'
+                    });
+                }
+            });
+        });
+    });
+
+    // 整体淡出
+    setTimeout(() => {
+        svg.style.transition = 'opacity 0.9s ease-out';
+        svg.style.opacity = '0';
+        setTimeout(() => svg.remove(), 900);
+    }, 2000);
+}
+
+// ========== Trail Effect ==========
+let trailParticles = [];
+let isMouseDown = false;
+let lastTrailTime = 0;
+let lastTrailX = 0;
+let lastTrailY = 0;
+
+function createTrail(x, y) {
+    const container = document.getElementById('particles-bg');
+    if (!container) return;
+    
+    // Glass crack colors
+    const colors = [
+        'rgba(200, 230, 255, 0.7)',
+        'rgba(150, 200, 255, 0.6)',
+        'rgba(255, 255, 255, 0.8)',
+        'rgba(180, 220, 255, 0.5)',
+    ];
+    
+    const color = colors[Math.floor(Math.random() * colors.length)];
+    
+    // Create short crack lines along mouse path
+    if (lastTrailX !== 0 && lastTrailY !== 0) {
+        const dx = x - lastTrailX;
+        const dy = y - lastTrailY;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+        
+        if (distance > 5) {
+            const angle = Math.atan2(dy, dx);
+            const crackLength = Math.min(distance, 30);
+            
+            // Main crack line
+            const line = document.createElement('div');
+            line.style.cssText = `
+                position: fixed;
+                left: ${lastTrailX}px;
+                top: ${lastTrailY}px;
+                width: 0;
+                height: 1px;
+                background: ${color};
+                pointer-events: none;
+                z-index: 9998;
+                transform-origin: left center;
+                box-shadow: 0 0 6px ${color};
+            `;
+            container.appendChild(line);
+            
+            requestAnimationFrame(() => {
+                line.style.width = crackLength + 'px';
+                line.style.transform = `rotate(${angle}rad)`;
+                line.style.transition = 'width 0.15s ease-out, opacity 0.4s ease-out 0.1s';
+                line.style.opacity = '0';
+            });
+            
+            setTimeout(() => line.remove(), 500);
+            
+            // Small branch crack
+            if (Math.random() > 0.5) {
+                const branchAngle = angle + (Math.random() - 0.5) * 1.2;
+                const branchLength = 10 + Math.random() * 15;
+                const branchStart = 0.3 + Math.random() * 0.4;
+                const branchX = lastTrailX + Math.cos(angle) * crackLength * branchStart;
+                const branchY = lastTrailY + Math.sin(angle) * crackLength * branchStart;
+                
+                const branch = document.createElement('div');
+                branch.style.cssText = `
+                    position: fixed;
+                    left: ${branchX}px;
+                    top: ${branchY}px;
+                    width: 0;
+                    height: 1px;
+                    background: ${color};
+                    pointer-events: none;
+                    z-index: 9998;
+                    transform-origin: left center;
+                    box-shadow: 0 0 4px ${color};
+                `;
+                container.appendChild(branch);
+                
+                requestAnimationFrame(() => {
+                    branch.style.width = branchLength + 'px';
+                    branch.style.transform = `rotate(${branchAngle}rad)`;
+                    branch.style.transition = 'width 0.1s ease-out 0.05s, opacity 0.3s ease-out 0.15s';
+                    branch.style.opacity = '0';
+                });
+                
+                setTimeout(() => branch.remove(), 450);
+            }
+        }
+    }
+    
+    lastTrailX = x;
+    lastTrailY = y;
+}
+
+function handleMouseMove(e) {
+    const now = Date.now();
+    if (now - lastTrailTime > 20) {
+        createTrail(e.clientX, e.clientY);
+        lastTrailTime = now;
+    }
+}
+
+function handleMouseDown(e) {
+    isMouseDown = true;
+    createExplosion(e.clientX, e.clientY);
+}
+
+function handleMouseUp() {
+    isMouseDown = false;
+}
+
+// Initialize mouse effects
+document.addEventListener('mousedown', handleMouseDown);
+document.addEventListener('mouseup', handleMouseUp);
+document.addEventListener('mousemove', handleMouseMove);
+
+// ========== Custom Star Cursor ==========
+function initStarCursor() {
+    // Create a full-screen overlay to hide the system cursor
+    const cursorOverlay = document.createElement('div');
+    cursorOverlay.id = 'cursor-overlay';
+    cursorOverlay.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        z-index: 9999;
+        cursor: none;
+    `;
+    document.body.appendChild(cursorOverlay);
+
+    const starCursor = document.createElement('div');
+    starCursor.id = 'star-cursor';
+    starCursor.textContent = '⭐';
+    starCursor.style.cssText = `
+        position: fixed;
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+        pointer-events: none;
+        z-index: 10000;
+        transition: transform 0.1s ease-out;
+        line-height: 1;
+    `;
+    document.body.appendChild(starCursor);
+
+    document.addEventListener('mousemove', (e) => {
+        starCursor.style.left = (e.clientX - 12) + 'px';
+        starCursor.style.top = (e.clientY - 12) + 'px';
+    });
+
+    document.addEventListener('mousedown', () => {
+        starCursor.style.transform = 'scale(0.8)';
+    });
+
+    document.addEventListener('mouseup', () => {
+        starCursor.style.transform = 'scale(1)';
+    });
+}
+
+// Initialize cursor when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initStarCursor);
+} else {
+    initStarCursor();
+}
+
+// ========== Page Navigation ==========
+function navigateTo(page) {
+    if (page !== currentPage && page !== 'home') {
+        navigationHistory.push(currentPage);
+    }
+    currentPage = page;
+    document.querySelectorAll('[id^="page-"]').forEach(el => el.style.display = 'none');
+    const target = document.getElementById('page-' + page);
+    if (target) target.style.display = 'block';
+    window.scrollTo(0, 0);
+
+    if (page === 'tasks') loadTasks();
+    if (page === 'schedules') { loadSchedules(); loadSamplesForSelect(); }
+    if (page === 'samples') loadSamples();
+    if (page === 'stats') loadStats();
+    if (page === 'settings') loadSystemInfo();
+    if (page === 'schema') { loadSchemaPage(); }
+    if (page === 'templates') { loadTemplatesPage(); }
+    if (page === 'generate') { /* aggregate entry page, no init needed */ }
+    if (page === 'monitor') { loadMonitorStats(); }
+    if (page === 'engine') { /* reserved page */ }
+    if (page === 'plugins') { /* reserved page */ }
+}
+
+function goHome() {
+    navigationHistory = [];
+    navigateTo('home');
+}
+
+function goBack() {
+    if (navigationHistory.length > 0) {
+        const previousPage = navigationHistory.pop();
+        currentPage = previousPage;
+        document.querySelectorAll('[id^="page-"]').forEach(el => el.style.display = 'none');
+        const target = document.getElementById('page-' + previousPage);
+        if (target) target.style.display = 'block';
+        window.scrollTo(0, 0);
+    } else {
+        goHome();
+    }
+}
+
+// ========== Toast ==========
+function showToast(msg, type = 'success') {
+    const c = document.getElementById('toastContainer');
+    const t = document.createElement('div');
+    t.className = `toast ${type}`;
+    const icons = { success: '✅', error: '❌', warning: '⚠️' };
+    t.innerHTML = `<span>${icons[type] || 'ℹ️'}</span><span>${msg}</span>`;
+    c.appendChild(t);
+    setTimeout(() => t.remove(), 3000);
+}
+
+// ========== API Helpers ==========
+async function apiGet(path) {
+    const r = await fetch(API_BASE + path);
+    if (!r.ok) throw new Error(await r.text());
+    return r.json();
+}
+
+async function apiPost(path, body) {
+    const opts = { method: 'POST', headers: { 'Content-Type': 'application/json' } };
+    if (body) opts.body = JSON.stringify(body);
+    const r = await fetch(API_BASE + path, opts);
+    if (!r.ok) throw new Error(await r.text());
+    return r.json();
+}
+
+async function apiDelete(path) {
+    const r = await fetch(API_BASE + path, { method: 'DELETE' });
+    if (!r.ok) throw new Error(await r.text());
+    return r.json();
+}
+
+async function apiPatch(path) {
+    const r = await fetch(API_BASE + path, { method: 'PATCH' });
+    if (!r.ok) throw new Error(await r.text());
+    return r.json();
+}
+
+// ========== Tasks ==========
+async function loadTasks() {
+    try {
+        const data = await apiGet('/api/tasks');
+        renderTasks(data.tasks || []);
+    } catch (e) { console.error('Load tasks failed', e); }
+}
+
+function renderTasks(tasks) {
+    const el = document.getElementById('taskList');
+    if (!tasks.length) {
+        el.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px;">暂无任务</p>';
+        return;
+    }
+    const statusMap = {
+        pending: { text: '待处理', cls: 'pending' },
+        running: { text: '运行中', cls: 'running' },
+        completed: { text: '已完成', cls: 'completed' },
+        failed: { text: '失败', cls: 'failed' },
+        cancelled: { text: '已取消', cls: 'cancelled' }
+    };
+    let html = '<table class="tech-table"><thead><tr><th>ID</th><th>样本</th><th>表名</th><th>行数</th><th>状态</th><th>进度</th><th>操作</th></tr></thead><tbody>';
+    tasks.forEach(t => {
+        const st = statusMap[t.status] || { text: t.status, cls: 'pending' };
+        html += `<tr onclick="viewTaskDetail('${t.id}')" style="cursor:pointer;">
+            <td>${t.id.slice(0,8)}</td>
+            <td>${t.sample_filename.split('/').pop()}</td>
+            <td>${t.table_name}</td>
+            <td>${t.rows}</td>
+            <td><span class="status-indicator ${st.cls}"></span>${st.text}</td>
+            <td><div class="tech-progress"><div class="tech-progress-bar" style="width:${t.progress}%"></div></div></td>
+            <td onclick="event.stopPropagation()">
+                ${t.status === 'failed' && t.retryable ? `<button class="neon-btn" style="padding:4px 10px;font-size:12px;" onclick="retryTask('${t.id}')">重试</button>` : ''}
+                <button class="neon-btn secondary" style="padding:4px 10px;font-size:12px;" onclick="cancelTask('${t.id}')">取消</button>
+            </td>
+        </tr>`;
+    });
+    html += '</tbody></table>';
+    el.innerHTML = html;
+}
+
+async function viewTaskDetail(taskId) {
+    try {
+        const data = await apiGet('/api/tasks/' + taskId);
+        const task = data.task;
+        const statusMap = {
+            pending: '待处理',
+            running: '运行中',
+            completed: '已完成',
+            failed: '失败',
+            cancelled: '已取消'
+        };
+        
+        let dataPreviewHtml = '';
+        if (task.result_preview && task.result_preview.preview_rows) {
+            const previewRows = task.result_preview.preview_rows;
+            const columns = task.result_preview.columns || Object.keys(previewRows[0] || {});
+            dataPreviewHtml = `
+                <div style="margin-top:16px;">
+                    <p style="opacity:0.7;font-size:14px;margin-bottom:8px;">数据预览（前5行）</p>
+                    <div style="overflow-x:auto;">
+                        <table class="tech-table" style="font-size:12px;">
+                            <thead><tr>${columns.map(c => `<th>${c}</th>`).join('')}</tr></thead>
+                            <tbody>
+                                ${previewRows.map(row => `<tr>${columns.map(c => `<td>${row[c] || ''}</td>`).join('')}</tr>`).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+        }
+        
+        let downloadHtml = '';
+        if (task.result_full && task.result_full.output_path) {
+            const outputPath = task.result_full.output_path;
+            const fileName = outputPath.split('/').pop();
+            downloadHtml = `
+                <div style="margin-top:16px;padding:12px;background:rgba(59,130,246,0.1);border:1px solid rgba(59,130,246,0.3);border-radius:8px;">
+                    <p style="opacity:0.7;font-size:14px;">下载文件</p>
+                    <a href="/output/${fileName}" download="${fileName}" class="neon-btn" style="display:inline-block;padding:6px 12px;font-size:12px;text-decoration:none;">📥 下载 ${fileName}</a>
+                </div>
+            `;
+        }
+        
+        const html = `
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+                <div>
+                    <p style="opacity:0.7;font-size:14px;">任务ID</p>
+                    <p style="font-family:monospace;font-size:16px;">${task.id}</p>
+                </div>
+                <div>
+                    <p style="opacity:0.7;font-size:14px;">状态</p>
+                    <p style="font-size:16px;">${statusMap[task.status] || task.status}</p>
+                </div>
+                <div>
+                    <p style="opacity:0.7;font-size:14px;">样本文件</p>
+                    <p style="font-size:16px;">${task.sample_filename.split('/').pop()}</p>
+                </div>
+                <div>
+                    <p style="opacity:0.7;font-size:14px;">表名</p>
+                    <p style="font-size:16px;">${task.table_name}</p>
+                </div>
+                <div>
+                    <p style="opacity:0.7;font-size:14px;">生成行数</p>
+                    <p style="font-size:16px;">${task.rows}</p>
+                </div>
+                <div>
+                    <p style="opacity:0.7;font-size:14px;">进度</p>
+                    <p style="font-size:16px;">${task.progress}%</p>
+                </div>
+                <div>
+                    <p style="opacity:0.7;font-size:14px;">创建时间</p>
+                    <p style="font-size:14px;">${new Date(task.created_at).toLocaleString()}</p>
+                </div>
+                <div>
+                    <p style="opacity:0.7;font-size:14px;">导出数据库</p>
+                    <p style="font-size:16px;">${task.enable_db_export ? '是' : '否'}</p>
+                </div>
+            </div>
+            ${task.error ? `<div style="margin-top:16px;padding:12px;background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.3);border-radius:8px;">
+                <p style="opacity:0.7;font-size:14px;">错误信息</p>
+                <p style="color:#ef4444;font-size:14px;">${task.error}</p>
+            </div>` : ''}
+            ${task.result_full ? `<div style="margin-top:16px;padding:12px;background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.3);border-radius:8px;">
+                <p style="opacity:0.7;font-size:14px;">生成结果</p>
+                <p style="color:#22c55e;font-size:14px;">生成行数: ${task.result_full.generated_rows || 0}</p>
+                <p style="color:#22c55e;font-size:14px;">输出格式: ${task.result_full.output || 'csv'}</p>
+            </div>` : ''}
+            ${dataPreviewHtml}
+            ${downloadHtml}
+        `;
+        document.getElementById('taskDetail').innerHTML = html;
+    } catch (e) {
+        document.getElementById('taskDetail').innerHTML = '<p style="color:#ef4444;">加载详情失败</p>';
+    }
+}
+
+async function submitTask() {
+    const sample = document.getElementById('sampleSelect').value;
+    const table = document.getElementById('tableName').value || 'auto_table';
+    const rows = parseInt(document.getElementById('rowCount').value) || 100;
+    const dbExport = document.getElementById('enableDbExport').checked;
+    if (!sample) { showToast('请选择样本文件', 'error'); return; }
+    const btn = document.getElementById('submitBtn');
+    btn.disabled = true;
+    try {
+        await apiPost('/api/tasks', { sample_filename: sample, table_name: table, rows: rows, enable_db_export: dbExport });
+        showToast('任务创建成功！');
+        loadTasks();
+    } catch (e) {
+        showToast('创建失败: ' + e.message, 'error');
+    } finally {
+        btn.disabled = false;
+    }
+}
+
+async function cancelTask(id) {
+    try { await apiDelete('/api/tasks/' + id); showToast('任务已取消'); loadTasks(); }
+    catch (e) { showToast('取消失败', 'error'); }
+}
+
+async function retryTask(id) {
+    try { await apiPost('/api/tasks/' + id + '/retry'); showToast('重试任务已提交'); loadTasks(); }
+    catch (e) { showToast('重试失败', 'error'); }
+}
+
+// ========== Samples ==========
+async function loadSamples() {
+    try {
+        const data = await apiGet('/api/samples');
+        renderSamples(data.samples || []);
+        updateSampleSelects(data.samples || []);
+    } catch (e) { console.error(e); }
+}
+
+function renderSamples(samples) {
+    const el = document.getElementById('sampleList');
+    if (!samples.length) { el.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px;">暂无样本文件</p>'; return; }
+    let html = '';
+    samples.forEach(s => {
+        const size = (s.size / 1024).toFixed(1);
+        html += `<div class="sample-item">
+            <div class="sample-info">
+                <span class="sample-name">${s.name}</span>
+                <span class="sample-meta">${size} KB</span>
+            </div>
+            <div style="display:flex;gap:8px;">
+                <button class="neon-btn" style="padding:6px 14px;font-size:12px;" onclick="useSample('${s.path}','${s.name}')">使用</button>
+            </div>
+        </div>`;
+    });
+    el.innerHTML = html;
+}
+
+function updateSampleSelects(samples) {
+    const opts = samples.map(s => `<option value="${s.path}">${s.name}</option>`).join('');
+    const sel = document.getElementById('sampleSelect');
+    if (sel) sel.innerHTML = '<option value="">-- 选择样本文件 --</option>' + opts;
+    const sch = document.getElementById('scheduleSample');
+    if (sch) sch.innerHTML = opts;
+}
+
+function useSample(path, name) {
+    navigateTo('tasks');
+    setTimeout(() => {
+        document.getElementById('sampleSelect').value = path;
+        const stem = name.replace(/\.[^.]+$/, '');
+        const tn = document.getElementById('tableName');
+        if (tn && (!tn.value || tn.value === 'auto_table')) tn.value = stem;
+    }, 100);
+    showToast('已选择: ' + name);
+}
+
+function onSampleChange() {
+    const sel = document.getElementById('sampleSelect');
+    const name = sel.options[sel.selectedIndex].text;
+    if (name && name !== '-- 选择样本文件 --') {
+        const stem = name.replace(/\.[^.]+$/, '');
+        const tn = document.getElementById('tableName');
+        if (tn && (!tn.value || tn.value === 'auto_table')) tn.value = stem;
+    }
+}
+
+async function loadSamplesForSelect() {
+    try { const data = await apiGet('/api/samples'); updateSampleSelects(data.samples || []); }
+    catch (e) {}
+}
+
+// ========== Upload ==========
+function handleDragOver(e) { e.preventDefault(); e.currentTarget.classList.add('dragover'); }
+function handleDragLeave(e) { e.currentTarget.classList.remove('dragover'); }
+function handleDrop(e) {
+    e.preventDefault();
+    e.currentTarget.classList.remove('dragover');
+    const files = e.dataTransfer.files;
+    if (files.length) setUploadFile(files[0]);
+}
+function handleFileSelect(e) {
+    const files = e.target.files;
+    if (files.length) setUploadFile(files[0]);
+}
+function setUploadFile(file) {
+    mainUploadedFile = file;
+    const preview = document.getElementById('uploadPreview');
+    if (preview) {
+        preview.style.display = 'block';
+        document.getElementById('uploadFileName').textContent = file.name;
+        document.getElementById('uploadFileSize').textContent = (file.size / 1024).toFixed(1) + ' KB';
+    }
+}
+
+async function uploadFile() {
+    if (!mainUploadedFile) return;
+    const rows = parseInt(document.getElementById('uploadRows').value) || 100;
+    const table = document.getElementById('uploadTableName').value || '';
+    const dbExport = document.getElementById('uploadDbExport').checked;
+    
+    const fd = new FormData();
+    fd.append('files', mainUploadedFile);
+    fd.append('rows', rows);
+    fd.append('table_prefix', table);
+    fd.append('enable_db_export', dbExport);
+    
+    try {
+        const r = await fetch(API_BASE + '/api/tasks/batch-from-files', { method: 'POST', body: fd });
+        if (!r.ok) throw new Error(await r.text());
+        const data = await r.json();
+        showToast('任务创建成功: ' + data.message);
+        const preview = document.getElementById('uploadPreview');
+        if (preview) preview.style.display = 'none';
+        mainUploadedFile = null;
+        loadTasks();
+    } catch (e) { showToast('创建任务失败: ' + e.message, 'error'); }
+}
+
+// ========== Batch ==========
+function handleBatchFiles(e) {
+    batchFiles = Array.from(e.target.files);
+    renderBatchFiles();
+}
+function renderBatchFiles() {
+    const el = document.getElementById('batchFilesList');
+    if (!batchFiles.length) { el.innerHTML = ''; return; }
+    let html = '<div style="display:flex;flex-direction:column;gap:8px;">';
+    batchFiles.forEach(f => {
+        html += `<div class="sample-item" style="background:var(--card-bg);border:1px solid var(--card-border);border-radius:8px;">
+            <div class="sample-info"><span class="sample-name">${f.name}</span><span class="sample-meta">${(f.size/1024).toFixed(1)} KB</span></div>
+        </div>`;
+    });
+    html += '</div>';
+    el.innerHTML = html;
+}
+
+async function submitBatch() {
+    if (!batchFiles.length) { showToast('请选择文件', 'error'); return; }
+    const rows = parseInt(document.getElementById('batchRows').value) || 100;
+    const prefix = document.getElementById('batchPrefix').value || '';
+    const fd = new FormData();
+    batchFiles.forEach(f => fd.append('files', f));
+    fd.append('rows', rows);
+    fd.append('table_prefix', prefix);
+    try {
+        const r = await fetch(API_BASE + '/api/tasks/batch-from-files', { method: 'POST', body: fd });
+        if (!r.ok) throw new Error(await r.text());
+        showToast('批量任务创建成功');
+        navigateTo('tasks');
+        batchFiles = [];
+        renderBatchFiles();
+    } catch (e) { showToast('批量创建失败: ' + e.message, 'error'); }
+}
+
+// ========== Schedules ==========
+async function loadSchedules() {
+    try {
+        const data = await apiGet('/api/schedules');
+        renderSchedules(data.schedules || []);
+    } catch (e) {}
+}
+
+function renderSchedules(schedules) {
+    const el = document.getElementById('scheduleList');
+    if (!schedules.length) { el.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px;">暂无定时任务</p>'; return; }
+    let html = '';
+    schedules.forEach(s => {
+        html += `<div class="schedule-item">
+            <div class="schedule-info">
+                <div class="schedule-name">${s.sample_filename.split('/').pop()} → ${s.table_name}</div>
+                <div class="schedule-detail">${s.rows} 行 | ${s.cron} | 下次: ${s.next_run ? new Date(s.next_run).toLocaleString() : '已禁用'}</div>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;">
+                <div class="toggle-switch ${s.enabled ? 'on' : ''}" onclick="toggleSchedule('${s.id}')"></div>
+                <button class="neon-btn secondary" style="padding:4px 10px;font-size:12px;" onclick="deleteSchedule('${s.id}')">删除</button>
+            </div>
+        </div>`;
+    });
+    el.innerHTML = html;
+}
+
+function updateCronFields() {
+    const type = document.getElementById('scheduleType').value;
+    document.getElementById('cronDailyFields').style.display = type === 'daily' ? 'flex' : 'none';
+    document.getElementById('cronWeeklyFields').style.display = type === 'weekly' ? 'flex' : 'none';
+    document.getElementById('cronMonthlyFields').style.display = type === 'monthly' ? 'flex' : 'none';
+    document.getElementById('cronCustomFields').style.display = type === 'custom' ? 'flex' : 'none';
+}
+
+function generateCronExpression() {
+    const type = document.getElementById('scheduleType').value;
+    let cron = '';
+    
+    if (type === 'daily') {
+        const time = document.getElementById('scheduleTime').value;
+        const [hour, minute] = time.split(':');
+        cron = `${minute} ${hour} * * *`;
+    } else if (type === 'weekly') {
+        const weekday = document.getElementById('scheduleWeekday').value;
+        const time = document.getElementById('scheduleWeeklyTime').value;
+        const [hour, minute] = time.split(':');
+        cron = `${minute} ${hour} * * ${weekday}`;
+    } else if (type === 'monthly') {
+        const day = document.getElementById('scheduleDay').value;
+        const time = document.getElementById('scheduleMonthlyTime').value;
+        const [hour, minute] = time.split(':');
+        cron = `${minute} ${hour} ${day} * *`;
+    } else if (type === 'custom') {
+        cron = document.getElementById('scheduleCron').value;
+    }
+    
+    return cron;
+}
+
+async function createSchedule() {
+    const sample = document.getElementById('scheduleSample').value;
+    const table = document.getElementById('scheduleTable').value || 'auto_table';
+    const rows = parseInt(document.getElementById('scheduleRows').value) || 100;
+    const cron = generateCronExpression();
+    const dbExport = document.getElementById('scheduleDbExport').checked;
+    
+    if (!sample) { showToast('请选择样本文件', 'error'); return; }
+    if (!cron) { showToast('请选择执行频率', 'error'); return; }
+    
+    try {
+        await apiPost('/api/schedules', { sample_filename: sample, table_name: table, rows: rows, cron: cron, enable_db_export: dbExport });
+        showToast('定时任务创建成功');
+        loadSchedules();
+    } catch (e) { showToast('创建失败: ' + e.message, 'error'); }
+}
+
+async function toggleSchedule(id) {
+    try { await apiPatch('/api/schedules/' + id + '/toggle'); showToast('状态已更新'); loadSchedules(); }
+    catch (e) { showToast('操作失败', 'error'); }
+}
+
+async function deleteSchedule(id) {
+    if (!confirm('确定删除此定时任务？')) return;
+    try { await apiDelete('/api/schedules/' + id); showToast('已删除'); loadSchedules(); }
+    catch (e) { showToast('删除失败', 'error'); }
+}
+
+// ========== Stats ==========
+async function loadStats() {
+    try {
+        const data = await apiGet('/api/tasks/stats/summary');
+        document.getElementById('statTotal').textContent = data.total_tasks;
+        document.getElementById('statSuccessRate').textContent = data.success_rate + '%';
+        document.getElementById('statAvgRows').textContent = data.avg_rows;
+        renderStatusChart(data.status_distribution);
+        renderDailyChart(data.daily_counts);
+    } catch (e) { console.error(e); }
+}
+
+function renderStatusChart(dist) {
+    const ctx = document.getElementById('statusChart');
+    if (!ctx) return;
+    if (charts.status) charts.status.destroy();
+    charts.status = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['待处理','运行中','已完成','失败','已取消'],
+            datasets: [{
+                data: [dist.pending, dist.running, dist.completed, dist.failed, dist.cancelled],
+                backgroundColor: ['#f59e0b','#3b82f6','#22c55e','#ef4444','#6b7280'],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'bottom', labels: { color: '#888' } } }
+        }
+    });
+}
+
+function renderDailyChart(data) {
+    const ctx = document.getElementById('dailyChart');
+    if (!ctx) return;
+    if (charts.daily) charts.daily.destroy();
+    charts.daily = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: data.map(d => d.date.slice(5)),
+            datasets: [{
+                label: '任务数',
+                data: data.map(d => d.count),
+                borderColor: '#00d4ff',
+                backgroundColor: 'rgba(0,212,255,0.1)',
+                fill: true,
+                tension: 0.4,
+                pointRadius: 3
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: { ticks: { color: '#888', maxTicksLimit: 7 } },
+                y: { ticks: { color: '#888', stepSize: 1 } }
+            },
+            plugins: { legend: { display: false } }
+        }
+    });
+}
+
+// ========== Settings / System Info ==========
+async function loadSystemInfo() {
+    try {
+        const data = await apiGet('/api/health');
+        const html = `
+            <p><strong>服务状态:</strong> <span style="color:#22c55e;">正常运行</span></p>
+            <p style="margin-top:8px;"><strong>当前时间:</strong> ${new Date(data.timestamp).toLocaleString()}</p>
+            <p style="margin-top:8px;"><strong>API 版本:</strong> 0.2.0</p>
+        `;
+        document.getElementById('systemInfo').innerHTML = html;
+        document.getElementById('realtimeStatus').innerHTML = '<p style="color:#22c55e;">WebSocket 已连接</p>';
+    } catch (e) {
+        document.getElementById('systemInfo').innerHTML = '<p style="color:#ef4444;">无法获取系统信息</p>';
+    }
+}
+
+// ========== WebSocket ==========
+function connectWS() {
+    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    ws = new WebSocket(protocol + '//' + window.location.host + '/api/ws/tasks');
+    ws.onopen = () => console.log('WebSocket connected');
+    ws.onmessage = (e) => {
+        const data = JSON.parse(e.data);
+        if (data.event === 'task_created' || data.event === 'task_updated') {
+            if (currentPage === 'tasks') loadTasks();
+        }
+    };
+    ws.onclose = () => { console.log('WebSocket closed, retrying in 3s'); setTimeout(connectWS, 3000); };
+    ws.onerror = (e) => console.error('WebSocket error', e);
+}
+
+// ========== 3D Card Tilt Effect ==========
+function initCardTilt() {
+    document.addEventListener('mousemove', (e) => {
+        const cards = document.querySelectorAll('.glass-card');
+        cards.forEach(card => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            
+            // 根据卡片大小调整倾斜角度
+            let divisor, translateZ;
+            if (rect.width < 300) {
+                // 小卡片：角度大
+                divisor = 50;
+                translateZ = 8;
+            } else if (rect.width < 500) {
+                // 中等卡片
+                divisor = 100;
+                translateZ = 4;
+            } else {
+                // 大卡片：角度小
+                divisor = 180;
+                translateZ = 1;
+            }
+            
+            const angleX = (y - centerY) / divisor;
+            const angleY = (centerX - x) / divisor;
+            card.style.transform = `perspective(1000px) rotateX(${angleX}deg) rotateY(${angleY}deg) translateZ(${translateZ}px)`;
+        });
+    });
+    document.addEventListener('mouseleave', () => {
+        const cards = document.querySelectorAll('.glass-card');
+        cards.forEach(card => {
+            card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateZ(0)';
+        });
+    });
+}
+
+// ========== Schema Import ==========
+let schemaTables = [];
+let selectedSchemaTables = [];
+
+function loadSchemaPage() {
+    // Pre-fill from localStorage if saved
+    const saved = localStorage.getItem('mw_schema_conn');
+    if (saved) {
+        try {
+            const c = JSON.parse(saved);
+            document.getElementById('schemaDbHost').value = c.host || '';
+            document.getElementById('schemaDbName').value = c.db || '';
+            document.getElementById('schemaDbUser').value = c.user || '';
+        } catch (e) {}
+    }
+}
+
+async function connectAndListTables() {
+    const host = document.getElementById('schemaDbHost').value || 'localhost:3306';
+    const db = document.getElementById('schemaDbName').value;
+    const user = document.getElementById('schemaDbUser').value;
+    const pass = document.getElementById('schemaDbPass').value;
+
+    if (!db) { showToast('请输入数据库名', 'error'); return; }
+
+    // Save connection info (without password)
+    localStorage.setItem('mw_schema_conn', JSON.stringify({ host, db, user }));
+
+    // Mock listing for now - replace with real API when backend supports it
+    const listDiv = document.getElementById('schemaTableList');
+    listDiv.innerHTML = '<p style="opacity:0.7;">正在连接数据库...</p>';
+
+    // Try real API first
+    try {
+        const resp = await apiPost('/api/schema/tables', { host, database: db, user, password: pass });
+        schemaTables = resp.tables || [];
+    } catch (e) {
+        // Fallback demo data for UI preview
+        schemaTables = [
+            { name: 'users', columns: 8, rows: 0 },
+            { name: 'orders', columns: 12, rows: 0 },
+            { name: 'products', columns: 6, rows: 0 },
+            { name: 'logs', columns: 5, rows: 0 },
+        ];
+    }
+
+    if (!schemaTables.length) {
+        listDiv.innerHTML = '<p style="opacity:0.7;">未找到表</p>';
+        return;
+    }
+
+    selectedSchemaTables = [];
+    let html = '<div style="max-height:300px;overflow-y:auto;">';
+    schemaTables.forEach((t, i) => {
+        html += `<div style="padding:10px 12px;border-bottom:1px solid rgba(255,255,255,0.1);cursor:pointer;display:flex;justify-content:space-between;align-items:center;"
+                     onmouseenter="this.style.background='rgba(255,255,255,0.05)'" onmouseleave="this.style.background='transparent'"
+                     onclick="toggleSchemaTable(${i})">
+            <div style="display:flex;align-items:center;gap:10px;">
+                <input type="checkbox" id="schemaCheck${i}" style="width:18px;height:18px;cursor:pointer;">
+                <strong>${t.name}</strong>
+                <span style="opacity:0.6;font-size:12px;margin-left:8px;">${t.columns} 列</span>
+            </div>
+        </div>`;
+    });
+    html += '</div>';
+    listDiv.innerHTML = html;
+}
+
+function toggleSchemaTable(idx) {
+    const checkbox = document.getElementById('schemaCheck' + idx);
+    const table = schemaTables[idx];
+    
+    if (checkbox.checked) {
+        if (!selectedSchemaTables.find(t => t.name === table.name)) {
+            selectedSchemaTables.push(table);
+        }
+    } else {
+        selectedSchemaTables = selectedSchemaTables.filter(t => t.name !== table.name);
+    }
+    
+    showToast(`已选择 ${selectedSchemaTables.length} 个表`);
+}
+
+function selectAllSchemaTables() {
+    selectedSchemaTables = [...schemaTables];
+    schemaTables.forEach((t, i) => {
+        const checkbox = document.getElementById('schemaCheck' + i);
+        if (checkbox) checkbox.checked = true;
+    });
+    showToast(`已全选 ${selectedSchemaTables.length} 个表`);
+}
+
+async function generateFromSchema() {
+    if (!selectedSchemaTables.length) { showToast('请先选择表', 'error'); return; }
+    const host = document.getElementById('schemaDbHost').value || 'localhost:3306';
+    const db = document.getElementById('schemaDbName').value;
+    const user = document.getElementById('schemaDbUser').value;
+    const pass = document.getElementById('schemaDbPass').value;
+    const rows = parseInt(document.getElementById('schemaRows').value) || 100;
+    const output = document.getElementById('schemaOutput').value;
+
+    let successCount = 0;
+    for (const table of selectedSchemaTables) {
+        try {
+            await apiPost('/api/schema/generate', { host, database: db, user, password: pass, table_name: table.name, rows, output });
+            successCount++;
+        } catch (e) {
+            console.error(`生成表 ${table.name} 失败:`, e);
+        }
+    }
+    
+    showToast(`成功创建 ${successCount}/${selectedSchemaTables.length} 个任务`);
+    navigateTo('tasks');
+}
+
+// ========== Templates ==========
+let templatesData = [];
+
+function loadTemplatesPage() {
+    loadSamplesForSelect('templateSample');
+    loadTemplates();
+}
+
+async function loadTemplates() {
+    const listDiv = document.getElementById('templateList');
+    try {
+        const data = await apiGet('/api/templates');
+        templatesData = data.templates || [];
+    } catch (e) {
+        // Fallback: load from localStorage for demo
+        const saved = localStorage.getItem('mw_templates');
+        templatesData = saved ? JSON.parse(saved) : [];
+    }
+    renderTemplates();
+}
+
+function renderTemplates() {
+    const listDiv = document.getElementById('templateList');
+    if (!templatesData.length) {
+        listDiv.innerHTML = '<p style="opacity:0.7;">暂无保存的模板</p>';
+        return;
+    }
+    let html = '<div style="max-height:360px;overflow-y:auto;">';
+    templatesData.forEach((t, i) => {
+        html += `<div style="padding:12px;border-bottom:1px solid rgba(255,255,255,0.1);">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
+                <strong>${t.name}</strong>
+                <div style="display:flex;gap:8px;">
+                    <button class="neon-btn secondary" style="padding:4px 10px;font-size:12px;" onclick="useTemplate(${i})">使用</button>
+                    <button class="neon-btn secondary" style="padding:4px 10px;font-size:12px;" onclick="deleteTemplate(${i})">删除</button>
+                </div>
+            </div>
+            <div style="opacity:0.7;font-size:13px;">
+                样本: ${t.sample_filename} | 行数: ${t.rows} | 输出: ${t.output}
+            </div>
+            ${t.desc ? `<div style="opacity:0.5;font-size:12px;margin-top:4px;">${t.desc}</div>` : ''}
+        </div>`;
+    });
+    html += '</div>';
+    listDiv.innerHTML = html;
+}
+
+async function saveTemplate() {
+    const name = document.getElementById('templateName').value.trim();
+    const sample = document.getElementById('templateSample').value;
+    const rows = parseInt(document.getElementById('templateRows').value) || 100;
+    const output = document.getElementById('templateOutput').value;
+    const desc = document.getElementById('templateDesc').value.trim();
+
+    if (!name) { showToast('请输入模板名称', 'error'); return; }
+    if (!sample) { showToast('请选择样本文件', 'error'); return; }
+
+    const tmpl = {
+        id: 'tmpl_' + Date.now(),
+        name,
+        sample_filename: sample,
+        rows,
+        output,
+        desc,
+        created_at: new Date().toISOString(),
+    };
+
+    try {
+        await apiPost('/api/templates', tmpl);
+    } catch (e) {
+        // Fallback: save to localStorage
+        const saved = localStorage.getItem('mw_templates');
+        const arr = saved ? JSON.parse(saved) : [];
+        arr.push(tmpl);
+        localStorage.setItem('mw_templates', JSON.stringify(arr));
+    }
+
+    showToast('模板保存成功');
+    document.getElementById('templateName').value = '';
+    document.getElementById('templateDesc').value = '';
+    loadTemplates();
+}
+
+function useTemplate(idx) {
+    const t = templatesData[idx];
+    navigateTo('tasks');
+    setTimeout(() => {
+        document.getElementById('sampleSelect').value = t.sample_filename;
+        document.getElementById('rowCount').value = t.rows;
+        document.getElementById('outputMode').value = t.output;
+        onSampleChange();
+    }, 100);
+}
+
+async function deleteTemplate(idx) {
+    if (!confirm('确定删除此模板？')) return;
+    const t = templatesData[idx];
+    try {
+        await apiDelete('/api/templates/' + t.id);
+    } catch (e) {
+        const saved = localStorage.getItem('mw_templates');
+        let arr = saved ? JSON.parse(saved) : [];
+        arr = arr.filter(x => x.id !== t.id);
+        localStorage.setItem('mw_templates', JSON.stringify(arr));
+    }
+    showToast('模板已删除');
+    loadTemplates();
+}
+
+// ========== Monitor / Audit ==========
+async function loadMonitorStats() {
+    try {
+        const data = await apiGet('/api/tasks/stats/summary');
+        document.getElementById('monStatTotal').textContent = data.total_tasks;
+        document.getElementById('monStatSuccessRate').textContent = data.success_rate + '%';
+        document.getElementById('monStatAvgRows').textContent = data.avg_rows;
+        renderMonitorCharts(data.status_distribution, data.daily_counts);
+    } catch (e) { console.error(e); }
+}
+
+function renderMonitorCharts(statusDist, dailyCounts) {
+    // Status doughnut
+    const sCtx = document.getElementById('monStatusChart');
+    if (sCtx) {
+        if (charts.monStatus) charts.monStatus.destroy();
+        charts.monStatus = new Chart(sCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['待处理','运行中','已完成','失败','已取消'],
+                datasets: [{
+                    data: [statusDist.pending, statusDist.running, statusDist.completed, statusDist.failed, statusDist.cancelled],
+                    backgroundColor: ['#f59e0b','#3b82f6','#22c55e','#ef4444','#6b7280'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'bottom', labels: { color: '#888' } } }
+            }
+        });
+    }
+    // Daily line
+    const dCtx = document.getElementById('monDailyChart');
+    if (dCtx) {
+        if (charts.monDaily) charts.monDaily.destroy();
+        charts.monDaily = new Chart(dCtx, {
+            type: 'line',
+            data: {
+                labels: dailyCounts.map(d => d.date.slice(5)),
+                datasets: [{
+                    label: '任务数',
+                    data: dailyCounts.map(d => d.count),
+                    borderColor: '#00d4ff',
+                    backgroundColor: 'rgba(0,212,255,0.1)',
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 3
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: { ticks: { color: '#888', maxTicksLimit: 7 } },
+                    y: { ticks: { color: '#888', stepSize: 1 } }
+                },
+                plugins: { legend: { display: false } }
+            }
+        });
+    }
+}
+
+// ========== Init ==========
+document.addEventListener('DOMContentLoaded', () => {
+    initTheme();
+    createParticles();
+    initCardTilt();
+    loadSamples();
+    connectWS();
+});
