@@ -49,6 +49,20 @@ output/
 logs/
 *.log
 
+# AI Model files (DO NOT commit large model weights)
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.pth
+openvino_model.*
+paraphrase-multilingual-*/
+model-weights/
+*.cache/
+
+# Windows alternate data streams
+*Zone.Identifier
+
 # Environment
 .env
 *.env.local
