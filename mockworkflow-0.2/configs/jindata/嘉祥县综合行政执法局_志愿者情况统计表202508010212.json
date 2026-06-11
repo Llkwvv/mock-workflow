@@ -1,0 +1,130 @@
+{
+  "file_name": "嘉祥县综合行政执法局_志愿者情况统计表202508010212.xlsx",
+  "table_name": "嘉祥县综合行政执法局_志愿者情况统计表202508010212",
+  "row_count": 46,
+  "columns": [
+    "fwsc",
+    "姓名",
+    "fwcs",
+    "zyzbh",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "fwsc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "4小时",
+        "24小时",
+        "84小时",
+        "36小时",
+        "38小时"
+      ],
+      "value_pool": [
+        "4小时",
+        "24小时",
+        "84小时",
+        "36小时",
+        "38小时"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        " **",
+        " ***",
+        "杨**"
+      ],
+      "value_pool": [
+        " **",
+        " ***",
+        "杨**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwcs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "2"
+      ],
+      "value_pool": [
+        "1",
+        "2"
+      ],
+      "min_value": 1.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "zyzbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "L2021080505041922531",
+        "A2021080504582803340",
+        "U2021080504022909914",
+        "V2021080503410199765",
+        "I2021080503253038551",
+        "G2021080503142534001",
+        "P2021080503001676737",
+        "N2021080503064169719",
+        "E2021080502480184514",
+        "U2021080502303925327",
+        "P2021080512423165295",
+        "U2021080510313570376",
+        "W2021080512023990894",
+        "M2021080511533296692",
+        "T2021080511472833581",
+        "X2021080510544603085",
+        "X2021080510522419547",
+        "Q2021080510434743729",
+        "Q2021080510282210183",
+        "D2021080509471946995",
+        "M2021011901453993292",
+        "G2020091108350072131",
+        "S2020091107053850458"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

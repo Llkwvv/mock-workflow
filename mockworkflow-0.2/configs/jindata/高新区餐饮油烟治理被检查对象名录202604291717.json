@@ -1,0 +1,232 @@
+{
+  "file_name": "高新区餐饮油烟治理被检查对象名录202604291717.xlsx",
+  "table_name": "高新区餐饮油烟治理被检查对象名录202604291717",
+  "row_count": 501,
+  "columns": [
+    "sfazyyjhsb",
+    "xsq",
+    "dm",
+    "ssjg",
+    "s",
+    "wz",
+    "sfzcsyyyjhsb"
+  ],
+  "fields": [
+    {
+      "name": "sfazyyjhsb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "秦镇叉烧饭",
+        "六佰碗糁汤",
+        "危记凉皮",
+        "骨干精英",
+        "淮南牛肉汤",
+        "达人牛肉干",
+        "川禾卷饼",
+        "老潼关肉夹馍",
+        "黄焖鸡米饭",
+        "刘记家常菜",
+        "继龙甏肉干饭",
+        "银龙全羊馆",
+        "二胖擀面皮店",
+        "秦式里脊夹饼",
+        "三宝烤生蚝",
+        "顺兴隆老菜馆",
+        "东闸馒头房",
+        "一品烤鸭",
+        "麻辣烫店",
+        "尧尧羊肉面",
+        "屋头串串香",
+        "金德利民快餐店",
+        "鸿烨缘大酒店",
+        "鸡汤刀削面（碗里挑）",
+        "糁汤烫面角（欣茹）",
+        "硕丰餐饮管理有限公司",
+        "强子小吃店",
+        "很够味骨汤麻辣烫",
+        "真够味麻辣烫",
+        "陈小二川味面",
+        "焦记羊汤馆",
+        "驴肉火烧",
+        "育才夹饼",
+        "汉堡工坊",
+        "徐家麻辣串",
+        "秦云老太婆摊摊面",
+        "上尚瘾麻辣烫",
+        "菜煎饼",
+        "尚品熟食",
+        "陕十三肉夹馍",
+        "阿桂嫂",
+        "鸭血粉丝",
+        "马驿桥夹饼",
+        "天和顺甏肉干饭",
+        "海泉弯酒楼",
+        "孙记羊汤馆",
+        "儒泗人家",
+        "马村煎包",
+        "正新鸡排",
+        "慢功夫快餐",
+        "爱都蛋糕店",
+        "康乐蛋糕店",
+        "择文学校",
+        "超优教育",
+        "杰睿学校",
+        "靓靓龙虾大排档",
+        "树叶甏肉干饭",
+        "313羊庄",
+        "铁板左岸法式",
+        "7号窑洞",
+        "红珊瑚",
+        "粮田喜事",
+        "鲁达拿水饺",
+        "明哲家烤肉",
+        "有空旋转小火锅",
+        "湖中野鱼馆",
+        "毛小楠",
+        "中国兰州牛肉拉面",
+        "老街小虎串串",
+        "丽江龙继斑鱼庄",
+        "锅小宝",
+        "老洛杨味道",
+        "盛景园营养餐厅",
+        "燕喜堂全羊",
+        "南旺泥鳅馆",
+        "微山渔馆",
+        "李家餐馆",
+        "俭平土豆粉",
+        "脆皮炸鸡",
+        "精品牛肉面",
+        "堡乐多",
+        "六碗居菜馆",
+        "云芳粥铺",
+        "鲁味大蒸包",
+        "农家快餐 ",
+        "陈钢串串香",
+        "大胖甏肉干饭",
+        "鲁豫饭庄",
+        "成都面馆",
+        "桃小麦",
+        "老台门汤包",
+        "千里香馄饨",
+        "三姐米线馆",
+        "哈尼家烘焙",
+        "唐乐",
+        "春夏秋冬",
+        "天天乐匠心烘焙",
+        "鑫品忆香炒货",
+        "馒头坊"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "综合行政执法局"
+      ],
+      "value_pool": [
+        "综合行政执法局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "科苑路—管委西路",
+        "吴泰闸路—金宇路",
+        "洸河路—东闸",
+        "洸河路—新元路",
+        "洸府河西堤—长虹路"
+      ],
+      "value_pool": [
+        "科苑路—管委西路",
+        "吴泰闸路—金宇路",
+        "洸河路—东闸",
+        "洸河路—新元路",
+        "洸府河西堤—长虹路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzcsyyyjhsb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

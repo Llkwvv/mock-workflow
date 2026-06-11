@@ -1,0 +1,151 @@
+{
+  "file_name": "执法文书领取统计表202507242140.xlsx",
+  "table_name": "执法文书领取统计表202507242140",
+  "row_count": 23,
+  "columns": [
+    "dw",
+    "lqsl",
+    "wszl",
+    "lqsj",
+    "lqr"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "执法一中队",
+        "执法二中队",
+        "执法三中队",
+        "执法四中队",
+        "执法五中队",
+        "执法六中队",
+        "执法七中队",
+        "渣土管理监察中队",
+        "执法八中队",
+        "鸡黍执法中队",
+        "高河中队",
+        "肖云执法中队",
+        "马庙执法中队",
+        "化雨执法中队",
+        "金乡街道中队",
+        "鱼山中队",
+        "王丕中队",
+        "胡集中队",
+        "司马中队",
+        "羊山中队",
+        "卜集中队",
+        "兴隆中队",
+        "霄云中队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lqsl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2本",
+        "1本",
+        "3本",
+        "20"
+      ],
+      "value_pool": [
+        "2本",
+        "1本",
+        "3本",
+        "20"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wszl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "当场处罚决定书",
+        "责令改正通知书"
+      ],
+      "value_pool": [
+        "当场处罚决定书",
+        "责令改正通知书"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lqsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44412",
+        "44409",
+        "44410",
+        "44413",
+        "44411",
+        "45780"
+      ],
+      "value_pool": [
+        "44412",
+        "44409",
+        "44410",
+        "44413",
+        "44411",
+        "45780"
+      ],
+      "min_value": 44409.0,
+      "max_value": 45780.0
+    },
+    {
+      "name": "lqr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "杜小超",
+        "江林英",
+        "张安东",
+        "袁飞",
+        "李通",
+        "孙建新",
+        "李俊楼",
+        "冯明安",
+        "赵立宏",
+        "李新亮",
+        "司海涛",
+        "周小新",
+        "高勇",
+        "石盘华",
+        "马洪岩",
+        "王洪征",
+        "杨国涛",
+        "高东库",
+        "周学卿",
+        "张然",
+        "李文革",
+        "王留记"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

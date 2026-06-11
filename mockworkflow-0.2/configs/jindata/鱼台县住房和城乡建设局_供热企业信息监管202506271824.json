@@ -1,0 +1,214 @@
+{
+  "file_name": "鱼台县住房和城乡建设局_供热企业信息监管202506271824.xlsx",
+  "table_name": "鱼台县住房和城乡建设局_供热企业信息监管202506271824",
+  "row_count": 73,
+  "columns": [
+    "xh",
+    "xzxdr",
+    "jcrymc",
+    "jcjg",
+    "xzxdrzjbm",
+    "jcxwmc",
+    "jgdxlx"
+  ],
+  "fields": [
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "2025001",
+        "2025002",
+        "2025003",
+        "2025004",
+        "2025005",
+        "2025006",
+        "2025007",
+        "2025008",
+        "2025009"
+      ],
+      "min_value": 1.0,
+      "max_value": 2025009.0
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台聚源供热有限责任公司",
+        "山东鲁泰热电有限公司"
+      ],
+      "value_pool": [
+        "鱼台聚源供热有限责任公司",
+        "山东鲁泰热电有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcrymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "任川,于建华",
+        "李文,于建华",
+        "于建华,张艳梅",
+        "于建华,宋明明"
+      ],
+      "value_pool": [
+        "任川,于建华",
+        "李文,于建华",
+        "于建华,张艳梅",
+        "于建华,宋明明"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果",
+        "未发现问题"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果",
+        "未发现问题"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "9137082706298034XY",
+        "91370827780792992T"
+      ],
+      "value_pool": [
+        "9137082706298034XY",
+        "91370827780792992T"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对城市供热企业的监管",
+        "对供热企业的监管"
+      ],
+      "value_pool": [
+        "对城市供热企业的监管",
+        "对供热企业的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业、个体户、农专社",
+        "企业"
+      ],
+      "value_pool": [
+        "企业、个体户、农专社",
+        "企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

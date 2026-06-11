@@ -1,0 +1,190 @@
+{
+  "file_name": "交通运输监管系统问题处理汇总202512171249.xlsx",
+  "table_name": "交通运输监管系统问题处理汇总202512171249",
+  "row_count": 20,
+  "columns": [
+    "bxcdw",
+    "wtnr",
+    "clqk",
+    "xcsj",
+    "scfhqk",
+    "zglsqk",
+    "xh"
+  ],
+  "fields": [
+    {
+      "name": "bxcdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "邹城东滩煤矿",
+        "曲阜天安煤矿",
+        "汶上阳城煤矿",
+        "邹城南屯煤矿",
+        "经开区新河煤矿",
+        "曲阜单家村煤矿",
+        "汶上义桥煤矿",
+        "兖州兴隆庄煤矿",
+        "任城岱庄煤矿",
+        "济宁宝达危险品运输公司",
+        "济宁信安石化运输公司",
+        "济宁市交通运输集团有限公司",
+        "济宁市公交正通汽车服务有限公司",
+        "邹城奔腾危险品运输公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wtnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "出场车辆未按要求覆盖",
+        "驾驶员打电话",
+        "无押运人员",
+        "驾驶员抽烟",
+        "轨迹不完整",
+        "疲劳驾驶"
+      ],
+      "value_pool": [
+        "出场车辆未按要求覆盖",
+        "驾驶员打电话",
+        "无押运人员",
+        "驾驶员抽烟",
+        "轨迹不完整",
+        "疲劳驾驶"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "通知县区平台，要求查处车辆立即整改。",
+        "推送至县终端"
+      ],
+      "value_pool": [
+        "通知县区平台，要求查处车辆立即整改。",
+        "推送至县终端"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44179",
+        "44180",
+        "44181",
+        "44182",
+        "44173",
+        "44176",
+        "44177"
+      ],
+      "value_pool": [
+        "44179",
+        "44180",
+        "44181",
+        "44182",
+        "44173",
+        "44176",
+        "44177"
+      ],
+      "min_value": 44173.0,
+      "max_value": 44182.0
+    },
+    {
+      "name": "scfhqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已闭环"
+      ],
+      "value_pool": [
+        "已闭环"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zglsqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "邹城局回复：随即对驾驶员进行了批评教育，责令现场整改，待篷布完整后放行。",
+        "曲阜局回复：针对覆盖不全情况，立即拦截车辆现场改正并对驾驶员批评教育，待篷布覆盖完整后放行出矿。",
+        "汶上局回复：立即拦截车辆现场改正并对驾驶员批评教育，并要求当场写出检查和保证书。",
+        "邹城局回复：对驾驶员说服教育，写出书面保证书，保证不再出现类似问题，按规定覆盖好篷布。",
+        "经开区回复：责令现场整改，取消发运资格，罚款200元。",
+        "曲阜局回复：对驾驶员批评教育，责令现场整改落实，待篷布加固符合要求后予以放行出矿。",
+        "邹城局回复：对驾驶员批评教育，保证不出现类似情况。",
+        "曲阜局回复：批评教育，确保正确覆盖。",
+        "汶上局回复：批评教育并要求写出检查，确保正确覆盖。",
+        "汶上局回复：运输电煤车辆，批评教育，确保正确覆盖。",
+        "兖州局回复：立即拦截车辆，对驾驶员批评教育，督促立即改正，对车辆停运二天的处罚。",
+        "任城局回复：立即查扣车辆，对驾驶员进行了严肃批评教育，现场立即整改，篷布覆盖完整工作人员查验后放行。",
+        "由县级终端处理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "min_value": 1.0,
+      "max_value": 20.0
+    }
+  ]
+}

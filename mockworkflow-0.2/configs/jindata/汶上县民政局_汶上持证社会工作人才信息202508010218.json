@@ -1,0 +1,133 @@
+{
+  "file_name": "汶上县民政局_汶上持证社会工作人才信息202508010218.xlsx",
+  "table_name": "汶上县民政局_汶上持证社会工作人才信息202508010218",
+  "row_count": 53,
+  "columns": [
+    "jg",
+    "zyzcjb",
+    "xb",
+    "mz",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "jg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上"
+      ],
+      "value_pool": [
+        "汶上"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zyzcjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中级社会工作师",
+        "助理社会工作师"
+      ],
+      "value_pool": [
+        "中级社会工作师",
+        "助理社会工作师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孟**",
+        "李*",
+        "郭**",
+        "高*",
+        "何**",
+        "于**",
+        "李**",
+        "霍**",
+        "赵*",
+        "王**",
+        "徐*",
+        "吕*",
+        "师**",
+        "徐**",
+        "吴**",
+        "赵**",
+        "任**",
+        "陈**",
+        "于*",
+        "张*",
+        "孔**",
+        "张**",
+        "仲**",
+        "马**",
+        "颜**",
+        "陈*",
+        "蔚**",
+        "刘*",
+        "王*",
+        "邵*",
+        "胡**",
+        "杜*",
+        "刘**",
+        "高**",
+        "郑**",
+        "郑*",
+        "万*",
+        "武**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

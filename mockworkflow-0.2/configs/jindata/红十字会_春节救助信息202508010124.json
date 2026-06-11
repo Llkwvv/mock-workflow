@@ -1,0 +1,145 @@
+{
+  "file_name": "红十字会_春节救助信息202508010124.xlsx",
+  "table_name": "红十字会_春节救助信息202508010124",
+  "row_count": 22,
+  "columns": [
+    "khh",
+    "jzyy",
+    "sqrxm",
+    "ffje",
+    "jtzz"
+  ],
+  "fields": [
+    {
+      "name": "khh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "农商银行",
+        "农业银行",
+        "邮储银行",
+        "工商银行",
+        "中国银行"
+      ],
+      "value_pool": [
+        "农商银行",
+        "农业银行",
+        "邮储银行",
+        "工商银行",
+        "中国银行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "尿毒症",
+        "尿毒症、残疾",
+        "急性白血病",
+        "残疾、心脏病",
+        "A型血友病",
+        "血友病",
+        "淋巴癌",
+        "白血病、股骨头坏死",
+        "急性髓系白血病",
+        "胃癌",
+        "白血病",
+        "乳腺癌、宫颈癌",
+        "再生障碍性贫血",
+        "乳腺癌",
+        "食道癌"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "许**",
+        "贾**",
+        "周**",
+        "高**",
+        "董**",
+        "王**",
+        "张**",
+        "刘**",
+        "李**",
+        "赵**",
+        "杨**",
+        "冯**",
+        "孙**",
+        "闫**",
+        "盛**",
+        "林**",
+        "安**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ffje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1000"
+      ],
+      "value_pool": [
+        "1000"
+      ],
+      "min_value": 1000.0,
+      "max_value": 1000.0
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "王鲁镇王鲁村",
+        "唐马镇王堂村",
+        "王鲁镇潘庄村",
+        "滨湖街道大聂村",
+        "鱼城镇杜桥村",
+        "张黄镇殷王村",
+        "王庙镇后楼村",
+        "清河镇石集村",
+        "李阁镇李集村",
+        "滨湖七圣堂村",
+        "县城河北区3023号",
+        "鱼城镇西洪村",
+        "老砦镇后姚楼村",
+        "县城花园小区27号",
+        "县城河北区008号",
+        "滨湖河北区1072号",
+        "王庙镇大魏村",
+        "鱼城镇林庄村",
+        "清河镇马河村",
+        "罗屯镇沈集村"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

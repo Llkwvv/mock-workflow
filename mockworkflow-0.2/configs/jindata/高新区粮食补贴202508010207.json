@@ -1,0 +1,147 @@
+{
+  "file_name": "高新区粮食补贴202508010207.xlsx",
+  "table_name": "高新区粮食补贴202508010207",
+  "row_count": 20086,
+  "columns": [
+    "jd",
+    "姓名",
+    "c",
+    "btbz",
+    "wnrs",
+    "xsq",
+    "szs"
+  ],
+  "fields": [
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "黄屯街道"
+      ],
+      "value_pool": [
+        "黄屯街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈**",
+        "付**",
+        "高**",
+        "郭**",
+        "何**",
+        "黄**",
+        "靳**",
+        "刘**",
+        "卢**",
+        "秦**",
+        "邱**",
+        "王**",
+        "徐**",
+        "杨**",
+        "袁**",
+        "张**",
+        "赵**",
+        "边**",
+        "蔡**",
+        "曹**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "c",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "茶庵村",
+        "丁庄村"
+      ],
+      "value_pool": [
+        "茶庵村",
+        "丁庄村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "btbz",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "137.88"
+      ],
+      "value_pool": [
+        "137.88"
+      ],
+      "min_value": 135.0,
+      "max_value": 137.88
+    },
+    {
+      "name": "wnrs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "3"
+      ],
+      "value_pool": [
+        "3"
+      ],
+      "min_value": 0.0,
+      "max_value": 4.0
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

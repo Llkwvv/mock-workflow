@@ -1,0 +1,189 @@
+{
+  "file_name": "微山县市场监督管理局节假日车辆封存信息202508010214.xlsx",
+  "table_name": "微山县市场监督管理局节假日车辆封存信息202508010214",
+  "row_count": 47,
+  "columns": [
+    "gcfcdd",
+    "gclb",
+    "fcsj",
+    "cphm",
+    "jsyxm",
+    "ssdw"
+  ],
+  "fields": [
+    {
+      "name": "gcfcdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "县局大院",
+        "戚城街计生办",
+        "两城镇政府院内",
+        "开发区管委会院内",
+        "傅村市场监管所院内",
+        "欢城市场监管所院内",
+        "稽查大队院内",
+        "西平人民政府院内",
+        "鲁桥市场监管所",
+        "微山岛镇政府院内",
+        "留庄所院内",
+        "稽查大队",
+        "塘湖社区院内",
+        "张楼镇政府院内",
+        "夏镇一所院内",
+        "马坡市场监管所院内",
+        "创达高科园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "机要通信、应急保障或业务用车",
+        "执法执勤用车"
+      ],
+      "value_pool": [
+        "机要通信、应急保障或业务用车",
+        "执法执勤用车"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "五一假期",
+        "五一"
+      ],
+      "value_pool": [
+        "五一假期",
+        "五一"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cphm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁H6G365",
+        "鲁HP1335",
+        "鲁H65258",
+        "鲁H38J56",
+        "鲁HJF331",
+        "鲁HCN331",
+        "鲁HHF331",
+        "鲁HJG331",
+        "鲁HFG331",
+        "鲁HPP606",
+        "鲁HJV331",
+        "鲁H6F315",
+        "鲁HFS331",
+        "鲁H6B315",
+        "鲁H6F169",
+        "鲁H6D315",
+        "鲁H6Q725",
+        "鲁H6C315",
+        "鲁HFJ331",
+        "鲁HA315",
+        "鲁H6Q727",
+        "鲁HJQ331",
+        "鲁HLJ331",
+        "鲁H6G315",
+        "鲁H6Q726",
+        "鲁H67470",
+        "鲁H6Q728",
+        "鲁H6C269",
+        "鲁H66556",
+        "鲁H6Q719",
+        "鲁H6Q739",
+        "鲁H6Q759",
+        "鲁H6E315",
+        "鲁H65976",
+        "鲁H65798",
+        "鲁HM019G",
+        "鲁H**315",
+        "鲁H**331",
+        "鲁H**169",
+        "鲁H**725",
+        "鲁H**15"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jsyxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵***",
+        "满**",
+        "郭***",
+        "贾***",
+        "李**",
+        "谢**",
+        "马**",
+        "曹**",
+        "韩**",
+        "曹***",
+        "刘**",
+        "刘***",
+        "丁**",
+        "于***",
+        "王**",
+        "朱**",
+        "张***",
+        "满***",
+        "徐**",
+        "佀**",
+        "孙***",
+        "陈**",
+        "孙**",
+        "杨***",
+        "张**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县市场监督管理局"
+      ],
+      "value_pool": [
+        "微山县市场监督管理局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

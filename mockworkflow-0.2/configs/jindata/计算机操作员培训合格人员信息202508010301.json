@@ -1,0 +1,166 @@
+{
+  "file_name": "计算机操作员培训合格人员信息202508010301.xlsx",
+  "table_name": "计算机操作员培训合格人员信息202508010301",
+  "row_count": 24,
+  "columns": [
+    "pxjsrq",
+    "姓名",
+    "pxzl",
+    "xb",
+    "pxjgmz",
+    "pxksrq",
+    "pxzy",
+    "sfzhm"
+  ],
+  "fields": [
+    {
+      "name": "pxjsrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "20211030"
+      ],
+      "value_pool": [
+        "20211030"
+      ],
+      "min_value": 20211030.0,
+      "max_value": 20211030.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "宋**",
+        "郭**",
+        "闫**",
+        "盛**",
+        "崔**",
+        "贺**",
+        "蔡**",
+        "张**",
+        "石**",
+        "陈**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "就业技能培训"
+      ],
+      "value_pool": [
+        "就业技能培训"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxjgmz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市海天职业培训学校（微山）"
+      ],
+      "value_pool": [
+        "济宁市海天职业培训学校（微山）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxksrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "20211026"
+      ],
+      "value_pool": [
+        "20211026"
+      ],
+      "min_value": 20211026.0,
+      "max_value": 20211026.0
+    },
+    {
+      "name": "pxzy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "计算机操作员",
+        "计算机操作员2021"
+      ],
+      "value_pool": [
+        "计算机操作员",
+        "计算机操作员2021"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370826********3224",
+        "370826********4068",
+        "371102********6021",
+        "370826********256X",
+        "370826********1621",
+        "370826********743X",
+        "370826********4043",
+        "370826********0823",
+        "370826********1625",
+        "370826********1626",
+        "370826********4624",
+        "370826********0022"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

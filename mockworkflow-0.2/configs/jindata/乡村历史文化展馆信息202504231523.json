@@ -1,0 +1,149 @@
+{
+  "file_name": "乡村历史文化展馆信息202504231523.xlsx",
+  "table_name": "乡村历史文化展馆信息202504231523",
+  "row_count": 29,
+  "columns": [
+    "sfsfd",
+    "jb",
+    "dd",
+    "mc",
+    "sfsf"
+  ],
+  "fields": [
+    {
+      "name": "sfsfd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "是"
+      ],
+      "value_pool": [
+        "否",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "乡镇级",
+        "村级"
+      ],
+      "value_pool": [
+        "乡镇级",
+        "村级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "韩庄镇驻地",
+        "微山岛镇驻地",
+        "昭阳街道驻地",
+        "夏镇街道驻地",
+        "傅村街道驻地",
+        "欢城镇驻地",
+        "留庄镇驻地",
+        "两城镇驻地",
+        "鲁桥镇驻地",
+        "马坡镇驻地",
+        "南阳镇驻地",
+        "张楼镇驻地",
+        "赵庙镇驻地",
+        "西平镇驻地",
+        "高楼乡驻地",
+        "韩庄镇前性义村史",
+        "微山岛镇小官村",
+        "微山岛镇杨村",
+        "付村街道付村社区",
+        "付村街道前付村",
+        "欢城镇西田陈",
+        "欢城镇尹洼",
+        "欢城镇东村",
+        "留庄镇蒋坑村",
+        "马坡镇西南村",
+        "西平镇东明村",
+        "西平镇庞庄村",
+        "赵庙镇佀楼村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "韩庄镇历史文化展馆",
+        "微山岛镇历史文化展馆",
+        "昭阳街道历史文化展馆",
+        "夏镇街道历史文化展馆",
+        "傅村街道历史文化展馆",
+        "欢城镇历史文化展馆",
+        "留庄镇历史文化展馆",
+        "两城镇历史文化展馆",
+        "鲁桥镇历史文化展馆",
+        "马坡镇历史文化展馆",
+        "南阳镇历史文化展馆",
+        "张楼镇历史文化展馆",
+        "赵庙镇历史文化展馆",
+        "西平镇历史文化展馆",
+        "高楼乡历史文化展馆",
+        "韩庄镇前性义村史展馆",
+        "微山岛微山湖博物馆",
+        "微山岛杨村历史展馆",
+        "付村街道傅村社区文史馆",
+        "付村街道傅氏家祠",
+        "欢城镇西田陈知青小院",
+        "欢城镇尹洼红色小院",
+        "欢城镇东村村史馆",
+        "留庄镇蒋坑村历史文化展馆",
+        "马坡镇西南村历史文化展馆",
+        "西平镇东明村历史文化展馆",
+        "西平镇庞庄村历史文化展馆",
+        "赵庙镇佀楼村历史文化展馆",
+        "傅氏家祠"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfsf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

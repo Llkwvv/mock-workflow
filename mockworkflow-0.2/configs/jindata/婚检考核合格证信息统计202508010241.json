@@ -1,0 +1,216 @@
+{
+  "file_name": "婚检考核合格证信息统计202508010241.xlsx",
+  "table_name": "婚检考核合格证信息统计202508010241",
+  "row_count": 84,
+  "columns": [
+    "fzjg",
+    "fzrq",
+    "jl",
+    "xm2",
+    "jszc",
+    "xm1",
+    "jszk",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "fzjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市行政审批服务局"
+      ],
+      "value_pool": [
+        "济宁市行政审批服务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020.1.1"
+      ],
+      "value_pool": [
+        "2020.1.1"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格"
+      ],
+      "value_pool": [
+        "合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xm2",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "婚前医学检查"
+      ],
+      "value_pool": [
+        "婚前医学检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jszc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "主管护师",
+        "护士",
+        "医师",
+        "主管技师",
+        "检验师",
+        "副主任医师",
+        "主治医师",
+        "副主任护师",
+        "护师",
+        "住院医师",
+        "主管医师",
+        "检验士",
+        "主管检验师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xm1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "赵***",
+        "陈***",
+        "夏**",
+        "赵**",
+        "姚***",
+        "李**",
+        "殷**",
+        "侯**",
+        "王***",
+        "蔚***",
+        "孙**",
+        "陆**",
+        "刘***",
+        "崔**",
+        "郭***",
+        "李***",
+        "程**",
+        "陈**",
+        "文**",
+        "戴**",
+        "马**",
+        "臧***",
+        "郭**",
+        "苗***",
+        "刘**",
+        "张***",
+        "高***",
+        "倪**",
+        "孔***",
+        "徐***",
+        "董***",
+        "张**",
+        "冯**",
+        "吴**",
+        "冯***",
+        "任**",
+        "王**",
+        "朱**",
+        "马***",
+        "鲍**",
+        "许***",
+        "卜**",
+        "秦**",
+        "孔**",
+        "周**",
+        "董**",
+        "韩**",
+        "谷**",
+        "白**",
+        "何**",
+        "高**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jszk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "妇产科护理",
+        "护理",
+        "中医",
+        "医学检验",
+        "外科",
+        "妇产科",
+        "计划生育技术服务",
+        "医学影像和放射治疗",
+        "儿科",
+        "泌尿外科",
+        "内科",
+        "普通外科",
+        "公共卫生",
+        "医学影像"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

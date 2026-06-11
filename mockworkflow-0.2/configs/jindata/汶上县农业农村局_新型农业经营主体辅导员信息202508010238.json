@@ -1,0 +1,162 @@
+{
+  "file_name": "汶上县农业农村局_新型农业经营主体辅导员信息202508010238.xlsx",
+  "table_name": "汶上县农业农村局_新型农业经营主体辅导员信息202508010238",
+  "row_count": 92,
+  "columns": [
+    "pxnr",
+    "姓名",
+    "sj",
+    "nd",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "pxnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "新型经营主体规范发展、扶持政策、惠农贷政策和相关金融产品"
+      ],
+      "value_pool": [
+        "新型经营主体规范发展、扶持政策、惠农贷政策和相关金融产品"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "周***",
+        "郑**",
+        "赵***",
+        "张**",
+        "张***",
+        "郁**",
+        "杨**",
+        "杨***",
+        "闫**",
+        "徐**",
+        "徐***",
+        "信**",
+        "肖**",
+        "肖***",
+        "夏**",
+        "郗**",
+        "吴**",
+        "魏**",
+        "王**",
+        "王***",
+        "田**",
+        "唐**",
+        "唐***",
+        "孙**",
+        "苏***",
+        "邵**",
+        "裴***",
+        "马**",
+        "路**",
+        "柳**",
+        "刘**",
+        "刘***",
+        "林***",
+        "梁**",
+        "李**",
+        "李***",
+        "孔**",
+        "景**",
+        "蒋***",
+        "吉**",
+        "黄**",
+        "化**",
+        "何**",
+        "郭**",
+        "郭***",
+        "房***",
+        "范**",
+        "樊**",
+        "丁***",
+        "崔**",
+        "陈**",
+        "曹***",
+        "蔡**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "4月11日"
+      ],
+      "value_pool": [
+        "4月11日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2025年"
+      ],
+      "value_pool": [
+        "2025年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "县农业机械现代化发展促进中心",
+        "汶上街道",
+        "郭楼镇",
+        "郭仓镇",
+        "白石镇",
+        "县供销社",
+        "军屯乡",
+        "县畜牧兽医事业发展中心",
+        "汶上县自然资源和规划局",
+        "康驿镇",
+        "义桥镇",
+        "南站街道",
+        "刘楼镇",
+        "县农业农村局",
+        "南旺镇",
+        "寅寺镇",
+        "杨店镇",
+        "苑庄镇",
+        "次邱镇",
+        "县财政局",
+        "中都街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

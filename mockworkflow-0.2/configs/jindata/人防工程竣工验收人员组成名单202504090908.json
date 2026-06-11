@@ -1,0 +1,142 @@
+{
+  "file_name": "人防工程竣工验收人员组成名单202504090908.xlsx",
+  "table_name": "人防工程竣工验收人员组成名单202504090908",
+  "row_count": 20,
+  "columns": [
+    "xmzw",
+    "xmmc",
+    "dwmc",
+    "姓名",
+    "zwzc"
+  ],
+  "fields": [
+    {
+      "name": "xmzw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "组长",
+        "副组长",
+        "成员"
+      ],
+      "value_pool": [
+        "组长",
+        "副组长",
+        "成员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鲁商运河公馆",
+        "太白湖碧桂园"
+      ],
+      "value_pool": [
+        "鲁商运河公馆",
+        "太白湖碧桂园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁鲁商地产有限公司",
+        "山东东方监理咨询有限公司",
+        "济南人防",
+        "山东周力人防设备有限公司",
+        "山东鲁杰建工集团有限公司",
+        "山东博琛岩土工程有限公司",
+        "山东聚凯人防工程有限公司",
+        "建设单位",
+        "监理单位",
+        "勘察单位",
+        "设计单位",
+        "防护设备定点生产安装企业",
+        "施工单位"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "胡*智",
+        "李*房",
+        "王*财",
+        "谢*霞",
+        "刘*",
+        "黄*东",
+        "吕*杰",
+        "刘*石",
+        "杨*贺",
+        "王*波",
+        "袁*科",
+        "王*",
+        "楚*鹏",
+        "秦*平",
+        "尉*",
+        "曾*帅",
+        "刘*杰",
+        "张*",
+        "李*涛"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zwzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "总经理",
+        "总监理工程师",
+        "工程经理",
+        "设计负责人",
+        "项目经理",
+        "项目负责人",
+        "总监",
+        "工程师",
+        "勘察负责人"
+      ],
+      "value_pool": [
+        "总经理",
+        "总监理工程师",
+        "工程经理",
+        "设计负责人",
+        "项目经理",
+        "项目负责人",
+        "总监",
+        "工程师",
+        "勘察负责人"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

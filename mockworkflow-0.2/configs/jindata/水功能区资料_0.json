@@ -1,0 +1,97 @@
+{
+  "file_name": "水功能区资料_0.csv",
+  "table_name": "水功能区资料_0",
+  "row_count": 36,
+  "columns": [
+    "xqcd",
+    "ejsgnqmc",
+    "szmb"
+  ],
+  "fields": [
+    {
+      "name": "xqcd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "-",
+        "5.5？"
+      ],
+      "value_pool": [
+        "-",
+        "5.5？"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ejsgnqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "泗河微山渔业用水区",
+        "白马河微山过渡区",
+        "老泗河微山农业用水区",
+        "石里沟微山农业用水区",
+        "黄山沟微山农业用水区",
+        "古房沟微山农业用水区",
+        "徐楼河微山农业用水区",
+        "北沙河微山农业用水区",
+        "荆河河微山农业用水区",
+        "汁泥河微山农业用水区",
+        "城郭河微山农业用水区",
+        "老运河微山农业用水区",
+        "小苏河微山农业用水区",
+        "虎庄河微山农业用水区",
+        "房庄河微山农业用水区",
+        "三八河微山农业用水区",
+        "老薛河微山农业用水区",
+        "小新河微山农业用水区",
+        "新薛河微山工业用水区",
+        "小魏河微山农业用水区",
+        "泥沟河微山农业用水区",
+        "薛沙河微山农业用水区",
+        "十字河微山农业用水区",
+        "蒋集河微山农业用水区",
+        "潘庄河微山农业用水区",
+        "沙沟河微山农业用水区",
+        "张庄河微山农业用水区",
+        "蒋官庄河微山农业用水区",
+        "赵庄河微山农业用水区",
+        "石庄沟微山农业用水区",
+        "刘桥渠微山农业用水区",
+        "胜利渠微山农业用水区",
+        "伊家河微山农业用水区",
+        "洙赵新河微山农业用水区",
+        "西支河微山农业用水区",
+        "东鱼河微山渔业用水区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szmb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "Ⅲ",
+        "Ⅳ"
+      ],
+      "value_pool": [
+        "Ⅲ",
+        "Ⅳ"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

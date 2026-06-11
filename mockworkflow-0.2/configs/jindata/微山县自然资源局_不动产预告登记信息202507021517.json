@@ -1,0 +1,144 @@
+{
+  "file_name": "微山县自然资源局_不动产预告登记信息202507021517.xlsx",
+  "table_name": "微山县自然资源局_不动产预告登记信息202507021517",
+  "row_count": 1,
+  "columns": [
+    "ywrzjbh",
+    "slbs",
+    "djyy",
+    "djsj",
+    "hjsj",
+    "bdcdyh",
+    "jzmj",
+    "ssqx",
+    "qxbm"
+  ],
+  "fields": [
+    {
+      "name": "ywrzjbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "372930****0013"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slbs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "YC2025042100202491_1"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "预购商品房抵押预告登记"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-04-23 16:58:25.000"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-04-23 16:58:25.000"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bdcdyh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "37082600****00004F00040013"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzmj",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "154.38"
+      ],
+      "min_value": 154.38,
+      "max_value": 154.38
+    },
+    {
+      "name": "ssqx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qxbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370826"
+      ],
+      "min_value": 370826.0,
+      "max_value": 370826.0
+    }
+  ]
+}

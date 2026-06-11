@@ -1,0 +1,150 @@
+{
+  "file_name": "鱼台县总工会-一线职工报名表202508010203.xlsx",
+  "table_name": "鱼台县总工会-一线职工报名表202508010203",
+  "row_count": 42,
+  "columns": [
+    "xb",
+    "mz",
+    "sj",
+    "dwjzw",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "11月",
+        "10月",
+        "6月",
+        "12月"
+      ],
+      "value_pool": [
+        "11月",
+        "10月",
+        "6月",
+        "12月"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwjzw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台县公安局老砦派出所指导员",
+        "鱼台县公安局国保大队副大队长",
+        "王庙镇政府管区负责人",
+        "经济开发区工作人员",
+        "鱼台县三高机械有限公司职工",
+        "鱼台县三高机械有限公司工会主席",
+        "王鲁镇人民政府 妇联主任",
+        "鱼台公路局政工科科长",
+        "鱼台公路局清河公路站站长",
+        "鱼台县供电局员工",
+        "济宁市益民化工厂操作工",
+        "鱼台县邮政分公司市场营销部经理",
+        "鱼台县邮政分公司文传部主管",
+        "山东辰龙药业有限公司行政专员",
+        "山东辰龙药业有限公司质量员",
+        "山东鲁泰环保建材有限公司原料车间职工",
+        "鱼台县建筑工程有限公司",
+        "鱼台县供电公司鱼城供电所副班长",
+        "鱼台县供电公司检修工区职工",
+        "鱼台县供电公司张黄供电所技术员",
+        "孔府宴酒业有限公司酿酒车间主任",
+        "孔府宴酒业有限公司包装车间主任",
+        "孔府宴酒业有限公司机电班班长",
+        "孔府宴酒业有限公司勾调班班长",
+        "济宁市圣奥精细化工有限公司技术工艺员",
+        "济宁市圣奥精细化工有限公司车间产线班长",
+        "济宁市圣奥精细化工有限公司安全员",
+        "济宁市圣奥精细化工有限公司仓库管理员",
+        "鱼台县三高机械有限公司  职工"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵**",
+        "黄***",
+        "卜**",
+        "于***",
+        "庞***",
+        "袁**",
+        "邢***",
+        "刘**",
+        "冯**",
+        "陈***",
+        "周**",
+        "蒋**",
+        "李***",
+        "李**",
+        "王**",
+        "杨**",
+        "杨***",
+        "张**",
+        "林**",
+        "魏**",
+        "路**",
+        "陈**",
+        "许**",
+        "宋**",
+        "黄**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

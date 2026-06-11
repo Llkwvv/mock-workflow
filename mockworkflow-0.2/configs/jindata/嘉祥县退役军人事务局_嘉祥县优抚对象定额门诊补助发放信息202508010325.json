@@ -1,0 +1,151 @@
+{
+  "file_name": "嘉祥县退役军人事务局_嘉祥县优抚对象定额门诊补助发放信息202508010325.xlsx",
+  "table_name": "嘉祥县退役军人事务局_嘉祥县优抚对象定额门诊补助发放信息202508010325",
+  "row_count": 1059,
+  "columns": [
+    "姓名",
+    "demzbz",
+    "sb",
+    "jtzz",
+    "nf"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "高**",
+        "姚**",
+        "解**",
+        "李**",
+        "孔**",
+        "韩**",
+        "张**",
+        "渐**",
+        "刘*",
+        "杨**",
+        "王**",
+        "魏**",
+        "闫**",
+        "轩**",
+        "赵**",
+        "杜**",
+        "陈**",
+        "商**",
+        "于**",
+        "史**",
+        "谷**",
+        "孟**",
+        "申**",
+        "薛**",
+        "马*",
+        "顾**",
+        "刘**",
+        "胡**",
+        "尹**",
+        "任**",
+        "王*",
+        "黄**",
+        "马**",
+        "曹**",
+        "甘**",
+        "冯**",
+        "宋**",
+        "庞**",
+        "程**",
+        "路**",
+        "贾**",
+        "翟**",
+        "夹**",
+        "谷*",
+        "郏**",
+        "袁**",
+        "寇**",
+        "包**",
+        "牛**",
+        "司**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "demzbz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "300",
+        "1200"
+      ],
+      "value_pool": [
+        "300",
+        "1200"
+      ],
+      "min_value": 200.0,
+      "max_value": 1200.0
+    },
+    {
+      "name": "sb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "烈士遗属",
+        "因公牺牲军人遗属",
+        "病故军人遗属",
+        "因公8级伤残",
+        "因公6级伤残",
+        "因公7级伤残",
+        "因病6级伤残",
+        "因战5级伤残",
+        "因病5级伤残",
+        "因公5级伤残",
+        "因战8级伤残"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2025年"
+      ],
+      "value_pool": [
+        "2025年"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

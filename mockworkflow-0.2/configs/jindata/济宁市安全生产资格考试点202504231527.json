@@ -1,0 +1,167 @@
+{
+  "file_name": "济宁市安全生产资格考试点202504231527.xlsx",
+  "table_name": "济宁市安全生产资格考试点202504231527",
+  "row_count": 37,
+  "columns": [
+    "fzr",
+    "tzzyryllksfw",
+    "ksdmc",
+    "ksdlx",
+    "txdz",
+    "xh"
+  ],
+  "fields": [
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "李锋",
+        "王宝君",
+        "孙士安"
+      ],
+      "value_pool": [
+        "李锋",
+        "王宝君",
+        "孙士安"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tzzyryllksfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "电工作业（低压电工作业、高压电工作业、防爆电气作业、电力电缆作业、继电保护作业、电气试验作业）",
+        "焊接与热切割作业（熔化焊接与热切割作业、压力焊作业、钎焊作业）",
+        "高处作业（登高架设作业、高处安装、维护、拆除作业）",
+        "制冷与空调作业（制冷与空调设备运行操作作业、制冷与空调设备安装修理作业）",
+        "金属非金属矿山安全作业（金属非金属矿井通风作业、金属非金属矿山安全检查作业（露天矿山、小型露天采石场、地下矿山）、金属非金属矿山提升机操作、金属非金属矿山支柱作业、金属非金属矿山井下电气、金属非金属矿山爆破作业）",
+        "冶金（有色）生产安全作业（煤气作业）",
+        "危险化学品安全作业（氧化工艺作业、聚合工艺作业、烷基化工艺作业、氯化工艺作业、氟化工艺作业、重氮化工艺作业、胺基化工艺作业、化工自动化控制仪表作业、光气及光气化工艺作业、氯碱电解工艺作业、硝化工艺作业、合成氨工艺作业、裂解（裂化）工艺作业、加氢工艺作业、磺化工艺作业、过氧化工艺作业）",
+        "烟花爆竹安全作业（烟花爆竹储存作业）",
+        "电工作业（低压电工作业、高压电工作业）",
+        "焊接与热切割作业（熔化焊接与热切割作业）",
+        "电工作业（低压电工作业）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ksdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁市安全生产资格考试技师学院考试点",
+        "济宁市安全生产资格考试泗水考试点",
+        "济宁市安全生产资格考试微山考试点"
+      ],
+      "value_pool": [
+        "济宁市安全生产资格考试技师学院考试点",
+        "济宁市安全生产资格考试泗水考试点",
+        "济宁市安全生产资格考试微山考试点"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ksdlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "理论（特种作业）",
+        "实操（特种作业）"
+      ],
+      "value_pool": [
+        "理论（特种作业）",
+        "实操（特种作业）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "txdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市高新区文体中心负一层",
+        "金庄镇卞庄工业园区综合楼1层、二层、三层",
+        "金源路创达高科园6号楼"
+      ],
+      "value_pool": [
+        "济宁市高新区文体中心负一层",
+        "金庄镇卞庄工业园区综合楼1层、二层、三层",
+        "金源路创达高科园6号楼"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37"
+      ],
+      "min_value": 1.0,
+      "max_value": 37.0
+    }
+  ]
+}

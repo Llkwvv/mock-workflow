@@ -1,0 +1,94 @@
+{
+  "file_name": "经开区价格备案民办幼儿园202601081014.xlsx",
+  "table_name": "经开区价格备案民办幼儿园202601081014",
+  "row_count": 3,
+  "columns": [
+    "bxxz",
+    "yeymc",
+    "bh",
+    "lxr",
+    "dz"
+  ],
+  "fields": [
+    {
+      "name": "bxxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "民办"
+      ],
+      "value_pool": [
+        "民办"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yeymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "王集东村育才幼儿园",
+        "马集镇中心幼儿园",
+        "疃里镇进士张小学附属幼儿园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "21",
+        "22"
+      ],
+      "min_value": 1.0,
+      "max_value": 22.0
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "吴建华",
+        "卢振兴",
+        "曹俊鹏"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "疃里镇王集东村",
+        "马集镇政府驻地",
+        "疃里镇进士张村"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

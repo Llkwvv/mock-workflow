@@ -1,0 +1,209 @@
+{
+  "file_name": "济宁市山东名中医_药_专家名单202508010133.xlsx",
+  "table_name": "济宁市山东名中医_药_专家名单202508010133",
+  "row_count": 30,
+  "columns": [
+    "xh",
+    "gzdw",
+    "rych",
+    "yjfx",
+    "zc",
+    "xb",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "min_value": 1.0,
+      "max_value": 30.0
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁医学院附属医院",
+        "嘉祥县中医院",
+        "济宁市第二人民医院",
+        "西苑医院济宁医院",
+        "济宁市第一人民医院",
+        "济宁市妇女儿童医院",
+        "曲阜市中医院",
+        "汶上县中医院",
+        "邹城市中医院",
+        "山东省兖矿新里程总医院",
+        "济宁市中西医结合医院",
+        "邹城市妇幼保健计划生育服务中心",
+        "泗水县人民医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rych",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东名老中医药专家",
+        "山东名中医药专家"
+      ],
+      "value_pool": [
+        "山东名老中医药专家",
+        "山东名中医药专家"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yjfx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "direction",
+      "enum_values": [],
+      "value_pool": [
+        "内分泌及代谢性疾病",
+        "血液病、肝、肺肿瘤",
+        "中医临床",
+        "中医妇科",
+        "中医内科学",
+        "中医内科",
+        "中西医结合肿瘤",
+        "脾胃病、肾病、肿瘤",
+        "针灸推拿",
+        "心血管系统的中西医结合诊断与治疗",
+        "中医针灸",
+        "骨与关节疾病运动医学",
+        "内分泌病",
+        "脑病",
+        "心血管内科",
+        "神经内科、内分泌",
+        "中医",
+        "擅长中医内科常见病多发病的诊疗",
+        "脾胃病 心脑病",
+        "脾胃病、肺病、糖尿病、心脑血管疾病",
+        "中医妇科、内科",
+        "内科、肝病",
+        "脾胃、肝胆系统疾病",
+        "针灸",
+        "中西医结合治疗内科疾病"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "主任医师",
+        "副主任医师"
+      ],
+      "value_pool": [
+        "主任医师",
+        "副主任医师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孙***",
+        "申**",
+        "常**",
+        "李**",
+        "王**",
+        "刘**",
+        "杨**",
+        "闫**",
+        "桂**",
+        "张**",
+        "骆***",
+        "朱**",
+        "殷**",
+        "于**",
+        "徐**",
+        "何**",
+        "吕**",
+        "孙**",
+        "汪**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

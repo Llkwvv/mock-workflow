@@ -1,0 +1,318 @@
+{
+  "file_name": "高新区对单位的特种设备制造单位行为的监管信息202604291733.xlsx",
+  "table_name": "高新区对单位的特种设备制造单位行为的监管信息202604291733",
+  "row_count": 33,
+  "columns": [
+    "jgdx",
+    "jcxwmc",
+    "ssjg",
+    "jg",
+    "jcsj",
+    "xzxdr",
+    "jcxwbh",
+    "jcxmmc",
+    "xzxdrxz",
+    "jclb",
+    "xzxdrzjbm",
+    "jgdxlx",
+    "xzxdrzjlx"
+  ],
+  "fields": [
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370800683222904P",
+        "91370800771000850L",
+        "91370800730663906W",
+        "913708006619716488",
+        "91370800MA3BXKRRXB",
+        "91370800720785061Y",
+        "91370800MA3EJWYX2U",
+        "9137080016592018X3",
+        "91370800MA3CD57Q5B",
+        "91370811745660329F",
+        "91370800673153802M",
+        "91370800MA3BY7M23D",
+        "91370800MA3MYP4H0G"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "对山东省昱通安装有限公司的检查",
+        "对中国重汽集团济宁商用车有限公司的检查",
+        "对济宁山大海成热工有限公司的检查",
+        "对山东凯斯达机械制造有限公司的检查",
+        "对济宁传来智能停车设备有限公司的检查",
+        "对济宁金百特生物机械有限公司的检查",
+        "对山东鼎和新材料科技有限公司的检查",
+        "对兖矿济宁化工装备有限公司的检查",
+        "对济宁市亿成金属结构有限公司的检查",
+        "对山东省昱通安装有限公司进行特种设备生产单位的检查",
+        "对济宁恒立起重设备安装有限公司进行特种设备制造单位行为的检查",
+        "对山东裕欣机电制造有限公司特种设备的日常检查",
+        "对山东沃林重工机械有限公司的检查",
+        "对济宁凯迅电梯有限公司的检查",
+        "对单位的特种设备制造单位行为的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市场监管局"
+      ],
+      "value_pool": [
+        "市场监管局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-07-19",
+        "2021-07-22",
+        "2019-03-14",
+        "2019-03-26",
+        "2020-12-16",
+        "2021-08-19",
+        "2021-08-22",
+        "2021-09-12",
+        "2022-05-20",
+        "2022-05-24",
+        "2023-04-17",
+        "2023-05-20",
+        "2023-10-24",
+        "2024-04-17",
+        "2024-04-26",
+        "2024-05-24",
+        "2024-06-21",
+        "2025-05-26",
+        "2025-05-30"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省昱通安装有限公司",
+        "中国重汽集团济宁商用车有限公司",
+        "济宁山大海成热工有限公司",
+        "山东凯斯达机械制造有限公司",
+        "济宁传来智能停车设备有限公司",
+        "济宁金百特生物机械有限公司",
+        "山东鼎和新材料科技有限公司",
+        "兖矿济宁化工装备有限公司",
+        "济宁市亿成金属结构有限公司",
+        "济宁恒立起重设备安装有限公司",
+        "山东裕欣机电制造有限公司",
+        "山东沃林重工机械有限公司",
+        "济宁凯迅电梯有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "gxqscjgj2021021",
+        "gxqscjgjzjc2021022",
+        "gxqscjgjzjc2021023",
+        "gxqscjgjzjc2021024",
+        "gxqscjgjzjc2021025",
+        "gxqscjgjzjc2021151",
+        "gxqscjgjzjc2021152",
+        "gxqscjgjzjc2021153",
+        "gxqscjgjzjc2021154",
+        "gxqscjgjzjc2021155",
+        "gxqsjjzj20190314001",
+        "gxqsjjzj20190326002",
+        "jngxqscjdgljhts2020121601",
+        "gxqscjgj2021024",
+        "gxqscjgjzjc2021035",
+        "gxqscjgjzjc2021044",
+        "gxqscjgjzjc2021162",
+        "gxqscjgjzjc2021141",
+        "gxqscjgjzjc2021172",
+        "gxqsjjzj20190314092",
+        "gxqsjjzj20190326033",
+        "gxqscjgjzjc2022005",
+        "gxqscjgjzjc0200031",
+        "gxqscjgjzjc2319",
+        "gxqscjgjzjc2326",
+        "gxqscjgjzjc2335",
+        "gxqscjgjzjc2024023",
+        "gxqscjgjzjc2024034",
+        "gxqscjgjzjc2024039",
+        "gxqscjgjzjc2024058",
+        "gxqscjgjzjc2025042",
+        "gxqscjgjzjc2025043",
+        "gxqscjgjzjc2025056"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对单位的特种设备制造单位行为的监管"
+      ],
+      "value_pool": [
+        "对单位的特种设备制造单位行为的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "法人"
+      ],
+      "value_pool": [
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370800683222904P",
+        "91370800771000850L",
+        "91370800730663906W",
+        "913708006619716488",
+        "91370800MA3BXKRRXB",
+        "91370800720785061Y",
+        "91370800MA3EJWYX2U",
+        "9137080016592018X3",
+        "91370800MA3CD57Q5B",
+        "91370811745660329F",
+        "91370800673153802M",
+        "91370800MA3BY7M23D",
+        "91370800MA3MYP4H0G"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业、个体户、农专社"
+      ],
+      "value_pool": [
+        "企业、个体户、农专社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "统一社会信用代码"
+      ],
+      "value_pool": [
+        "统一社会信用代码"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "file_name": "遮窗广告排查202507210931.xlsx",
+  "table_name": "遮窗广告排查202507210931",
+  "row_count": 24,
+  "columns": [
+    "dw",
+    "cljg",
+    "clqk",
+    "czwtjs",
+    "xcjs"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "执法一中队",
+        "执法二中队",
+        "执法三中队",
+        "执法四中队",
+        "执法五中队",
+        "执法六中队",
+        "执法七中队",
+        "金乡街道执法中队",
+        "鱼山执法中队",
+        "羊山执法中队",
+        "胡集执法中队",
+        "卜集执法中队",
+        "高河执法中队",
+        "化雨执法中队",
+        "霄云执法中队",
+        "司马执法中队",
+        "鸡黍执法中队",
+        "兴隆执法中队",
+        "王丕执法中队",
+        "马庙执法中队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cljg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已整改完毕"
+      ],
+      "value_pool": [
+        "已整改完毕"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "整改中",
+        "二层楼房有后窗",
+        "5家有消防通道19家房后有窗户",
+        "8家有消防通道30家后面有窗4家左右有窗",
+        "小楼子社区服务中心有后窗",
+        "临沂炒鸡已通知整改",
+        "金都会KTV通知整改",
+        "西部电竞停业转让",
+        "集中在商贸城沿街门市，广告牌离窗1米，都是二层里面有步行梯。",
+        "已责令其整改中"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czwtjs",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "8",
+        "93",
+        "24",
+        "42",
+        "3家遮挡窗户",
+        "4",
+        "48",
+        "2",
+        "3",
+        "1",
+        "0",
+        "6"
+      ],
+      "min_value": 0.0,
+      "max_value": 93.0
+    },
+    {
+      "name": "xcjs",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "49",
+        "741",
+        "268",
+        "327",
+        "135家",
+        "200余家",
+        "150",
+        "33",
+        "20",
+        "44",
+        "62",
+        "51",
+        "28",
+        "32",
+        "25",
+        "64",
+        "50",
+        "16",
+        "47",
+        "10"
+      ],
+      "min_value": 10.0,
+      "max_value": 741.0
+    }
+  ]
+}

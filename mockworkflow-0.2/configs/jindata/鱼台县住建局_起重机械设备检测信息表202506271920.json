@@ -1,0 +1,199 @@
+{
+  "file_name": "鱼台县住建局_起重机械设备检测信息表202506271920.xlsx",
+  "table_name": "鱼台县住建局_起重机械设备检测信息表202506271920",
+  "row_count": 29,
+  "columns": [
+    "jcdw",
+    "xmmc",
+    "sbxh",
+    "jcrq",
+    "azdw",
+    "ccrq"
+  ],
+  "fields": [
+    {
+      "name": "jcdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "检测单位",
+        "百强",
+        "华宁",
+        "单位",
+        "百强公司"
+      ],
+      "value_pool": [
+        "检测单位",
+        "百强",
+        "华宁",
+        "单位",
+        "百强公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "项目名称",
+        "龙城水景苑3#",
+        "龙城水景苑2#",
+        "龙城水景苑8#",
+        "龙城水景苑12#",
+        "龙城水景苑17#",
+        "龙城水景苑5#",
+        "龙城水景苑13#",
+        "地中海阳光31#",
+        "地中海阳光32#",
+        "地中海阳光28#",
+        "地中海阳光30#",
+        "棠邑学校1#",
+        "棠邑学校2.3#",
+        "经纬佳苑3#",
+        "经纬佳苑4#",
+        "经纬佳苑5#",
+        "经纬佳苑7#",
+        "龙城公馆11#",
+        "龙城公馆5#",
+        "龙城公馆8#",
+        "龙城公馆7#",
+        "名称"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbxh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "设备型号",
+        "QTZ40",
+        "QTZ50",
+        "QTZ63",
+        "SC200/200",
+        "QTZ80",
+        "型号"
+      ],
+      "value_pool": [
+        "设备型号",
+        "QTZ40",
+        "QTZ50",
+        "QTZ63",
+        "SC200/200",
+        "QTZ80",
+        "型号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "检测日期",
+        "2020.01.15",
+        "2020.01.16",
+        "2020.06.24",
+        "2020.12.20",
+        "2020.09.10",
+        "2020.12.03",
+        "2020.10.30",
+        "检测",
+        "45658"
+      ],
+      "value_pool": [
+        "检测日期",
+        "2020.01.15",
+        "2020.01.16",
+        "2020.06.24",
+        "2020.12.20",
+        "2020.09.10",
+        "2020.12.03",
+        "2020.10.30",
+        "检测",
+        "45658"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "azdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "安装单位",
+        "徐州丰一",
+        "济宁明泽",
+        "嘉祥博安",
+        "安装",
+        "徐州丰一公司"
+      ],
+      "value_pool": [
+        "安装单位",
+        "徐州丰一",
+        "济宁明泽",
+        "嘉祥博安",
+        "安装",
+        "徐州丰一公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ccrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "出厂日期",
+        "2011.03",
+        "2010.11",
+        "2010.08",
+        "2014.05",
+        "2013.05",
+        "2010.04",
+        "2011.07",
+        "2015.11.24",
+        "2016.07.03",
+        "2016.11.08",
+        "2016.04.17",
+        "2017.12.07",
+        "2017.10.08",
+        "2017.10.28",
+        "2017.11.23",
+        "2018.03.22",
+        "2013.05.06",
+        "2013.06",
+        "2019.09",
+        "2012.03",
+        "2019.09.10",
+        "日期"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "file_name": "工程管理服务企业信息_0.csv",
+  "table_name": "工程管理服务企业信息_0",
+  "row_count": 21,
+  "columns": [
+    "tyshxydm",
+    "hydm",
+    "hyml",
+    "qyzwm"
+  ],
+  "fields": [
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 91370830MA3NDMR65T",
+        " 91370830MA3QP59978",
+        " 91370830MA3QD7W26T",
+        " 91370830MA3MCCR96M",
+        " 91370830MA3P0F4L3E",
+        " 91370830MA3NTA0X96",
+        " 91370830061958845P",
+        " 913708305716974384",
+        " 91370830727565379Y",
+        " 91370830MA3FDW2H67",
+        " 91370830MA3MK9MA8N",
+        " 91370830MA3NP40W2W",
+        " 91370830MA3RHJ5R4T",
+        " 91370830MA3R49T91J",
+        " 91370830MA3R92C59U",
+        " 91370830MA3R821D9X",
+        " 91370830MA3RXF1B4W",
+        " 91370830MA3RYNUKXG",
+        " 91370830MA3T4RAG9X",
+        " 91370830MA3T4AYT1L",
+        " 91370830MA3T2Q9J31"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 7481|    工程管理服务"
+      ],
+      "value_pool": [
+        " 7481|    工程管理服务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 科学研究和技术服务业-M"
+      ],
+      "value_pool": [
+        " 科学研究和技术服务业-M"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyzwm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 济宁市弘鑫项目管理有限公司",
+        " 山东亘一项目管理有限公司",
+        " 晨越建设项目管理集团股份有限公司汶上分公司",
+        " 济宁全安工程技术咨询有限公司",
+        " 济宁亿海工程咨询有限公司",
+        " 济宁凤锦工程咨询有限公司",
+        " 济宁万邦水文工程技术咨询有限公司",
+        " 浙江科诚建设监理有限公司汶上分公司",
+        " 汶上县工程建设监理中心",
+        " 济宁市周正工程管理服务有限公司",
+        " 济宁金版工程造价咨询有限公司",
+        " 山东精慧项目管理有限公司",
+        " 山东汶化工程管理有限公司",
+        " 山东携忆项目管理有限公司",
+        " 山东润和工程咨询有限公司",
+        " 山东省坤隆建设工程有限公司",
+        " 济宁儒释建设工程项目管理有限公司",
+        " 济宁儒佳建设工程项目管理有限公司",
+        " 济宁绿能工程咨询有限公司",
+        " 山东永鸣工程项目管理有限公司",
+        " 山东路尚建设工程有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

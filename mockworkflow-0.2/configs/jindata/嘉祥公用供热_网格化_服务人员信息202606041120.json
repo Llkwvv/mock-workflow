@@ -1,0 +1,84 @@
+{
+  "file_name": "嘉祥公用供热_网格化_服务人员信息202606041120.xlsx",
+  "table_name": "嘉祥公用供热_网格化_服务人员信息202606041120",
+  "row_count": 1,
+  "columns": [
+    "fwxq",
+    "pqfzr",
+    "grsfzr",
+    "lxdh",
+    "grs"
+  ],
+  "fields": [
+    {
+      "name": "fwxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "文苑雅居"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pqfzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "袁强"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "grsfzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "马宁"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "189****5218"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "grs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "供热三所"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

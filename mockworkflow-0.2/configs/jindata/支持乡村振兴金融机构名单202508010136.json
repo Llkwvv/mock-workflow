@@ -1,0 +1,139 @@
+{
+  "file_name": "支持乡村振兴金融机构名单202508010136.xlsx",
+  "table_name": "支持乡村振兴金融机构名单202508010136",
+  "row_count": 20,
+  "columns": [
+    "zw",
+    "jgdz",
+    "姓名",
+    "lxfs",
+    "jgmc"
+  ],
+  "fields": [
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经理",
+        "行长"
+      ],
+      "value_pool": [
+        "经理",
+        "行长"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "侯**",
+        "吕**",
+        "马**",
+        "李**",
+        "张**",
+        "陶**",
+        "王**",
+        "曲**",
+        "高**",
+        "郑**"
+      ],
+      "value_pool": [
+        "侯**",
+        "吕**",
+        "马**",
+        "李**",
+        "张**",
+        "陶**",
+        "王**",
+        "曲**",
+        "高**",
+        "郑**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "150****1810",
+        "0537-3209699",
+        "0537-2616906",
+        "180****0628",
+        "0537—2208078",
+        "186****3516",
+        "186****5788",
+        "2215749",
+        "159****2583",
+        "189****9267",
+        "2216385",
+        "186****7016",
+        "189****0098",
+        "159****3583",
+        "189****8267",
+        "221****"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "泰山财产保险股份有限公司济宁中心支公司",
+        "安华农业保险股份有限公司济宁中心支公司",
+        "中国银行济宁济东支行",
+        "民生银行太白湖小微支行",
+        "中泰证券济宁分公司",
+        "农业银行太白湖支行",
+        "中国人民财产保险股份有限公司济宁市太白湖新区支公司",
+        "建行太白支行",
+        "济宁蓝海村镇银行",
+        "济宁蓝海村镇银行石桥支行",
+        "济宁蓝海村镇银行石桥自助网点",
+        "山东英华保险代理有限公司济宁分公司",
+        "济宁农村商业银行股份有限公司许庄支行",
+        "中泰证券股份有限公司济宁奥体路证券营业部",
+        "中国邮政储蓄银行（石桥镇营业所）"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

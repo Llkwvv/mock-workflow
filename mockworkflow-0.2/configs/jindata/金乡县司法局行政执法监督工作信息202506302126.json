@@ -1,0 +1,126 @@
+{
+  "file_name": "金乡县司法局行政执法监督工作信息202506302126.xlsx",
+  "table_name": "金乡县司法局行政执法监督工作信息202506302126",
+  "row_count": 22,
+  "columns": [
+    "bjdsx",
+    "jdr",
+    "sj",
+    "jdjg",
+    "bjddw"
+  ],
+  "fields": [
+    {
+      "name": "bjdsx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "行政执法“三项制度”落实情况",
+        "行政处罚案卷归档管理情况"
+      ],
+      "value_pool": [
+        "行政执法“三项制度”落实情况",
+        "行政处罚案卷归档管理情况"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "行政执法监督科",
+        "朱娅"
+      ],
+      "value_pool": [
+        "行政执法监督科",
+        "朱娅"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "44324",
+        "43645",
+        "43655",
+        "43735",
+        "43747",
+        "43754",
+        "43757",
+        "43761",
+        "43768",
+        "44433",
+        "44434",
+        "44435",
+        "44436",
+        "44437",
+        "44438",
+        "44439",
+        "44440",
+        "44441",
+        "44442",
+        "44443",
+        "2025.6.16",
+        "2025.6.18"
+      ],
+      "min_value": 43645.0,
+      "max_value": 44443.0
+    },
+    {
+      "name": "jdjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "优"
+      ],
+      "value_pool": [
+        "优"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjddw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "全县重点执法部门",
+        "县公安局",
+        "县应急管理局",
+        "县交通运输局",
+        "县农业农村局",
+        "县自然资源与规划局",
+        "济宁市生态环境局金乡县分局",
+        "县综合行政执法局",
+        "县市场监督管理局",
+        "县文化和旅游局",
+        "县卫生健康局",
+        "县市场监管局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

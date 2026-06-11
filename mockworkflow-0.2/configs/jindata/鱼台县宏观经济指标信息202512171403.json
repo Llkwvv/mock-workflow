@@ -1,0 +1,185 @@
+{
+  "file_name": "鱼台县宏观经济指标信息202512171403.xlsx",
+  "table_name": "鱼台县宏观经济指标信息202512171403",
+  "row_count": 36,
+  "columns": [
+    "xq",
+    "tjsj",
+    "tjhy",
+    "dw",
+    "dqsczz",
+    "cjsj",
+    "gxsj"
+  ],
+  "fields": [
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024年1-4季度",
+        "2024年1-2季度",
+        "2023年1-4季度"
+      ],
+      "value_pool": [
+        "2024年1-4季度",
+        "2024年1-2季度",
+        "2023年1-4季度"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjhy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "住宿业",
+        "餐饮业",
+        "全县",
+        "农林牧渔业",
+        "工业",
+        "建筑业",
+        "批发和零售业",
+        "批发业",
+        "零售业",
+        "交通运输、仓储和邮政业",
+        "住宿和餐饮业",
+        "金融业",
+        "房地产业",
+        "其他服务业",
+        "第一产业",
+        "第二产业",
+        "第三产业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "亿元"
+      ],
+      "value_pool": [
+        "亿元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dqsczz",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0.095",
+        "6.56",
+        "114.5775",
+        "30.614",
+        "23.9853",
+        "5.7256",
+        "14.8659",
+        "8.1894",
+        "6.6765",
+        "6.5862",
+        "4.0445",
+        "0.0357",
+        "4.0088",
+        "6.0206",
+        "6.4468",
+        "16.29",
+        "28.6699",
+        "29.4889",
+        "56.4187",
+        "246.3048",
+        "71.7153",
+        "49.7832",
+        "14.0674",
+        "28.3042",
+        "11.8821",
+        "16.4221",
+        "15.3697",
+        "6.6553",
+        "0.0935",
+        "6.5618",
+        "9.5051",
+        "18.4329",
+        "32.4752",
+        "63.9119",
+        "63.2688",
+        "119.1241"
+      ],
+      "min_value": 0.0357,
+      "max_value": 246.3048
+    },
+    {
+      "name": "cjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-08-06 13:10:56.0",
+        "2025-08-02 11:41:24.0"
+      ],
+      "value_pool": [
+        "2024-08-06 13:10:56.0",
+        "2025-08-02 11:41:24.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-08-06 13:10:56.0",
+        "2024-10-24 19:45:44.0",
+        "2025-08-02 11:41:24.0"
+      ],
+      "value_pool": [
+        "2024-08-06 13:10:56.0",
+        "2024-10-24 19:45:44.0",
+        "2025-08-02 11:41:24.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "file_name": "高新区对医疗单位使用放射性药品的监管信息202602111259.xlsx",
+  "table_name": "高新区对医疗单位使用放射性药品的监管信息202602111259",
+  "row_count": 35,
+  "columns": [
+    "xzxdrzjlx",
+    "jcjg",
+    "jcxwmc",
+    "ssjg",
+    "jcxmmc",
+    "jclb",
+    "xzxdr",
+    "xzxdrxz",
+    "xzxdrzjbm",
+    "jcsj",
+    "jgdx",
+    "jgdxlx",
+    "jcxwbh"
+  ],
+  "fields": [
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "其他法人或其他组织有效证件号码"
+      ],
+      "value_pool": [
+        "其他法人或其他组织有效证件号码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "对济宁高新常玉杰中医诊所进行医疗单位使用放射性药品监管的检查",
+        "对济宁高新杜庆山内科诊所医疗单位使用放射性药品监管的检查",
+        "对济宁高新高淑芹内科诊所进行医疗单位使用放射性药品监管的检查",
+        "对济宁高新医美堂内科诊所进行医疗单位使用放射性药品监管的检查",
+        "对北京同仁堂（山东）健康大药房连锁有限公司济宁店中医诊所进行医疗单位使用放射性药品监管的检查",
+        "对济宁高新杜银环内科诊所进行医疗单位使用放射性药品监管的检查",
+        "对济宁高新房红燕口腔诊所进行医疗单位使用放射性药品监管的检查",
+        "对济宁高新特方康乐中医诊所进行医疗单位使用放射性药品监管的检查",
+        "对济宁高新张峰中医诊所进行医疗单位使用放射性药品监管的检查",
+        "对济宁口腔医院高新门诊部进行医疗单位使用放射性药品监管的检查",
+        "对济宁高新仁和医院进行医疗单位使用放射性药品监管的检查",
+        "对济宁高新区洸河社区卫生服务中心进行医疗单位使用放射性药品监管的检查",
+        "对济宁高新于璐璐内科诊所进行医疗单位使用放射性药品监管的检查",
+        "对济宁高新区蓼河新城医院进行医疗单位使用放射性药品监管的检查",
+        "对济宁高新区接庄街道丁庄社区卫生室进行医疗单位使用放射性药品监管的检查",
+        "对济宁市第一人民医院东院区进行药品安全的检查",
+        "对济宁高新杜庆山内科诊所进行医疗单位使用放射性药品监管的检查",
+        "对医疗单位使用放射性药品的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市场监管局"
+      ],
+      "value_pool": [
+        "市场监管局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对医疗单位使用放射性药品的监管"
+      ],
+      "value_pool": [
+        "对医疗单位使用放射性药品的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新常玉杰中医诊所",
+        "济宁高新杜庆山内科诊所",
+        "济宁高新高淑芹内科诊所",
+        "济宁高新医美堂内科诊所",
+        "北京同仁堂（山东）健康大药房连锁有限公司济宁店中医诊所",
+        "济宁高新杜银环内科诊所",
+        "济宁高新房红燕口腔诊所",
+        "济宁高新特方康乐中医诊所",
+        "济宁高新张峰中医诊所",
+        "济宁口腔医院高新门诊部",
+        "济宁高新仁和医院",
+        "济宁高新区洸河社区卫生服务中心",
+        "济宁高新于璐璐内科诊所",
+        "济宁高新区蓼河新城医院",
+        "济宁高新区接庄街道丁庄社区卫生室",
+        "济宁市第一人民医院东院区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "其他组织"
+      ],
+      "value_pool": [
+        "其他组织"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1175337081117D2122",
+        "1021537081117D2112",
+        "1339637081117D2112",
+        "1354837081117D2112",
+        "1263337081117D2122",
+        "0047237081117D2112",
+        "1124337081117D2152",
+        "1277237081117D2122",
+        "1188437081117D2122",
+        "1428437081111D1521",
+        "1128637081117A1001",
+        "1180937081111B1001",
+        "1449537081117D2112",
+        "1406537081111A1001",
+        "1321437081112D6001",
+        "123708004939505808"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-07-15",
+        "2021-07-16",
+        "2019-01-09",
+        "2021-08-15",
+        "2021-08-22",
+        "2021-09-18",
+        "2022-05-19",
+        "2022-09-20",
+        "2023-04-19",
+        "2023-08-23",
+        "2023-12-20",
+        "2024-04-13",
+        "2025-04-11",
+        "2025-06-23"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新常玉杰中医诊所",
+        "济宁高新杜庆山内科诊所",
+        "济宁高新高淑芹内科诊所",
+        "济宁高新医美堂内科诊所",
+        "北京同仁堂（山东）健康大药房连锁有限公司济宁店中医诊所",
+        "济宁高新杜银环内科诊所",
+        "济宁高新房红燕口腔诊所",
+        "济宁高新特方康乐中医诊所",
+        "济宁高新张峰中医诊所",
+        "济宁口腔医院高新门诊部",
+        "济宁高新仁和医院",
+        "济宁高新区洸河社区卫生服务中心",
+        "济宁高新于璐璐内科诊所",
+        "济宁高新区蓼河新城医院",
+        "济宁高新区接庄街道丁庄社区卫生室",
+        "123708004939505808",
+        "1406537081111A1001"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "非企业",
+        "企业、个体户、农专社"
+      ],
+      "value_pool": [
+        "非企业",
+        "企业、个体户、农专社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "gxqscjgjypsy2021003",
+        "gxqscjgjypsy2021006",
+        "gxqscjgjypsy2021009",
+        "gxqscjgjypsy2021012",
+        "gxqscjgjypsy2021015",
+        "gxqscjgjypsy2021018",
+        "gxqscjgjypsy2021021",
+        "gxqscjgjypsy2021024",
+        "gxqscjgjypsy2021027",
+        "gxqscjgjypsy2021030",
+        "gxqscjgjypsy2021033",
+        "gxqscjgjypsy2021036",
+        "gxqscjgjypsy2021039",
+        "gxqscjgjypsy2021042",
+        "gxqscjgjypsy2021045",
+        "jngxqscjgjypsy2019002",
+        "gxqscjgjypsy2021040",
+        "gxqscjgjypsy2021041",
+        "gxqscjgjypsy2021043",
+        "gxqscjgjypsy2021044",
+        "gxqscjgjypsy2021061",
+        "gxqscjgjypsy2021060",
+        "gxqscjgjypsy2021059",
+        "gxqscjgjypsy2021058",
+        "gxqscjgjypsy2021057",
+        "gxqscjgjypsy2022002",
+        "gxqscjgjypsy2022008",
+        "gxqscjgjypsy2022009",
+        "gxqscjgjspsy20230419002",
+        "gxqscjgjspsy20230823001",
+        "gxqscjgjypjy20231220002",
+        "gxqscjgjypjy20240413001",
+        "gxqscjgjypjy20250411001",
+        "gxqscjgjypjy20250623001"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "file_name": "鱼台县教体局-全县教育领域困难学生营养餐补助信息202512171711.xlsx",
+  "table_name": "鱼台县教体局-全县教育领域困难学生营养餐补助信息202512171711",
+  "row_count": 29115,
+  "columns": [
+    "ssxq",
+    "sslb",
+    "ffdw",
+    "knxsyycbz",
+    "jtxxmc",
+    "bzxsxm",
+    "sfzh",
+    "shzt",
+    "btjey",
+    "ffsj",
+    "lrsj",
+    "gxsj",
+    "cjsj"
+  ],
+  "fields": [
+    {
+      "name": "ssxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sslb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "教育领域"
+      ],
+      "value_pool": [
+        "教育领域"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ffdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "教体局"
+      ],
+      "value_pool": [
+        "教体局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "knxsyycbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "困难学生营养餐补助"
+      ],
+      "value_pool": [
+        "困难学生营养餐补助"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtxxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县2022年秋季困难学生营养餐补助",
+        "2023年春季困难学生营养餐补助"
+      ],
+      "value_pool": [
+        "鱼台县2022年秋季困难学生营养餐补助",
+        "2023年春季困难学生营养餐补助"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzxsxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "屈**",
+        "王**",
+        "石**",
+        "吴**",
+        "闫**",
+        "武**",
+        "姚**",
+        "郑**",
+        "翟**",
+        "梁**",
+        "刘**",
+        "马**",
+        "聂**",
+        "李**",
+        "甄**",
+        "胡**",
+        "赵**",
+        "汪**",
+        "陈**",
+        "程**",
+        "仇**",
+        "常**",
+        "于**",
+        "宋**",
+        "尹**",
+        "随**",
+        "韩**",
+        "朱**",
+        "龚**",
+        "彭**",
+        "梅**",
+        "杨**",
+        "魏**",
+        "周**",
+        "郭**",
+        "杨***",
+        "黄*",
+        "谷**",
+        "姜**",
+        "庄**",
+        "冯**",
+        "段**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370827201*********",
+        "370827200*********",
+        "320321201*********",
+        "370826200*********",
+        "370826201*********",
+        "370829201*********"
+      ],
+      "value_pool": [
+        "370827201*********",
+        "370827200*********",
+        "320321201*********",
+        "370826200*********",
+        "370826201*********",
+        "370829201*********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "已发布",
+        "待审核"
+      ],
+      "value_pool": [
+        "已发布",
+        "待审核"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "btjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "300",
+        "1820"
+      ],
+      "value_pool": [
+        "300",
+        "1820"
+      ],
+      "min_value": 300.0,
+      "max_value": 1830.0
+    },
+    {
+      "name": "ffsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023-01-03",
+        "2023-05-26"
+      ],
+      "value_pool": [
+        "2023-01-03",
+        "2023-05-26"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lrsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023-01-17 15:02:16",
+        "2023-06-07 16:41:08"
+      ],
+      "value_pool": [
+        "2023-01-17 15:02:16",
+        "2023-06-07 16:41:08"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

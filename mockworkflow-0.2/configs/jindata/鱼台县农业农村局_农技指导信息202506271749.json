@@ -1,0 +1,152 @@
+{
+  "file_name": "鱼台县农业农村局_农技指导信息202506271749.xlsx",
+  "table_name": "鱼台县农业农村局_农技指导信息202506271749",
+  "row_count": 27,
+  "columns": [
+    "dd",
+    "sj",
+    "zdnh",
+    "zdcy",
+    "zdjsy"
+  ],
+  "fields": [
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "老砦镇沙河村",
+        "老砦镇",
+        "谷亭街道王子亮村",
+        "谷亭街道",
+        "唐马镇",
+        "滨湖张小楼",
+        "张黄镇",
+        "张黄镇殷王村",
+        "张黄镇小于村",
+        "王鲁镇潘庄村",
+        "王鲁镇潘庄庄",
+        "王庙镇旧城村",
+        "王庙镇大李村",
+        "王庙镇树李村",
+        "李阁镇任寺村",
+        "李阁镇齐庄村",
+        "鱼城镇华村",
+        "清河镇马河村",
+        "清河镇陈庄村",
+        "罗屯镇随集村",
+        "罗屯镇",
+        "鱼台县王鲁镇潘庄庄村",
+        "鱼台县王庙镇旧城村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022-01-01 00:00:00",
+        "2024年度"
+      ],
+      "value_pool": [
+        "2022-01-01 00:00:00",
+        "2024年度"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdnh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "张晓旺",
+        "李堂敏",
+        "祝福林",
+        "马昊天",
+        "韩集体",
+        "胡江涛",
+        "闫  伟",
+        "马  镇",
+        "李广金",
+        "皮作旭",
+        "李树森",
+        "段建国",
+        "段建军",
+        "张二林",
+        "马福全",
+        "解洪伟",
+        "任传军",
+        "张亚军",
+        "周广磊",
+        "赵冉冉",
+        "程洪玲",
+        "解来启",
+        "董洪文",
+        "随守财",
+        "随善强",
+        "段*军",
+        "张*林"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdcy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "生猪养殖",
+        "肉牛养殖"
+      ],
+      "value_pool": [
+        "生猪养殖",
+        "肉牛养殖"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdjsy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高幸福",
+        "暂无指导技术员",
+        "刘淑路",
+        "张遵伦",
+        "陈秀辉",
+        "潘  莹"
+      ],
+      "value_pool": [
+        "高幸福",
+        "暂无指导技术员",
+        "刘淑路",
+        "张遵伦",
+        "陈秀辉",
+        "潘  莹"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

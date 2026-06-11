@@ -1,0 +1,254 @@
+{
+  "file_name": "高新区退役士兵老年生活补助身份认定信息202508010329.xlsx",
+  "table_name": "高新区退役士兵老年生活补助身份认定信息202508010329",
+  "row_count": 2210,
+  "columns": [
+    "sqsx",
+    "sqrxm",
+    "xsq",
+    "bjjg",
+    "slr",
+    "myd",
+    "jd",
+    "zjhm",
+    "zjlx"
+  ],
+  "fields": [
+    {
+      "name": "sqsx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "退役士兵老年生活补助身份认定"
+      ],
+      "value_pool": [
+        "退役士兵老年生活补助身份认定"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "胡**",
+        "朱**",
+        "廉**",
+        "张**",
+        "刘**",
+        "樊**",
+        "李**",
+        "秦**",
+        "徐**",
+        "王**",
+        "路**",
+        "蔡**",
+        "山**",
+        "曲**",
+        "姚**",
+        "马**",
+        "赵**",
+        "郝**",
+        "杨**",
+        "贾**",
+        "江**",
+        "岳**",
+        "黄**",
+        "董**",
+        "高**",
+        "齐**",
+        "解**",
+        "周**",
+        "吴**",
+        "苏**",
+        "牛**",
+        "曹**",
+        "宋**",
+        "毕**",
+        "常**",
+        "汪**",
+        "邓**",
+        "孙**",
+        "邵**",
+        "吕**",
+        "骆**",
+        "满**",
+        "梁**",
+        "葛**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "办结"
+      ],
+      "value_pool": [
+        "办结"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "王华鲁"
+      ],
+      "value_pool": [
+        "王华鲁"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "myd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "非常满意"
+      ],
+      "value_pool": [
+        "非常满意"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "洸河街道"
+      ],
+      "value_pool": [
+        "洸河街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370802**********33",
+        "370802**********37",
+        "370802**********12",
+        "370923**********14",
+        "370802**********51",
+        "372928**********10",
+        "372901**********13",
+        "370802**********15",
+        "370802**********30",
+        "370628**********1X",
+        "370827**********18",
+        "370811**********15",
+        "370481**********7X",
+        "370829**********13",
+        "370825**********15",
+        "370802**********10",
+        "370830**********12",
+        "230103**********34",
+        "370802**********1X",
+        "370802**********14",
+        "370802**********32",
+        "370811**********39",
+        "370811**********59",
+        "370811**********40",
+        "370802**********38",
+        "370811**********16",
+        "370811**********10",
+        "370811**********30",
+        "370811**********11",
+        "370802**********34",
+        "370802**********19",
+        "370802**********52",
+        "370811**********77",
+        "370622**********10",
+        "370811**********14",
+        "370811**********3X",
+        "370811**********1X",
+        "370811**********19",
+        "370811**********35",
+        "370811**********18",
+        "370811**********38",
+        "370811**********73",
+        "370811**********31",
+        "370811**********33",
+        "370811**********37",
+        "370811**********79",
+        "370811**********75",
+        "370811**********13",
+        "370811**********50",
+        "370811**********34",
+        "370811**********95",
+        "372927**********12",
+        "370828**********13",
+        "370822**********1X"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "身份证"
+      ],
+      "value_pool": [
+        "身份证"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

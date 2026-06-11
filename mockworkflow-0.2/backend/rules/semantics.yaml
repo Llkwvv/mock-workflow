@@ -1,0 +1,508 @@
+# Semantic field configuration for mock-workflow.
+# Add new semantics here without touching Python code.
+#
+# Each entry:
+#   keywords_en  : list of English keywords matched case-insensitively
+#   keywords_cn  : list of Chinese keywords matched exactly
+#   keywords_pinyin: list of pinyin-abbreviation keywords (e.g. "dq", "rq")
+#   faker        : optional faker strategy used by entity_faker.py
+#                  supported: company_name, city_name, address, name,
+#                             phone_number, email, url, license_plate
+#   priority     : higher = checked earlier (default 0)
+#   strict_mode_reuse: when true, the value_pool may be reused as enum;
+#                      when false, values are always fabricated.
+
+semantics:
+  id:
+    keywords_en:
+      - "id"
+      - "_id"
+      - "_code"
+      - "_serial"
+      - "_key"
+      - "no"
+      - "num"
+      - "code"
+      - "serial"
+      - "identifier"
+      - "key"
+      - "序号"
+      - "编码"
+      - "编号"
+      - "文号"
+    keywords_pinyin:
+      - "xh"
+      - "bh"
+      - "wh"
+    faker: null
+    priority: 100
+    strict_mode_reuse: false
+
+  id_card:
+    keywords_en:
+      - "id_card"
+      - "idcard"
+      - "id_no"
+      - "id_number"
+      - "identity"
+      - "identity_card"
+      - "sfz"
+    keywords_cn:
+      - "身份证"
+      - "身份证号"
+      - "身份证号码"
+      - "公民身份号码"
+      - "居民身份证"
+    keywords_pinyin:
+      - "sfzh"
+      - "sfzhm"
+      - "gmsfhm"
+      - "sfzhao"
+    faker: null
+    priority: 120
+    strict_mode_reuse: false
+
+  credit_code:
+    keywords_en:
+      - "credit_code"
+      - "social_credit"
+      - "uscc"
+      - "unified_social"
+    keywords_cn:
+      - "统一社会信用代码"
+      - "社会信用代码"
+      - "信用代码"
+      - "统一信用"
+    keywords_pinyin:
+      - "tyshxydm"
+      - "shxydm"
+      - "xydm"
+    faker: null
+    priority: 118
+    strict_mode_reuse: false
+
+  bank_card:
+    keywords_en:
+      - "bank_card"
+      - "bankcard"
+      - "card_no"
+      - "card_number"
+      - "bank_account"
+      - "account_no"
+    keywords_cn:
+      - "银行卡"
+      - "银行卡号"
+      - "银行账号"
+      - "银行账户"
+      - "开户账号"
+    keywords_pinyin:
+      - "yhk"
+      - "yhkh"
+      - "yhzh"
+    faker: null
+    priority: 116
+    strict_mode_reuse: false
+
+  birthdate:
+    keywords_en:
+      - "birth"
+      - "birthday"
+      - "birthdate"
+      - "born"
+      - "dob"
+    keywords_cn:
+      - "出生日期"
+      - "出生年月"
+      - "出生时间"
+      - "生日"
+      - "出生"
+    keywords_pinyin:
+      - "csrq"
+      - "csny"
+      - "csrr"
+    faker: null
+    priority: 88
+    strict_mode_reuse: false
+
+  gender:
+    keywords_en:
+      - "gender"
+      - "sex"
+    keywords_cn:
+      - "性别"
+    keywords_pinyin:
+      - "xb"
+    faker: null
+    priority: 82
+    strict_mode_reuse: true
+
+  postal_code:
+    keywords_en:
+      - "postal"
+      - "postcode"
+      - "post_code"
+      - "zip"
+      - "zipcode"
+    keywords_cn:
+      - "邮编"
+      - "邮政编码"
+    keywords_pinyin:
+      - "yzbm"
+      - "yzbh"
+    faker: null
+    priority: 72
+    strict_mode_reuse: false
+
+  age:
+    keywords_en:
+      - "age"
+    keywords_cn:
+      - "年龄"
+    keywords_pinyin:
+      - "nl"
+    faker: null
+    priority: 60
+    strict_mode_reuse: false
+
+  license_plate:
+    keywords_en:
+      - "plate"
+      - "license_plate"
+      - "car_plate"
+      - "vehicle_plate"
+      - "车牌"
+      - "牌照"
+    keywords_pinyin:
+      - "cp"
+    faker: "license_plate"
+    priority: 95
+    strict_mode_reuse: false
+
+  time:
+    keywords_en:
+      - "date"
+      - "time"
+      - "datetime"
+      - "timestamp"
+      - "created"
+      - "updated"
+      - "deleted"
+      - "modified"
+      - "begin"
+      - "end"
+      - "start"
+      - "finish"
+      - "period"
+      - "date_"
+      - "_time"
+      - "日期"
+      - "时间"
+      - "创建"
+      - "更新"
+      - "删除"
+      - "开始"
+      - "结束"
+      - "生效"
+      - "截止"
+    keywords_pinyin:
+      - "sj"    # 时间
+      - "rq"    # 日期
+      - "ks"    # 开始
+      - "js"    # 结束
+      - "xg"    # 修改
+    faker: "past_date"
+    priority: 65
+    strict_mode_reuse: false
+
+  coordinate:
+    keywords_en:
+      - "lng"
+      - "lon"
+      - "latitude"
+      - "longitude"
+      - "coord"
+      - "lat"
+      - "经度"
+      - "纬度"
+      - "坐标"
+      - "坐标点"
+    keywords_pinyin:
+      - "jd"
+      - "wd"
+    faker: null
+    priority: 85
+    strict_mode_reuse: false
+
+  status:
+    keywords_en:
+      - "status"
+      - "state"
+      - "type"
+      - "category"
+      - "class"
+      - "kind"
+      - "level"
+      - "stage"
+      - "phase"
+      - "grade"
+      - "rank"
+      - "type_cd"
+      - "status_cd"
+      - "状态"
+      - "类型"
+      - "类别"
+      - "阶段"
+      - "等级"
+    keywords_pinyin:
+      - "lb"
+      - "zt"
+      - "lx"
+    faker: null
+    priority: 80
+    strict_mode_reuse: true
+
+  flag:
+    keywords_en:
+      - "flag"
+      - "enable"
+      - "enabled"
+      - "active"
+      - "deleted"
+      - "visible"
+      - "valid"
+      - "approved"
+      - "verified"
+      - "checked"
+      - "is_"
+      - "has_"
+      - "can_"
+      - "should_"
+      - "是否"
+      - "标记"
+      - "标志"
+      - "启用"
+      - "删除"
+      - "有效"
+      - "审核"
+    keywords_pinyin: []
+    faker: null
+    priority: 75
+    strict_mode_reuse: true
+
+  phone_number:
+    keywords_en:
+      - "phone"
+      - "mobile"
+      - "tel"
+      - "cell"
+      - "telephone"
+      - "手机"
+      - "电话"
+      - "联系电话"
+      - "手机号码"
+    keywords_pinyin:
+      - "dh"    # 电话
+    faker: "phone_number"
+    priority: 70
+    strict_mode_reuse: false
+
+  email:
+    keywords_en:
+      - "email"
+      - "mail"
+      - "e_mail"
+      - "邮箱"
+      - "电子邮件"
+    keywords_pinyin:
+      - "yx"
+    faker: "email"
+    priority: 65
+    strict_mode_reuse: false
+
+  url:
+    keywords_en:
+      - "url"
+      - "link"
+      - "href"
+      - "website"
+      - "site"
+      - "网址"
+      - "链接"
+      - "网站"
+    keywords_pinyin: []
+    faker: "url"
+    priority: 60
+    strict_mode_reuse: false
+
+  direction:
+    keywords_en:
+      - "direction"
+      - "bearing"
+      - "heading"
+      - "orientation"
+      - "方向"
+    keywords_pinyin:
+      - "fx"
+    faker: null
+    priority: 55
+    strict_mode_reuse: false
+
+  vehicle_model:
+    keywords_en:
+      - "model"
+      - "车型"
+      - "车辆型号"
+    keywords_pinyin: []
+    faker: null
+    priority: 50
+    strict_mode_reuse: false
+
+  region:
+    keywords_en:
+      - "region"
+      - "district"
+      - "city"
+      - "county"
+      - "province"
+      - "zone"
+      - "area"
+      - "town"
+      - "village"
+      - "地区"
+      - "区域"
+      - "区县"
+      - "城市"
+      - "省份"
+      - "乡镇"
+      - "村"
+      - "地名"
+      - "地理"
+    keywords_pinyin:
+      - "dq"
+    faker: "city_name"
+    priority: 45
+    strict_mode_reuse: false
+
+  company_name:
+    keywords_en:
+      - "company"
+      - "corporation"
+      - "corp"
+      - "org"
+      - "organization"
+      - "firm"
+      - "enterprise"
+      - "business"
+      - "institution"
+      - "agency"
+      - "公司"
+      - "企业"
+      - "机构"
+      - "单位"
+      - "组织"
+    keywords_pinyin:
+      - "mc"
+      - "dw"
+      - "gs"
+    faker: "company_name"
+    priority: 40
+    strict_mode_reuse: false
+
+  person_name:
+    keywords_en:
+      - "name"
+      - "fullname"
+      - "full_name"
+      - "first_name"
+      - "last_name"
+      - "surname"
+      - "given_name"
+      - "contact"
+      - "employee"
+      - "staff"
+      - "worker"
+      - "user"
+      - "operator"
+      - "manager"
+      - "clerk"
+      - "姓名"
+      - "名字"
+      - "联系人"
+      - "经办人"
+      - "操作员"
+      - "管理员"
+      - "员工"
+      - "人员"
+      - "负责人"
+      - "当事人"
+    keywords_pinyin:
+      - "xm"    # 姓名
+      - "fzr"   # 负责人
+      - "lxr"   # 联系人
+      - "jbr"   # 经办人
+      - "czy"   # 操作员
+      - "gly"   # 管理员
+      - "dbr"   # 代表人
+    faker: "name"
+    priority: 90
+    strict_mode_reuse: false
+
+  address:
+    keywords_en:
+      - "address"
+      - "addr"
+      - "location"
+      - "loc"
+      - "place"
+      - "residence"
+      - "地址"
+      - "住所"
+      - "地点"
+      - "位置"
+    keywords_pinyin: []
+    faker: "address"
+    priority: 30
+    strict_mode_reuse: false
+
+  text:
+    keywords_en:
+      - "desc"
+      - "description"
+      - "remark"
+      - "comment"
+      - "note"
+      - "memo"
+      - "info"
+      - "detail"
+      - "summary"
+      - "content"
+      - "title"
+      - "subject"
+      - "abstract"
+      - "描述"
+      - "备注"
+      - "说明"
+      - "注释"
+      - "内容"
+      - "摘要"
+      - "标题"
+      - "主题"
+    keywords_pinyin:
+      - "bz"    # 备注
+      - "nr"    # 内容
+      - "ss"    # 事实
+      - "zy"    # 摘要/主要
+      - "sm"    # 说明
+      - "ms"    # 描述
+      - "zy"    # 摘要
+    faker: null
+    priority: 5
+    strict_mode_reuse: false
+
+  unknown:
+    keywords_en: []
+    keywords_cn: []
+    keywords_pinyin: []
+    faker: null
+    priority: 0
+    strict_mode_reuse: false

@@ -1,0 +1,162 @@
+{
+  "file_name": "机关支部信息202508010135.xlsx",
+  "table_name": "机关支部信息202508010135",
+  "row_count": 39,
+  "columns": [
+    "xh",
+    "szdzb",
+    "rdsj",
+    "jg",
+    "姓名",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "7",
+        "11",
+        "13",
+        "14",
+        "15",
+        "17",
+        "18",
+        "19",
+        "20",
+        "2025年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szdzb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中共微山县发展和改革局支部委员会"
+      ],
+      "value_pool": [
+        "中共微山县发展和改革局支部委员会"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rdsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2003.03.01",
+        "1997.06.01",
+        "2003.10.01",
+        "2008.07.01",
+        "2012.08.01",
+        "1993.12.01",
+        "2002.07.01",
+        "1996.06.01",
+        "1997.06.08",
+        "2001.03.01",
+        "2012.11.12",
+        "2002.02.01",
+        "2003.07.04",
+        "2023.05.23",
+        "2023.09.26",
+        "1999.10.01",
+        "2019.12.03",
+        "1995.01.05",
+        "2018.12.13",
+        "2019.11.04",
+        "1998.06.11",
+        "2015.12.10",
+        "2021.06.04",
+        "2005.06.01",
+        "2004.06.22",
+        "2002.03.01",
+        "1997.07.01"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东微山"
+      ],
+      "value_pool": [
+        "山东微山"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘**",
+        "李**",
+        "王**",
+        "岳**",
+        "朱**",
+        "谷**",
+        "潘**",
+        "牟**",
+        "张**",
+        "马**",
+        "闫**",
+        "华**",
+        "宗**",
+        "吴**",
+        "曹**",
+        "范**",
+        "赵**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

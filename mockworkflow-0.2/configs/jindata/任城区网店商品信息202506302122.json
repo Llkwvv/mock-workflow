@@ -1,0 +1,587 @@
+{
+  "file_name": "任城区网店商品信息202506302122.xlsx",
+  "table_name": "任城区网店商品信息202506302122",
+  "row_count": 30,
+  "columns": [
+    "djjg",
+    "tyshxydm",
+    "dpmc",
+    "dplj",
+    "zczb",
+    "cjsj",
+    "ejfl",
+    "gslx",
+    "sjfl",
+    "dpfl",
+    "spmc",
+    "spdz",
+    "yjfl",
+    "yyxkzkssj",
+    "gszch",
+    "spjg",
+    "ptmc",
+    "spqys",
+    "gsdz",
+    "fhsf",
+    "yyxkzjssj",
+    "spyxl",
+    "frdb",
+    "fhcs",
+    "spqyx",
+    "jyfw",
+    "gsmc",
+    "spqys1",
+    "gszt"
+  ],
+  "fields": [
+    {
+      "name": "djjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "青岛市即墨区市场监督管理局"
+      ],
+      "value_pool": [
+        "青岛市即墨区市场监督管理局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "92370282MA3DYJ4B7X"
+      ],
+      "value_pool": [
+        "92370282MA3DYJ4B7X"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dpmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "即墨区芮苒制衣厂"
+      ],
+      "value_pool": [
+        "即墨区芮苒制衣厂"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dplj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "https://detail.1688.com/offer/534641777113.html",
+        "https://detail.1688.com/offer/632185682997.html",
+        "https://detail.1688.com/offer/621285303197.html",
+        "https://detail.1688.com/offer/713278323198.html",
+        "https://detail.1688.com/offer/528880337137.html",
+        "https://detail.1688.com/offer/676212742073.html",
+        "https://detail.1688.com/offer/551294267125.html",
+        "https://detail.1688.com/offer/642620474389.html",
+        "https://detail.1688.com/offer/571890383816.html",
+        "https://detail.1688.com/offer/642699170449.html",
+        "https://detail.1688.com/offer/713331267958.html",
+        "https://detail.1688.com/offer/709710108165.html",
+        "https://detail.1688.com/offer/529565716935.html",
+        "https://detail.1688.com/offer/712911348986.html",
+        "https://detail.1688.com/offer/597228991921.html",
+        "https://detail.1688.com/offer/822226670535.html",
+        "https://detail.1688.com/offer/773800329011.html",
+        "https://detail.1688.com/offer/778176379770.html",
+        "https://detail.1688.com/offer/912190957261.html",
+        "https://detail.1688.com/offer/715371571294.html",
+        "https://detail.1688.com/offer/923697625194.html",
+        "https://detail.1688.com/offer/772294258298.html",
+        "https://detail.1688.com/offer/769812477805.html",
+        "https://detail.1688.com/offer/760216919916.html",
+        "https://detail.1688.com/offer/807438804446.html",
+        "https://detail.1688.com/offer/930167243116.html",
+        "https://detail.1688.com/offer/717194236203.html",
+        "https://detail.1688.com/offer/911718702058.html",
+        "https://detail.1688.com/offer/800234608830.html",
+        "https://detail.1688.com/offer/770552977393.html"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zczb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "100"
+      ],
+      "value_pool": [
+        "100"
+      ],
+      "min_value": 100.0,
+      "max_value": 100.0
+    },
+    {
+      "name": "cjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2025-06-27 14:52:05",
+        "2025-06-27 14:52:03"
+      ],
+      "value_pool": [
+        "2025-06-27 14:52:05",
+        "2025-06-27 14:52:03"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ejfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女装/女士精品",
+        "个性定制/设计服务/DIY",
+        "女士内衣/男士内衣/家居服",
+        "运动/瑜伽/健身/球迷用品",
+        "基础建材",
+        "童装/婴儿装/亲子装",
+        "居家布艺"
+      ],
+      "value_pool": [
+        "女装/女士精品",
+        "个性定制/设计服务/DIY",
+        "女士内衣/男士内衣/家居服",
+        "运动/瑜伽/健身/球迷用品",
+        "基础建材",
+        "童装/婴儿装/亲子装",
+        "居家布艺"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gslx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "个体工商户"
+      ],
+      "value_pool": [
+        "个体工商户"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dpfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "衣服"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "2019夏新品外套薄款空调衫开衫防晒衣中长款纯棉梭织青岛大码女装",
+        "2023地推夏新款复古风黑白格子中长款宽松女士衬衣防晒衬衫女加工",
+        "冰丝运动裤宽松夏季薄款休闲九分束脚防蚊女裤子2022拉条松紧腰",
+        "EGGYOLK 微胖女清新风V领雪纺碎花女七分袖裙子胖mm遮肚显瘦长裙",
+        "2019春夏新款复古背心女裙显瘦碎花竖条纹收腰连衣裙打底裙女短裙",
+        "日韩休闲_女式T恤休闲 韩式休闲 韩式男女通款T即墨女装",
+        "2022春夏新品长款印花背心吊带连衣裙宽松显瘦碎花裙子女裙沙滩裙",
+        "常熟女装夏季新款连衣裙宽松棉花布府绸吊带裙碎花连衣裙21-40号",
+        "2023天丝牛仔裤女薄款夏薄款哈伦裤裤子女夏防蚊裤女小脚长裤即墨",
+        "冰丝运动裤宽松夏季薄款休闲九分束脚防蚊女裤子2020新款加工定制",
+        "EGGYOLK 夏季雪纺连衣裙九分袖海边游玩穿搭腰抽绳显瘦女式碎花裙",
+        "夏季女式纯棉碎花家居服舒适睡衣套装短袖七分裤可外穿",
+        "2018夏季新款韩版修身显瘦学院风小清新无袖背心小碎花连衣裙短裙",
+        "EGGYOLK 碎花连衣裙2023夏装新款雪纺长款设计感遮肉显瘦海边度假",
+        "原创女装纯棉防晒服女外套薄开衫七分袖连帽休闲上衣女即墨厂家",
+        "EGGYOLK轻薄精梳纯棉女士休闲裤素然水洗拼接松紧腰九分哈伦裤女",
+        "青岛即墨女装卫衣撞色插肩连帽中长款女式字母印花宽松女卫衣厂家",
+        "青岛墨郡服装有限公司承接各种服装加工定制来图来样加工包工包料",
+        "360克空气层香蕉裤 不代发 不零售 不退货",
+        "EGGYOLK夏季新品女士长款碎花吊带连衣裙薄款性感雪纺裙清凉女装",
+        "春夏舒适土布休闲裤水洗做旧男女通款九分裤暗条纹老粗布服装加工",
+        "春秋款日韩休闲BF刺绣字母宽松连帽中长款胖MM外套女大码女式风衣",
+        "国风潮居家薄款睡衣纯棉水洗棉色织格子长袖长裤春夏家居服套装女",
+        "EGGYOLK 春季新品星空呢半身裙修身显瘦A字裙高腰女裙仿毛呢裙子",
+        "纯棉格子家居服连体浴裙纯棉浴袍五分袖睡衣睡裙女式连衣裙可外穿",
+        "欧美复古重工金属铆钉长袖修身T恤上衣 简约U领辣妹打底衫原创女",
+        "EGGYOLK 新品夏季女士翻领腰半袖抽绳碎花长款雪纺连衣裙女装女裙",
+        "丹宁蓝直筒牛仔裤女春2025年新款松紧腰感阔腿裤子",
+        "春夏新品国风圆领盘扣纯棉大格子女式家居睡裙休闲透气女士家居服",
+        "日系风中格纯棉色织格子水洗棉家居套装长袖长裤立领开衫套情侣款"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "即墨区"
+      ],
+      "value_pool": [
+        "即墨区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yjfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "服饰鞋包",
+        "生活服务",
+        "运动户外",
+        "家居用品",
+        "母婴用品"
+      ],
+      "value_pool": [
+        "服饰鞋包",
+        "生活服务",
+        "运动户外",
+        "家居用品",
+        "母婴用品"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yyxkzkssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020-09-01 00:00:00"
+      ],
+      "value_pool": [
+        "2020-09-01 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gszch",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "92370282MA3DYJ4B7X"
+      ],
+      "value_pool": [
+        "92370282MA3DYJ4B7X"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spjg",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "48.0",
+        "55.0",
+        "20.36",
+        "60.0",
+        "36.0",
+        "27.0",
+        "35.0",
+        "30.0",
+        "20.0",
+        "39.0",
+        "80.0",
+        "52.0",
+        "38.0",
+        "10.0",
+        "99.0",
+        "45.0",
+        "103.0",
+        "165.0",
+        "58.0",
+        "53.0",
+        "46.0",
+        "50.0"
+      ],
+      "min_value": 10.0,
+      "max_value": 165.0
+    },
+    {
+      "name": "ptmc",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "1688"
+      ],
+      "value_pool": [
+        "1688"
+      ],
+      "min_value": 1688.0,
+      "max_value": 1688.0
+    },
+    {
+      "name": "spqys",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "青岛市"
+      ],
+      "value_pool": [
+        "青岛市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gsdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fhsf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省"
+      ],
+      "value_pool": [
+        "山东省"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yyxkzjssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2099-09-01 00:00:00"
+      ],
+      "value_pool": [
+        "2099-09-01 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spyxl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "frdb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "常海明"
+      ],
+      "value_pool": [
+        "常海明"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fhcs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "青岛市"
+      ],
+      "value_pool": [
+        "青岛市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spqyx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "email",
+      "enum_values": [
+        "即墨区"
+      ],
+      "value_pool": [
+        "即墨区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "制售服装，经营其它无需行政审批即可经营的一般经营项目。（依法须经批准的项目，经相关部门批准后方可开展经营活动）"
+      ],
+      "value_pool": [
+        "制售服装，经营其它无需行政审批即可经营的一般经营项目。（依法须经批准的项目，经相关部门批准后方可开展经营活动）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "即墨区芮苒制衣厂"
+      ],
+      "value_pool": [
+        "即墨区芮苒制衣厂"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spqys1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省"
+      ],
+      "value_pool": [
+        "山东省"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gszt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "正常"
+      ],
+      "value_pool": [
+        "正常"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "file_name": "鱼台县工商联_执委企业名单信息202508010136.xlsx",
+  "table_name": "鱼台县工商联_执委企业名单信息202508010136",
+  "row_count": 28,
+  "columns": [
+    "mz",
+    "xjgslzw",
+    "qymc",
+    "zw",
+    "姓名",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉族"
+      ],
+      "value_pool": [
+        "汉族"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xjgslzw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "副主席",
+        "常委",
+        "执委"
+      ],
+      "value_pool": [
+        "副主席",
+        "常委",
+        "执委"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁安泰矿山设备制造有限公司",
+        "鱼台县鹤来香食品有限公司",
+        "山东馨兴业房地产开发有限公司",
+        "鱼台华宇纸箱有限公司",
+        "鱼台县金鸿景商场",
+        "山东济宁盛发焦化有限公司",
+        "济宁京通物流有限公司",
+        "鱼台县三高机械有限公司",
+        "济宁金凤食品有限公司",
+        "山东华泰光源有限公司",
+        "济宁鲁星电气科技有限公司",
+        "鱼台县万兴园林建设工程有限公司（原鱼台县园林建筑工程处）",
+        "济宁市金泰利华化工科技有限公司",
+        "济宁众力矿山设备有限公司",
+        "山东群星粮油制品有限公司",
+        "鱼台清河建筑安装工程有限公司",
+        "鱼台润柳工艺品有限公司",
+        "济宁嘉美电器有限公司",
+        "鱼台润鑫纺织品有限公司",
+        "鱼台县迅捷客运出租有限公司",
+        "济宁康维生物油脂有限公司",
+        "鱼台县振南木耳种植专业合作社",
+        "济宁市益民化工厂",
+        "济宁市碧海洗涤有限公司",
+        "鱼台富鑫化学危险货物运输有限公司",
+        "济宁迈克瑞稀土有限公司",
+        "山东格瑞泰新材料有限公司",
+        "山东孝贤食品有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "董事长",
+        "总经理",
+        "常务副总",
+        "经理"
+      ],
+      "value_pool": [
+        "董事长",
+        "总经理",
+        "常务副总",
+        "经理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "程**",
+        "李**",
+        "王**",
+        "曾**",
+        "周**",
+        "段**",
+        "张******",
+        "宋**",
+        "张**",
+        "王*****",
+        "张*****",
+        "胡**",
+        "赵**",
+        "刘**",
+        "陈**",
+        "卜**",
+        "朱*****",
+        "冯**",
+        "姚*****",
+        "董**",
+        "朱**",
+        "梁**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

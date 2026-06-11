@@ -1,0 +1,118 @@
+{
+  "file_name": "开办外籍人员子女学校审批的信息_0.csv",
+  "table_name": "开办外籍人员子女学校审批的信息_0",
+  "row_count": 20,
+  "columns": [
+    "col",
+    "col1",
+    "col2",
+    "col3",
+    "col4"
+  ],
+  "fields": [
+    {
+      "name": "col",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "бюЭђгб",
+        "СѕЕТвњ",
+        "ПзЗВбв",
+        "ПзЗВУї",
+        "еХГЄЛс",
+        "ТЌЕТКЋ",
+        "КњЕТНЈ",
+        "едЫЋ",
+        "СѕЪижО",
+        "ЙмбдЛЊ",
+        "ЭѕжОЛЊ",
+        "жьРћКь",
+        "ПзЯщгЁ"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col1",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020/11/5 9:00:00",
+        "2020/11/3 9:00:29"
+      ],
+      "value_pool": [
+        "2020/11/5 9:00:00",
+        "2020/11/3 9:00:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col2",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020/11/5 11:00:00",
+        "2020/11/3 9:03:29"
+      ],
+      "value_pool": [
+        "2020/11/5 11:00:00",
+        "2020/11/3 9:03:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col3",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "ЙигкбюЭђгбПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкСѕЕТвњПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкПзЗВбвПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкПзЗВУїПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкеХГЄЛсПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкТЌЕТКЋПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкКњЕТНЈПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкедЫЋПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкСѕЪижОПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкЙмбдЛЊПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкЭѕжОЛЊПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкжьРћКьПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё",
+        "ЙигкПзЯщгЁПЊАьЭтМЎШЫдБзгХЎбЇаЃЩѓХњЕФвЕЮё"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col4",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "МУФўЪаШЮГЧЧјааеўЩѓХњЗўЮёОж"
+      ],
+      "value_pool": [
+        "МУФўЪаШЮГЧЧјааеўЩѓХњЗўЮёОж"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

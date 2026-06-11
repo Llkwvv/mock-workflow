@@ -1,0 +1,148 @@
+{
+  "file_name": "鱼台县住建局_安全生产管理处罚信息202506271720.xlsx",
+  "table_name": "鱼台县住建局_安全生产管理处罚信息202506271720",
+  "row_count": 24,
+  "columns": [
+    "wh",
+    "cfjdrq",
+    "clcfwszl",
+    "xzxdrmc",
+    "cfzl"
+  ],
+  "fields": [
+    {
+      "name": "wh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "文号",
+        "2021CT01",
+        "2021CT02",
+        "2021CT03",
+        "2021CT04",
+        "2021CT05",
+        "2021CT06",
+        "2021CT07",
+        "2021CT08",
+        "2021CT09",
+        "2021CT10",
+        "2021CT11",
+        "2021CT12",
+        "2021CT13",
+        "2021CT14",
+        "2021CT15",
+        "2021CT16",
+        "2021CT17",
+        "2021CT18",
+        "2021CT19"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cfjdrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "处罚决定日期",
+        "2021.2.2",
+        "2021.3.9",
+        "2021.3.19",
+        "2021.3.22",
+        "2021.31",
+        "2021.4.10",
+        "2021.4.20",
+        "2021.4.26",
+        "2021.4.30",
+        "2021.5.10",
+        "2021.5.11",
+        "2021.5.13",
+        "2021.5.14",
+        "2021.5.21",
+        "2021.6.2",
+        "日期",
+        "44228",
+        "44256"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clcfwszl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "处理处罚文书种类",
+        "停工整改通知书",
+        "整改",
+        "停工整改通知"
+      ],
+      "value_pool": [
+        "处理处罚文书种类",
+        "停工整改通知书",
+        "整改",
+        "停工整改通知"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "行政相对人名称",
+        "中国电建集团港航建设工程有限公司",
+        "浙江新东阳建设集团有限公司",
+        "清河建筑安装工程有限公司",
+        "兴润建设集团有限公司",
+        "鱼台县建筑工程有限公司",
+        "中国电建集团港航建设有限公司",
+        "济宁信诚达建筑工程有限公司",
+        "鱼台清河建筑安装工程有限公司",
+        "吉安市第四建筑工程有限公司",
+        "山东滕建建设集团有限公司",
+        "重庆建工集团有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cfzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "处罚种类",
+        "停工整改",
+        "种类",
+        "整改"
+      ],
+      "value_pool": [
+        "处罚种类",
+        "停工整改",
+        "种类",
+        "整改"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

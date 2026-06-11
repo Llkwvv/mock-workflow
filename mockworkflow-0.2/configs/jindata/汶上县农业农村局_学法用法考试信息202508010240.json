@@ -1,0 +1,148 @@
+{
+  "file_name": "汶上县农业农村局_学法用法考试信息202508010240.xlsx",
+  "table_name": "汶上县农业农村局_学法用法考试信息202508010240",
+  "row_count": 99,
+  "columns": [
+    "zcqk",
+    "姓名",
+    "dw",
+    "kssj",
+    "nd"
+  ],
+  "fields": [
+    {
+      "name": "zcqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已注册"
+      ],
+      "value_pool": [
+        "已注册"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "曹*",
+        "曹**",
+        "陈***",
+        "陈**",
+        "丁**",
+        "杜**",
+        "樊**",
+        "高*",
+        "郭**",
+        "韩***",
+        "韩**",
+        "何**",
+        "贺**",
+        "侯**",
+        "胡*",
+        "胡**",
+        "姬**",
+        "康**",
+        "来**",
+        "李***",
+        "李**",
+        "李*",
+        "林*",
+        "刘**",
+        "刘*",
+        "路**",
+        "罗**",
+        "吕***",
+        "马***",
+        "马*",
+        "马**",
+        "牛**",
+        "齐**",
+        "饶**",
+        "荣**",
+        "芮**",
+        "邵*",
+        "沈**",
+        "宋**",
+        "苏**",
+        "田**",
+        "王***",
+        "王**",
+        "韦**",
+        "韦*",
+        "辛*",
+        "信**",
+        "徐**",
+        "闫**",
+        "颜**",
+        "杨**",
+        "于*",
+        "苑*",
+        "张**",
+        "赵**",
+        "周**",
+        "朱**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "县农业农村局"
+      ],
+      "value_pool": [
+        "县农业农村局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "9月15日至30日"
+      ],
+      "value_pool": [
+        "9月15日至30日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2024"
+      ],
+      "value_pool": [
+        "2024"
+      ],
+      "min_value": 2024.0,
+      "max_value": 2024.0
+    }
+  ]
+}

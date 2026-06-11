@@ -1,0 +1,160 @@
+{
+  "file_name": "经开区建筑垃圾运输车辆临时许可信息202508010120.xlsx",
+  "table_name": "经开区建筑垃圾运输车辆临时许可信息202508010120",
+  "row_count": 21,
+  "columns": [
+    "yscl",
+    "yssx",
+    "xncs",
+    "ysgs",
+    "yswz"
+  ],
+  "fields": [
+    {
+      "name": "yscl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "3辆",
+        "2辆",
+        "7辆",
+        "13辆",
+        "10辆",
+        "1辆",
+        "5辆",
+        "8辆",
+        "2 辆",
+        "4辆"
+      ],
+      "value_pool": [
+        "3辆",
+        "2辆",
+        "7辆",
+        "13辆",
+        "10辆",
+        "1辆",
+        "5辆",
+        "8辆",
+        "2 辆",
+        "4辆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yssx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2020.4.8-2020.4.10",
+        "2020.4.24-2020.4.25",
+        "2020.6.2-2020.6.3",
+        "2020.8.3-2020.8.9",
+        "2020.8.11-2020.8.12",
+        "2020.8.11",
+        "2020.8.14",
+        "2020.8.17-2020.8.18",
+        "2020.8.26-2020.9.4",
+        "2020.8.28-2020.8.30",
+        "2020.9.1",
+        "2021.9.30",
+        "2021.10.2",
+        "2021.10.6",
+        "2021.10.9",
+        "2021.10.10",
+        "2021.10.11"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xncs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥",
+        "济宁",
+        "任山",
+        "英才苑",
+        "禾本堂",
+        "天泰城",
+        "南外环"
+      ],
+      "value_pool": [
+        "嘉祥",
+        "济宁",
+        "任山",
+        "英才苑",
+        "禾本堂",
+        "天泰城",
+        "南外环"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ysgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁市伟丰市政工程有限公司",
+        "济宁兴合土石方工程有限公司",
+        "济宁启航土石方工程有限公司",
+        "济宁共创建筑工程有限公司",
+        "济宁东鑫土石方工程有限公司",
+        "济宁嘉诚土石方有限公司",
+        "嘉祥金方渣土运输有限公司"
+      ],
+      "value_pool": [
+        "济宁市伟丰市政工程有限公司",
+        "济宁兴合土石方工程有限公司",
+        "济宁启航土石方工程有限公司",
+        "济宁共创建筑工程有限公司",
+        "济宁东鑫土石方工程有限公司",
+        "济宁嘉诚土石方有限公司",
+        "嘉祥金方渣土运输有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yswz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "建筑垃圾",
+        "石头",
+        "石头 水泥块",
+        "渣土",
+        "水泥块",
+        "煤矸石"
+      ],
+      "value_pool": [
+        "建筑垃圾",
+        "石头",
+        "石头 水泥块",
+        "渣土",
+        "水泥块",
+        "煤矸石"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

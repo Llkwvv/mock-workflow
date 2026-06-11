@@ -1,0 +1,145 @@
+{
+  "file_name": "回国_境_定居落户202507242144.xlsx",
+  "table_name": "回国_境_定居落户202507242144",
+  "row_count": 32,
+  "columns": [
+    "sfcnr",
+    "sqsj",
+    "sxcl",
+    "dq",
+    "sqr"
+  ],
+  "fields": [
+    {
+      "name": "sfcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "是",
+        "否"
+      ],
+      "value_pool": [
+        "是",
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxcl",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2020-04-08 00:00:00",
+        "2020-04-14 00:00:00",
+        "2020-04-15 00:00:00",
+        "2020-04-16 00:00:00",
+        "2020-04-17 00:00:00",
+        "2020-05-09 00:00:00",
+        "2020-05-10 00:00:00",
+        "2020-07-20 00:00:00",
+        "2020-10-28 00:00:00",
+        "2020-10-29 00:00:00",
+        "2020-10-30 00:00:00",
+        "2020-01-20 00:00:00",
+        "2020-01-17 00:00:00",
+        "2020-02-17 00:00:00",
+        "2020-02-21 00:00:00",
+        "2020-02-22 00:00:00",
+        "2020-05-15 00:00:00",
+        "2020-05-16 00:00:00",
+        "2020-02-25 00:00:00",
+        "2020-02-26 00:00:00",
+        "2020-03-20 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "LEFT(\"周峰\",19)",
+        "LEFT(\"刘彬\",19)",
+        "LEFT(\"孙桂珍\",19)",
+        "LEFT(\"吴凤鑫\",19)",
+        "LEFT(\"王金民\",19)",
+        "LEFT(\"齐艺力\",19)",
+        "LEFT(\"冯泽伟\",19)",
+        "LEFT(\"徐敬伟\",19)",
+        "LEFT(\"顾家宁\",19)",
+        "LEFT(\"贾旭\",19)",
+        "LEFT(\"曹立\",19)",
+        "LEFT(\"葛永亚\",19)",
+        "LEFT(\"于芳\",19)",
+        "LEFT(\"张维权\",19)",
+        "LEFT(\"姚明远\",19)",
+        "LEFT(\"任红波\",19)",
+        "LEFT(\"张建芳\",19)",
+        "LEFT(\"姜传建\",19)",
+        "LEFT(\"于晴晴\",19)",
+        "LEFT(\"刘豪杰\",19)",
+        "LEFT(\"郑甜甜\",19)",
+        "LEFT(\"史仍壮\",19)",
+        "LEFT(\"陈苏珍\",19)",
+        "LEFT(\"朱智康\",19)",
+        "冯*伟",
+        "徐*伟",
+        "顾*宁",
+        "贾*",
+        "曹*",
+        "葛*亚",
+        "于*",
+        "张*权"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

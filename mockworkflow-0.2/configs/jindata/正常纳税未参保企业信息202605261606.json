@@ -1,0 +1,121 @@
+{
+  "file_name": "正常纳税未参保企业信息202605261606.xlsx",
+  "table_name": "正常纳税未参保企业信息202605261606",
+  "row_count": 2,
+  "columns": [
+    "shxydmnsrsbh",
+    "xh",
+    "zs",
+    "nsrmc",
+    "lxdh",
+    "clrq",
+    "fzr"
+  ],
+  "fields": [
+    {
+      "name": "shxydmnsrsbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "91370826MA3MWH****",
+        "91370826MA3M9F****"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1282",
+        "1283"
+      ],
+      "min_value": 1282.0,
+      "max_value": 1283.0
+    },
+    {
+      "name": "zs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市微山县付村街道三尖寨村",
+        "山东省济宁市微山县付村街道小卜湾村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nsrmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山县卜野商贸有限公司",
+        "微山县铭扬贸易有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "1895409****",
+        "1356240****"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2018-03-31",
+        "2018-08-08"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "卜**",
+        "许**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

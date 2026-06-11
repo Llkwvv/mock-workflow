@@ -1,0 +1,144 @@
+{
+  "file_name": "公益性服务价格情况调查表202506271702.xlsx",
+  "table_name": "公益性服务价格情况调查表202506271702",
+  "row_count": 20,
+  "columns": [
+    "zdsfbz",
+    "jd",
+    "zgsfbz",
+    "sfxm",
+    "hylb"
+  ],
+  "fields": [
+    {
+      "name": "zdsfbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "1600元/年",
+        "3200元/年",
+        "无",
+        "400元/年",
+        "2元/课时",
+        "85元/套",
+        "4600元/年",
+        "1000元/年",
+        "130元/套",
+        "500/人.月",
+        "400/人.月",
+        "100元/具",
+        "40元/具",
+        "无相关信息"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "学前教育阶段",
+        "义务教育阶段",
+        "高中阶段",
+        "无"
+      ],
+      "value_pool": [
+        "学前教育阶段",
+        "义务教育阶段",
+        "高中阶段",
+        "无"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgsfbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "3600元/年",
+        "7200元/年",
+        "无",
+        "400元/年",
+        "2元/课时",
+        "120元/套",
+        "15000元/年",
+        "2400元/年",
+        "1600元/年",
+        "145元/套元/年",
+        "800/人.月",
+        "2000/人.月",
+        "232元/具",
+        "500元/具",
+        "无相关信息"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "公办幼儿园保教费",
+        "普惠性民办幼儿园保教费",
+        "其他非营利性民办幼儿园保教费",
+        "公办学校住宿费",
+        "公办学校课后服务费",
+        "公办学校学生装费",
+        "民办学校学费",
+        "民办学校住宿费",
+        "公办高中学费",
+        "公办高中住宿费",
+        "公办高中学生装费",
+        "非营利性民办高中学费",
+        "非营利性民办高中住宿费",
+        "床位费",
+        "护理费",
+        "遗体接运等基本服务收费",
+        "遗体整容等延伸服务收费",
+        "公益性公墓价格",
+        "公墓维护管理费",
+        "民办学校其他费用"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "教育行业",
+        "养老行业",
+        "殡葬行业"
+      ],
+      "value_pool": [
+        "教育行业",
+        "养老行业",
+        "殡葬行业"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

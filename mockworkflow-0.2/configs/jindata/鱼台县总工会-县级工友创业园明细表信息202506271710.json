@@ -1,0 +1,163 @@
+{
+  "file_name": "鱼台县总工会-县级工友创业园明细表信息202506271710.xlsx",
+  "table_name": "鱼台县总工会-县级工友创业园明细表信息202506271710",
+  "row_count": 33,
+  "columns": [
+    "sszj",
+    "dwmc",
+    "lxr",
+    "pxsj",
+    "jb"
+  ],
+  "fields": [
+    {
+      "name": "sszj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "罗屯",
+        "张黄",
+        "唐马",
+        "王鲁",
+        "鱼城",
+        "谷亭",
+        "李阁",
+        "老砦",
+        "王庙",
+        "清河",
+        "滨湖",
+        "经开区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台县茂盛谷物种植专业合作社",
+        "山东省鱼台县罗屯镇堽上村股份合作社",
+        "山东豆之味农业科技有限公司",
+        "济宁南阳湖湖产品有限公司",
+        "济宁六合包装有限公司",
+        "鱼台德馨建筑工程有限公司",
+        "山东东粮农业科技有限公司",
+        "济宁市清新食品有限公司",
+        "鱼台果盛果树种植有限公司",
+        "鱼台县孟运农业科技有限公司",
+        "鱼台长青环保能源有限公司",
+        "济宁惠尚服装有限公司",
+        "鱼台县田管稼植保技术服务专业合作社",
+        "鱼台县鼎信农产品有限公司",
+        "东福淡水鱼养殖专业合作社",
+        "济宁普悦环保科技有限公司",
+        "鱼台宏基商品混凝土有限公司",
+        "鱼台县玉腾水产品养殖专业合作社",
+        "济宁金慎米业有限公司",
+        "鱼台县旺余谷物种植专业合作社",
+        "宇泰市政工程有限责任公司",
+        "鱼台顺通水泥制品有限公司",
+        "山东鹤来香食品有限公司",
+        "济宁润恒工艺品有限公司",
+        "鱼台县善辉木耳种植专业合作社",
+        "山东楷腾水产有限公司",
+        "鱼台邦远农业科技有限公司",
+        "山东心传矿山机电设备有限公司",
+        "辣否（鱼台）龙虾有限公司",
+        "鱼台县三高机械有限公司",
+        "济宁市圣奥精细化工有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "闫玉萍",
+        "董卫国",
+        "贾建华",
+        "付强",
+        "陈宜秀",
+        "随见见",
+        "张欢",
+        "陈紫颖",
+        "吕玉峰",
+        "张传武",
+        "包荣杰",
+        "张艳丽",
+        "邵艳艳",
+        "李和军",
+        "路福利",
+        "孙知心",
+        "马孝东",
+        "张克玉",
+        "王拓",
+        "杨升华",
+        "潘梅香",
+        "梁帅",
+        "张旺",
+        "袁硕硕",
+        "刘立新",
+        "杨廷",
+        "李明辉",
+        "潘丹",
+        "臧丙寅",
+        "邢朋",
+        "马腾飞"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020年",
+        "2022年",
+        "2024年"
+      ],
+      "value_pool": [
+        "2020年",
+        "2022年",
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县级"
+      ],
+      "value_pool": [
+        "县级"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "file_name": "嘉祥县科学技术局_对上争取汇总信息202506241235.xlsx",
+  "table_name": "嘉祥县科学技术局_对上争取汇总信息202506241235",
+  "row_count": 40,
+  "columns": [
+    "zj",
+    "xm",
+    "lb",
+    "sszj",
+    "qymc"
+  ],
+  "fields": [
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "10万元",
+        "暂无",
+        "25万元",
+        "200万元",
+        "60万元",
+        "50万元",
+        "7.425万元",
+        "100万元",
+        "8万元",
+        "6万元",
+        "5万元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "无",
+        "院士工作站",
+        "2022年山东省科技型中小企业创新能力提升工程（第二批）项目",
+        "2022年济宁市重点研发计划立项项目",
+        "2023年济宁市重点研发计划立项项目",
+        "2024年济宁市重点研发计划立项项目"
+      ],
+      "value_pool": [
+        "无",
+        "院士工作站",
+        "2022年山东省科技型中小企业创新能力提升工程（第二批）项目",
+        "2022年济宁市重点研发计划立项项目",
+        "2023年济宁市重点研发计划立项项目",
+        "2024年济宁市重点研发计划立项项目"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "工业",
+        "农业"
+      ],
+      "value_pool": [
+        "工业",
+        "农业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sszj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "县经开区",
+        "嘉祥街道",
+        "纸坊镇",
+        "黄垓镇",
+        "梁宝寺镇",
+        "大张楼镇",
+        "孟姑集镇",
+        "卧龙山街道",
+        "万张街道",
+        "老僧堂镇",
+        "仲山镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东德丰重工有限公司",
+        "山东恒业金属制品有限公司",
+        "济宁宏迪车业有限公司",
+        "山东祥农专用车辆有限公司",
+        "山东益大新材料有限公司",
+        "山东世纪阳光科技有限公司",
+        "嘉祥新希望六和食品有限公司",
+        "山东周广胜木雕有限公司",
+        "山东远联化工股份有限公司",
+        "山东益大新材料股份有限公司",
+        "山东复大生物科技有限公司",
+        "济宁天久工贸有限公司",
+        "山东巨通机械有限公司",
+        "济宁蓝芯电子科技有限公司",
+        "山东盈和电子科技股份有限公司",
+        "济宁全成手套有限公司",
+        "济宁市安鸿新材料有限公司",
+        "山东圣丰种业科技有限公司",
+        "山东辰星医疗科技有限公司",
+        "山东易耘农业科技有限公司",
+        "山东晨光胶带有限公司",
+        "济宁祥泰和新材料有限公司",
+        "山东恒圣石墨科技有限公司",
+        "嘉祥正洋农业科技有限公司",
+        "山东世纪连泓新材料有限公司",
+        "嘉祥洪润电碳有限公司",
+        "山东嘉达装配式建筑科技有限责任公司",
+        "山东建华中兴手套股份有限公司",
+        "山东润正煤矿安全设备有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

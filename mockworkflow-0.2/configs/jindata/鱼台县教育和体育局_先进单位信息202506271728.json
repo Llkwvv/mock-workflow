@@ -1,0 +1,119 @@
+{
+  "file_name": "鱼台县教育和体育局_先进单位信息202506271728.xlsx",
+  "table_name": "鱼台县教育和体育局_先进单位信息202506271728",
+  "row_count": 21,
+  "columns": [
+    "bfjg",
+    "dwmc",
+    "bfrq",
+    "xd",
+    "rymc"
+  ],
+  "fields": [
+    {
+      "name": "bfjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县委县府",
+        "县委县政府"
+      ],
+      "value_pool": [
+        "县委县府",
+        "县委县政府"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台县第一中学",
+        "鱼台县实验中学",
+        "鱼台县李阁镇中心中学",
+        "鱼台县王庙镇中心中学",
+        "鱼台县职业中等专业学校",
+        "鱼台县第二实验中学",
+        "鱼台县王鲁镇中心中学",
+        "鱼台县唐马镇中心中学",
+        "鱼台县第二实验小学",
+        "李阁镇中心小学",
+        "鱼台县第五实验小学",
+        "鱼台县实验小学",
+        "鱼城镇中心小学",
+        "清河镇中心小学",
+        "鱼台县第二中学",
+        "鱼台县李阁镇中心小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bfrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44812",
+        "2024年度"
+      ],
+      "value_pool": [
+        "44812",
+        "2024年度"
+      ],
+      "min_value": 44812.0,
+      "max_value": 44812.0
+    },
+    {
+      "name": "xd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高中",
+        "中学",
+        "职高",
+        "小学"
+      ],
+      "value_pool": [
+        "高中",
+        "中学",
+        "职高",
+        "小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "教育教学先进单位",
+        "教育科研先进单位"
+      ],
+      "value_pool": [
+        "教育教学先进单位",
+        "教育科研先进单位"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

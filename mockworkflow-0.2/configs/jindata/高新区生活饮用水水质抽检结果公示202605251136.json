@@ -1,0 +1,109 @@
+{
+  "file_name": "高新区生活饮用水水质抽检结果公示202605251136.xlsx",
+  "table_name": "高新区生活饮用水水质抽检结果公示202605251136",
+  "row_count": 2,
+  "columns": [
+    "qyd",
+    "qyds",
+    "cjjg",
+    "xsq",
+    "ssjg",
+    "sjdw"
+  ],
+  "fields": [
+    {
+      "name": "qyd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "王因街道前竹亭水源地",
+        "王因街道后竹亭水源地"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyds",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "cjjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格"
+      ],
+      "value_pool": [
+        "合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "发展软环境保障局"
+      ],
+      "value_pool": [
+        "发展软环境保障局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "王因街道前竹亭",
+        "王因街道后竹亭"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

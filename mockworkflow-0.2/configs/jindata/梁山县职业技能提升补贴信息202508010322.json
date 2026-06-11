@@ -1,0 +1,157 @@
+{
+  "file_name": "梁山县职业技能提升补贴信息202508010322.xlsx",
+  "table_name": "梁山县职业技能提升补贴信息202508010322",
+  "row_count": 728,
+  "columns": [
+    "zslb",
+    "姓名",
+    "btlb",
+    "btze",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "zslb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "专业技术类",
+        "技能类"
+      ],
+      "value_pool": [
+        "专业技术类",
+        "技能类"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "薛**",
+        "张**",
+        "徐**",
+        "李**",
+        "冯*",
+        "孙**",
+        "关**",
+        "周**",
+        "任**",
+        "孙*",
+        "刘**",
+        "张*",
+        "谢**",
+        "吕**",
+        "李*",
+        "秦**",
+        "王**",
+        "尚*",
+        "林*",
+        "马**",
+        "马*",
+        "耿**",
+        "高*",
+        "贺**",
+        "邱**",
+        "唐**",
+        "艾**",
+        "庞**",
+        "梁**",
+        "何**",
+        "刘*",
+        "杨**",
+        "冯**",
+        "陈**",
+        "关*",
+        "仲**",
+        "续**",
+        "高**",
+        "殷**",
+        "薛*",
+        "白**",
+        "郭**",
+        "范**",
+        "吴**",
+        "贾**",
+        "肖*",
+        "郑**",
+        "黄**",
+        "邹**",
+        "仝**",
+        "石**",
+        "林**",
+        "盛**",
+        "苏*",
+        "王*",
+        "戴**",
+        "吕*",
+        "井**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "btlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "职业技能提升补贴"
+      ],
+      "value_pool": [
+        "职业技能提升补贴"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "btze",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1500",
+        "1000",
+        "2000"
+      ],
+      "value_pool": [
+        "1500",
+        "1000",
+        "2000"
+      ],
+      "min_value": 1000.0,
+      "max_value": 2000.0
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

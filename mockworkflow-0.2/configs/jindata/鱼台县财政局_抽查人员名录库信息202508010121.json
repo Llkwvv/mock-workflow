@@ -1,0 +1,132 @@
+{
+  "file_name": "鱼台县财政局_抽查人员名录库信息202508010121.xlsx",
+  "table_name": "鱼台县财政局_抽查人员名录库信息202508010121",
+  "row_count": 16,
+  "columns": [
+    "zfzh",
+    "gzgw",
+    "姓名",
+    "xb",
+    "zw"
+  ],
+  "fields": [
+    {
+      "name": "zfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "08-018893",
+        "08-027343",
+        "08-018891",
+        "08-018894",
+        "08-027346",
+        "08-018895",
+        "08-027344",
+        "08-018889",
+        "08-018890",
+        "08-018892",
+        "08-018897",
+        "08-018899",
+        "08-018902",
+        "202508-018893"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzgw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台县财政局办公室",
+        "鱼台县财政局预算绩效管理中心",
+        "鱼台县财政局法规税政科",
+        "鱼台县财政局财政监督办公室",
+        "鱼台县财政局财政投资评审中心",
+        "鱼台县财政局政府和社会资本合作中心",
+        "鱼台县财政局政府采购监管科",
+        "鱼台县财政局行政政法科",
+        "鱼台县财政局预算科",
+        "鱼台县财政局农业农村科",
+        "鱼台县国有资产事务中心",
+        "鱼台县财政局综合科",
+        "鱼台县财政局国资中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "范**",
+        "袁**",
+        "刘**",
+        "闵**",
+        "王**",
+        "任**",
+        "马**",
+        "侯**",
+        "张**",
+        "赵**",
+        "蒋**",
+        "杜**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "主任",
+        "科长",
+        "科员",
+        "副局长"
+      ],
+      "value_pool": [
+        "主任",
+        "科长",
+        "科员",
+        "副局长"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

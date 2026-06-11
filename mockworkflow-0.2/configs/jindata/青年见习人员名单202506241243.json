@@ -1,0 +1,196 @@
+{
+  "file_name": "青年见习人员名单202506241243.xlsx",
+  "table_name": "青年见习人员名单202506241243",
+  "row_count": 28,
+  "columns": [
+    "xsxm",
+    "xb",
+    "bz",
+    "xssfzh",
+    "jxkssj",
+    "jxjssj",
+    "jxdw"
+  ],
+  "fields": [
+    {
+      "name": "xsxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王*远",
+        "张*",
+        "李*",
+        "郑*丽",
+        "陈*",
+        "贾*扬",
+        "卞*勋",
+        "张*敏",
+        "周*淳",
+        "董*珠",
+        "李*清",
+        "张*倩",
+        "田*荣",
+        "卢*",
+        "常*珂",
+        "苏*",
+        "刘*阳",
+        "山*倩",
+        "商*君",
+        "刘*雨",
+        "闫*波",
+        "黄*幸",
+        "常*思",
+        "刘*俐",
+        "付*琴",
+        "张*静"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xssfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370829********171X",
+        "370882********5249",
+        "370829********4214",
+        "370829********0323",
+        "370829********0011",
+        "37082********0036",
+        "370829********6614",
+        "370829********392X",
+        "370829********0018",
+        "370829********2028",
+        "370829********0014",
+        "370829********3921",
+        "370829********0627",
+        "370829********2564",
+        "370829********4225",
+        "370829********2926",
+        "370811********3026",
+        "370829********5621",
+        "370829********3925",
+        "370829********3528",
+        "370829********6213",
+        "370829********0671",
+        "370811********2521",
+        "370829********1020",
+        "370829********204X",
+        "370829********3563",
+        "370826********6837",
+        "370829********1040"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jxkssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "20220301",
+        "20211101",
+        "20240101",
+        "20240601"
+      ],
+      "value_pool": [
+        "20220301",
+        "20211101",
+        "20240101",
+        "20240601"
+      ],
+      "min_value": 20211101.0,
+      "max_value": 20240601.0
+    },
+    {
+      "name": "jxjssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "20220831",
+        "20220430",
+        "20240630",
+        "20241130"
+      ],
+      "value_pool": [
+        "20220831",
+        "20220430",
+        "20240630",
+        "20241130"
+      ],
+      "min_value": 20220430.0,
+      "max_value": 20241130.0
+    },
+    {
+      "name": "jxdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥广播电视台",
+        "嘉祥萌山医院",
+        "嘉祥儿童医院"
+      ],
+      "value_pool": [
+        "嘉祥广播电视台",
+        "嘉祥萌山医院",
+        "嘉祥儿童医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "file_name": "微山县供销系统基层社和县直企业信息202504231529.xlsx",
+  "table_name": "微山县供销系统基层社和县直企业信息202504231529",
+  "row_count": 44,
+  "columns": [
+    "djzt",
+    "xh",
+    "ssdq",
+    "dwmc",
+    "fzr",
+    "djjg"
+  ],
+  "fields": [
+    {
+      "name": "djzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "在营"
+      ],
+      "value_pool": [
+        "在营"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "2023",
+        "2025"
+      ],
+      "value_pool": [
+        "2023",
+        "2025"
+      ],
+      "min_value": 2023.0,
+      "max_value": 2025.0
+    },
+    {
+      "name": "ssdq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "山东省"
+      ],
+      "value_pool": [
+        "山东省"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山县韩庄供销合作社",
+        "微山县彭口闸供销合作社",
+        "微山县塘湖供销合作社",
+        "微山县微山岛供销合作社",
+        "微山县昭阳供销合作社",
+        "微山县张楼供销合作社",
+        "微山县付村供销合作社",
+        "微山县留庄供销合作社",
+        "微山县两城供销合作社",
+        "微山县南阳供销合作社",
+        "微山县鲁桥供销合作社",
+        "微山县马坡供销合作社",
+        "微山县第二棉花加工厂",
+        "微山县供销加油总站",
+        "微山县供销商场",
+        "微山县土产物资总公司",
+        "微山县日用杂品总公司",
+        "微山县西平农资供应专业合作社",
+        "微山县城关综合服务总公司",
+        "微山县农业生产资料公司",
+        "微山县供销社再生资源公司",
+        "微山县供销社兴农服务站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "田*增",
+        "缪*峰",
+        "张*",
+        "魏*",
+        "孔*成",
+        "张*峰",
+        "马*远",
+        "李*访",
+        "徐*",
+        "唐*",
+        "常*慧",
+        "裴*明",
+        "李*敬",
+        "付*允",
+        "李*",
+        "殷*永",
+        "宋*锋",
+        "暂*",
+        "宋*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县市场监督管理局"
+      ],
+      "value_pool": [
+        "微山县市场监督管理局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

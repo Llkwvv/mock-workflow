@@ -1,0 +1,129 @@
+{
+  "file_name": "鱼台县金融发展服务中心_企业攀登信息202506271747.xlsx",
+  "table_name": "鱼台县金融发展服务中心_企业攀登信息202506271747",
+  "row_count": 32,
+  "columns": [
+    "jb",
+    "sfxw",
+    "nf",
+    "xsq",
+    "qy"
+  ],
+  "fields": [
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县级",
+        "市级"
+      ],
+      "value_pool": [
+        "县级",
+        "市级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfxw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "是",
+        "纳入小微"
+      ],
+      "value_pool": [
+        "否",
+        "是",
+        "纳入小微"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022",
+        "2024"
+      ],
+      "value_pool": [
+        "2022",
+        "2024"
+      ],
+      "min_value": 2022.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东辰龙药业有限公司",
+        "济宁市金泰利华化工科技有限公司",
+        "济宁安泰矿山设备制造有限公司",
+        "济宁康华机电科技有限公司",
+        "凯本金威特种化学品(济宁)有限公司",
+        "济宁峰润生物科技有限公司",
+        "济宁市圣奥精细化工有限",
+        "济宁康盛彩虹生物科技有限公司",
+        "济宁正鑫化工有限公司",
+        "济宁市益民化工厂",
+        "山东水发环境科技有限公司",
+        "山东宁大钢构有限公司",
+        "鱼台顺驰工贸有限公司",
+        "山东华泰光源有限公司",
+        "山东心传矿山机电设备有限公司",
+        "山东鱼台东源矿用设备有限责任公司",
+        "鱼台长青环保能源有限公司",
+        "山东美健健康防护用品有限公司",
+        "山东格瑞泰新材料有限公司",
+        "山东五子星矿用设备股份有限公司",
+        "济宁市碧海洗涤用品有限",
+        "济宁市昊通工程机械有限",
+        "山东鲁泰环保建材有限公司",
+        "山东鱼台县骏达工贸有限",
+        "济宁福利达精细化工有限",
+        "鱼台县三高机械有限公司",
+        "济宁凯特化工有限公司",
+        "济宁宏昌达新材料有限公司",
+        "山东济宁盛发焦化有限公司",
+        "山东鲁泰化学有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

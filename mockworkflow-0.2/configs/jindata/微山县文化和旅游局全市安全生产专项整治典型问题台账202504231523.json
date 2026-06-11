@@ -1,0 +1,276 @@
+{
+  "file_name": "微山县文化和旅游局全市安全生产专项整治典型问题台账202504231523.xlsx",
+  "table_name": "微山县文化和旅游局全市安全生产专项整治典型问题台账202504231523",
+  "row_count": 26,
+  "columns": [
+    "wtclqkdczgxqzgtyzdzkdxyyzzfktqgbjl",
+    "dxwtjyms",
+    "bcqydwmc",
+    "ccwtsj",
+    "ccwtdw",
+    "xh",
+    "wtssqkfl",
+    "bz",
+    "jhzgsx",
+    "sshyly"
+  ],
+  "fields": [
+    {
+      "name": "wtclqkdczgxqzgtyzdzkdxyyzzfktqgbjl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "限期整改",
+        "当场整改"
+      ],
+      "value_pool": [
+        "限期整改",
+        "当场整改"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dxwtjyms",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "涉水突发事故应急救援预案不全面",
+        "私拉乱接充电线",
+        "1、室内台阶缺少提醒标识；2、禁烟火标识偏少；3、部分电线未穿管；4、灭火器无月检卡；5、安全档案不健全；6、二楼包间上锁。",
+        "有上网人员抽烟现象",
+        "1、主殿前台阶缺少小心台阶提醒标识；2、私拉乱接电线一处。",
+        "1、无应急灯；2、无疏散指示标识",
+        "1、灭火器遮挡；2、私拉乱接电线一处",
+        "灭火器遮挡",
+        "配电箱无警示标识",
+        "企业自查台账未及时记录",
+        "企业培训记录签字系一人代签",
+        "进口处禁烟火标识不显著",
+        "望湖塔一楼安全出口无标识",
+        "望湖塔三层配电箱无警示标识",
+        "新入职员工未开展安全培训",
+        "员工安全培训试卷未批改、未赋分",
+        "私拉电线一条，用于风扇。",
+        "消防控制室灭火器无月检卡",
+        "灭火器未成对配置且无月检卡",
+        "厂房内门口灭火器未成对配置且遮挡",
+        "应急灯未通电，且用花线连接"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcqydwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山湖国家湿地公园",
+        "金森林KTV",
+        "腾辉网吧",
+        "探索网吧",
+        "蚂蚁电竞",
+        "朝阳洞",
+        "西平乡春蕾文体超市",
+        "两城育才文体店",
+        "微山县古籍印刷厂",
+        "微山县夏镇永新广告服务部",
+        "微子文化苑",
+        "阿玛尼KTV",
+        "微山县夏镇金宇书店",
+        "微山湖旅游区（微子文化园）",
+        "蚂蚁电竞网吧",
+        "微山岛荷润国际旅行社",
+        "网虫一族网吧",
+        "阿玛尼娱乐会所",
+        "育才文体书店",
+        "夏镇古籍印刷厂",
+        "夏镇文营办公用品店"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ccwtsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-07-17 00:00:00",
+        "2021-07-18 00:00:00",
+        "2021-07-27 00:00:00",
+        "2021-08-03 00:00:00",
+        "2021-08-10 00:00:00",
+        "2021-08-23 00:00:00",
+        "2021-08-24 00:00:00",
+        "2021-08-28 00:00:00",
+        "2021-09-06 00:00:00",
+        "2021-09-14 00:00:00",
+        "2021-09-19 00:00:00",
+        "2021-09-20 00:00:00",
+        "2021-09-21 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ccwtdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县文化和旅游局",
+        "微山县文旅局",
+        "县文旅局"
+      ],
+      "value_pool": [
+        "微山县文化和旅游局",
+        "微山县文旅局",
+        "县文旅局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "min_value": 1.0,
+      "max_value": 26.0
+    },
+    {
+      "name": "wtssqkfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "7.应急准备情况",
+        "1.单位主要负责人安全生产责任落实情况",
+        "5.组织职工全员参加隐患自查自纠情况",
+        "4.全员安全教育培训情况",
+        "3.安全风险辨识及管控情况"
+      ],
+      "value_pool": [
+        "7.应急准备情况",
+        "1.单位主要负责人安全生产责任落实情况",
+        "5.组织职工全员参加隐患自查自纠情况",
+        "4.全员安全教育培训情况",
+        "3.安全风险辨识及管控情况"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "旅游",
+        "文化",
+        "文物",
+        "新闻出版"
+      ],
+      "value_pool": [
+        "旅游",
+        "文化",
+        "文物",
+        "新闻出版"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jhzgsx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "限3日内整改完成",
+        "当场整改",
+        "限7日内整改完成",
+        "现场整改完成",
+        "限期整改"
+      ],
+      "value_pool": [
+        "限3日内整改完成",
+        "当场整改",
+        "限7日内整改完成",
+        "现场整改完成",
+        "限期整改"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sshyly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "文化和旅游"
+      ],
+      "value_pool": [
+        "文化和旅游"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "file_name": "鱼台县人口统计数据信息202512171317.xlsx",
+  "table_name": "鱼台县人口统计数据信息202512171317",
+  "row_count": 27,
+  "columns": [
+    "nd",
+    "zbmc",
+    "xqmc",
+    "jldw",
+    "sl",
+    "cjsj",
+    "gxsj"
+  ],
+  "fields": [
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2024",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "value_pool": [
+        "2024",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "min_value": 2016.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县常住人口",
+        "鱼台县城镇常住人口",
+        "鱼台县农村常住人口"
+      ],
+      "value_pool": [
+        "鱼台县常住人口",
+        "鱼台县城镇常住人口",
+        "鱼台县农村常住人口"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "万人"
+      ],
+      "value_pool": [
+        "万人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "41.19",
+        "18.93",
+        "22.26",
+        "45.19",
+        "17.57",
+        "27.62",
+        "45.32",
+        "18.51",
+        "26.81",
+        "45.62",
+        "19.52",
+        "26.1",
+        "45.67",
+        "19.99",
+        "25.68",
+        "42.0",
+        "18.11",
+        "23.89",
+        "42.14",
+        "18.58",
+        "23.56",
+        "41.65",
+        "18.68",
+        "22.97"
+      ],
+      "min_value": 17.57,
+      "max_value": 45.67
+    },
+    {
+      "name": "cjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-08-06 13:06:55.0",
+        "2025-08-02 10:27:17.0"
+      ],
+      "value_pool": [
+        "2024-08-06 13:06:55.0",
+        "2025-08-02 10:27:17.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-08-06 13:06:55.0",
+        "2024-10-24 19:45:44.0",
+        "2025-08-02 10:27:17.0"
+      ],
+      "value_pool": [
+        "2024-08-06 13:06:55.0",
+        "2024-10-24 19:45:44.0",
+        "2025-08-02 10:27:17.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

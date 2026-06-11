@@ -1,0 +1,111 @@
+{
+  "file_name": "微山县已收储放射源202506302128.csv",
+  "table_name": "微山县已收储放射源202506302128",
+  "row_count": 27,
+  "columns": [
+    "fsaqxkz",
+    "fsybm",
+    "ssdwmc",
+    "lb"
+  ],
+  "fields": [
+    {
+      "name": "fsaqxkz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鲁环辐证[08003]",
+        "鲁环辐证[08047]",
+        "鲁环辐证[08066]"
+      ],
+      "value_pool": [
+        "鲁环辐证[08003]",
+        "鲁环辐证[08047]",
+        "鲁环辐证[08066]"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fsybm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0098CS592934",
+        "0003CS592954",
+        "0109CS001965",
+        "0109CS001985",
+        "0207CS008884",
+        "RU9AM05354",
+        "RU9AM05364",
+        "0004Cs592894",
+        "0001Cs595724",
+        "0001Cs595694",
+        "0003Cs592884",
+        "0001Cs592924",
+        "0001Cs595704",
+        "0001Cs595714",
+        "0106Cs013534",
+        "0106Cs013544",
+        "0106Cs013554",
+        "0106Cs013564",
+        "0106Cs013574",
+        "0106Cs030605",
+        "0106Cs030615",
+        "RU07Am000234",
+        "RU07Am000244",
+        "0098CSA86605",
+        "0000CSA86585",
+        "0001AMA86614",
+        "0001AMA86624"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssdwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山崔庄煤矿有限责任公司",
+        "山东省七五生建煤矿",
+        "枣庄矿业集团新安煤业有限公司"
+      ],
+      "value_pool": [
+        "微山崔庄煤矿有限责任公司",
+        "山东省七五生建煤矿",
+        "枣庄矿业集团新安煤业有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "Ⅳ",
+        "Ⅴ"
+      ],
+      "value_pool": [
+        "Ⅳ",
+        "Ⅴ"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

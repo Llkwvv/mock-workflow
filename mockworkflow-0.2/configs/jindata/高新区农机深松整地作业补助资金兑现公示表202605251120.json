@@ -1,0 +1,125 @@
+{
+  "file_name": "高新区农机深松整地作业补助资金兑现公示表202605251120.xlsx",
+  "table_name": "高新区农机深松整地作业补助资金兑现公示表202605251120",
+  "row_count": 2,
+  "columns": [
+    "lxfs",
+    "bzjey",
+    "bzdx",
+    "zydd",
+    "bzbzym",
+    "jd",
+    "zymjm"
+  ],
+  "fields": [
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "189*****989",
+        "186*****888"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "15000.0"
+      ],
+      "value_pool": [
+        "15000.0"
+      ],
+      "min_value": 15000.0,
+      "max_value": 15000.0
+    },
+    {
+      "name": "bzdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东阳光惠农农业技术服务专业合作社联合社",
+        "济宁高新区缘丰种植专业合作社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zydd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "黄屯街道马庄村",
+        "黄屯街道于屯村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzbzym",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "30.0"
+      ],
+      "value_pool": [
+        "30.0"
+      ],
+      "min_value": 30.0,
+      "max_value": 30.0
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "王因街道"
+      ],
+      "value_pool": [
+        "王因街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zymjm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "500"
+      ],
+      "value_pool": [
+        "500"
+      ],
+      "min_value": 500.0,
+      "max_value": 500.0
+    }
+  ]
+}

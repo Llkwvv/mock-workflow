@@ -1,0 +1,150 @@
+{
+  "file_name": "鱼台县科技局_国家级高新技术企业名单信息202506271712.xlsx",
+  "table_name": "鱼台县科技局_国家级高新技术企业名单信息202506271712",
+  "row_count": 40,
+  "columns": [
+    "gsmc",
+    "sbdw",
+    "rdnd",
+    "xzqh",
+    "xh"
+  ],
+  "fields": [
+    {
+      "name": "gsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东津岳环保设备有限公司",
+        "济宁迈克瑞稀土有限公司",
+        "济宁正东化工有限公司",
+        "济宁福顺化工有限公司",
+        "鱼台县卧龙水泵制造有限公司",
+        "山东鼎跃矿山设备有限公司",
+        "济宁众力矿山设备制造有限公司",
+        "鱼台全力碾米机械有限公司",
+        "山东登海润农种业科技有限公司",
+        "济宁熹安科技有限公司",
+        "鱼台感创精密机械有限公司",
+        "济宁新伯伦网络科技有限公司",
+        "鱼台深华科技产品有限公司",
+        "鱼台明德环保科技有限公司",
+        "济宁安泰矿山设备制造有限公司",
+        "山东京泰耐磨材料有限公司",
+        "鱼台恒泰矿山设备制造有限公司",
+        "山东鱼台东源矿山设备有限公司",
+        "济宁金泰利华化工科技有限公司",
+        "济宁康盛彩虹生物科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县科技局"
+      ],
+      "value_pool": [
+        "鱼台县科技局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rdnd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021年度",
+        "2020年度"
+      ],
+      "value_pool": [
+        "2021年度",
+        "2020年度"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzqh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台"
+      ],
+      "value_pool": [
+        "鱼台"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "min_value": 1.0,
+      "max_value": 40.0
+    }
+  ]
+}

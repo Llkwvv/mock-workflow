@@ -1,0 +1,127 @@
+{
+  "file_name": "鱼台县司法局-律师表信息202508010119.xlsx",
+  "table_name": "鱼台县司法局-律师表信息202508010119",
+  "row_count": 14,
+  "columns": [
+    "zyjg",
+    "zyzh",
+    "xb",
+    "姓名",
+    "lxdh"
+  ],
+  "fields": [
+    {
+      "name": "zyjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东英和律师事务所",
+        "山东英辩律师事务所",
+        "山东方宇律师事务所",
+        "北京中银（济宁）律师事务所"
+      ],
+      "value_pool": [
+        "山东英和律师事务所",
+        "山东英辩律师事务所",
+        "山东方宇律师事务所",
+        "北京中银（济宁）律师事务所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zyzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "13708199710272215",
+        "13708199310156744",
+        "13708200210145245",
+        "13708200210162409",
+        "13708202110320799",
+        "13708200110617388",
+        "13708200510471845",
+        "13708199910617944",
+        "13708201210315828",
+        "13708201210959663",
+        "13708202210447662",
+        "13708201410718176",
+        "137082021103207**",
+        "137082001106173**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵**",
+        "王**",
+        "杨**",
+        "邓**",
+        "刘**",
+        "李**",
+        "田**",
+        "卢**",
+        "胡**",
+        "安**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "139****1607",
+        "138****2196",
+        "138****3995",
+        "138****0300",
+        "152****9091",
+        "155****1666",
+        "131****7948",
+        "131****6658",
+        "138****2566",
+        "134****6586",
+        "152****2638",
+        "152****3288"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "file_name": "汶上县农业农村局_肥料经营单位检查信息202507210933.xlsx",
+  "table_name": "汶上县农业农村局_肥料经营单位检查信息202507210933",
+  "row_count": 21,
+  "columns": [
+    "jcsj",
+    "jcdx",
+    "jcry",
+    "zj",
+    "jcnr"
+  ],
+  "fields": [
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "3月8日",
+        "4月16日",
+        "5月7日",
+        "6月18日"
+      ],
+      "value_pool": [
+        "3月8日",
+        "4月16日",
+        "5月7日",
+        "6月18日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县王旭农资店",
+        "汶上县次邱供销合作社生资门市部",
+        "汶上县郭仓供销合社农资一部",
+        "汶上县仓盛农资服务中心",
+        "汶上县鲁佳农资",
+        "米阳肥业科技（汶上）有限公司",
+        "山东济宁邦尔利工贸有限公司",
+        "济宁鼎鸿农业发展有限公司",
+        "汶上县马现金农资超市",
+        "汶上县农丰农资销售服务中心",
+        "汶上县润领农资销售部",
+        "汶上县庆中农资批发部",
+        "济宁联农商贸有限公司",
+        "汶上县农盛农资服务中心",
+        "汶上县绿大地农资销售部",
+        "济宁鸿源生物科技有限公司",
+        "山东悦地丰生物科技有限公司",
+        "济宁润物生物科技有限公司",
+        "汶上县乐丰农资销售部",
+        "汶上县圣农农化",
+        "济宁兴烨农资有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "梁吉歌、宋陆力、王宪磊、马俊军"
+      ],
+      "value_pool": [
+        "梁吉歌、宋陆力、王宪磊、马俊军"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "白石镇",
+        "次邱镇",
+        "郭仓镇",
+        "康驿镇",
+        "刘楼镇",
+        "南站街道",
+        "汶上街道",
+        "义桥镇",
+        "寅寺镇",
+        "苑庄镇",
+        "中都街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "肥料产品质量、包装标签、登记证号"
+      ],
+      "value_pool": [
+        "肥料产品质量、包装标签、登记证号"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

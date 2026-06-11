@@ -1,0 +1,109 @@
+{
+  "file_name": "微山县道路运输证补办公示信息202606041158.xlsx",
+  "table_name": "微山县道路运输证补办公示信息202606041158",
+  "row_count": 2,
+  "columns": [
+    "lxdh",
+    "yhmc",
+    "cpys",
+    "yhdz",
+    "xh",
+    "clhp"
+  ],
+  "fields": [
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "137****7729"
+      ],
+      "value_pool": [
+        "137****7729"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县春蕾物资贸易有限公司"
+      ],
+      "value_pool": [
+        "微山县春蕾物资贸易有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cpys",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "黄色"
+      ],
+      "value_pool": [
+        "黄色"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县夏镇东风路新河小区"
+      ],
+      "value_pool": [
+        "微山县夏镇东风路新河小区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "131",
+        "132"
+      ],
+      "min_value": 131.0,
+      "max_value": 132.0
+    },
+    {
+      "name": "clhp",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁HP**30",
+        "鲁HP**80"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

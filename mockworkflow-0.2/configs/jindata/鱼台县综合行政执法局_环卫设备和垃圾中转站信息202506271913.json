@@ -1,0 +1,141 @@
+{
+  "file_name": "鱼台县综合行政执法局_环卫设备和垃圾中转站信息202506271913.xlsx",
+  "table_name": "鱼台县综合行政执法局_环卫设备和垃圾中转站信息202506271913",
+  "row_count": 25,
+  "columns": [
+    "mc",
+    "fzr",
+    "sl",
+    "wz",
+    "ssgs"
+  ],
+  "fields": [
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "小型洒水车",
+        "大型洒水车",
+        "小型机动车",
+        "大型机扫车",
+        "雾炮车",
+        "护栏清洗车",
+        "压缩清运车",
+        "大勾臂清运车",
+        "小勾臂清运车",
+        "电动侧挂车",
+        "高压冲洗车",
+        "银都中转站",
+        "第三实小中转站",
+        "学府中转站",
+        "文昌中转站",
+        "大聂中转站",
+        "湖陵三路中转站",
+        "中达商贸城中转站",
+        "陈丙中转站",
+        "化肥厂中转站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "田平平",
+        "赵增增",
+        "田*平"
+      ],
+      "value_pool": [
+        "田平平",
+        "赵增增",
+        "田*平"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "4",
+        "5",
+        "2",
+        "1",
+        "6",
+        "3",
+        "7",
+        "8",
+        "9"
+      ],
+      "value_pool": [
+        "4",
+        "5",
+        "2",
+        "1",
+        "6",
+        "3",
+        "7",
+        "8",
+        "9"
+      ],
+      "min_value": 1.0,
+      "max_value": 9.0
+    },
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台县",
+        "鱼新一路、鱼新二路交叉口",
+        "鱼新三路",
+        "湖凌二路（学府小区南）",
+        "文昌路南头",
+        "北一环大聂小区路南",
+        "建设路与湖陵三路交叉口往北路西",
+        "观鱼大街与工业路交叉口西头路北",
+        "湖陵三路一中对过南大约200米",
+        "鱼新二路与振兴路交叉口",
+        "鱼台"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "龙吉顺鱼台分公司",
+        "龙吉顺公司"
+      ],
+      "value_pool": [
+        "龙吉顺鱼台分公司",
+        "龙吉顺公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

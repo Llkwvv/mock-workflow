@@ -1,0 +1,179 @@
+{
+  "file_name": "微山县农村公路养护检查信息202506271726.xlsx",
+  "table_name": "微山县农村公路养护检查信息202506271726",
+  "row_count": 29,
+  "columns": [
+    "jcry",
+    "jcqy",
+    "jcdw",
+    "jcrq",
+    "czwt",
+    "dlmc"
+  ],
+  "fields": [
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "田国、柳磊",
+        "张召福、田国"
+      ],
+      "value_pool": [
+        "田国、柳磊",
+        "张召福、田国"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "张楼镇",
+        "马坡镇",
+        "韩庄镇",
+        "夏镇街道",
+        "留庄镇",
+        "两城镇",
+        "西平镇",
+        "南阳镇",
+        "高楼乡"
+      ],
+      "value_pool": [
+        "张楼镇",
+        "马坡镇",
+        "韩庄镇",
+        "夏镇街道",
+        "留庄镇",
+        "两城镇",
+        "西平镇",
+        "南阳镇",
+        "高楼乡"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "养护中心",
+        "维护中心"
+      ],
+      "value_pool": [
+        "养护中心",
+        "维护中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-12-02",
+        "2021-10-15",
+        "2021-11-07",
+        "2021-11-01",
+        "2021-10-28",
+        "2021-05-23",
+        "2021-05-20",
+        "2021-05-21",
+        "2021-03-20",
+        "2021-05-24",
+        "2021-05-25",
+        "2021-05-26",
+        "2021-05-27",
+        "2021-05-22",
+        "2021-05-29",
+        "2021"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czwt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "有开挖污水沟现象",
+        "1处坑槽",
+        "标线不清晰",
+        "3处坑槽",
+        "危桥一处",
+        "栏杆损坏",
+        "无标志牌",
+        "缺少道口装",
+        "警示桩损坏",
+        "无",
+        "路面污染",
+        "路面破损",
+        "路面裂缝",
+        "路面标线缺失",
+        "护栏缺失",
+        "警示标志缺失",
+        "安保设施缺失",
+        "警示标志损坏",
+        "护栏破损",
+        "路面损坏"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "县乡道路",
+        "乡道Y158",
+        "乡道Y166",
+        "县道X093",
+        "北沙河大桥",
+        "Y134",
+        "Y176",
+        "杨堂桥",
+        "东风口",
+        "Y177",
+        "Y128",
+        "湖西堤",
+        "x032",
+        "x022",
+        "Y181",
+        "Y170",
+        "Y164",
+        "漫水桥",
+        "X081",
+        "郗山六村桥",
+        "Y183"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

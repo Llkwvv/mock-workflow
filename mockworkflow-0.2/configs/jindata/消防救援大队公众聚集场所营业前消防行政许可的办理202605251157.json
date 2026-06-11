@@ -1,0 +1,95 @@
+{
+  "file_name": "消防救援大队公众聚集场所营业前消防行政许可的办理202605251157.xlsx",
+  "table_name": "消防救援大队公众聚集场所营业前消防行政许可的办理202605251157",
+  "row_count": 2,
+  "columns": [
+    "sqrhdw",
+    "sxmc",
+    "sldw",
+    "ywzt",
+    "bjjg"
+  ],
+  "fields": [
+    {
+      "name": "sqrhdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市世纪歌声歌舞娱乐中心",
+        "酷咔库（济宁）文化娱乐有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "公众聚集场所投入使用、营业前消防安全检查"
+      ],
+      "value_pool": [
+        "公众聚集场所投入使用、营业前消防安全检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁市消防救援支队高新技术产业开发区大队"
+      ],
+      "value_pool": [
+        "济宁市消防救援支队高新技术产业开发区大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ywzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "济宁市世纪歌声歌舞娱乐中心",
+        "酷咔库（济宁）文化娱乐有限公司"
+      ],
+      "value_pool": [
+        "济宁市世纪歌声歌舞娱乐中心",
+        "酷咔库（济宁）文化娱乐有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已办结"
+      ],
+      "value_pool": [
+        "已办结"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "file_name": "机关事业单位职业年金退费登记信息202605251207.xlsx",
+  "table_name": "机关事业单位职业年金退费登记信息202605251207",
+  "row_count": 1,
+  "columns": [
+    "sfsh",
+    "姓名",
+    "je",
+    "sfdz",
+    "dw",
+    "blny",
+    "sfzhm",
+    "xh"
+  ],
+  "fields": [
+    {
+      "name": "sfsh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "je",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "-694.8"
+      ],
+      "min_value": -694.8,
+      "max_value": -694.8
+    },
+    {
+      "name": "sfdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山县第二人民医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blny",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "43937.485"
+      ],
+      "min_value": 43937.485,
+      "max_value": 43937.485
+    },
+    {
+      "name": "sfzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370826****"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "181"
+      ],
+      "min_value": 181.0,
+      "max_value": 181.0
+    }
+  ]
+}

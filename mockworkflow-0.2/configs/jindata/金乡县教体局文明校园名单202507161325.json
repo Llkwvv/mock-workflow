@@ -1,0 +1,84 @@
+{
+  "file_name": "金乡县教体局文明校园名单202507161325.xlsx",
+  "table_name": "金乡县教体局文明校园名单202507161325",
+  "row_count": 1,
+  "columns": [
+    "xsq",
+    "sj",
+    "hjmd",
+    "jc",
+    "jb"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjmd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县香城小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "文明校园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "县级"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

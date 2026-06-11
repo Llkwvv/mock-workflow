@@ -1,0 +1,152 @@
+{
+  "file_name": "济宁市乡土人才信息库202508010128.xlsx",
+  "table_name": "济宁市乡土人才信息库202508010128",
+  "row_count": 28,
+  "columns": [
+    "姓名",
+    "xb",
+    "zytc",
+    "rclx",
+    "ssxq"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "刘**",
+        "董*",
+        "齐**",
+        "卓**",
+        "周***",
+        "李*",
+        "周*",
+        "袁**",
+        "侯**",
+        "卢***",
+        "周**",
+        "任**",
+        "韩**",
+        "史**",
+        "汤**",
+        "王**",
+        "程**",
+        "岳*",
+        "孙**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zytc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "大蒜相关产业",
+        "　蔬菜大棚建设及花卉蔬菜繁育",
+        "农业机械",
+        "种鹅",
+        "医疗卫生",
+        "集约化育苗、植保技术服务和农民教育培训",
+        "食品加工",
+        "农业生产",
+        "金谷种植",
+        "山东琴书",
+        "　食用菌",
+        "电子商务+农业",
+        "种子繁育",
+        "大蒜进出口",
+        "蔬菜加工",
+        "食用菌",
+        "奶牛养殖",
+        "葡萄种植",
+        "小米种植",
+        "养殖业",
+        "村级事务管理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rclx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "经营型",
+        "技能带动型",
+        "社会服务型",
+        "生产型",
+        "新型职业农民",
+        "技术服务型"
+      ],
+      "value_pool": [
+        "经营型",
+        "技能带动型",
+        "社会服务型",
+        "生产型",
+        "新型职业农民",
+        "技术服务型"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县食品园区",
+        "金乡街道",
+        "金乡鸡黍",
+        "金乡卜集",
+        "金乡霄云",
+        "金乡王丕",
+        "金乡马庙",
+        "金乡化雨",
+        "金乡鱼山",
+        "金乡胡集",
+        "金乡开发区",
+        "金乡县开发区",
+        "金乡司马",
+        "金乡高河"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

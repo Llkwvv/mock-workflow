@@ -1,0 +1,130 @@
+{
+  "file_name": "微山县众联公司焊工持证人数名单信息202508010237.xlsx",
+  "table_name": "微山县众联公司焊工持证人数名单信息202508010237",
+  "row_count": 76,
+  "columns": [
+    "姓名",
+    "gsmc",
+    "dqsj",
+    "fzsj",
+    "czmc"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "殷**",
+        "**",
+        "王**",
+        "褚**",
+        "庞**",
+        "张**",
+        "曹**",
+        "张*",
+        "昝**",
+        "杨**",
+        "姚**",
+        "孙**",
+        "林**",
+        "王*",
+        "刘**",
+        "李**",
+        "韦**",
+        "华**",
+        "吴**",
+        "付*",
+        "马**",
+        "贾**",
+        "陈**",
+        "殷*",
+        "朱**",
+        "宋**",
+        "亓*",
+        "田*",
+        "刘*",
+        "周**",
+        "周*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "众联"
+      ],
+      "value_pool": [
+        "众联"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dqsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022.05.21",
+        "2023.02.25",
+        "2020.12.27"
+      ],
+      "value_pool": [
+        "2022.05.21",
+        "2023.02.25",
+        "2020.12.27"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2019.05.21",
+        "2020.02.25",
+        "2017.12.28"
+      ],
+      "value_pool": [
+        "2019.05.21",
+        "2020.02.25",
+        "2017.12.28"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "焊工"
+      ],
+      "value_pool": [
+        "焊工"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

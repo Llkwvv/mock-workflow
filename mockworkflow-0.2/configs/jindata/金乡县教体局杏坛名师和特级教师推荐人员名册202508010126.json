@@ -1,0 +1,141 @@
+{
+  "file_name": "金乡县教体局杏坛名师和特级教师推荐人员名册202508010126.xlsx",
+  "table_name": "金乡县教体局杏坛名师和特级教师推荐人员名册202508010126",
+  "row_count": 23,
+  "columns": [
+    "姓名",
+    "zc",
+    "xd",
+    "dw",
+    "rjxk"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "程**",
+        "李**",
+        "胡**",
+        "杨**",
+        "胥**",
+        "景**",
+        "张**",
+        "王**",
+        "***",
+        "刘**",
+        "**",
+        "周**",
+        "房**",
+        "赵*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "一级教师",
+        "讲师",
+        "高级教师"
+      ],
+      "value_pool": [
+        "一级教师",
+        "讲师",
+        "高级教师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高中",
+        "初中",
+        "小学",
+        "学前"
+      ],
+      "value_pool": [
+        "高中",
+        "初中",
+        "小学",
+        "学前"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县第一中学",
+        "金乡县第二中学",
+        "金乡职业中等专业学校",
+        "金乡县王杰中学",
+        "金乡县金曼克中学",
+        "金乡县卜集中学",
+        "金乡县王丕中学",
+        "金乡县教学研究室",
+        "金乡县育才学校",
+        "济宁教育学院附属小学",
+        "金乡县实验小学",
+        "金乡县春城小学",
+        "金乡县特殊教育学校",
+        "金乡县司马镇仇李小学",
+        "金乡县第二实验小学幼儿园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rjxk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "物理",
+        "数学",
+        "语文",
+        "计算机",
+        "道德与法治",
+        "体育",
+        "音乐",
+        "幼教"
+      ],
+      "value_pool": [
+        "物理",
+        "数学",
+        "语文",
+        "计算机",
+        "道德与法治",
+        "体育",
+        "音乐",
+        "幼教"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

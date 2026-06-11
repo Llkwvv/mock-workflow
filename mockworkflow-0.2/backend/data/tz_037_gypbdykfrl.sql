@@ -1,0 +1,13 @@
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('序号', '地区', '设备名称', '电压', '容量');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('1', '泰兴', '元竹祁利 5# 变', '10kV', '400');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('2', '泰兴', 'PMS_滨江龙港 5# 变', '10kV', '200');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('3', '泰兴', '南谢 3# 变', '10kV', '200');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('4', '兴化', 'PMS_荻垛土娄村 2# 变', '10kV', '200');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('5', '泰兴', '济川元庄 1# 变', '10kV', '400');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('6', '泰兴', '元竹扬江 6# 变', '10kV', '400');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('7', '兴化', 'PMS_合陈镇韩董 1# 变', '10kV', '200');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('8', '泰兴', '分界官庄 1# 变', '10kV', '400');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('9', '泰兴', 'PMS_新街顾庄寺 5# 变', '10kV', '200');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('10', '泰兴', 'PMS_虹桥清水 2# 综合变', '10kV', '200');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('11', '姜堰', '江村 3# 变', '10kV', '400');
+INSERT INTO `tz_037_gypbdykfrl` VALUES ('12', '泰兴', 'PMS_姚王殷王 3# 配变', '10kV', '200');

@@ -1,0 +1,141 @@
+{
+  "file_name": "农村人居环境整治信息202504231551.xlsx",
+  "table_name": "农村人居环境整治信息202504231551",
+  "row_count": 134,
+  "columns": [
+    "nf",
+    "bz",
+    "xzczmc",
+    "czlb",
+    "dq"
+  ],
+  "fields": [
+    {
+      "name": "nf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020年",
+        "2021年",
+        "2022年"
+      ],
+      "value_pool": [
+        "2020年",
+        "2021年",
+        "2022年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "省级美丽乡村、市级清洁村庄",
+        "市级美丽乡村、市级清洁村庄",
+        "市级清洁村庄",
+        "无",
+        "乡村振兴示范村"
+      ],
+      "value_pool": [
+        "省级美丽乡村、市级清洁村庄",
+        "市级美丽乡村、市级清洁村庄",
+        "市级清洁村庄",
+        "无",
+        "乡村振兴示范村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzczmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "吴家湾村",
+        "前石村",
+        "后李村",
+        "北王一村",
+        "北王二村",
+        "北王三村",
+        "李二村",
+        "倪庙村",
+        "后石村",
+        "陆桥村",
+        "崔院村",
+        "仙庄村",
+        "兴隆村",
+        "孙道口村",
+        "靳庄村",
+        "苏庄村",
+        "刘营村",
+        "孙庄村",
+        "姜庄村",
+        "栗河村",
+        "张西村",
+        "刘庄村",
+        "罗场村",
+        "齐营村",
+        "前李村",
+        "韩店村",
+        "郝楼村",
+        "孟井村",
+        "聂庄村",
+        "新闸村",
+        "辛店村",
+        "高庄村",
+        "朱庄村",
+        "秦庄村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "一类村",
+        "二类村",
+        "正在拆迁村"
+      ],
+      "value_pool": [
+        "一类村",
+        "二类村",
+        "正在拆迁村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "石桥镇"
+      ],
+      "value_pool": [
+        "石桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

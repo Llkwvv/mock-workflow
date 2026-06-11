@@ -1,0 +1,192 @@
+{
+  "file_name": "汶上县交通运输局_桥梁信息202506271739.xlsx",
+  "table_name": "汶上县交通运输局_桥梁信息202506271739",
+  "row_count": 21,
+  "columns": [
+    "qlcd",
+    "qlmc",
+    "qllx",
+    "qlkd",
+    "lxmc",
+    "xsq",
+    "qldj"
+  ],
+  "fields": [
+    {
+      "name": "qlcd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "31.0",
+        "44.0",
+        "25.0",
+        "126.0",
+        "988.0",
+        "10.0",
+        "22.0",
+        "38.8",
+        "20.0",
+        "12.5",
+        "80.0",
+        "49.0",
+        "50.0",
+        "86.0",
+        "65.0",
+        "34.2",
+        "40.0",
+        "29.0",
+        "32.0"
+      ],
+      "min_value": 10.0,
+      "max_value": 988.0
+    },
+    {
+      "name": "qlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "肖庄北桥",
+        "前岗北桥",
+        "后岗桥",
+        "前岗桥",
+        "梁济运河桥",
+        "寺前铺桥",
+        "苏桥桥",
+        "水店北桥",
+        "颜珠桥",
+        "大唐阳桥",
+        "邵老庄西桥",
+        "张桥桥",
+        "姬庄桥",
+        "李太口东桥",
+        "高庄桥",
+        "姬村桥",
+        "李集西桥",
+        "十里闸桥",
+        "孙庄桥",
+        "樊村桥",
+        "梁桥桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qllx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "小桥",
+        "中桥",
+        "大桥"
+      ],
+      "value_pool": [
+        "小桥",
+        "中桥",
+        "大桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qlkd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "10.0",
+        "8.0",
+        "16.0",
+        "3.5",
+        "8.5",
+        "9.1",
+        "9.5",
+        "13.0",
+        "11.0",
+        "6.5",
+        "4.5"
+      ],
+      "min_value": 3.5,
+      "max_value": 16.0
+    },
+    {
+      "name": "lxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "康驿镇李集西桥-薛庙西",
+        "通往前岗",
+        "张庄-后岗",
+        "寅寺窑厂-南站黄店南村",
+        "滨河大道",
+        "寺前三-寺前四",
+        "小邵-水店",
+        "前赵中一105国道",
+        "康驿镇西唐-济北旅游大道",
+        "次邱段庄-南站交管所",
+        "次邱-义桥",
+        "次邱镇姬庄东-次丘镇赵村",
+        "刘楼镇徐老庄-康驿李集",
+        "十里闸北村-寺前三村",
+        "张庄-西周庄",
+        "李海-樊村",
+        "次丘镇赵村-义桥乡张村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qldj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "一类",
+        "二类",
+        "三类"
+      ],
+      "value_pool": [
+        "一类",
+        "二类",
+        "三类"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

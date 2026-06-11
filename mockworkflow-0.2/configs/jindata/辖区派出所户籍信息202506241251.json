@@ -1,0 +1,143 @@
+{
+  "file_name": "辖区派出所户籍信息202506241251.xlsx",
+  "table_name": "辖区派出所户籍信息202506241251",
+  "row_count": 104,
+  "columns": [
+    "sfzbls",
+    "zxhks",
+    "sj",
+    "csdjs",
+    "snbds"
+  ],
+  "fields": [
+    {
+      "name": "sfzbls",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "6",
+        "10",
+        "8",
+        "13",
+        "17",
+        "11",
+        "7",
+        "4",
+        "5",
+        "2",
+        "9",
+        "3",
+        "12",
+        "47",
+        "258",
+        "151",
+        "20",
+        "14",
+        "15",
+        "19",
+        "23",
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 258.0
+    },
+    {
+      "name": "zxhks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "0",
+        "2",
+        "1",
+        "4",
+        "7",
+        "15",
+        "12"
+      ],
+      "value_pool": [
+        "0",
+        "2",
+        "1",
+        "4",
+        "7",
+        "15",
+        "12"
+      ],
+      "min_value": 0.0,
+      "max_value": 15.0
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "9999.99.99 00:00:00"
+      ],
+      "value_pool": [
+        "9999.99.99 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csdjs",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "1",
+        "2",
+        "0",
+        "4",
+        "3",
+        "5"
+      ],
+      "value_pool": [
+        "1",
+        "2",
+        "0",
+        "4",
+        "3",
+        "5"
+      ],
+      "min_value": 0.0,
+      "max_value": 5.0
+    },
+    {
+      "name": "snbds",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0",
+        "2",
+        "8",
+        "3",
+        "4",
+        "1",
+        "7",
+        "14",
+        "5",
+        "10",
+        "6"
+      ],
+      "min_value": 0.0,
+      "max_value": 14.0
+    }
+  ]
+}

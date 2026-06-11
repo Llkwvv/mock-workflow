@@ -1,0 +1,122 @@
+{
+  "file_name": "汶上县农业农村局_渔业人才教育信息202507210912.xlsx",
+  "table_name": "汶上县农业农村局_渔业人才教育信息202507210912",
+  "row_count": 22,
+  "columns": [
+    "ry",
+    "dw",
+    "lb",
+    "pxsc",
+    "nr"
+  ],
+  "fields": [
+    {
+      "name": "ry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "王庆龙",
+        "王建科",
+        "刘劲龙",
+        "刘爱菊",
+        "杜东阳",
+        "李 国",
+        "李立国",
+        "李利国",
+        "李若昌",
+        "李福利",
+        "杨锋",
+        "肖龙峰",
+        "宋垒",
+        "张勇",
+        "张曙光",
+        "邵作好",
+        "林亚",
+        "赵易龙",
+        "贾存胜",
+        "郭德根",
+        "廉加平",
+        "颜廷河"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "军屯乡",
+        "郭楼镇",
+        "次邱镇",
+        "苑庄镇",
+        "寅寺镇",
+        "康驿镇",
+        "中都街道",
+        "杨店镇",
+        "郭仓镇",
+        "刘楼镇",
+        "农业农村局",
+        "汶上街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "渔业"
+      ],
+      "value_pool": [
+        "渔业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxsc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2天"
+      ],
+      "value_pool": [
+        "2天"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "水产养殖主推技术"
+      ],
+      "value_pool": [
+        "水产养殖主推技术"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

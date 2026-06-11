@@ -1,0 +1,179 @@
+{
+  "file_name": "旅游市场专项整治行动情况202504231520.xlsx",
+  "table_name": "旅游市场专项整治行动情况202504231520",
+  "row_count": 23,
+  "columns": [
+    "jczfry",
+    "jcrq",
+    "jcxh",
+    "fzr",
+    "jycsmc",
+    "jczfryzjbh"
+  ],
+  "fields": [
+    {
+      "name": "jczfry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "张平、孙婷婷、张印成、孔祥恒"
+      ],
+      "value_pool": [
+        "张平、孙婷婷、张印成、孔祥恒"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44389",
+        "44393",
+        "44400",
+        "44407",
+        "44414",
+        "44415"
+      ],
+      "value_pool": [
+        "44389",
+        "44393",
+        "44400",
+        "44407",
+        "44414",
+        "44415"
+      ],
+      "min_value": 44389.0,
+      "max_value": 44415.0
+    },
+    {
+      "name": "jcxh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "min_value": 1.0,
+      "max_value": 23.0
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "温晓娟",
+        "田燕",
+        "殷延慈",
+        "殷茂发",
+        "王会会",
+        "刘青竹",
+        "燕经理",
+        "朱庚莉",
+        "姚颖",
+        "朱广云",
+        "刘晓燕",
+        "殷实",
+        "张武",
+        "朱海波",
+        "朱长春",
+        "杨磊",
+        "殷昭善",
+        "李峰",
+        "化明伟",
+        "李政治"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jycsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山县会友国际旅行社",
+        "微山县微山岛荷润国际旅行社",
+        "微山县渔民旅行社",
+        "微山为荷来旅行社有限公司",
+        "微山县运河国际旅游有限公司",
+        "山东微山湖国际旅行社有限公司",
+        "微山县湖光旅行社有限公司",
+        "微山梦圆旅行社有限公司",
+        "微山县子微国际旅行社",
+        "微山县红荷旅行社有限公司",
+        "微山县微山岛雨荷旅行社有限公司",
+        "微山县环游国际旅行社",
+        "微山县扬帆旅行社有限公司",
+        "微山县明珠国际旅行社有限公司",
+        "山东彩虹湾国际旅行社有限公司",
+        "微山县四道河旅游有限公司",
+        "微子林",
+        "微山湖文化园",
+        "大官民俗馆",
+        "微山湖国家湿地公园",
+        "渭河水街",
+        "欢城二级坝"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jczfryzjbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "150****1025、150****1003、150****1004、150****1028",
+        "150****1025、150****1003"
+      ],
+      "value_pool": [
+        "150****1025、150****1003、150****1004、150****1028",
+        "150****1025、150****1003"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

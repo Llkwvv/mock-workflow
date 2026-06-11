@@ -1,0 +1,84 @@
+{
+  "file_name": "金乡县教体局县优秀教师名单202507161351.xlsx",
+  "table_name": "金乡县教体局县优秀教师名单202507161351",
+  "row_count": 1,
+  "columns": [
+    "xsq",
+    "hjmd",
+    "cx",
+    "xx",
+    "sj"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjmd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "褚衍正"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "县直"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡一中："
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2019年"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

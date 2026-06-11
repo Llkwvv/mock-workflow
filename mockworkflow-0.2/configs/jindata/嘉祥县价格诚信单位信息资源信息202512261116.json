@@ -1,0 +1,94 @@
+{
+  "file_name": "嘉祥县价格诚信单位信息资源信息202512261116.xlsx",
+  "table_name": "嘉祥县价格诚信单位信息资源信息202512261116",
+  "row_count": 3,
+  "columns": [
+    "zch",
+    "tyshxydm",
+    "qyzwm",
+    "fzr",
+    "zs"
+  ],
+  "fields": [
+    {
+      "name": "zch",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370829200043352",
+        "370829000000514",
+        "370829200054167"
+      ],
+      "min_value": 370829000000514.0,
+      "max_value": 370829200054167.0
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370829MA3CH9AF76",
+        "91370829MA3CLP5F0G",
+        "91370829MA3DTL0N8F"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyzwm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁红宝物业服务有限公司",
+        "嘉祥嘉成物业服务有限公司",
+        "嘉祥县民安物业服务有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "高艳红",
+        "赵永新",
+        "曹红军"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市嘉祥县城兖兰西街322号（环保局西100米路南)",
+        "山东省济宁市嘉祥县嘉祥镇机场路6号",
+        "山东省济宁市嘉祥县梁宝寺镇曹东村北100米"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

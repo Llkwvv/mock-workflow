@@ -1,0 +1,108 @@
+{
+  "file_name": "金乡县教体局省属公费师范生安置情况一览表202508010123.xlsx",
+  "table_name": "金乡县教体局省属公费师范生安置情况一览表202508010123",
+  "row_count": 13,
+  "columns": [
+    "xk",
+    "bkdw",
+    "xq",
+    "姓名",
+    "sj"
+  ],
+  "fields": [
+    {
+      "name": "xk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "物理学",
+        "小学教育"
+      ],
+      "value_pool": [
+        "物理学",
+        "小学教育"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bkdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "高河中学",
+        "化雨中心小学",
+        "兴隆中心小学",
+        "鸡黍中心小学",
+        "鸡黍中学",
+        "霄云中心小学",
+        "马庙中心小学",
+        "羊山中心小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡"
+      ],
+      "value_pool": [
+        "金乡"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘**",
+        "宋**",
+        "王**",
+        "于**",
+        "张**",
+        "朱**",
+        "彭**",
+        "吴**",
+        "丁**",
+        "黄**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44075"
+      ],
+      "value_pool": [
+        "44075"
+      ],
+      "min_value": 44075.0,
+      "max_value": 44075.0
+    }
+  ]
+}

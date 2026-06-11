@@ -1,0 +1,316 @@
+{
+  "file_name": "金乡县农村公厕改建排查台账202512261134.xlsx",
+  "table_name": "金乡县农村公厕改建排查台账202512261134",
+  "row_count": 202,
+  "columns": [
+    "sfzdgcsyglzd",
+    "sffhjsbz",
+    "jssj",
+    "gcsfjg",
+    "zj",
+    "ztbjlcxsfgf",
+    "sftd",
+    "sfyrglbj",
+    "sftrsy",
+    "sf2x",
+    "czmc"
+  ],
+  "fields": [
+    {
+      "name": "sfzdgcsyglzd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sffhjsbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2019",
+        "2020"
+      ],
+      "value_pool": [
+        "2019",
+        "2020"
+      ],
+      "min_value": 2019.0,
+      "max_value": 2020.0
+    },
+    {
+      "name": "gcsfjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "正在建设",
+        "主体完工"
+      ],
+      "value_pool": [
+        "是",
+        "正在建设",
+        "主体完工"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼山街道",
+        "金乡街道",
+        "高河街道",
+        "鸡黍镇",
+        "胡集镇",
+        "化雨镇",
+        "马庙镇"
+      ],
+      "value_pool": [
+        "鱼山街道",
+        "金乡街道",
+        "高河街道",
+        "鸡黍镇",
+        "胡集镇",
+        "化雨镇",
+        "马庙镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ztbjlcxsfgf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sftd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "否"
+      ],
+      "value_pool": [
+        "是",
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfyrglbj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sftrsy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "是"
+      ],
+      "value_pool": [
+        "否",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sf2x",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "否"
+      ],
+      "value_pool": [
+        "是",
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "寻楼村",
+        "桑园村",
+        "苏楼村",
+        "北李村",
+        "张翟村",
+        "小赵楼村",
+        "孔楼",
+        "赵东",
+        "葛村",
+        "李桥",
+        "周庄村",
+        "窦堂",
+        "赵西",
+        "沙河杨村",
+        "小李楼",
+        "李双楼",
+        "赵台子",
+        "隋韩楼",
+        "周楼村",
+        "霍古村",
+        "王庄村",
+        "周楼",
+        "周庄",
+        "皮庄",
+        "大李庄",
+        "东李",
+        "单海",
+        "张寨",
+        "杨庄",
+        "辛庄",
+        "鸡黍",
+        "翟庙",
+        "吕庙",
+        "孙才元",
+        "宗营",
+        "朱楼",
+        "耿楼",
+        "西李",
+        "杜河",
+        "郭庙",
+        "郭庄",
+        "石佛",
+        "田口",
+        "徐庙",
+        "苏楼",
+        "前后盐",
+        "泰山庙",
+        "郑楼",
+        "南楼",
+        "牛庄",
+        "马集",
+        "袁庄",
+        "李海村",
+        "灵显庙村",
+        "李莫楼村",
+        "黄西村",
+        "胡集村",
+        "幸福家园",
+        "西郭村",
+        "王海村",
+        "宋屯村",
+        "安五王村",
+        "刘庄寨村",
+        "东刘村",
+        "黄东村",
+        "祥和家园",
+        "大孙楼村",
+        "董楼村",
+        "鱼山集村",
+        "化北村",
+        "北苏村",
+        "张楼村",
+        "苏坑村",
+        "吴海村",
+        "早立村",
+        "赵寨村",
+        "大周集村",
+        "姜楼村",
+        "曹庙村",
+        "李堂村",
+        "李申村",
+        "李官村",
+        "东孟村",
+        "周花楼村",
+        "北张村",
+        "北马村",
+        "刘堂村",
+        "车庙村",
+        "洪庙村",
+        "邵庄村",
+        "西刘楼村",
+        "咸古店村",
+        "肖楼村",
+        "小程楼村",
+        "杨关庄村",
+        "汤庄村",
+        "马庙村",
+        "田庄村",
+        "西王海村"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

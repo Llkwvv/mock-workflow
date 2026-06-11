@@ -1,0 +1,128 @@
+{
+  "file_name": "红十字会_救护员信息202508010123.xlsx",
+  "table_name": "红十字会_救护员信息202508010123",
+  "row_count": 16,
+  "columns": [
+    "fzrq",
+    "姓名",
+    "xgzdw",
+    "bh",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "fzrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021-07-25 00:00:00",
+        "2020-08-07",
+        "2019-11-30 00:00:00",
+        "2023年"
+      ],
+      "value_pool": [
+        "2021-07-25 00:00:00",
+        "2020-08-07",
+        "2019-11-30 00:00:00",
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵**",
+        "李**",
+        "任**",
+        "郑**",
+        "张**",
+        "姚**",
+        "黄**",
+        "许***",
+        "孙**",
+        "盛**",
+        "王***",
+        "杨**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xgzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台蓝天救援队",
+        "个体经营",
+        "山东美健健康防护用品有限公司",
+        "鱼台救援队"
+      ],
+      "value_pool": [
+        "鱼台蓝天救援队",
+        "个体经营",
+        "山东美健健康防护用品有限公司",
+        "鱼台救援队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "370827211978130000001",
+        "370827211982130000002",
+        "370827211976130000004",
+        "370827211996130000007",
+        "370827211968130000009",
+        "370827211990130000011",
+        "370827211981130000012",
+        "370827211978130000013",
+        "370827201977130000001",
+        "370827201982130000002",
+        "370827201982130000003",
+        "370827201984130000004",
+        "370827201983130000005",
+        "370827201980130000006",
+        "370827**********0001",
+        "3708272119781300000000003"
+      ],
+      "min_value": 3.7082720197713e+20,
+      "max_value": 3.7082721197813e+24
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

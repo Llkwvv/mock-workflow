@@ -1,0 +1,267 @@
+{
+  "file_name": "高新区临时救助信息202605251207.xlsx",
+  "table_name": "高新区临时救助信息202605251207",
+  "row_count": 15,
+  "columns": [
+    "sfzj",
+    "jtzz",
+    "sfjz",
+    "dxlb",
+    "jzje",
+    "jzrks",
+    "sqyy",
+    "jzfs",
+    "姓名",
+    "jtrks",
+    "jzyf",
+    "sfzh"
+  ],
+  "fields": [
+    {
+      "name": "sfzj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "洸河*****庭",
+        "柳行****村",
+        "柳行*****区",
+        "柳行******区",
+        "黄屯******村",
+        "黄屯*****村",
+        "黄屯****村",
+        "王因***村",
+        "王因****村",
+        "接庄****村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfjz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dxlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "低保",
+        "其他"
+      ],
+      "value_pool": [
+        "低保",
+        "其他"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "20000",
+        "7944",
+        "11916",
+        "7448",
+        "4965",
+        "12416",
+        "6752",
+        "10427",
+        "8937",
+        "5958"
+      ],
+      "min_value": 4965.0,
+      "max_value": 20000.0
+    },
+    {
+      "name": "jzrks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "1",
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "value_pool": [
+        "1",
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "min_value": 1.0,
+      "max_value": 5.0
+    },
+    {
+      "name": "sqyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "因病"
+      ],
+      "value_pool": [
+        "因病"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "现金"
+      ],
+      "value_pool": [
+        "现金"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "郑**",
+        "张**",
+        "孟**",
+        "王**",
+        "李**",
+        "丁*",
+        "孙**",
+        "杜**",
+        "董**",
+        "吕**",
+        "刘**",
+        "赵**",
+        "刘*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtrks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "1",
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "value_pool": [
+        "1",
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "min_value": 1.0,
+      "max_value": 5.0
+    },
+    {
+      "name": "jzyf",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2025-03"
+      ],
+      "value_pool": [
+        "2025-03"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********65",
+        "370811**********14",
+        "370102**********34",
+        "370811**********17",
+        "370811**********68",
+        "370882**********27",
+        "370822**********29",
+        "370882**********44",
+        "370822**********40",
+        "370882**********17",
+        "370822**********24",
+        "370882**********26",
+        "370822**********31",
+        "370811**********29",
+        "370811**********13"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "file_name": "鱼台县民政局_鱼台县慈善总会_朝阳助学_救助信息202508010154.xlsx",
+  "table_name": "鱼台县民政局_鱼台县慈善总会_朝阳助学_救助信息202508010154",
+  "row_count": 431,
+  "columns": [
+    "xq",
+    "nf",
+    "姓名",
+    "lb",
+    "xb",
+    "xm"
+  ],
+  "fields": [
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023"
+      ],
+      "value_pool": [
+        "2023"
+      ],
+      "min_value": 2023.0,
+      "max_value": 2023.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "侯**",
+        "姚**",
+        "闫**",
+        "刘**",
+        "任**",
+        "齐**",
+        "冯**",
+        "战**",
+        "周**",
+        "郝**",
+        "朱**",
+        "李**",
+        "袁**",
+        "车**",
+        "赵**",
+        "郑**",
+        "盖**",
+        "宋**",
+        "张**",
+        "古**",
+        "金**",
+        "凌**",
+        "陈**",
+        "杨**",
+        "玄**",
+        "卜**",
+        "贾**",
+        "马**",
+        "皮**",
+        "潘**",
+        "甄**",
+        "吕**",
+        "史**",
+        "宫**",
+        "唐**",
+        "郭**",
+        "屠**",
+        "殷**",
+        "聂**",
+        "董**",
+        "石**",
+        "田**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "高考新生",
+        "在校大学生",
+        "中学生"
+      ],
+      "value_pool": [
+        "高考新生",
+        "在校大学生",
+        "中学生"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "朝阳助学"
+      ],
+      "value_pool": [
+        "朝阳助学"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

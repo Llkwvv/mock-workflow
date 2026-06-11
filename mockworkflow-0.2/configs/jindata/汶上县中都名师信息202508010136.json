@@ -1,0 +1,148 @@
+{
+  "file_name": "汶上县中都名师信息202508010136.xlsx",
+  "table_name": "汶上县中都名师信息202508010136",
+  "row_count": 30,
+  "columns": [
+    "glq",
+    "jq",
+    "姓名",
+    "xx",
+    "rych",
+    "gbrq"
+  ],
+  "fields": [
+    {
+      "name": "glq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "三年"
+      ],
+      "value_pool": [
+        "三年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "第五届"
+      ],
+      "value_pool": [
+        "第五届"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "孔**",
+        "孙**",
+        "任**",
+        "刘**",
+        "张**",
+        "张***",
+        "杨***",
+        "李**",
+        "周***",
+        "夏**",
+        "栗**",
+        "姬**",
+        "郭**",
+        "郭***",
+        "高**",
+        "续***",
+        "梁**",
+        "黄**",
+        "程**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县第一实验中学",
+        "汶上县第四实验小学东关校区",
+        "汶上县第二实验小学",
+        "汶上县教师教育中心",
+        "白石镇中学",
+        "汶上圣泽中学",
+        "汶上县第一实验小学",
+        "义桥镇中学",
+        "郭楼镇中学",
+        "义桥镇中心小学",
+        "杨店镇大屯小学",
+        "郭仓镇中学",
+        "汶上县第四实验小学小楼校区",
+        "汶上县第三实验小学西门校区",
+        "郭楼镇中心小学",
+        "汶上县第一中学",
+        "汶上县第五实验小学东和园校区",
+        "汶上县素质教育基地",
+        "苑庄镇中学",
+        "汶上县高级职业技术学校",
+        "郭仓镇中心小学",
+        "汶上县第三实验小学吉市口校区",
+        "南站镇中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rych",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中都名师"
+      ],
+      "value_pool": [
+        "中都名师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gbrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44228"
+      ],
+      "value_pool": [
+        "44228"
+      ],
+      "min_value": 44228.0,
+      "max_value": 44228.0
+    }
+  ]
+}

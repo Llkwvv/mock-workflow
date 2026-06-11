@@ -1,0 +1,129 @@
+{
+  "file_name": "贫困人口健康状况202508010155.xlsx",
+  "table_name": "贫困人口健康状况202508010155",
+  "row_count": 483,
+  "columns": [
+    "姓名",
+    "cj",
+    "nf",
+    "dq",
+    "jkzk"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "荣**",
+        "李**",
+        "杨**",
+        "张**",
+        "徐**",
+        "杜**",
+        "许**",
+        "白**",
+        "邓**",
+        "魏**",
+        "陈**",
+        "司**",
+        "谢**",
+        "王**",
+        "梁**",
+        "何**",
+        "贾**",
+        "高**",
+        "袁**",
+        "朱**",
+        "刘**",
+        "孟**",
+        "马**",
+        "孙**",
+        "于**",
+        "桑**",
+        "祁**",
+        "冯**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020"
+      ],
+      "value_pool": [
+        "2020"
+      ],
+      "min_value": 2020.0,
+      "max_value": 2020.0
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "许庄街道"
+      ],
+      "value_pool": [
+        "许庄街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jkzk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "残疾,长期慢性病",
+        "残疾",
+        "长期慢性病",
+        "健康",
+        "长期慢性病,残疾",
+        "患有大病"
+      ],
+      "value_pool": [
+        "残疾,长期慢性病",
+        "残疾",
+        "长期慢性病",
+        "健康",
+        "长期慢性病,残疾",
+        "患有大病"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

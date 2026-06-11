@@ -1,0 +1,164 @@
+{
+  "file_name": "高新区计量标准器具核准信息202605251210.xlsx",
+  "table_name": "高新区计量标准器具核准信息202605251210",
+  "row_count": 4,
+  "columns": [
+    "yxrq",
+    "bfrq",
+    "jlbzmc",
+    "sqrmc",
+    "lxr",
+    "jgdm",
+    "电话",
+    "sqlb",
+    "zsbh"
+  ],
+  "fields": [
+    {
+      "name": "yxrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2029-07-15"
+      ],
+      "value_pool": [
+        "2029-07-15"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bfrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-07-16"
+      ],
+      "value_pool": [
+        "2024-07-16"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jlbzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "电压互感器检定装置",
+        "三相电能表检定装置",
+        "电流互感器检定装置",
+        "单相交流电能表检定装置"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "国网山东省电力公司济宁供电公司"
+      ],
+      "value_pool": [
+        "国网山东省电力公司济宁供电公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "赵*"
+      ],
+      "value_pool": [
+        "赵*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "913708001659213936"
+      ],
+      "value_pool": [
+        "913708001659213936"
+      ],
+      "min_value": 9.13708001659214e+17,
+      "max_value": 9.13708001659214e+17
+    },
+    {
+      "name": "电话",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "178*****219"
+      ],
+      "value_pool": [
+        "178*****219"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "发证"
+      ],
+      "value_pool": [
+        "发证"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zsbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "[2024]高量标证字第002号",
+        "[2024]高量标证字第003号",
+        "[2024]高量标证字第004号",
+        "[2024]高量标证字第005号"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

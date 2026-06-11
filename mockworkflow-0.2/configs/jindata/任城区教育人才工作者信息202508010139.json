@@ -1,0 +1,143 @@
+{
+  "file_name": "任城区教育人才工作者信息202508010139.xlsx",
+  "table_name": "任城区教育人才工作者信息202508010139",
+  "row_count": 23,
+  "columns": [
+    "xb",
+    "rych",
+    "bfsj",
+    "姓名",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rych",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省齐鲁名师（第四届）",
+        "济宁市杏坛名师（第六届）",
+        "济宁市杏坛名师（第五届）",
+        "山东省优秀教师",
+        "山东省特级教师",
+        "齐鲁名师",
+        "齐鲁最美教师",
+        "齐鲁教育名家"
+      ],
+      "value_pool": [
+        "山东省齐鲁名师（第四届）",
+        "济宁市杏坛名师（第六届）",
+        "济宁市杏坛名师（第五届）",
+        "山东省优秀教师",
+        "山东省特级教师",
+        "齐鲁名师",
+        "齐鲁最美教师",
+        "齐鲁教育名家"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bfsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2019",
+        "2020",
+        "2018",
+        "2024年"
+      ],
+      "value_pool": [
+        "2019",
+        "2020",
+        "2018",
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "郝**",
+        "张**",
+        "柴**",
+        "秦**",
+        "李**",
+        "卢**",
+        "杨**",
+        "王**",
+        "刘**",
+        "崔**",
+        "韩**",
+        "高***",
+        "刘***",
+        "孙**",
+        "******",
+        "****",
+        "时**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市任城区二十里铺中心小学",
+        "济宁市任城实验小学",
+        "济宁市任城幼儿园",
+        "济宁市任兴幼儿园",
+        "济宁市运河实验中学",
+        "济宁市实验小学",
+        "济宁市实验中学",
+        "济宁市南池小学",
+        "济宁市文昌阁小学",
+        "济宁市任城区南张中心小学",
+        "济宁市第七中学",
+        "济宁市第十三中学",
+        "济宁市任城区南张中学",
+        "济宁市第二中学",
+        "济宁市任城区喻屯第一中学",
+        "济宁市任城区李营中心小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

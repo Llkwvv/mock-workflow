@@ -1,0 +1,94 @@
+{
+  "file_name": "嘉祥县统计局-房地产开发投信息202512261126.xlsx",
+  "table_name": "嘉祥县统计局-房地产开发投信息202512261126",
+  "row_count": 3,
+  "columns": [
+    "zblx",
+    "bzytzzew1",
+    "nf",
+    "fdckftzwy",
+    "zbmc"
+  ],
+  "fields": [
+    {
+      "name": "zblx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "房地产开发投"
+      ],
+      "value_pool": [
+        "房地产开发投"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzytzzew1",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "100.0",
+        "90.0",
+        "2.4"
+      ],
+      "min_value": 2.4,
+      "max_value": 100.0
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019"
+      ],
+      "value_pool": [
+        "2019"
+      ],
+      "min_value": 2019.0,
+      "max_value": 2019.0
+    },
+    {
+      "name": "fdckftzwy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "348214",
+        "313404",
+        "8348"
+      ],
+      "min_value": 8348.0,
+      "max_value": 348214.0
+    },
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "本年完成投资",
+        "住宅投资",
+        "90平方米以下住宅投资"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "file_name": "鱼台县检验检测中心_项目信息202506241256.xlsx",
+  "table_name": "鱼台县检验检测中心_项目信息202506241256",
+  "row_count": 169,
+  "columns": [
+    "bzmc",
+    "csxh",
+    "bzdh",
+    "xmcsmc",
+    "lm"
+  ],
+  "fields": [
+    {
+      "name": "bzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "蔬菜和水果中有机磷、有机氯、拟除虫菊酯和氨基甲酸酯类农药多残留的测定",
+        "蔬菜和水果中有机磷、有机氯、拟除虫菊酯和氨基甲酸酯类农药多残留的测定第一部分第二法",
+        "蔬菜和水果中有机磷、有机氯、拟除虫菊酯和氨基甲酸酯类农药多残留的测定第二部分第二法"
+      ],
+      "value_pool": [
+        "蔬菜和水果中有机磷、有机氯、拟除虫菊酯和氨基甲酸酯类农药多残留的测定",
+        "蔬菜和水果中有机磷、有机氯、拟除虫菊酯和氨基甲酸酯类农药多残留的测定第一部分第二法",
+        "蔬菜和水果中有机磷、有机氯、拟除虫菊酯和氨基甲酸酯类农药多残留的测定第二部分第二法"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csxh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "min_value": 1.0,
+      "max_value": 11.0
+    },
+    {
+      "name": "bzdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "NY/T 761-2008"
+      ],
+      "value_pool": [
+        "NY/T 761-2008"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmcsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "茄果类蔬菜",
+        "毒死蜱",
+        "三唑磷",
+        "甲拌磷",
+        "杀螟硫磷",
+        "甲胺磷",
+        "久效磷",
+        "联苯菊酯",
+        "氯氟氰菊酯",
+        "百菌清",
+        "甲氰菊酯",
+        "叶菜类蔬菜",
+        "豆类蔬菜",
+        "瓜类蔬菜",
+        "甘蓝类蔬菜",
+        "食用菌",
+        "根茎类蔬菜",
+        "芸苔属类蔬菜",
+        "蔬菜和水果",
+        "水生类蔬菜"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "第一部分",
+        "第二部分",
+        "第三部分",
+        "第四部分",
+        "第五部分",
+        "第六部分",
+        "第七部分",
+        "第八部分",
+        "第九部分",
+        "第十部分"
+      ],
+      "value_pool": [
+        "第一部分",
+        "第二部分",
+        "第三部分",
+        "第四部分",
+        "第五部分",
+        "第六部分",
+        "第七部分",
+        "第八部分",
+        "第九部分",
+        "第十部分"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

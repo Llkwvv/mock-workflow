@@ -1,0 +1,144 @@
+{
+  "file_name": "鱼台县金融发展服务中心_银行保险机构联系方式信息202506271704.xlsx",
+  "table_name": "鱼台县金融发展服务中心_银行保险机构联系方式信息202506271704",
+  "row_count": 22,
+  "columns": [
+    "yhmc",
+    "lxdh",
+    "lxry",
+    "zw",
+    "nf"
+  ],
+  "fields": [
+    {
+      "name": "yhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "农发行",
+        "工商银行",
+        "农业银行",
+        "中国银行",
+        "建设银行",
+        "农商银行",
+        "邮政储蓄银行",
+        "济宁银行",
+        "青隆村镇银行",
+        "中国人寿",
+        "人保财险"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "6217085",
+        "6218041",
+        "6211571",
+        "6211922",
+        "6167268",
+        "5167272",
+        "6212518",
+        "6212961",
+        "6256956",
+        "6211873",
+        "6222236",
+        "6218155",
+        "6212208",
+        "6317035",
+        "6258399",
+        "6012222",
+        "6588789",
+        "6588708",
+        "6215648",
+        "6219688",
+        "62***99",
+        "60***22"
+      ],
+      "min_value": 5167272.0,
+      "max_value": 6588789.0
+    },
+    {
+      "name": "lxry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "艾永青",
+        "岳栋梁",
+        "邵 闻",
+        "曹连民",
+        "李浩",
+        "马兆海",
+        "周波波",
+        "王思伟",
+        "李忠",
+        "宋奎",
+        "李本志",
+        "刘保泉",
+        "张梁民",
+        "李敏",
+        "屈跃敏",
+        "密晨晨",
+        "王聚滨",
+        "宋丽",
+        "李钢",
+        "王倩",
+        "张*珊",
+        "袁*宇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "行长",
+        "办公室主任"
+      ],
+      "value_pool": [
+        "行长",
+        "办公室主任"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022",
+        "2024"
+      ],
+      "value_pool": [
+        "2022",
+        "2024"
+      ],
+      "min_value": 2022.0,
+      "max_value": 2024.0
+    }
+  ]
+}

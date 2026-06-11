@@ -1,0 +1,213 @@
+{
+  "file_name": "放射工作人员证信息202507210939.xlsx",
+  "table_name": "放射工作人员证信息202507210939",
+  "row_count": 34,
+  "columns": [
+    "gzgw",
+    "zyzszldm",
+    "czzmc",
+    "fzjg",
+    "fzrq",
+    "dwdz",
+    "gzdw",
+    "yb"
+  ],
+  "fields": [
+    {
+      "name": "gzgw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "放射科",
+        "影像科",
+        "脊柱外科",
+        "介入科",
+        "神经外科",
+        "急诊科",
+        "血管外科"
+      ],
+      "value_pool": [
+        "放射科",
+        "影像科",
+        "脊柱外科",
+        "介入科",
+        "神经外科",
+        "急诊科",
+        "血管外科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zyzszldm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2A",
+        "2B",
+        "2E"
+      ],
+      "value_pool": [
+        "2A",
+        "2B",
+        "2E"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "鲁**",
+        "于**",
+        "王*",
+        "金**",
+        "陈**",
+        "王**",
+        "张**",
+        "赵*",
+        "奚**",
+        "岳**",
+        "李**",
+        "周**",
+        "晁**",
+        "伊**",
+        "孔**",
+        "郝*",
+        "韩**",
+        "姚**",
+        "刘*",
+        "邵**",
+        "高**",
+        "黄*",
+        "马**",
+        "范**",
+        "郭**",
+        "阮**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县卫生健康局"
+      ],
+      "value_pool": [
+        "嘉祥县卫生健康局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-08-06",
+        "2024-07-01",
+        "2024-10-12",
+        "2024-10-14",
+        "2024-11-05",
+        "2025-03-06",
+        "2025-04-16",
+        "2025-07-09",
+        "2025-03-10",
+        "2025-07-14",
+        "2025-07-15",
+        "2025-07-10",
+        "2024-11-11",
+        "2024-11-29",
+        "2025-05-15",
+        "2025-04-22",
+        "2024-12-16"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县中医院",
+        "嘉祥县马村卫生院",
+        "嘉祥县汇宠动物诊疗中心",
+        "嘉祥惠民医院",
+        "嘉祥祥和护理院",
+        "嘉祥县人民医院",
+        "嘉祥贾寿景口腔诊所",
+        "嘉祥街道社区卫生服务中心",
+        "嘉祥惠众口腔医疗有限公司口腔诊所",
+        "嘉祥县万张街道卫生院",
+        "嘉祥耳鼻喉医院",
+        "嘉祥县满硐镇卫生院",
+        "嘉祥诚和医院",
+        "嘉祥县卧龙山中心卫生院",
+        "嘉祥祥城医疗有限公司口腔诊所",
+        "嘉祥汉喜口腔门诊部有限公司",
+        "嘉祥纸坊隋庄中医综合诊所",
+        "嘉祥县老僧堂镇卫生院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "272400"
+      ],
+      "value_pool": [
+        "272400"
+      ],
+      "min_value": 272400.0,
+      "max_value": 272400.0
+    }
+  ]
+}

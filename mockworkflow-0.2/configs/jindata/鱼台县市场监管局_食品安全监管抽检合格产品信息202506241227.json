@@ -1,0 +1,164 @@
+{
+  "file_name": "鱼台县市场监管局_食品安全监管抽检合格产品信息202506241227.xlsx",
+  "table_name": "鱼台县市场监管局_食品安全监管抽检合格产品信息202506241227",
+  "row_count": 24,
+  "columns": [
+    "rwly",
+    "fl",
+    "spmc",
+    "bcydwmc",
+    "cybh",
+    "scrq"
+  ],
+  "fields": [
+    {
+      "name": "rwly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县市场监督管理局"
+      ],
+      "value_pool": [
+        "鱼台县市场监督管理局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "食用农产品",
+        "食用农产品类"
+      ],
+      "value_pool": [
+        "食用农产品",
+        "食用农产品类"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "菠菜",
+        "辣椒",
+        "西红柿",
+        "奶白菜",
+        "绿豆芽",
+        "黄豆芽",
+        "大白菜",
+        "油桃",
+        "苹果",
+        "杏",
+        "葡萄",
+        "鸡蛋",
+        "油菜",
+        "豇豆",
+        "生猪肉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcydwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县马斌蔬菜批发部",
+        "鱼台县洪明杂粮门市部",
+        "鱼台县房帅蔬菜批发部",
+        "鱼台县王好河水果批发部",
+        "鱼台县白云饭店",
+        "鱼台县相卿酒楼",
+        "鱼台县喜乐副食门市部"
+      ],
+      "value_pool": [
+        "鱼台县马斌蔬菜批发部",
+        "鱼台县洪明杂粮门市部",
+        "鱼台县房帅蔬菜批发部",
+        "鱼台县王好河水果批发部",
+        "鱼台县白云饭店",
+        "鱼台县相卿酒楼",
+        "鱼台县喜乐副食门市部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cybh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "NCP21370827438130637",
+        "NCP21370827438130638",
+        "NCP21370827438130639",
+        "NCP21370827438130640",
+        "NCP21370827438130641",
+        "NCP21370827438130642",
+        "NCP21370827438130643",
+        "NCP21370827438130644",
+        "NCP21370827438130645",
+        "NCP21370827438130646",
+        "NCP21370827438130647",
+        "NCP21370827438130843",
+        "NCP21370827438130844",
+        "NCP21370827438130845",
+        "NCP21370827438130846",
+        "NCP21370827438130847",
+        "NCP21370827438130848",
+        "NCP21370827438130849",
+        "NCP21370827438130850",
+        "NCP21370827438130851",
+        "NCP21370827438130896",
+        "NCP213708274381306**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021-05-18",
+        "2021-05-17",
+        "2021-05-16",
+        "2021-05-15",
+        "2025-05-18 00:00:00"
+      ],
+      "value_pool": [
+        "2021-05-18",
+        "2021-05-17",
+        "2021-05-16",
+        "2021-05-15",
+        "2025-05-18 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "file_name": "节约用水检查信息202507242146.xlsx",
+  "table_name": "节约用水检查信息202507242146",
+  "row_count": 38,
+  "columns": [
+    "qymc",
+    "jcry",
+    "jcsj",
+    "jcx",
+    "jcnr"
+  ],
+  "fields": [
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东晨阳新型碳材料股份有限公司",
+        "山东济宁心心酒业有限公司",
+        "山东宁大建设集团有限公司",
+        "山东鲁宝橡塑管带有限公司",
+        "济宁四通工程机械有限公司",
+        "济宁利客商贸有限公司",
+        "济宁市高级职业技术学校",
+        "济宁市任城区京杭水泥制管厂",
+        "济宁正昊包装制品有限公司",
+        "济宁老年血管病医院",
+        "山东山矿机械有限公司",
+        "山东伟龙有限公司",
+        "济宁鲁鑫油脂有限公司",
+        "济宁明珠建筑工程有限公司",
+        "济宁市金牛机械有限公司",
+        "济宁市公共卫生医疗中心",
+        "济宁华申工程机械有限公司",
+        "济宁璐璐畅新型建材有限公司",
+        "山东爱福地生物股份有限公司",
+        "山东圣鹏科技有限公司",
+        "济宁何岗煤矿",
+        "济宁家庆专用车（集团）有限公司",
+        "山东博通新能源有限公司",
+        "济宁中森环保科技有限公司",
+        "济宁市快捷机动车检测有限公司",
+        "济宁市西城机动车驾驶员培训有限公司",
+        "山东义之缘酒业有限公司",
+        "济宁盛唐能源有限公司",
+        "山东北速食品有限公司",
+        "济宁交运集团汽车有限公司",
+        "济宁市任城区中海洋加油站",
+        "济宁三联木业有限公司",
+        "济宁市北城软木厂",
+        "济宁合众砼业有限公司",
+        "济宁市鑫良建材有限公司",
+        "济宁三强乳业有限公司",
+        "山东添禧食品有限公司",
+        "山东玉堂酱园有限责任公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2人"
+      ],
+      "value_pool": [
+        "2人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "45015",
+        "45016",
+        "45019",
+        "45022",
+        "45055",
+        "45051",
+        "45062",
+        "45090",
+        "45102",
+        "45092",
+        "45131",
+        "45128",
+        "45108",
+        "45146",
+        "45191",
+        "45195",
+        "45208",
+        "45820",
+        "45813",
+        "45819",
+        "45814",
+        "45824"
+      ],
+      "min_value": 45015.0,
+      "max_value": 45824.0
+    },
+    {
+      "name": "jcx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "节约用水"
+      ],
+      "value_pool": [
+        "节约用水"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "用水计划执行情况、节水设施运行情况"
+      ],
+      "value_pool": [
+        "用水计划执行情况、节水设施运行情况"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

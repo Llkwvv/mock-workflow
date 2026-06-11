@@ -1,0 +1,189 @@
+{
+  "file_name": "古树名木树木性状情况202506202057.xlsx",
+  "table_name": "古树名木树木性状情况202506202057",
+  "row_count": 77,
+  "columns": [
+    "sl",
+    "sz",
+    "sg",
+    "s",
+    "xj",
+    "k",
+    "zlwz"
+  ],
+  "fields": [
+    {
+      "name": "sl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "约450年",
+        "约400年",
+        "约480年",
+        "约300年",
+        "约150年",
+        "约120年",
+        "约130年",
+        "约200年",
+        "约100年",
+        "约160年",
+        "约170年",
+        "约140年",
+        "约180年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "槐",
+        "侧柏",
+        "木瓜",
+        "杜梨",
+        "桑",
+        "楸树",
+        "枣",
+        "柘树",
+        "榅桲",
+        "皂荚",
+        "接骨木"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "略"
+      ],
+      "value_pool": [
+        "略"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "豆科 槐属",
+        "柏科 侧柏属",
+        "蔷薇科 木瓜属",
+        "蔷薇科 梨属",
+        "桑科 桑属",
+        "紫葳科 梓树属",
+        "鼠李科 枣属",
+        "桑科 柘属",
+        "蔷薇科 榅桲属",
+        "豆科 皂荚属",
+        "忍冬科 接骨木属"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "略"
+      ],
+      "value_pool": [
+        "略"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "k",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "豆科 槐属",
+        "柏科 侧柏属",
+        "蔷薇科 木瓜属",
+        "蔷薇科 梨属",
+        "桑科 桑属",
+        "紫葳科 梓树属",
+        "鼠李科 枣属",
+        "桑科 柘属",
+        "蔷薇科 榅桲属",
+        "豆科 皂荚属",
+        "忍冬科 接骨木属"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zlwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "化雨镇周庄村街道旁",
+        "化雨镇化南村殷小青院内",
+        "化雨镇苏坑村渠中堂院内",
+        "司马镇东蔡村李金来院外",
+        "羊山镇原沈庄村",
+        "羊山镇王小山村村委南苹果园",
+        "霄云镇张小楼村河堤二滩",
+        "胡集镇仇寺村村南大田地",
+        "胡集镇莫桥村乡村道路一侧",
+        "胡集镇莫桥村大田地",
+        "鸡黍镇西李宗庄村西头",
+        "鸡黍镇东李村村内广场",
+        "卜集镇石庙村檀春礼屋后",
+        "卜集镇殷李村村内",
+        "卜集镇周集村村南大田地",
+        "卜集镇邱洼村村内道路一侧",
+        "金乡街道张楼村张汝华院外",
+        "金乡街道陈庄村村内街道旁",
+        "金乡街道王庄任楼村村内街道旁",
+        "金乡街道小刘庄村村内道路旁",
+        "羊山镇王小山村广场",
+        "金乡县羊山景区",
+        "霄云镇霄云村朱运龙院中",
+        "霄云镇核桃园村刘加强院外",
+        "霄云镇前赵口村赵胜利院外",
+        "霄云镇赵院村大田地",
+        "马庙镇翟庄村村西头大田地",
+        "马庙镇湘子庙村内道路旁",
+        "马庙镇翟庄村村南200米坟场",
+        "霄云镇西王楼村西南大田地"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

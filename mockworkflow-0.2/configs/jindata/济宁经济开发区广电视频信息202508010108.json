@@ -1,0 +1,287 @@
+{
+  "file_name": "济宁经济开发区广电视频信息202508010108.xlsx",
+  "table_name": "济宁经济开发区广电视频信息202508010108",
+  "row_count": 25,
+  "columns": [
+    "mtjb",
+    "mtmc",
+    "cjr",
+    "ssdw",
+    "sftt",
+    "mtcc",
+    "sj",
+    "gjmc",
+    "lm",
+    "gjdz",
+    "mtlx"
+  ],
+  "fields": [
+    {
+      "name": "mtjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市级",
+        "省级",
+        "中央级"
+      ],
+      "value_pool": [
+        "市级",
+        "省级",
+        "中央级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mtmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁电视台",
+        "山东电视台农科频道",
+        "山东卫视",
+        "山东广播电台",
+        "CCTV-13"
+      ],
+      "value_pool": [
+        "济宁电视台",
+        "山东电视台农科频道",
+        "山东卫视",
+        "山东广播电台",
+        "CCTV-13"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经开区党群部"
+      ],
+      "value_pool": [
+        "经开区党群部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "经开区"
+      ],
+      "value_pool": [
+        "经开区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sftt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "非头条",
+        "头条"
+      ],
+      "value_pool": [
+        "非头条",
+        "头条"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mtcc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "一类",
+        "三类",
+        "二类"
+      ],
+      "value_pool": [
+        "一类",
+        "三类",
+        "二类"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-01-19",
+        "2021-02-08",
+        "2021-02-12",
+        "2021-02-13",
+        "2021-02-26",
+        "2021-03-06",
+        "2021-03-07",
+        "2021-03-09",
+        "2021-03-10",
+        "2021-03-11",
+        "2021-03-13",
+        "2021-03-15",
+        "2021-03-17",
+        "2021-03-18",
+        "2021-03-30",
+        "2021-04-01",
+        "2021-04-06",
+        "2021-04-10",
+        "2021-04-12",
+        "2021-04-21",
+        "2021-04-30",
+        "2021-05-31",
+        "2021-07-04",
+        "2021-09-02"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁经开区：加快发展先进制造业 全力开启“二次创业”",
+        "动能转换初见成效 创新驱动效能提升",
+        "开新局 育新机|今年每个县市区争创3家省级以上科创平台",
+        "春节市场供应充足 价格稳定",
+        "我市举行一季度重大项目集中开工仪式",
+        "市工信局：攻坚“231”产业集群 突破制造业强市建设",
+        "市发展改革委：攻坚重点项目建设 提质发展现代物流",
+        "招引优秀青年人才 推进“人才强市”战略",
+        "市人力资源社会保障局：强化人才要素供给 支撑产业高质量发展",
+        "【扎实实施乡村振兴战略】校企联合！山东肉羊新品种选育进入快车道",
+        "我市开展春季义务植树活动",
+        "济宁市实施“就业创业三年行动计划”",
+        "济宁经开区：建设现代智慧产业新城",
+        "市交通运输局：聚力打造全国性综合交通枢纽",
+        "“数聚赋能” 推进新型智慧城市建设",
+        "十三届市委第十一轮巡察完成进驻",
+        "各县市区市直部门和市属企业分别组织召开班子成员会议",
+        "市交通运输局：规划引领政策先行 打造全国性交通运输枢纽",
+        "市农业农村局：深化农业农村改革 突破现代农业强市建设",
+        "济宁经开区：攻坚“二次创业” 建设现代智慧产业新城",
+        "济宁经开区：全面开启“二次创业”",
+        "山东16市同步启动“军岗日”专场招聘活动",
+        "抢行过路口 三轮车遭遇惨烈撞击",
+        "【习近平总书记在庆祝中国共产党成立100周年大会上的讲话引起强烈反响】立志千秋伟业 百年风华正茂",
+        "山东济宁 乡村振兴之星 疃里镇：“抱团”孵出“幸福鹅”"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁新闻联播",
+        "山东三农新闻联播",
+        "山东新闻联播",
+        "山东新闻",
+        "新闻直播间"
+      ],
+      "value_pool": [
+        "济宁新闻联播",
+        "山东三农新闻联播",
+        "山东新闻联播",
+        "山东新闻",
+        "新闻直播间"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gjdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "http://www.jnnews.tv/look/p/2021-01/19/795543.html",
+        "http://www.jnnews.tv/jnxwlb/p/2021-02/08/799085.html",
+        "http://www.jnnews.tv/look/p/2021-02/12/799729.html",
+        "http://www.jnnews.tv/look/p/2021-02/13/799825.html",
+        "http://www.jnnews.tv/look/p/2021-02/26/801653.html",
+        "http://www.jnnews.tv/jnxwlb/p/2021-03/06/802878.html",
+        "http://www.jnnews.tv/look/p/2021-03/07/802982.html",
+        "http://www.jnnews.tv/look/p/2021-03/09/803375.html",
+        "http://www.jnnews.tv/look/p/2021-03/10/803560.html",
+        "http://sd.iqilu.com/share/video/4890034",
+        "http://www.jnnews.tv/look/p/2021-03/13/804024.html",
+        "http://www.jnnews.tv/look/p/2021-03/15/804315.html",
+        "http://www.jnnews.tv/look/p/2021-03/17/804693.html",
+        "http://www.jnnews.tv/look/p/2021-03/18/804865.html",
+        "http://www.jnnews.tv/look/p/2021-03/30/806794.html",
+        "http://www.jnnews.tv/look/p/2021-04/01/807146.html",
+        "http://www.jnnews.tv/look/p/2021-04/06/807911.html",
+        "http://www.jnnews.tv/look/p/2021-04/10/808545.html",
+        "http://www.jnnews.tv/look/p/2021-04/12/808791.html",
+        "http://www.jnnews.tv/look/p/2021-04/12/808792.html",
+        "http://www.jnnews.tv/look/p/2021-04/21/810379.html",
+        "http://v.iqilu.com/sdws/sdxwlb/2021/0430/4906226.html",
+        "http://v.iqilu.com/shpd/shb/2021/0531/4915946.html",
+        "http://sd.iqilu.com/share/video/4926221",
+        "https://tv.cctv.com/2021/09/02/VIDEKRr6TeqCLtJiPXPkCfWl210902"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mtlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "广电类"
+      ],
+      "value_pool": [
+        "广电类"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "file_name": "金乡县省市级文明校园名单_0.csv",
+  "table_name": "金乡县省市级文明校园名单_0",
+  "row_count": 28,
+  "columns": [
+    "hjmd",
+    "jc"
+  ],
+  "fields": [
+    {
+      "name": "hjmd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县中心小学",
+        "金乡县羊山镇中心小学",
+        "金乡县第二中学",
+        "金乡县实验小学",
+        "济宁教育学院附属小学",
+        "金乡县第一中学",
+        "金乡县王杰中学",
+        "金乡县西关小学",
+        "金乡县马庙镇明德小学",
+        "金乡县兴隆镇中心小学",
+        "金乡县育才学校",
+        "济宁教育学院",
+        "金乡县金曼克中学",
+        "金乡县鸡黍中学",
+        "金乡县春城小学",
+        "金乡县第二实验小学",
+        "金乡县王杰小学",
+        "金乡县化雨镇中心小学",
+        "金乡县司马镇中心小学",
+        "金乡武警希望小学",
+        "金乡县鸡黍镇中心小学",
+        "金乡县羊山镇明德小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "省级文明校园",
+        "市级文明校园"
+      ],
+      "value_pool": [
+        "省级文明校园",
+        "市级文明校园"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

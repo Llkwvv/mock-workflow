@@ -1,0 +1,152 @@
+{
+  "file_name": "餐饮单位风险分级信息202506302143.xlsx",
+  "table_name": "餐饮单位风险分级信息202506302143",
+  "row_count": 54,
+  "columns": [
+    "jylb",
+    "xkzh",
+    "ztyt",
+    "fxjb",
+    "jyzmc"
+  ],
+  "fields": [
+    {
+      "name": "jylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "餐饮服务/中型餐馆",
+        "餐饮服务/小型餐馆",
+        "餐饮服务/快餐店",
+        "餐饮服务/小吃店",
+        "餐饮服务/小饭店"
+      ],
+      "value_pool": [
+        "餐饮服务/中型餐馆",
+        "餐饮服务/小型餐馆",
+        "餐饮服务/快餐店",
+        "餐饮服务/小吃店",
+        "餐饮服务/小饭店"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xkzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "JY23708260017748",
+        "JY23708260054021",
+        "JY23708260055547",
+        "JY23708260067323",
+        "JY23708260092568",
+        "JY23708260092533",
+        "JY23708260092541",
+        "JY23708260092486",
+        "JY23708260015935",
+        "JY23708260016727",
+        "JY13708260066983",
+        "JY23708260090809",
+        "JY23708260092509",
+        "JY23708260092494",
+        "JY23708260092525",
+        "JY23708260092517",
+        "JY23708260013923",
+        "JY23708260051849",
+        "JY23708260092451",
+        "JY23708260092460",
+        "JY23708260092478",
+        "JY23708260080485",
+        "JY23708260091158",
+        "JY23708260092443",
+        "JY23708260015172",
+        "JY23708260012985",
+        "JY23708260047717"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ztyt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "餐饮服务经营者（非连锁）"
+      ],
+      "value_pool": [
+        "餐饮服务经营者（非连锁）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fxjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "B",
+        "2024B"
+      ],
+      "value_pool": [
+        "B",
+        "2024B"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山县韩庄镇微湖山庄",
+        "微山鲁桥永盛老味羊汤馆",
+        "微山县马坡宇奥农家菜馆",
+        "微山县小伙计餐饮经营店",
+        "微山厨非江湖美食店",
+        "微山县欢城大碗手擀面馆",
+        "微山夏镇仕航羊肉羊汤馆",
+        "微山县夏镇川渝小馆",
+        "微山县夏镇柴火铁锅饭店",
+        "微山县欢城镇聚宾阁餐馆",
+        "微山夏镇朱氏卤味店",
+        "微山夏镇拐角遇到韩式炸鸡店",
+        "微山县馨苑餐饮经营店",
+        "微山县夏镇王可餐饮经营店",
+        "微山夏镇福御阁餐饮部",
+        "微山县夏镇妙香餐饮配送服务店",
+        "微山县留庄镇隆源饭店",
+        "微山县夏镇猩球家夹饼店",
+        "微山县韩庄镇梦妮农家乐饭店",
+        "微山县马坡双杰骨汤馆",
+        "微山县老刘家私房菜馆",
+        "微山夏镇顺风肥牛火锅店",
+        "微山夏镇王氏面馆",
+        "微山县两个小朋友餐饮经营店",
+        "微山县夏镇李家馒头房",
+        "微山县欢城镇吉科水饺店",
+        "微山县利鑫特色鱼馆"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

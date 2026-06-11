@@ -1,0 +1,177 @@
+{
+  "file_name": "高新区科技企业孵化器202506271743.xlsx",
+  "table_name": "高新区科技企业孵化器202506271743",
+  "row_count": 29,
+  "columns": [
+    "pzsj",
+    "rdjb",
+    "fhqmc",
+    "s",
+    "xsq",
+    "sbdw"
+  ],
+  "fields": [
+    {
+      "name": "pzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "1999年12月",
+        "2014年12月",
+        "2016年03月",
+        "2019年11月",
+        "2016年08月",
+        "2017年11月",
+        "2018年01月",
+        "2015年03月",
+        "2016年02月",
+        "2016年09月",
+        "2016年",
+        "2017年01月",
+        "2021年11月",
+        "2017年1月",
+        "2014年09月",
+        "2019年12月",
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rdjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "国家级科技企业孵化器",
+        "省级科技企业孵化器",
+        "国家级众创空间",
+        "省级众创空间",
+        "储备新材料专业孵化器",
+        "储备专业孵化器",
+        "国家级文化创意专业孵化器",
+        "山东省特色软件名园"
+      ],
+      "value_pool": [
+        "国家级科技企业孵化器",
+        "省级科技企业孵化器",
+        "国家级众创空间",
+        "省级众创空间",
+        "储备新材料专业孵化器",
+        "储备专业孵化器",
+        "国家级文化创意专业孵化器",
+        "山东省特色软件名园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fhqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新技术创业服务中心",
+        "济宁高新创达科技创业服务有限公司",
+        "济宁高新软件园服务有限公司",
+        "济宁高新文化创意园服务有限公司",
+        "济宁正德企业管理咨询有限公司",
+        "山东英特力科技企业孵化器有限公司",
+        "济宁高新信息产业园服务有限公司",
+        "山东中煤工矿物资集团有限公司",
+        "济宁创客中心",
+        "智造汇",
+        "众创药客",
+        "大学生创业园",
+        "创客驾到",
+        "UP咖啡+筑梦工厂",
+        "创新实验室",
+        "ITL众创空间",
+        "济宁最慕众创空间",
+        "“HP+”创客中心",
+        "济宁留学人员创业园",
+        "高新之星梦工场",
+        "互联网应用学院",
+        "济宁资本中心众创空间",
+        "新材料孵化器",
+        "启迪之星（济宁）孵化基地",
+        "海创慧众创空间",
+        "数字经济创新中心",
+        "启迪之星(济宁)",
+        "济宁文化创意产业园",
+        "济宁数字经济创新中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新技术创业服务中心",
+        "济宁高新创达科技创业服务有限公司",
+        "济宁高新软件园服务有限公司",
+        "济宁高新文化创意园服务有限公司",
+        "济宁正德企业管理咨询有限公司",
+        "山东英特力科技企业孵化器有限公司",
+        "济宁智能终端产业发展有限公司",
+        "山东中煤工矿物资集团有限公司",
+        "慧与软件（济宁）人才产业基地管理有限公司",
+        "山东智经信息科技有限公司",
+        "济宁高新区创业大学",
+        "济宁市融易资产管理有限公司",
+        "昆仑（济宁）创新研究院有限公司",
+        "济宁启迪之星科技企业孵化器有限公司",
+        "济宁创新谷集团"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "file_name": "非金属矿及制品批发企业信息_0.csv",
+  "table_name": "非金属矿及制品批发企业信息_0",
+  "row_count": 30,
+  "columns": [
+    "hydm",
+    "hyml",
+    "qyzwm",
+    "tyshxydm"
+  ],
+  "fields": [
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 5163|    非金属矿及制品批发"
+      ],
+      "value_pool": [
+        " 5163|    非金属矿及制品批发"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 制造业-C",
+        " 批发和零售业-F"
+      ],
+      "value_pool": [
+        " 制造业-C",
+        " 批发和零售业-F"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyzwm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 汶上县瑞盛石材有限公司",
+        " 汶上县洪刚石材销售有限公司",
+        " 汶上县锦阳石材销售有限公司",
+        " 汶上县金福石业有限公司",
+        " 汶上县峰磊石材销售有限公司",
+        " 济宁浩言睿文物资贸易有限公司",
+        " 济宁中东商贸有限公司",
+        " 山东鼎垣兴商贸有限责任公司",
+        " 汶上县勇创石材有限公司",
+        " 汶上盛丰石材有限公司",
+        " 中亿石材（汶上）有限公司",
+        " 汶上建江石材销售有限公司",
+        " 济宁智远石材销售有限公司",
+        " 汶上县鑫都石材有限公司",
+        " 汶上县爱江新型建材科技有限公司",
+        " 汶上县宇鑫石材销售有限公司",
+        " 汶上县建宣石材销售有限公司",
+        " 汶上县巨石商贸有限公司",
+        " 汶上县太古石材销售有限公司",
+        " 汶上县郑城石业有限公司",
+        " 济宁广建石材有限公司",
+        " 汶上县巨丰石材有限公司",
+        " 汶上县华溪石材有限公司",
+        " 汶上铭鑫石材销售有限公司",
+        " 汶上县景宇航石材有限公司",
+        " 济宁鲁涵石业有限公司",
+        " 汶上县昌建石材有限公司",
+        " 成功石材销售（山东）有限公司",
+        " 山东岽源石材有限公司",
+        " 汶上鑫顺盛石材销售有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 91370830MA3QPF5G6X",
+        " 91370830MA3Q44GJ6U",
+        " 91370830MA3QEFE296",
+        " 91370830MA3T1WDUXN",
+        " 91370830MA3Q6Q7B4B",
+        " 913708300659198192",
+        " 91370830786109322E",
+        " 91370830MA3QWG3J9U",
+        " 91370830MA3RHPRP4E",
+        " 91370830MA3R2U0Q24",
+        " 91370830MA3QY1M711",
+        " 91370830MA3R25QG8P",
+        " 91370830MA3R28544Q",
+        " 91370830MA3R8CGEXA",
+        " 91370830MA3RWEXF2T",
+        " 91370830MA3RWEQA7Q",
+        " 91370830MA3T9E0U1Y",
+        " 91370830MA3TAEPW2D",
+        " 91370830MA3T73BM5L",
+        " 91370830MA3TCF048B",
+        " 91370830MA3TD51Q2J",
+        " 91370830MA3RM7LD69",
+        " 91370830MA3TA9AG23",
+        " 91370830MA3TK1W20G",
+        " 91370830MA3TGX7L25",
+        " 91370830MA3TT25H34",
+        " 91370830MA3TNM6372",
+        " 91370830MA3TX5JR46",
+        " 91370830MA3TY4TH9B",
+        " 91370830MA3TUM977X"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

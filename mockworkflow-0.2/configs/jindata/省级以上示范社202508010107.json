@@ -1,0 +1,151 @@
+{
+  "file_name": "省级以上示范社202508010107.xlsx",
+  "table_name": "省级以上示范社202508010107",
+  "row_count": 22,
+  "columns": [
+    "fzrxm",
+    "dz",
+    "jb",
+    "nd",
+    "md"
+  ],
+  "fields": [
+    {
+      "name": "fzrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "程**",
+        "***",
+        "岳*",
+        "李**",
+        "周**",
+        "卢**",
+        "**",
+        "孟**",
+        "杜**",
+        "郭**",
+        "孙**",
+        "张**",
+        "姜**",
+        "董*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县马庙镇程李庄村",
+        "金乡县马庙镇孟铺村",
+        "金乡县卜集镇周集村曹庄",
+        "金乡县卜集镇殷林、李",
+        "金乡县卜集镇李情村",
+        "金乡县卜集镇周集村",
+        "金乡县卜集镇孙瓦房村",
+        "金乡县卜集镇杨集村",
+        "金乡县兴隆镇落城村",
+        "金乡县金乡街道暗楼村",
+        "金乡街道文峰路西段北侧新宇宛小区",
+        "金乡县胡集镇西郭村",
+        "金乡县胡集镇胡集村",
+        "金乡县胡集镇张魏庄",
+        "金乡县化雨镇吴海村",
+        "金乡县鸡黍镇驻地枣曹线路南",
+        "金乡县王丕街道于庄村",
+        "金乡县肖云镇肖云村",
+        "金乡县化雨镇苏坑村",
+        "金乡县鸡黍镇东风村",
+        "金乡县卜集镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "省级",
+        "国家级",
+        "省级（2024年注销）"
+      ],
+      "value_pool": [
+        "省级",
+        "国家级",
+        "省级（2024年注销）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2014",
+        "2018",
+        "2015",
+        "2016"
+      ],
+      "value_pool": [
+        "2014",
+        "2018",
+        "2015",
+        "2016"
+      ],
+      "min_value": 2014.0,
+      "max_value": 2018.0
+    },
+    {
+      "name": "md",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县马坡金谷种植农民专业合作社",
+        "金乡县孟铺玉米专业合作社",
+        "金乡县金都辣椒专业合作社",
+        "金乡县东旭养猪专业合作社",
+        "金乡县润生食用菌专业合作社",
+        "金乡县裕丰尖椒专业合作社",
+        "金乡县圣丰果树种植专业合作社",
+        "金乡县常发农机专业合作社",
+        "金乡县繁东农机专业合作社",
+        "金乡县金藤有机葡萄农民专业合作社",
+        "金乡县利农生猪产销专业合作社",
+        "金乡县品欣富硒大蒜专业合作社",
+        "金乡县小张庄白梨瓜专业合作社",
+        "金乡县宏文养殖专业合作社",
+        "金乡县晨雨食用菌专业合作社",
+        "金乡县树修食用菌专业合作社",
+        "金乡县邦农有机大蒜专业合作社",
+        "金乡县金鱼洋芹菜种植专业合作社",
+        "金乡县霄云京信种植专业合作社",
+        "金乡县京信种植专业合作社",
+        "金乡县董亮农机专业合作社"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

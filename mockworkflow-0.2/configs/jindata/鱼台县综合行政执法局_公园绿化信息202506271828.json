@@ -1,0 +1,153 @@
+{
+  "file_name": "鱼台县综合行政执法局_公园绿化信息202506271828.xlsx",
+  "table_name": "鱼台县综合行政执法局_公园绿化信息202506271828",
+  "row_count": 91,
+  "columns": [
+    "zgdw",
+    "gymc",
+    "mmmc",
+    "fzr",
+    "jczq"
+  ],
+  "fields": [
+    {
+      "name": "zgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "市政公用事业服务中心"
+      ],
+      "value_pool": [
+        "市政公用事业服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "西支河公园",
+        "孝贤文化主题公园",
+        "稻改公园",
+        "鱼台县西支河公园"
+      ],
+      "value_pool": [
+        "西支河公园",
+        "孝贤文化主题公园",
+        "稻改公园",
+        "鱼台县西支河公园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "雪松",
+        "广玉兰",
+        "油松",
+        "龙柏",
+        "桧柏",
+        "侧柏",
+        "大叶女贞",
+        "白皮松",
+        "高杆石楠",
+        "石楠",
+        "造型女贞",
+        "枇杷",
+        "法桐",
+        "银杏",
+        "白蜡",
+        "黄山栾树",
+        "垂柳",
+        "旱柳",
+        "中山杉",
+        "合欢",
+        "朴树",
+        "乌桕",
+        "泡桐",
+        "苦楝",
+        "国槐",
+        "楸树",
+        "五角枫",
+        "黄金槐",
+        "金叶榆",
+        "柘",
+        "刺槐",
+        "紫叶李",
+        "腊梅",
+        "马褂木",
+        "皂荚",
+        "七叶树",
+        "红榉",
+        "美国红枫",
+        "椤木石楠",
+        "桂花",
+        "柿树",
+        "丛生朴树",
+        "丛生五角枫",
+        "白玉兰",
+        "紫玉兰",
+        "红花刺槐",
+        "榉树",
+        "榆树",
+        "水杉",
+        "悬铃木",
+        "构树",
+        "枫香"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "宋海影",
+        "别庆方",
+        "宋*影"
+      ],
+      "value_pool": [
+        "宋海影",
+        "别庆方",
+        "宋*影"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jczq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "每季度"
+      ],
+      "value_pool": [
+        "每季度"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

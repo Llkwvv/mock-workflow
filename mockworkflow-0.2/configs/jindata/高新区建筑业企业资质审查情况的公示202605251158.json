@@ -1,0 +1,131 @@
+{
+  "file_name": "高新区建筑业企业资质审查情况的公示202605251158.xlsx",
+  "table_name": "高新区建筑业企业资质审查情况的公示202605251158",
+  "row_count": 4,
+  "columns": [
+    "gsmc",
+    "xsq",
+    "scyj",
+    "scyj1",
+    "scbm",
+    "gssj",
+    "s"
+  ],
+  "fields": [
+    {
+      "name": "gsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东融都建筑科技有限公司",
+        "济宁尚正建筑工程有限公司",
+        "山东杰立建筑工程有限公司",
+        "山东联信混凝土有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scyj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "对山东融都建筑科技有限公司申请建筑业资质延续的申报材料进行了审查",
+        "对济宁尚正建筑工程有限公司申请建筑业资质延续的申报材料进行了审查",
+        "对山东杰立建筑工程有限公司申请建筑业资质延续的申报材料进行了审查",
+        "对山东联信混凝土有限公司申请建筑业资质延续的申报材料进行了审查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scyj1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "根据《建筑业企业资质管理规定》（住房城乡建设部令第22号）、《建筑业企业资质标准》（建市〔2014〕159号）、《山东省住房和城乡建设厅关于进一步优化建设工程企业资质审批管理工作的通知》及《济宁市人民政府关于调整济宁市“市县同权”改革事项清单的通知》（济政字〔2020〕56 号）等规定"
+      ],
+      "value_pool": [
+        "根据《建筑业企业资质管理规定》（住房城乡建设部令第22号）、《建筑业企业资质标准》（建市〔2014〕159号）、《山东省住房和城乡建设厅关于进一步优化建设工程企业资质审批管理工作的通知》及《济宁市人民政府关于调整济宁市“市县同权”改革事项清单的通知》（济政字〔2020〕56 号）等规定"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "城乡建设和交通局"
+      ],
+      "value_pool": [
+        "城乡建设和交通局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-05-16",
+        "2025-11-06",
+        "2026-02-10",
+        "2026-03-13"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

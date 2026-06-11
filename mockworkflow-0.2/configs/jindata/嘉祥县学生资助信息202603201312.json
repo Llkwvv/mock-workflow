@@ -1,0 +1,375 @@
+{
+  "file_name": "嘉祥县学生资助信息202603201312.csv",
+  "table_name": "嘉祥县学生资助信息202603201312",
+  "row_count": 12,
+  "columns": [
+    "sszj",
+    "xxmc",
+    "xsxm",
+    "xssfzh",
+    "xb",
+    "nl",
+    "bzsj",
+    "bzlx",
+    "yfje",
+    "sjffje",
+    "jhr",
+    "sfzh",
+    "tjnf",
+    "sss",
+    "sss1",
+    "ssx",
+    "qhbm",
+    "yzbm"
+  ],
+  "fields": [
+    {
+      "name": "sszj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县直",
+        "黄垓镇",
+        "孟姑集镇",
+        "马村镇"
+      ],
+      "value_pool": [
+        "县直",
+        "黄垓镇",
+        "孟姑集镇",
+        "马村镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥实验小学西关校区",
+        "嘉祥县黄垓镇红旗小学",
+        "嘉祥县孟姑集镇响水口小学",
+        "嘉祥县孟姑集镇闫楼小学",
+        "嘉祥县马村镇中心小学"
+      ],
+      "value_pool": [
+        "嘉祥实验小学西关校区",
+        "嘉祥县黄垓镇红旗小学",
+        "嘉祥县孟姑集镇响水口小学",
+        "嘉祥县孟姑集镇闫楼小学",
+        "嘉祥县马村镇中心小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "闫*鑫",
+        "司*佑",
+        "司*鹏",
+        "李*博",
+        "闫*玉",
+        "楚*彤"
+      ],
+      "value_pool": [
+        "闫*鑫",
+        "司*佑",
+        "司*鹏",
+        "李*博",
+        "闫*玉",
+        "楚*彤"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xssfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "37082920********64",
+        "37082920********80",
+        "37082920********10",
+        "37082920********22",
+        "37082920********29"
+      ],
+      "value_pool": [
+        "37082920********64",
+        "37082920********80",
+        "37082920********10",
+        "37082920********22",
+        "37082920********29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "11",
+        "7",
+        "12",
+        "13"
+      ],
+      "value_pool": [
+        "11",
+        "7",
+        "12",
+        "13"
+      ],
+      "min_value": 7.0,
+      "max_value": 13.0
+    },
+    {
+      "name": "bzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023年春季"
+      ],
+      "value_pool": [
+        "2023年春季"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "营养餐"
+      ],
+      "value_pool": [
+        "营养餐"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yfje",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "300",
+        "300元"
+      ],
+      "value_pool": [
+        "300",
+        "300元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjffje",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "300",
+        "200",
+        "300元",
+        "200元"
+      ],
+      "value_pool": [
+        "300",
+        "200",
+        "300元",
+        "200元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jhr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "闫*东3708**************",
+        "司*真3708**************",
+        "许*英3708**************",
+        "李*宪3708**************",
+        "吴*迎3708**************",
+        "陆*娟3708**************"
+      ],
+      "value_pool": [
+        "闫*东3708**************",
+        "司*真3708**************",
+        "许*英3708**************",
+        "李*宪3708**************",
+        "吴*迎3708**************",
+        "陆*娟3708**************"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "********",
+        "37082919********20"
+      ],
+      "value_pool": [
+        "********",
+        "37082919********20"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjnf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023年"
+      ],
+      "value_pool": [
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sss",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "山东省"
+      ],
+      "value_pool": [
+        "山东省"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sss1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qhbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370829"
+      ],
+      "value_pool": [
+        "370829"
+      ],
+      "min_value": 370829.0,
+      "max_value": 370829.0
+    },
+    {
+      "name": "yzbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "272400"
+      ],
+      "value_pool": [
+        "272400"
+      ],
+      "min_value": 272400.0,
+      "max_value": 272400.0
+    }
+  ]
+}

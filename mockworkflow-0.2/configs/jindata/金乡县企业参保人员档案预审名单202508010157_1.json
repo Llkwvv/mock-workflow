@@ -1,0 +1,91 @@
+{
+  "file_name": "金乡县企业参保人员档案预审名单202508010157_1.xlsx",
+  "table_name": "金乡县企业参保人员档案预审名单202508010157_1",
+  "row_count": 3,
+  "columns": [
+    "qy",
+    "dwmc",
+    "姓名",
+    "xb",
+    "dwxz"
+  ],
+  "fields": [
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "油管厂",
+        "外贸公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "周**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "企业"
+      ],
+      "value_pool": [
+        "企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

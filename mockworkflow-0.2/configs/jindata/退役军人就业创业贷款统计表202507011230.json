@@ -1,0 +1,152 @@
+{
+  "file_name": "退役军人就业创业贷款统计表202507011230.xlsx",
+  "table_name": "退役军人就业创业贷款统计表202507011230",
+  "row_count": 322,
+  "columns": [
+    "ed",
+    "dkr",
+    "xz",
+    "dkyh",
+    "dklb"
+  ],
+  "fields": [
+    {
+      "name": "ed",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "20万",
+        "15万",
+        "10万",
+        "14万",
+        "59万"
+      ],
+      "value_pool": [
+        "20万",
+        "15万",
+        "10万",
+        "14万",
+        "59万"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dkr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "朱*",
+        "马*",
+        "孟*",
+        "张*",
+        "姜*",
+        "毛*",
+        "李*",
+        "柏*",
+        "王*",
+        "杨*",
+        "朗*",
+        "董*",
+        "冯*",
+        "蔡*",
+        "刘*",
+        "乔*",
+        "颜*",
+        "宋*",
+        "腾*",
+        "单*",
+        "田*",
+        "岳*",
+        "何*",
+        "牛*",
+        "梁*",
+        "郝*",
+        "姚*",
+        "徐*",
+        "蒋*",
+        "陈*",
+        "郑*",
+        "孙*",
+        "贺*",
+        "杜*",
+        "齐*",
+        "郭*",
+        "温*",
+        "黄*",
+        "韩*",
+        "赵*",
+        "绪*",
+        "查*",
+        "庞*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "泉林镇",
+        "泗河街道",
+        "济河街道",
+        "杨柳镇",
+        "泗河 街道"
+      ],
+      "value_pool": [
+        "泉林镇",
+        "泗河街道",
+        "济河街道",
+        "杨柳镇",
+        "泗河 街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dkyh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "邮政储蓄",
+        "农商银行"
+      ],
+      "value_pool": [
+        "邮政储蓄",
+        "农商银行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dklb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "个人创业"
+      ],
+      "value_pool": [
+        "个人创业"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "file_name": "鱼台县住建局_特殊工种信息表202508010127.xlsx",
+  "table_name": "鱼台县住建局_特殊工种信息表202508010127",
+  "row_count": 21,
+  "columns": [
+    "lxfs",
+    "xb",
+    "jtzz",
+    "tsgz",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "139****4862",
+        "137****8448",
+        "133****3848",
+        "1595368646",
+        "187****4589",
+        "131****2616",
+        "178****3978",
+        "159****0397",
+        "130****8370",
+        "183****6417",
+        "185****9538",
+        "158****4306",
+        "130****0021",
+        "159****6127",
+        "137****6215",
+        "1346537886",
+        "1555372782",
+        "151****0227"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "女性"
+      ],
+      "value_pool": [
+        "女",
+        "女性"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省鱼台县滨湖街道佃户李村",
+        "山东省鱼台县王鲁镇七所楼村",
+        "江苏省淮安市淮阴区三杨村",
+        "山东省济宁市鱼台县王鲁镇大聂村",
+        "山东省鱼台县滨湖街道米滩村",
+        "鱼台县谷亭镇花园路金鑫小区",
+        "山东省鱼台县王鲁镇豆闫李村",
+        "山东省鱼台县王鲁镇大聂村",
+        "山东省鱼台县王鲁镇泮庄村",
+        "山东省微山县南阳镇薛桥村李庙街",
+        "山东省济宁市鱼台县王鲁镇史楼村",
+        "山东省鱼台县王鲁镇史楼村",
+        "山东省鱼台县鱼城镇方与路5号",
+        "山东省济宁市鱼台县鱼城镇李白村",
+        "山东省鱼台县王鲁镇刘庄村",
+        "鱼台县滨湖街道佃户李村",
+        "鱼台县王鲁镇七所楼村",
+        "江苏淮安市淮阴区三杨村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tsgz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "升降机司机",
+        "升降机驾驶员"
+      ],
+      "value_pool": [
+        "升降机司机",
+        "升降机驾驶员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "马**",
+        "朱**",
+        "孙**",
+        "邹**",
+        "缪**",
+        "王**",
+        "李**",
+        "宋**",
+        "梁**",
+        "彭**",
+        "郑**",
+        "张**",
+        "郭**",
+        "任**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

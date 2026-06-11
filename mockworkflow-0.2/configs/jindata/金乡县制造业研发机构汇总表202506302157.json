@@ -1,0 +1,125 @@
+{
+  "file_name": "金乡县制造业研发机构汇总表202506302157.xlsx",
+  "table_name": "金乡县制造业研发机构汇总表202506302157",
+  "row_count": 22,
+  "columns": [
+    "nd",
+    "tjsj",
+    "qymc",
+    "dj",
+    "zjyq"
+  ],
+  "fields": [
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020"
+      ],
+      "value_pool": [
+        "2020"
+      ],
+      "min_value": 2020.0,
+      "max_value": 2020.0
+    },
+    {
+      "name": "tjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021"
+      ],
+      "value_pool": [
+        "2021"
+      ],
+      "min_value": 2021.0,
+      "max_value": 2021.0
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东雷迈新能源车业有限公司",
+        "山东金人电气有限公司",
+        "山东省玛丽亚农业机械有限公司",
+        "山东驰盛新能源设备有限公司",
+        "济宁康德瑞化工科技有限公司",
+        "济宁市浩森生物科技有限公司",
+        "济宁阳光化学有限公司",
+        "济宁键邦化工有限公司",
+        "山东金博电动车有限公司",
+        "山东金马泰机械制造股份有限公司",
+        "山东大江新能源汽车有限公司",
+        "如鲲（山东）新材料科技有限公司",
+        "金乡县金禧园食品有限公司",
+        "山东轩逸食品有限公司",
+        "山东鑫诺食品科技有限公司",
+        "山东省齐盛食品有限公司",
+        "山东汇能新材料科技股份有限公司",
+        "山东奇立伟肥业股份有限公司",
+        "山东华安液压技术有限公司",
+        "山东金乡光明电气有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "A",
+        "B",
+        "C"
+      ],
+      "value_pool": [
+        "A",
+        "B",
+        "C"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjyq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高端装备产业园",
+        "王丕街道",
+        "肖云镇",
+        "新材料园区",
+        "食品园区",
+        "高河街道"
+      ],
+      "value_pool": [
+        "高端装备产业园",
+        "王丕街道",
+        "肖云镇",
+        "新材料园区",
+        "食品园区",
+        "高河街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

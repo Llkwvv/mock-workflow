@@ -1,0 +1,135 @@
+{
+  "file_name": "汶上县农业农村局_农业行政执法及农产品质量安全监管参训信息202507161309.xlsx",
+  "table_name": "汶上县农业农村局_农业行政执法及农产品质量安全监管参训信息202507161309",
+  "row_count": 21,
+  "columns": [
+    "zt",
+    "nr",
+    "lx",
+    "sj",
+    "dd"
+  ],
+  "fields": [
+    {
+      "name": "zt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "汶上县鲁迎农民种植专业合作社",
+        "次邱镇付村集无公害蔬菜生产基地",
+        "济南市禾安舒生物科技有限公司汶上分公司",
+        "南站镇南李街蔬菜种植基地",
+        "汶上县圣都农资公司康驿农资部",
+        "南旺镇寺前埔村农资部",
+        "汶上县绿之源种植农民专业合作社",
+        "次邱镇农业技术推广站",
+        "寅寺镇供销社崔辛庄生产部",
+        "山东春华农业科技有限公司",
+        "郭仓镇李官集圣峰种植农民专业合作社",
+        "苑庄镇马堂村农资部",
+        "义桥乡农业技术推广站",
+        "南站镇刘许铺村农资部",
+        "汶上县种子公司马店销售网点",
+        "汶上县绿科农民种植专业合作社",
+        "南站镇种子站",
+        "菱花集团汶上农场",
+        "南旺镇吉月生态示范园区",
+        "汶上县润民种植农民专业合作社"
+      ],
+      "value_pool": [
+        "汶上县鲁迎农民种植专业合作社",
+        "次邱镇付村集无公害蔬菜生产基地",
+        "济南市禾安舒生物科技有限公司汶上分公司",
+        "南站镇南李街蔬菜种植基地",
+        "汶上县圣都农资公司康驿农资部",
+        "南旺镇寺前埔村农资部",
+        "汶上县绿之源种植农民专业合作社",
+        "次邱镇农业技术推广站",
+        "寅寺镇供销社崔辛庄生产部",
+        "山东春华农业科技有限公司",
+        "郭仓镇李官集圣峰种植农民专业合作社",
+        "苑庄镇马堂村农资部",
+        "义桥乡农业技术推广站",
+        "南站镇刘许铺村农资部",
+        "汶上县种子公司马店销售网点",
+        "汶上县绿科农民种植专业合作社",
+        "南站镇种子站",
+        "菱花集团汶上农场",
+        "南旺镇吉月生态示范园区",
+        "汶上县润民种植农民专业合作社",
+        "汶上县种子公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "农业行政执法及投入品监管，农产品质量安全监管"
+      ],
+      "value_pool": [
+        "农业行政执法及投入品监管，农产品质量安全监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "生产基地",
+        "农资经营"
+      ],
+      "value_pool": [
+        "生产基地",
+        "农资经营"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2025年5月13日"
+      ],
+      "value_pool": [
+        "2025年5月13日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "307会议室"
+      ],
+      "value_pool": [
+        "307会议室"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

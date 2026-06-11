@@ -1,0 +1,178 @@
+{
+  "file_name": "金乡县教体局职业教育工作先进单位_先进教育工作者信息表202506302144.xlsx",
+  "table_name": "金乡县教体局职业教育工作先进单位_先进教育工作者信息表202506302144",
+  "row_count": 86,
+  "columns": [
+    "md",
+    "xsq",
+    "lb",
+    "jx",
+    "sj"
+  ],
+  "fields": [
+    {
+      "name": "md",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡三中",
+        "青华园学校",
+        "高河中学",
+        "胡集中学",
+        "羊山中学",
+        "兴隆中学",
+        "鸡黍中学",
+        "肖云中学",
+        "化雨中学",
+        "王丕中学",
+        "景富贵",
+        "周  民",
+        "周继东",
+        "卜晴晴",
+        "周文静",
+        "王家强",
+        "伊  青",
+        "李菲菲",
+        "邢鹏程",
+        "马玉君",
+        "姜春华",
+        "杨桂艳",
+        "朱明涛",
+        "李志耀",
+        "李继锋",
+        "孟秋兰",
+        "胡传方",
+        "赵  毅",
+        "尚建国",
+        "王海涛",
+        "崔瑞玲",
+        "侯晓龚",
+        "张  健",
+        "刘艳华",
+        "周占香",
+        "杨晓立",
+        "周君项",
+        "翟向阳",
+        "张丽丽",
+        "田成玉",
+        "郝宁宁",
+        "李飞翔",
+        "王言祥",
+        "田洪涛",
+        "周  静",
+        "许昌建",
+        "周志胜",
+        "孙爱霞",
+        "董庆新",
+        "马莉莉",
+        "田  丽",
+        "马美兰",
+        "高慧清",
+        "李永响",
+        "高  姝",
+        "于卓光",
+        "殷现锋",
+        "杨永峰",
+        "张玉荣",
+        "李  楠",
+        "刘玉惠",
+        "吕建军",
+        "马会敏",
+        "安国营",
+        "郭丹宁",
+        "张晓雷",
+        "李冠青",
+        "赵建立",
+        "姜  鲁",
+        "刘以文",
+        "李国华",
+        "周春燕",
+        "陈  博",
+        "李德顺",
+        "王秀真",
+        "马腾飞",
+        "李香平",
+        "李桂真",
+        "赵凤兰",
+        "张良银",
+        "马凌艳",
+        "王持松",
+        "李兰平",
+        "耿际秋",
+        "刘  峰"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "职业教育"
+      ],
+      "value_pool": [
+        "职业教育"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "工作先进单位",
+        "“先进教育工作者”"
+      ],
+      "value_pool": [
+        "工作先进单位",
+        "“先进教育工作者”"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2019年"
+      ],
+      "value_pool": [
+        "2019年"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "file_name": "高新区对医疗机构使用药品的监管信息202602111301.xlsx",
+  "table_name": "高新区对医疗机构使用药品的监管信息202602111301",
+  "row_count": 36,
+  "columns": [
+    "jcxwbh",
+    "xzxdr",
+    "jgdxlx",
+    "jcxwmc",
+    "jcjg",
+    "jclb",
+    "xzxdrzjlx",
+    "jgdx",
+    "jcsj",
+    "ssjg",
+    "xzxdrzjbm",
+    "jcxmmc",
+    "xzxdrxz"
+  ],
+  "fields": [
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "ghsl20201215034",
+        "gxqscjgjypsy2021001",
+        "gxqscjgjypsy2021002",
+        "gxqscjgjypsy2021005",
+        "gxqscjgjypsy2021008",
+        "gxqscjgjypsy2021011",
+        "gxqscjgjypsy2021014",
+        "gxqscjgjypsy2021017",
+        "gxqscjgjypsy2021020",
+        "gxqscjgjypsy2021023",
+        "gxqscjgjypsy2021026",
+        "gxqscjgjypsy2021029",
+        "gxqscjgjypsy2021032",
+        "gxqscjgjypsy2021035",
+        "gxqscjgjypsy2021038",
+        "gxqscjgjypsy2021041",
+        "gxqscjgjypsy2021044",
+        "jngxqscjgjypsy2019001",
+        "gxqscjgjypsy2021036",
+        "gxqscjgjypsy2021046",
+        "gxqscjgjypsy2021066",
+        "gxqscjgjypsy2021056",
+        "gxqscjgjypsy2021055",
+        "gxqscjgjypsy2021054",
+        "gxqscjgjypsy2021053",
+        "gxqscjgjypsy2021052",
+        "gxqscjgjypsy2022001",
+        "gxqscjgjypsy2022008",
+        "gxqscjgjypsy2022009",
+        "gxqscjgjypsy2022010",
+        "gxqscjgjspsy20230419001",
+        "gxqscjgjspsy20230820001",
+        "gxqscjgjypjy20231220002",
+        "gxqscjgjypjy20240318001",
+        "gxqscjgjypjy20250423001",
+        "gxqscjgjypsy20250819001"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区洸河社区服务中心",
+        "济宁高新常玉杰中医诊所",
+        "济宁高新杜庆山内科诊所",
+        "济宁高新高淑芹内科诊所",
+        "济宁高新医美堂内科诊所",
+        "北京同仁堂（山东）健康大药房连锁有限公司济宁店中医诊所",
+        "济宁高新杜银环内科诊所",
+        "济宁高新房红燕口腔诊所",
+        "济宁高新特方康乐中医诊所",
+        "济宁高新张峰中医诊所",
+        "济宁口腔医院高新门诊部",
+        "济宁高新仁和医院",
+        "济宁高新区洸河社区卫生服务中心",
+        "济宁高新于璐璐内科诊所",
+        "济宁高新区蓼河新城医院",
+        "济宁高新区接庄街道丁庄社区卫生室",
+        "济宁高新区柳行街道卫生院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "非企业"
+      ],
+      "value_pool": [
+        "非企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对医疗机构使用药品的监管"
+      ],
+      "value_pool": [
+        "对医疗机构使用药品的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "其他法人或其他组织有效证件号码"
+      ],
+      "value_pool": [
+        "其他法人或其他组织有效证件号码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区洸河社区服务中心",
+        "济宁高新常玉杰中医诊所",
+        "济宁高新杜庆山内科诊所",
+        "济宁高新高淑芹内科诊所",
+        "济宁高新医美堂内科诊所",
+        "北京同仁堂（山东）健康大药房连锁有限公司济宁店中医诊所",
+        "济宁高新杜银环内科诊所",
+        "济宁高新房红燕口腔诊所",
+        "济宁高新特方康乐中医诊所",
+        "济宁高新张峰中医诊所",
+        "济宁口腔医院高新门诊部",
+        "济宁高新仁和医院",
+        "济宁高新区洸河社区卫生服务中心",
+        "济宁高新于璐璐内科诊所",
+        "济宁高新区蓼河新城医院",
+        "济宁高新区接庄街道丁庄社区卫生室",
+        "济宁高新区柳行街道卫生院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020-12-15",
+        "2021-07-15",
+        "2021-07-16",
+        "2019-06-07",
+        "2021-09-15",
+        "2021-09-20",
+        "2021-09-22",
+        "2021-09-18",
+        "2022-05-19",
+        "2022-10-23",
+        "2023-04-19",
+        "2023-08-20",
+        "2023-12-20",
+        "2024-03-18",
+        "2025-04-23",
+        "2025-08-19"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市场监管局"
+      ],
+      "value_pool": [
+        "市场监管局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "123708**********5D",
+        "117533**********22",
+        "923708**********5Y",
+        "923708**********43",
+        "135483**********12",
+        "126333**********22",
+        "004723**********12",
+        "112433**********52",
+        "127723**********22",
+        "118843**********22",
+        "142843**********21",
+        "112863**********01",
+        "118093**********01",
+        "144953**********12",
+        "140653**********01",
+        "132143**********01",
+        "123708**********6F"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对医疗机构使用药品的监管"
+      ],
+      "value_pool": [
+        "对医疗机构使用药品的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "其他组织"
+      ],
+      "value_pool": [
+        "其他组织"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

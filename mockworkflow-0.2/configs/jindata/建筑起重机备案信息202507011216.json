@@ -1,0 +1,156 @@
+{
+  "file_name": "建筑起重机备案信息202507011216.xlsx",
+  "table_name": "建筑起重机备案信息202507011216",
+  "row_count": 21,
+  "columns": [
+    "zzdw",
+    "xh",
+    "barq",
+    "gsmc",
+    "cqbh"
+  ],
+  "fields": [
+    {
+      "name": "zzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "中联重科股份有限公司",
+        "山东大汉建设机械股份有限公司",
+        "山东鸿达建工集团有限公司",
+        "浙江省建设机械集团有限公司",
+        "山东明龙建筑机械有限公司"
+      ],
+      "value_pool": [
+        "中联重科股份有限公司",
+        "山东大汉建设机械股份有限公司",
+        "山东鸿达建工集团有限公司",
+        "浙江省建设机械集团有限公司",
+        "山东明龙建筑机械有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "QTZ80（TC5610-6）",
+        "QTZ80",
+        "QTZ63（5010）",
+        "QTZ80（TC6010-6）",
+        "QTZ80(TC5610-6)",
+        "QTZ80(ZJ5710",
+        "QTZ63(5010)",
+        "QTZ80（ZJ5710）",
+        "QTZ80（TC6012A-6A）",
+        "QTZ63（TC5013-6）"
+      ],
+      "value_pool": [
+        "QTZ80（TC5610-6）",
+        "QTZ80",
+        "QTZ63（5010）",
+        "QTZ80（TC6010-6）",
+        "QTZ80(TC5610-6)",
+        "QTZ80(ZJ5710",
+        "QTZ63(5010)",
+        "QTZ80（ZJ5710）",
+        "QTZ80（TC6012A-6A）",
+        "QTZ63（TC5013-6）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "barq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021.09.02",
+        "2021.09.06",
+        "2021.09.07"
+      ],
+      "value_pool": [
+        "2021.09.02",
+        "2021.09.06",
+        "2021.09.07"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥众安建筑劳务有限公司",
+        "嘉祥县恒升工程机械租赁有限公司",
+        "济宁合星机械租赁有限公司",
+        "山东恒耀工程机械设备租赁有限公司",
+        "济宁易鑫工程机械设备租赁有限公司",
+        "济宁信邦建筑劳务有限公司",
+        "济宁腾诚工程机械租赁有限公司",
+        "济宁大康塔吊租赁有限公司"
+      ],
+      "value_pool": [
+        "嘉祥众安建筑劳务有限公司",
+        "嘉祥县恒升工程机械租赁有限公司",
+        "济宁合星机械租赁有限公司",
+        "山东恒耀工程机械设备租赁有限公司",
+        "济宁易鑫工程机械设备租赁有限公司",
+        "济宁信邦建筑劳务有限公司",
+        "济宁腾诚工程机械租赁有限公司",
+        "济宁大康塔吊租赁有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cqbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "鲁HN-T01149",
+        "鲁HN-T01150",
+        "鲁HN-T01151",
+        "鲁HN-T01152",
+        "鲁HN-T01153",
+        "鲁HN-T01154",
+        "鲁HN-T01155",
+        "鲁HN-T01156",
+        "鲁HN-T01157",
+        "鲁HN-T01158",
+        "鲁HN-T01159",
+        "鲁HN-T01160",
+        "鲁HN-T01161",
+        "鲁HN-T01162",
+        "鲁HN-T01163",
+        "鲁HN-T01164",
+        "鲁HN-T01165",
+        "鲁HN-T01166",
+        "鲁HN-T01167",
+        "鲁HN-T01168",
+        "鲁HN-T01169"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

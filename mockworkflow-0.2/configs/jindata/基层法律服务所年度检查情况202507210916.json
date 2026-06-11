@@ -1,0 +1,122 @@
+{
+  "file_name": "基层法律服务所年度检查情况202507210916.xlsx",
+  "table_name": "基层法律服务所年度检查情况202507210916",
+  "row_count": 41,
+  "columns": [
+    "xq",
+    "sm",
+    "jcsj",
+    "khjg",
+    "gssj"
+  ],
+  "fields": [
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "任城区"
+      ],
+      "value_pool": [
+        "任城区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "济宁任城古槐法律服务所",
+        "济宁任城韵律法律服务所",
+        "济宁任城众望法律服务所",
+        "济宁任城金城法律服务所",
+        "济宁任城明政法律服务所",
+        "济宁任城新宇法律服务所",
+        "济宁任城安居法律服务所",
+        "济宁任城邦德法律服务所",
+        "济宁任城恒义法律服务所",
+        "济宁任城金德法律服务所",
+        "济宁任城南苑法律服务所",
+        "济宁任城南张法律服务所",
+        "济宁任城申义法律服务所",
+        "济宁任城舒同法律服务所",
+        "济宁任城四湖法律服务所",
+        "济宁任城唐口法律服务所",
+        "济宁任城新区法律服务所",
+        "济宁任城运河法律服务所",
+        "济宁任城洸河法律服务所",
+        "济宁任城仙营法律服务所",
+        "济宁任城保国法律服务所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023-05-09 00:00:00",
+        "2023-05-08 00:00:00",
+        "45462"
+      ],
+      "value_pool": [
+        "2023-05-09 00:00:00",
+        "2023-05-08 00:00:00",
+        "45462"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "khjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "优秀",
+        "合格",
+        "不合格"
+      ],
+      "value_pool": [
+        "优秀",
+        "合格",
+        "不合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023-05-10 00:00:00",
+        "45503"
+      ],
+      "value_pool": [
+        "2023-05-10 00:00:00",
+        "45503"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

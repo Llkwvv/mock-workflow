@@ -1,0 +1,92 @@
+{
+  "file_name": "财政和金融相关指标202606041131.xlsx",
+  "table_name": "财政和金融相关指标202606041131",
+  "row_count": 12,
+  "columns": [
+    "zl",
+    "bz",
+    "zz",
+    "dw",
+    "zbmc"
+  ],
+  "fields": [
+    {
+      "name": "zl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "2024",
+        "2023",
+        "2022"
+      ],
+      "value_pool": [
+        "2024",
+        "2023",
+        "2022"
+      ],
+      "min_value": 2022.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "财政数据",
+        "一般公共预算收支",
+        "金融数据",
+        "金融机构存贷款余额"
+      ],
+      "value_pool": [
+        "财政数据",
+        "一般公共预算收支",
+        "金融数据",
+        "金融机构存贷款余额"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

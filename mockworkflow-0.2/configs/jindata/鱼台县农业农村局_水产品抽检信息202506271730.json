@@ -1,0 +1,158 @@
+{
+  "file_name": "鱼台县农业农村局_水产品抽检信息202506271730.xlsx",
+  "table_name": "鱼台县农业农村局_水产品抽检信息202506271730",
+  "row_count": 32,
+  "columns": [
+    "jyxm",
+    "cyrq",
+    "bcydwdz",
+    "cyry",
+    "bcydw",
+    "cpmc"
+  ],
+  "fields": [
+    {
+      "name": "jyxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "硝基呋喃类代谢物、孔雀石绿、氯霉素、己烯雌酚、喹乙醇等"
+      ],
+      "value_pool": [
+        "硝基呋喃类代谢物、孔雀石绿、氯霉素、己烯雌酚、喹乙醇等"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cyrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022-06-02",
+        "2022-06-03",
+        "2024年度"
+      ],
+      "value_pool": [
+        "2022-06-02",
+        "2022-06-03",
+        "2024年度"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcydwdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市鱼台县老砦镇仁北新村",
+        "济宁市鱼台县王庙镇旧城里村",
+        "济宁市鱼台县李阁镇姜楼村",
+        "山东省济宁市鱼台县李阁镇姜楼村",
+        "鱼台县王鲁镇史楼村西188米孝贤大道东",
+        "鱼台县王鲁镇孟楼村西首渔稼里广场东临",
+        "山东省济宁市鱼台县王鲁镇张庙村东首",
+        "济宁市鱼台县滨湖街道彭庄村"
+      ],
+      "value_pool": [
+        "济宁市鱼台县老砦镇仁北新村",
+        "济宁市鱼台县王庙镇旧城里村",
+        "济宁市鱼台县李阁镇姜楼村",
+        "山东省济宁市鱼台县李阁镇姜楼村",
+        "鱼台县王鲁镇史楼村西188米孝贤大道东",
+        "鱼台县王鲁镇孟楼村西首渔稼里广场东临",
+        "山东省济宁市鱼台县王鲁镇张庙村东首",
+        "济宁市鱼台县滨湖街道彭庄村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cyry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "薛垂喜、李召波",
+        "薛*喜、李*波"
+      ],
+      "value_pool": [
+        "薛垂喜、李召波",
+        "薛*喜、李*波"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "许守猛",
+        "鱼台县依水养鱼专业合作社",
+        "济宁驰润农业科技有限公司",
+        "济宁义海农业科技有限公司",
+        "济宁裕来丰生态农业有限公司",
+        "鱼台渔湖湾渔业发展有限公司",
+        "鱼台源绿生态农业科技有限公司",
+        "山东楷腾水产有限公司"
+      ],
+      "value_pool": [
+        "许守猛",
+        "鱼台县依水养鱼专业合作社",
+        "济宁驰润农业科技有限公司",
+        "济宁义海农业科技有限公司",
+        "济宁裕来丰生态农业有限公司",
+        "鱼台渔湖湾渔业发展有限公司",
+        "鱼台源绿生态农业科技有限公司",
+        "山东楷腾水产有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cpmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "鲤鱼（1号池）",
+        "鲤鱼（2号池）",
+        "鲢鱼（1号池）",
+        "鲢鱼（2号池）",
+        "鲤鱼1",
+        "鲤鱼2",
+        "鲢鱼1",
+        "鲢鱼2",
+        "克氏原螯虾1",
+        "克氏原螯虾2",
+        "草鱼（6号池）",
+        "草鱼（8号池）",
+        "鲢鱼",
+        "鲈鱼",
+        "草鱼",
+        "鲫鱼"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

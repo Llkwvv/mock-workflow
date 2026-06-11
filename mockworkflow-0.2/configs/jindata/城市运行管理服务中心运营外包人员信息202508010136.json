@@ -1,0 +1,116 @@
+{
+  "file_name": "城市运行管理服务中心运营外包人员信息202508010136.xlsx",
+  "table_name": "城市运行管理服务中心运营外包人员信息202508010136",
+  "row_count": 46,
+  "columns": [
+    "xb",
+    "gw",
+    "gzzfly",
+    "姓名",
+    "gwxz"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "信息采集员",
+        "坐席员"
+      ],
+      "value_pool": [
+        "信息采集员",
+        "坐席员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzzfly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "财政拨款",
+        "财政拨款2024"
+      ],
+      "value_pool": [
+        "财政拨款",
+        "财政拨款2024"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "周**",
+        "孙**",
+        "李**",
+        "闫**",
+        "邱***",
+        "张**",
+        "杨**",
+        "杨*",
+        "朱*",
+        "郝**",
+        "赵**",
+        "刘*",
+        "尹**",
+        "彭**",
+        "邱**",
+        "朱**",
+        "鲍**",
+        "伊**",
+        "刘**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gwxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "运营外包"
+      ],
+      "value_pool": [
+        "运营外包"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

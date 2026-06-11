@@ -1,0 +1,191 @@
+{
+  "file_name": "微山县不动产权抵押信息202507242219.xlsx",
+  "table_name": "微山县不动产权抵押信息202507242219",
+  "row_count": 1,
+  "columns": [
+    "dyqr",
+    "syqkssj",
+    "syqjssj",
+    "djsj",
+    "bdcdyh",
+    "zjbh",
+    "djkbs",
+    "wz",
+    "dyr",
+    "slbh",
+    "djlx",
+    "zjzl"
+  ],
+  "fields": [
+    {
+      "name": "dyqr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山*微山农村商业银行股份有限公司城区支行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "syqkssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-01-25"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "syqjssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2027-01-24"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-01-25 17:18:34.000"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bdcdyh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "37082600****GB00005F00010088"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "91370826****8W0B48\t370826**********19"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djkbs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "BH29413"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "微山县夏镇街道镇中街东****路南侧中信国际广场1号楼2-1503号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dyr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "张*华、王*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "YC2024012500062138"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "首次登记"
+      ],
+      "value_pool": [
+        "首次登记"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "营业执照"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

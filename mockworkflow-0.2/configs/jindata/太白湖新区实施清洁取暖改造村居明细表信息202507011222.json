@@ -1,0 +1,136 @@
+{
+  "file_name": "太白湖新区实施清洁取暖改造村居明细表信息202507011222.xlsx",
+  "table_name": "太白湖新区实施清洁取暖改造村居明细表信息202507011222",
+  "row_count": 41,
+  "columns": [
+    "cj",
+    "xqmc",
+    "xzjd",
+    "jddw",
+    "ssfs"
+  ],
+  "fields": [
+    {
+      "name": "cj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "张东村",
+        "张西村",
+        "罗场村",
+        "刘庄村",
+        "崔院村",
+        "后石村",
+        "孟井村",
+        "聂庄村",
+        "齐营村",
+        "前石村",
+        "孙庄村",
+        "郝楼村",
+        "前李村",
+        "后李村",
+        "刘营村",
+        "陆桥村",
+        "孙道口",
+        "吴湾村",
+        "倪庙村",
+        "栗河村",
+        "韩店村",
+        "苏庄村",
+        "靳庄村",
+        "辛店村",
+        "新闸村",
+        "仙庄村",
+        "大孟",
+        "李楼",
+        "毛行",
+        "孙杨田",
+        "小辛庄",
+        "张营",
+        "顺河门",
+        "航运新村",
+        "西航运",
+        "国光",
+        "白屯",
+        "工联新村",
+        "水稻研究所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "石桥镇",
+        "许庄街道"
+      ],
+      "value_pool": [
+        "石桥镇",
+        "许庄街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jddw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "太白湖新区建设局"
+      ],
+      "value_pool": [
+        "太白湖新区建设局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "煤改气",
+        "煤改电",
+        "煤改气或煤改电"
+      ],
+      "value_pool": [
+        "煤改气",
+        "煤改电",
+        "煤改气或煤改电"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

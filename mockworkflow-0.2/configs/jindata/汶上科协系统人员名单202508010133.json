@@ -1,0 +1,145 @@
+{
+  "file_name": "汶上科协系统人员名单202508010133.xlsx",
+  "table_name": "汶上科协系统人员名单202508010133",
+  "row_count": 29,
+  "columns": [
+    "姓名",
+    "zw",
+    "zzqk",
+    "dw",
+    "bgdh"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "辛**",
+        "刘***",
+        "孙***",
+        "赵**",
+        "李**",
+        "王**",
+        "张**",
+        "武**",
+        "徐**",
+        "陈**",
+        "蒋***",
+        "周**",
+        "李***",
+        "房**",
+        "束**",
+        "孔**",
+        "马**",
+        "杨**",
+        "郭**",
+        "郝**",
+        "董***",
+        "蔚**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "党组书记、主席",
+        "党组成员、副主席",
+        "党组成员、副主席、三级主任科员",
+        "二级主任科员、驻次邱镇泉河村第一书记",
+        "二级主任科员",
+        "工会主席、二级主任科员",
+        "县科普中心主任",
+        "四级主任科员",
+        "县科普中心八级职员",
+        "县科普中心青少年科技活动部副部长",
+        "县科普中心调研宣传部副部长",
+        "县科普中心工作人员",
+        "科协办主任"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "在职"
+      ],
+      "value_pool": [
+        "在职"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "县科协",
+        "汶上街道",
+        "中都街道",
+        "南站街道",
+        "康驿镇",
+        "南旺镇",
+        "刘楼镇",
+        "次邱镇",
+        "寅寺镇",
+        "郭楼镇",
+        "郭仓镇",
+        "杨店镇",
+        "军屯乡",
+        "白石镇",
+        "苑庄镇",
+        "义桥镇",
+        "经济开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bgdh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "7212701",
+        "7219748",
+        "7219716",
+        "7212716",
+        "7212707"
+      ],
+      "value_pool": [
+        "7212701",
+        "7219748",
+        "7219716",
+        "7212716",
+        "7212707"
+      ],
+      "min_value": 7212701.0,
+      "max_value": 7219748.0
+    }
+  ]
+}

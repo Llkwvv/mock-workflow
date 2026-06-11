@@ -1,0 +1,159 @@
+{
+  "file_name": "公共住房租赁补贴退出名单信息202508010128.xlsx",
+  "table_name": "公共住房租赁补贴退出名单信息202508010128",
+  "row_count": 28,
+  "columns": [
+    "姓名",
+    "sqrxm",
+    "xb",
+    "gzdw",
+    "sqrpo"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "胡**",
+        "孙**",
+        "郭*",
+        "刘**",
+        "郭**",
+        "张**",
+        "李**",
+        "崔**",
+        "王**",
+        "王*",
+        "孔**",
+        "高**",
+        "田**",
+        "冯**",
+        "吴**",
+        "周**",
+        "尹**",
+        "林**",
+        "寻**",
+        "程**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "胡**",
+        "李**",
+        "张*",
+        "吴*",
+        "龙**",
+        "谭*",
+        "田*",
+        "蔚**",
+        "吕**",
+        "王**",
+        "张**",
+        "赵**",
+        "孙**",
+        "孔**",
+        "贾*",
+        "曹**",
+        "刘**",
+        "李*",
+        "高*",
+        "徐**",
+        "何**",
+        "宋*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县物资贸易局",
+        "汶上县棉麻公司",
+        "泰康集团",
+        "原县社织布厂",
+        "顺河街西段77号",
+        "汶上县粮食局",
+        "汶上县中都大街",
+        "郭楼粮食所",
+        "义桥粮食所",
+        "汶上县土产公司",
+        "汶上县粮食公司",
+        "汶上县泉河路239号",
+        "物质贸易局",
+        "汶上县供销合作社",
+        "汶上县机电厂",
+        "汶上县顺河街西段",
+        "汶上县织布厂",
+        "汶上县运输公司",
+        "凤凰集团",
+        "汶上县市场监督管理局",
+        "汶上县南门社区",
+        "西门社区",
+        "汶上县上述路东段2666号",
+        "汶上县凤凰集团",
+        "汶上县第五实验小学东和园校区",
+        "汶上县南门"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrpo",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未婚",
+        "离异",
+        "已婚"
+      ],
+      "value_pool": [
+        "未婚",
+        "离异",
+        "已婚"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "file_name": "汶上县卫生健康局_汶上县西学中报名人员信息202508010224.xlsx",
+  "table_name": "汶上县卫生健康局_汶上县西学中报名人员信息202508010224",
+  "row_count": 63,
+  "columns": [
+    "zc",
+    "dw",
+    "mz",
+    "zy",
+    "xl",
+    "nd",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "zc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "医师",
+        "助理医师",
+        "主治医师",
+        "副主任医师",
+        "执业医师",
+        "住院医师",
+        "中级",
+        "医士",
+        "初级",
+        "主任医师"
+      ],
+      "value_pool": [
+        "医师",
+        "助理医师",
+        "主治医师",
+        "副主任医师",
+        "执业医师",
+        "住院医师",
+        "中级",
+        "医士",
+        "初级",
+        "主任医师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县苑庄卫生院",
+        "汶上县第二人民医院",
+        "汶上县第三人民医院",
+        "汶上县中医院",
+        "汶上县康驿卫生院",
+        "汶上县刘楼卫生院",
+        "郭仓镇宋村卫生室",
+        "汶上县郭仓卫生院",
+        "汶上刘炳军诊所",
+        "汶上李咸阳诊所",
+        "汶上高召俊诊所",
+        "汶上县郭楼卫生院",
+        "郭楼镇郭楼社区卫生室",
+        "郭楼镇美和新村第一卫生室",
+        "郭楼镇侯仓村卫生室",
+        "郭楼镇张坝口村卫生室",
+        "汶上县妇幼保健计划生育服务中心",
+        "汶上县康复医院",
+        "汶上县人民医院",
+        "汶上县杨店医院",
+        "汶上县次邱卫生院",
+        "汶上王学平诊所",
+        "中都街道和谐佳苑小区卫生室"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "临床医学",
+        "临床",
+        "社区医学",
+        "社区医学（临床内科）",
+        "临床医学与英语",
+        "内科",
+        "临床内科",
+        "临床妇产科",
+        "妇产科",
+        "计划生育专业",
+        "外科、全科",
+        "内科、全科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "本科",
+        "大专",
+        "中专",
+        "专科"
+      ],
+      "value_pool": [
+        "本科",
+        "大专",
+        "中专",
+        "专科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021年"
+      ],
+      "value_pool": [
+        "2021年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "王**",
+        "孔**",
+        "曹**",
+        "仇**",
+        "马**",
+        "赵**",
+        "陈**",
+        "李*",
+        "梁*",
+        "丁**",
+        "李**",
+        "刘**",
+        "何**",
+        "胡**",
+        "郑**",
+        "马*",
+        "吴**",
+        "杨**",
+        "毕**",
+        "康**",
+        "张*",
+        "徐**",
+        "石*",
+        "宋**",
+        "谭**",
+        "高**",
+        "姚**",
+        "荣**",
+        "于*",
+        "戴**",
+        "谷**",
+        "廉**",
+        "林**",
+        "侯**",
+        "郭**",
+        "解**",
+        "胡*",
+        "曾**",
+        "孙*",
+        "韩**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

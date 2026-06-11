@@ -1,0 +1,130 @@
+{
+  "file_name": "鱼台县财政局_免学费明细信息202508010201.xlsx",
+  "table_name": "鱼台县财政局_免学费明细信息202508010201",
+  "row_count": 2423,
+  "columns": [
+    "姓名",
+    "yfjey",
+    "sfjey",
+    "ahharbz",
+    "xxmc"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杨**",
+        "马**",
+        "尹**",
+        "王**",
+        "李**",
+        "纪**",
+        "牛**",
+        "张**",
+        "宋**",
+        "孙**",
+        "田**",
+        "于**",
+        "刘**",
+        "郭**",
+        "甄**",
+        "姜**",
+        "姚**",
+        "赵**",
+        "房**",
+        "贾**",
+        "缪**",
+        "闵**",
+        "朱**",
+        "盛**",
+        "徐**",
+        "邵**",
+        "侯**",
+        "随**",
+        "闫**",
+        "蒋**",
+        "屈**",
+        "魏**",
+        "龚**",
+        "宫**",
+        "何**",
+        "董**",
+        "黄**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yfjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "625"
+      ],
+      "value_pool": [
+        "625"
+      ],
+      "min_value": 500.0,
+      "max_value": 800.0
+    },
+    {
+      "name": "sfjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022年实发625",
+        "625"
+      ],
+      "value_pool": [
+        "2022年实发625",
+        "625"
+      ],
+      "min_value": 500.0,
+      "max_value": 800.0
+    },
+    {
+      "name": "ahharbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "2022年发放到人"
+      ],
+      "value_pool": [
+        "2022年发放到人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县谷亭街道中学"
+      ],
+      "value_pool": [
+        "鱼台县谷亭街道中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

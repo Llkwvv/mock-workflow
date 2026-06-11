@@ -1,0 +1,327 @@
+{
+  "file_name": "高新区交通运输管理局行政处罚一般案件信息202604291745.xlsx",
+  "table_name": "高新区交通运输管理局行政处罚一般案件信息202604291745",
+  "row_count": 3,
+  "columns": [
+    "cfyj",
+    "cphmzc",
+    "ajly",
+    "ajzt",
+    "xzcfxdrzjbh",
+    "layj",
+    "wfxwmc",
+    "cflx",
+    "larq",
+    "ah",
+    "cfjdrq",
+    "ay",
+    "wfdd",
+    "fkjewy",
+    "xzcfxdrmc",
+    "cclx",
+    "wfsj",
+    "jabgrq",
+    "zfdw"
+  ],
+  "fields": [
+    {
+      "name": "cfyj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "《山东省道路运输条例》第六十七条第（六）项",
+        "《山东省道路运输条例》第六十七条第（四）项"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cphmzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁HJ******色)",
+        "鲁H7******色)",
+        "鲁HS******色)"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ajly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "其他途径发现的",
+        "在行政检查中发现的"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ajzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "结束(案件主流程)"
+      ],
+      "value_pool": [
+        "结束(案件主流程)"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzcfxdrzjbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "913708**********X9",
+        "913708**********7T",
+        "913708**********96"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "layj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "《山东省道路运输条例》第五十六条",
+        "《山东省道路运输条例》第四十四条第一款"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wfxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "道路运输车辆逾期未参加年度审验",
+        "机动车驾驶员培训单位未在规定的教练场地内培训"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cflx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "罚款"
+      ],
+      "value_pool": [
+        "罚款"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "larq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-03-29",
+        "2021-04-08",
+        "2021-06-10"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ah",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370871202100014",
+        "370871202100019",
+        "370871202100026"
+      ],
+      "min_value": 370871202100014.0,
+      "max_value": 370871202100026.0
+    },
+    {
+      "name": "cfjdrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-03-30",
+        "2021-04-08",
+        "2021-06-10"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ay",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "涉嫌道路运输车辆逾期未参加年度审验案",
+        "涉嫌机动车驾驶员培训单位未在规定的教练场地内培训案"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wfdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区交通运输管理局直属大队办公室",
+        "济宁高新区群英路与志学路交汇处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fkjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "3000",
+        "2000"
+      ],
+      "min_value": 2000.0,
+      "max_value": 3000.0
+    },
+    {
+      "name": "xzcfxdrmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市********公司",
+        "济宁*********公司",
+        "济宁******公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cclx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "普通货运",
+        "其它"
+      ],
+      "value_pool": [
+        "普通货运",
+        "其它"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wfsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-03-29",
+        "2021-03-31",
+        "2021-06-09"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jabgrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-03-30",
+        "2021-04-09",
+        "2021-06-11"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁高新技术产业开发区交通运输监察直属大队"
+      ],
+      "value_pool": [
+        "济宁高新技术产业开发区交通运输监察直属大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

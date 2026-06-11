@@ -1,0 +1,151 @@
+{
+  "file_name": "金乡县文化和旅游局亮证执法信息202508010124.xlsx",
+  "table_name": "金乡县文化和旅游局亮证执法信息202508010124",
+  "row_count": 23,
+  "columns": [
+    "gwks",
+    "姓名",
+    "zfzh",
+    "zw",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "gwks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "文化和旅游局、文物保护中心",
+        "文化市场综合执法大队",
+        "市场监管科",
+        "办公室",
+        "文化和旅游局、文化市场综合执法大队",
+        "文物科",
+        "文化和旅游局",
+        "资源开发科",
+        "产业促进科",
+        "公共文化服务科",
+        "公共文化服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "蔡**",
+        "杨*",
+        "张**",
+        "翟**",
+        "徐**",
+        "高**",
+        "寻**",
+        "贺**",
+        "王*",
+        "刘**",
+        "蔡*",
+        "马**",
+        "朱**",
+        "张*",
+        "孙**",
+        "董**",
+        "秦**",
+        "王**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "150****1001",
+        "150****1010",
+        "150****1004",
+        "150****1013",
+        "150****1007",
+        "150****1015",
+        "150****1003",
+        "150****1014",
+        "150****1012",
+        "150****1002",
+        "150****1011",
+        "150****1016",
+        "150****1008",
+        "150****1005",
+        "150****1021",
+        "150****1023",
+        "150****1018",
+        "150****1024",
+        "150****1020",
+        "150****1006",
+        "150****1026",
+        "150****1025",
+        "150****1022"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "党组成员、主任",
+        "科长",
+        "副科长",
+        "党组成员、大队长",
+        "党组成员、副局长",
+        "党组书记",
+        "副主任"
+      ],
+      "value_pool": [
+        "党组成员、主任",
+        "科长",
+        "副科长",
+        "党组成员、大队长",
+        "党组成员、副局长",
+        "党组书记",
+        "副主任"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

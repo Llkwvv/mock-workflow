@@ -1,0 +1,128 @@
+{
+  "file_name": "婚生随父母出生登记202508010129.xlsx",
+  "table_name": "婚生随父母出生登记202508010129",
+  "row_count": 30,
+  "columns": [
+    "dq",
+    "姓名",
+    "blsj",
+    "sxcl",
+    "sfcnr"
+  ],
+  "fields": [
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "L*************",
+        "L************",
+        "刘**"
+      ],
+      "value_pool": [
+        "L*************",
+        "L************",
+        "刘**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020-03-06 00:00:00",
+        "2020-03-07 00:00:00",
+        "2020-03-08 00:00:00",
+        "2020-03-09 00:00:00",
+        "2020-03-19 00:00:00",
+        "2020-03-20 00:00:00",
+        "2020-04-08 00:00:00",
+        "2020-04-14 00:00:00",
+        "2020-04-15 00:00:00",
+        "2020-04-16 00:00:00",
+        "2020-04-17 00:00:00",
+        "2020-05-09 00:00:00",
+        "2020-05-10 00:00:00",
+        "2020-05-11 00:00:00",
+        "2020-05-15 00:00:00",
+        "2020-06-24 00:00:00",
+        "2020-06-25 00:00:00",
+        "2020-06-26 00:00:00",
+        "2020-07-08 00:00:00",
+        "2020-07-09 00:00:00",
+        "2020-07-10 00:00:00",
+        "2020-07-11 00:00:00",
+        "2020-08-23 00:00:00",
+        "2020-08-24 00:00:00",
+        "2020-08-28 00:00:00",
+        "2020-08-29 00:00:00",
+        "2020-08-30 00:00:00",
+        "2020-09-05 00:00:00",
+        "2025-04-06"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxcl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "出生证明、父母身份证",
+        "夫妻双方身份证、户口本、结婚证、出生医学证明"
+      ],
+      "value_pool": [
+        "出生证明、父母身份证",
+        "夫妻双方身份证、户口本、结婚证、出生医学证明"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "是",
+        "否"
+      ],
+      "value_pool": [
+        "是",
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

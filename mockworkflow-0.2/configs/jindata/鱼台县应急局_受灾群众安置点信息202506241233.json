@@ -1,0 +1,264 @@
+{
+  "file_name": "鱼台县应急局_受灾群众安置点信息202506241233.xlsx",
+  "table_name": "鱼台县应急局_受灾群众安置点信息202506241233",
+  "row_count": 29,
+  "columns": [
+    "gsg",
+    "sfyrcjctd",
+    "sfyyjsy",
+    "azddz",
+    "sfyhsdw",
+    "azdxz",
+    "sfyyjdy",
+    "sfycssy",
+    "sfycshydcs",
+    "sfycsdy",
+    "kazrsr"
+  ],
+  "fields": [
+    {
+      "name": "gsg",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "sfyrcjctd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "有"
+      ],
+      "value_pool": [
+        "是",
+        "有"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfyyjsy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "否",
+        "有"
+      ],
+      "value_pool": [
+        "是",
+        "否",
+        "有"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "azddz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鱼城镇原计生办（鱼清线路东）",
+        "鱼城镇敬老院（鱼城镇胡阁村北）",
+        "鱼城镇中学（原二中）",
+        "鱼台县唐马镇东鱼河桥北100米鱼丰路路东",
+        "鱼台县唐马镇后付村村西头",
+        "鱼台县唐马镇甄庄村孙庙村前",
+        "鱼台县南环路与鱼丰路路口交叉路口向南100米路西",
+        "鱼台县王鲁镇驻地X026县道东",
+        "鱼台县王鲁镇中心学校",
+        "鱼台县王庙镇皮李公路养老院",
+        "鱼台县王庙镇中心中学（镇驻地西400米",
+        "鱼台县张黄镇清张线北",
+        "鱼台县张黄镇武张线与岚曹高速交叉路口",
+        "鱼台县清河镇清河小学",
+        "鱼台县清河镇石集中学",
+        "鱼台县罗屯镇原敬老院（金清线路北）",
+        "鱼台县老砦镇驻地南首",
+        "鱼台县老砦镇刘寨村广场北",
+        "鱼台县老砦镇许楼村委会东200米",
+        "鱼台县老砦镇东里村委会西300米",
+        "鱼台县谷亭街道谷缪路北姜庄村",
+        "鱼台县谷亭街道周堂村党建示范区内",
+        "鱼台县北一环西支河东500米",
+        "鱼台县湖凌二路西支河桥北",
+        "鱼台县李阁镇中心中学",
+        "鱼台县李阁镇原敬老院栖霞崮堆南500米路东",
+        "鱼台县鱼城镇原计生办（鱼清线路东）",
+        "鱼台县鱼城镇敬老院（鱼城镇胡阁村北）",
+        "鱼台县鱼城镇中学（原二中）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfyhsdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "是",
+        "否",
+        "有"
+      ],
+      "value_pool": [
+        "是",
+        "否",
+        "有"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "azdxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "政府楼房",
+        "福利机构",
+        "学校",
+        "养老院",
+        "广场",
+        "政府办公楼房",
+        "社会机构",
+        "学校用地"
+      ],
+      "value_pool": [
+        "政府楼房",
+        "福利机构",
+        "学校",
+        "养老院",
+        "广场",
+        "政府办公楼房",
+        "社会机构",
+        "学校用地"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfyyjdy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "否",
+        "有"
+      ],
+      "value_pool": [
+        "是",
+        "否",
+        "有"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfycssy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "有"
+      ],
+      "value_pool": [
+        "是",
+        "有"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfycshydcs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "有"
+      ],
+      "value_pool": [
+        "是",
+        "有"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfycsdy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "有"
+      ],
+      "value_pool": [
+        "是",
+        "有"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kazrsr",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "100",
+        "200",
+        "800",
+        "300",
+        "500",
+        "80",
+        "650",
+        "600",
+        "400",
+        "60",
+        "7000"
+      ],
+      "min_value": 60.0,
+      "max_value": 7000.0
+    }
+  ]
+}

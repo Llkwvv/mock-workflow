@@ -1,0 +1,146 @@
+{
+  "file_name": "交通运输企业安全生产标准化建设信息202506161153.xlsx",
+  "table_name": "交通运输企业安全生产标准化建设信息202506161153",
+  "row_count": 27,
+  "columns": [
+    "jylx",
+    "dbdj",
+    "yxq",
+    "zslb",
+    "qymc"
+  ],
+  "fields": [
+    {
+      "name": "jylx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "水路运输",
+        "港口营运",
+        "道路运输"
+      ],
+      "value_pool": [
+        "水路运输",
+        "港口营运",
+        "道路运输"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dbdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "二级",
+        "三级",
+        "开展未定级"
+      ],
+      "value_pool": [
+        "二级",
+        "三级",
+        "开展未定级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2018年4月10日至2021年4月9日",
+        "2019年5月5日至2022年5月4日",
+        "2020年7月23日至2023年7月22日",
+        "2018年11月18日至2021年11月17日",
+        "2019年1月3日至2022年1月2日",
+        "2019年8月1日至2022年7月31日",
+        "2019年8月1日至2022年7月32日",
+        "/",
+        "2026年8月13日",
+        "2023年7月22日至2026年7月21日",
+        "2024年1月15日至2027年1月14日",
+        "2022年10月8日至2025年10月7日",
+        "2023年2月13日至2026年2月12日",
+        "2023年9月27日至2026年9月26日",
+        "2023年10月16日至2026年10月15日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zslb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "水路旅客运输",
+        "港口普通货物码头",
+        "道路危险货物运输",
+        "道路普通货物运输",
+        "水路普通货物运输",
+        "/"
+      ],
+      "value_pool": [
+        "水路旅客运输",
+        "港口普通货物码头",
+        "道路危险货物运输",
+        "道路普通货物运输",
+        "水路普通货物运输",
+        "/"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁北湖旅游管理服务中心",
+        "兖州煤业股份有限公司济宁三号煤矿（泗河口港）",
+        "济宁信安石化运输有限公司",
+        "济宁京杭渣土运输有限公司",
+        "济宁蕴德能源科技有限公司",
+        "山东兖煤航运有限公司",
+        "济宁市龙腾航运 有限责任公司",
+        "济宁百道物流有限公司",
+        "济宁万嘉物流有限公司",
+        "山东超力砼业有限公司",
+        "山东瑞通市政工程有限公司",
+        "济宁新盛运输有限公司",
+        "济宁安港物流有限公司",
+        "济宁众秦运输有限公司",
+        "济宁兄弟联合运输有限公司",
+        "济宁通顺运输有限公司",
+        "济宁滨湖渣土运输有限公司",
+        "山东岂岭烽建材有限公司",
+        "济宁济三运输有限责任公司",
+        "济宁济安运输有限公司",
+        "济宁润通航运有限责任公司",
+        "济宁市鑫生轮船有限公司",
+        "济宁坦途商贸有限公司",
+        "济宁市速航航运有限公司",
+        "济宁民兴物流有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "file_name": "济宁市人力资源和社会保障局_专业技术人员继续教育基地名单202506271702.xlsx",
+  "table_name": "济宁市人力资源和社会保障局_专业技术人员继续教育基地名单202506271702",
+  "row_count": 19,
+  "columns": [
+    "yxq",
+    "xh",
+    "pzwh",
+    "jb",
+    "jdmc",
+    "gldw"
+  ],
+  "fields": [
+    {
+      "name": "yxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2025年－2029年"
+      ],
+      "value_pool": [
+        "2025年－2029年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "min_value": 1.0,
+      "max_value": 19.0
+    },
+    {
+      "name": "pzwh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "济人社字〔2025〕27号"
+      ],
+      "value_pool": [
+        "济人社字〔2025〕27号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市级"
+      ],
+      "value_pool": [
+        "市级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市第二人民医院",
+        "济宁市工业技师学院",
+        "曲阜市职工中等专业学校（曲阜市技工学校）",
+        "山东等闲谷艺术粮仓文化发展有限公司",
+        "兖州煤业股份有限公司员工教育培训中心",
+        "鱼台县职业中等专业学校",
+        "金乡县职业中等专业学校",
+        "嘉祥县职业中等专业学校",
+        "汶上县委党校（汶上县行政学校、汶上县社会主义学校）",
+        "梁山县技工学校",
+        "迪尔集团有限公司",
+        "山东理工职业学院",
+        "济宁教育学院",
+        "济宁市煤矿职工培训中心",
+        "山东省济宁卫生学校",
+        "济宁安泰职业培训学院",
+        "济宁市技工教育集团",
+        "济宁学院",
+        "济宁医学院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "任城区人力资源和社会保障局",
+        "兖州区人力资源和社会保障局",
+        "曲阜市人力资源和社会保障局",
+        "泗水县人力资源和社会保障局",
+        "邹城市人力资源和社会保障局",
+        "鱼台县人力资源和社会保障局",
+        "金乡县人力资源和社会保障局",
+        "嘉祥县人力资源和社会保障局",
+        "汶上县人力资源和社会保障局",
+        "梁山县人力资源和社会保障局",
+        "高新区人力资源部",
+        "太白湖新区人力资源和社会保障局",
+        "济宁市教育局",
+        "济宁市能源局",
+        "济宁市卫生健康委员会",
+        "济宁市住房和城乡建设局",
+        "济宁市技师学院",
+        "济宁学院",
+        "济宁医学院"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

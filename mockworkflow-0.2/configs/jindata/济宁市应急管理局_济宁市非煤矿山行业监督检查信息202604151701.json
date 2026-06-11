@@ -1,0 +1,169 @@
+{
+  "file_name": "济宁市应急管理局_济宁市非煤矿山行业监督检查信息202604151701.xlsx",
+  "table_name": "济宁市应急管理局_济宁市非煤矿山行业监督检查信息202604151701",
+  "row_count": 28,
+  "columns": [
+    "jchd",
+    "xh",
+    "ksdz",
+    "jcdw",
+    "lbdxksltks",
+    "ksqymc"
+  ],
+  "fields": [
+    {
+      "name": "jchd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市非煤矿山专业委员会联合专项督查",
+        "济宁市非煤矿山专家查隐患活动",
+        "国家矿山安监局督导山东省矿山安全生产专项整治工作"
+      ],
+      "value_pool": [
+        "济宁市非煤矿山专业委员会联合专项督查",
+        "济宁市非煤矿山专家查隐患活动",
+        "国家矿山安监局督导山东省矿山安全生产专项整治工作"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "min_value": 1.0,
+      "max_value": 28.0
+    },
+    {
+      "name": "ksdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县郭仓镇",
+        "泗水县苗馆镇",
+        "泗水县泉林镇",
+        "曲阜市尼山镇",
+        "嘉祥县纸坊镇",
+        "济宁经济技术开发区马集镇",
+        "汶上县白石镇",
+        "泗水县济河街道",
+        "邹城市大束镇",
+        "邹城市看庄镇",
+        "微山县韩庄镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "市应急局、市公安局、市自然资源和规划局、市市场监管局",
+        "市应急局",
+        "国家矿山安监局"
+      ],
+      "value_pool": [
+        "市应急局、市公安局、市自然资源和规划局、市市场监管局",
+        "市应急局",
+        "国家矿山安监局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lbdxksltks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "地下矿山",
+        "露天矿山"
+      ],
+      "value_pool": [
+        "地下矿山",
+        "露天矿山"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ksqymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "中钢集团山东富全矿业有限公司李官集铁矿",
+        "济宁海螺水泥有限责任公司(松山水泥灰岩矿)",
+        "济宁海螺水泥有限责任公司(泗水泉林水泥配料用泥岩矿)",
+        "山东金塔王股份有限公司(柴山石灰石矿)",
+        "嘉祥县城投石业有限公司",
+        "济宁嘉华创展建材有限公司",
+        "汶上县闳兴矿业有限公司",
+        "汶上县福胜矿业有限公司",
+        "汶上县恒盛矿业有限公司",
+        "济宁中联水泥有限公司踞龙山矿",
+        "山东港利矿业股份有限公司",
+        "鲁南中联水泥有限公司朱家山-狼山水泥灰岩矿",
+        "山东微山湖稀土有限公司",
+        "济宁华丰工贸开发有限责任公司邹城市土山铁矿",
+        "济宁山水水泥有限公司",
+        "邹城市合胜石材有限公司",
+        "山东湖邹矿业有限公司",
+        "济宁诚聚通石材有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

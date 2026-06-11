@@ -1,0 +1,94 @@
+{
+  "file_name": "嘉祥县统计局-建筑业企业房屋竣工面积及价值202601081028.xlsx",
+  "table_name": "嘉祥县统计局-建筑业企业房屋竣工面积及价值202601081028",
+  "row_count": 3,
+  "columns": [
+    "fwjzfl",
+    "fwjgmjpfm",
+    "zblx",
+    "jgfwjzqy",
+    "nf"
+  ],
+  "fields": [
+    {
+      "name": "fwjzfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "合计：房屋竣工面积及价值",
+        "住宅房屋",
+        "商业及服务用房屋"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwjgmjpfm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2042843",
+        "1066192",
+        "142011"
+      ],
+      "min_value": 142011.0,
+      "max_value": 2042843.0
+    },
+    {
+      "name": "zblx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "建筑业竣工面积及价值"
+      ],
+      "value_pool": [
+        "建筑业竣工面积及价值"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgfwjzqy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2890249",
+        "1523476",
+        "227349"
+      ],
+      "min_value": 227349.0,
+      "max_value": 2890249.0
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019"
+      ],
+      "value_pool": [
+        "2019"
+      ],
+      "min_value": 2019.0,
+      "max_value": 2019.0
+    }
+  ]
+}

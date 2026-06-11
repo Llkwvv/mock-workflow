@@ -1,0 +1,128 @@
+{
+  "file_name": "嘉祥县供销合作社联合社志愿者名单202508010119.xlsx",
+  "table_name": "嘉祥县供销合作社联合社志愿者名单202508010119",
+  "row_count": 22,
+  "columns": [
+    "xb",
+    "姓名",
+    "csny",
+    "fwsq",
+    "fwxm"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "肖**",
+        "魏**",
+        "刘**",
+        "史**",
+        "黄**",
+        "薛**",
+        "张**",
+        "周**",
+        "王**",
+        "张*",
+        "杨**",
+        "武**",
+        "郝**",
+        "司**",
+        "姚**",
+        "于**",
+        "胡***"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csny",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "197210",
+        "196504",
+        "197701",
+        "198611",
+        "199610",
+        "198211",
+        "197610",
+        "197911",
+        "199907",
+        "197404",
+        "197106",
+        "199905",
+        "197709",
+        "198812",
+        "196810",
+        "196510",
+        "198904",
+        "197702",
+        "199412",
+        "198807"
+      ],
+      "min_value": 196504.0,
+      "max_value": 199907.0
+    },
+    {
+      "name": "fwsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "演武社区县社小区"
+      ],
+      "value_pool": [
+        "演武社区县社小区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "创城。社区服务"
+      ],
+      "value_pool": [
+        "创城。社区服务"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

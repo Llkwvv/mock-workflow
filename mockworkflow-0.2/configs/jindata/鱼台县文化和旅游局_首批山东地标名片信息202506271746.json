@@ -1,0 +1,168 @@
+{
+  "file_name": "鱼台县文化和旅游局_首批山东地标名片信息202506271746.xlsx",
+  "table_name": "鱼台县文化和旅游局_首批山东地标名片信息202506271746",
+  "row_count": 25,
+  "columns": [
+    "gsd",
+    "dlbzmc",
+    "sbzt",
+    "rxnd",
+    "sfyt"
+  ],
+  "fields": [
+    {
+      "name": "gsd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "威海市",
+        "日照市",
+        "济南市",
+        "烟台市",
+        "潍坊市",
+        "滨州市",
+        "淄博市",
+        "济宁市",
+        "青岛市",
+        "菏泽市",
+        "东营市",
+        "枣庄市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dlbzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "乳山牡蛎",
+        "日照绿茶",
+        "平阴玫瑰",
+        "烟台苹果",
+        "安丘大姜",
+        "沾化冬枣",
+        "淄博陶瓷",
+        "金乡大蒜",
+        "阳信鸭梨",
+        "仁风西瓜",
+        "文登西洋参",
+        "潍县萝卜",
+        "胶州大白菜",
+        "沂源苹果",
+        "鱼台大米",
+        "大泽山葡萄",
+        "曹县芦笋",
+        "黄河口大米",
+        "桂河芹菜",
+        "鱼台龙虾",
+        "莱芜花椒",
+        "山亭地瓜枣"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "乳山市牡蛎协会",
+        "日照市茶叶协会",
+        "平阴县玫瑰产业协会",
+        "烟台市苹果协会",
+        "安丘市瓜菜协会",
+        "滨州市沾化区冬枣研究所",
+        "山东省陶瓷协会",
+        "金乡县大蒜协会",
+        "阳信县鸭梨研究所",
+        "济南市济阳区仁风镇西瓜协会",
+        "威海市文登区张家产镇西洋参产业协会",
+        "潍坊市寒亭区农业合作发展协会",
+        "胶州市大白菜协会",
+        "沂源县农业品牌管理办公室",
+        "鱼台大米产业协会",
+        "平度市大泽山葡萄协会",
+        "曹县芦笋协会",
+        "垦利区农学会（原垦利县农学会）",
+        "寿光蔬菜瓜果产业协会",
+        "鱼台县龙虾协会"
+      ],
+      "value_pool": [
+        "乳山市牡蛎协会",
+        "日照市茶叶协会",
+        "平阴县玫瑰产业协会",
+        "烟台市苹果协会",
+        "安丘市瓜菜协会",
+        "滨州市沾化区冬枣研究所",
+        "山东省陶瓷协会",
+        "金乡县大蒜协会",
+        "阳信县鸭梨研究所",
+        "济南市济阳区仁风镇西瓜协会",
+        "威海市文登区张家产镇西洋参产业协会",
+        "潍坊市寒亭区农业合作发展协会",
+        "胶州市大白菜协会",
+        "沂源县农业品牌管理办公室",
+        "鱼台大米产业协会",
+        "平度市大泽山葡萄协会",
+        "曹县芦笋协会",
+        "垦利区农学会（原垦利县农学会）",
+        "寿光蔬菜瓜果产业协会",
+        "鱼台县龙虾协会",
+        "济南市莱芜花椒协会",
+        "枣庄市甘箸产业协会"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rxnd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021年",
+        "2021"
+      ],
+      "value_pool": [
+        "2021年",
+        "2021"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfyt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "是",
+        "非鱼台"
+      ],
+      "value_pool": [
+        "否",
+        "是",
+        "非鱼台"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "file_name": "汶上县交通运输局_大型活动公交车辆运力保障工作信息202506271919.xlsx",
+  "table_name": "汶上县交通运输局_大型活动公交车辆运力保障工作信息202506271919",
+  "row_count": 29,
+  "columns": [
+    "yhmc",
+    "yhdz",
+    "zws",
+    "cphm",
+    "cscd"
+  ],
+  "fields": [
+    {
+      "name": "yhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "汶上县宏盛公交客运有限公司"
+      ],
+      "value_pool": [
+        "汶上县宏盛公交客运有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县城蒙馆公路与外一环交界处"
+      ],
+      "value_pool": [
+        "汶上县城蒙馆公路与外一环交界处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zws",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "44",
+        "58",
+        "47",
+        "35"
+      ],
+      "value_pool": [
+        "44",
+        "58",
+        "47",
+        "35"
+      ],
+      "min_value": 35.0,
+      "max_value": 58.0
+    },
+    {
+      "name": "cphm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁HQ7099",
+        "鲁HQ7089",
+        "鲁HQ7159",
+        "鲁H79B11",
+        "鲁H13B55",
+        "鲁H13B16",
+        "鲁H13B09",
+        "鲁H81D91",
+        "鲁H81D82",
+        "鲁H81D27",
+        "鲁H02D13",
+        "鲁H81D08",
+        "鲁H59C58",
+        "鲁H59C76",
+        "鲁H59C78",
+        "鲁H59C99",
+        "鲁H66C86",
+        "鲁H02218D",
+        "鲁H00758D",
+        "鲁H07576D",
+        "鲁H06018D",
+        "鲁H00668D",
+        "鲁HH6387",
+        "鲁HH6393",
+        "鲁HH6395",
+        "鲁HH6397",
+        "鲁HQ7638",
+        "鲁HQ6900",
+        "鲁HQ7155"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cscd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "8060",
+        "8050",
+        "8005",
+        "6620"
+      ],
+      "value_pool": [
+        "8060",
+        "8050",
+        "8005",
+        "6620"
+      ],
+      "min_value": 6620.0,
+      "max_value": 8060.0
+    }
+  ]
+}

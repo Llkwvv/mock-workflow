@@ -1,0 +1,181 @@
+{
+  "file_name": "发放自主就业退役士兵一次性经济补助金名单202508010301.xlsx",
+  "table_name": "发放自主就业退役士兵一次性经济补助金名单202508010301",
+  "row_count": 214,
+  "columns": [
+    "ffdw",
+    "twsj",
+    "rwsj",
+    "xb",
+    "姓名",
+    "fynx"
+  ],
+  "fields": [
+    {
+      "name": "ffdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县退役军人事务局"
+      ],
+      "value_pool": [
+        "嘉祥县退役军人事务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "twsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024.03",
+        "2024.09",
+        "2024.11"
+      ],
+      "value_pool": [
+        "2024.03",
+        "2024.09",
+        "2024.11"
+      ],
+      "min_value": 2024.03,
+      "max_value": 2024.12
+    },
+    {
+      "name": "rwsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023.03",
+        "2022.03",
+        "2021.03",
+        "2024.03",
+        "2022.09"
+      ],
+      "value_pool": [
+        "2023.03",
+        "2022.03",
+        "2021.03",
+        "2024.03",
+        "2022.09"
+      ],
+      "min_value": 2012.12,
+      "max_value": 2024.03
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈**",
+        "李**",
+        "高**",
+        "岳**",
+        "任**",
+        "刘**",
+        "薛**",
+        "汤**",
+        "赵**",
+        "张**",
+        "杨**",
+        "蒋**",
+        "常**",
+        "王**",
+        "闫**",
+        "董**",
+        "宋**",
+        "周**",
+        "贺**",
+        "朱**",
+        "黄*",
+        "刘*",
+        "黄**",
+        "韩*",
+        "李*",
+        "梁**",
+        "郏**",
+        "孔**",
+        "马**",
+        "胡**",
+        "谷*",
+        "秦**",
+        "曹*",
+        "曹**",
+        "孙**",
+        "鲁**",
+        "仇**",
+        "阮**",
+        "何*",
+        "许**",
+        "钱**",
+        "吴**",
+        "山**",
+        "郭**",
+        "狄**",
+        "杜**",
+        "苏**",
+        "贾**",
+        "韩**",
+        "程**",
+        "靳**",
+        "徐**",
+        "陈*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fynx",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "0.7",
+        "0.9"
+      ],
+      "value_pool": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "0.7",
+        "0.9"
+      ],
+      "min_value": 0.7,
+      "max_value": 12.0
+    }
+  ]
+}

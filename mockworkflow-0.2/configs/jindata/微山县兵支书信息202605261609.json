@@ -1,0 +1,86 @@
+{
+  "file_name": "微山县兵支书信息202605261609.xlsx",
+  "table_name": "微山县兵支书信息202605261609",
+  "row_count": 1,
+  "columns": [
+    "nl",
+    "rylb",
+    "sfjrczr",
+    "xsq",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "46"
+      ],
+      "min_value": 46.0,
+      "max_value": 46.0
+    },
+    {
+      "name": "rylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "退役军人"
+      ],
+      "value_pool": [
+        "退役军人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfjrczr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "昭阳街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "仲*"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

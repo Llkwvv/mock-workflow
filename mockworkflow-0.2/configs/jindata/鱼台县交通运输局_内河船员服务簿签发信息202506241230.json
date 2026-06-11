@@ -1,0 +1,137 @@
+{
+  "file_name": "鱼台县交通运输局_内河船员服务簿签发信息202506241230.xlsx",
+  "table_name": "鱼台县交通运输局_内河船员服务簿签发信息202506241230",
+  "row_count": 26,
+  "columns": [
+    "htqxqsrq",
+    "htqxjzrq",
+    "fzjg",
+    "sxxzqh",
+    "ssqymc"
+  ],
+  "fields": [
+    {
+      "name": "htqxqsrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2019-05-01 00:00:00",
+        "2020-07-01 00:00:00",
+        "2018-02-02 00:00:00",
+        "2018-06-09 00:00:00",
+        "2020-05-01 00:00:00",
+        "2019-01-01 00:00:00",
+        "2021-04-01 00:00:00",
+        "2017-02-22 00:00:00",
+        "2017-03-20 00:00:00",
+        "2020-01-30 00:00:00",
+        "2019-12-14 00:00:00",
+        "2020-05-06 00:00:00",
+        "2019-10-08 00:00:00",
+        "2018-02-19 00:00:00",
+        "2018-04-21 00:00:00",
+        "2017-06-22 00:00:00",
+        "2018-09-10 00:00:00",
+        "2009-01-02 00:00:00",
+        "2020-03-01 00:00:00",
+        "2020-02-10 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "htqxjzrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-06-30 00:00:00",
+        "2025-07-01 00:00:00",
+        "2023-02-01 00:00:00",
+        "2023-06-08 00:00:00",
+        "无固定期限",
+        "2025-04-01 00:00:00",
+        "2022-01-29 00:00:00",
+        "2021-12-13 00:00:00",
+        "2022-05-05 00:00:00",
+        "2021-10-07 00:00:00",
+        "2022-03-01 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市行政审批服务局",
+        "市行政审批服务局"
+      ],
+      "value_pool": [
+        "济宁市行政审批服务局",
+        "市行政审批服务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxxzqh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市鱼台县"
+      ],
+      "value_pool": [
+        "济宁市鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssqymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁爱文船务有限公司",
+        "山东迪源物流有限公司",
+        "鱼台富航水运有限公司",
+        "济宁腾翔航运有限公司",
+        "鱼台万顺航运有限公司",
+        "鱼台祥源航运有限公司",
+        "山东新拓佑物流有限公司",
+        "鱼台县致运航运有限公司",
+        "鱼台瑞海通水运有限公司"
+      ],
+      "value_pool": [
+        "济宁爱文船务有限公司",
+        "山东迪源物流有限公司",
+        "鱼台富航水运有限公司",
+        "济宁腾翔航运有限公司",
+        "鱼台万顺航运有限公司",
+        "鱼台祥源航运有限公司",
+        "山东新拓佑物流有限公司",
+        "鱼台县致运航运有限公司",
+        "鱼台瑞海通水运有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "file_name": "济宁市港航事业发展中心-济宁市港口环保服务驿站基本信息202603200843.xlsx",
+  "table_name": "济宁市港航事业发展中心-济宁市港口环保服务驿站基本信息202603200843",
+  "row_count": 17,
+  "columns": [
+    "yzmc",
+    "xzqy",
+    "fwsj",
+    "lxdh",
+    "kgfw"
+  ],
+  "fields": [
+    {
+      "name": "yzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济州港环保服务驿站",
+        "融孚港环保服务驿站",
+        "梁山港环保服务驿站",
+        "鲁泰港环保服务驿站",
+        "浚源港环保服务驿站",
+        "南方港环保服务驿站",
+        "兆丰港环保服务驿站",
+        "鲁顺港环保服务驿站",
+        "徐庄港环保服务驿站",
+        "金港环保服务驿站",
+        "顺达港环保服务驿站",
+        "易隆港环保服务驿站",
+        "太平港环保服务驿站",
+        "荣信港环保服务驿站",
+        "联合港环保服务驿站",
+        "龙拱港环保服务驿站",
+        "跃进港环保服务驿站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省/济宁市/任城区",
+        "山东省/济宁市/鱼台县",
+        "山东省/济宁市/梁山县",
+        "山东省/济宁市/微山县",
+        "山东省/济宁市/嘉祥县",
+        "山东省/济宁市/邹城市"
+      ],
+      "value_pool": [
+        "山东省/济宁市/任城区",
+        "山东省/济宁市/鱼台县",
+        "山东省/济宁市/梁山县",
+        "山东省/济宁市/微山县",
+        "山东省/济宁市/嘉祥县",
+        "山东省/济宁市/邹城市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "00:00",
+        "00:01"
+      ],
+      "value_pool": [
+        "00:00",
+        "00:01"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "23:59"
+      ],
+      "value_pool": [
+        "23:59"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kgfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "187********",
+        "175********",
+        "152********",
+        "177********",
+        "189********",
+        "130********",
+        "135********",
+        "176********",
+        "151********",
+        "133********",
+        "131********",
+        "136********",
+        "157********",
+        "156********"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

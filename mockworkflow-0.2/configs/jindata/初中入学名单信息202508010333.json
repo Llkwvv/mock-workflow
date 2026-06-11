@@ -1,0 +1,134 @@
+{
+  "file_name": "初中入学名单信息202508010333.xlsx",
+  "table_name": "初中入学名单信息202508010333",
+  "row_count": 4937,
+  "columns": [
+    "nj",
+    "xsxm",
+    "bxxz",
+    "rxsj",
+    "xxmc"
+  ],
+  "fields": [
+    {
+      "name": "nj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "公办"
+      ],
+      "value_pool": [
+        "公办"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "于**",
+        "王**",
+        "李**",
+        "张**",
+        "颜**",
+        "肖**",
+        "姬**",
+        "梁**",
+        "孔**",
+        "郭**",
+        "赵**",
+        "林**",
+        "杜**",
+        "姜**",
+        "温**",
+        "周**",
+        "孙**",
+        "崔**",
+        "徐**",
+        "吴**",
+        "付**",
+        "魏**",
+        "马**",
+        "刘**",
+        "路**",
+        "姚**",
+        "戴**",
+        "杨**",
+        "刘*",
+        "陆**",
+        "柳**",
+        "苏**",
+        "卜**",
+        "渠**",
+        "陈**",
+        "丁**",
+        "唐**",
+        "吕**",
+        "翟**",
+        "苑**",
+        "荣**",
+        "毛**",
+        "曹**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bxxz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "45170"
+      ],
+      "value_pool": [
+        "45170"
+      ],
+      "min_value": 45170.0,
+      "max_value": 45170.0
+    },
+    {
+      "name": "rxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "初中2023级"
+      ],
+      "value_pool": [
+        "初中2023级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "汶上县第一实验中学"
+      ],
+      "value_pool": [
+        "汶上县第一实验中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

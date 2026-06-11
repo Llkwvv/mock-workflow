@@ -1,0 +1,120 @@
+{
+  "file_name": "鱼台县工信局_工业企业研发机构创建信息202506271915.xlsx",
+  "table_name": "鱼台县工信局_工业企业研发机构创建信息202506271915",
+  "row_count": 26,
+  "columns": [
+    "jgxz",
+    "sj",
+    "qymc",
+    "sj1",
+    "pzbm"
+  ],
+  "fields": [
+    {
+      "name": "jgxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "制造业研发机构",
+        "企业技术中心",
+        "“一企一技术”研发中心",
+        "工程实验室",
+        "工程研究中心",
+        "工业设计中心"
+      ],
+      "value_pool": [
+        "制造业研发机构",
+        "企业技术中心",
+        "“一企一技术”研发中心",
+        "工程实验室",
+        "工程研究中心",
+        "工业设计中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "×",
+        "√"
+      ],
+      "value_pool": [
+        "×",
+        "√"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东东粮农业科技有限公司",
+        "济宁市圣奥精细化工有限公司",
+        "山东心传矿山机电设备有限公司",
+        "山东辰龙药业有限公司",
+        "山东水发环境科技有限公司",
+        "山东华泰光源有限公司",
+        "山东鲁泰化学有限公司",
+        "济宁峰润生物科技有限公司",
+        "济宁康华机电科技有限公司",
+        "济宁安泰矿山设备制造有限公司",
+        "济宁康盛彩虹生物科技有限公司",
+        "济宁市邦良生物科技有限公司",
+        "山东鱼台东源矿用设备有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "√",
+        "×"
+      ],
+      "value_pool": [
+        "√",
+        "×"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pzbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "工信",
+        "发改"
+      ],
+      "value_pool": [
+        "工信",
+        "发改"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

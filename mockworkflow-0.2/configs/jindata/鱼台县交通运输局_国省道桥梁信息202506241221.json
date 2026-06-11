@@ -1,0 +1,243 @@
+{
+  "file_name": "鱼台县交通运输局_国省道桥梁信息202506241221.xlsx",
+  "table_name": "鱼台县交通运输局_国省道桥梁信息202506241221",
+  "row_count": 25,
+  "columns": [
+    "qlqk",
+    "qlmc",
+    "kjfl",
+    "qlzxzh",
+    "qlqz",
+    "hzdj",
+    "qlkjzhkm",
+    "cxdk",
+    "lxjc"
+  ],
+  "fields": [
+    {
+      "name": "qlqk",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "12.5",
+        "12.25",
+        "11.5",
+        "10.7",
+        "25.0",
+        "16.0",
+        "8.0",
+        "12.8",
+        "10.0",
+        "23.0",
+        "13.0",
+        "18.6"
+      ],
+      "min_value": 8.0,
+      "max_value": 25.0
+    },
+    {
+      "name": "qlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "清河桥",
+        "盛洼桥（右）",
+        "盛洼桥（左）",
+        "王鲁惠河桥（左）",
+        "王鲁惠河桥（右）",
+        "西支河桥",
+        "东鱼河唐马桥",
+        "苏鲁边河桥（左）",
+        "苏鲁边河桥（右）",
+        "边河桥（左）",
+        "边河桥（右）",
+        "张埝桥（左）",
+        "张埝桥（右）",
+        "东鱼河桥（南）",
+        "东鱼河桥（北）",
+        "树李桥",
+        "惠河桥",
+        "东鱼河大桥（左）",
+        "东鱼河大桥（右）",
+        "白马河桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kjfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "大桥",
+        "中桥"
+      ],
+      "value_pool": [
+        "大桥",
+        "中桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qlzxzh",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "61.853",
+        "68.85",
+        "68.852",
+        "72.985",
+        "79.957",
+        "93.786",
+        "95.103",
+        "135.461",
+        "141.689",
+        "144.155",
+        "152.328",
+        "159.751",
+        "165.647",
+        "1.586",
+        "3.813",
+        "7.575"
+      ],
+      "min_value": 1.586,
+      "max_value": 165.647
+    },
+    {
+      "name": "qlqz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "227",
+        "78.54",
+        "90",
+        "104.5",
+        "302",
+        "401",
+        "80",
+        "64",
+        "226",
+        "396",
+        "376",
+        "98.6",
+        "126",
+        "393.46",
+        "92",
+        "81.8",
+        "90米",
+        "104.5米"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hzdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汽-20级、挂-100",
+        "公路-I级"
+      ],
+      "value_pool": [
+        "汽-20级、挂-100",
+        "公路-I级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qlkjzhkm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "11*20",
+        "13*5",
+        "13*6",
+        "13.5*7",
+        "3*25+3*40+4*25",
+        "20*19",
+        "16*5",
+        "16*3",
+        "20*11",
+        "1*10+18*20+1*10",
+        "20*18",
+        "30*3",
+        "20*6",
+        "20*3"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cxdk",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "11.6",
+        "11.25",
+        "10.5",
+        "9.7",
+        "23.0",
+        "15.0",
+        "7.0",
+        "10.8",
+        "9.0",
+        "21.0",
+        "12.0"
+      ],
+      "min_value": 7.0,
+      "max_value": 23.0
+    },
+    {
+      "name": "lxjc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "G237",
+        "S318郯兰线",
+        "S328丰长线"
+      ],
+      "value_pool": [
+        "G237",
+        "S318郯兰线",
+        "S328丰长线"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

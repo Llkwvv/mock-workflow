@@ -1,0 +1,156 @@
+{
+  "file_name": "鱼台县地震监测预警中心_震情会商信息202506241236.xlsx",
+  "table_name": "鱼台县地震监测预警中心_震情会商信息202506241236",
+  "row_count": 44,
+  "columns": [
+    "tjnf",
+    "hynr",
+    "chry",
+    "hysj",
+    "hymc",
+    "hyjl"
+  ],
+  "fields": [
+    {
+      "name": "tjnf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022年",
+        "2024年"
+      ],
+      "value_pool": [
+        "2022年",
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hynr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "汇总分析宏观观测点上报信息"
+      ],
+      "value_pool": [
+        "汇总分析宏观观测点上报信息"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "chry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "地震中心全体人员"
+      ],
+      "value_pool": [
+        "地震中心全体人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hysj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "44565",
+        "44572",
+        "44579",
+        "44586",
+        "44593",
+        "44600",
+        "44607",
+        "44614",
+        "44621",
+        "44628",
+        "44635",
+        "44642",
+        "44649",
+        "44656",
+        "44663",
+        "44670",
+        "44677",
+        "44684",
+        "44691",
+        "44698",
+        "44705",
+        "44712",
+        "44719",
+        "44726",
+        "44733",
+        "44740",
+        "44747",
+        "44754",
+        "44761",
+        "44768",
+        "44775",
+        "44782",
+        "44789",
+        "44796",
+        "44803",
+        "44810",
+        "44817",
+        "44824",
+        "44831",
+        "44838",
+        "44845",
+        "45491",
+        "45646",
+        "45584"
+      ],
+      "min_value": 44565.0,
+      "max_value": 45646.0
+    },
+    {
+      "name": "hymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "震情会商"
+      ],
+      "value_pool": [
+        "震情会商"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyjl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "目前未发现其它前兆和宏观明显地震异常,观测数据变化趋势正常。\n预测下周我县范围内发生中强地震可能性不大。",
+        "目前未发现其它前兆和宏观明显地震异常,观测数据变化趋势正常。 预测下周我县范围内发生中强地震可能性不大。"
+      ],
+      "value_pool": [
+        "目前未发现其它前兆和宏观明显地震异常,观测数据变化趋势正常。\n预测下周我县范围内发生中强地震可能性不大。",
+        "目前未发现其它前兆和宏观明显地震异常,观测数据变化趋势正常。 预测下周我县范围内发生中强地震可能性不大。"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

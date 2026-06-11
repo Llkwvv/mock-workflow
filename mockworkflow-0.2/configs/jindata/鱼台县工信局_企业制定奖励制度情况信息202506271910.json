@@ -1,0 +1,129 @@
+{
+  "file_name": "鱼台县工信局_企业制定奖励制度情况信息202506271910.xlsx",
+  "table_name": "鱼台县工信局_企业制定奖励制度情况信息202506271910",
+  "row_count": 23,
+  "columns": [
+    "sfshba",
+    "sfgsqy",
+    "sfyzdjlzd",
+    "jlje",
+    "scjydwmc"
+  ],
+  "fields": [
+    {
+      "name": "sfshba",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已审核备案",
+        "暂未审核备案"
+      ],
+      "value_pool": [
+        "已审核备案",
+        "暂未审核备案"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfgsqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "规上"
+      ],
+      "value_pool": [
+        "规上"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfyzdjlzd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已制定"
+      ],
+      "value_pool": [
+        "已制定"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jlje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "600",
+        "580",
+        "400",
+        "490",
+        "360",
+        "210",
+        "180",
+        "450",
+        "220",
+        "120",
+        "300",
+        "150",
+        "130",
+        "950",
+        "200",
+        "260",
+        "160",
+        "190"
+      ],
+      "min_value": 120.0,
+      "max_value": 950.0
+    },
+    {
+      "name": "scjydwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东鲁王集团有限公司",
+        "济宁峰润生物科技有限公司、济宁丽峰生物科技有限公司",
+        "山东鲁泰环保建材有限公司",
+        "济宁市碧海洗涤用品有限公司",
+        "济宁安泰矿山设备制造有限公司",
+        "济宁安创工贸有限公司",
+        "济宁五月雪农产品有限公司",
+        "鱼台县三高机械有限公司",
+        "济宁天铸建材有限公司",
+        "鱼台凯华纺织有限公司",
+        "山东美健健康防护用品有限公司",
+        "鱼台合恒服装有限公司",
+        "山东鱼台东源矿用设备有限责任公司",
+        "山东宁大钢构有限公司",
+        "鱼台县宝升米业有限公司",
+        "鱼台县裕华米业有限公司",
+        "济宁华锦纺织有限公司",
+        "鱼台鑫辰纺织有限公司",
+        "鱼台县福泉米业有限公司",
+        "鱼台鸿鑫混凝土有限公司",
+        "鱼台县润鑫纺织有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

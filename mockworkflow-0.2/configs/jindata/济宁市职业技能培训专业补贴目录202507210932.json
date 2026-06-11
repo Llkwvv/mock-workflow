@@ -1,0 +1,135 @@
+{
+  "file_name": "济宁市职业技能培训专业补贴目录202507210932.xlsx",
+  "table_name": "济宁市职业技能培训专业补贴目录202507210932",
+  "row_count": 56,
+  "columns": [
+    "btbz",
+    "xsq",
+    "pxlb",
+    "zygz"
+  ],
+  "fields": [
+    {
+      "name": "btbz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "1000",
+        "600",
+        "800"
+      ],
+      "value_pool": [
+        "1000",
+        "600",
+        "800"
+      ],
+      "min_value": 600.0,
+      "max_value": 1000.0
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "任城区"
+      ],
+      "value_pool": [
+        "任城区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "机械加工制造类培训",
+        "建筑业从业人员培训",
+        "合格培训"
+      ],
+      "value_pool": [
+        "机械加工制造类培训",
+        "建筑业从业人员培训",
+        "合格培训"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zygz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "钳工",
+        "锻造工",
+        "电切削工",
+        "车工",
+        "起重装卸机械操作工",
+        "制冷空调系统安装维修工",
+        "中央空调系统运行操作员",
+        "铸造工",
+        "铣工",
+        "磨工",
+        "模具工",
+        "冲压工",
+        "机床装调维修工",
+        "金属热处理工",
+        "电工",
+        "绿化工",
+        "管道工",
+        "油漆工",
+        "测量放线工",
+        "起重司索信号工",
+        "物业技术、物业服务人员",
+        "燃气技术、燃气服务人员",
+        "高处作业吊篮安装拆卸工",
+        "木工",
+        "架子工",
+        "钢筋工",
+        "防水工",
+        "砌筑工",
+        "抹灰工",
+        "混凝土工",
+        "装配式建筑预制构件制作工",
+        "装饰装修工",
+        "施工升降机司机",
+        "塔吊起重机司机",
+        "塔式起重机安装拆卸工",
+        "施工升降机安装拆卸工",
+        "装配式建筑预制构件吊装工",
+        "装配式建筑预制构件灌浆工",
+        "保育师",
+        "保育员",
+        "电子商务师S",
+        "工业机器人系统操作员S",
+        "互联网营销师S",
+        "计算机程序设计员S",
+        "计算机软件测试员S",
+        "家政服务员",
+        "鲁菜制作技术",
+        "企业人力资源管理师",
+        "养老护理员",
+        "婴幼儿发展引导员",
+        "乡村建设工匠",
+        "无人机驾驶员",
+        "创业培训"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

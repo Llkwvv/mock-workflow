@@ -1,0 +1,148 @@
+{
+  "file_name": "金乡县农业机械化情况202507210920.xlsx",
+  "table_name": "金乡县农业机械化情况202507210920",
+  "row_count": 40,
+  "columns": [
+    "nf",
+    "zbmc",
+    "qb",
+    "sl",
+    "jldw"
+  ],
+  "fields": [
+    {
+      "name": "nf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022年",
+        "2023年"
+      ],
+      "value_pool": [
+        "2022年",
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "一、农业机械总动力",
+        "1.柴油发动机动力",
+        "2.汽油发动机动力",
+        "3.电动机动力",
+        "二、拖拉机及配套机械",
+        "(一）拖拉机",
+        "1.小型（22.1千瓦及以下）",
+        "2.中型（22.1-73.5千瓦）",
+        "3.大型（73.5千瓦及以上）",
+        "(二）拖拉机配套农具",
+        "三、种植业机械",
+        "其中：机引犁",
+        "免耕播种机",
+        "农用水泵",
+        "机动植保机械",
+        "谷物联合收割机",
+        "四、农产品初加工机械",
+        "（一）农产品初加工动力机械",
+        "（二）农产品初加工作业机械",
+        "五、农用航空器"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1-12月"
+      ],
+      "value_pool": [
+        "1-12月"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "912435",
+        "747808",
+        "30511",
+        "134116",
+        "10717/322644",
+        "5583/83745",
+        "4473/176222",
+        "661/62677",
+        "17916",
+        "5535",
+        "1565",
+        "22522",
+        "7132/15452",
+        "1196/49947",
+        "5375/23794",
+        "152",
+        "973020",
+        "803386",
+        "34853",
+        "134781",
+        "11133",
+        "5363",
+        "4985",
+        "785",
+        "18536",
+        "5536",
+        "1630",
+        "22982",
+        "7133",
+        "1321",
+        "5393",
+        "137"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "千瓦",
+        "台/千瓦",
+        "台",
+        "架"
+      ],
+      "value_pool": [
+        "千瓦",
+        "台/千瓦",
+        "台",
+        "架"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

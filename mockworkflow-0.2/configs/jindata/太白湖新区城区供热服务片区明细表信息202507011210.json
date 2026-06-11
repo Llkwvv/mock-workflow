@@ -1,0 +1,148 @@
+{
+  "file_name": "太白湖新区城区供热服务片区明细表信息202507011210.xlsx",
+  "table_name": "太白湖新区城区供热服务片区明细表信息202507011210",
+  "row_count": 24,
+  "columns": [
+    "grgs",
+    "ssjd",
+    "grs",
+    "zxdh",
+    "fwxq"
+  ],
+  "fields": [
+    {
+      "name": "grgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "四和热力",
+        "北湖热力"
+      ],
+      "value_pool": [
+        "四和热力",
+        "北湖热力"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "许庄街道",
+        "石桥镇"
+      ],
+      "value_pool": [
+        "许庄街道",
+        "石桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "grs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "丁*恒",
+        "董*洋",
+        "李*童",
+        "李*鹏",
+        "赵*鑫",
+        "胡*轩",
+        "王*飞",
+        "梁*慧",
+        "刘*",
+        "段*婷",
+        "韩*慧",
+        "李*茗",
+        "赵*杰",
+        "刘*乐",
+        "吴*霞",
+        "孙*款",
+        "王*华",
+        "张*慧",
+        "薛*哲",
+        "李*轩"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "185****3372",
+        "185****3327",
+        "175****9081",
+        "175****9101",
+        "175****9109",
+        "175****9100",
+        "175****9198",
+        "175****9197",
+        "175****9155",
+        "175****9153",
+        "175****9151",
+        "175****9152",
+        "175****9181",
+        "175****9182",
+        "175****9183"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "国光新苑、国光小区",
+        "道南铁路宿舍、顺河佳园、顺河家园",
+        "南风花园、清泉美景",
+        "化肥厂宿舍、轮船厂宿舍、石油公司宿舍、燃料公司宿舍",
+        "滨湖馨苑、书香名邸、豪庭御都、甄庄小区、尹营小区",
+        "荷韵花园、中南珑悦、碧桂园天绘",
+        "颂运水庭A区、颂运水庭B区",
+        "中央公园、明德花园、涌泰澜湾",
+        "太阳岛小区、恒大名都",
+        "高校生活园A区、高校生活园BC区",
+        "风韵荷都A区、风韵荷都B区",
+        "月亮湾小区、翰林学府",
+        "明德华府、水运雅居",
+        "天地北湖湾、鹿港小镇、白鹭洲、温泉小镇",
+        "御景花园、鸿顺官邸一期、鸿顺官邸二期",
+        "六四小区、东方御园、锦绣花园、北湖春天、菱花化肥厂宿舍",
+        "京杭佳苑D区、京杭佳苑E区、京杭佳苑F区、京杭佳苑C区、京杭佳苑B区",
+        "冬絮园、乡月园22#-24#、梅笑园、心怡园",
+        "菊篱云居园、乡月园1#-21#、叠翠园、朗风园、清和园、畅和园、柳渡园、雨润园",
+        "登丰里西区",
+        "夏和社区",
+        "春和社区",
+        "秋和社区",
+        "冬和社区"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

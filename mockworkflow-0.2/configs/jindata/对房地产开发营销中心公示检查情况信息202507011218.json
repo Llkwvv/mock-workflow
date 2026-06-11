@@ -1,0 +1,200 @@
+{
+  "file_name": "对房地产开发营销中心公示检查情况信息202507011218.xlsx",
+  "table_name": "对房地产开发营销中心公示检查情况信息202507011218",
+  "row_count": 42,
+  "columns": [
+    "xkbsfgs",
+    "xmmc",
+    "gftssfgs",
+    "wzsfgs",
+    "jsdwmc",
+    "yfyjbsfgs",
+    "spfmmhtwbsfgs"
+  ],
+  "fields": [
+    {
+      "name": "xkbsfgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "城投星城广场",
+        "吾悦首府",
+        "济宁吾悦广场文旅综合体",
+        "京杭新都汇",
+        "冠鲁明德华府",
+        "温泉小镇",
+        "鸿顺御龙湾",
+        "恒大时代广场",
+        "未来科技城",
+        "中南珑悦",
+        "青建白鹭洲",
+        "荷韵花园",
+        "城投天绘商业街",
+        "湖畔云庐",
+        "涌鸿观澜",
+        "城投瑞马晴洲",
+        "济宁太白园筑",
+        "鸿顺康养城",
+        "弘儒佳苑",
+        "南城印象",
+        "龙贵京杭府",
+        "太白国风",
+        "博观江悦",
+        "纯水岸",
+        "鸿顺云墅",
+        "高校生活园C区",
+        "望月湾",
+        "恒大名都",
+        "翰林学府",
+        "风韵荷都",
+        "书香名邸",
+        "豪庭御都",
+        "颂运水庭",
+        "北湖之星",
+        "水运雅居",
+        "城投鹿巷",
+        "涌泰澜湾",
+        "明德花园",
+        "锦绣花园",
+        "华侨城",
+        "瑞马晴川"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gftssfgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wzsfgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jsdwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁城投控股集团有限公司",
+        "济宁新城悦盛置业有限公司",
+        "环沃勤置业有限公司",
+        "冠鲁房地产开发有限公司",
+        "济宁鸿顺新城房地产开发有限公司",
+        "济宁北湖恒大名都置业有限公司",
+        "济宁新城顺达商业有限责任公司",
+        "济宁锦鸿房地产开发有限公司",
+        "济宁青建房地产开发有限公司",
+        "济宁京和房地产有限公司",
+        "济宁城投绿城置业有限公司",
+        "济宁涌鸿房地产开发有限公司",
+        "济宁嘉瑞置业有限公司",
+        "济宁城投碧兴置业有限公司",
+        "附院弘光（济宁）置业有限公司",
+        "济宁华澎置业有限公司",
+        "山东龙贵置业有限公司",
+        "济宁瑞和置业发展有限公司",
+        "济宁瑞升置业有限公司",
+        "济宁华侨城文化旅游发展有限公司",
+        "山东京投集团有限公司",
+        "望月湾",
+        "恒大名都",
+        "翰林学府",
+        "风韵荷都",
+        "书香名邸",
+        "豪庭御都",
+        "中南珑悦",
+        "颂运水庭",
+        "北湖之星",
+        "水运雅居",
+        "城投鹿巷",
+        "涌泰澜湾",
+        "明德花园",
+        "锦绣花园",
+        "华侨城",
+        "瑞马晴川"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yfyjbsfgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spfmmhtwbsfgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "file_name": "鱼台县生态环境局_网格员信息202508010124.xlsx",
+  "table_name": "鱼台县生态环境局_网格员信息202508010124",
+  "row_count": 15,
+  "columns": [
+    "zgbm",
+    "wgyxm",
+    "wrysl",
+    "wgmc",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "zgbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县生态环境分局"
+      ],
+      "value_pool": [
+        "鱼台县生态环境分局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wgyxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "甄**",
+        "王**",
+        "白**",
+        "郑**",
+        "蒋**",
+        "高**",
+        "闫**",
+        "刘**",
+        "薛**",
+        "闵**",
+        "马**",
+        "李**",
+        "常**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wrysl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "27",
+        "19",
+        "22",
+        "47",
+        "26",
+        "13",
+        "5",
+        "6",
+        "16",
+        "3"
+      ],
+      "min_value": 3.0,
+      "max_value": 47.0
+    },
+    {
+      "name": "wgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "老砦镇",
+        "谷亭街道",
+        "滨湖街道",
+        "唐马镇",
+        "王鲁镇",
+        "张黄镇",
+        "开发区"
+      ],
+      "value_pool": [
+        "老砦镇",
+        "谷亭街道",
+        "滨湖街道",
+        "唐马镇",
+        "王鲁镇",
+        "张黄镇",
+        "开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

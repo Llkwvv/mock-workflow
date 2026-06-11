@@ -1,0 +1,142 @@
+{
+  "file_name": "高新区残疾军人抚恤金发放信息202604081718.xlsx",
+  "table_name": "高新区残疾军人抚恤金发放信息202604081718",
+  "row_count": 2,
+  "columns": [
+    "yfryzt",
+    "xb",
+    "sfzh",
+    "nl",
+    "姓名",
+    "yfdxlb",
+    "jd",
+    "mz"
+  ],
+  "fields": [
+    {
+      "name": "yfryzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "享受待遇"
+      ],
+      "value_pool": [
+        "享受待遇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********1X",
+        "370802**********14"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "71",
+        "30"
+      ],
+      "min_value": 30.0,
+      "max_value": 71.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘**",
+        "王**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yfdxlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "残疾军人"
+      ],
+      "value_pool": [
+        "残疾军人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "接庄街道"
+      ],
+      "value_pool": [
+        "接庄街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉族"
+      ],
+      "value_pool": [
+        "汉族"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

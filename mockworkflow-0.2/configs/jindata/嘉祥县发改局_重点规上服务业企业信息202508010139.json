@@ -1,0 +1,157 @@
+{
+  "file_name": "嘉祥县发改局_重点规上服务业企业信息202508010139.xlsx",
+  "table_name": "嘉祥县发改局_重点规上服务业企业信息202508010139",
+  "row_count": 31,
+  "columns": [
+    "hyml",
+    "szdz",
+    "hyzg",
+    "qymc",
+    "ntbz"
+  ],
+  "fields": [
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "交通运输、仓储和邮政业-G",
+        "信息传输、软件和信息技术服务",
+        "科学研究和技术服务业-M",
+        "租赁和商务服务业-L",
+        "交通运输、仓储和邮政业",
+        "租赁和商务服务业"
+      ],
+      "value_pool": [
+        "交通运输、仓储和邮政业-G",
+        "信息传输、软件和信息技术服务",
+        "科学研究和技术服务业-M",
+        "租赁和商务服务业-L",
+        "交通运输、仓储和邮政业",
+        "租赁和商务服务业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁嘉祥",
+        "纸坊镇",
+        "老僧堂镇",
+        "嘉祥街道",
+        "梁宝寺镇",
+        "仲山镇",
+        "金屯镇"
+      ],
+      "value_pool": [
+        "济宁嘉祥",
+        "纸坊镇",
+        "老僧堂镇",
+        "嘉祥街道",
+        "梁宝寺镇",
+        "仲山镇",
+        "金屯镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyzg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "交运局",
+        "工信局",
+        "科技局",
+        "商务局",
+        "人社局"
+      ],
+      "value_pool": [
+        "交运局",
+        "工信局",
+        "科技局",
+        "商务局",
+        "人社局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东洙水河水运开发有限公司",
+        "济宁东弘网络科技有限公司",
+        "山东二进制网络科技有限公司",
+        "济宁万胜工程设计有限公司",
+        "山东兰动智能科技有限公司",
+        "济宁亚曼多工程设计有限公司",
+        "济宁天一建设工程有限公司",
+        "济宁波塞顿环保技术有限公司",
+        "永昌路桥集团嘉祥永昌机械",
+        "嘉祥祥安保安服务有限公司",
+        "山东天翼人力资源管理咨询",
+        "济宁全新范儿网络科技",
+        "嘉祥青尚人力资源有限公司",
+        "嘉祥县汇祥源劳务服务",
+        "山东永昌投资有限公司",
+        "济宁杏林医药技术咨询",
+        "济宁千扬企业管理有限公司",
+        "济宁友邦京杭运河物流",
+        "济宁曲阜机场有限公司",
+        "山东嘉祥易隆港务有限公司",
+        "山东嘉祥国家粮食储备库有限公司",
+        "嘉祥鑫达运输有限公司",
+        "嘉祥祥腾运输有限公司",
+        "嘉祥县通源运输有限公司",
+        "嘉祥鸿辉运输有限公司",
+        "嘉祥尚鸿物流有限公司",
+        "嘉祥恒凯运输有限公司",
+        "嘉祥广华运输有限公司",
+        "济宁诚昊人力资源有限公司",
+        "山东祥安保安服务有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ntbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "2000万",
+        "1000万",
+        "2000万元",
+        "1000万元"
+      ],
+      "value_pool": [
+        "2000万",
+        "1000万",
+        "2000万元",
+        "1000万元"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

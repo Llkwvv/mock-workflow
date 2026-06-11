@@ -1,0 +1,339 @@
+{
+  "file_name": "高新区对执业药师执业活动的监管信息202602111143.xlsx",
+  "table_name": "高新区对执业药师执业活动的监管信息202602111143",
+  "row_count": 39,
+  "columns": [
+    "xzxdrxz",
+    "jclb",
+    "jcxwmc",
+    "xzxdrzjlx",
+    "jgdx",
+    "jcxmmc",
+    "jcxwbh",
+    "ssjg",
+    "jcsj",
+    "jcjg",
+    "jgdxlx",
+    "xzxdr",
+    "xzxdrzjbm"
+  ],
+  "fields": [
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "法人"
+      ],
+      "value_pool": [
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "对济宁市广联医药连锁有限公司德好药店进行执业药师执业活动监管的检查",
+        "对济宁市广联医药连锁有限公司诚心堂药店进行执业药师执业活动监管的检查",
+        "对济宁市广联医药连锁有限公司景林药店进行执业药师执业活动监管的检查",
+        "对济宁市广联医药连锁有限公司善心堂药店进行执业药师执业活动监管的检查",
+        "对济宁市广联医药连锁有限公司腾达药店进行执业药师执业活动监管的检查",
+        "对山东辰欣大药房连锁有限公司惠康大药房进行执业药师执业活动监管的检查",
+        "对山东辰欣大药房连锁有限公司景云大药房进行执业药师执业活动监管的检查",
+        "对济宁明珠医药连锁有限公司黄屯店进行执业药师执业活动监管的检查",
+        "对济宁宗圣医药连锁有限公司益民药店进行执业药师执业活动监管的检查",
+        "对济宁百味大药房有限公司进行执业药师执业活动监管的检查",
+        "对济宁市广联医药连锁有限公司景林药店进行药品安全的检查",
+        "对济宁市广联医药连锁有限公司德好药店进行执业药师执业活动监的检查管",
+        "对执业药师执业活动的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "统一社会信用代码"
+      ],
+      "value_pool": [
+        "统一社会信用代码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "91370800MA3Q1UCC8M",
+        "91370811MA3D4KYG8Y",
+        "91370800MA3PGCH971",
+        "91370800MA3D4NR19X",
+        "91370800MA3M81L379",
+        "91370800599260764Y",
+        "91370800MA3Q03P2XM",
+        "913708000523889598",
+        "91370800MA3NGC2B68",
+        "91370800MA3CL9LF9B"
+      ],
+      "value_pool": [
+        "91370800MA3Q1UCC8M",
+        "91370811MA3D4KYG8Y",
+        "91370800MA3PGCH971",
+        "91370800MA3D4NR19X",
+        "91370800MA3M81L379",
+        "91370800599260764Y",
+        "91370800MA3Q03P2XM",
+        "913708000523889598",
+        "91370800MA3NGC2B68",
+        "91370800MA3CL9LF9B"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对执业药师执业活动的监管"
+      ],
+      "value_pool": [
+        "对执业药师执业活动的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "gxqscjgjypls2021011",
+        "gxqscjgjypls2021013",
+        "gxqscjgjypls2021015",
+        "gxqscjgjypls2021017",
+        "gxqscjgjypls2021019",
+        "gxqscjgjypls2021021",
+        "gxqscjgjypls2021023",
+        "gxqscjgjypls2021025",
+        "gxqscjgjypls2021027",
+        "gxqscjgjypls2021029",
+        "jngxqscjgjypls2019001",
+        "gxqscjgjypls2021022",
+        "gxqscjgjypls2021024",
+        "gxqscjgjypls2021026",
+        "gxqscjgjypls2021028",
+        "gxqscjgjypls2021030",
+        "gxqscjgjypls2021031",
+        "jngxqscjgjypls2019032",
+        "gxqscjgjypls2021065",
+        "gxqscjgjypls2021064",
+        "gxqscjgjypls2021063",
+        "gxqscjgjypls2021062",
+        "gxqscjgjypls2021061",
+        "gxqscjgjzyys2022002",
+        "gxqscjgjzyys2022001",
+        "gxqscjgjzyys2022011",
+        "gxqscjgjzyys2022015",
+        "gxqscjgjzyys2022016",
+        "gxqscjgjypls20230419004",
+        "gxqscjgjypls20230622004",
+        "gxqscjgjypls20240322001",
+        "gxqscjgjypls20240516001",
+        "gxqscjgjypls20250415001",
+        "gxqscjgjypls20250521001",
+        "gxqscjgjypls20250725001"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市场监管局"
+      ],
+      "value_pool": [
+        "市场监管局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-07-15",
+        "2019-06-13",
+        "2021-08-15",
+        "2021-08-20",
+        "2021-08-23",
+        "2021-09-18",
+        "2022-05-19",
+        "2022-09-20",
+        "2022-11-15",
+        "2023-04-19",
+        "2023-06-22",
+        "2024-03-22",
+        "2024-05-16",
+        "2025-04-15",
+        "2025-05-21",
+        "2025-07-25"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业、个体户、农专社"
+      ],
+      "value_pool": [
+        "企业、个体户、农专社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市广联医药连锁有限公司德好药店",
+        "济宁市广联医药连锁有限公司诚心堂药店",
+        "济宁市广联医药连锁有限公司景林药店",
+        "济宁市广联医药连锁有限公司善心堂药店",
+        "济宁市广联医药连锁有限公司腾达药店",
+        "山东辰欣大药房连锁有限公司惠康大药房",
+        "山东辰欣大药房连锁有限公司景云大药房",
+        "济宁明珠医药连锁有限公司黄屯店",
+        "济宁宗圣医药连锁有限公司益民药店",
+        "济宁百味大药房有限公司"
+      ],
+      "value_pool": [
+        "济宁市广联医药连锁有限公司德好药店",
+        "济宁市广联医药连锁有限公司诚心堂药店",
+        "济宁市广联医药连锁有限公司景林药店",
+        "济宁市广联医药连锁有限公司善心堂药店",
+        "济宁市广联医药连锁有限公司腾达药店",
+        "山东辰欣大药房连锁有限公司惠康大药房",
+        "山东辰欣大药房连锁有限公司景云大药房",
+        "济宁明珠医药连锁有限公司黄屯店",
+        "济宁宗圣医药连锁有限公司益民药店",
+        "济宁百味大药房有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "91370800MA3Q1UCC8M",
+        "91370811MA3D4KYG8Y",
+        "91370800MA3PGCH971",
+        "91370800MA3D4NR19X",
+        "91370800MA3M81L379",
+        "91370800599260764Y",
+        "91370800MA3Q03P2XM",
+        "913708000523889598",
+        "91370800MA3NGC2B68",
+        "91370800MA3CL9LF9B"
+      ],
+      "value_pool": [
+        "91370800MA3Q1UCC8M",
+        "91370811MA3D4KYG8Y",
+        "91370800MA3PGCH971",
+        "91370800MA3D4NR19X",
+        "91370800MA3M81L379",
+        "91370800599260764Y",
+        "91370800MA3Q03P2XM",
+        "913708000523889598",
+        "91370800MA3NGC2B68",
+        "91370800MA3CL9LF9B"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

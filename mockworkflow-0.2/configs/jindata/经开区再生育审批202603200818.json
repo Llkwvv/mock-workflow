@@ -1,0 +1,163 @@
+{
+  "file_name": "经开区再生育审批202603200818.xlsx",
+  "table_name": "经开区再生育审批202603200818",
+  "row_count": 21,
+  "columns": [
+    "sxmc",
+    "sqr",
+    "lxfs",
+    "slsj",
+    "bz"
+  ],
+  "fields": [
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "经开区再生育审批"
+      ],
+      "value_pool": [
+        "经开区再生育审批"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "张*龙",
+        "潘*法",
+        "张*原",
+        "张*威",
+        "任*亮",
+        "李*喆",
+        "汤*顺",
+        "刘*睿",
+        "陶*卫",
+        "张*廷",
+        "张*梁",
+        "刘*男",
+        "王*彪",
+        "梁*南",
+        "刘*艳",
+        "张*宁",
+        "王*花",
+        "宋*盼",
+        "王*稳",
+        "纪*",
+        "任*遥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "135*****6587",
+        "133*****6566",
+        "175*****2255",
+        "145*****7855",
+        "138*****4425",
+        "139*****6221",
+        "131*****1548",
+        "155*****5344",
+        "135*****7887",
+        "132*****3355",
+        "185*****6756",
+        "137*****9442",
+        "138*****6621",
+        "131*****2587",
+        "185*****6330",
+        "171*****1127",
+        "190*****6272",
+        "134*****3554",
+        "165*****3554",
+        "165*****5585"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2026-01-20",
+        "2026-01-17",
+        "2026-02-26",
+        "2026-02-04",
+        "2026-01-24",
+        "2026-01-10",
+        "2026-01-03",
+        "2026-01-04",
+        "2024-02-02"
+      ],
+      "value_pool": [
+        "2026-01-20",
+        "2026-01-17",
+        "2026-02-26",
+        "2026-02-04",
+        "2026-01-24",
+        "2026-01-10",
+        "2026-01-03",
+        "2026-01-04",
+        "2024-02-02"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "张*龙",
+        "潘*法",
+        "张*原",
+        "张*威",
+        "任*亮",
+        "李*喆",
+        "汤*顺",
+        "刘*睿",
+        "陶*卫",
+        "张*廷",
+        "张*梁",
+        "刘*男",
+        "王*彪",
+        "梁*南",
+        "刘*艳",
+        "张*宁",
+        "王*花",
+        "宋*盼",
+        "王*稳",
+        "纪*",
+        "任*遥"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

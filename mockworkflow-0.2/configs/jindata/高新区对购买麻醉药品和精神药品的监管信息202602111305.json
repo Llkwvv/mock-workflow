@@ -1,0 +1,319 @@
+{
+  "file_name": "高新区对购买麻醉药品和精神药品的监管信息202602111305.xlsx",
+  "table_name": "高新区对购买麻醉药品和精神药品的监管信息202602111305",
+  "row_count": 38,
+  "columns": [
+    "jcjg",
+    "xzxdrxz",
+    "xzxdrzjlx",
+    "jgdx",
+    "jcxmmc",
+    "jcsj",
+    "xzxdrzjbm",
+    "jgdxlx",
+    "xzxdr",
+    "jcxwbh",
+    "jclb",
+    "jcxwmc",
+    "ssjg"
+  ],
+  "fields": [
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "其他组织",
+        "法人"
+      ],
+      "value_pool": [
+        "其他组织",
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "其他法人或其他组织有效证件号码",
+        "统一社会信用代码"
+      ],
+      "value_pool": [
+        "其他法人或其他组织有效证件号码",
+        "统一社会信用代码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新常玉杰中医诊所",
+        "济宁高新杜庆山内科诊所",
+        "济宁高新高淑芹内科诊所",
+        "济宁高新医美堂内科诊所",
+        "北京同仁堂（山东）健康大药房连锁有限公司济宁店中医诊所",
+        "济宁高新杜银环内科诊所",
+        "济宁高新房红燕口腔诊所",
+        "济宁高新特方康乐中医诊所",
+        "济宁高新张峰中医诊所",
+        "济宁口腔医院高新门诊部",
+        "济宁高新仁和医院",
+        "济宁高新区洸河社区卫生服务中心",
+        "济宁高新于璐璐内科诊所",
+        "济宁高新区蓼河新城医院",
+        "济宁高新区接庄街道丁庄社区卫生室",
+        "国药控股济宁有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对购买麻醉药品和精神药品的监管"
+      ],
+      "value_pool": [
+        "对购买麻醉药品和精神药品的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-07-15",
+        "2021-07-16",
+        "2019-09-05",
+        "2021-08-15",
+        "2021-09-16",
+        "2021-09-18",
+        "2022-05-19",
+        "2022-11-21",
+        "2023-04-19",
+        "2023-07-26",
+        "2023-12-20",
+        "2024-04-26",
+        "2025-03-22",
+        "2025-06-15"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1175337081117D2122",
+        "1021537081117D2112",
+        "1339637081117D2112",
+        "1354837081117D2112",
+        "1263337081117D2122",
+        "0047237081117D2112",
+        "1124337081117D2152",
+        "1277237081117D2122",
+        "1188437081117D2122",
+        "1428437081111D1521",
+        "1128637081117A1001",
+        "1180937081111B1001",
+        "1449537081117D2112",
+        "1406537081111A1001",
+        "1321437081112D6001",
+        "91370800165948836P"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "非企业",
+        "企业、个体户、农专社"
+      ],
+      "value_pool": [
+        "非企业",
+        "企业、个体户、农专社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新常玉杰中医诊所",
+        "济宁高新杜庆山内科诊所",
+        "济宁高新高淑芹内科诊所",
+        "济宁高新医美堂内科诊所",
+        "北京同仁堂（山东）健康大药房连锁有限公司济宁店中医诊所",
+        "济宁高新杜银环内科诊所",
+        "济宁高新房红燕口腔诊所",
+        "济宁高新特方康乐中医诊所",
+        "济宁高新张峰中医诊所",
+        "济宁口腔医院高新门诊部",
+        "济宁高新仁和医院",
+        "济宁高新区洸河社区卫生服务中心",
+        "济宁高新于璐璐内科诊所",
+        "济宁高新区蓼河新城医院",
+        "济宁高新区接庄街道丁庄社区卫生室",
+        "国药控股济宁有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "gxqscjgjypsy2021004",
+        "gxqscjgjypsy2021007",
+        "gxqscjgjypsy2021010",
+        "gxqscjgjypsy2021013",
+        "gxqscjgjypsy2021016",
+        "gxqscjgjypsy2021019",
+        "gxqscjgjypsy2021022",
+        "gxqscjgjypsy2021025",
+        "gxqscjgjypsy2021028",
+        "gxqscjgjypsy2021031",
+        "gxqscjgjypsy2021034",
+        "gxqscjgjypsy2021037",
+        "gxqscjgjypsy2021040",
+        "gxqscjgjypsy2021043",
+        "gxqscjgjypsy2021046",
+        "jngxqscjgjyppf2019001",
+        "gxqscjgjypsy2021032",
+        "gxqscjgjypsy2021041",
+        "gxqscjgjypsy2021052",
+        "gxqscjgjypsy2021055",
+        "gxqscjgjypsy2021059",
+        "gxqscjgjypsy2021062",
+        "gxqscjgjypsy2021066",
+        "gxqscjgjypsy2021065",
+        "gxqscjgjypsy2021064",
+        "gxqscjgjypsy2021063",
+        "gxqscjgjypsy2022003",
+        "gxqscjgjypsy2022004",
+        "gxqscjgjypsy2022010",
+        "gxqscjgjypsy2022011",
+        "gxqscjgjypsy20230419001",
+        "gxqscjgjypsy20230726001",
+        "gxqscjgjypjy20231220002",
+        "gxqscjgjypjy20240426001",
+        "gxqscjgjypjy20250322001",
+        "gxqscjgjypjy20250615001"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对购买麻醉药品和精神药品的监管"
+      ],
+      "value_pool": [
+        "对购买麻醉药品和精神药品的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市场监管局"
+      ],
+      "value_pool": [
+        "市场监管局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

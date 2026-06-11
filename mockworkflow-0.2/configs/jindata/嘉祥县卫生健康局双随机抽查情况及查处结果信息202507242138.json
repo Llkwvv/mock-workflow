@@ -1,0 +1,184 @@
+{
+  "file_name": "嘉祥县卫生健康局双随机抽查情况及查处结果信息202507242138.xlsx",
+  "table_name": "嘉祥县卫生健康局双随机抽查情况及查处结果信息202507242138",
+  "row_count": 20,
+  "columns": [
+    "bgdwmc",
+    "jdrq",
+    "dwzylb",
+    "dwmc",
+    "ccjg",
+    "jydz",
+    "ccjg1",
+    "sj"
+  ],
+  "fields": [
+    {
+      "name": "bgdwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县卫生健康局"
+      ],
+      "value_pool": [
+        "嘉祥县卫生健康局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jdrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-10-22 00:00:00",
+        "2024-08-19 00:00:00",
+        "2024-08-21 00:00:00",
+        "2024-09-02 00:00:00",
+        "2024-08-28 00:00:00",
+        "2024-09-06 00:00:00"
+      ],
+      "value_pool": [
+        "2024-10-22 00:00:00",
+        "2024-08-19 00:00:00",
+        "2024-08-21 00:00:00",
+        "2024-09-02 00:00:00",
+        "2024-08-28 00:00:00",
+        "2024-09-06 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwzylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "2024年度卫生健康部门对互联网信息内容实施监督检查",
+        "2024年度对消毒产品生产企业的监督检查",
+        "2024年度对餐饮具集中消毒单位的监督检查",
+        "影院取得、公示相关许可证、卫生管理情况及其他情况的检查",
+        "2024年度对医疗机构的监督检查",
+        "对电影活动的监督管理"
+      ],
+      "value_pool": [
+        "2024年度卫生健康部门对互联网信息内容实施监督检查",
+        "2024年度对消毒产品生产企业的监督检查",
+        "2024年度对餐饮具集中消毒单位的监督检查",
+        "影院取得、公示相关许可证、卫生管理情况及其他情况的检查",
+        "2024年度对医疗机构的监督检查",
+        "对电影活动的监督管理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县人民医院",
+        "山东创洁洗涤科技有限公司",
+        "嘉祥亮洁酒店餐具用品销售中心",
+        "山东唐宁影城有限公司",
+        "嘉祥街道社区卫生服务中心",
+        "山东晶华洗涤日化有限公司",
+        "山东辰星医疗科技有限公司",
+        "嘉祥县盛视达影城有限公司",
+        "济宁祥城影院管理有限公司",
+        "山东复大生物科技有限公司",
+        "山东庆葆堂生物科技有限公司",
+        "济宁舒洁卫生用品有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ccjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "无"
+      ],
+      "value_pool": [
+        "无"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jydz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ccjg1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题"
+      ],
+      "value_pool": [
+        "未发现问题"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-10-22 00:00:00",
+        "2024-08-19 00:00:00",
+        "2024-08-21 00:00:00",
+        "2024-09-02 00:00:00",
+        "2024-08-28 00:00:00",
+        "2024-09-06 00:00:00"
+      ],
+      "value_pool": [
+        "2024-10-22 00:00:00",
+        "2024-08-19 00:00:00",
+        "2024-08-21 00:00:00",
+        "2024-09-02 00:00:00",
+        "2024-08-28 00:00:00",
+        "2024-09-06 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "file_name": "嘉祥县市场监督管理局_食品监督性抽检_评价性抽检信息202512261128.xlsx",
+  "table_name": "嘉祥县市场监督管理局_食品监督性抽检_评价性抽检信息202512261128",
+  "row_count": 3,
+  "columns": [
+    "spmc",
+    "bcydwmc",
+    "jyjg",
+    "bhgxm",
+    "cydbh",
+    "bcydwdz"
+  ],
+  "fields": [
+    {
+      "name": "spmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "水煮花生仁(自制)",
+        "青椒\n（辣椒）",
+        "特级\n冰糖芯苹果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcydwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县黄垓乡口福牛肉汤馆",
+        "嘉祥县梁宝寺镇徐晓丽大酒店",
+        "嘉祥县孟姑集嘉联购物超市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东众合天成检验有限公司",
+        "山东天元盈康检测评价技术有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bhgxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "苯甲酸及其钠盐(以苯甲酸计)",
+        "啶虫脒",
+        "克百威"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cydbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "XBJ25370829434530431ZX",
+        "XBJ25370829411830159ZX",
+        "XBJ25370829411830036ZX"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcydwdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市嘉祥县黄垓乡西丁垓村动检站东邻",
+        "山东省济宁市嘉祥县梁宝寺镇曹北村",
+        "山东省济宁市嘉祥县孟姑集镇阳光商贸城广州路及申闫路丁字路口"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "file_name": "高新区街道卫生院职工花名册202508010256.xlsx",
+  "table_name": "高新区街道卫生院职工花名册202508010256",
+  "row_count": 129,
+  "columns": [
+    "jdwsy",
+    "jd",
+    "xsq",
+    "s",
+    "xb",
+    "姓名",
+    "zwcc"
+  ],
+  "fields": [
+    {
+      "name": "jdwsy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "王因镇卫生院",
+        "黄屯镇卫生院",
+        "柳行街道卫生院",
+        "济宁高新区接庄卫生院",
+        "济宁高新区洸河社区卫生服务中心"
+      ],
+      "value_pool": [
+        "王因镇卫生院",
+        "黄屯镇卫生院",
+        "柳行街道卫生院",
+        "济宁高新区接庄卫生院",
+        "济宁高新区洸河社区卫生服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "王因街道",
+        "黄屯街道",
+        "柳行街道",
+        "接庄街道",
+        "洸河街道"
+      ],
+      "value_pool": [
+        "王因街道",
+        "黄屯街道",
+        "柳行街道",
+        "接庄街道",
+        "洸河街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "卞**",
+        "韩**",
+        "张**",
+        "李**",
+        "高**",
+        "陈**",
+        "苗**",
+        "汪**",
+        "徐**",
+        "孙**",
+        "王**",
+        "杨**",
+        "丁**",
+        "申**",
+        "孟**",
+        "肖**",
+        "刘**",
+        "栾**",
+        "杜**",
+        "钱**",
+        "曹**",
+        "许**",
+        "谢**",
+        "魏**",
+        "管**",
+        "秦**",
+        "姜**",
+        "马**",
+        "谭**",
+        "卢**",
+        "司**",
+        "孔**",
+        "郑**",
+        "房**",
+        "贾**",
+        "梁**",
+        "姚**",
+        "任**",
+        "谷**",
+        "季**",
+        "宋**",
+        "周**",
+        "史**",
+        "仲**",
+        "冯**",
+        "边**",
+        "石**",
+        "纪**",
+        "朱**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zwcc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "专技十级",
+        "专技九级",
+        "专技七级",
+        "专技十二级",
+        "专技十三级",
+        "十级职员",
+        "技术工五级",
+        "见习",
+        "十级专技",
+        "十二级专技",
+        "十三级专技",
+        "事业技术工三级",
+        "事业技术工四级",
+        "主治医师",
+        "医师/住院医师",
+        "副主任医师",
+        "医师"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

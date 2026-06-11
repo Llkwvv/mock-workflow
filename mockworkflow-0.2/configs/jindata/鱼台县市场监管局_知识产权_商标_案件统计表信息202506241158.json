@@ -1,0 +1,240 @@
+{
+  "file_name": "鱼台县市场监管局_知识产权_商标_案件统计表信息202506241158.xlsx",
+  "table_name": "鱼台县市场监管局_知识产权_商标_案件统计表信息202506241158",
+  "row_count": 34,
+  "columns": [
+    "dslyaj",
+    "swaj",
+    "whswqyss",
+    "whjjsswy",
+    "ajzsj",
+    "msjewy",
+    "azwy",
+    "ybcx",
+    "zbmc",
+    "fkjewy",
+    "yssfjgajj"
+  ],
+  "fields": [
+    {
+      "name": "dslyaj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "swaj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "whswqyss",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "whjjsswy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "ajzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "0",
+        "12",
+        "0件",
+        "12件"
+      ],
+      "value_pool": [
+        "0",
+        "12",
+        "0件",
+        "12件"
+      ],
+      "min_value": 0.0,
+      "max_value": 12.0
+    },
+    {
+      "name": "msjewy",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.0",
+        "0.46"
+      ],
+      "value_pool": [
+        "0.0",
+        "0.46"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.46
+    },
+    {
+      "name": "azwy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "1"
+      ],
+      "value_pool": [
+        "0",
+        "1"
+      ],
+      "min_value": 0.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "ybcx",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "12"
+      ],
+      "value_pool": [
+        "0",
+        "12"
+      ],
+      "min_value": 0.0,
+      "max_value": 12.0
+    },
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "未经商标注册人的许可，在同一种商品上使用与其注册商标相同的商标的",
+        "销售明知是假冒注册商标的商品的",
+        "伪造、擅自制造他人注册商标标识或者销售伪造、擅自制造的注册商标标识的",
+        "未经商标注册人的许可，在同一种商品上使用与其注册商标近似的商标，或者在类似商品上使用与其注册商标相同或者近似的商标，容易导致混淆的",
+        "销售侵犯注册商标专用权的商品的",
+        "未经商标注册人同意，更换其注册商标并将该更换商标的商品又投入市场的",
+        "故意为侵犯他人商标专用权行为提供便利条件，帮助他人实施侵犯商标专用权行为的",
+        "给他人的注册商标专用权造成其他损害的",
+        "按《商标法》第13条请求驰名商标保护的",
+        "商标注册人在使用注册商标的过程中，自行改变注册商标、注册人名义、地址或者其他注册事项的",
+        "法律、行政法规规定必须使用注册商标的商品，未经核准注册，在市场销售的",
+        "将未注册商标冒充注册商标使用",
+        "使用未注册商标违反《商标法》第十条不得作为商标使用有关规定",
+        "生产、经营者将“驰名商标”字样用于商品、商品包装或者容器上，或者用于广告宣传、展览以及其他商业活动中的",
+        "未在许可使用注册商标的商品上标明被许可人的名称和商品产地",
+        "集体商标、证明商标注册人没有对该商标的使用进行有效管理或者控制，致使该商标使用的商品达不到其使用管理规则的要求，对消费者造成损害的",
+        "使用集体商标、证明商标不符合管理规定要求的",
+        "办理商标事宜过程中，伪造、变造或者使用伪造、变造的法律文件、印章、签名的",
+        "以诋毁其他商标代理机构等手段招徕商标代理业务或者以其他不正当手段扰乱商标代理市场秩序的",
+        "违反《商标法》规定接受委托的",
+        "申请注册代理服务申请之外的商标的",
+        "侵犯地理标志专用权",
+        "违法使用地理标志",
+        "违法使用特殊标志",
+        "侵犯特殊标志专有权(不包括侵犯奥林匹克、世界博览会、亚洲运动会标志专有权）",
+        "侵犯奥林匹克标志专有权",
+        "侵犯世界博览会标志专有权",
+        "侵犯亚洲运动会标志专有权",
+        "印刷注册商标标识、广告宣传品，违反国家有关注册商标、广告印刷管理规定",
+        "电子商务平台经营者对平台内经营者实施侵犯知识产权行为未依法采取必要措施",
+        "其他违法行为"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fkjewy",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.0",
+        "0.54"
+      ],
+      "value_pool": [
+        "0.0",
+        "0.54"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.54
+    },
+    {
+      "name": "yssfjgajj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "0件"
+      ],
+      "value_pool": [
+        "0",
+        "0件"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    }
+  ]
+}

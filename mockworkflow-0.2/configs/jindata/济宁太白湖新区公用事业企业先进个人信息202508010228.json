@@ -1,0 +1,135 @@
+{
+  "file_name": "济宁太白湖新区公用事业企业先进个人信息202508010228.xlsx",
+  "table_name": "济宁太白湖新区公用事业企业先进个人信息202508010228",
+  "row_count": 58,
+  "columns": [
+    "ssqy",
+    "ssjd",
+    "sshy",
+    "姓名",
+    "ssxq"
+  ],
+  "fields": [
+    {
+      "name": "ssqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市北湖科技供热有限责任公司",
+        "济宁华润公交燃气有限公司四号加气站",
+        "济宁龙凯天然气投资有限公司",
+        "济宁中石油昆仑能源有限公司济东加气站"
+      ],
+      "value_pool": [
+        "济宁市北湖科技供热有限责任公司",
+        "济宁华润公交燃气有限公司四号加气站",
+        "济宁龙凯天然气投资有限公司",
+        "济宁中石油昆仑能源有限公司济东加气站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "许庄街道",
+        "石桥镇"
+      ],
+      "value_pool": [
+        "许庄街道",
+        "石桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sshy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "热力行业",
+        "燃气行业"
+      ],
+      "value_pool": [
+        "热力行业",
+        "燃气行业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "毕**",
+        "褚**",
+        "王**",
+        "姜**",
+        "陶**",
+        "李**",
+        "侯**",
+        "司**",
+        "商**",
+        "曾**",
+        "孙**",
+        "胡**",
+        "周**",
+        "袁**",
+        "鲁**",
+        "白**",
+        "陈**",
+        "蔡**",
+        "乔**",
+        "刘**",
+        "张**",
+        "高**",
+        "孟**",
+        "秦**",
+        "茹**",
+        "杜**",
+        "田**",
+        "谢**",
+        "魏**",
+        "宿**",
+        "许**",
+        "巩**",
+        "邓**",
+        "郭**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

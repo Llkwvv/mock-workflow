@@ -1,0 +1,111 @@
+{
+  "file_name": "谷物_豆及薯类批发企业信息_0.csv",
+  "table_name": "谷物_豆及薯类批发企业信息_0",
+  "row_count": 20,
+  "columns": [
+    "hydm",
+    "tyshxydm",
+    "qyzwm",
+    "hyml"
+  ],
+  "fields": [
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 5111|    谷物、豆及薯类批发"
+      ],
+      "value_pool": [
+        " 5111|    谷物、豆及薯类批发"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 913708306601543206",
+        " 91370830166320303T",
+        " 91370830MA3MCTHL7U",
+        " 91370830MA3C5KYE6C",
+        " 913708300579117101",
+        " 91370830059008373R",
+        " 91370830079653791J",
+        " 9137083057285583XR",
+        " 913708303126842531",
+        " 91370830MA3T5WQD5B",
+        " 91370830MA3D0WTB6F",
+        " 91370830MA3D0WTC4A",
+        " 91370830MA3D0X2FXR",
+        " 91370830MA3D0WP353",
+        " 91370830MA3D0WYE2W",
+        " 91370830MA3D0X2E12",
+        " 91370830MA3D0WMNXM",
+        " 91370830MA3D0WYF0P",
+        " 91370830MA3D0WYG9L",
+        " 91370830MA3TL7CC7Q"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyzwm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 汶上县天仓粮食收储管理有限公司",
+        " 汶上县民泰国家粮食储备库有限公司",
+        " 汶上骐猛粮食购销有限公司",
+        " 汶上县众翔电子商务有限公司",
+        " 汶上县谷海粮食收储有限公司",
+        " 汶上县丰谷源粮食收储有限公司",
+        " 汶上县金粮粮食收储有限公司",
+        " 汶上县益仓商贸有限公司",
+        " 汶上县政聪粮食收储有限公司",
+        " 汶上县耕耘粮食购销有限公司",
+        " 汶上县天仓粮食收储管理有限公司杨店收储所",
+        " 汶上县天仓粮食收储管理有限公司次丘收储所",
+        " 汶上县天仓粮食收储管理有限公司寅寺收储所",
+        " 汶上县天仓粮食收储管理有限公司军屯收储所",
+        " 汶上县天仓粮食收储管理有限公司刘楼收储所",
+        " 汶上县天仓粮食收储管理有限公司苑庄收储所",
+        " 汶上县天仓粮食收储管理有限公司义桥收储所",
+        " 汶上县天仓粮食收储管理有限公司南旺收储所",
+        " 汶上县天仓粮食收储管理有限公司康驿收储所",
+        " 山东夏日电子商务有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 批发和零售业-F"
+      ],
+      "value_pool": [
+        " 批发和零售业-F"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

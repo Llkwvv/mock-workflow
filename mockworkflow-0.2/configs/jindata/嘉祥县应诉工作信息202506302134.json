@@ -1,0 +1,168 @@
+{
+  "file_name": "嘉祥县应诉工作信息202506302134.xlsx",
+  "table_name": "嘉祥县应诉工作信息202506302134",
+  "row_count": 40,
+  "columns": [
+    "yghssr",
+    "qy",
+    "bz",
+    "zt",
+    "ah"
+  ],
+  "fields": [
+    {
+      "name": "yghssr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "何某某",
+        "陈某某",
+        "宋某某",
+        "马某某",
+        "楚某某",
+        "刘某某",
+        "杨某某、梁某某",
+        "郑某某",
+        "洪某某",
+        "孙某某、陈某某",
+        "王某某",
+        "张某某",
+        "曹某某",
+        "徐某某",
+        "邓某某",
+        "杨某某",
+        "姚某某",
+        "赵某某",
+        "曹某某等人",
+        "郑某某等人",
+        "王**",
+        "韩**",
+        "山东君*运输有限公司",
+        "张**",
+        "段*",
+        "孙**",
+        "刘*",
+        "山东宇*航运有限公司",
+        "嘉祥百**餐饮管理有限公司",
+        "孟**",
+        "倪**",
+        "杨**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市嘉祥县",
+        "嘉祥"
+      ],
+      "value_pool": [
+        "济宁市嘉祥县",
+        "嘉祥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "相关内容已通过政府网站公布",
+        "http://www.jiaxiang.gov.cn/col/col73532/index.html",
+        "地址：http://www.jiaxiang.gov.cn/col/col73532/index.html"
+      ],
+      "value_pool": [
+        "相关内容已通过政府网站公布",
+        "http://www.jiaxiang.gov.cn/col/col73532/index.html",
+        "地址：http://www.jiaxiang.gov.cn/col/col73532/index.html"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "结案",
+        "未结案"
+      ],
+      "value_pool": [
+        "结案",
+        "未结案"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ah",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "(2022)鲁0828行初1号",
+        "(2022)鲁08行初4号",
+        "(2022)鲁08行初5号",
+        "2022)鲁08行赔初2号",
+        "(2022)鲁08行赔初5号",
+        "(2022)鲁08行初17号",
+        "(2022)鲁08行赔初10号",
+        "(2022)鲁08行赔初13号",
+        "（2022）鲁0828行初6号",
+        "(2022)鲁08行赔初17号",
+        "(2022)鲁08行赔初19号",
+        "(2022)鲁08行初57号",
+        "(2022)鲁08行初75号",
+        "（2022）鲁行终1311号",
+        "（2022）鲁行赔终206号",
+        "（2022）鲁行赔终207号",
+        "(2022)鲁行赔终185号",
+        "（2022）鲁行终1312号",
+        "(2022)鲁行赔终184号",
+        "(2022)鲁0828行初12号",
+        "(2022)鲁08行赔初33号",
+        "(2022)鲁08行赔初47号",
+        "（2022）鲁行赔终218号",
+        "（2022）鲁行赔终16号",
+        "(2022)鲁08行初38号",
+        "(2022)鲁08行初39号",
+        "(2022)鲁08行初43号",
+        "(2022)鲁0830行初55号",
+        "(2025)鲁0829行初31号",
+        "(2025)鲁0829行初32号",
+        "(2025)鲁0829行初33号",
+        "(2025)鲁0830行初45号",
+        "(2025)鲁0829行初34号",
+        "(2025)鲁0830行初49号",
+        "(2025)鲁0829行初41号",
+        "(2025)鲁0829行初42号",
+        "(2025)鲁0830行初51号",
+        "(2025)鲁0832行初33号",
+        "(2025)鲁0829行初43号",
+        "(2025)鲁0829行初50号"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

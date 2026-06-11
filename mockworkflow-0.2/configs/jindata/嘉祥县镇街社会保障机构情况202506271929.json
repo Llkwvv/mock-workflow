@@ -1,0 +1,145 @@
+{
+  "file_name": "嘉祥县镇街社会保障机构情况202506271929.xlsx",
+  "table_name": "嘉祥县镇街社会保障机构情况202506271929",
+  "row_count": 39,
+  "columns": [
+    "tgzsdshgzjgcwz",
+    "zjmc",
+    "bjzfcbdyljggs",
+    "nf",
+    "tgzsdshgzjggs"
+  ],
+  "fields": [
+    {
+      "name": "tgzsdshgzjgcwz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "380",
+        "440",
+        "60",
+        "155",
+        "230",
+        "106",
+        "379",
+        "0",
+        "120",
+        "148",
+        "135",
+        "80",
+        "260",
+        "110",
+        "200",
+        "91",
+        "121",
+        "128",
+        "65",
+        "1568",
+        "496",
+        "122",
+        "175",
+        "104",
+        "359",
+        "160"
+      ],
+      "min_value": 0.0,
+      "max_value": 1568.0
+    },
+    {
+      "name": "zjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥镇街道",
+        "卧龙山街道",
+        "万张街道",
+        "纸坊镇",
+        "梁宝寺镇",
+        "马村镇",
+        "金屯镇",
+        "大张楼镇",
+        "孟姑集镇",
+        "老僧堂镇",
+        "仲山镇",
+        "满硐镇",
+        "黄垓镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjzfcbdyljggs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "1",
+        "0",
+        "-"
+      ],
+      "value_pool": [
+        "1",
+        "0",
+        "-"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019",
+        "2018",
+        "2022"
+      ],
+      "value_pool": [
+        "2019",
+        "2018",
+        "2022"
+      ],
+      "min_value": 2018.0,
+      "max_value": 2022.0
+    },
+    {
+      "name": "tgzsdshgzjggs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "3",
+        "1",
+        "2",
+        "0",
+        "7",
+        "6"
+      ],
+      "value_pool": [
+        "3",
+        "1",
+        "2",
+        "0",
+        "7",
+        "6"
+      ],
+      "min_value": 0.0,
+      "max_value": 7.0
+    }
+  ]
+}

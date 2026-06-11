@@ -1,0 +1,275 @@
+{
+  "file_name": "鱼台县医保局_企业免缴费人员信息202508010311.xlsx",
+  "table_name": "鱼台县医保局_企业免缴费人员信息202508010311",
+  "row_count": 245,
+  "columns": [
+    "rdqsny",
+    "rdsjfrylb",
+    "dqjfrylb",
+    "rdsszsqbh",
+    "rdsszsqmc",
+    "姓名",
+    "rdzzny",
+    "xb",
+    "rdrq"
+  ],
+  "fields": [
+    {
+      "name": "rdqsny",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021-01-01 00:00:00"
+      ],
+      "value_pool": [
+        "2021-01-01 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rdsjfrylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "低保成年居民",
+        "低保未成年居民",
+        "独女双女成年居民",
+        "70岁以上老年居民",
+        "残疾成年居民",
+        "残疾老年居民"
+      ],
+      "value_pool": [
+        "低保成年居民",
+        "低保未成年居民",
+        "独女双女成年居民",
+        "70岁以上老年居民",
+        "残疾成年居民",
+        "残疾老年居民"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dqjfrylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "低保成年居民",
+        "低保未成年居民",
+        "独女双女成年居民",
+        "70岁以上老年居民",
+        "残疾成年居民",
+        "残疾老年居民"
+      ],
+      "value_pool": [
+        "低保成年居民",
+        "低保未成年居民",
+        "独女双女成年居民",
+        "70岁以上老年居民",
+        "残疾成年居民",
+        "残疾老年居民"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rdsszsqbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1101060029",
+        "1101060055",
+        "1101060084",
+        "1101060100",
+        "1101060008",
+        "1101060018",
+        "1101060106",
+        "1101060001",
+        "1101040010",
+        "1101060027",
+        "1101060062",
+        "1101060089",
+        "1101060092",
+        "1101060075",
+        "1101060078",
+        "1101060087",
+        "1100000005",
+        "1101040001",
+        "1101060080",
+        "1101060015"
+      ],
+      "min_value": 1100000005.0,
+      "max_value": 370827712056.0
+    },
+    {
+      "name": "rdsszsqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "食品公司",
+        "合成胶厂",
+        "土产公司",
+        "孔府宴酒厂",
+        "鱼台县印刷厂",
+        "鱼台县化肥厂",
+        "航运公司",
+        "造纸厂",
+        "聋哑学校",
+        "农业机械制造厂",
+        "供电公司",
+        "五星公司",
+        "通信公司",
+        "三利公司",
+        "医药公司",
+        "电影公司",
+        "鱼台县建筑工程有限公司",
+        "实验小学",
+        "商业食品厂",
+        "五金厂"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "郭**",
+        "张**",
+        "梁**",
+        "王**",
+        "孙**",
+        "田**",
+        "刘**",
+        "潘**",
+        "杨**",
+        "程**",
+        "缪**",
+        "冯**",
+        "郑**",
+        "蒋**",
+        "赵**",
+        "付**",
+        "鹿**",
+        "陈**",
+        "高**",
+        "闫**",
+        "姜**",
+        "马**",
+        "段**",
+        "樊**",
+        "吴**",
+        "焦**",
+        "李**",
+        "周**",
+        "魏**",
+        "展**",
+        "杜**",
+        "宫**",
+        "胡**",
+        "阚**",
+        "林**",
+        "乔**",
+        "岳**",
+        "邱**",
+        "韩**",
+        "于**",
+        "房**",
+        "孟**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rdzzny",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021-12-01 00:00:00"
+      ],
+      "value_pool": [
+        "2021-12-01 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rdrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020-11-04 00:00:00",
+        "2020-11-12 00:00:00",
+        "2020-11-09 00:00:00",
+        "2020-11-17 00:00:00",
+        "2020-11-16 00:00:00",
+        "2020-11-27 00:00:00",
+        "2020-11-06 00:00:00",
+        "2020-11-02 00:00:00",
+        "2020-11-13 00:00:00",
+        "2020-11-03 00:00:00"
+      ],
+      "value_pool": [
+        "2020-11-04 00:00:00",
+        "2020-11-12 00:00:00",
+        "2020-11-09 00:00:00",
+        "2020-11-17 00:00:00",
+        "2020-11-16 00:00:00",
+        "2020-11-27 00:00:00",
+        "2020-11-06 00:00:00",
+        "2020-11-02 00:00:00",
+        "2020-11-13 00:00:00",
+        "2020-11-03 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

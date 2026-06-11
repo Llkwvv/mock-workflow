@@ -1,0 +1,168 @@
+{
+  "file_name": "鱼台县市场监管局_侵害消费者权益案件统计表信息202506241240.xlsx",
+  "table_name": "鱼台县市场监管局_侵害消费者权益案件统计表信息202506241240",
+  "row_count": 23,
+  "columns": [
+    "fkjewy",
+    "rc",
+    "ybcx",
+    "msjewy",
+    "azwy",
+    "ajzsj",
+    "zbmc",
+    "yssfjgajj"
+  ],
+  "fields": [
+    {
+      "name": "fkjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "rc",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "300"
+      ],
+      "value_pool": [
+        "0",
+        "300"
+      ],
+      "min_value": 0.0,
+      "max_value": 300.0
+    },
+    {
+      "name": "ybcx",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "msjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "azwy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "ajzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "0",
+        "0件"
+      ],
+      "value_pool": [
+        "0",
+        "0件"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "商品消费案件",
+        "服务消费案件",
+        "提供的商品或者服务不符合保障人身、财产安全要求",
+        "在商品中掺杂、掺假、以假充真、以次充好，或者以不合格商品冒充合格商品",
+        "生产国家明令淘汰的商品或者销售失效、变质的商品",
+        "伪造商品产地，伪造或者冒用他人厂名、厂址，篡改生产日期，伪造或者冒用认证标志等质量标志",
+        "销售的商品应检验、检疫而未检验、检疫或伪造检验、检疫结果",
+        "对商品或者服务作虚假或者引人误解的宣传",
+        "拒绝或者拖延有关行政部门责令对缺陷商品或者服务采取停止销售、警示、召回、无害化处理、销毁、停止生产或者服务等措施",
+        "对消费者提出修理、重作、更换、退货、补足商品数量、退还货款和服务费用或者赔偿损失的要求，故意拖延或者无理拒绝",
+        "侵犯消费者人格尊严或者侵害消费者个人信息依法得到保护的权利",
+        "从事为消费者提供修理、加工、安装、装饰装修等服务的经营者谎报用工用料，故意损坏、偷换零部件或材料，使用不符合国家质量标准或者与约定不相符的零部件或材料，更换不需要更换的零部件，或者偷工减料、加收费用，损害消费者权益",
+        "从事房屋租赁、家政服务等中介服务的经营者提供虚假信息或者采取欺骗、恶意串通等手段损害消费者权益",
+        "擅自扩大不适用七日无理由退货的商品范围",
+        "网络交易平台提供者未在其平台显著位置明示七日无理由退货规则及配套的有关制度，或者未在技术上保证消费者能够便利、完整地阅览和保存",
+        "网络商品销售者销售不能够完全恢复到初始状态的无理由退货商品，且未通过显著的方式明确标注商品实际情况",
+        "其他",
+        "其中：欺诈消费者行为",
+        "出动执法人员",
+        "其中：消费者行为"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yssfjgajj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "0件"
+      ],
+      "value_pool": [
+        "0",
+        "0件"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

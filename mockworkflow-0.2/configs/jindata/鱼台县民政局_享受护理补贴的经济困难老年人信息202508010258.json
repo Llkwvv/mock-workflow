@@ -1,0 +1,162 @@
+{
+  "file_name": "鱼台县民政局_享受护理补贴的经济困难老年人信息202508010258.xlsx",
+  "table_name": "鱼台县民政局_享受护理补贴的经济困难老年人信息202508010258",
+  "row_count": 179,
+  "columns": [
+    "xb",
+    "sj",
+    "姓名",
+    "jd",
+    "hlbtje",
+    "jtzz"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "202209",
+        "202210",
+        "202211",
+        "202212",
+        "202213",
+        "202301"
+      ],
+      "value_pool": [
+        "202209",
+        "202210",
+        "202211",
+        "202212",
+        "202213",
+        "202301"
+      ],
+      "min_value": 202209.0,
+      "max_value": 202304.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "柴**",
+        "刘**",
+        "左**",
+        "魏**",
+        "秦**",
+        "曹**",
+        "罗**",
+        "闫**",
+        "郭**",
+        "申**",
+        "袁**",
+        "巩**",
+        "郝**",
+        "史**",
+        "黄**",
+        "马**",
+        "周**",
+        "王**",
+        "张**",
+        "房**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "老砦镇",
+        "李阁镇",
+        "清河镇",
+        "王庙镇"
+      ],
+      "value_pool": [
+        "老砦镇",
+        "李阁镇",
+        "清河镇",
+        "王庙镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hlbtje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "85"
+      ],
+      "value_pool": [
+        "85"
+      ],
+      "min_value": 85.0,
+      "max_value": 85.0
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "独山村",
+        "老北村",
+        "西城西村",
+        "陈楼村",
+        "史庙村",
+        "周庄村",
+        "张庄村",
+        "申庄村",
+        "清河镇大薛村",
+        "清河镇巩庄村",
+        "清河镇袁家村",
+        "清河镇吕屯村",
+        "清河镇新刘村",
+        "济宁市鱼台县王庙镇常店村",
+        "济宁市鱼台县王庙镇苏店村",
+        "济宁市鱼台县王庙镇杨店村",
+        "济宁市鱼台县王庙镇张庄村",
+        "济宁市鱼台县王庙镇周楼村",
+        "济宁市鱼台县王庙镇南房村"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

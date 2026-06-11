@@ -1,0 +1,596 @@
+{
+  "file_name": "微山县_医保局_生育保险待遇明细202507242141.xlsx",
+  "table_name": "微山县_医保局_生育保险待遇明细202507242141",
+  "row_count": 1,
+  "columns": [
+    "姓名",
+    "shbzhm",
+    "xb",
+    "lxdh",
+    "sjhm",
+    "sjjgmc",
+    "dwbh",
+    "dwmc",
+    "dwlx",
+    "sczl",
+    "sysj",
+    "cjts",
+    "sndypjjfgz",
+    "syjt",
+    "hljt",
+    "wyjt",
+    "grycxfy",
+    "syylf",
+    "jhsyssf",
+    "bfzylf",
+    "bfddyyfy",
+    "nzgsybzj",
+    "jhsyjt",
+    "hqjc",
+    "ybzfylf",
+    "xjje",
+    "dfjgbh",
+    "dfjgmc",
+    "hm",
+    "yhzh",
+    "ctyhzh",
+    "zkyhbm",
+    "zkyhmc",
+    "yybm",
+    "yymc",
+    "djtxsj",
+    "djtxr",
+    "zdlsh",
+    "sbjgbh"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "董*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shbzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370403****6649"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "135***1907"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "135***1907"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjjgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山县供电公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "604050021"
+      ],
+      "min_value": 604050021.0,
+      "max_value": 604050021.0
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "国网山东省电力公司微山县供电公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业"
+      ],
+      "value_pool": [
+        "企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sczl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "流产"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sysj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "20230417"
+      ],
+      "min_value": 20230417.0,
+      "max_value": 20230417.0
+    },
+    {
+      "name": "cjts",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "15"
+      ],
+      "min_value": 15.0,
+      "max_value": 15.0
+    },
+    {
+      "name": "sndypjjfgz",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "14015.76"
+      ],
+      "min_value": 14015.76,
+      "max_value": 14015.76
+    },
+    {
+      "name": "syjt",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "7007.88"
+      ],
+      "min_value": 7007.88,
+      "max_value": 7007.88
+    },
+    {
+      "name": "hljt",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "wyjt",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "grycxfy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "syylf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "jhsyssf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "500"
+      ],
+      "min_value": 500.0,
+      "max_value": 500.0
+    },
+    {
+      "name": "bfzylf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "bfddyyfy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "nzgsybzj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "jhsyjt",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "hqjc",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "ybzfylf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "xjje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "7507.88"
+      ],
+      "min_value": 7507.88,
+      "max_value": 7507.88
+    },
+    {
+      "name": "dfjgbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "枣庄市妇幼保健院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dfjgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "枣庄市妇幼保健院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "董*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "EEEEE95588"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ctyhzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "6217***8001390557"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zkyhbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "EEEEE95588"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zkyhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "中国工商银行社保卡"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yybm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "37000400040003"
+      ],
+      "min_value": 37000400040003.0,
+      "max_value": 37000400040003.0
+    },
+    {
+      "name": "yymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "枣庄市妇幼保健院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djtxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2023-07-27 15:04:21.000"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djtxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "孟敏"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdlsh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "202306671"
+      ],
+      "min_value": 202306671.0,
+      "max_value": 202306671.0
+    },
+    {
+      "name": "sbjgbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "377826"
+      ],
+      "min_value": 377826.0,
+      "max_value": 377826.0
+    }
+  ]
+}

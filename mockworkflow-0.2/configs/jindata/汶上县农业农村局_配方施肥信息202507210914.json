@@ -1,0 +1,147 @@
+{
+  "file_name": "汶上县农业农村局_配方施肥信息202507210914.xlsx",
+  "table_name": "汶上县农业农村局_配方施肥信息202507210914",
+  "row_count": 30,
+  "columns": [
+    "bz",
+    "yhj",
+    "zj",
+    "zwpz",
+    "wyhel",
+    "df"
+  ],
+  "fields": [
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "配方推荐"
+      ],
+      "value_pool": [
+        "配方推荐"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "8",
+        "24",
+        "6",
+        "10"
+      ],
+      "value_pool": [
+        "8",
+        "24",
+        "6",
+        "10"
+      ],
+      "min_value": 6.0,
+      "max_value": 24.0
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "中都街道",
+        "白石镇",
+        "刘楼镇",
+        "军屯乡",
+        "汶上街道",
+        "苑庄镇",
+        "南站镇",
+        "寅寺镇",
+        "义桥镇",
+        "杨店镇",
+        "郭楼镇",
+        "康驿镇",
+        "次邱镇",
+        "南旺镇",
+        "郭仓镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zwpz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "玉米",
+        "甘薯",
+        "小麦",
+        "大豆"
+      ],
+      "value_pool": [
+        "玉米",
+        "甘薯",
+        "小麦",
+        "大豆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wyhel",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "6",
+        "8",
+        "18",
+        "22"
+      ],
+      "value_pool": [
+        "6",
+        "8",
+        "18",
+        "22"
+      ],
+      "min_value": 6.0,
+      "max_value": 22.0
+    },
+    {
+      "name": "df",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "26",
+        "10",
+        "18",
+        "13"
+      ],
+      "value_pool": [
+        "26",
+        "10",
+        "18",
+        "13"
+      ],
+      "min_value": 10.0,
+      "max_value": 26.0
+    }
+  ]
+}

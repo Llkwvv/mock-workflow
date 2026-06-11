@@ -1,0 +1,112 @@
+{
+  "file_name": "泗水县教体局公共服务工作信息202605261549.xlsx",
+  "table_name": "泗水县教体局公共服务工作信息202605261549",
+  "row_count": 81,
+  "columns": [
+    "dyfl",
+    "bz",
+    "sxmc",
+    "sszt",
+    "xzql"
+  ],
+  "fields": [
+    {
+      "name": "dyfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "非依申请"
+      ],
+      "value_pool": [
+        "非依申请"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "无"
+      ],
+      "value_pool": [
+        "无"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "信息公开",
+        "公共体育场地设施开放服务",
+        "开展反兴奋剂宣传教育",
+        "科学健身指导服务",
+        "按计划组织实施国民体质监测",
+        "组织推行国家体育锻炼标准",
+        "组织开展健身志愿服务",
+        "组织、指导、支持全民健身赛事活动",
+        "组织本级全民健身赛事活动",
+        "引导、支持社会力量组织开展全民健身赛事活动",
+        "全县教育系统表彰奖励信息",
+        "全县教师专业技术职务的评聘工作信息",
+        "学校内部人事信息",
+        "师范类毕业生就业招聘工作信息",
+        "语言文字工作信息",
+        "泗水县教体局公共服务工作信息",
+        "教师资格注册工作信息",
+        "泗水县教育人才培养信息",
+        "泗水县教师考核信息",
+        "泗水县教育干部信息",
+        "泗水县教体系统矛盾纠纷调解"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sszt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "泗水县教育和体育局"
+      ],
+      "value_pool": [
+        "泗水县教育和体育局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzql",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "公共服务"
+      ],
+      "value_pool": [
+        "公共服务"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "file_name": "鱼台县市场监管局_直销违法案件统计表信息202506241239.xlsx",
+  "table_name": "鱼台县市场监管局_直销违法案件统计表信息202506241239",
+  "row_count": 23,
+  "columns": [
+    "fkjewy",
+    "ajzzwy",
+    "fzjg",
+    "zxy",
+    "fwwd",
+    "zxqy",
+    "msjewy",
+    "zbmc",
+    "yssfjgajj",
+    "zxpxy"
+  ],
+  "fields": [
+    {
+      "name": "fkjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "ajzzwy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "fzjg",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "zxy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "fwwd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "zxqy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "msjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "违反直销企业设立规定",
+        "其中：未取得直销经营许可从事直销活动",
+        "在非直销区域擅自从事直销活动",
+        "以欺骗、贿赂等手段取得直销许可",
+        "未经批准发生重大变更",
+        "违反直销产品范围规定",
+        "进行欺骗、误导、夸大等宣传和推销",
+        "违反直销员招募规定",
+        "未取得直销员证从事直销活动",
+        "违规培训",
+        "其中：擅自开展培训",
+        "收取培训或考试费用",
+        "培训内容违规",
+        "培训场所违规",
+        "直销员违规推销产品",
+        "违反计酬规定",
+        "违反退换货规定",
+        "违反信息报备和披露规定",
+        "违反保证金规定",
+        "其他"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yssfjgajj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "0件"
+      ],
+      "value_pool": [
+        "0",
+        "0件"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zxpxy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    }
+  ]
+}

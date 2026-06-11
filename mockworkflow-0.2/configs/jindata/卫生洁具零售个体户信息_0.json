@@ -1,0 +1,98 @@
+{
+  "file_name": "卫生洁具零售个体户信息_0.csv",
+  "table_name": "卫生洁具零售个体户信息_0",
+  "row_count": 22,
+  "columns": [
+    "qymc",
+    "hyml",
+    "tyshxydm"
+  ],
+  "fields": [
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县特陶卫浴销售中心",
+        "汶上县谦信厨卫销售店",
+        "汶上县众合暖通万隆商城分店",
+        "汶上县继茹卫浴销售部",
+        "汶上县家乐居卫浴批发店",
+        "汶上县华尔顿厨卫店",
+        "汶上县苏叶家居城",
+        "汶上县玉芹九牧厨卫销售中心",
+        "汶上县广扩卫浴销售中心",
+        "汶上县大山厨卫销售中心",
+        "汶上县亿雪厨卫用品店",
+        "汶上县林美扬子卫浴销售中心",
+        "汶上县长虹太阳能经销部",
+        "汶上县刘晨厨卫销售中心",
+        "汶上县龍乐厨卫销售中心",
+        "汶上县壮壮卫浴店",
+        "汶上县悦鑫太阳能店",
+        "汶上县百兴厨卫店",
+        "汶上高路华卫浴洁具经销店",
+        "汶上县玉英磁化水器经营店",
+        "汶上县一特装饰材料销售店",
+        "汶上县云滨五金商铺"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "批发和零售业-F"
+      ],
+      "value_pool": [
+        "批发和零售业-F"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "92370830MA3DG6EG8G",
+        "92370830MA3EP67G32",
+        "92370830MA3FBH4C6B",
+        "92370830MA3FDNEX9J",
+        "92370830MA3FE6BQ1P",
+        "92370830MA3FEPWL6E",
+        "92370830MA3FEXCY7C",
+        "92370830MA3JWLED79",
+        "92370830MA3K1LKD77",
+        "92370830MA3K1T1G20",
+        "92370830MA3K2M802T",
+        "92370830MA3K3DTFX2",
+        "92370830MA3K3JBL0C",
+        "92370830MA3K79RW7P",
+        "92370830MA3L7RP96U",
+        "92370830MA3NFDKY67",
+        "92370830MA3RQG2X5M",
+        "92370830MA3RYFLK09",
+        "92370830MA3T4G0JX1",
+        "92370830MA3THB159U",
+        "92370830MA3TMPC62B",
+        "92370830MA3TR1BU4H"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

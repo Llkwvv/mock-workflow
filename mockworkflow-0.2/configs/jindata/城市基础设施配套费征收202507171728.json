@@ -1,0 +1,136 @@
+{
+  "file_name": "城市基础设施配套费征收202507171728.xlsx",
+  "table_name": "城市基础设施配套费征收202507171728",
+  "row_count": 15,
+  "columns": [
+    "jkxm",
+    "jkr",
+    "sxmc",
+    "djh",
+    "rq"
+  ],
+  "fields": [
+    {
+      "name": "jkxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "荣樾",
+        "汇富名邸",
+        "玉兰花园",
+        "悦府",
+        "山东光明眼科医院",
+        "奥体中心",
+        "济宁监狱",
+        "臻景园",
+        "时代清华园",
+        "金城国际",
+        "公安局看守所",
+        "海棠云颂",
+        "如园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jkr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市茂城置业有限公司",
+        "济南汇富建设开发集团有限公司金乡分公司",
+        "金乡县蓝恒房地产开发有限公司",
+        "济宁尚辰置业有限公司",
+        "山东海玉医院管理有限公司",
+        "金乡鑫诺新农村建设投资有限公司",
+        "山东省济宁监狱",
+        "济宁长泰实业集团有限公司金乡分公司",
+        "德州时代置业有限公司金乡天傲分公司",
+        "济宁隆鑫置业有限公司金乡分公司",
+        "金乡县公安局",
+        "金乡县连升地产有限公司",
+        "山东玖典置业有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "综合配套费",
+        "专项配套费"
+      ],
+      "value_pool": [
+        "综合配套费",
+        "专项配套费"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1301462414",
+        "1301462413",
+        "800783219",
+        "800783218",
+        "800783222",
+        "800783223",
+        "800783225",
+        "800783235",
+        "800783237",
+        "800783239",
+        "800783242",
+        "800783243",
+        "800783247",
+        "800783250",
+        "800783249"
+      ],
+      "min_value": 800783218.0,
+      "max_value": 1301462414.0
+    },
+    {
+      "name": "rq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-01-21",
+        "2025-01-23",
+        "2025-01-24",
+        "2025-01-27",
+        "2025-03-31",
+        "2025-04-07",
+        "2025-04-21",
+        "2025-04-28",
+        "2025-04-29",
+        "2025-05-21",
+        "2025-06-25"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

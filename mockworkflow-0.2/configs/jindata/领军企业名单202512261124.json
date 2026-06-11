@@ -1,0 +1,147 @@
+{
+  "file_name": "领军企业名单202512261124.xlsx",
+  "table_name": "领军企业名单202512261124",
+  "row_count": 31,
+  "columns": [
+    "mc",
+    "xsq",
+    "nf",
+    "ssly",
+    "lb"
+  ],
+  "fields": [
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东鲁泰化学有限公司",
+        "济宁鸿润食品股份有限公司",
+        "山东经典重工集团股份有限公司",
+        "曲阜中联水泥有限公司",
+        "樱源有限公司",
+        "小松(山东)工程机械有限公司",
+        "山东世纪阳光科技有限公司",
+        "济宁中银电化有限公司",
+        "山东源根石油化工有限公司",
+        "中稀天马新材料科技股份有限公司",
+        "山东天虹纺织有限公司",
+        "山东益大新材料股份有限公司",
+        "凯赛（金乡）生物材料有限公司",
+        "山东晨阳新型碳材料股份有限公司",
+        "山东联诚精密制造股份有限公司",
+        "山东晶导微电子股份有限公司",
+        "济宁华宇金属制品有限公司",
+        "山东东岳专用汽车制造有限公司",
+        "曲阜天博汽车零部件制造有限公司",
+        "济宁锐博工程机械有限公司",
+        "山东恒信科技发展有限公司",
+        "山东良友工贸集团股份有限公司",
+        "山东亿盛实业股份有限公司",
+        "莱尼电气系统（济宁）有限公司",
+        "济宁辰光美博化工有限公司",
+        "山拖农机装备有限公司",
+        "山东金大丰机械有限公司",
+        "济宁中石油昆仑能源有限公司",
+        "曲阜信多达智能科技有限公司",
+        "山东胜利生物工程有限公司",
+        "山东济宁盛发焦化有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台县",
+        "泗水县",
+        "兖州区",
+        "曲阜市",
+        "高新区",
+        "嘉祥县",
+        "汶上县",
+        "梁山县",
+        "金乡县",
+        "任城区",
+        "经开区",
+        "邹城市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021"
+      ],
+      "value_pool": [
+        "2021"
+      ],
+      "min_value": 2021.0,
+      "max_value": 2021.0
+    },
+    {
+      "name": "ssly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高端化工",
+        "食品加工",
+        "高端装备",
+        "建材工业",
+        "新能源",
+        "新材料",
+        "纺织服装",
+        "新一代信息技术",
+        "医药"
+      ],
+      "value_pool": [
+        "高端化工",
+        "食品加工",
+        "高端装备",
+        "建材工业",
+        "新能源",
+        "新材料",
+        "纺织服装",
+        "新一代信息技术",
+        "医药"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "领军企业"
+      ],
+      "value_pool": [
+        "领军企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

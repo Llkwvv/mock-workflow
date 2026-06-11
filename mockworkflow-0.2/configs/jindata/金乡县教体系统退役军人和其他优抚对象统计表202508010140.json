@@ -1,0 +1,150 @@
+{
+  "file_name": "金乡县教体系统退役军人和其他优抚对象统计表202508010140.xlsx",
+  "table_name": "金乡县教体系统退役军人和其他优抚对象统计表202508010140",
+  "row_count": 85,
+  "columns": [
+    "sj",
+    "xt",
+    "rylb",
+    "姓名",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020年"
+      ],
+      "value_pool": [
+        "2020年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "教体系统"
+      ],
+      "value_pool": [
+        "教体系统"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "军队转业干部",
+        "退役士兵",
+        "现役军人家属",
+        "复员军人",
+        "退役军人"
+      ],
+      "value_pool": [
+        "军队转业干部",
+        "退役士兵",
+        "现役军人家属",
+        "复员军人",
+        "退役军人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "孙**",
+        "李**",
+        "薛**",
+        "周**",
+        "刘**",
+        "苗**",
+        "徐**",
+        "卢**",
+        "郝**",
+        "耿**",
+        "高**",
+        "陈**",
+        "秦**",
+        "于**",
+        "王**",
+        "黄**",
+        "程**",
+        "董**",
+        "杨**",
+        "侯**",
+        "魏**",
+        "胡**",
+        "赫**",
+        "渠**",
+        "汪**",
+        "吴**",
+        "种**",
+        "莫**",
+        "赵**",
+        "苏**",
+        "何**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县教育体育局",
+        "金乡县人民政府教育督导室",
+        "金乡县老年体协",
+        "金乡县教研中心",
+        "金乡县考试中心",
+        "金乡县教师进修学校",
+        "金乡县特殊教育学校",
+        "金乡一中",
+        "金乡二中",
+        "职业中专",
+        "金乡县王杰中学",
+        "金乡县第三中学",
+        "金乡县第四中学",
+        "金乡县金曼克中学",
+        "济宁教育学院附属小学",
+        "金乡县实验小学",
+        "金乡县春秋小学",
+        "金乡县东城小学",
+        "金乡县中心小学",
+        "金乡县育才学校",
+        "王丕中心校",
+        "电教中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

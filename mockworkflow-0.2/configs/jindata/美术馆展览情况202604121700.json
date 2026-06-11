@@ -1,0 +1,148 @@
+{
+  "file_name": "美术馆展览情况202604121700.xlsx",
+  "table_name": "美术馆展览情况202604121700",
+  "row_count": 27,
+  "columns": [
+    "zlsj",
+    "zlmc",
+    "sfsf",
+    "zldd",
+    "zclx"
+  ],
+  "fields": [
+    {
+      "name": "zlsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2014年",
+        "2015年",
+        "2016年",
+        "2017年",
+        "2018年",
+        "2022年",
+        "2024"
+      ],
+      "value_pool": [
+        "2014年",
+        "2015年",
+        "2016年",
+        "2017年",
+        "2018年",
+        "2022年",
+        "2024"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "邹鲁六逸书法展",
+        "庆“七一”书画摄影展",
+        "迎新春优秀节目展演",
+        "第三届“微山湖文艺奖”书画摄影展",
+        "庆祝“重阳节”书画展",
+        "“荷香诗韵”书法作品展",
+        "全市戏曲票友大赛",
+        "济宁市第二届电视书法篆刻大赛",
+        "建党95周年书画摄影展",
+        "庆祝“老年节”书画展",
+        "微湖情马培同焦墨山水画展",
+        "迎新春书画摄影展",
+        "济宁画家画济宁巡展",
+        "微山湖荷花节书画摄影展",
+        "微山县文化惠民消费季书画展",
+        "喜迎十九大老干部书画展",
+        "改革开放40周年微山宁阳中国画交流展",
+        "庆祝改革开放40周年书画摄影展",
+        "微山湖25届荷花节红色文化展",
+        "迎新春书画交流展",
+        "庆祝二十大书法美术展览",
+        "书法美术廉政展览",
+        "茶艺培训活动",
+        "“国庆华章，共鉴华夏辉煌”国庆节主题知识竞答",
+        "“我和我的祖国”——中国科学家精神主题展"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfsf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zldd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县美术馆",
+        "县文化中心",
+        "县图书馆"
+      ],
+      "value_pool": [
+        "微山县美术馆",
+        "县文化中心",
+        "县图书馆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zclx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "书法",
+        "摄影",
+        "书法、美术",
+        "戏曲",
+        "篆刻",
+        "美术",
+        "茶艺培训",
+        "知识竞答",
+        "展览"
+      ],
+      "value_pool": [
+        "书法",
+        "摄影",
+        "书法、美术",
+        "戏曲",
+        "篆刻",
+        "美术",
+        "茶艺培训",
+        "知识竞答",
+        "展览"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

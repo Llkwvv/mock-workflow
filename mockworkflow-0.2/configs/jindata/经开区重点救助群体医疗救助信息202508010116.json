@@ -1,0 +1,269 @@
+{
+  "file_name": "经开区重点救助群体医疗救助信息202508010116.xlsx",
+  "table_name": "经开区重点救助群体医疗救助信息202508010116",
+  "row_count": 20,
+  "columns": [
+    "mzjg",
+    "jzdd",
+    "jzje",
+    "yymc",
+    "xb",
+    "姓名",
+    "jzsj",
+    "csrq",
+    "yljzfs",
+    "yybm"
+  ],
+  "fields": [
+    {
+      "name": "mzjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "医保"
+      ],
+      "value_pool": [
+        "医保"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "医院"
+      ],
+      "value_pool": [
+        "医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1263.82",
+        "152.77",
+        "27.87",
+        "197.64",
+        "2.45",
+        "651.77",
+        "496.8",
+        "98.64",
+        "11.55",
+        "88.2",
+        "456.44",
+        "1298.23",
+        "124.59",
+        "72.92",
+        "439.03",
+        "741.48",
+        "272.77",
+        "45.44",
+        "34.36",
+        "422.38"
+      ],
+      "min_value": 2.45,
+      "max_value": 1298.23
+    },
+    {
+      "name": "yymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县中医院",
+        "嘉祥县人民医院",
+        "济宁医学院附属医院",
+        "济宁凤凰怡康医院",
+        "嘉祥民康医院",
+        "山东省戴庄医院",
+        "济宁任城儒济医院",
+        "济南中医白癜风医院"
+      ],
+      "value_pool": [
+        "嘉祥县中医院",
+        "嘉祥县人民医院",
+        "济宁医学院附属医院",
+        "济宁凤凰怡康医院",
+        "嘉祥民康医院",
+        "山东省戴庄医院",
+        "济宁任城儒济医院",
+        "济南中医白癜风医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "盛**",
+        "董**",
+        "朱**",
+        "李**",
+        "张**",
+        "付**",
+        "徐**",
+        "庞**",
+        "孙**",
+        "江**",
+        "张*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-05-01 00:00:00",
+        "2025-05-02 00:00:00",
+        "2025-05-03 00:00:00",
+        "2025-05-04 00:00:00",
+        "2025-05-05 00:00:00",
+        "2025-05-06 00:00:00",
+        "2025-05-07 00:00:00",
+        "2025-05-08 00:00:00",
+        "2025-05-09 00:00:00",
+        "2025-05-10 00:00:00",
+        "2025-05-11 00:00:00",
+        "2025-05-12 00:00:00",
+        "2025-05-13 00:00:00",
+        "2025-05-14 00:00:00",
+        "2025-05-15 00:00:00",
+        "2025-05-16 00:00:00",
+        "2025-05-17 00:00:00",
+        "2025-05-18 00:00:00",
+        "2025-05-19 00:00:00",
+        "2025-05-20 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "19621116",
+        "20120810",
+        "19430418",
+        "19470216",
+        "19900901",
+        "19480217",
+        "19831221",
+        "19690707",
+        "19790909",
+        "19650624",
+        "19520502",
+        "19760127",
+        "19580329",
+        "19450514",
+        "19401025",
+        "19620715",
+        "19590427",
+        "19880620",
+        "20091016"
+      ],
+      "min_value": 19401025.0,
+      "max_value": 20120810.0
+    },
+    {
+      "name": "yljzfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "特困人员",
+        "低保对象"
+      ],
+      "value_pool": [
+        "特困人员",
+        "低保对象"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yybm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "H37082900123",
+        "H37082900122",
+        "H37081100311",
+        "H37081100321",
+        "H37082900069",
+        "H37081100308",
+        "H37081100208",
+        "37000100013575"
+      ],
+      "value_pool": [
+        "H37082900123",
+        "H37082900122",
+        "H37081100311",
+        "H37081100321",
+        "H37082900069",
+        "H37081100308",
+        "H37081100208",
+        "37000100013575"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

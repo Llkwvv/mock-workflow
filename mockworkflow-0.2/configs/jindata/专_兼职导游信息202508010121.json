@@ -1,0 +1,130 @@
+{
+  "file_name": "专_兼职导游信息202508010121.xlsx",
+  "table_name": "专_兼职导游信息202508010121",
+  "row_count": 27,
+  "columns": [
+    "xb",
+    "yz",
+    "姓名",
+    "szdw",
+    "dj"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "普通话"
+      ],
+      "value_pool": [
+        "普通话"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "韩**",
+        "杨**",
+        "刘**",
+        "蒋**",
+        "王**",
+        "孙**",
+        "於**",
+        "温**",
+        "张**",
+        "马**",
+        "宋**",
+        "曾**",
+        "卜**",
+        "姜**",
+        "朱**",
+        "田***",
+        "姚**",
+        "陈**",
+        "吴**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山文化和旅游局",
+        "微山岛镇政府",
+        "生态环境局微山分局",
+        "职业教育中心",
+        "微山县运河国际旅游有限公司",
+        "山东微山湖国际旅行社有限公司",
+        "自由职业",
+        "微山县旅游发展集团",
+        "微山县微山岛荷润国际旅行社有限公司"
+      ],
+      "value_pool": [
+        "微山文化和旅游局",
+        "微山岛镇政府",
+        "生态环境局微山分局",
+        "职业教育中心",
+        "微山县运河国际旅游有限公司",
+        "山东微山湖国际旅行社有限公司",
+        "自由职业",
+        "微山县旅游发展集团",
+        "微山县微山岛荷润国际旅行社有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中级",
+        "初级"
+      ],
+      "value_pool": [
+        "中级",
+        "初级"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -14,6 +14,7 @@ class FieldResolutionResult(BaseModel):
     llm_used: bool = False
     llm_resolved_count: int = 0
     rules_resolved_count: int = 0
+    rag_resolved_count: int = 0
     fallback_resolved_count: int = 0
     value_pools_generated: int = 0
     model_used: str | None = None
@@ -53,6 +54,62 @@ def resolve_fields(
         else:
             unresolved_columns.append(column)
 
+    # -- RAG Phase: semantic rule retrieval for columns missed by exact match --
+    rag_resolved_count = 0
+    if unresolved_columns and not refresh_rules:
+        try:
+            from backend.rag.rule_indexer import get_rule_indexer
+            from backend.rag.sample_indexer import get_sample_indexer
+            rule_indexer = get_rule_indexer()
+            sample_indexer = get_sample_indexer()
+            still_unresolved: list[str] = []
+            for column in unresolved_columns:
+                # First try semantic rule search (by column name)
+                rag_results = rule_indexer.search_similar_rules(
+                    query=column,
+                    top_k=settings.rag_top_k_rules,
+                    min_confidence=settings.rules_min_confidence,
+                )
+                if rag_results:
+                    best = rag_results[0]
+                    meta = best.get("metadata", {})
+                    # Only adopt when semantic is concrete and distance is strong
+                    if meta.get("semantic") and meta.get("semantic") != "unknown":
+                        adapted = _adapt_rag_rule(column, best, profile)
+                        resolved_fields.append(adapted)
+                        rag_resolved_count += 1
+                        continue
+
+                # If rule search fails, try column similarity in historical samples
+                column_results = sample_indexer.search_similar_columns(
+                    profile=profile,
+                    column_name=column,
+                    top_k=settings.rag_top_k_samples,
+                    min_confidence=settings.rules_min_confidence,
+                )
+                if column_results:
+                    best_col = column_results[0]
+                    meta = best_col.get("metadata", {})
+                    # Extract field info from similar historical column
+                    similar_profile = SampleProfile(
+                        file_path=meta.get("file_path", ""),
+                        row_count=meta.get("row_count", 0),
+                        columns=meta.get("columns", "").split(",") if meta.get("columns") else [],
+                        column_profiles={},
+                    )
+                    # Try to get the field spec from the similar column's profile
+                    if best_col.get("document"):
+                        adapted = _adapt_rag_rule(column, best_col, profile)
+                        resolved_fields.append(adapted)
+                        rag_resolved_count += 1
+                        continue
+
+                still_unresolved.append(column)
+            unresolved_columns = still_unresolved
+        except Exception as exc:
+            # RAG is best-effort; never block generation on vector store errors
+            print(f"Warning: RAG rule retrieval skipped ({exc})")
+
     llm_used = False
     llm_resolved_count = 0
     fallback_resolved_count = 0
@@ -72,6 +129,24 @@ def resolve_fields(
 
         if model_to_use:
             try:
+                # -- RAG context retrieval for LLM prompt enhancement --
+                rag_rules = []
+                rag_samples = []
+                try:
+                    from backend.rag.rule_indexer import get_rule_indexer
+                    from backend.rag.sample_indexer import get_sample_indexer
+                    indexer = get_rule_indexer()
+                    for col in unresolved_columns:
+                        rag_rules.extend(
+                            indexer.search_similar_rules(col, top_k=settings.rag_top_k_rules)
+                        )
+                    sample_indexer = get_sample_indexer()
+                    rag_samples = sample_indexer.search_similar_profiles(
+                        profile, top_k=settings.rag_top_k_samples
+                    )
+                except Exception as exc:
+                    print(f"Warning: RAG context retrieval skipped ({exc})")
+
                 parser = OpenAIFieldParser(
                     api_key=settings.llm_api_key,
                     base_url=settings.llm_base_url,
@@ -80,7 +155,10 @@ def resolve_fields(
                     max_tokens=settings.llm_max_tokens,
                     temperature=settings.llm_temperature,
                 )
-                llm_fields = parser.parse_fields(profile, unresolved_columns)
+                llm_fields = parser.parse_fields(
+                    profile, unresolved_columns,
+                    rag_rules=rag_rules, rag_samples=rag_samples,
+                )
                 llm_by_name = {field.name: field for field in llm_fields}
                 llm_used = True
                 llm_resolved_count = len(llm_by_name)
@@ -144,7 +222,8 @@ def resolve_fields(
         fields=resolved_fields,
         llm_used=llm_used or pools_generated > 0,
         llm_resolved_count=llm_resolved_count,
-        rules_resolved_count=len(profile.columns) - len(unresolved_columns),
+        rules_resolved_count=len(profile.columns) - len(unresolved_columns) - rag_resolved_count,
+        rag_resolved_count=rag_resolved_count,
         fallback_resolved_count=fallback_resolved_count,
         value_pools_generated=pools_generated,
         model_used=model_used,
@@ -158,6 +237,45 @@ def resolve_uncertain_fields(
 ) -> list[FieldSpec]:
     """Backward-compatible wrapper that now resolves all fields via rule store and LLM."""
     return resolve_fields(profile, settings=settings).fields
+
+
+def _adapt_rag_rule(column: str, rag_result: dict, profile: SampleProfile) -> FieldSpec:
+    """Create a FieldSpec from a RAG-retrieved similar rule, keeping the
+    original column name but copying type, semantic and other metadata."""
+    meta = rag_result.get("metadata", {})
+    sample_values = profile.samples.get(column, [])
+    has_numeric = any(_looks_like_number(value) for value in sample_values)
+
+    # Determine SQL type from metadata or fall back to sample heuristics
+    type_str = meta.get("type", "")
+    sql_type = SqlType.varchar
+    if type_str:
+        try:
+            sql_type = SqlType(type_str)
+        except ValueError:
+            sql_type = SqlType.int if has_numeric else SqlType.varchar
+    else:
+        sql_type = SqlType.int if has_numeric else SqlType.varchar
+
+    # Resolve semantic
+    semantic_str = meta.get("semantic", "unknown")
+    semantic = FieldSemantic.unknown
+    if semantic_str:
+        try:
+            semantic = FieldSemantic(semantic_str)
+        except ValueError:
+            semantic = FieldSemantic.unknown
+
+    return FieldSpec(
+        name=column,
+        type=sql_type,
+        length=255 if sql_type == SqlType.varchar else None,
+        nullable=True,
+        comment=column,
+        semantic=semantic,
+        confidence=min(meta.get("confidence", 0.7), 0.95),  # Cap confidence for retrieved rules
+        uncertain=False,
+    )
 
 
 def _build_minimal_fallback_field(profile: SampleProfile, column: str) -> FieldSpec:

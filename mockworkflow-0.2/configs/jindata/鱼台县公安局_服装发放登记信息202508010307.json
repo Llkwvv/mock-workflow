@@ -1,0 +1,170 @@
+{
+  "file_name": "鱼台县公安局_服装发放登记信息202508010307.xlsx",
+  "table_name": "鱼台县公安局_服装发放登记信息202508010307",
+  "row_count": 210,
+  "columns": [
+    "xb",
+    "jflx",
+    "zzfl",
+    "姓名",
+    "dw",
+    "sfrq"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jflx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "国家财政",
+        "地方财政"
+      ],
+      "value_pool": [
+        "国家财政",
+        "地方财政"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "普通警",
+        "交通警"
+      ],
+      "value_pool": [
+        "普通警",
+        "交通警"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "范**",
+        "侯**",
+        "刘**",
+        "张**",
+        "朱**",
+        "董**",
+        "郭**",
+        "王**",
+        "魏**",
+        "杨**",
+        "赵**",
+        "郑**",
+        "闫**",
+        "安**",
+        "姜**",
+        "房**",
+        "韩**",
+        "胡**",
+        "李**",
+        "马**",
+        "田**",
+        "展**",
+        "周**",
+        "别**",
+        "白**",
+        "程**",
+        "陈**",
+        "黄**",
+        "蒋**",
+        "鹿**",
+        "潘**",
+        "徐**",
+        "奚**",
+        "邵**",
+        "殷**",
+        "蔡**",
+        "冯**",
+        "耿**",
+        "童**",
+        "任**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁鱼台县公安局领导",
+        "济宁鱼台县公安局指挥中心",
+        "济宁鱼台县公安局警务保障室",
+        "济宁鱼台县公安局刑警大队",
+        "济宁鱼台县公安局治安大队",
+        "济宁鱼台县公安局特警大队",
+        "济宁鱼台县公安局交警大队",
+        "济宁鱼台县公安局经侦大队",
+        "济宁鱼台县公安局政治处",
+        "济宁鱼台县公安局纪委",
+        "济宁鱼台县公安局国安大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2000-12-31",
+        "2003-12-31",
+        "2014-12-31",
+        "2016-12-31",
+        "2002-12-31",
+        "2001-12-31",
+        "2006-12-31",
+        "2020-12-31",
+        "2005-12-31",
+        "2004-12-31",
+        "2015-12-31"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

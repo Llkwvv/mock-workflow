@@ -1,0 +1,133 @@
+{
+  "file_name": "文化活动服务企业信息_0.csv",
+  "table_name": "文化活动服务企业信息_0",
+  "row_count": 31,
+  "columns": [
+    "hyml",
+    "qyzwm",
+    "tyshxydm",
+    "hydm"
+  ],
+  "fields": [
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 文化、体育和娱乐业-R"
+      ],
+      "value_pool": [
+        " 文化、体育和娱乐业-R"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyzwm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 汶上县桃李文化传媒有限公司",
+        " 济宁臻尚文化传媒有限公司",
+        " 济宁鲁之渝文化传媒有限公司",
+        " 汶上县搜才智领人力资源有限公司",
+        " 济宁辰昇文化产业有限公司",
+        " 济宁一熙一暖影视文化传媒有限公司",
+        " 汶上县万企文化传媒有限公司",
+        " 济宁凯歌文化传媒有限公司",
+        " 济宁永逸文化传媒有限公司",
+        " 济宁硕雪文化传媒有限公司",
+        " 汶上县共享文化传媒有限公司",
+        " 济宁胜蓝文化传媒有限公司",
+        " 汶上县以祥文化传媒中心",
+        " 济宁九樱文化传媒有限公司",
+        " 济宁来复文化传媒有限公司",
+        " 汶上县麦丰文化传媒有限公司",
+        " 济宁子俊文化传媒有限公司",
+        " 济宁市华创文化传媒有限公司",
+        " 济宁德慧苑文化发展有限公司",
+        " 济宁恒良文化传媒有限公司",
+        " 汶上县南池文化艺术交流中心",
+        " 济宁市玉萌文化传媒有限公司",
+        " 汶上县正娟文化传媒有限公司",
+        " 济宁儒晗文化传媒有限公司",
+        " 汶上县志明文化传媒有限公司",
+        " 山东智觉文化传媒有限公司",
+        " 济宁玖叁传媒有限公司",
+        " 济宁泛海边际文化传媒有限公司",
+        " 南德文化创意有限公司",
+        " 山东喜盈欣婚庆用品有限公司",
+        " 济宁狼道文化传媒有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 91370830MA3F7ME46W",
+        " 91370830MA3N08WA0X",
+        " 91370103MA3MTYHU75",
+        " 91370830MA3QPDTW4W",
+        " 91370830MA3MQBP2X0",
+        " 91370830MA3CKQMB3D",
+        " 91370830MA3CEKMX48",
+        " 91370830MA3D9GJD4W",
+        " 91370830MA3MH6AC3M",
+        " 91370830MA3EX8CU9C",
+        " 91370830MA3MGNAW8H",
+        " 91370830MA3MGX4489",
+        " 91370830MA3BYXHB6N",
+        " 91370830MA3C5T413L",
+        " 91370830MA3CABJY7Q",
+        " 91370830MA3DE1EJ82",
+        " 91370830MA3Q8JGG4P",
+        " 91370830095108726N",
+        " 91370830094480788Q",
+        " 91370830069968044G",
+        " 91370830MA3D0YQ37D",
+        " 91370830MA3F94CTX4",
+        " 91370830MA3FG9F627",
+        " 91370830MA3F7W5L5R",
+        " 91370830MA3N7B8N0L",
+        " 91370830MA3R59L615",
+        " 91370830MA3RTRPR9Q",
+        " 91370830MA3RQ9775U",
+        " 91370830MA3RRK2W3Y",
+        " 91370830MA3T2QT48J",
+        " 91370830MA3THX4FXA"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 9051|    文化活动服务"
+      ],
+      "value_pool": [
+        " 9051|    文化活动服务"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

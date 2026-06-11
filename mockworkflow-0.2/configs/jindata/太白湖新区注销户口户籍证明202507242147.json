@@ -1,0 +1,170 @@
+{
+  "file_name": "太白湖新区注销户口户籍证明202507242147.xlsx",
+  "table_name": "太白湖新区注销户口户籍证明202507242147",
+  "row_count": 77,
+  "columns": [
+    "blrq",
+    "xb",
+    "dq",
+    "sfcnr",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "blrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024年"
+      ],
+      "value_pool": [
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张*涵",
+        "李*远",
+        "王*然",
+        "刘*桐",
+        "陈*诺",
+        "杨*航",
+        "赵*怡",
+        "黄*轩",
+        "周*琪",
+        "吴*辰",
+        "徐*曦",
+        "孙*怡",
+        "朱*杰",
+        "胡*宇",
+        "林*凡",
+        "郑*宇",
+        "高*瑶",
+        "马*博",
+        "谢*欣",
+        "韩*曦",
+        "唐*轩",
+        "冯*琪",
+        "董*萱",
+        "萧*哲",
+        "曹*悦",
+        "彭*豪",
+        "潘*颖",
+        "袁*鸣",
+        "于*宁",
+        "蒋*航",
+        "蔡*薇",
+        "余*昊",
+        "杜*怡",
+        "叶*辰",
+        "程*豪",
+        "苏*洁",
+        "魏*涵",
+        "吕*欣",
+        "丁*然",
+        "任*桐",
+        "卢*熙",
+        "钟*琪",
+        "汪*航",
+        "田*凡",
+        "姜*婷",
+        "崔*轩",
+        "康*悦",
+        "白*辰",
+        "江*豪",
+        "孟*欣",
+        "龙*琪",
+        "万*博",
+        "段*瑶",
+        "雷*轩",
+        "钱*怡",
+        "汤*远",
+        "尹*轩",
+        "黎*怡",
+        "易*航",
+        "常*桐",
+        "武*杰",
+        "乔*琪",
+        "贺*诺",
+        "赖*宇",
+        "龚*洁",
+        "文*欣",
+        "牛*涵",
+        "温*薇",
+        "蓝*哲",
+        "辛*豪",
+        "柯*悦",
+        "阮*颖",
+        "纪*辰",
+        "季*然",
+        "屈*宁",
+        "苗*欣",
+        "成*昊"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

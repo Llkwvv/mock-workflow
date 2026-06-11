@@ -1,0 +1,112 @@
+{
+  "file_name": "计量纠纷调解与计量仲裁检定信息202602111117.xlsx",
+  "table_name": "计量纠纷调解与计量仲裁检定信息202602111117",
+  "row_count": 20,
+  "columns": [
+    "bz",
+    "tjsl",
+    "cdjg",
+    "sxmc",
+    "zcsl"
+  ],
+  "fields": [
+    {
+      "name": "bz",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "2025.01",
+        "2025.02",
+        "2025.03",
+        "2025.04",
+        "2025.05",
+        "2025.06",
+        "2025.07",
+        "2025.08",
+        "2025.09",
+        "2025.11",
+        "2025.1"
+      ],
+      "min_value": 2025.01,
+      "max_value": 2025.11
+    },
+    {
+      "name": "tjsl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "5",
+        "3",
+        "2",
+        "1"
+      ],
+      "value_pool": [
+        "5",
+        "3",
+        "2",
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 5.0
+    },
+    {
+      "name": "cdjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "调解解决"
+      ],
+      "value_pool": [
+        "调解解决"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "加油站计量投诉",
+        "电子计价秤投诉",
+        "水表计量投诉"
+      ],
+      "value_pool": [
+        "加油站计量投诉",
+        "电子计价秤投诉",
+        "水表计量投诉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcsl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    }
+  ]
+}

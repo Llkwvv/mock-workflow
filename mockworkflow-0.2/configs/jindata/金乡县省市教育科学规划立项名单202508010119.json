@@ -1,0 +1,134 @@
+{
+  "file_name": "金乡县省市教育科学规划立项名单202508010119.xlsx",
+  "table_name": "金乡县省市教育科学规划立项名单202508010119",
+  "row_count": 20,
+  "columns": [
+    "姓名",
+    "gzdw",
+    "ktmc",
+    "xsq",
+    "jb"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孟**",
+        "周**",
+        "李**",
+        "管**",
+        "赵**",
+        "杨**",
+        "于**",
+        "马**",
+        "郭**",
+        "肖**",
+        "孙**",
+        "张**",
+        "刘**",
+        "王**",
+        "邱**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县第一中学",
+        "青华园",
+        "金乡县高河街道办事处苏楼小学",
+        "济宁教育学院附属小学",
+        "金乡县诚信小学",
+        "金乡县羊山镇明德小学",
+        "金乡县第三中学",
+        "金乡县王杰中学",
+        "金乡县羊山镇李小楼小学",
+        "金乡县化雨镇中心小学",
+        "金乡县春城小学",
+        "金乡县第二实验小学",
+        "金乡县实验小学",
+        "金乡县电化教育中心",
+        "金乡县实验中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ktmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "依托学生社团实践活动，提升高中地理核心素养的探索与研究",
+        "基于核心素养的创新高中物理教学模式的研究",
+        "基于核心素养的“四位一体”快乐学习课堂模式的研究",
+        "留守儿童心理健康干预中奥尔夫教学法的应用研究",
+        "新时代立德树人视角下核心价值观教育机制研究",
+        "优质课堂中有效推进诚信教育的实践研究",
+        "德育视角下农村小学红色文化教育实践研究",
+        "“互联网＋”课堂教学环境下教学策略的研究",
+        "初中生“每天锻炼一小时”体质增强的实效性研究--以金乡县王杰中学为例",
+        "农村小学教师胜任力现状及其提升路径研究",
+        "基于平板电脑教学引领智慧课堂的实践研究",
+        "新时期农村小学线上教学与线下教学有效融合的研究",
+        "德育生态视角下家校共育模式构建的实践研究",
+        "基于学习金字塔理论的教学模式研究",
+        "运用思维导图指导小学高段习作教学的实践与研究",
+        "“爱上绘本  阅读伴我成长”——幼儿园绘本阅读的实践和研究",
+        "小学数学阅读能力培养的实践与研究",
+        "基于社会主义核心价值观下的中小学德育实践研究",
+        "“协同共育”理念下提升教师家庭教育指导力的实践研究"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

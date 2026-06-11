@@ -1,0 +1,133 @@
+{
+  "file_name": "住建局初_中_高级职称考试报名信息202508010106.xlsx",
+  "table_name": "住建局初_中_高级职称考试报名信息202508010106",
+  "row_count": 20,
+  "columns": [
+    "姓名",
+    "bkzy",
+    "bzlx",
+    "bkjb",
+    "dw",
+    "sxmc"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王***",
+        "狄**",
+        "于***",
+        "高**",
+        "孔**",
+        "任**",
+        "姜**",
+        "杨**",
+        "王**",
+        "李**",
+        "赵**",
+        "岳**",
+        "胡**",
+        "谷**",
+        "张**",
+        "刘**",
+        "赵*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bkzy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "建设工程管理"
+      ],
+      "value_pool": [
+        "建设工程管理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "事业"
+      ],
+      "value_pool": [
+        "事业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bkjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "初级",
+        "中级",
+        "副高级"
+      ],
+      "value_pool": [
+        "初级",
+        "中级",
+        "副高级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县建设工程管理服务中心",
+        "嘉祥县人防事务中心",
+        "嘉祥县住房保障和房地产发展事务中心"
+      ],
+      "value_pool": [
+        "嘉祥县建设工程管理服务中心",
+        "嘉祥县人防事务中心",
+        "嘉祥县住房保障和房地产发展事务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "2021年度建设工程系列职称考试"
+      ],
+      "value_pool": [
+        "2021年度建设工程系列职称考试"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

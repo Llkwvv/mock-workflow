@@ -1,0 +1,143 @@
+{
+  "file_name": "汶上县交通运输局_营运客车类型划分及等级评定信息202506271744.xlsx",
+  "table_name": "汶上县交通运输局_营运客车类型划分及等级评定信息202506271744",
+  "row_count": 24,
+  "columns": [
+    "dj",
+    "csdw",
+    "ch",
+    "zws",
+    "cx"
+  ],
+  "fields": [
+    {
+      "name": "dj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "大型高一",
+        "中型高一"
+      ],
+      "value_pool": [
+        "大型高一",
+        "中型高一"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁市顺通旅游汽车有限公司汶上分公司"
+      ],
+      "value_pool": [
+        "济宁市顺通旅游汽车有限公司汶上分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ch",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁H01D96",
+        "鲁H97A20",
+        "鲁H71A80",
+        "鲁H54A87",
+        "鲁H65C17",
+        "鲁H20F51",
+        "鲁H20H02",
+        "鲁H18H79",
+        "鲁H69Y95",
+        "鲁H07X10",
+        "鲁H10Q13",
+        "鲁H12V69",
+        "鲁H31W71",
+        "鲁H56L88",
+        "鲁H70T02",
+        "鲁H68L66",
+        "鲁H87Y62",
+        "鲁H82W92",
+        "鲁H70V08",
+        "鲁H06N78",
+        "鲁H77T73",
+        "鲁H13Z67",
+        "鲁H82J00",
+        "鲁H220K1"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zws",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "54",
+        "19",
+        "50",
+        "39",
+        "56",
+        "27",
+        "48"
+      ],
+      "value_pool": [
+        "54",
+        "19",
+        "50",
+        "39",
+        "56",
+        "27",
+        "48"
+      ],
+      "min_value": 19.0,
+      "max_value": 56.0
+    },
+    {
+      "name": "cx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金龙牌XMQ61119FYD5C",
+        "安凯牌HFF6700KDE5FB1",
+        "宇通牌ZK6118H35YY1",
+        "海格牌KLQ6121YAE51",
+        "海格牌KLQ6882KAE51D",
+        "宇通牌ZK6148HQB5Y",
+        "海格牌KLQ6829KAE61",
+        "海格牌KLQ6132BAE61"
+      ],
+      "value_pool": [
+        "金龙牌XMQ61119FYD5C",
+        "安凯牌HFF6700KDE5FB1",
+        "宇通牌ZK6118H35YY1",
+        "海格牌KLQ6121YAE51",
+        "海格牌KLQ6882KAE51D",
+        "宇通牌ZK6148HQB5Y",
+        "海格牌KLQ6829KAE61",
+        "海格牌KLQ6132BAE61"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

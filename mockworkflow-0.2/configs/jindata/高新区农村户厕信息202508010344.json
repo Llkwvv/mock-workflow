@@ -1,0 +1,279 @@
+{
+  "file_name": "高新区农村户厕信息202508010344.xlsx",
+  "table_name": "高新区农村户厕信息202508010344",
+  "row_count": 24231,
+  "columns": [
+    "s",
+    "cslx",
+    "csjznf",
+    "hzxm",
+    "cssyqk",
+    "lxdh",
+    "czmc",
+    "xsq",
+    "jd"
+  ],
+  "fields": [
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cslx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "水冲厕所"
+      ],
+      "value_pool": [
+        "水冲厕所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csjznf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2017年"
+      ],
+      "value_pool": [
+        "2017年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hzxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵**",
+        "张**",
+        "孟**",
+        "王**",
+        "岳**",
+        "谷**",
+        "韩**",
+        "鲍**",
+        "常**",
+        "姜**",
+        "高**",
+        "胡**",
+        "朱**",
+        "杨**",
+        "郑**",
+        "孙**",
+        "刘**",
+        "程**",
+        "田**",
+        "解**",
+        "宋**",
+        "陈**",
+        "郭**",
+        "温**",
+        "宫**",
+        "石**",
+        "吕**",
+        "葛**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cssyqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "无问题",
+        "有问题但不影响使用"
+      ],
+      "value_pool": [
+        "无问题",
+        "有问题但不影响使用"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "150*****069",
+        "152*****488",
+        "131*****868",
+        "137*****634",
+        "138*****568",
+        "151*****487",
+        "134*****912",
+        "158*****233",
+        "134*****269",
+        "151*****084",
+        "138*****315",
+        "158*****038",
+        "182*****724",
+        "151*****551",
+        "152*****644",
+        "152*****866",
+        "135*****006",
+        "159*****880",
+        "138*****640",
+        "138*****533",
+        "182*****184",
+        "150*****906",
+        "159*****758",
+        "138*****509",
+        "159*****359",
+        "182*****567",
+        "138*****058",
+        "130*****628",
+        "150*****557",
+        "136*****137",
+        "153*****996",
+        "139*****527",
+        "153*****467",
+        "180*****587",
+        "159*****639",
+        "158*****458",
+        "158*****735",
+        "137*****529",
+        "152*****058",
+        "137*****182",
+        "152*****485",
+        "187*****950",
+        "151*****212",
+        "159*****280",
+        "151*****929",
+        "151*****450",
+        "150*****309",
+        "137*****882",
+        "187*****061",
+        "187*****695",
+        "130*****773",
+        "183*****106",
+        "152*****860",
+        "184*****280",
+        "136*****838",
+        "158*****920",
+        "135*****687",
+        "159*****201",
+        "137*****398",
+        "135*****587",
+        "158*****198",
+        "136*****901",
+        "159*****940",
+        "150*****801",
+        "152*****419",
+        "139*****012",
+        "158*****192",
+        "135*****944",
+        "138*****354",
+        "131*****646",
+        "152*****456",
+        "187*****737",
+        "151*****703",
+        "135*****823",
+        "159*****689",
+        "182*****295",
+        "158*****297",
+        "152*****647",
+        "150*****256",
+        "186*****220",
+        "150*****516",
+        "150*****386",
+        "151*****682",
+        "177*****233",
+        "150*****298",
+        "188*****184",
+        "151*****184",
+        "188*****144",
+        "138*****273",
+        "131*****333",
+        "184*****728",
+        "139*****844",
+        "159*****928"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "北辛村"
+      ],
+      "value_pool": [
+        "北辛村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "接庄街道"
+      ],
+      "value_pool": [
+        "接庄街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

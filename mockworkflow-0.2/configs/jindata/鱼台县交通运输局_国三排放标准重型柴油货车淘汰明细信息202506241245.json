@@ -1,0 +1,165 @@
+{
+  "file_name": "鱼台县交通运输局_国三排放标准重型柴油货车淘汰明细信息202506241245.xlsx",
+  "table_name": "鱼台县交通运输局_国三排放标准重型柴油货车淘汰明细信息202506241245",
+  "row_count": 75,
+  "columns": [
+    "sfwttrwzmbcl",
+    "bfjdchszmhgckbgdsfjb",
+    "cphm",
+    "dlyszzxzmsfjb",
+    "jdxszzxzmsfjb"
+  ],
+  "fields": [
+    {
+      "name": "sfwttrwzmbcl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bfjdchszmhgckbgdsfjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cphm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁H7N698",
+        "鲁H7L525",
+        "鲁H7L711",
+        "鲁H7D987",
+        "鲁H7D206",
+        "鲁H7K500",
+        "鲁H7L338",
+        "鲁H7L897",
+        "鲁H07A58",
+        "鲁H20C91",
+        "鲁H12B63",
+        "鲁H7K711",
+        "鲁H7L379",
+        "鲁H7F665",
+        "鲁H7L597",
+        "鲁H7P921",
+        "鲁H7J011",
+        "鲁H7F010",
+        "鲁H7F582",
+        "鲁H7L830",
+        "鲁H7L311",
+        "鲁H45967",
+        "鲁H7L722",
+        "鲁H7F530",
+        "鲁H7G093",
+        "鲁H7S575",
+        "鲁H7G873",
+        "鲁H7D513",
+        "鲁H7L693",
+        "鲁H7M962",
+        "鲁H57F15",
+        "鲁H7K113",
+        "鲁H7F732",
+        "鲁HD1222",
+        "鲁H7G662",
+        "鲁H7H373",
+        "鲁H7G539",
+        "鲁H67T79",
+        "鲁H7A910",
+        "鲁H7L911",
+        "鲁H7L260",
+        "鲁H17A80",
+        "鲁H7G353",
+        "鲁H7L638",
+        "鲁H7L808",
+        "鲁H7E996",
+        "鲁H7H606",
+        "鲁H7L605",
+        "鲁H7M076",
+        "鲁H7L681",
+        "鲁H7L133",
+        "鲁H7L595",
+        "鲁H7L937",
+        "鲁H7K892",
+        "鲁H7A815",
+        "鲁H7L672",
+        "鲁H7L675",
+        "鲁H7L523",
+        "鲁H7G637",
+        "鲁H7L700",
+        "鲁H7F551",
+        "鲁H7H590",
+        "鲁H7K697",
+        "鲁H7G192",
+        "鲁H7M199",
+        "鲁H7K207",
+        "鲁H7L560",
+        "鲁H7L617",
+        "鲁H7L337",
+        "鲁H7H600"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dlyszzxzmsfjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "已具备"
+      ],
+      "value_pool": [
+        "是",
+        "已具备"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jdxszzxzmsfjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "已具备"
+      ],
+      "value_pool": [
+        "是",
+        "已具备"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

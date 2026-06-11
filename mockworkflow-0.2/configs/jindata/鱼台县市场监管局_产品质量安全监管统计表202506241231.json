@@ -1,0 +1,174 @@
+{
+  "file_name": "鱼台县市场监管局_产品质量安全监管统计表202506241231.xlsx",
+  "table_name": "鱼台县市场监管局_产品质量安全监管统计表202506241231",
+  "row_count": 27,
+  "columns": [
+    "zbmc",
+    "jldw",
+    "xfp",
+    "dscp",
+    "gyp",
+    "spxgcp"
+  ],
+  "fields": [
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "抽查企业",
+        "检验企业",
+        "不合格企业",
+        "检验产品",
+        "不合格产品",
+        "不合格产品发现率",
+        "期末实有获证企业",
+        "本期新增获证企业",
+        "不予许可",
+        "本期撤销",
+        "本期注销",
+        "本期吊销",
+        "采集风险信息",
+        "编写安全形势分析报告",
+        "风险监测品种",
+        "风险监测产品",
+        "发现问题产品",
+        "向企业发送风险告知书",
+        "向其它部门发送风险通报",
+        "反馈标准制修订意见",
+        "向社会发布风险警示",
+        "监督检查企业",
+        "监督检查产品",
+        "发现问题企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "家",
+        "批次",
+        "%",
+        "张",
+        "条",
+        "篇",
+        "种",
+        "份"
+      ],
+      "value_pool": [
+        "家",
+        "批次",
+        "%",
+        "张",
+        "条",
+        "篇",
+        "种",
+        "份"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xfp",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "0家"
+      ],
+      "value_pool": [
+        "0",
+        "0家"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "dscp",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "license_plate",
+      "enum_values": [
+        "0",
+        "0家"
+      ],
+      "value_pool": [
+        "0",
+        "0家"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "gyp",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "5",
+        "3",
+        "0",
+        "7",
+        "1",
+        "10",
+        "2",
+        "7家",
+        "1家"
+      ],
+      "value_pool": [
+        "5",
+        "3",
+        "0",
+        "7",
+        "1",
+        "10",
+        "2",
+        "7家",
+        "1家"
+      ],
+      "min_value": 0.0,
+      "max_value": 10.0
+    },
+    {
+      "name": "spxgcp",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "license_plate",
+      "enum_values": [
+        "1",
+        "0",
+        "3",
+        "3家",
+        "0家"
+      ],
+      "value_pool": [
+        "1",
+        "0",
+        "3",
+        "3家",
+        "0家"
+      ],
+      "min_value": 0.0,
+      "max_value": 3.0
+    }
+  ]
+}

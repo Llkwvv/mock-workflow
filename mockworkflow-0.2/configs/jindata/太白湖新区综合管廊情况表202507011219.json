@@ -1,0 +1,145 @@
+{
+  "file_name": "太白湖新区综合管廊情况表202507011219.xlsx",
+  "table_name": "太白湖新区综合管廊情况表202507011219",
+  "row_count": 25,
+  "columns": [
+    "glmc",
+    "ssd",
+    "xsq",
+    "fsgx",
+    "zd"
+  ],
+  "fields": [
+    {
+      "name": "glmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "荷花路电力管廊",
+        "荷花路弱电管廊",
+        "济宁大道强电管廊",
+        "济宁大道弱电管廊",
+        "运河路综合管廊",
+        "公主路电力隧道",
+        "火炬路电力隧道",
+        "车站南路电力隧道",
+        "渔皇路电力隧道",
+        "学院路电力隧道",
+        "圣贤路电力隧道",
+        "洸府河电力隧道",
+        "荷花路1号箱式变",
+        "荷花路2号箱式变",
+        "荷花路3号箱式变",
+        "荷花路4号箱式变",
+        "荷花路5号箱式变",
+        "荷花路6号箱式变",
+        "济宁大道1号箱式变",
+        "济宁大道2号箱式变",
+        "济宁大道3号箱式变",
+        "济宁大道4号箱式变",
+        "管廊监控中心",
+        "奥体路强电管廊",
+        "奥体路弱电管廊"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "单仓",
+        "250KVA"
+      ],
+      "value_pool": [
+        "单仓",
+        "250KVA"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fsgx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "强电",
+        "弱电、供水",
+        "弱电、供水、热力",
+        "强电、弱电、",
+        "提供管廊内排水、消防、监控、照明电源",
+        "弱电"
+      ],
+      "value_pool": [
+        "强电",
+        "弱电、供水",
+        "弱电、供水、热力",
+        "强电、弱电、",
+        "提供管廊内排水、消防、监控、照明电源",
+        "弱电"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "4451米",
+        "2758米",
+        "3316米",
+        "1655米",
+        "2959米",
+        "2200米",
+        "2180米",
+        "1550米",
+        "795米",
+        "荷花路与渔皇路路口北",
+        "荷花路与京杭路路口北",
+        "荷花路与许庄路口南",
+        "荷花路与济宁大道路口北",
+        "荷花路与圣贤路路口北",
+        "荷花路与望湖路路口南",
+        "济宁大道与河都路口东",
+        "济宁大道与运河路路口西",
+        "济宁大道与济宁大道路口东",
+        "济宁大道与荷花路路口东",
+        "荷花路与育贤路路口北"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

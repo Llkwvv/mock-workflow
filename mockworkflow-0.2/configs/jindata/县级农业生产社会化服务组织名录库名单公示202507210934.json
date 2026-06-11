@@ -1,0 +1,154 @@
+{
+  "file_name": "县级农业生产社会化服务组织名录库名单公示202507210934.xlsx",
+  "table_name": "县级农业生产社会化服务组织名录库名单公示202507210934",
+  "row_count": 28,
+  "columns": [
+    "gssj",
+    "wjyj",
+    "mc",
+    "zj",
+    "lxr"
+  ],
+  "fields": [
+    {
+      "name": "gssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "20250627"
+      ],
+      "value_pool": [
+        "20250627"
+      ],
+      "min_value": 20250627.0,
+      "max_value": 20250627.0
+    },
+    {
+      "name": "wjyj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济农字〔2025〕54号"
+      ],
+      "value_pool": [
+        "济农字〔2025〕54号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁大粮农业服务有限公司",
+        "济宁金藤科技有限公司",
+        "汶上县奔鑫农业机械农民专业合作社",
+        "汶上县道立种植农民专业合作社",
+        "汶上县地亿农机农民专业合作社",
+        "汶上县福沃农机农民专业合作社",
+        "汶上县雷沃农业机械农民专业合作社",
+        "汶上县农丰农业服务合作有限公司",
+        "汶上县庆圣农业机械农民专业合作社",
+        "汶上县顺朋家庭农场",
+        "汶上县邵利宁家庭农场",
+        "汶上县益丰农机农民专业合作社",
+        "山东农祥种业科技有限公司",
+        "汶上县永利种植农民专业合作社",
+        "汶上县康发农机农民专业合作社",
+        "汶上县鑫润种植农民专业合作社",
+        "汶上县共赢种植农民专业合作社",
+        "汶上县俊杰农机农民专业合作社",
+        "济宁众拓农业服务有限公司",
+        "汶上县万兴农业机械农民专业合作社",
+        "中化现代农业(山东)有限公司",
+        "汶上县海林种植农民专业合作社",
+        "汶上县霞雨农机农民专业合作社",
+        "汶上县坤达农机农民专业合作社",
+        "汶上县德欣农机农民专业合作社",
+        "汶上县孝东农业机械农民专业合作社",
+        "汶上县旭治种植农民专业合作社",
+        "汶上县蔚来农业服务有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "郭仓镇",
+        "次邱镇",
+        "义桥镇",
+        "苑庄镇",
+        "中都街道",
+        "开发区",
+        "康驿镇",
+        "寅寺镇",
+        "南站街道",
+        "南旺镇",
+        "刘楼镇",
+        "郭楼镇",
+        "杨店镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵凯",
+        "刘文学",
+        "高中国",
+        "张虎",
+        "檀继昌",
+        "万海超",
+        "郭五廷",
+        "何召祥",
+        "路春荣",
+        "张顺朋",
+        "邵丽宁",
+        "刘家程",
+        "杨传锋",
+        "高中利",
+        "赵俊荣",
+        "路敦芽",
+        "刘辉",
+        "李召奎",
+        "郭鹏",
+        "路敦萌",
+        "石义岗",
+        "赵海龙",
+        "陈庆华",
+        "徐秀霞",
+        "司德欣",
+        "张孝东",
+        "毕研绪",
+        "辛福宽"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

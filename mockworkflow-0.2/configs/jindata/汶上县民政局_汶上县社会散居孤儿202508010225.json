@@ -1,0 +1,132 @@
+{
+  "file_name": "汶上县民政局_汶上县社会散居孤儿202508010225.xlsx",
+  "table_name": "汶上县民政局_汶上县社会散居孤儿202508010225",
+  "row_count": 57,
+  "columns": [
+    "姓名",
+    "xb",
+    "zj",
+    "lb",
+    "xsq"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "李**",
+        "姬**",
+        "梁**",
+        "孙**",
+        "刘**",
+        "赵**",
+        "张**",
+        "魏**",
+        "霍**",
+        "李*",
+        "康**",
+        "姜**",
+        "宋**",
+        "徐**",
+        "徐*",
+        "杜**",
+        "郭**",
+        "胡**",
+        "高**",
+        "亓**",
+        "杨**",
+        "商**",
+        "何**",
+        "陈**",
+        "毕**",
+        "郑**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汶上",
+        "中都",
+        "南站",
+        "康驿",
+        "南旺",
+        "刘楼",
+        "次邱",
+        "寅寺",
+        "郭楼",
+        "郭仓",
+        "杨店",
+        "军屯",
+        "白石",
+        "苑庄",
+        "义桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "社会散居孤儿"
+      ],
+      "value_pool": [
+        "社会散居孤儿"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

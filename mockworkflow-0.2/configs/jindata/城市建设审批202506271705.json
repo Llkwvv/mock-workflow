@@ -1,0 +1,125 @@
+{
+  "file_name": "城市建设审批202506271705.xlsx",
+  "table_name": "城市建设审批202506271705",
+  "row_count": 24,
+  "columns": [
+    "sxmc",
+    "bz",
+    "sfns",
+    "sqrhdw",
+    "sfsf"
+  ],
+  "fields": [
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "挖掘城市道路许可",
+        "临时占用绿地",
+        "建设工程绿化规划审批（绿色图章）",
+        "改变绿化规划、绿地使用性质",
+        "砍伐城市树木",
+        "挖掘城市道路"
+      ],
+      "value_pool": [
+        "挖掘城市道路许可",
+        "临时占用绿地",
+        "建设工程绿化规划审批（绿色图章）",
+        "改变绿化规划、绿地使用性质",
+        "砍伐城市树木",
+        "挖掘城市道路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "微山湖医院开设出入口",
+        "付村社区 夏阳路雨污水接入",
+        "阳光华府",
+        "悦达西侧，沿河景观。",
+        "未批准，提升设计重新申报",
+        "人武部营门建设",
+        "东部主出入口，绿化隔离带开口（申请3，批准1）",
+        "古楼接入雨水、自来水",
+        "辛庄接入雨水、污水、自来水、弱电",
+        "李谷堆安置房柳夏路开口",
+        "民生门前改造",
+        "安装通讯塔（建设路、泰康街路口北300米西侧）",
+        "安装通讯塔（顶管，建设路、泰康街路口北460米。）",
+        "北侧门、东施工通道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfns",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrhdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山县滨湖新区综合开发有限公司",
+        "微山县付村街道办事处",
+        "微山上峰阳光置业有限公司",
+        "山东悦达置业有限公司",
+        "微山九星隆泰置业有限公司",
+        "微山县人民武装部",
+        "夏镇街道办事处",
+        "夏镇街道办事处李谷堆村民委员会",
+        "民生银行",
+        "中国铁塔股份有限公司济宁市分公司",
+        "星空喜园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfsf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "否"
+      ],
+      "value_pool": [
+        "是",
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "file_name": "运输企业明细202508010117.xlsx",
+  "table_name": "运输企业明细202508010117",
+  "row_count": 18,
+  "columns": [
+    "xzqh",
+    "yhmc",
+    "xkzh",
+    "jyfw",
+    "fzrxm",
+    "yhdz"
+  ],
+  "fields": [
+    {
+      "name": "xzqh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市金乡县",
+        "金乡县"
+      ],
+      "value_pool": [
+        "济宁市金乡县",
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县富祥运输有限公司",
+        "金乡县富亿鑫运输有限公司",
+        "金乡县四通物流有限公司",
+        "金乡县畅顺运输有限公司",
+        "金乡县翔皓物流运输有限公司",
+        "山东利创冷链物流有限公司",
+        "金乡县天天通途运输有限公司",
+        "济宁亚鲁运输有限公司",
+        "山东稻香冷链物流有限公司",
+        "金乡县汇通建材有限公司",
+        "金乡县顺鑫物流有限公司",
+        "金乡县瑞隆汽车销售有限公司",
+        "金乡县启航运输有限公司",
+        "金乡县佳鑫冷链物流有限公司",
+        "济宁市鲁金运输有限公司",
+        "金乡县亿华运输有限公司",
+        "金乡县浩菲运输有限责任公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xkzh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370828005673",
+        "370828005665",
+        "370828005591",
+        "370828005689",
+        "370828005760",
+        "370828005701",
+        "370828005651",
+        "370828005785",
+        "370828005782",
+        "370828005833",
+        "370828005600",
+        "370828005771",
+        "370828005875",
+        "370828005687",
+        "370828005758",
+        "370828005656",
+        "370828005636",
+        "370828**5760"
+      ],
+      "min_value": 370828005591.0,
+      "max_value": 370828005875.0
+    },
+    {
+      "name": "jyfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "道路普通货物运输"
+      ],
+      "value_pool": [
+        "道路普通货物运输"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "李**",
+        "贾**",
+        "周**",
+        "何**",
+        "贺**",
+        "赵**",
+        "吴**",
+        "郭**",
+        "马**",
+        "魏**",
+        "宋**",
+        "张**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县金曼克大道南段西侧",
+        "金乡县羊山镇开发区南谢路",
+        "金乡县卜集镇驻地",
+        "济宁市金乡县城新华南路247号",
+        "济宁市金乡县羊山镇工业园区",
+        "金乡县马庙镇金西产业园",
+        "金乡县马庙镇李坊村",
+        "山东省济宁市金乡县鱼山街道",
+        "济宁市金乡县食品工业开发区",
+        "济宁市金乡县司马镇政府驻地",
+        "金乡县鱼山镇周庄",
+        "金乡县经济开发区北外环北侧",
+        "山东省济宁市金乡县兴隆镇",
+        "金乡县食品工业开发区金源大道",
+        "济宁市金乡县胡集镇周大楼村",
+        "金乡县鱼山街道仇岗村",
+        "金乡县城缗南二路西段路南"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

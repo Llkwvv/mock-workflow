@@ -1,0 +1,131 @@
+{
+  "file_name": "嘉祥县文化和旅游局_嘉祥县基层综合文化服务中心信息202601081020.xlsx",
+  "table_name": "嘉祥县文化和旅游局_嘉祥县基层综合文化服务中心信息202601081020",
+  "row_count": 28,
+  "columns": [
+    "zm",
+    "dz",
+    "ptss",
+    "sl",
+    "sfmfkf"
+  ],
+  "fields": [
+    {
+      "name": "zm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥街道综合\n文化服务中心",
+        "卧龙山街道综合\n文化服务中心",
+        "万张街道综合\n文化服务中心",
+        "仲山镇综合\n文化服务中心",
+        "大张楼镇综合\n文化服务中心",
+        "孟姑集镇综合\n文化服务中心",
+        "金屯镇综合\n文化服务中心",
+        "纸坊镇综合\n文化服务中心",
+        "梁宝寺镇综合\n文化服务中心",
+        "马村镇综合\n文化服务中心",
+        "老僧堂镇综合\n文化服务中心",
+        "黄垓镇综合\n文化服务中心",
+        "满硐镇综合\n文化服务中心",
+        "嘉祥县图书馆",
+        "嘉祥县文化馆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥街道",
+        "卧龙山街道",
+        "万张街道",
+        "仲山镇",
+        "大张楼镇",
+        "孟姑集镇",
+        "金屯镇",
+        "纸坊镇",
+        "梁宝寺镇",
+        "马村镇",
+        "老僧堂镇",
+        "黄垓镇",
+        "满硐镇",
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ptss",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "文体广场",
+        "健身器材",
+        "公共文化场所"
+      ],
+      "value_pool": [
+        "文体广场",
+        "健身器材",
+        "公共文化场所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "45",
+        "52",
+        "38",
+        "36",
+        "49",
+        "35",
+        "62",
+        "51",
+        "57",
+        "39",
+        "31",
+        "26",
+        "无"
+      ],
+      "min_value": 26.0,
+      "max_value": 62.0
+    },
+    {
+      "name": "sfmfkf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

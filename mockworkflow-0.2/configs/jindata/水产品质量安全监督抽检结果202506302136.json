@@ -1,0 +1,192 @@
+{
+  "file_name": "水产品质量安全监督抽检结果202506302136.xlsx",
+  "table_name": "水产品质量安全监督抽检结果202506302136",
+  "row_count": 33,
+  "columns": [
+    "ypmc",
+    "ypbh",
+    "cyrq",
+    "jcxm",
+    "bcydwmc",
+    "rwlb",
+    "jcjg"
+  ],
+  "fields": [
+    {
+      "name": "ypmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鲤鱼",
+        "鲢鱼",
+        "草鱼",
+        "鲫鱼",
+        "乌鳢",
+        "鳙鱼",
+        "鮰鱼"
+      ],
+      "value_pool": [
+        "鲤鱼",
+        "鲢鱼",
+        "草鱼",
+        "鲫鱼",
+        "乌鳢",
+        "鳙鱼",
+        "鮰鱼"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ypbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "FC09214805",
+        "FC09214806",
+        "FC09214807",
+        "FC09214808",
+        "FC09214809",
+        "FC09214810",
+        "FC09214811",
+        "FC09214812",
+        "FC09214813",
+        "FC09214814",
+        "FC09214815",
+        "FC09214816",
+        "FC09214817",
+        "FC09214818",
+        "FC09214819",
+        "FC09214820",
+        "FC09214821",
+        "FC09214822",
+        "FC09214823",
+        "FC09214824",
+        "FC09214825",
+        "FC09214826",
+        "FC09214827",
+        "FC09214828",
+        "FC09214829",
+        "FC09214830",
+        "FC09214831",
+        "BGZF20240907-070",
+        "BGZF20240907-071",
+        "BGZF20240907-072",
+        "BGZF20240907-073",
+        "BGZF20240907-075",
+        "BGZF20240907-076"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cyrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020.09.18",
+        "2024.9.24",
+        "2024.9.25",
+        "2024.9.26",
+        "2024.9.27",
+        "2024.9.28",
+        "2024.9.29"
+      ],
+      "value_pool": [
+        "2020.09.18",
+        "2024.9.24",
+        "2024.9.25",
+        "2024.9.26",
+        "2024.9.27",
+        "2024.9.28",
+        "2024.9.29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "喹乙醇、孔雀石绿、氯霉素",
+        "孔雀石绿、氯霉素、呋喃唑酮代谢物、呋喃它酮代谢物、呋喃西林代谢物、呋喃妥因代谢物、培氟沙星、氧氟沙星、洛美沙星、诺氟沙星等国家违禁药物残留"
+      ],
+      "value_pool": [
+        "喹乙醇、孔雀石绿、氯霉素",
+        "孔雀石绿、氯霉素、呋喃唑酮代谢物、呋喃它酮代谢物、呋喃西林代谢物、呋喃妥因代谢物、培氟沙星、氧氟沙星、洛美沙星、诺氟沙星等国家违禁药物残留"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcydwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县胡集镇镇东养鱼场",
+        "金乡县金桥鱼类养殖技术推广专业合作社",
+        "济宁市豪泰水产养殖有限公司",
+        "金乡县羊山镇泰丰水产养殖场",
+        "金乡县羊山镇高长银家庭养殖场",
+        "金乡县金源乌鳢鱼养殖技术推广专业合作社",
+        "金乡县肖云镇荣方养殖场",
+        "金乡县马庙镇毕红卫水产养殖场",
+        "金乡县金乡街道张三强水产养殖场",
+        "金乡县鸡黍镇郑啸水产养殖场",
+        "金乡县鸡黍镇张柯柯水产养殖场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rwlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "监督抽检"
+      ],
+      "value_pool": [
+        "监督抽检"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格"
+      ],
+      "value_pool": [
+        "合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

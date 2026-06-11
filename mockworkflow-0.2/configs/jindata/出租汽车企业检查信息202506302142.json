@@ -1,0 +1,200 @@
+{
+  "file_name": "出租汽车企业检查信息202506302142.xlsx",
+  "table_name": "出租汽车企业检查信息202506302142",
+  "row_count": 63,
+  "columns": [
+    "jcrq",
+    "jyfw",
+    "dz",
+    "nbgl",
+    "qymc",
+    "frdb",
+    "aqsc",
+    "tyxydm"
+  ],
+  "fields": [
+    {
+      "name": "jcrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2023.3.10",
+        "2023.3.11",
+        "2023.3.25",
+        "2023.3.26",
+        "2023.4.7",
+        "2023.4.9",
+        "2023.4.20",
+        "2023.4.21",
+        "2023.5.11",
+        "2023.5.12",
+        "2023.5.26",
+        "2023.6.10",
+        "2023.6.11",
+        "2023.6.25",
+        "2023.6.26",
+        "2023.7.10",
+        "2023.7.12",
+        "2023.8.9",
+        "2023.8.10",
+        "2023.8.22",
+        "2023.8.23",
+        "2023.9.01",
+        "2023.9.02",
+        "2023.9.03",
+        "2023.3.21",
+        "2023.3.22",
+        "2023.3.27",
+        "2023.3.28",
+        "2023.4.8",
+        "2023.4.10",
+        "2023.4.22",
+        "2023.5.13",
+        "2023.5.25",
+        "2023.5.27",
+        "2023.6.12",
+        "2023.6.27",
+        "2023.7.13",
+        "2023.8.11",
+        "2023.8.24",
+        "2023.9.08",
+        "2023.9.10",
+        "2023.9.11",
+        "2024.8.22",
+        "2024.8.23",
+        "2024.9.01",
+        "2024.9.02",
+        "2024.9.03",
+        "2024.3.21",
+        "2024.3.22",
+        "2024.3.27"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "出租客运"
+      ],
+      "value_pool": [
+        "出租客运"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县城后路西首",
+        "微山县新河北街72号"
+      ],
+      "value_pool": [
+        "微山县城后路西首",
+        "微山县新河北街72号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nbgl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "良好"
+      ],
+      "value_pool": [
+        "良好"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县鑫鑫出租汽车有限公司",
+        "微山县运输公司出租车分公司"
+      ],
+      "value_pool": [
+        "微山县鑫鑫出租汽车有限公司",
+        "微山县运输公司出租车分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "frdb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "张运朋",
+        "孙胜"
+      ],
+      "value_pool": [
+        "张运朋",
+        "孙胜"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "aqsc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "良好"
+      ],
+      "value_pool": [
+        "良好"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "91370826761878643R",
+        "913708267061063686"
+      ],
+      "value_pool": [
+        "91370826761878643R",
+        "913708267061063686"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "file_name": "汶上县文化惠民志愿服务队伍202508010124.xlsx",
+  "table_name": "汶上县文化惠民志愿服务队伍202508010124",
+  "row_count": 23,
+  "columns": [
+    "nl",
+    "fwsc",
+    "fwzc",
+    "姓名",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "30",
+        "27",
+        "34",
+        "47",
+        "43",
+        "46",
+        "41",
+        "40",
+        "42",
+        "54",
+        "29",
+        "37",
+        "32",
+        "35",
+        "51",
+        "25",
+        "36"
+      ],
+      "min_value": 25.0,
+      "max_value": 54.0
+    },
+    {
+      "name": "fwsc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "36小时",
+        "40小时",
+        "38小时",
+        "39小时",
+        "41小时",
+        "29小时"
+      ],
+      "value_pool": [
+        "36小时",
+        "40小时",
+        "38小时",
+        "39小时",
+        "41小时",
+        "29小时"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "政策解读",
+        "摄影摄像",
+        "博物馆藏品展示",
+        "文旅惠民政策解读",
+        "图书借阅服务",
+        "开展文化活动",
+        "指导开展文化活动"
+      ],
+      "value_pool": [
+        "政策解读",
+        "摄影摄像",
+        "博物馆藏品展示",
+        "文旅惠民政策解读",
+        "图书借阅服务",
+        "开展文化活动",
+        "指导开展文化活动"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "郭**",
+        "陈**",
+        "刘**",
+        "徐*",
+        "于*",
+        "张**",
+        "徐**",
+        "辛*",
+        "袁**",
+        "戴**",
+        "单*",
+        "孙*",
+        "郭*",
+        "赵*",
+        "赵**",
+        "于**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

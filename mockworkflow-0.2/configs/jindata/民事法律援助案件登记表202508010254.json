@@ -1,0 +1,162 @@
+{
+  "file_name": "民事法律援助案件登记表202508010254.xlsx",
+  "table_name": "民事法律援助案件登记表202508010254",
+  "row_count": 99,
+  "columns": [
+    "ly",
+    "ay",
+    "姓名",
+    "ah",
+    "sylb"
+  ],
+  "fields": [
+    {
+      "name": "ly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "个人申请"
+      ],
+      "value_pool": [
+        "个人申请"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ay",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "健康权纠纷",
+        "机动车交通事故责任纠纷",
+        "工伤赔偿",
+        "劳动仲裁",
+        "确认劳动关系纠纷",
+        "义务帮工受害责任纠纷",
+        "经济纠纷",
+        "劳动争议",
+        "买卖合同纠纷",
+        "婚约财产纠纷",
+        "劳务合同纠纷",
+        "赡养费纠纷",
+        "提供劳务者受害责任纠纷",
+        "离婚纠纷",
+        "案外人执行异议",
+        "劳动争议纠纷",
+        "财产损害纠纷",
+        "委托代理合同纠纷",
+        "民间借贷",
+        "侵权纠纷",
+        "劳务纠纷",
+        "抚养费纠纷",
+        "教育机构责任纠纷"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘**",
+        "宋**",
+        "李**",
+        "徐**",
+        "蔡**",
+        "张**",
+        "黄**",
+        "赵**",
+        "寇**",
+        "王**",
+        "杨**",
+        "殷**",
+        "侯**",
+        "朱**",
+        "宗**",
+        "禹**",
+        "马**",
+        "粱**",
+        "褚**",
+        "孙**",
+        "高**",
+        "魏**",
+        "吴**",
+        "周**",
+        "肖**",
+        "任**",
+        "姚**",
+        "董**",
+        "杜**",
+        "田**",
+        "陈**",
+        "严**",
+        "房**",
+        "韩**",
+        "满**",
+        "卜**",
+        "梁**",
+        "窦**",
+        "蒋**",
+        "种**",
+        "邢**",
+        "闫**",
+        "胡**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ah",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2024"
+      ],
+      "value_pool": [
+        "2024"
+      ],
+      "min_value": 2024.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "sylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "妇女",
+        "困难",
+        "老年人",
+        "残疾人",
+        "未成年"
+      ],
+      "value_pool": [
+        "妇女",
+        "困难",
+        "老年人",
+        "残疾人",
+        "未成年"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -138,9 +138,10 @@ class ScheduleManager:
 class Scheduler:
     """Async scheduler that executes scheduled tasks."""
 
-    def __init__(self, schedule_manager: ScheduleManager, task_manager):
+    def __init__(self, schedule_manager: ScheduleManager, task_manager, executor=None):
         self._schedule_manager = schedule_manager
         self._task_manager = task_manager
+        self._executor = executor
         self._running = False
         self._task = None
 
@@ -178,7 +179,10 @@ class Scheduler:
                             rows=schedule.rows,
                             enable_db_export=schedule.enable_db_export,
                         )
-                        asyncio.create_task(process_task(task.id))
+                        if self._executor:
+                            await self._executor.submit(task.id, process_task(task.id))
+                        else:
+                            asyncio.create_task(process_task(task.id))
                         await self._schedule_manager.update_next_run(schedule.id)
             except Exception as e:
                 print(f"Scheduler error: {e}")

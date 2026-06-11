@@ -1,0 +1,219 @@
+{
+  "file_name": "高新区河流断面季度数据信息202506271808.xlsx",
+  "table_name": "高新区河流断面季度数据信息202506271808",
+  "row_count": 53,
+  "columns": [
+    "jcsj",
+    "tpmgl",
+    "xsq",
+    "sw",
+    "dm",
+    "s",
+    "jcbm"
+  ],
+  "fields": [
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020.1",
+        "2020.2",
+        "2020.3",
+        "2020.4",
+        "2020.5",
+        "2020.6",
+        "2020.7",
+        "2020.8",
+        "2020.9",
+        "2020.11",
+        "2020.12",
+        "2021.1",
+        "2021.2",
+        "2021.3",
+        "2021.4",
+        "2021.6",
+        "2022.08",
+        "2022.09",
+        "2022.1",
+        "2022.11",
+        "2023.1",
+        "2023.2",
+        "2023.3",
+        "2023.4",
+        "2023.5",
+        "2023.6",
+        "2023.7",
+        "2023.8",
+        "2023.9",
+        "2023.11",
+        "2023.12"
+      ],
+      "min_value": 2020.1,
+      "max_value": 2023.9
+    },
+    {
+      "name": "tpmgl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0.08",
+        "0.19",
+        "0.29",
+        "0.33",
+        "0.2",
+        "0.16",
+        "0.1",
+        "0.104",
+        "0.178",
+        "0.22",
+        "0.18",
+        "0.28",
+        "0.09",
+        "0.12",
+        "0.15",
+        "0.13",
+        "0.11",
+        "0.14"
+      ],
+      "min_value": 0.08,
+      "max_value": 0.33
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sw",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "9.6",
+        "8.4",
+        "15.4",
+        "21.1",
+        "22.4",
+        "25.1",
+        "25.8",
+        "29.2",
+        "25.9",
+        "29.3",
+        "10.2",
+        "11.3",
+        "10.8",
+        "12.4",
+        "11.8",
+        "15.3",
+        "10.6",
+        "9.8",
+        "11.7",
+        "14.5",
+        "18.7",
+        "25.4",
+        "25.6",
+        "28.3",
+        "15.2",
+        "13.3",
+        "11.4",
+        "10.5",
+        "10.9",
+        "11.9",
+        "11.2",
+        "12.6",
+        "12.3",
+        "15.6",
+        "15.1",
+        "17.2",
+        "18.3",
+        "22.1",
+        "21.5",
+        "24.9",
+        "24.7",
+        "26.5",
+        "27.3",
+        "29.5",
+        "28.6",
+        "29.1",
+        "25.3",
+        "21.4",
+        "20.1"
+      ],
+      "min_value": 8.4,
+      "max_value": 29.5
+    },
+    {
+      "name": "dm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "蓼沟河东外环桥(高新)",
+        "东石佛断面"
+      ],
+      "value_pool": [
+        "蓼沟河东外环桥(高新)",
+        "东石佛断面"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "生态环境分局"
+      ],
+      "value_pool": [
+        "生态环境分局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

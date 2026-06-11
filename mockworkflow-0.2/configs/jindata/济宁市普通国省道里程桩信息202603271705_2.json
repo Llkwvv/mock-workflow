@@ -1,0 +1,164 @@
+{
+  "file_name": "济宁市普通国省道里程桩信息202603271705_2.csv",
+  "table_name": "济宁市普通国省道里程桩信息202603271705_2",
+  "row_count": 1000,
+  "columns": [
+    "sslxbh",
+    "lczwzlx",
+    "lczlx",
+    "lczzh",
+    "sslxmc"
+  ],
+  "fields": [
+    {
+      "name": "sslxbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "G105",
+        "G237"
+      ],
+      "value_pool": [
+        "G105",
+        "G237"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lczwzlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "上行",
+        "下行"
+      ],
+      "value_pool": [
+        "上行",
+        "下行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lczlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "百米桩",
+        "公里桩"
+      ],
+      "value_pool": [
+        "百米桩",
+        "公里桩"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lczzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "606.4至606.9",
+        "607",
+        "607.1至607.9",
+        "608",
+        "608.1至608.9",
+        "609",
+        "609.1至609.9",
+        "610",
+        "610.1至610.9",
+        "611",
+        "611.1至611.9",
+        "612",
+        "612.1至612.9",
+        "613",
+        "613.1至613.9",
+        "614",
+        "614.1至614.9",
+        "615",
+        "615.1至615.9",
+        "616",
+        "616.1至616.9",
+        "617",
+        "617.1至617.9",
+        "618",
+        "618.1至618.9",
+        "619",
+        "619.1至619.9",
+        "620",
+        "620.1至620.9",
+        "621",
+        "621.1至621.9",
+        "622",
+        "622.1至622.9",
+        "32.8至32.9",
+        "33",
+        "33.1至33.9",
+        "34",
+        "34.1至34.9",
+        "35",
+        "35.1至35.9",
+        "36",
+        "36.1至36.9",
+        "37",
+        "37.1至37.9",
+        "38",
+        "38.1至38.9",
+        "39",
+        "39.1至39.9",
+        "40",
+        "40.1至40.9",
+        "41",
+        "41.1至41.9",
+        "42",
+        "42.1至42.9",
+        "43",
+        "43.1至43.9",
+        "44",
+        "44.1至44.9",
+        "45",
+        "45.1至45.9",
+        "46",
+        "46.1至46.9",
+        "47",
+        "47.1至47.9",
+        "48"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sslxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "北京-澳门",
+        "济宁--宁德"
+      ],
+      "value_pool": [
+        "北京-澳门",
+        "济宁--宁德"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "file_name": "汶上县农业农村局_农产品质量安全监管信息202507242138.xlsx",
+  "table_name": "汶上县农业农村局_农产品质量安全监管信息202507242138",
+  "row_count": 24,
+  "columns": [
+    "ztmc",
+    "jcxs",
+    "lxr",
+    "jcry",
+    "jcsj"
+  ],
+  "fields": [
+    {
+      "name": "ztmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县润金种植农民专业合作社",
+        "汶上县绿科种植农民专业合作社",
+        "汶上县鲁迎种植农民专业合作社",
+        "汶上县绿康种植农民专业合作社",
+        "汶上县吉月沼气服务农民专业合作社",
+        "济宁裕凯农业科技有限公司",
+        "汶上县轩丰种植农民专业合作社",
+        "济宁泰东农业开发有限公司",
+        "山东春华农业科技有限公司",
+        "山东济宁丰泽农业科技有限公司",
+        "山东儒兴农业发展有限公司",
+        "济宁景明生态农业有限公司",
+        "汶上县鑫湖财科种植农民专业合作社",
+        "汶上县翔鑫农业科技有限公司",
+        "汶上县兴茂家庭农场",
+        "汶上县丰茂种植农民专业合作社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王广田",
+        "王光锋",
+        "王春英",
+        "王海燕",
+        "付双月",
+        "付海涛",
+        "伊同印",
+        "刘亭印",
+        "闫保国",
+        "杨光君",
+        "张春林",
+        "张春昌",
+        "张保军",
+        "宫庆飞",
+        "顾兴里",
+        "徐建华",
+        "高中生",
+        "强广均"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高旷  李银平",
+        "高旷、李银平",
+        "高旷、刘登云",
+        "李银平、高旷"
+      ],
+      "value_pool": [
+        "高旷  李银平",
+        "高旷、李银平",
+        "高旷、刘登云",
+        "李银平、高旷"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "1月20日",
+        "1月25日",
+        "2月26日",
+        "2月21日",
+        "2月27日",
+        "3月20日",
+        "3月19日",
+        "3月23日",
+        "4月21日",
+        "4月24日",
+        "4月20日",
+        "5月20日",
+        "5月25日",
+        "6月27日",
+        "6月26日",
+        "6月20日",
+        "7月10日"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

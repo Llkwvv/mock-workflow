@@ -1,0 +1,144 @@
+{
+  "file_name": "家长学校信息202507242127.xlsx",
+  "table_name": "家长学校信息202507242127",
+  "row_count": 49,
+  "columns": [
+    "dd",
+    "zj",
+    "csq",
+    "nr",
+    "sj"
+  ],
+  "fields": [
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "许庄街道",
+        "石桥镇"
+      ],
+      "value_pool": [
+        "许庄街道",
+        "石桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "南风花园",
+        "京杭佳苑",
+        "颂运水庭",
+        "工联新村",
+        "航运新村",
+        "荷韵花园",
+        "白屯村",
+        "张营村",
+        "李楼村",
+        "常利村",
+        "前石村",
+        "后石村",
+        "苏庄村",
+        "刘营村",
+        "郝楼村",
+        "靳庄村",
+        "溧河牙村",
+        "聂庄村",
+        "孙庄村",
+        "张桥东村",
+        "张桥西村",
+        "罗场村",
+        "刘庄村",
+        "仙庄村",
+        "北王一村",
+        "北王二村",
+        "北王村",
+        "新闸村",
+        "新店村",
+        "姜庄村",
+        "兴隆村",
+        "李二村",
+        "倪庙村",
+        "孙道口村",
+        "前李村",
+        "陆桥村",
+        "韩店村",
+        "孟井村",
+        "崔院村",
+        "吴家湾村",
+        "齐营村",
+        "北湖湾",
+        "水运雅居",
+        "御景花园",
+        "明德花园",
+        "荷花路",
+        "鹿港",
+        "恒大名都",
+        "高校生活园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "建立家长学校"
+      ],
+      "value_pool": [
+        "建立家长学校"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020",
+        "2024"
+      ],
+      "value_pool": [
+        "2020",
+        "2024"
+      ],
+      "min_value": 2020.0,
+      "max_value": 2024.0
+    }
+  ]
+}

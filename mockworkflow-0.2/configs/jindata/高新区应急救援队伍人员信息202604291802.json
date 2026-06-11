@@ -1,0 +1,140 @@
+{
+  "file_name": "高新区应急救援队伍人员信息202604291802.xlsx",
+  "table_name": "高新区应急救援队伍人员信息202604291802",
+  "row_count": 2,
+  "columns": [
+    "gzgwzw",
+    "lxfs",
+    "nl",
+    "xsq",
+    "姓名",
+    "xb",
+    "dwmc",
+    "zzmm"
+  ],
+  "fields": [
+    {
+      "name": "gzgwzw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "负责人",
+        "店长"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1531*****75",
+        "1786*****89"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "39",
+        "48"
+      ],
+      "min_value": 39.0,
+      "max_value": 48.0
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "魏**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "华能济宁能源",
+        "济宁利客商贸有限公司杨柳店"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzmm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "群众"
+      ],
+      "value_pool": [
+        "群众"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

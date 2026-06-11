@@ -1,0 +1,130 @@
+{
+  "file_name": "焰火燃放许可证核发的信息_0.csv",
+  "table_name": "焰火燃放许可证核发的信息_0",
+  "row_count": 20,
+  "columns": [
+    "bjmc",
+    "sqrhdw",
+    "slsj",
+    "sldw",
+    "bjsj"
+  ],
+  "fields": [
+    {
+      "name": "bjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "关于盛琰焰火燃放许可证核发的业务",
+        "关于史竟成焰火燃放许可证核发的业务",
+        "关于王金龙焰火燃放许可证核发的业务",
+        "关于吴琦焰火燃放许可证核发的业务",
+        "关于吴帅帅焰火燃放许可证核发的业务",
+        "关于吴同辉焰火燃放许可证核发的业务",
+        "关于罗运伟焰火燃放许可证核发的业务",
+        "关于齐源森焰火燃放许可证核发的业务",
+        "关于苏延梅焰火燃放许可证核发的业务",
+        "关于王宝通焰火燃放许可证核发的业务",
+        "关于陈明建焰火燃放许可证核发的业务",
+        "关于董晴焰火燃放许可证核发的业务",
+        "关于刘妍焰火燃放许可证核发的业务",
+        "关于崔健焰火燃放许可证核发的业务",
+        "关于韩露焰火燃放许可证核发的业务",
+        "关于窦星刚焰火燃放许可证核发的业务",
+        "关于管芹宇焰火燃放许可证核发的业务",
+        "关于郭聪聪焰火燃放许可证核发的业务",
+        "关于李彦焰火燃放许可证核发的业务",
+        "关于潘东焰火燃放许可证核发的业务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrhdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "盛琰",
+        "史竟成",
+        "王金龙",
+        "吴琦",
+        "吴帅帅",
+        "吴同辉",
+        "罗运伟",
+        "齐源森",
+        "苏延梅",
+        "王宝通",
+        "陈明建",
+        "董晴",
+        "刘妍",
+        "崔健",
+        "韩露",
+        "窦星刚",
+        "管芹宇",
+        "郭聪聪",
+        "李彦",
+        "潘东"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:00:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:00:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "市中公安分局",
+        "任城公安分局"
+      ],
+      "value_pool": [
+        "市中公安分局",
+        "任城公安分局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:03:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:03:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

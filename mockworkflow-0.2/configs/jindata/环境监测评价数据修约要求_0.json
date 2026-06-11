@@ -1,0 +1,109 @@
+{
+  "file_name": "环境监测评价数据修约要求_0.csv",
+  "table_name": "环境监测评价数据修约要求_0",
+  "row_count": 28,
+  "columns": [
+    "jczb",
+    "dw",
+    "blxsws"
+  ],
+  "fields": [
+    {
+      "name": "jczb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "水温",
+        "pH值",
+        "溶解氧",
+        "高锰酸盐指数",
+        "化学需氧量",
+        "五日生化需氧量",
+        "氨氮",
+        "总磷",
+        "总氮",
+        "铜",
+        "锌",
+        "氟化物",
+        "硒",
+        "砷",
+        "汞",
+        "铬",
+        "六价铬",
+        "铅",
+        "氰化物",
+        "挥发酚",
+        "石油类",
+        "阴离子表面活性剂",
+        "硫化物",
+        "电导率",
+        "浊度",
+        "透明度",
+        "叶绿素a",
+        "藻密度"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "℃",
+        "无量纲",
+        "mg/L",
+        "us/cm",
+        "NTU",
+        "m ",
+        "mg/立方米",
+        "个/L"
+      ],
+      "value_pool": [
+        "℃",
+        "无量纲",
+        "mg/L",
+        "us/cm",
+        "NTU",
+        "m ",
+        "mg/立方米",
+        "个/L"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blxsws",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "0",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "value_pool": [
+        "1",
+        "0",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "min_value": 0.0,
+      "max_value": 5.0
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "file_name": "高新区社会保险退保明细202604081741.xlsx",
+  "table_name": "高新区社会保险退保明细202604081741",
+  "row_count": 10,
+  "columns": [
+    "jtsqmc",
+    "bzdgrjn",
+    "fhzje",
+    "jcrxm",
+    "fhyhzh",
+    "grjn",
+    "jcrsfzhm",
+    "fhyh",
+    "shbzhm",
+    "姓名",
+    "bgyy"
+  ],
+  "fields": [
+    {
+      "name": "jtsqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "黄屯街道办事处蒋屯村",
+        "柳行街道办事处皇桥村",
+        "接庄街道西贾村",
+        "柳行街道办事处许厂村",
+        "柳行街道办事处柳行村",
+        "王因街道办事处辛集村",
+        "柳行街道办事处卞厂村",
+        "接庄街道宋楼村",
+        "接庄街道中辛村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzdgrjn",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "fhzje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1817.63",
+        "565.85",
+        "123.34",
+        "2507.91",
+        "8330.58",
+        "1998.34",
+        "1726.18",
+        "4259.13",
+        "1568.47",
+        "475.55"
+      ],
+      "min_value": 123.34,
+      "max_value": 8330.58
+    },
+    {
+      "name": "jcrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "郭**",
+        "张**",
+        "寇**",
+        "程**",
+        "王**",
+        "臧**",
+        "申**",
+        "李**",
+        "宋**",
+        "朱**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fhyhzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "621799**********861",
+        "604610**********34",
+        "604610**********02",
+        "604610**********79",
+        "604610**********35",
+        "621799**********413",
+        "604610**********42",
+        "604610**********55",
+        "604610**********81"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "grjn",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1652.39",
+        "565.85",
+        "123.34",
+        "2303.16",
+        "7854.94",
+        "1934.87",
+        "1525.95",
+        "4025.55",
+        "1404.39",
+        "365.79"
+      ],
+      "min_value": 123.34,
+      "max_value": 7854.94
+    },
+    {
+      "name": "jcrsfzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370882**********16",
+        "370811**********38",
+        "370811**********28",
+        "370811**********13",
+        "370811**********54",
+        "370882**********15",
+        "370811**********26",
+        "450121**********66",
+        "370811**********18",
+        "370811**********30"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fhyh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市邮政储蓄银行",
+        "济宁市邮政储蓄",
+        "中国邮政储蓄银行"
+      ],
+      "value_pool": [
+        "济宁市邮政储蓄银行",
+        "济宁市邮政储蓄",
+        "中国邮政储蓄银行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shbzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370822**********36",
+        "370811**********22",
+        "370811**********15",
+        "370811**********32",
+        "370811**********46",
+        "370822**********75",
+        "370811**********11",
+        "370811**********14",
+        "370811**********68",
+        "370811**********24"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "郭**",
+        "姚**",
+        "程**",
+        "迟**",
+        "臧**",
+        "任**",
+        "宋**",
+        "白**",
+        "朱**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bgyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "人员死亡退保"
+      ],
+      "value_pool": [
+        "人员死亡退保"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

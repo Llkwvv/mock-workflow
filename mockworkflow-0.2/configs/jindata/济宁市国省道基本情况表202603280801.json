@@ -1,0 +1,212 @@
+{
+  "file_name": "济宁市国省道基本情况表202603280801.xlsx",
+  "table_name": "济宁市国省道基本情况表202603280801",
+  "row_count": 21,
+  "columns": [
+    "mcfl",
+    "lxbh",
+    "cd",
+    "lxmc",
+    "lc",
+    "jsdj",
+    "sjxsq"
+  ],
+  "fields": [
+    {
+      "name": "mcfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "沥青混凝土路面"
+      ],
+      "value_pool": [
+        "沥青混凝土路面"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "G104",
+        "G105",
+        "G220",
+        "G237",
+        "G327",
+        "G342",
+        "G518",
+        "S103",
+        "S104",
+        "S238",
+        "S242",
+        "S243",
+        "S244",
+        "S246",
+        "S313",
+        "S318",
+        "S319",
+        "S321",
+        "S322",
+        "S328",
+        "S512"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "双、四、六车道",
+        "四、六车道",
+        "双、四车道",
+        "双车道",
+        "四车道"
+      ],
+      "value_pool": [
+        "双、四、六车道",
+        "四、六车道",
+        "双、四车道",
+        "双车道",
+        "四车道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "北京-平潭",
+        "北京-澳门",
+        "东营-深圳",
+        "济宁-宁德",
+        "连云港-固原",
+        "日照-凤县",
+        "日照-定陶",
+        "济南-枣庄",
+        "济南-微山",
+        "店子-韩庄",
+        "临邑-商丘",
+        "泰安-梁山",
+        "汶上-金乡",
+        "临清-邹城",
+        "日照-滕州",
+        "郯城-兰考",
+        "临沂-鄄城",
+        "枣庄-梁山",
+        "枣庄-欢城",
+        "丰县-长垣",
+        "泗水-尼山"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lc",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "122.249",
+        "125.479",
+        "30.918",
+        "95.484",
+        "140.576",
+        "77.862",
+        "26.861",
+        "64.872",
+        "118.569",
+        "2.521",
+        "14.027",
+        "12.145",
+        "63.309",
+        "75.738",
+        "10.667",
+        "58.538",
+        "133.937",
+        "90.037",
+        "7.23",
+        "35.793",
+        "14.777"
+      ],
+      "min_value": 2.521,
+      "max_value": 140.576
+    },
+    {
+      "name": "jsdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "一二级",
+        "一级",
+        "二三级",
+        "二级",
+        "一二三级"
+      ],
+      "value_pool": [
+        "一二级",
+        "一级",
+        "二三级",
+        "二级",
+        "一二三级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjxsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "曲阜、邹城、微山",
+        "汶上、任城、嘉祥、金乡",
+        "梁山",
+        "任城、金乡、鱼台",
+        "泗水、曲阜、兖州、汶上、任城、嘉祥",
+        "汶上、梁山",
+        "微山",
+        "泗水、邹城",
+        "兖州、任城、邹城、微山",
+        "汶上、嘉祥、金乡",
+        "汶上、兖州、邹城",
+        "邹城、微山",
+        "微山、鱼台、金乡",
+        "邹城、任城、嘉祥",
+        "邹城、任城、汶上、梁山",
+        "鱼台、金乡",
+        "泗水"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

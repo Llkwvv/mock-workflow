@@ -1,0 +1,130 @@
+{
+  "file_name": "对第三类易制毒化学品运输事前备案的审批的信息_0.csv",
+  "table_name": "对第三类易制毒化学品运输事前备案的审批的信息_0",
+  "row_count": 20,
+  "columns": [
+    "bjsj",
+    "bjmc",
+    "sldw",
+    "sqrhsqdw",
+    "slsj"
+  ],
+  "fields": [
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:03:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:03:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "关于王秀夏对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于田海艳对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于徐妍君对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于薛忠情对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于孙卫东对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于文辉对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于吴文学对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于徐慧婧对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于杨奎对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于于风真对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于于海泉对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于王净净对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于张旭文对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于周金良对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于陈洪峰对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于王涛对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于王潇对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于魏五香对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于张熙钗对第三类易制毒化学品运输事前备案的审批的业务",
+        "关于甄慧慧对第三类易制毒化学品运输事前备案的审批的业务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "市中公安分局",
+        "任城公安分局"
+      ],
+      "value_pool": [
+        "市中公安分局",
+        "任城公安分局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrhsqdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "王秀夏",
+        "田海艳",
+        "徐妍君",
+        "薛忠情",
+        "孙卫东",
+        "文辉",
+        "吴文学",
+        "徐慧婧",
+        "杨奎",
+        "于风真",
+        "于海泉",
+        "王净净",
+        "张旭文",
+        "周金良",
+        "陈洪峰",
+        "王涛",
+        "王潇",
+        "魏五香",
+        "张熙钗",
+        "甄慧慧"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:00:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:00:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "file_name": "汶上县农业农村局_渔业科技示范户信息202508010119.xlsx",
+  "table_name": "汶上县农业农村局_渔业科技示范户信息202508010119",
+  "row_count": 21,
+  "columns": [
+    "sfhxm",
+    "kjzdy",
+    "yzpz",
+    "sfcy",
+    "szzj"
+  ],
+  "fields": [
+    {
+      "name": "sfhxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杜**",
+        "郭**",
+        "贾**",
+        "李**",
+        "李*",
+        "廉**",
+        "刘**",
+        "荣*",
+        "邵**",
+        "宋*",
+        "王**",
+        "肖**",
+        "杨*",
+        "张**",
+        "张*",
+        "赵**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kjzdy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "林亚、王先磊",
+        "王先磊、李善鹏"
+      ],
+      "value_pool": [
+        "林亚、王先磊",
+        "王先磊、李善鹏"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yzpz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "甲鱼",
+        "鲢鳙",
+        "鲤鱼草鱼",
+        "观赏鱼",
+        "小龙虾",
+        "鲢鱼",
+        "黑斑蛙"
+      ],
+      "value_pool": [
+        "甲鱼",
+        "鲢鳙",
+        "鲤鱼草鱼",
+        "观赏鱼",
+        "小龙虾",
+        "鲢鱼",
+        "黑斑蛙"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfcy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "渔业"
+      ],
+      "value_pool": [
+        "渔业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szzj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "苑庄",
+        "汶上街道",
+        "军屯",
+        "郭楼",
+        "寅寺",
+        "康驿",
+        "次邱",
+        "刘楼",
+        "杨店",
+        "郭仓"
+      ],
+      "value_pool": [
+        "苑庄",
+        "汶上街道",
+        "军屯",
+        "郭楼",
+        "寅寺",
+        "康驿",
+        "次邱",
+        "刘楼",
+        "杨店",
+        "郭仓"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "file_name": "鱼台县农业农村局_鱼台县三秋生产调度表信息202506271747.xlsx",
+  "table_name": "鱼台县农业农村局_鱼台县三秋生产调度表信息202506271747",
+  "row_count": 32,
+  "columns": [
+    "jhbzmj",
+    "qlysmj",
+    "rq",
+    "qlysmj1",
+    "ybmj"
+  ],
+  "fields": [
+    {
+      "name": "jhbzmj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "38"
+      ],
+      "value_pool": [
+        "38"
+      ],
+      "min_value": 38.0,
+      "max_value": 38.0
+    },
+    {
+      "name": "qlysmj",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0.3",
+        "0.6",
+        "0.83",
+        "0.96",
+        "1.12",
+        "1.26",
+        "1.35",
+        "1.43",
+        "2.25",
+        "2.89",
+        "3.36",
+        "4.99",
+        "5.93",
+        "7.76",
+        "9.6",
+        "10.22",
+        "4.0",
+        "5.0",
+        "6.0"
+      ],
+      "min_value": 0.3,
+      "max_value": 10.22
+    },
+    {
+      "name": "rq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "9.19",
+        "9.2",
+        "9.21",
+        "9.22",
+        "9.23",
+        "9.24",
+        "9.25",
+        "9.26",
+        "9.27",
+        "9.28",
+        "9.29",
+        "9.3",
+        "10.1",
+        "10.2",
+        "10.3",
+        "10.4",
+        "10.5",
+        "10.6",
+        "10.7",
+        "10.8",
+        "10.9",
+        "10.11",
+        "10.12",
+        "10.13",
+        "10.14",
+        "10.15",
+        "10.16",
+        "10.17",
+        "2024.10.2",
+        "2024.10.3",
+        "2024.10.4"
+      ],
+      "min_value": 9.19,
+      "max_value": 10.9
+    },
+    {
+      "name": "qlysmj1",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "36.6",
+        "37.0"
+      ],
+      "value_pool": [
+        "36.6",
+        "37.0"
+      ],
+      "min_value": 36.6,
+      "max_value": 37.0
+    },
+    {
+      "name": "ybmj",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.0",
+        "1.96",
+        "2.65",
+        "3.5",
+        "7.25",
+        "4.36",
+        "4.63",
+        "5.22"
+      ],
+      "value_pool": [
+        "0.0",
+        "1.96",
+        "2.65",
+        "3.5",
+        "7.25",
+        "4.36",
+        "4.63",
+        "5.22"
+      ],
+      "min_value": 0.0,
+      "max_value": 7.25
+    }
+  ]
+}

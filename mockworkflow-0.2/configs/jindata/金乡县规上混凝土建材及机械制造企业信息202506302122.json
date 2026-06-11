@@ -1,0 +1,148 @@
+{
+  "file_name": "金乡县规上混凝土建材及机械制造企业信息202506302122.xlsx",
+  "table_name": "金乡县规上混凝土建材及机械制造企业信息202506302122",
+  "row_count": 35,
+  "columns": [
+    "hyfl",
+    "tjsj",
+    "qymc",
+    "hydm",
+    "ls"
+  ],
+  "fields": [
+    {
+      "name": "hyfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "混凝土及建材",
+        "机械制造"
+      ],
+      "value_pool": [
+        "混凝土及建材",
+        "机械制造"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021"
+      ],
+      "value_pool": [
+        "2021"
+      ],
+      "min_value": 2021.0,
+      "max_value": 2021.0
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县荣赢建材有限公司",
+        "山东中稳砼业有限公司",
+        "金乡县惠金商品混凝土有限公司",
+        "山东省金乡县金鹰水泥厂(普通合伙)",
+        "金乡金源商品混凝土有限公司",
+        "金乡中联混凝土有限公司",
+        "金乡县金城混凝土有限公司",
+        "金乡县金韩建材有限公司",
+        "金乡县锦华建材有限公司",
+        "山东江河水泥有限公司",
+        "金乡县金磊砼业有限公司",
+        "金乡县鲁兴环保科技有限公司",
+        "山东华英数控设备制造有限公司",
+        "山东宏扬特钢科技有限公司",
+        "济宁市金佳液压有限公司",
+        "金乡县强力机械有限公司",
+        "济宁金宇特钢有限公司",
+        "济宁市恒泰医疗用品有限公司",
+        "山东凯益食品有限公司",
+        "山东驰盛新能源设备有限公司",
+        "山东省玛丽亚农业机械股份有限公司",
+        "济宁市金狮汽车零部件有限公司",
+        "山东雷迈新能源车业有限公司",
+        "山东大江新能源汽车有限公司",
+        "山东省金曼克电气集团股份有限公司",
+        "鲁特电工股份有限公司",
+        "山东北电电气有限公司",
+        "山东金乡光明电气有限公司",
+        "山东金人电气有限公司",
+        "金乡县恒利电气有限公司",
+        "山东旗胜电气股份有限公司",
+        "山东亿九电气发展有限公司",
+        "山东金科电气股份有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hydm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "3021",
+        "3011",
+        "3099",
+        "3421",
+        "3484",
+        "3429",
+        "3583",
+        "3532",
+        "3591",
+        "3572",
+        "3670",
+        "3751",
+        "3770",
+        "3821",
+        "3822",
+        "3813"
+      ],
+      "min_value": 3011.0,
+      "max_value": 3822.0
+    },
+    {
+      "name": "ls",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "高端装备产业园",
+        "胡集镇",
+        "高河街道",
+        "司马镇",
+        "鸡黍镇",
+        "王丕街道",
+        "羊山镇",
+        "卜集镇",
+        "食品产业园",
+        "霄云镇",
+        "金乡街道",
+        "化雨镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "file_name": "鱼台县农业农村局_鱼台县产地检疫查询列表信息202506271726.xlsx",
+  "table_name": "鱼台县农业农村局_鱼台县产地检疫查询列表信息202506271726",
+  "row_count": 28,
+  "columns": [
+    "blzt",
+    "sbdw",
+    "sbsj",
+    "zwmc",
+    "sljg",
+    "jydzh"
+  ],
+  "fields": [
+    {
+      "name": "blzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "待发证"
+      ],
+      "value_pool": [
+        "待发证"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "山东登海润农种业有限公司",
+        "山东泰茂种业有限公司",
+        "山东省济宁市鱼台春华农业科技服务有限公司"
+      ],
+      "value_pool": [
+        "山东登海润农种业有限公司",
+        "山东泰茂种业有限公司",
+        "山东省济宁市鱼台春华农业科技服务有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022-06-10",
+        "2022-06-01",
+        "2022-05-30",
+        "2022年度"
+      ],
+      "value_pool": [
+        "2022-06-10",
+        "2022-06-01",
+        "2022-05-30",
+        "2022年度"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "稻",
+        "稻米"
+      ],
+      "value_pool": [
+        "稻",
+        "稻米"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sljg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县植物检疫站",
+        "县植物检疫站"
+      ],
+      "value_pool": [
+        "鱼台县植物检疫站",
+        "县植物检疫站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jydzh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "3708272022001051",
+        "3708272022001049",
+        "3708272022001047",
+        "3708272022001045",
+        "3708272022001043",
+        "3708272022001041",
+        "3708272022001039",
+        "3708272022001037",
+        "3708272022001035",
+        "3708272022001033",
+        "3708272022001031",
+        "3708272022001029",
+        "3708272022001027",
+        "3708272022001025",
+        "3708272022001023",
+        "3708272022001021",
+        "3708272022001019",
+        "3708272022001017",
+        "3708272022001015",
+        "3708272022001013",
+        "3708272022001011",
+        "3708272022001009",
+        "3708272022001007",
+        "3708272022001005",
+        "3708272022001003",
+        "3708272022001001",
+        "2022001020",
+        "2022001010"
+      ],
+      "min_value": 2022001010.0,
+      "max_value": 3708272022001051.0
+    }
+  ]
+}

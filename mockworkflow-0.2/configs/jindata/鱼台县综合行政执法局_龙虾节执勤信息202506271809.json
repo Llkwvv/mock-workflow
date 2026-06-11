@@ -1,0 +1,147 @@
+{
+  "file_name": "鱼台县综合行政执法局_龙虾节执勤信息202506271809.xlsx",
+  "table_name": "鱼台县综合行政执法局_龙虾节执勤信息202506271809",
+  "row_count": 47,
+  "columns": [
+    "ddld",
+    "zqry",
+    "zqzd",
+    "zqsj",
+    "zqdd"
+  ],
+  "fields": [
+    {
+      "name": "ddld",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "张军",
+        "皮现东",
+        "胡本良"
+      ],
+      "value_pool": [
+        "张军",
+        "皮现东",
+        "胡本良"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zqry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "杨慎宪",
+        "张鹏飞",
+        "丁荣秋",
+        "甄浩",
+        "解永立",
+        "安加玉",
+        "刘明慧",
+        "刘建军",
+        "马艳霞",
+        "孙兰",
+        "刘东升",
+        "吴建国",
+        "时健",
+        "宗海岩",
+        "李迪",
+        "马仲儒",
+        "程守贞",
+        "马法臣",
+        "马树文",
+        "李秋梅",
+        "任翠侠",
+        "宁连芳",
+        "张小锋",
+        "史同辉",
+        "董继领",
+        "刘保亮",
+        "张华杰",
+        "宋文娟",
+        "周俊侠",
+        "郑艳敏",
+        "张静",
+        "孔建民",
+        "刘虎",
+        "闵德可",
+        "景翠华",
+        "鹿冬玲",
+        "丁真真",
+        "陈笑",
+        "韩雨露",
+        "陈曼曼",
+        "盛宁宁",
+        "陈凡胜"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zqzd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县综合行政执法大队"
+      ],
+      "value_pool": [
+        "鱼台县综合行政执法大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zqsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44365",
+        "44366",
+        "44367",
+        "44368",
+        "第九届龙虾节期间"
+      ],
+      "value_pool": [
+        "44365",
+        "44366",
+        "44367",
+        "44368",
+        "第九届龙虾节期间"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zqdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "渔稼里",
+        "渔稼里广场"
+      ],
+      "value_pool": [
+        "渔稼里",
+        "渔稼里广场"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

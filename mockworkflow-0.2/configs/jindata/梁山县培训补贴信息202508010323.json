@@ -1,0 +1,196 @@
+{
+  "file_name": "梁山县培训补贴信息202508010323.xlsx",
+  "table_name": "梁山县培训补贴信息202508010323",
+  "row_count": 2016,
+  "columns": [
+    "pxxx",
+    "xb",
+    "pxbt",
+    "姓名",
+    "pxzy",
+    "nl"
+  ],
+  "fields": [
+    {
+      "name": "pxxx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "梁山县恒泰职业培训学校",
+        "梁山县环球职业培训学校",
+        "梁山县东方计算机职业培训学校"
+      ],
+      "value_pool": [
+        "梁山县恒泰职业培训学校",
+        "梁山县环球职业培训学校",
+        "梁山县东方计算机职业培训学校"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxbt",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "800"
+      ],
+      "value_pool": [
+        "800"
+      ],
+      "min_value": 600.0,
+      "max_value": 1000.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张*",
+        "井**",
+        "李**",
+        "王**",
+        "徐**",
+        "刘**",
+        "孙**",
+        "王*",
+        "冯**",
+        "高**",
+        "薛*",
+        "吕**",
+        "贾**",
+        "范**",
+        "胡**",
+        "姜**",
+        "翟**",
+        "陈**",
+        "薛**",
+        "戚**",
+        "陶**",
+        "葛**",
+        "张**",
+        "慈**",
+        "耿**",
+        "董**",
+        "程**",
+        "江**",
+        "关**",
+        "杨**",
+        "刚**",
+        "黄**",
+        "魏**",
+        "马**",
+        "苏*",
+        "郑**",
+        "侯**",
+        "苑**",
+        "赵**",
+        "周**",
+        "金**",
+        "宋**",
+        "许**",
+        "万**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxzy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "影视制作",
+        "计算机操作员",
+        "鲁菜师傅",
+        "电商基础操作"
+      ],
+      "value_pool": [
+        "影视制作",
+        "计算机操作员",
+        "鲁菜师傅",
+        "电商基础操作"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "38",
+        "33",
+        "43",
+        "34",
+        "30",
+        "42",
+        "41",
+        "39",
+        "36",
+        "44",
+        "37",
+        "20",
+        "31",
+        "32",
+        "21",
+        "40",
+        "50",
+        "35",
+        "27",
+        "25",
+        "51",
+        "45",
+        "55",
+        "48",
+        "29",
+        "52",
+        "22",
+        "57",
+        "47",
+        "19",
+        "46",
+        "53",
+        "18",
+        "54",
+        "17"
+      ],
+      "min_value": 16.0,
+      "max_value": 60.0
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "file_name": "高新区低保大学生救助信息202508010236.xlsx",
+  "table_name": "高新区低保大学生救助信息202508010236",
+  "row_count": 80,
+  "columns": [
+    "lsjzlx",
+    "sfjz",
+    "dxlb",
+    "sfzh",
+    "jzyf",
+    "sqyy",
+    "jtzz",
+    "xslx",
+    "xsxm",
+    "jzje"
+  ],
+  "fields": [
+    {
+      "name": "lsjzlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "支出型",
+        "急难型"
+      ],
+      "value_pool": [
+        "支出型",
+        "急难型"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfjz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dxlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "低保",
+        "低保边缘"
+      ],
+      "value_pool": [
+        "低保",
+        "低保边缘"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370882**********24",
+        "370882**********27",
+        "370882**********22",
+        "370882**********42",
+        "370882**********21",
+        "370882**********2X",
+        "370882**********13",
+        "370882**********10",
+        "370882**********23",
+        "370882**********16",
+        "370882**********40",
+        "370882**********11",
+        "230381**********12",
+        "230381**********39",
+        "370882**********19",
+        "370882**********39",
+        "370882**********26",
+        "370811**********3X",
+        "370811**********27",
+        "370811**********21",
+        "370811**********14",
+        "370811**********22",
+        "370802**********22",
+        "370811**********29",
+        "370811**********25",
+        "370811**********19",
+        "370811**********60",
+        "370811**********47",
+        "370811**********20",
+        "370811**********39",
+        "370882**********34",
+        "370882**********57",
+        "370882**********28"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzyf",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019-08",
+        "2020-10",
+        "2021-08",
+        "2022-08",
+        "2023-08"
+      ],
+      "value_pool": [
+        "2019-08",
+        "2020-10",
+        "2021-08",
+        "2022-08",
+        "2023-08"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "因教育"
+      ],
+      "value_pool": [
+        "因教育"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "黄屯****村",
+        "黄屯*****村",
+        "黄屯******铺",
+        "黄屯******村",
+        "王因****村",
+        "王因*****村",
+        "柳****村",
+        "柳行****村",
+        "柳行*********村",
+        "柳**道",
+        "柳行*******村",
+        "接庄***************村",
+        "接庄*********村",
+        "接庄***********村",
+        "接庄**********村",
+        "接庄****村",
+        "接庄*************村",
+        "黄屯**********村",
+        "黄屯***********村",
+        "黄屯************村",
+        "洸河*****区",
+        "接庄*****村",
+        "接庄******村",
+        "柳行***村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xslx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "本科在读",
+        "专科新生",
+        "本科新生",
+        "专科在读",
+        "本科在校",
+        "专科在校",
+        "专科在校生",
+        "本科在校生"
+      ],
+      "value_pool": [
+        "本科在读",
+        "专科新生",
+        "本科新生",
+        "专科在读",
+        "本科在校",
+        "专科在校",
+        "专科在校生",
+        "本科在校生"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "吴**",
+        "王**",
+        "许**",
+        "武**",
+        "腾**",
+        "于**",
+        "张**",
+        "周**",
+        "邱**",
+        "朿**",
+        "储**",
+        "徐**",
+        "李**",
+        "侯**",
+        "韩**",
+        "孙**",
+        "卢**",
+        "郭**",
+        "丁**",
+        "冯**",
+        "陈**",
+        "赵**",
+        "文**",
+        "杜**",
+        "尹**",
+        "朱**",
+        "邓**",
+        "魏**",
+        "刘**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1000",
+        "3000",
+        "5000"
+      ],
+      "value_pool": [
+        "1000",
+        "3000",
+        "5000"
+      ],
+      "min_value": 1000.0,
+      "max_value": 5000.0
+    }
+  ]
+}

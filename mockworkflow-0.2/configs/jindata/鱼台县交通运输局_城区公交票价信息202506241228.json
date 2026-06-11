@@ -1,0 +1,158 @@
+{
+  "file_name": "鱼台县交通运输局_城区公交票价信息202506241228.xlsx",
+  "table_name": "鱼台县交通运输局_城区公交票价信息202506241228",
+  "row_count": 25,
+  "columns": [
+    "sfz",
+    "sfzcyy",
+    "zdz",
+    "pjy",
+    "lb"
+  ],
+  "fields": [
+    {
+      "name": "sfz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "车管所",
+        "公交枢纽站",
+        "新城绿洲",
+        "双韩南",
+        "鱼稼里",
+        "公交枢纽站环线",
+        "张黄",
+        "四联",
+        "前乔口",
+        "冀马",
+        "大薛",
+        "西姚",
+        "仇海",
+        "白庙",
+        "碌硃屯",
+        "车楼",
+        "吴家"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzcyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "正常运营"
+      ],
+      "value_pool": [
+        "正常运营"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "公交枢纽站",
+        "新城绿洲",
+        "鱼台中医院",
+        "书香园小区",
+        "汽车站",
+        "实验中学北门",
+        "飞跃广场",
+        "孔府宴酒厂",
+        "鱼台县汽车站",
+        "鱼台县实验中学北门",
+        "鱼台县飞跃时代广场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pjy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "3",
+        "3元"
+      ],
+      "value_pool": [
+        "1",
+        "3",
+        "3元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "1路",
+        "2路",
+        "3路",
+        "4路",
+        "5路",
+        "6路",
+        "7路",
+        "8路",
+        "9路",
+        "601路",
+        "305路",
+        "203路",
+        "206路",
+        "501路",
+        "802路",
+        "804路",
+        "605路",
+        "307路",
+        "602路",
+        "505路"
+      ],
+      "value_pool": [
+        "1路",
+        "2路",
+        "3路",
+        "4路",
+        "5路",
+        "6路",
+        "7路",
+        "8路",
+        "9路",
+        "601路",
+        "305路",
+        "203路",
+        "206路",
+        "501路",
+        "802路",
+        "804路",
+        "605路",
+        "307路",
+        "602路",
+        "505路"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

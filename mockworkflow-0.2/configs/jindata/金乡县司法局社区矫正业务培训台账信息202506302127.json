@@ -1,0 +1,151 @@
+{
+  "file_name": "金乡县司法局社区矫正业务培训台账信息202506302127.xlsx",
+  "table_name": "金乡县司法局社区矫正业务培训台账信息202506302127",
+  "row_count": 22,
+  "columns": [
+    "pxsj",
+    "pxdd",
+    "pxxg",
+    "cjry",
+    "skr",
+    "pxnr"
+  ],
+  "fields": [
+    {
+      "name": "pxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021、1、28",
+        "2021、2、24",
+        "2021、3、11",
+        "2021、3、30",
+        "2021、4、7",
+        "2021、4、28",
+        "2021、5、6",
+        "2021、5、14",
+        "2021、6、9",
+        "2021、6、24",
+        "2021、7、6",
+        "2021、7、29",
+        "2021、8、9",
+        "2021、8、27",
+        "2021、9、6",
+        "2021、9、28",
+        "2021、10、9",
+        "2021、10、26",
+        "2021、11、2",
+        "2021、11、24",
+        "2024.12.5",
+        "2025.6.5"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "司法局四楼会议室",
+        "社区矫正中心学习室",
+        "县司法局4楼会议室"
+      ],
+      "value_pool": [
+        "司法局四楼会议室",
+        "社区矫正中心学习室",
+        "县司法局4楼会议室"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxxg",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "良好"
+      ],
+      "value_pool": [
+        "良好"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "所长、社区矫正专管员",
+        "社区矫正专管员",
+        "各司法所所长"
+      ],
+      "value_pool": [
+        "所长、社区矫正专管员",
+        "社区矫正专管员",
+        "各司法所所长"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "skr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "王一武",
+        "唐浩",
+        "孔艳霞"
+      ],
+      "value_pool": [
+        "王一武",
+        "唐浩",
+        "孔艳霞"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "《中华人民共和国社区矫正法》",
+        "《中华人民共和国社区矫正法实施办法》",
+        "《山东省社区矫正实施细则》",
+        "济宁市社区矫正工作指引",
+        "金乡县社区矫正突发事件处置流程",
+        "济宁市社区矫正档案标准",
+        "社区矫正档案日常管理规范",
+        "社区矫正档案形成与流转规范",
+        "金乡县司法局社区矫正矫情分析会制度",
+        "金乡县司法局调查评审委员会会议制度",
+        "判断重点危险社区矫正对象标准",
+        "社区矫正法"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

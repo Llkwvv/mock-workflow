@@ -1,0 +1,112 @@
+{
+  "file_name": "特种设备停用信息202507242129.xlsx",
+  "table_name": "特种设备停用信息202507242129",
+  "row_count": 11,
+  "columns": [
+    "sbmc",
+    "sydwmc",
+    "sbdm",
+    "slsj",
+    "jbr"
+  ],
+  "fields": [
+    {
+      "name": "sbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "曳引式货梯",
+        "曳引与强制驱动电梯",
+        "曳引驱动乘客电梯",
+        "内燃平衡重式叉车",
+        "空气缓冲罐",
+        "有机热载体液相炉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sydwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东立国产业园运营管理有限公司",
+        "山东汇景建设工程有限公司",
+        "李艳",
+        "山东驰胜智能科技集团有限公司",
+        "山东汉峰新材料科技有限公司",
+        "汶上县开元化工有限责任公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbdm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "31201019320232722723",
+        "31201019320232722732",
+        "31201019320232722741",
+        "31201019320232722757",
+        "311010760202390360",
+        "311037122202302031",
+        "5110103412016G8082",
+        "217037G74202200020",
+        "130010731202100011",
+        "130010731202100015",
+        "31201019320232722735"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024.8.13",
+        "2024.8.15",
+        "2024.8.29"
+      ],
+      "value_pool": [
+        "2024.8.13",
+        "2024.8.15",
+        "2024.8.29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jbr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "强殿建"
+      ],
+      "value_pool": [
+        "强殿建"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

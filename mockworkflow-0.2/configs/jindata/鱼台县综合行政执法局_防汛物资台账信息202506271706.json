@@ -1,0 +1,132 @@
+{
+  "file_name": "鱼台县综合行政执法局_防汛物资台账信息202506271706.xlsx",
+  "table_name": "鱼台县综合行政执法局_防汛物资台账信息202506271706",
+  "row_count": 26,
+  "columns": [
+    "wzsl",
+    "wzmc",
+    "fzr",
+    "lxdh",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "wzsl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "337个",
+        "200米",
+        "108双",
+        "108套",
+        "100把",
+        "100双",
+        "30个",
+        "20个",
+        "10个",
+        "5台套",
+        "4台",
+        "3只",
+        "2件",
+        "1辆",
+        "5辆",
+        "50袋",
+        "100米",
+        "6个",
+        "412个",
+        "300米",
+        "140双",
+        "140套",
+        "120把",
+        "120双"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "反光马甲",
+        "输水软管",
+        "雨靴",
+        "雨衣",
+        "雨伞",
+        "手套",
+        "钩子",
+        "手电筒",
+        "对讲机",
+        "警示牌",
+        "水泵",
+        "油锯",
+        "救生圈",
+        "救生衣",
+        "普通挖掘机",
+        "装载机",
+        "执勤车",
+        "沙袋",
+        "绳子",
+        "安全警示"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "张海涛"
+      ],
+      "value_pool": [
+        "张海涛"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "157****8777"
+      ],
+      "value_pool": [
+        "157****8777"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县综合行政执法局"
+      ],
+      "value_pool": [
+        "鱼台县综合行政执法局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

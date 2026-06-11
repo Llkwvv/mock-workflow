@@ -1,0 +1,137 @@
+{
+  "file_name": "鱼台县民政局_鱼台县留守妇女信息202508010216.xlsx",
+  "table_name": "鱼台县民政局_鱼台县留守妇女信息202508010216",
+  "row_count": 47,
+  "columns": [
+    "hjd",
+    "mz",
+    "xjdz",
+    "姓名",
+    "jkzk"
+  ],
+  "fields": [
+    {
+      "name": "hjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉族",
+        "回族"
+      ],
+      "value_pool": [
+        "汉族",
+        "回族"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xjdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市鱼台县谷亭街道",
+        "山东省济宁市鱼台县谷亭街道鱼台县谷亭街道周堂村",
+        "山东省济宁市鱼台县滨湖街道",
+        "山东省济宁市鱼台县清河镇马河村",
+        "山东省济宁市鱼台县清河镇田庙村",
+        "山东省济宁市鱼台县清河镇清河村",
+        "山东省济宁市鱼台县清河镇大程村",
+        "山东省济宁市鱼台县清河镇王台村",
+        "山东省济宁市鱼台县鱼城镇",
+        "山东省济宁市鱼台县鱼城镇林庄村",
+        "山东省济宁市鱼台县鱼城镇李管村",
+        "山东省济宁市鱼台县鱼城镇田集村",
+        "山东省济宁市鱼台县鱼城镇中东南村",
+        "山东省济宁市鱼台县王鲁镇鱼台王鲁闫庙",
+        "山东省济宁市鱼台县李阁镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "甄**",
+        "马**",
+        "李**",
+        "邵**",
+        "宋**",
+        "徐**",
+        "杨**",
+        "张**",
+        "秦**",
+        "强**",
+        "翟**",
+        "薛**",
+        "阚**",
+        "闫**",
+        "高**",
+        "穆**",
+        "林**",
+        "冯**",
+        "刘**",
+        "黄**",
+        "任**",
+        "姚**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jkzk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "健康",
+        "重病",
+        "慢性病",
+        "其他",
+        "残疾"
+      ],
+      "value_pool": [
+        "健康",
+        "重病",
+        "慢性病",
+        "其他",
+        "残疾"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "file_name": "微山县医保定点医院信息202605251133.xlsx",
+  "table_name": "微山县医保定点医院信息202605251133",
+  "row_count": 21,
+  "columns": [
+    "dz",
+    "ybbdh",
+    "mc",
+    "jslx",
+    "xz",
+    "yb"
+  ],
+  "fields": [
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "微山岛镇微子路11号",
+        "微山经济开发区社区党群服务中心一楼",
+        "微山县马坡镇中心大街2号",
+        "微山县欢城镇驻地",
+        "微山县傅村街道富源路22号",
+        "高楼乡高楼村兴湖路",
+        "微山县韩庄镇建设路124号",
+        "微山县两城镇两城八村车站路120号",
+        "留庄镇中心街9号",
+        "微山县鲁桥镇富民路1号",
+        "微山县南阳镇驻地",
+        "微山县张楼镇利群路13号",
+        "微山县赵庙乡驻地",
+        "微山县成后路10号",
+        "微山县奎文东路56号",
+        "微山县南部新城昭阳湖路南微山湖大道116号",
+        "微山湖大道108号",
+        "山东省济宁市微山县建设路西首",
+        "微山县商业南街63号",
+        "微山县欢城镇枣庄矿业集团",
+        "山东省济宁市微山县张楼镇张楼村中心街047号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ybbdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "8551017",
+        "6620252",
+        "8619525",
+        "8588120",
+        "8381007",
+        "137****2677",
+        "0537-8689120",
+        "0537-6620307",
+        "139****5901",
+        "151****4177",
+        "137****8567",
+        "8411013",
+        "8367126",
+        "8223393",
+        "0537-8601999",
+        "0537-5035229",
+        "156****3511",
+        "06324066920",
+        "135****1239"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山县微山岛镇卫生院",
+        "微山经济开发区社区卫生服务中心",
+        "微山县第二人民医院",
+        "微山县第三人民医院",
+        "微山县傅村街道卫生院",
+        "微山县高楼乡卫生院",
+        "微山县韩庄中心卫生院",
+        "微山县第四人民医院",
+        "微山县留庄中心卫生院",
+        "微山县鲁桥镇卫生院",
+        "微山县南阳镇卫生院",
+        "微山县张楼镇卫生院",
+        "微山县赵庙镇卫生院",
+        "微山县人民医院",
+        "微山县中医院",
+        "微山叙福堂中医院",
+        "微山湖医院",
+        "微山康立医院",
+        "微山医大眼科医院",
+        "枣庄矿业集团滕南医院",
+        "微山仁泰医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jslx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "职工/居民"
+      ],
+      "value_pool": [
+        "职工/居民"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "公立202601",
+        "私立202601"
+      ],
+      "value_pool": [
+        "公立202601",
+        "私立202601"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "277604",
+        "277600",
+        "272193",
+        "277606",
+        "277608",
+        "272199",
+        "277642",
+        "272196",
+        "272197",
+        "277607",
+        "277610"
+      ],
+      "min_value": 272193.0,
+      "max_value": 277642.0
+    }
+  ]
+}

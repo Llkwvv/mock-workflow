@@ -1,0 +1,176 @@
+{
+  "file_name": "金乡县药品抽样检验信息202508040911.xlsx",
+  "table_name": "金乡县药品抽样检验信息202508040911",
+  "row_count": 1,
+  "columns": [
+    "ypmc",
+    "bcydwmc",
+    "cydzt",
+    "scdw",
+    "cyrq",
+    "cybh",
+    "jyjg",
+    "jydw",
+    "jhmc",
+    "cydwmc",
+    "pzwh"
+  ],
+  "fields": [
+    {
+      "name": "ypmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "感冒清热颗粒"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcydwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市鲁泰大药房连锁有限公司金乡二十三店"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cydzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "已送样"
+      ],
+      "value_pool": [
+        "已送样"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "广西天天乐药业股份有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cyrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-06-06 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cybh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "DSLTAA202**N0824"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "未检验"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市食品药品检验检测研究院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "2025年地方监督抽检计划"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cydwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县市场监督管理局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pzwh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "国药准字Z45021959"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

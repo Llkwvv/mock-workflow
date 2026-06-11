@@ -1,0 +1,108 @@
+{
+  "file_name": "高新区学校名录202605251204.xlsx",
+  "table_name": "高新区学校名录202605251204",
+  "row_count": 2,
+  "columns": [
+    "jdqz",
+    "xsq",
+    "lxfs",
+    "s",
+    "fzr",
+    "xxmc"
+  ],
+  "fields": [
+    {
+      "name": "jdqz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "柳行街道"
+      ],
+      "value_pool": [
+        "柳行街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "186*****318",
+        "132*****378"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "王*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区贝享崇文幼儿园",
+        "济宁高新区森林童话幼儿园"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

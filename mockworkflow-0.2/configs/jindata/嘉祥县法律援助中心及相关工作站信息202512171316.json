@@ -1,0 +1,154 @@
+{
+  "file_name": "嘉祥县法律援助中心及相关工作站信息202512171316.xlsx",
+  "table_name": "嘉祥县法律援助中心及相关工作站信息202512171316",
+  "row_count": 26,
+  "columns": [
+    "dz",
+    "电话",
+    "mc",
+    "bz",
+    "fzr"
+  ],
+  "fields": [
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县嘉祥街道庞庄社区北门对过嘉祥县司法局一楼",
+        "嘉祥县嘉祥街道办事处驻地",
+        "嘉祥县金屯镇金水街41-1",
+        "嘉祥县满硐镇政府驻地",
+        "嘉祥县纸坊镇振兴路12号",
+        "嘉祥县仲山镇政府驻地",
+        "嘉祥县G327国道174号路南",
+        "嘉祥县孟姑集镇大黄路1号",
+        "嘉祥县经济开发路与046县道交叉口东180米",
+        "嘉祥县黄垓镇司法所",
+        "嘉祥县梁宝寺镇振兴南路梁宝寺司法所院内",
+        "嘉祥县大张楼镇中心街1号",
+        "嘉祥县马村镇为民服务中心对过",
+        "嘉祥县万张街道办事处驻地",
+        "嘉祥县看守所",
+        "嘉祥县人民法院",
+        "嘉祥县人民检察院",
+        "嘉祥县武装部",
+        "嘉祥县退役军人事务局",
+        "嘉祥县民政局",
+        "嘉祥县团委",
+        "嘉祥县妇联",
+        "嘉祥县工会",
+        "嘉祥县残联",
+        "嘉祥县信访局",
+        "嘉祥县人社局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "电话",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "0537-6625569"
+      ],
+      "value_pool": [
+        "0537-6625569"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县法律援助中心马学镇",
+        "嘉祥街道工作站",
+        "金屯镇工作站",
+        "满硐镇工作站",
+        "纸坊镇工作站",
+        "仲山镇工作站",
+        "卧龙山街道工作站",
+        "孟姑集镇工作站",
+        "老僧堂镇工作站",
+        "黄垓镇工作站",
+        "梁宝寺镇工作站",
+        "大张楼镇工作站",
+        "马村镇工作站",
+        "万张街道工作站",
+        "嘉祥县看守所工作站",
+        "嘉祥县人民法院工作站",
+        "嘉祥县人民检察院工作站",
+        "嘉祥县武装部工作站",
+        "嘉祥县退役军人事务局工作站",
+        "嘉祥县老龄委工作站",
+        "嘉祥县团委工作站",
+        "嘉祥县妇联工作站",
+        "嘉祥县工会工作站",
+        "嘉祥县残联工作站",
+        "嘉祥县信访局工作站",
+        "嘉祥县人社局工作站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "无",
+        "承办部分业务"
+      ],
+      "value_pool": [
+        "无",
+        "承办部分业务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "甘洪萌",
+        "张彬",
+        "史作玄",
+        "李华",
+        "宋兴功",
+        "渠欣",
+        "高耸",
+        "孙慧萌",
+        "考友申",
+        "王好男",
+        "张来银",
+        "董桂耀",
+        "刘浩",
+        "柏海霞",
+        "阮洪利"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

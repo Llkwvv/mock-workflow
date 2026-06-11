@@ -1,0 +1,140 @@
+{
+  "file_name": "化工危化品_医药企业安全生产二级标准化信息202604151704.xlsx",
+  "table_name": "化工危化品_医药企业安全生产二级标准化信息202604151704",
+  "row_count": 21,
+  "columns": [
+    "xsq",
+    "qymc",
+    "bzhdj",
+    "yxq",
+    "gbbm"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区",
+        "兖州区",
+        "邹城市",
+        "鱼台县",
+        "微山县",
+        "嘉祥县",
+        "任城区",
+        "金乡县",
+        "汶上县"
+      ],
+      "value_pool": [
+        "高新区",
+        "兖州区",
+        "邹城市",
+        "鱼台县",
+        "微山县",
+        "嘉祥县",
+        "任城区",
+        "金乡县",
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "明治（山东）医药有限公司",
+        "兖矿国际焦化有限公司",
+        "兖矿国宏化工有限责任公司",
+        "山东荣信集团有限公司",
+        "山东鲁泰化学有限公司",
+        "山东同泰能化有限公司",
+        "嘉祥县民安烟花爆竹有限责任公司",
+        "嘉祥县供销社烟花爆竹有限公司",
+        "济宁辰光煤化有限公司",
+        "山东汇能新材料科技股份有限公司",
+        "济宁中银电化有限公司",
+        "济宁市兖州区银泉精细化工有限公司",
+        "济宁明升新材料有限公司",
+        "山东华胜能源有限公司",
+        "中国石油天然气股份有限公司山东济宁销售分公司",
+        "山东恒信科技发展有限公司",
+        "中国石油天然气股份有限公司山东济宁销售分公司兖州油库",
+        "济宁键邦化工有限公司",
+        "济宁中油石化有限公司",
+        "山东艾孚特科技有限公司",
+        "山东朗恒化学有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzhdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "二级"
+      ],
+      "value_pool": [
+        "二级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2018.12.25-2021.12.24",
+        "2019.07.01-2022.06.30",
+        "2020.03.09-2023.03.08",
+        "2020.09.23-2023.09.22",
+        "2020.12.18-2023.12.17",
+        "2021.03.18-2024.03.17",
+        "2021.06.03-2021.06.02"
+      ],
+      "value_pool": [
+        "2018.12.25-2021.12.24",
+        "2019.07.01-2022.06.30",
+        "2020.03.09-2023.03.08",
+        "2020.09.23-2023.09.22",
+        "2020.12.18-2023.12.17",
+        "2021.03.18-2024.03.17",
+        "2021.06.03-2021.06.02"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gbbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "省应急厅"
+      ],
+      "value_pool": [
+        "省应急厅"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

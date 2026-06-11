@@ -1,0 +1,160 @@
+{
+  "file_name": "汶上县农业农村局_农产品加工产业培训班学员信息202508010117.xlsx",
+  "table_name": "汶上县农业农村局_农产品加工产业培训班学员信息202508010117",
+  "row_count": 35,
+  "columns": [
+    "pxzy",
+    "lx",
+    "姓名",
+    "nd",
+    "jkrq",
+    "sqfs"
+  ],
+  "fields": [
+    {
+      "name": "pxzy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "农产品加工"
+      ],
+      "value_pool": [
+        "农产品加工"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "种粮大户",
+        "汶上县洪领种植家庭农场",
+        "汶上县张振家庭农场",
+        "汶上县合喜家庭农场",
+        "汶上县张庆显家庭农场",
+        "种植大户",
+        "汶上县绿洲庄园家庭农场",
+        "汶上县惠丰家庭农场",
+        "汶上县康丰种植农民专业合作社",
+        "汶上县佳兴家庭农场",
+        "种植专业合作社",
+        "汶上县照胜养殖家庭农场",
+        "汶上县瑞萌家庭农场",
+        "汶上县利海家庭农场",
+        "汶上县房兆添家庭农场"
+      ],
+      "value_pool": [
+        "种粮大户",
+        "汶上县洪领种植家庭农场",
+        "汶上县张振家庭农场",
+        "汶上县合喜家庭农场",
+        "汶上县张庆显家庭农场",
+        "种植大户",
+        "汶上县绿洲庄园家庭农场",
+        "汶上县惠丰家庭农场",
+        "汶上县康丰种植农民专业合作社",
+        "汶上县佳兴家庭农场",
+        "种植专业合作社",
+        "汶上县照胜养殖家庭农场",
+        "汶上县瑞萌家庭农场",
+        "汶上县利海家庭农场",
+        "汶上县房兆添家庭农场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵**",
+        "张*",
+        "张**",
+        "杨**",
+        "薛**",
+        "夏**",
+        "魏**",
+        "王**",
+        "孙**",
+        "苏**",
+        "申**",
+        "秦**",
+        "庞**",
+        "孟**",
+        "梁**",
+        "李**",
+        "孔**",
+        "姬**",
+        "胡**",
+        "葛**",
+        "高**",
+        "房**",
+        "陈**",
+        "安**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2025"
+      ],
+      "value_pool": [
+        "2025"
+      ],
+      "min_value": 2025.0,
+      "max_value": 2025.0
+    },
+    {
+      "name": "jkrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "5月19日"
+      ],
+      "value_pool": [
+        "5月19日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "主管部门推荐"
+      ],
+      "value_pool": [
+        "主管部门推荐"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

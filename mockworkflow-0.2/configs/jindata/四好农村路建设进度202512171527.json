@@ -1,0 +1,128 @@
+{
+  "file_name": "四好农村路建设进度202512171527.xlsx",
+  "table_name": "四好农村路建设进度202512171527",
+  "row_count": 13,
+  "columns": [
+    "sj",
+    "dzxgcgl",
+    "lwtdsjgl",
+    "zrcztdgl",
+    "wqgzz"
+  ],
+  "fields": [
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2.26高新区",
+        "2.26太白湖新区",
+        "2.26经开区",
+        "4.28梁山县",
+        "4.28高新区",
+        "4.28太白湖新区",
+        "4.28经开区",
+        "5.8任城区",
+        "5.8兖州区",
+        "5.8曲阜市",
+        "5.8泗水县",
+        "5.8邹城市",
+        "5.8微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dzxgcgl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "18.0",
+        "10.0",
+        "26.55",
+        "0.0",
+        "7.44",
+        "1.519",
+        "25.3",
+        "9.0"
+      ],
+      "min_value": 0.0,
+      "max_value": 26.55
+    },
+    {
+      "name": "lwtdsjgl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2.13",
+        "2.0",
+        "5.5",
+        "1.2",
+        "0.0",
+        "0.4",
+        "3.0",
+        "14.26",
+        "10.0",
+        "1.99"
+      ],
+      "min_value": 0.0,
+      "max_value": 14.26
+    },
+    {
+      "name": "zrcztdgl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.0",
+        "1.3",
+        "0.8",
+        "1.2",
+        "6.0"
+      ],
+      "value_pool": [
+        "0.0",
+        "1.3",
+        "0.8",
+        "1.2",
+        "6.0"
+      ],
+      "min_value": 0.0,
+      "max_value": 6.0
+    },
+    {
+      "name": "wqgzz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "5",
+        "1"
+      ],
+      "value_pool": [
+        "0",
+        "5",
+        "1"
+      ],
+      "min_value": 0.0,
+      "max_value": 5.0
+    }
+  ]
+}

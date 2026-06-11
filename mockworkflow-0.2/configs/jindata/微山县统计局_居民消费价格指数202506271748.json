@@ -1,0 +1,129 @@
+{
+  "file_name": "微山县统计局_居民消费价格指数202506271748.xlsx",
+  "table_name": "微山县统计局_居民消费价格指数202506271748",
+  "row_count": 33,
+  "columns": [
+    "zbmc",
+    "zsqk",
+    "tjnf",
+    "xq",
+    "sjly"
+  ],
+  "fields": [
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "居民消费价格总指数",
+        "服务项目价格指数",
+        "消费品价格指数",
+        "1. 食品烟酒",
+        "2. 衣着",
+        "3. 居住",
+        "4. 生活用品及服务",
+        "5. 交通和通信",
+        "6. 教育文化和娱乐",
+        "7. 医疗保健",
+        "8. 其他用品和服务",
+        "8.其他用品和服务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zsqk",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "100.0",
+        "100.8",
+        "99.6",
+        "99.5",
+        "102.5",
+        "100.2",
+        "96.8",
+        "100.3",
+        "102.7",
+        "102.8",
+        "100.7",
+        "104.0",
+        "101.8",
+        "105.9",
+        "103.9",
+        "99.3",
+        "99.9",
+        "99.7",
+        "99.1",
+        "98.5",
+        "99.8",
+        "100.4",
+        "101.3",
+        "97.8",
+        "102.2"
+      ],
+      "min_value": 96.8,
+      "max_value": 105.9
+    },
+    {
+      "name": "tjnf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023",
+        "2022",
+        "2024"
+      ],
+      "value_pool": [
+        "2023",
+        "2022",
+        "2024"
+      ],
+      "min_value": 2022.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县"
+      ],
+      "value_pool": [
+        "微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县统计局"
+      ],
+      "value_pool": [
+        "微山县统计局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

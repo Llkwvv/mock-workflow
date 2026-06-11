@@ -60,11 +60,9 @@ function recreateParticles() {
     createParticles();
 }
 
-let lastCrackTime = 0;
-const CRACK_COOLDOWN = 400; // ms, 防止连点导致卡顿
-
-// ========== Click Glass Crack Effect (Finger Press Shatter) ==========
+// ========== Click Glass Crack Effect (removed) ==========
 function createExplosion(x, y) {
+    return; // disabled
     const now = Date.now();
     if (now - lastCrackTime < CRACK_COOLDOWN) return;
     lastCrackTime = now;
@@ -423,18 +421,7 @@ function handleMouseMove(e) {
     }
 }
 
-function handleMouseDown(e) {
-    isMouseDown = true;
-    createExplosion(e.clientX, e.clientY);
-}
-
-function handleMouseUp() {
-    isMouseDown = false;
-}
-
 // Initialize mouse effects
-document.addEventListener('mousedown', handleMouseDown);
-document.addEventListener('mouseup', handleMouseUp);
 document.addEventListener('mousemove', handleMouseMove);
 
 // ========== Custom Star Cursor ==========
@@ -509,9 +496,9 @@ function navigateTo(page) {
     if (page === 'schema') { loadSchemaPage(); }
     if (page === 'templates') { loadTemplatesPage(); }
     if (page === 'generate') { /* aggregate entry page, no init needed */ }
-    if (page === 'monitor') { loadMonitorStats(); }
-    if (page === 'engine') { /* reserved page */ }
-    if (page === 'plugins') { /* reserved page */ }
+    if (page === 'monitor') { loadMonitorStats(); loadMetrics(); loadAuditLogs(); }
+    if (page === 'engine') { loadEnginePage(); }
+    if (page === 'plugins') { loadPlugins(); }
 }
 
 function goHome() {
@@ -543,31 +530,232 @@ function showToast(msg, type = 'success') {
     setTimeout(() => t.remove(), 3000);
 }
 
+// ========== Auth / Login ==========
+let loginRetryQueue = [];
+let currentCsrfToken = '';
+
+function showLogin() {
+    document.getElementById('login-overlay').style.display = 'flex';
+    document.getElementById('login-username').focus();
+    // Fetch fresh CSRF token each time login is shown
+    fetch(API_BASE + '/api/auth/csrf')
+        .then(r => r.json())
+        .then(d => { currentCsrfToken = d.token; })
+        .catch(() => { currentCsrfToken = ''; });
+}
+
+function hideLogin() {
+    document.getElementById('login-overlay').style.display = 'none';
+    document.getElementById('login-error').style.display = 'none';
+    document.getElementById('login-username').value = '';
+    document.getElementById('login-password').value = '';
+}
+
+async function doLogin() {
+    const username = document.getElementById('login-username').value.trim();
+    const pwd = document.getElementById('login-password').value.trim();
+    const errEl = document.getElementById('login-error');
+    if (!username || !pwd) {
+        errEl.textContent = '请输入用户名和密码';
+        errEl.style.display = 'block';
+        return;
+    }
+    try {
+        const r = await fetch(API_BASE + '/api/auth/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            credentials: 'include',
+            body: JSON.stringify({
+                username: username,
+                password: pwd,
+                csrf_token: currentCsrfToken
+            })
+        });
+        if (r.status === 403) {
+            const data = await r.json();
+            errEl.textContent = '尝试次数过多，请' + Math.round((data.retry_after || 900) / 60) + '分钟后再试';
+            errEl.style.display = 'block';
+            return;
+        }
+        const data = await r.json();
+        if (!r.ok || !data.success) {
+            errEl.textContent = data.message || '登录失败';
+            errEl.style.display = 'block';
+            return;
+        }
+        hideLogin();
+        showToast('欢迎，' + (data.username || '') + '！');
+        // Retry queued calls
+        const queue = loginRetryQueue.slice();
+        loginRetryQueue = [];
+        queue.forEach(fn => fn());
+    } catch (e) {
+        errEl.textContent = '网络错误，请重试';
+        errEl.style.display = 'block';
+    }
+}
+
+async function checkAuth() {
+    try {
+        const r = await fetch(API_BASE + '/api/auth/me', { credentials: 'include' });
+        const data = await r.json();
+        if (data.authenticated && data.username) {
+            document.getElementById('username-display').textContent = data.username;
+            document.getElementById('user-menu').style.display = 'block';
+        } else {
+            document.getElementById('user-menu').style.display = 'none';
+            showLogin();
+        }
+    } catch (e) {
+        showLogin();
+    }
+}
+
+async function doLogout() {
+    try {
+        const r = await fetch(API_BASE + '/api/auth/logout', {
+            method: 'POST',
+            credentials: 'include',
+            headers: { 'Content-Type': 'application/json' }
+        });
+        if (r.ok) {
+            showToast('已成功退出登录');
+            document.getElementById('user-menu').style.display = 'none';
+            showLogin();
+            // 清空输入框
+            document.getElementById('login-username').value = '';
+            document.getElementById('login-password').value = '';
+        }
+    } catch (e) {
+        console.error('Logout failed:', e);
+    }
+}
+
+function showRegisterForm() {
+    document.getElementById('login-form').style.display = 'none';
+    document.getElementById('register-form').style.display = 'block';
+    // 清空错误信息
+    document.getElementById('register-error').style.display = 'none';
+    document.getElementById('register-success').style.display = 'none';
+}
+
+function showLoginForm() {
+    document.getElementById('register-form').style.display = 'none';
+    document.getElementById('login-form').style.display = 'block';
+    // 清空错误信息
+    document.getElementById('login-error').style.display = 'none';
+}
+
+async function doRegister() {
+    const username = document.getElementById('register-username').value.trim();
+    const password = document.getElementById('register-password').value.trim();
+    const displayName = document.getElementById('register-display-name').value.trim();
+    const errEl = document.getElementById('register-error');
+    const successEl = document.getElementById('register-success');
+
+    // 隐藏之前的消息
+    errEl.style.display = 'none';
+    successEl.style.display = 'none';
+
+    // 验证输入
+    if (!username || username.length < 3) {
+        errEl.textContent = '用户名至少需要3个字符';
+        errEl.style.display = 'block';
+        return;
+    }
+    if (!password || password.length < 6) {
+        errEl.textContent = '密码至少需要6个字符';
+        errEl.style.display = 'block';
+        return;
+    }
+
+    try {
+        const r = await fetch(API_BASE + '/api/auth/register', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                username: username,
+                password: password,
+                display_name: displayName || null,
+                csrf_token: currentCsrfToken
+            })
+        });
+
+        const data = await r.json();
+
+        if (!r.ok) {
+            errEl.textContent = data.message || '注册失败';
+            errEl.style.display = 'block';
+            return;
+        }
+
+        // 注册成功
+        successEl.textContent = '注册成功！正在返回登录界面...';
+        successEl.style.display = 'block';
+
+        // 3秒后自动返回登录界面
+        setTimeout(() => {
+            showLoginForm();
+            // 自动填充用户名
+            document.getElementById('login-username').value = username;
+            document.getElementById('login-password').value = '';
+        }, 3000);
+
+    } catch (e) {
+        errEl.textContent = '网络错误，请重试';
+        errEl.style.display = 'block';
+    }
+}
+
 // ========== API Helpers ==========
+function _handleAuth(r, retryFn) {
+    if (r.status === 401) {
+        showLogin();
+        loginRetryQueue.push(retryFn);
+        throw new Error('Authentication required');
+    }
+}
+
 async function apiGet(path) {
-    const r = await fetch(API_BASE + path);
-    if (!r.ok) throw new Error(await r.text());
-    return r.json();
+    const doFetch = async () => {
+        const r = await fetch(API_BASE + path, { credentials: 'include' });
+        if (r.status === 401) { _handleAuth(r, () => apiGet(path)); return; }
+        if (!r.ok) throw new Error(await r.text());
+        return r.json();
+    };
+    return doFetch();
 }
 
 async function apiPost(path, body) {
-    const opts = { method: 'POST', headers: { 'Content-Type': 'application/json' } };
-    if (body) opts.body = JSON.stringify(body);
-    const r = await fetch(API_BASE + path, opts);
-    if (!r.ok) throw new Error(await r.text());
-    return r.json();
+    const doFetch = async () => {
+        const opts = { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'include' };
+        if (body) opts.body = JSON.stringify(body);
+        const r = await fetch(API_BASE + path, opts);
+        if (r.status === 401) { _handleAuth(r, () => apiPost(path, body)); return; }
+        if (!r.ok) throw new Error(await r.text());
+        return r.json();
+    };
+    return doFetch();
 }
 
 async function apiDelete(path) {
-    const r = await fetch(API_BASE + path, { method: 'DELETE' });
-    if (!r.ok) throw new Error(await r.text());
-    return r.json();
+    const doFetch = async () => {
+        const r = await fetch(API_BASE + path, { method: 'DELETE', credentials: 'include' });
+        if (r.status === 401) { _handleAuth(r, () => apiDelete(path)); return; }
+        if (!r.ok) throw new Error(await r.text());
+        return r.json();
+    };
+    return doFetch();
 }
 
 async function apiPatch(path) {
-    const r = await fetch(API_BASE + path, { method: 'PATCH' });
-    if (!r.ok) throw new Error(await r.text());
-    return r.json();
+    const doFetch = async () => {
+        const r = await fetch(API_BASE + path, { method: 'PATCH', credentials: 'include' });
+        if (r.status === 401) { _handleAuth(r, () => apiPatch(path)); return; }
+        if (!r.ok) throw new Error(await r.text());
+        return r.json();
+    };
+    return doFetch();
 }
 
 // ========== Tasks ==========
@@ -715,6 +903,8 @@ async function submitTask() {
     if (!sample) { showToast('请选择样本文件', 'error'); return; }
     const btn = document.getElementById('submitBtn');
     btn.disabled = true;
+    // 先跳转任务中心，不等待后端返回
+    navigateTo('tasks');
     try {
         await apiPost('/api/tasks', { sample_filename: sample, table_name: table, rows: rows, enable_db_export: dbExport });
         showToast('任务创建成功！');
@@ -826,21 +1016,25 @@ async function uploadFile() {
     const rows = parseInt(document.getElementById('uploadRows').value) || 100;
     const table = document.getElementById('uploadTableName').value || '';
     const dbExport = document.getElementById('uploadDbExport').checked;
-    
+
     const fd = new FormData();
     fd.append('files', mainUploadedFile);
     fd.append('rows', rows);
     fd.append('table_prefix', table);
     fd.append('enable_db_export', dbExport);
-    
+
+    // 先跳转任务中心，不等待后端返回
+    navigateTo('tasks');
+    const preview = document.getElementById('uploadPreview');
+    if (preview) preview.style.display = 'none';
+    mainUploadedFile = null;
+
     try {
-        const r = await fetch(API_BASE + '/api/tasks/batch-from-files', { method: 'POST', body: fd });
+        const r = await fetch(API_BASE + '/api/tasks/batch-from-files', { method: 'POST', body: fd, credentials: 'include' });
+        if (r.status === 401) { _handleAuth(r, () => uploadFile()); return; }
         if (!r.ok) throw new Error(await r.text());
         const data = await r.json();
         showToast('任务创建成功: ' + data.message);
-        const preview = document.getElementById('uploadPreview');
-        if (preview) preview.style.display = 'none';
-        mainUploadedFile = null;
         loadTasks();
     } catch (e) { showToast('创建任务失败: ' + e.message, 'error'); }
 }
@@ -871,14 +1065,18 @@ async function submitBatch() {
     batchFiles.forEach(f => fd.append('files', f));
     fd.append('rows', rows);
     fd.append('table_prefix', prefix);
+
+    // 先跳转任务中心，不等待后端返回
+    navigateTo('tasks');
+    batchFiles = [];
+    renderBatchFiles();
+
     try {
-        const r = await fetch(API_BASE + '/api/tasks/batch-from-files', { method: 'POST', body: fd });
+        const r = await fetch(API_BASE + '/api/tasks/batch-from-files', { method: 'POST', body: fd, credentials: 'include' });
+        if (r.status === 401) { _handleAuth(r, () => batchCreateFromFiles()); return; }
         if (!r.ok) throw new Error(await r.text());
-        showToast('批量任务创建成功');
-        navigateTo('tasks');
-        batchFiles = [];
-        renderBatchFiles();
-    } catch (e) { showToast('批量创建失败: ' + e.message, 'error'); }
+        showToast('任务创建成功');
+    } catch (e) { showToast('任务创建失败: ' + e.message, 'error'); }
 }
 
 // ========== Schedules ==========
@@ -1205,6 +1403,9 @@ async function generateFromSchema() {
     const rows = parseInt(document.getElementById('schemaRows').value) || 100;
     const output = document.getElementById('schemaOutput').value;
 
+    // 先跳转任务中心，不等待后端返回
+    navigateTo('tasks');
+
     let successCount = 0;
     for (const table of selectedSchemaTables) {
         try {
@@ -1214,9 +1415,8 @@ async function generateFromSchema() {
             console.error(`生成表 ${table.name} 失败:`, e);
         }
     }
-    
+
     showToast(`成功创建 ${successCount}/${selectedSchemaTables.length} 个任务`);
-    navigateTo('tasks');
 }
 
 // ========== Templates ==========
@@ -1392,11 +1592,534 @@ function renderMonitorCharts(statusDist, dailyCounts) {
     }
 }
 
+// ========== Metrics Display ==========
+async function loadMetrics() {
+    const container = document.getElementById('metricsDisplay');
+    if (!container) return;
+    try {
+        const health = await apiGet('/api/health');
+        renderMetrics(health);
+    } catch (e) {
+        console.error('loadMetrics failed:', e);
+        container.innerHTML = '<p style="text-align:center;color:#ef4444;padding:20px;">加载指标失败: ' + (e.message || '网络错误') + '</p>';
+    }
+}
+
+function renderMetrics(health) {
+    const container = document.getElementById('metricsDisplay');
+    if (!container) return;
+
+    const data = health.metrics || {};
+    const exec = health.executor || {};
+    const counters = data.counters || {};
+    const gauges = data.gauges || {};
+    const histograms = data.histograms || {};
+
+    // ---- Row 1: executor runtime status (always available) ----
+    let html = '<div class="grid-3" style="margin-bottom:12px;">';
+    html += `<div class="glass-card stat-card" style="padding:12px;">
+        <div class="stat-label" style="font-size:12px;">⚡ 队列等待</div>
+        <div class="stat-value" style="font-size:24px;">${exec.queue_size ?? '-'}</div>
+    </div>`;
+    html += `<div class="glass-card stat-card" style="padding:12px;">
+        <div class="stat-label" style="font-size:12px;">🔄 执行中</div>
+        <div class="stat-value" style="font-size:24px;">${exec.active ?? '-'}</div>
+    </div>`;
+    html += `<div class="glass-card stat-card" style="padding:12px;">
+        <div class="stat-label" style="font-size:12px;">🔧 最大并发</div>
+        <div class="stat-value" style="font-size:24px;">${exec.max_concurrent ?? '-'}</div>
+    </div>`;
+    html += '</div>';
+
+    // ---- Row 2: runtime counters (accumulate after task processing) ----
+    const counterEntries = Object.entries(counters);
+    const gaugeEntries = Object.entries(gauges);
+    const histEntries = Object.entries(histograms);
+    const totalItems = counterEntries.length + gaugeEntries.length + histEntries.length;
+
+    if (totalItems > 0) {
+        html += '<div style="max-height:260px;overflow-y:auto;"><table class="tech-table"><thead><tr><th>类型</th><th>指标名称</th><th>值</th></tr></thead><tbody>';
+
+        for (const [name, value] of counterEntries) {
+            const label = COUNTER_LABELS[name] || name;
+            html += `<tr><td>📊 计数器</td><td style="font-family:monospace;font-size:13px;">${label}</td><td style="font-size:12px;">${value}</td></tr>`;
+        }
+        for (const [name, value] of gaugeEntries) {
+            const label = GAUGE_LABELS[name] || name;
+            html += `<tr><td>📏 仪表</td><td style="font-family:monospace;font-size:13px;">${label}</td><td style="font-size:12px;">${typeof value === 'number' ? value.toFixed(1) : value}</td></tr>`;
+        }
+        for (const [name, summary] of histEntries) {
+            const s = summary || {};
+            const label = HIST_LABELS[name] || name;
+            const display = `count=${s.count || 0}  avg=${(s.avg || 0).toFixed(2)}s  min=${(s.min || 0).toFixed(2)}s  max=${(s.max || 0).toFixed(2)}s`;
+            html += `<tr><td>⏱️ 耗时</td><td style="font-family:monospace;font-size:13px;">${label}</td><td style="font-size:12px;">${display}</td></tr>`;
+        }
+
+        html += '</tbody></table></div>';
+    } else {
+        html += '<p style="text-align:center;color:var(--text-muted);padding:16px;font-size:13px;">📋 运行时指标暂无数据 — 创建并执行任务后将自动采集</p>';
+    }
+
+    container.innerHTML = html;
+}
+
+// Human-readable labels for metric names
+const COUNTER_LABELS = {
+    tasks_started: '任务启动次数',
+    tasks_completed: '任务完成次数',
+    tasks_failed: '任务失败次数',
+    tasks_cancelled: '任务取消次数',
+    tasks_created: '任务创建次数',
+    rows_generated: '累计生成行数',
+    db_exports: '数据库导出次数',
+};
+
+const GAUGE_LABELS = {
+    active_tasks: '当前执行中任务数',
+};
+
+const HIST_LABELS = {
+    generation_duration: '数据生成耗时',
+    db_export_duration: '数据库导出耗时',
+    csv_export_duration: 'CSV 导出耗时',
+};
+
+// ========== Audit Logs ==========
+async function loadAuditLogs() {
+    const filter = document.getElementById('auditEventFilter')?.value || '';
+    const container = document.getElementById('auditLogList');
+    if (!container) return;
+
+    try {
+        let path = '/api/audit/logs?limit=100';
+        if (filter) path += '&event=' + filter;
+        const data = await apiGet(path);
+        renderAuditLogs(data.entries || []);
+    } catch (e) {
+        console.error('loadAuditLogs failed:', e);
+        container.innerHTML = '<p style="text-align:center;color:#ef4444;padding:20px;">加载审计日志失败: ' + (e.message || '网络错误') + '</p>';
+    }
+}
+
+function renderAuditLogs(entries) {
+    const container = document.getElementById('auditLogList');
+    if (!container) return;
+
+    if (!entries.length) {
+        container.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px;">暂无审计日志</p>';
+        return;
+    }
+
+    const eventLabels = {
+        login_success: { text: '✅ 登录成功', cls: 'completed' },
+        login_failure: { text: '❌ 登录失败', cls: 'failed' },
+        logout: { text: '🚪 退出登录', cls: 'cancelled' },
+        session_revoked: { text: '🔒 会话撤销', cls: 'pending' },
+        task_generated: { text: '📊 任务生成', cls: 'running' },
+    };
+
+    let html = '<table class="tech-table"><thead><tr><th>时间</th><th>事件</th><th>用户</th><th>详情</th></tr></thead><tbody>';
+    entries.forEach(e => {
+        const label = eventLabels[e.event] || { text: e.event, cls: 'pending' };
+        const ts = e.ts ? new Date(e.ts).toLocaleString() : '-';
+
+        // Build detail summary based on event type
+        let detail = '';
+        if (e.event === 'login_failure') {
+            detail = `原因: ${e.reason || 'unknown'}`;
+        } else if (e.event === 'task_generated') {
+            const sample = (e.sample || '').split('/').pop();
+            detail = `样本: ${sample || '-'} → ${e.table || '-'}, ${e.rows || 0} 行`;
+            if (e.task_id) detail += ` (ID: ${e.task_id.slice(0, 8)})`;
+        } else {
+            detail = e.remote_addr ? `IP: ${e.remote_addr}` : '';
+        }
+
+        html += `<tr>
+            <td style="font-size:12px;">${ts}</td>
+            <td><span class="status-indicator ${label.cls}"></span>${label.text}</td>
+            <td>${e.user || 'anonymous'}</td>
+            <td style="font-size:12px;">${detail}</td>
+        </tr>`;
+    });
+    html += '</tbody></table>';
+    container.innerHTML = html;
+}
+
+// ========== Dynamic File Accept (sync with backend registry) ==========
+async function initFileAccept() {
+    try {
+        const { formats } = await apiGet('/api/sample/readers/formats');
+        if (!Array.isArray(formats) || formats.length === 0) return;
+        const accept = formats.join(',');
+        const hint = '支持 ' + formats.map(f => f.toUpperCase().replace('.', '')).join(', ') + ' 格式';
+
+        const sampleInput = document.getElementById('sampleFileInput');
+        const sampleHint = document.getElementById('sampleAcceptHint');
+        if (sampleInput) sampleInput.accept = accept;
+        if (sampleHint) sampleHint.textContent = hint;
+
+        const batchInput = document.getElementById('batchFileInput');
+        const batchHint = document.getElementById('batchAcceptHint');
+        if (batchInput) batchInput.accept = accept;
+        if (batchHint) batchHint.textContent = hint;
+    } catch (e) {
+        console.warn('Failed to sync file accept formats:', e);
+    }
+}
+
+// ========== Plugin Page ==========
+async function loadPlugins() {
+    try {
+        const { formats } = await apiGet('/api/sample/readers/formats');
+        const container = document.getElementById('pluginReaderList');
+        if (!container) return;
+        if (!Array.isArray(formats) || formats.length === 0) {
+            container.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:20px;">暂无已安装 Reader 插件</p>';
+            return;
+        }
+        let html = '';
+        formats.forEach(fmt => {
+            html += `<div class="sample-item" style="margin-bottom:8px;">
+                <div class="sample-info">
+                    <span class="sample-name">${fmt}</span>
+                    <span class="sample-meta">已注册</span>
+                </div>
+            </div>`;
+        });
+        container.innerHTML = html;
+    } catch (e) {
+        const container = document.getElementById('pluginReaderList');
+        if (container) container.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:20px;">加载失败: ' + e.message + '</p>';
+    }
+}
+
+// ========== Codegen Panel ==========
+let codegenSampleSnippet = '';
+let codegenSampleFileName = '';
+
+function handleCodegenFileSelect(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    const info = document.getElementById('codegenFileInfo');
+    if (file.size > 1024 * 1024) {
+        info.textContent = '文件过大，将只读取前 2KB 作为参考';
+    } else {
+        info.textContent = '已选择: ' + file.name;
+    }
+    const reader = new FileReader();
+    reader.onload = function(ev) {
+        // Read first 2KB as text (truncate if needed)
+        const text = ev.target.result;
+        codegenSampleSnippet = text.slice(0, 2048);
+        codegenSampleFileName = file.name;
+        info.textContent = '已读取 ' + codegenSampleSnippet.length + ' 字节: ' + file.name;
+    };
+    reader.onerror = function() {
+        info.textContent = '读取失败';
+        showToast('样本文件读取失败', 'error');
+    };
+    reader.readAsText(file.slice(0, 2048));
+}
+
+async function generateReader() {
+    const suffix = document.getElementById('codegenSuffix').value.trim();
+    const description = document.getElementById('codegenDesc').value.trim();
+    const strategy = document.getElementById('codegenStrategy').value.trim();
+
+    if (!suffix) { showToast('请输入文件后缀', 'error'); return; }
+
+    const btn = event.target;
+    const originalText = btn.textContent;
+    btn.textContent = '生成中...';
+    btn.disabled = true;
+
+    try {
+        const data = await apiPost('/api/sample/readers/generate', {
+            suffix,
+            description,
+            strategy,
+            sample_snippet: codegenSampleSnippet
+        });
+
+        const resultDiv = document.getElementById('codegenResult');
+        const msgP = document.getElementById('codegenMsg');
+        const codePre = document.getElementById('codegenCode');
+
+        msgP.innerHTML = `插件已生成并安装到 <code>${data.installed_path}</code><br>当前支持格式: <b>${data.supported_formats.join(', ')}</b>`;
+        codePre.textContent = data.generated_code;
+        resultDiv.style.display = 'block';
+
+        // 刷新前端 accept 和提示
+        await initFileAccept();
+        showToast('Reader 插件生成成功！');
+    } catch (e) {
+        showToast('生成失败: ' + e.message, 'error');
+    } finally {
+        btn.textContent = originalText;
+        btn.disabled = false;
+    }
+}
+
+// ========== Engine Page ==========
+let engineData = null;
+let engineCharts = {};
+
+async function loadEnginePage() {
+    // Load sample list into the select
+    try {
+        const data = await apiGet('/api/samples');
+        const samples = data.samples || [];
+        const sel = document.getElementById('engineSample');
+        sel.innerHTML = '<option value="">-- 选择样本文件分析 --</option>' +
+            samples.map(s => `<option value="${s.path}">${s.name}</option>`).join('');
+    } catch (e) {
+        console.error('Load samples for engine failed', e);
+    }
+    // Load engine system status
+    loadEngineStatus();
+}
+
+async function loadEngineStatus() {
+    try {
+        const data = await apiGet('/api/engine/status');
+        renderEngineStatus(data);
+    } catch (e) {
+        document.getElementById('engineSysStatus').innerHTML =
+            '<p style="opacity:0.5;">引擎状态不可用: ' + e.message + '</p>';
+    }
+}
+
+function renderEngineStatus(status) {
+    const el = document.getElementById('engineSysStatus');
+    const modelNames = (status.models || []).map(m =>
+        `${m.name} ${m.enabled ? '✅' : '⛔'}`
+    ).join(', ') || '无';
+    el.innerHTML = `
+        <p><strong>活跃模型:</strong> <span style="color:#22c55e;">${status.working_model || '未探测'}</span></p>
+        <p><strong>模型池:</strong> ${modelNames}</p>
+        <p><strong>规则库:</strong> ${status.rules_count} 条规则 (${status.rules_file})</p>
+        <p><strong>向量库 rules:</strong> ${status.rag_rules_count} 条 | <strong>samples:</strong> ${status.rag_samples_count} 条</p>
+        <p><strong>缓存:</strong> ${status.cache_size} / ${status.cache_maxsize}</p>
+    `;
+}
+
+async function runEngineAnalyze() {
+    const sampleFile = document.getElementById('engineSample').value;
+    if (!sampleFile) {
+        showToast('请先选择样本文件', 'error');
+        return;
+    }
+    const btn = document.getElementById('engineAnalyzeBtn');
+    const originalText = btn.textContent;
+    btn.textContent = '分析中...';
+    btn.disabled = true;
+    document.getElementById('engineLoading').style.display = 'block';
+    document.getElementById('engineResults').style.display = 'none';
+
+    try {
+        const data = await apiPost('/api/engine/analyze', { sample_file: sampleFile });
+        engineData = data;
+        renderEngineResults(data);
+        document.getElementById('engineLoading').style.display = 'none';
+        document.getElementById('engineResults').style.display = 'block';
+        document.getElementById('engineStatusBadge').textContent =
+            `分析完成: ${data.columns.length} 列, ${data.row_count} 行`;
+    } catch (e) {
+        document.getElementById('engineLoading').style.display = 'none';
+        showToast('分析失败: ' + e.message, 'error');
+    } finally {
+        btn.textContent = originalText;
+        btn.disabled = false;
+    }
+}
+
+function renderEngineResults(data) {
+    renderResolutionChart(data.resolution);
+    renderFieldStrategyTable(data.fields);
+    renderCoherenceLinks(data.coherence_links);
+    renderConstraints(data.constraints);
+    renderDistributions(data.fields);
+    renderRagMatches(data.rag_matches);
+    document.getElementById('engineSQL').textContent = data.create_table_sql || '-- 无';
+    document.getElementById('fieldCount').textContent = `共 ${data.fields.length} 个字段`;
+}
+
+// -- Resolution pipeline chart --
+function renderResolutionChart(res) {
+    const ctx = document.getElementById('resolutionChart');
+    if (!ctx) return;
+    if (engineCharts.resolution) engineCharts.resolution.destroy();
+    engineCharts.resolution = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['规则库命中', 'RAG检索', 'LLM解析', '引擎兜底'],
+            datasets: [{
+                data: [res.rule_store_hits, res.rag_hits, res.llm_resolved, res.fallback_resolved],
+                backgroundColor: ['#22c55e', '#3b82f6', '#f59e0b', '#6b7280'],
+                borderWidth: 0,
+            }],
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+            },
+        },
+    });
+    const legend = document.getElementById('resolutionLegend');
+    const total = res.total_columns || 1;
+    legend.innerHTML = `
+        <span style="color:#22c55e;">● 规则库 ${res.rule_store_hits}</span>
+        <span style="color:#3b82f6;">● RAG ${res.rag_hits}</span>
+        <span style="color:#f59e0b;">● LLM ${res.llm_resolved}</span>
+        <span style="color:#6b7280;">● 兜底 ${res.fallback_resolved}</span>
+        <span style="opacity:0.5;margin-left:8px;">${res.llm_used ? 'LLM: ' + (res.model_used || '?') : '未使用LLM'}</span>
+    `;
+}
+
+// -- Field strategy table --
+function renderFieldStrategyTable(fields) {
+    const tbody = document.getElementById('fieldStrategyBody');
+    const layerColors = {
+        'empty': '#6b7280', 'identity': '#8b5cf6', 'cn_identifier': '#ef4444',
+        'datetime': '#06b6d4', 'boolean': '#84cc16', 'numeric': '#f59e0b',
+        'faker': '#ec4899', 'entity': '#f97316', 'template': '#14b8a6',
+        'enum': '#22c55e', 'markov': '#3b82f6', 'heuristic': '#a855f7',
+        'fallback': '#6b7280',
+    };
+    let html = '';
+    fields.forEach(f => {
+        const color = layerColors[f.strategy_layer] || '#6b7280';
+        const badge = `<span style="background:${color};color:#fff;padding:2px 8px;border-radius:10px;font-size:11px;">${f.strategy_layer}</span>`;
+        const semColor = f.confidence > 0.7 ? '#22c55e' : f.confidence > 0.4 ? '#f59e0b' : '#6b7280';
+        let extras = '';
+        if (f.enum_values && f.enum_values.length) {
+            extras = `<span style="font-size:11px;opacity:0.7;">枚举 ${f.enum_values.length}个</span>`;
+        } else if (f.has_value_pool) {
+            extras = `<span style="font-size:11px;opacity:0.7;">值池 ${f.value_pool_size}条</span>`;
+        } else if (f.distribution) {
+            extras = `<span style="font-size:11px;opacity:0.7;">分布:${f.distribution.type}</span>`;
+        }
+        html += `<tr>
+            <td><strong>${f.name}</strong>${f.nullable ? '' : ' <span style="color:#ef4444;">*</span>'}</td>
+            <td>${f.sql_type}</td>
+            <td style="color:${semColor};">${f.semantic}</td>
+            <td style="color:${semColor};">${(f.confidence * 100).toFixed(0)}%</td>
+            <td>${badge}</td>
+            <td style="font-size:12px;opacity:0.8;">${f.strategy_desc}</td>
+            <td>${extras}</td>
+        </tr>`;
+    });
+    tbody.innerHTML = html;
+}
+
+// -- Coherence links --
+function renderCoherenceLinks(links) {
+    const el = document.getElementById('coherenceContent');
+    if (!links || !links.length) {
+        el.innerHTML = '<p style="opacity:0.5;">无跨字段关联</p>';
+        return;
+    }
+    const catColors = {
+        'identity': '#ef4444', 'region': '#3b82f6', 'postal': '#f59e0b',
+        'credit': '#14b8a6', 'bank': '#a855f7',
+    };
+    let html = '';
+    links.forEach(l => {
+        const color = catColors[l.category] || '#6b7280';
+        html += `<div style="padding:8px 12px;margin-bottom:8px;background:${color}15;border-left:3px solid ${color};border-radius:4px;">
+            <p style="font-weight:600;margin-bottom:4px;">${l.description}</p>
+            <p style="font-size:12px;opacity:0.7;">${l.fields.join(' ⇄ ')}</p>
+        </div>`;
+    });
+    el.innerHTML = html;
+}
+
+// -- Constraints --
+function renderConstraints(constraints) {
+    const el = document.getElementById('constraintsContent');
+    if (!constraints || !constraints.length) {
+        el.innerHTML = '<p style="opacity:0.5;">无约束规则</p>';
+        return;
+    }
+    let html = '';
+    constraints.forEach(c => {
+        const color = c.confidence > 0.8 ? '#22c55e' : c.confidence > 0.5 ? '#f59e0b' : '#6b7280';
+        html += `<div style="padding:6px 12px;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;">
+            <span style="font-family:monospace;font-size:14px;">${c.expression}</span>
+            <span style="font-size:11px;color:${color};">${(c.confidence * 100).toFixed(0)}%</span>
+        </div>`;
+    });
+    el.innerHTML = html;
+}
+
+// -- Distributions --
+function renderDistributions(fields) {
+    const card = document.getElementById('distributionCard');
+    const el = document.getElementById('distributionContent');
+    const distFields = fields.filter(f => f.distribution);
+    if (!distFields.length) {
+        card.style.display = 'none';
+        return;
+    }
+    card.style.display = 'block';
+    let html = '<div style="display:flex;flex-wrap:wrap;gap:12px;">';
+    distFields.forEach(f => {
+        const d = f.distribution;
+        const params = Object.entries(d.params || {}).map(([k, v]) => `${k}=${typeof v === 'number' ? v.toFixed(4) : v}`).join(', ');
+        html += `<div style="flex:1;min-width:180px;padding:12px;background:rgba(59,130,246,0.08);border:1px solid rgba(59,130,246,0.2);border-radius:8px;">
+            <p style="font-weight:600;">${f.name}</p>
+            <p style="font-size:13px;opacity:0.8;">类型: <strong>${d.type}</strong></p>
+            <p style="font-size:12px;opacity:0.6;">${params}</p>
+            <p style="font-size:11px;opacity:0.5;">拟合优度: ${(d.goodness_of_fit * 100).toFixed(1)}%</p>
+            <p style="font-size:11px;opacity:0.5;">范围: ${f.min_value} ~ ${f.max_value}</p>
+        </div>`;
+    });
+    html += '</div>';
+    el.innerHTML = html;
+}
+
+// -- RAG matches --
+function renderRagMatches(matches) {
+    const card = document.getElementById('ragCard');
+    const el = document.getElementById('ragContent');
+    if (!matches || !matches.length) {
+        card.style.display = 'none';
+        return;
+    }
+    card.style.display = 'block';
+    let html = '';
+    matches.forEach(m => {
+        const color = m.confidence > 0.8 ? '#22c55e' : m.confidence > 0.5 ? '#f59e0b' : '#6b7280';
+        html += `<div style="padding:8px 12px;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;">
+            <div>
+                <span style="font-weight:600;">${m.column}</span>
+                <span style="opacity:0.5;"> → </span>
+                <span style="color:#3b82f6;">${m.matched_rule}</span>
+                <span style="font-size:12px;opacity:0.6;"> (${m.matched_semantic})</span>
+            </div>
+            <div style="text-align:right;">
+                <span style="font-size:12px;color:${color};">${(m.confidence * 100).toFixed(1)}%</span>
+                <span style="font-size:11px;opacity:0.4;margin-left:6px;">dist: ${m.distance.toFixed(3)}</span>
+            </div>
+        </div>`;
+    });
+    el.innerHTML = html;
+}
+
 // ========== Init ==========
 document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     createParticles();
     initCardTilt();
+    checkAuth();
     loadSamples();
+    initFileAccept();
     connectWS();
+});
+
+document.getElementById('login-password')?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') doLogin();
 });

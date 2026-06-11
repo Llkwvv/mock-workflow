@@ -1,0 +1,152 @@
+{
+  "file_name": "微山县校园周边食品安全监管网格员信息202508010207.xlsx",
+  "table_name": "微山县校园周边食品安全监管网格员信息202508010207",
+  "row_count": 40,
+  "columns": [
+    "zw",
+    "zjsabgzryxm",
+    "ryzw",
+    "xsq",
+    "jgscjgsqc",
+    "jgscjgswgyxm"
+  ],
+  "fields": [
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "所长",
+        "工作人员",
+        "副所长"
+      ],
+      "value_pool": [
+        "所长",
+        "工作人员",
+        "副所长"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjsabgzryxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "白**",
+        "母**",
+        "徐**",
+        "李*",
+        "侯**",
+        "潘**",
+        "刘**",
+        "陈**",
+        "朱*",
+        "董**",
+        "王**",
+        "宁**",
+        "赵**",
+        "靳**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ryzw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "镇街食安办工作人员",
+        "镇街食安办工作人员2024"
+      ],
+      "value_pool": [
+        "镇街食安办工作人员",
+        "镇街食安办工作人员2024"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县"
+      ],
+      "value_pool": [
+        "微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgscjgsqc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "韩庄市场监管所",
+        "昭阳市场监管所",
+        "夏镇第一市场监管所",
+        "夏镇第二市场监管所",
+        "欢城市场监管所",
+        "留庄市场监管所",
+        "两城市场监管所",
+        "鲁桥市场监管所",
+        "马坡市场监管所",
+        "南阳市场监管所",
+        "张楼市场监管所",
+        "西平市场监管所",
+        "赵庙市场监管所",
+        "高楼市场监管所",
+        "开发区市场监管所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgscjgswgyxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "朱**",
+        "王**",
+        "李*",
+        "张*",
+        "邵**",
+        "张**",
+        "郭*",
+        "苏**",
+        "陈*",
+        "段**",
+        "孙*",
+        "曹**",
+        "陈**",
+        "马**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

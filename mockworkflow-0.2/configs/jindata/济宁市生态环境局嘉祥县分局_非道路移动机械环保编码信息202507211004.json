@@ -1,0 +1,84 @@
+{
+  "file_name": "济宁市生态环境局嘉祥县分局_非道路移动机械环保编码信息202507211004.xlsx",
+  "table_name": "济宁市生态环境局嘉祥县分局_非道路移动机械环保编码信息202507211004",
+  "row_count": 1,
+  "columns": [
+    "jxszwz",
+    "hbbh",
+    "syrhdwmz",
+    "zgdw",
+    "bah"
+  ],
+  "fields": [
+    {
+      "name": "jxszwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "180****6666"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hbbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "3-FHK04708"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "syrhdwmz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东华阳专用车辆有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市生态环境局嘉祥县分局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bah",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "397489"
+      ],
+      "min_value": 397489.0,
+      "max_value": 397489.0
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "file_name": "鱼台县交通运输局_学校_幼儿园减速带_标牌验收信息202506241217.xlsx",
+  "table_name": "鱼台县交通运输局_学校_幼儿园减速带_标牌验收信息202506241217",
+  "row_count": 23,
+  "columns": [
+    "wz",
+    "bzpgg",
+    "bzpts",
+    "jsdcdtsm",
+    "dwmc"
+  ],
+  "fields": [
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "张黄镇武台村",
+        "张黄镇十字街北200米",
+        "王鲁镇政府驻地",
+        "皮李公路旧城桥南200米",
+        "老砦镇双河村",
+        "罗屯镇政府驻地",
+        "罗屯镇苗村",
+        "罗屯镇大闫村",
+        "罗屯镇沈庄村",
+        "罗屯镇沈集村",
+        "罗屯镇赵楼村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzpgg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "单柱式标牌（1200*600 ）"
+      ],
+      "value_pool": [
+        "单柱式标牌（1200*600 ）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzpts",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2",
+        "2套"
+      ],
+      "value_pool": [
+        "2",
+        "2套"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jsdcdtsm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "60(15*4)",
+        "40(10*4)",
+        "68(17*4)",
+        "24(6*4)",
+        "30(7.5*4)",
+        "16(14*4)",
+        "26(6.5*4)",
+        "28.5(3*5+3*4.5)",
+        "10.5(3.5*3)",
+        "6(3*2)",
+        "16(4*4)",
+        "17.5(2.5*7)",
+        "7(3.5*2)",
+        "21(3.5*6)",
+        "12(3*4)"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "张黄镇武台中学",
+        "张黄镇中心幼儿园",
+        "张黄镇武台新苗幼儿园",
+        "鱼台县王鲁中心中学",
+        "鱼台县王庙镇旧城小学",
+        "老砦镇中心小学",
+        "罗屯镇中心小学",
+        "罗屯镇中心中学",
+        "苗村小学及幼儿园",
+        "中心幼儿园",
+        "罗屯幼儿园",
+        "金太阳幼儿园",
+        "东方红金色摇篮幼儿园",
+        "大闫小学及幼儿园",
+        "智多星幼儿园",
+        "沈庄小学",
+        "爱德堡幼儿园`",
+        "沈集小学",
+        "沈集小学附属幼儿园",
+        "赵楼小学附属幼儿园"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

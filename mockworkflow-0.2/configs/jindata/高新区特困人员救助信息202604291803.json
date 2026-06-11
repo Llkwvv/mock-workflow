@@ -1,0 +1,180 @@
+{
+  "file_name": "高新区特困人员救助信息202604291803.xlsx",
+  "table_name": "高新区特困人员救助信息202604291803",
+  "row_count": 8,
+  "columns": [
+    "jd",
+    "xb",
+    "xsq",
+    "mz",
+    "姓名",
+    "c",
+    "jbshbztk",
+    "dbtkzh",
+    "zlhlfytk"
+  ],
+  "fields": [
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "柳行街道",
+        "王因街道"
+      ],
+      "value_pool": [
+        "柳行街道",
+        "王因街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉族"
+      ],
+      "value_pool": [
+        "汉族"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "夏**",
+        "张**",
+        "胡**",
+        "程**",
+        "赵**",
+        "李**",
+        "齐**",
+        "谢**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "c",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "卞厂村",
+        "皇桥村",
+        "南营村",
+        "许厂村",
+        "河口村",
+        "寺上村",
+        "齐家村",
+        "官庄村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jbshbztk",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "969"
+      ],
+      "value_pool": [
+        "969"
+      ],
+      "min_value": 969.0,
+      "max_value": 969.0
+    },
+    {
+      "name": "dbtkzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "T370************532",
+        "T370************517",
+        "T370************51X",
+        "T370*************12",
+        "T370************616",
+        "T370************613",
+        "T370************650"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zlhlfytk",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "211",
+        "351"
+      ],
+      "value_pool": [
+        "211",
+        "351"
+      ],
+      "min_value": 211.0,
+      "max_value": 351.0
+    }
+  ]
+}

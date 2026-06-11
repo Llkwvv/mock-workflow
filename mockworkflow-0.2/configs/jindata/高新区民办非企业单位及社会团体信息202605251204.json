@@ -1,0 +1,174 @@
+{
+  "file_name": "高新区民办非企业单位及社会团体信息202605251204.xlsx",
+  "table_name": "高新区民办非企业单位及社会团体信息202605251204",
+  "row_count": 2,
+  "columns": [
+    "mzfl",
+    "dwlb",
+    "djsj",
+    "dwszdxzqhdm",
+    "dz",
+    "fddbr",
+    "hyfl",
+    "tyshxydm",
+    "qh",
+    "dwmc"
+  ],
+  "fields": [
+    {
+      "name": "mzfl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2"
+      ],
+      "value_pool": [
+        "2"
+      ],
+      "min_value": 2.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "dwlb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "42"
+      ],
+      "value_pool": [
+        "42"
+      ],
+      "min_value": 42.0,
+      "max_value": 42.0
+    },
+    {
+      "name": "djsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-12-20",
+        "2025-05-29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwszdxzqhdm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370890"
+      ],
+      "value_pool": [
+        "370890"
+      ],
+      "min_value": 370890.0,
+      "max_value": 370890.0
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市高新区崇文大道431号山东英特力工业园服务支撑配套区商务中心东区1-3层",
+        "济宁高新区九九大道北、东外环路西（崇文名都小区）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fddbr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘守标",
+        "李桂芹"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyfl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "8200"
+      ],
+      "value_pool": [
+        "8200"
+      ],
+      "min_value": 8200.0,
+      "max_value": 8200.0
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370800MA3URRCD3A",
+        "52370890MJE565962K"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370890999000"
+      ],
+      "value_pool": [
+        "370890999000"
+      ],
+      "min_value": 370890999000.0,
+      "max_value": 370890999000.0
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区英特力华杉幼儿园有限公司",
+        "济宁高新区贝享崇文幼儿园"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "file_name": "鱼台县档案馆_档案初级职称评审通过人员名单信息202508010140.xlsx",
+  "table_name": "鱼台县档案馆_档案初级职称评审通过人员名单信息202508010140",
+  "row_count": 27,
+  "columns": [
+    "姓名",
+    "njszyjszw",
+    "psyjxl",
+    "gzdw",
+    "cszy"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "何**",
+        "张**",
+        "胡**",
+        "杨**",
+        "闵**",
+        "马**",
+        "李**",
+        "刘**",
+        "屈**",
+        "卞**",
+        "于**",
+        "宋**",
+        "董**",
+        "殷**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "njszyjszw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "助理馆员",
+        "管理员"
+      ],
+      "value_pool": [
+        "助理馆员",
+        "管理员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "psyjxl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "大学",
+        "大专",
+        "中专"
+      ],
+      "value_pool": [
+        "大学",
+        "大专",
+        "中专"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东济宁圣地电业集团有限公司鱼台圣宏电力安装分公司",
+        "山东双合煤矿有限公司",
+        "山东鱼台经济开发区管理委员会",
+        "鱼台县老年大学",
+        "鱼台县谷亭街道为民服务中心",
+        "鱼台县建筑设计院（合同制）",
+        "鱼台县城市管理服务中心",
+        "鱼台县妇幼保健计划生育服务中心",
+        "鱼台县就业办公室",
+        "鱼台县李阁镇财经服务中心",
+        "鱼台县李阁镇为民服务中心",
+        "鱼台县农产品质量安全服务中心",
+        "鱼台县金融发展服务中心",
+        "鱼台县经济责任审计事务中心",
+        "鱼台县唐马镇社会公共服务中心",
+        "鱼台县档案馆",
+        "鱼台县市场监管综合执法大队",
+        "金乡县崇胜人力资源开发有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cszy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "档案管理"
+      ],
+      "value_pool": [
+        "档案管理"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

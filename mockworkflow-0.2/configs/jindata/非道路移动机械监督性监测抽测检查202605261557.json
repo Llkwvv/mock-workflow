@@ -1,0 +1,99 @@
+{
+  "file_name": "非道路移动机械监督性监测抽测检查202605261557.xlsx",
+  "table_name": "非道路移动机械监督性监测抽测检查202605261557",
+  "row_count": 1,
+  "columns": [
+    "dd",
+    "xh",
+    "sj",
+    "sfhg",
+    "jcjx",
+    "jcgs"
+  ],
+  "fields": [
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "微山"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "40"
+      ],
+      "min_value": 40.0,
+      "max_value": 40.0
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2023-06-12"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfhg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "环4-FHE**579"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东沃蓝检验检测有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

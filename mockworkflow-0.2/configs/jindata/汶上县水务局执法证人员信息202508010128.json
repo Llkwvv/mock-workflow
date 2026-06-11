@@ -1,0 +1,189 @@
+{
+  "file_name": "汶上县水务局执法证人员信息202508010128.xlsx",
+  "table_name": "汶上县水务局执法证人员信息202508010128",
+  "row_count": 47,
+  "columns": [
+    "zfqy",
+    "xb",
+    "zfzh",
+    "姓名",
+    "zjyxq",
+    "gzdw"
+  ],
+  "fields": [
+    {
+      "name": "zfqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "150****8071",
+        "150****8012",
+        "150****8029",
+        "150****8037",
+        "150****8053",
+        "150****8054",
+        "150****8035",
+        "150****8050",
+        "150****8042",
+        "150****8069",
+        "150****8001",
+        "150****8008",
+        "150****8006",
+        "150****8009",
+        "150****8061",
+        "150****8066",
+        "150****8063",
+        "150****8020",
+        "150****8039",
+        "150****8048",
+        "150****8074",
+        "150****8052",
+        "150****8024",
+        "150****8004",
+        "150****8067",
+        "150****8002",
+        "150****8064",
+        "150****8032",
+        "150****8070",
+        "150****8060",
+        "150****8030",
+        "150****8018",
+        "150****8019",
+        "150****8046",
+        "150****8036",
+        "150****8013",
+        "150****8017",
+        "150****8057",
+        "150****8055",
+        "150****8058",
+        "150****8065",
+        "150****8011",
+        "150****8051",
+        "150****8033",
+        "150****8022",
+        "150****8075",
+        "150****8034"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "刘*",
+        "徐**",
+        "杨**",
+        "赵**",
+        "辛**",
+        "束**",
+        "苑**",
+        "王*",
+        "于*",
+        "伊**",
+        "刘**",
+        "韦**",
+        "邢*",
+        "高*",
+        "孙**",
+        "林**",
+        "李**",
+        "谷**",
+        "张**",
+        "井**",
+        "何**",
+        "于**",
+        "黄*",
+        "曹**",
+        "郭**",
+        "姬*",
+        "孔**",
+        "姜**",
+        "邱**",
+        "辛*",
+        "谭**",
+        "魏**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjyxq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022-06-30",
+        "2023-06-30"
+      ],
+      "value_pool": [
+        "2022-06-30",
+        "2023-06-30"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "汶上县水务局"
+      ],
+      "value_pool": [
+        "汶上县水务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

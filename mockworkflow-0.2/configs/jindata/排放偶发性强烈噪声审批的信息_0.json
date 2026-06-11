@@ -1,0 +1,130 @@
+{
+  "file_name": "排放偶发性强烈噪声审批的信息_0.csv",
+  "table_name": "排放偶发性强烈噪声审批的信息_0",
+  "row_count": 20,
+  "columns": [
+    "sldw",
+    "slsj",
+    "bjsj",
+    "sqrhdw",
+    "bjmc"
+  ],
+  "fields": [
+    {
+      "name": "sldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "市中公安分局",
+        "任城公安分局"
+      ],
+      "value_pool": [
+        "市中公安分局",
+        "任城公安分局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:00:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:00:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:03:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:03:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrhdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "孙卫东",
+        "潘东",
+        "崔健",
+        "王秀夏",
+        "吴文学",
+        "徐慧婧",
+        "徐妍君",
+        "薛忠情",
+        "于风真",
+        "于海泉",
+        "管芹宇",
+        "郭聪聪",
+        "韩露",
+        "刘妍",
+        "李彦",
+        "文辉",
+        "杨奎",
+        "陈明建",
+        "董晴",
+        "窦星刚"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "关于孙卫东排放偶发性强烈噪声审批的业务",
+        "关于潘东排放偶发性强烈噪声审批的业务",
+        "关于崔健排放偶发性强烈噪声审批的业务",
+        "关于王秀夏排放偶发性强烈噪声审批的业务",
+        "关于吴文学排放偶发性强烈噪声审批的业务",
+        "关于徐慧婧排放偶发性强烈噪声审批的业务",
+        "关于徐妍君排放偶发性强烈噪声审批的业务",
+        "关于薛忠情排放偶发性强烈噪声审批的业务",
+        "关于于风真排放偶发性强烈噪声审批的业务",
+        "关于于海泉排放偶发性强烈噪声审批的业务",
+        "关于管芹宇排放偶发性强烈噪声审批的业务",
+        "关于郭聪聪排放偶发性强烈噪声审批的业务",
+        "关于韩露排放偶发性强烈噪声审批的业务",
+        "关于刘妍排放偶发性强烈噪声审批的业务",
+        "关于李彦排放偶发性强烈噪声审批的业务",
+        "关于文辉排放偶发性强烈噪声审批的业务",
+        "关于杨奎排放偶发性强烈噪声审批的业务",
+        "关于陈明建排放偶发性强烈噪声审批的业务",
+        "关于董晴排放偶发性强烈噪声审批的业务",
+        "关于窦星刚排放偶发性强烈噪声审批的业务"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

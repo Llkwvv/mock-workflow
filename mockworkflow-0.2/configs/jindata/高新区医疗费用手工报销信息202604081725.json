@@ -1,0 +1,141 @@
+{
+  "file_name": "高新区医疗费用手工报销信息202604081725.xlsx",
+  "table_name": "高新区医疗费用手工报销信息202604081725",
+  "row_count": 2,
+  "columns": [
+    "xsq",
+    "yhm",
+    "bjjg",
+    "dz",
+    "姓名",
+    "sfzh",
+    "zjlx",
+    "yhkh"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "陈**",
+        "戴*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "办结"
+      ],
+      "value_pool": [
+        "办结"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁*****街道"
+      ],
+      "value_pool": [
+        "济宁*****街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈**",
+        "戴*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "372828**********22",
+        "370983**********24"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "身份证"
+      ],
+      "value_pool": [
+        "身份证"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhkh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "623116**********505",
+        "622202**********801"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "file_name": "嘉祥县市场监督管理局_嘉祥县食品安全抽检公示信息202512261116.xlsx",
+  "table_name": "嘉祥县市场监督管理局_嘉祥县食品安全抽检公示信息202512261116",
+  "row_count": 3,
+  "columns": [
+    "bcydwszsf",
+    "cydbh",
+    "fl",
+    "bcydwmc",
+    "spmc"
+  ],
+  "fields": [
+    {
+      "name": "bcydwszsf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省"
+      ],
+      "value_pool": [
+        "山东省"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cydbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "XBJ25370829163930606ZX",
+        "XBJ25370829163930607ZX",
+        "XBJ25370829163930608ZX"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "调味品",
+        "豆制品"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcydwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县佳佳悦百货零售超市"
+      ],
+      "value_pool": [
+        "嘉祥县佳佳悦百货零售超市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "黄豆酱油（酿造酱油）",
+        "味精",
+        "五香豆干"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

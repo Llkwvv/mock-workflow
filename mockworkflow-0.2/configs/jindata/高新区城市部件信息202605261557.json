@@ -1,0 +1,197 @@
+{
+  "file_name": "高新区城市部件信息202605261557.xlsx",
+  "table_name": "高新区城市部件信息202605261557",
+  "row_count": 17,
+  "columns": [
+    "bjmc",
+    "cjfs",
+    "wz",
+    "bjzt",
+    "cz",
+    "bjbm",
+    "ssbm",
+    "cjrq",
+    "bmbm"
+  ],
+  "fields": [
+    {
+      "name": "bjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "治安岗亭"
+      ],
+      "value_pool": [
+        "治安岗亭"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "实测"
+      ],
+      "value_pool": [
+        "实测"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁天虹东南方向约12米",
+        "爱客多东北方向约12米",
+        "置城国际中心B座东南方向约28米",
+        "恒运酒水东北方向约20米",
+        "大浪淘沙洗浴中心东北方向约32米",
+        "中国移动通信集团山东有限公司济宁分公司西南方向约46米",
+        "郎牌特曲鑫顺永胜东北方向约21米",
+        "长光商贸超市西北方向约14米",
+        "鑫诚综合商店西南方向约11米",
+        "越越超市东南方向约13米",
+        "24K国际连锁酒店东南方向约39米",
+        "迷你美容美发东南方向约8米",
+        "百氏馅饼西北方向约16米",
+        "金宸国际酒店西北方向约29米",
+        "好客商店西南方向约24米",
+        "顺达装饰东南方向约38米",
+        "山东朗巍凯迪西南方向约30米"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "完好"
+      ],
+      "value_pool": [
+        "完好"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "常规材质"
+      ],
+      "value_pool": [
+        "常规材质"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "3708400138000001",
+        "3708400138000002",
+        "3708400138000003",
+        "3708110138000001",
+        "3708110138000002",
+        "3708400138000004",
+        "3708110138000003",
+        "3708400138000005",
+        "3708400138000006",
+        "3708400138000007",
+        "3708110138000004",
+        "3708400138000008",
+        "3708400138000009",
+        "3708400138000010",
+        "3708400138000011",
+        "3708400138000012",
+        "3708400138000022"
+      ],
+      "min_value": 3708110138000001.0,
+      "max_value": 3708400138000022.0
+    },
+    {
+      "name": "ssbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "区公安分局"
+      ],
+      "value_pool": [
+        "区公安分局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2013-11-03",
+        "2013-11-13",
+        "2013-10-26",
+        "2013-11-16",
+        "2013-11-23",
+        "2013-11-26",
+        "2013-10-27",
+        "2013-10-29",
+        "2013-10-30",
+        "2013-11-07"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bmbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "678238233"
+      ],
+      "value_pool": [
+        "678238233"
+      ],
+      "min_value": 678238233.0,
+      "max_value": 678238233.0
+    }
+  ]
+}

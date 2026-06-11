@@ -1,0 +1,141 @@
+{
+  "file_name": "花卉种植企业信息_0.csv",
+  "table_name": "花卉种植企业信息_0",
+  "row_count": 35,
+  "columns": [
+    "tyshxydm",
+    "qyzwm",
+    "hydm",
+    "hyml"
+  ],
+  "fields": [
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 91370830MA3C44EC32",
+        " 91370830MA3C44P642",
+        " 91370830MA3C44L77B",
+        " 91370830MA3C44JR8M",
+        " 91370830MA3C44K89W",
+        " 91370830MA3C44WR0M",
+        " 91370830MA3C44T278",
+        " 91370830MA3C44RR9G",
+        " 91370830MA3C44LJ5G",
+        " 91370830MA3C448X7X",
+        " 91370830MA3C4492XU",
+        " 91370830MA3C451D1A",
+        " 91370830MA3C44PX5W",
+        " 91370830MA3C454R54",
+        " 91370830MA3C44HA6A",
+        " 91370830MA3C44HY2J",
+        " 91370830MA3C44639X",
+        " 91370830MA3C44FR22",
+        " 91370830MA3C44AC8T",
+        " 91370830MA3C44U82L",
+        " 91370830MA3C44YR3A",
+        " 91370830MA3C446126",
+        " 91370830MA3C3KYT8F",
+        " 91370830MA3C44X064",
+        " 91370830MA3C44786F",
+        " 91370830MA3C44NL4T",
+        " 91370830MA3C44U31C",
+        " 91370830558934427T",
+        " 913708300687026906",
+        " 913708306693145389",
+        " 91370830MA3N7B60XC",
+        " 91370830MA3N7B5T0P",
+        " 91370830MA3T69MP0K",
+        " 91370830MA3TTC0E40",
+        " 91370830MA3RNHBW03"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyzwm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 汶上县斌殿种植中心",
+        " 汶上县芳玉种植中心",
+        " 汶上县芝秀种植中心",
+        " 汶上县云天种植中心",
+        " 汶上县花武种植中心",
+        " 汶上县光徐苗木种植中心",
+        " 汶上县兰翠种植中心",
+        " 汶上县海永种植中心",
+        " 汶上县田尊种植中心",
+        " 汶上县生茂种植中心",
+        " 汶上县庆德苗木种植中心",
+        " 汶上县会敬种植中心",
+        " 汶上县岭道种植中心",
+        " 汶上县娥允种植中心",
+        " 汶上县明尊种植中心",
+        " 汶上县英传种植中心",
+        " 汶上县英复种植中心",
+        " 汶上县荣桂种植中心",
+        " 汶上县文炳种植中心",
+        " 汶上县申玉种植中心",
+        " 汶上县生运苗木种植中心",
+        " 汶上县荣花种植中心",
+        " 汶上县冬平花卉种植中心",
+        " 汶上县晓亚种植中心",
+        " 汶上县芬玉种植中心",
+        " 汶上县忠显种植中心",
+        " 汶上县花克种植中心",
+        " 济宁佛都园林绿化工程有限公司",
+        " 济宁智地园艺有限公司",
+        " 山东省汶上县盛茗园艺科技有限公司",
+        " 济宁绪亮园林绿化工程有限公司",
+        " 济宁名铠园林绿化工程有限公司",
+        " 汶上景园花卉种植有限公司",
+        " 山东科建通源农业发展有限公司",
+        " 山东吉佳景源花卉有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 0143|    花卉种植"
+      ],
+      "value_pool": [
+        " 0143|    花卉种植"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 农、林、牧、渔业-A"
+      ],
+      "value_pool": [
+        " 农、林、牧、渔业-A"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

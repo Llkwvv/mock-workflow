@@ -3,12 +3,13 @@ from pydantic import BaseModel
 from backend.config import Settings, get_settings
 from backend.llm import resolve_fields
 from backend.mock.generator import generate_mock_rows, preview_mock_rows
+from backend.mock.validation import QualityReport, apply_feedback, validate_generation
 from backend.output.csv_writer import write_csv
 from backend.output.db_writer import validate_mysql_url, write_mysql
 from backend.output.excel_writer import write_excel
 from backend.output.json_writer import write_json
 from backend.sample.profiler import analyze_sample_file
-from backend.schemas.field import FieldSpec, SampleProfile, TableSpec
+from backend.schemas.field import FieldSemantic, FieldSpec, SampleProfile, TableSpec
 from backend.sql.generator import generate_create_table_sql
 
 
@@ -22,6 +23,7 @@ class GenerationPreview(BaseModel):
     rules_resolved_count: int = 0
     fallback_resolved_count: int = 0
     model_used: str | None = None
+    quality_report: QualityReport | None = None
 
 
 class GenerationResult(GenerationPreview):
@@ -30,12 +32,53 @@ class GenerationResult(GenerationPreview):
     output_path: str | None = None
 
 
+def _enrich_fields_with_sample_data(fields: list[FieldSpec], profile: SampleProfile) -> None:
+    """Attach real sample statistics to each field so the generator can learn.
+
+    Populates ``value_pool``, ``value_frequency``, ``unique_ratio``,
+    ``min_value`` and ``max_value`` from the profiler output, detects
+    low-cardinality columns as enums when not already set, and re-infers
+    the semantic from the column name so newly-added keyword mappings
+    override stale rule-store cached values.  Runs regardless of how the
+    field was resolved (rule store / LLM / rule engine).
+    """
+    from backend.rules.engine import _infer_semantic
+
+    for field in fields:
+        col = profile.column_profiles.get(field.name)
+        if col is None:
+            continue
+
+        # Re-infer semantic from column name to pick up newly-added keywords.
+        # Only override when the inference returns a concrete semantic.
+        inferred = _infer_semantic(field.name)
+        if inferred != FieldSemantic.unknown:
+            field.semantic = inferred
+
+        # Distinct, non-empty real values preserving order.
+        distinct = [v for v in dict.fromkeys(str(s) for s in col.samples) if v != ""]
+        if distinct:
+            field.value_pool = distinct
+        # Keep blanks in the frequency map so all-empty columns are detectable
+        # and partially-empty columns reproduce blanks in proportion.
+        if col.value_frequency:
+            field.value_frequency = dict(col.value_frequency)
+        field.unique_ratio = col.unique_ratio
+        field.min_value = col.min_value
+        field.max_value = col.max_value
+
+        # Low-cardinality categorical -> enum (reuse real values), if not already.
+        if not field.enum_values and distinct and len(distinct) <= 10 and col.unique_ratio <= 0.5:
+            field.enum_values = distinct[:20]
+
+
 def build_generation_preview(
     sample_file: str,
     table_name: str = "auto_table",
     rows: int = 5,
     settings: Settings | None = None,
     refresh_rules: bool = False,
+    validate: bool = False,
 ) -> GenerationPreview:
     if settings is None:
         settings = get_settings()
@@ -44,9 +87,40 @@ def build_generation_preview(
     resolution = resolve_fields(profile, settings=settings, refresh_rules=refresh_rules)
     fields = resolution.fields
 
+    # Backfill sample-derived learning data onto every field, independent of
+    # whether it came from the rule store cache, the LLM, or the rule engine.
+    # This is what lets the generator learn from real sample values instead of
+    # emitting meaningless random words.
+    _enrich_fields_with_sample_data(fields, profile)
+
+    # Agent Phase 1 #3: inject cross-field constraints
+    from backend.agent.tools.constraint import infer_field_constraints
+    constraints = infer_field_constraints(fields)
+    for field in fields:
+        relevant = [c for c in constraints if field.name in c.fields]
+        if relevant:
+            field.constraints = relevant
+
+    # Agent Phase 1 #4: attach distribution info from profiler
+    for field in fields:
+        col_profile = profile.column_profiles.get(field.name)
+        if col_profile and col_profile.distribution:
+            field.distribution = col_profile.distribution
+
     table = TableSpec(table_name=table_name, fields=fields)
     create_table_sql = generate_create_table_sql(table)
     preview_rows = preview_mock_rows(fields, rows)
+
+    # Optional quality-validation feedback loop: generate a larger internal
+    # sample, re-profile it against the source, score fidelity, and promote
+    # high-quality field specs into durable rules.
+    quality_report = None
+    if validate:
+        sample_rows = generate_mock_rows(fields, 100)
+        quality_report = validate_generation(profile, sample_rows, fields)
+        promoted = apply_feedback(quality_report, fields, settings=settings)
+        quality_report.promoted_rules = promoted
+
     return GenerationPreview(
         profile=profile,
         fields=fields,
@@ -57,6 +131,7 @@ def build_generation_preview(
         rules_resolved_count=resolution.rules_resolved_count,
         fallback_resolved_count=resolution.fallback_resolved_count,
         model_used=resolution.model_used,
+        quality_report=quality_report,
     )
 
 

@@ -1,0 +1,84 @@
+{
+  "file_name": "金乡县蒜都产业创新领军人才入选人才名单202508010129.xlsx",
+  "table_name": "金乡县蒜都产业创新领军人才入选人才名单202508010129",
+  "row_count": 1,
+  "columns": [
+    "姓名",
+    "sbdw",
+    "gzdw",
+    "sbxmmc",
+    "rxnd"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张***"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东驰盛新能源设备有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "青岛**大学机电工程学院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "智能湍流涡轮薄层污泥干化处理系统"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rxnd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2018年"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

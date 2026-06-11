@@ -1,0 +1,1228 @@
+{
+  "file_name": "嘉祥县企业养老保险缴费申报明细202603280808.xlsx",
+  "table_name": "嘉祥县企业养老保险缴费申报明细202603280808",
+  "row_count": 65534,
+  "columns": [
+    "jsbh",
+    "dq",
+    "shbzhm",
+    "姓名",
+    "sblb",
+    "ywbs",
+    "sbfsyy",
+    "xzbz",
+    "xzbh",
+    "zxnf",
+    "qsny",
+    "zzny",
+    "zdlsh",
+    "jfzt",
+    "jffs",
+    "jfrq",
+    "zjfje",
+    "zjfjebx",
+    "dwjfjs",
+    "dwjfjsbx",
+    "grjfjs",
+    "grjfjsbx",
+    "dwjfbl",
+    "grjfbl",
+    "dwczdkbl",
+    "grczdkbl",
+    "dwyjfje",
+    "dwyjfjebx",
+    "gryjfje",
+    "gryjfjebx",
+    "dwczyjfe",
+    "grczyjfe",
+    "dwzjfje",
+    "dwzjfjebx",
+    "grzjfje",
+    "grzjfjebx",
+    "dwczzjfe",
+    "grczzjfe",
+    "grjze",
+    "dwjze",
+    "lx",
+    "znj",
+    "jzbz",
+    "dwbh",
+    "dwmc",
+    "dwszd",
+    "ywjbjgjg",
+    "ywjbks"
+  ],
+  "fields": [
+    {
+      "name": "jsbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "2023000001",
+        "2023000002",
+        "2023000003",
+        "2023000004",
+        "2023000005",
+        "2023000006",
+        "2023000007",
+        "2023000008",
+        "2023000009",
+        "2023000010",
+        "2023000011",
+        "2023000012",
+        "2023000013",
+        "2023000014",
+        "2023000015",
+        "2023000016",
+        "2023000017",
+        "2023000018",
+        "2023000019",
+        "2023000020",
+        "2023000021",
+        "2023000022",
+        "2023000023",
+        "2023000024",
+        "2023000025",
+        "2023000026",
+        "2023000027",
+        "2023000028",
+        "2023000029",
+        "2023000030",
+        "2023000031",
+        "2023000032",
+        "2023000033",
+        "2023000034",
+        "2023000035",
+        "2023000036",
+        "2023000037",
+        "2023000038",
+        "2023000039",
+        "2023000040",
+        "2023000041",
+        "2023000042",
+        "2023000043",
+        "2023000044",
+        "2023000045",
+        "2023000046",
+        "2023000047",
+        "2023000048",
+        "2023000049",
+        "2023000050",
+        "2023000051",
+        "2023000052",
+        "2023000053",
+        "2023000054",
+        "2023000055",
+        "2023000056",
+        "2023000057",
+        "2023000058",
+        "2023000059",
+        "2023000060",
+        "2023000061",
+        "2023000062",
+        "2023000063",
+        "2023000064",
+        "2023000065",
+        "2023000066",
+        "2023000067",
+        "2023000068",
+        "2023000069",
+        "2023000070",
+        "2023000071",
+        "2023000072",
+        "2023000073",
+        "2023000074",
+        "2023000075",
+        "2023000076",
+        "2023000077",
+        "2023000078",
+        "2023000079",
+        "2023000080",
+        "2023000081",
+        "2023000082",
+        "2023000083",
+        "2023000084",
+        "2023000085",
+        "2023000086",
+        "2023000087",
+        "2023000088",
+        "2023000089",
+        "2023000090",
+        "2023000091",
+        "2023000092",
+        "2023000093",
+        "2023000094",
+        "2023000095",
+        "2023000096",
+        "2023000097",
+        "2023000098",
+        "2023000099",
+        "2023000100"
+      ],
+      "min_value": 2023000001.0,
+      "max_value": 2023065534.0
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "济宁市嘉祥县"
+      ],
+      "value_pool": [
+        "济宁市嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shbzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "11010519********38",
+        "11010519********25",
+        "11010719********49",
+        "12010419********25",
+        "12022219********45",
+        "13010419********59",
+        "13012519********7X",
+        "13018219********30",
+        "13020420********21",
+        "13020519********12",
+        "13022719********45",
+        "13028119********16",
+        "13028319********39",
+        "13032119********37",
+        "13040419********19",
+        "13042519********12",
+        "13043419********92",
+        "13050319********65",
+        "13052419********17",
+        "13052719********47",
+        "13053219********3X"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "屈*铭",
+        "乔*苹",
+        "宋*霞",
+        "夏*",
+        "付*",
+        "王*岗",
+        "董*云",
+        "徐*景",
+        "樊*颖",
+        "朱*帅",
+        "于*英",
+        "王*敏",
+        "曹*升",
+        "王*刚",
+        "黄*鹏",
+        "李*超",
+        "李*青",
+        "张*婷",
+        "王*亮",
+        "刘*第",
+        "李*进"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sblb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "补缴"
+      ],
+      "value_pool": [
+        "补缴"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ywbs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "BJ"
+      ],
+      "value_pool": [
+        "BJ"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbfsyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "调整计划",
+        "增员补缴",
+        "鲁[2019]13号文单位补缴",
+        "退费补缴"
+      ],
+      "value_pool": [
+        "调整计划",
+        "增员补缴",
+        "鲁[2019]13号文单位补缴",
+        "退费补缴"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "企业养老"
+      ],
+      "value_pool": [
+        "企业养老"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "QYYL"
+      ],
+      "value_pool": [
+        "QYYL"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zxnf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023"
+      ],
+      "value_pool": [
+        "2023"
+      ],
+      "min_value": 2023.0,
+      "max_value": 2023.0
+    },
+    {
+      "name": "qsny",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-10",
+        "2023-11",
+        "2023-12"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzny",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-10",
+        "2023-11",
+        "2023-12"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdlsh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "20230926102514725829",
+        "20230628155048383928",
+        "未登记",
+        "20230920155553438426",
+        "20230922092241526844",
+        "20231102091540553373",
+        "20231205105320230309",
+        "20231201155655133462",
+        "20230925081948628678",
+        "20230323163900766156",
+        "20230919153333366762",
+        "20230927141836792894",
+        "20230924150647622957",
+        "20230711112001711573",
+        "20231226113328563448",
+        "20230927212352811461",
+        "20230926084323711386",
+        "20230924192755625936",
+        "20230924202947626292"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jfzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "已缴费",
+        "未缴费"
+      ],
+      "value_pool": [
+        "已缴费",
+        "未缴费"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jffs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "线上划转"
+      ],
+      "value_pool": [
+        "线上划转"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jfrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2023-09-27",
+        "2023-06-28",
+        "未登记",
+        "2023-09-21",
+        "2023-10-27",
+        "2023-11-09",
+        "2023-12-19",
+        "2023-12-01",
+        "2023-09-26",
+        "2023-03-24",
+        "2023-07-12",
+        "2023-12-26",
+        "2023-09-28",
+        "2023-09-25"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjfje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "313.92",
+        "1050.72",
+        "1018.08",
+        "-32.64",
+        "-4202.4",
+        "-1018.08",
+        "1077.51",
+        "105.6",
+        "1072.26"
+      ],
+      "value_pool": [
+        "313.92",
+        "1050.72",
+        "1018.08",
+        "-32.64",
+        "-4202.4",
+        "-1018.08",
+        "1077.51",
+        "105.6",
+        "1072.26"
+      ],
+      "min_value": -11877.6,
+      "max_value": 82306.4
+    },
+    {
+      "name": "zjfjebx",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "313.92",
+        "1050.72",
+        "1018.08",
+        "-32.64",
+        "-4202.4",
+        "-1018.08",
+        "1077.51",
+        "105.6",
+        "1072.26"
+      ],
+      "value_pool": [
+        "313.92",
+        "1050.72",
+        "1018.08",
+        "-32.64",
+        "-4202.4",
+        "-1018.08",
+        "1077.51",
+        "105.6",
+        "1072.26"
+      ],
+      "min_value": -11877.6,
+      "max_value": 82306.4
+    },
+    {
+      "name": "dwjfjs",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "1308.0",
+        "4378.0",
+        "4242.0",
+        "-136.0",
+        "-17510.0",
+        "-4242.0",
+        "440.0"
+      ],
+      "value_pool": [
+        "1308.0",
+        "4378.0",
+        "4242.0",
+        "-136.0",
+        "-17510.0",
+        "-4242.0",
+        "440.0"
+      ],
+      "min_value": -59388.0,
+      "max_value": 411532.0
+    },
+    {
+      "name": "dwjfjsbx",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1308.0",
+        "4378.0",
+        "4242.0",
+        "-136.0",
+        "-17510.0",
+        "-4242.0",
+        "440.0"
+      ],
+      "value_pool": [
+        "1308.0",
+        "4378.0",
+        "4242.0",
+        "-136.0",
+        "-17510.0",
+        "-4242.0",
+        "440.0"
+      ],
+      "min_value": -59388.0,
+      "max_value": 411532.0
+    },
+    {
+      "name": "grjfjs",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "1308.0",
+        "4378.0",
+        "4242.0",
+        "-136.0",
+        "-17510.0",
+        "-4242.0",
+        "440.0"
+      ],
+      "value_pool": [
+        "1308.0",
+        "4378.0",
+        "4242.0",
+        "-136.0",
+        "-17510.0",
+        "-4242.0",
+        "440.0"
+      ],
+      "min_value": -59388.0,
+      "max_value": 411532.0
+    },
+    {
+      "name": "grjfjsbx",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1308.0",
+        "4378.0",
+        "4242.0",
+        "-136.0",
+        "-17510.0",
+        "-4242.0",
+        "440.0"
+      ],
+      "value_pool": [
+        "1308.0",
+        "4378.0",
+        "4242.0",
+        "-136.0",
+        "-17510.0",
+        "-4242.0",
+        "440.0"
+      ],
+      "min_value": -59388.0,
+      "max_value": 411532.0
+    },
+    {
+      "name": "dwjfbl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.16"
+      ],
+      "value_pool": [
+        "0.16"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.32
+    },
+    {
+      "name": "grjfbl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.08"
+      ],
+      "value_pool": [
+        "0.08"
+      ],
+      "min_value": 0.08,
+      "max_value": 0.16
+    },
+    {
+      "name": "dwczdkbl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "grczdkbl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "dwyjfje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "209.28",
+        "700.48",
+        "678.72",
+        "-21.76",
+        "-2801.6",
+        "-678.72",
+        "70.4"
+      ],
+      "value_pool": [
+        "209.28",
+        "700.48",
+        "678.72",
+        "-21.76",
+        "-2801.6",
+        "-678.72",
+        "70.4"
+      ],
+      "min_value": -7126.56,
+      "max_value": 49383.84
+    },
+    {
+      "name": "dwyjfjebx",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "209.28",
+        "700.48",
+        "678.72",
+        "-21.76",
+        "-2801.6",
+        "-678.72",
+        "70.4"
+      ],
+      "value_pool": [
+        "209.28",
+        "700.48",
+        "678.72",
+        "-21.76",
+        "-2801.6",
+        "-678.72",
+        "70.4"
+      ],
+      "min_value": -7126.56,
+      "max_value": 49383.84
+    },
+    {
+      "name": "gryjfje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "104.64",
+        "350.24",
+        "339.36",
+        "-10.88",
+        "-1400.8",
+        "-339.36",
+        "35.2"
+      ],
+      "value_pool": [
+        "104.64",
+        "350.24",
+        "339.36",
+        "-10.88",
+        "-1400.8",
+        "-339.36",
+        "35.2"
+      ],
+      "min_value": -4751.04,
+      "max_value": 32922.56
+    },
+    {
+      "name": "gryjfjebx",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "104.64",
+        "350.24",
+        "339.36",
+        "-10.88",
+        "-1400.8",
+        "-339.36",
+        "35.2"
+      ],
+      "value_pool": [
+        "104.64",
+        "350.24",
+        "339.36",
+        "-10.88",
+        "-1400.8",
+        "-339.36",
+        "35.2"
+      ],
+      "min_value": -4751.04,
+      "max_value": 32922.56
+    },
+    {
+      "name": "dwczyjfe",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "grczyjfe",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "dwzjfje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "209.28",
+        "700.48",
+        "678.72",
+        "-21.76",
+        "-2801.6",
+        "-678.72",
+        "70.4"
+      ],
+      "value_pool": [
+        "209.28",
+        "700.48",
+        "678.72",
+        "-21.76",
+        "-2801.6",
+        "-678.72",
+        "70.4"
+      ],
+      "min_value": -7126.56,
+      "max_value": 49383.84
+    },
+    {
+      "name": "dwzjfjebx",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "209.28",
+        "700.48",
+        "678.72",
+        "-21.76",
+        "-2801.6",
+        "-678.72",
+        "70.4"
+      ],
+      "value_pool": [
+        "209.28",
+        "700.48",
+        "678.72",
+        "-21.76",
+        "-2801.6",
+        "-678.72",
+        "70.4"
+      ],
+      "min_value": -7126.56,
+      "max_value": 49383.84
+    },
+    {
+      "name": "grzjfje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "104.64",
+        "350.24",
+        "339.36",
+        "-10.88",
+        "-1400.8",
+        "-339.36",
+        "35.2"
+      ],
+      "value_pool": [
+        "104.64",
+        "350.24",
+        "339.36",
+        "-10.88",
+        "-1400.8",
+        "-339.36",
+        "35.2"
+      ],
+      "min_value": -4751.04,
+      "max_value": 32922.56
+    },
+    {
+      "name": "grzjfjebx",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "104.64",
+        "350.24",
+        "339.36",
+        "-10.88",
+        "-1400.8",
+        "-339.36",
+        "35.2"
+      ],
+      "value_pool": [
+        "104.64",
+        "350.24",
+        "339.36",
+        "-10.88",
+        "-1400.8",
+        "-339.36",
+        "35.2"
+      ],
+      "min_value": -4751.04,
+      "max_value": 32922.56
+    },
+    {
+      "name": "dwczzjfe",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "grczzjfe",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "grjze",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "104.64",
+        "350.24",
+        "339.36",
+        "-10.88",
+        "-1400.8",
+        "-339.36",
+        "35.2"
+      ],
+      "value_pool": [
+        "104.64",
+        "350.24",
+        "339.36",
+        "-10.88",
+        "-1400.8",
+        "-339.36",
+        "35.2"
+      ],
+      "min_value": -4751.04,
+      "max_value": 32922.56
+    },
+    {
+      "name": "dwjze",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "lx",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "znj",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.0",
+        "26.79",
+        "21.54"
+      ],
+      "value_pool": [
+        "0.0",
+        "26.79",
+        "21.54"
+      ],
+      "min_value": -23.92,
+      "max_value": 203.61
+    },
+    {
+      "name": "jzbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "记账"
+      ],
+      "value_pool": [
+        "记账"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "0826005301",
+        "3708295813",
+        "0826002056",
+        "0826003013",
+        "3708905093",
+        "0826290001",
+        "0826005268",
+        "3708997328",
+        "0826001027",
+        "3708292314",
+        "0826001068",
+        "3708998895",
+        "3708902295",
+        "SD10091833",
+        "3708999383",
+        "0826005402",
+        "0826004258"
+      ],
+      "min_value": 1343679.0,
+      "max_value": 3709007993.0
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东****科技有限公司",
+        "济宁****工程有限公司",
+        "嘉祥****装厂",
+        "山东****手套股份有限公司",
+        "山东****资源有限公司",
+        "印刷****)",
+        "济宁****路工程有限公司",
+        "山东****有限公司",
+        "嘉祥****级中学",
+        "嘉祥****业销售有限公司",
+        "山东****新材料有限公司",
+        "济宁****劳务有限公司",
+        "济宁****有限公司",
+        "济宁****设股份有限公司",
+        "嘉祥****有限公司",
+        "山东****检测有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwszd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市嘉祥县"
+      ],
+      "value_pool": [
+        "济宁市嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ywjbjgjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县社保中心"
+      ],
+      "value_pool": [
+        "嘉祥县社保中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ywjbks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "基金征缴科"
+      ],
+      "value_pool": [
+        "基金征缴科"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "file_name": "鱼台县停车场车辆进出数据202512171652.xlsx",
+  "table_name": "鱼台县停车场车辆进出数据202512171652",
+  "row_count": 6714,
+  "columns": [
+    "cphm",
+    "kh",
+    "cllx",
+    "cplx",
+    "tgsj",
+    "tcc",
+    "crk",
+    "gcfx",
+    "fxjg",
+    "fxfs",
+    "fxyy",
+    "clfl",
+    "czxm",
+    "czsjh",
+    "cjsj",
+    "gxsj"
+  ],
+  "fields": [
+    {
+      "name": "cphm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁HD38856",
+        "鲁HDY3301",
+        "鲁H301AY",
+        "鲁H9RH63",
+        "鲁HQ1X37",
+        "鲁HDU9905",
+        "鲁HV89X9",
+        "鲁H3701Y",
+        "鲁HQ80Z0",
+        "鲁AZ92F0",
+        "鲁H265UE",
+        "鲁HDH1381",
+        "鲁HDE6926",
+        "鲁HM70W7",
+        "鲁HDD1682",
+        "鲁HQ828P",
+        "鲁R6VJ30",
+        "鲁H5TY55",
+        "鲁H2V6C6",
+        "鲁HD75567",
+        "鲁H9FS99",
+        "鲁HD2G25",
+        "鲁H526J5",
+        "鲁HDP8303",
+        "鲁HD72878",
+        "鲁HW650J",
+        "鲁HZ96B5",
+        "鲁HS81M2",
+        "鲁HDN7831",
+        "鲁ADZ0953",
+        "鲁HY56P9",
+        "鲁HFA9395",
+        "鲁HDF7586",
+        "鲁HA32896",
+        "鲁HW196S",
+        "鲁HT123A",
+        "鲁HDY1880",
+        "鲁HS95W0",
+        "鲁UN5116",
+        "鲁HV9A29",
+        "鲁HD639B",
+        "鲁HU3P56",
+        "鲁HDK2828",
+        "鲁HA37658",
+        "鲁H9F3Z7",
+        "鲁H55Q62",
+        "鲁HD79585",
+        "浙BA93553",
+        "鲁HY30J9",
+        "鲁HDU2257",
+        "鲁HD68841",
+        "鲁H62Y16",
+        "鲁HD68215",
+        "鲁HK300L",
+        "鲁HDS2200",
+        "鲁HC928A",
+        "鲁H7V598",
+        "鲁HW252Y",
+        "鲁H6816Y",
+        "鲁HDG2509",
+        "鲁HDZ1872",
+        "鲁CW0081",
+        "鲁HY963N",
+        "鲁HA19553",
+        "鲁HM196A",
+        "鲁H3V0R7",
+        "鲁H3T551",
+        "鲁H1L021"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "无卡号信息",
+        "暂无卡号信息"
+      ],
+      "value_pool": [
+        "无卡号信息",
+        "暂无卡号信息"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cllx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "小型车",
+        "大型车"
+      ],
+      "value_pool": [
+        "小型车",
+        "大型车"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cplx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "新能源车",
+        "标准民用车与军车"
+      ],
+      "value_pool": [
+        "新能源车",
+        "标准民用车与军车"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tgsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-10-06 08:41:41",
+        "2024-10-06 08:41:12",
+        "2024/08/06 09:49:29",
+        "2024/08/06 09:48:15",
+        "2024/08/06 09:48:13",
+        "2024/08/06 09:47:31",
+        "2024/08/06 09:42:12",
+        "2024/08/06 09:41:01",
+        "2024/08/06 09:39:30",
+        "2024/08/06 09:37:08",
+        "2024/08/06 09:36:59",
+        "2024/08/06 09:36:12",
+        "2024/08/06 09:36:06",
+        "2024/08/06 09:35:43",
+        "2024/08/06 09:34:42",
+        "2024/08/06 09:34:35",
+        "2024/08/06 09:33:56",
+        "2024/08/06 09:33:54",
+        "2024/08/06 09:32:32",
+        "2024/08/06 09:32:11",
+        "2024/08/06 09:31:46",
+        "2024/08/06 09:31:40",
+        "2024/08/06 09:31:17",
+        "2024/08/06 09:30:31",
+        "2024/08/06 09:29:26",
+        "2024/08/06 09:28:33",
+        "2024/08/06 09:28:27",
+        "2024/08/06 09:28:21",
+        "2024/08/06 09:27:55",
+        "2024/08/06 09:27:53",
+        "2024/08/06 09:27:31",
+        "2024/08/06 09:27:18",
+        "2024/08/06 09:24:26",
+        "2024/08/06 09:23:13",
+        "2024/08/06 09:21:13",
+        "2024/08/06 09:20:31",
+        "2024/08/06 09:19:05",
+        "2024/08/06 09:18:25",
+        "2024/08/06 09:18:06",
+        "2024/08/06 09:17:39",
+        "2024/08/06 09:17:21",
+        "2024/08/06 09:16:23",
+        "2024/08/06 09:16:01",
+        "2024/08/06 09:14:53",
+        "2024/08/06 09:14:02",
+        "2024/08/06 09:13:35",
+        "2024/08/06 09:10:56",
+        "2024/08/06 09:09:22",
+        "2024/08/06 09:09:12",
+        "2024/08/06 09:08:51",
+        "2024/08/06 09:08:07",
+        "2024/08/06 09:05:33",
+        "2024/08/06 09:03:15",
+        "2024/08/06 09:02:29",
+        "2024/08/06 09:01:57",
+        "2024/08/06 09:01:33",
+        "2024/08/06 09:01:21",
+        "2024/08/06 09:00:44",
+        "2024/08/06 08:58:37",
+        "2024/08/06 08:57:56",
+        "2024/08/06 08:57:22",
+        "2024/08/06 08:56:41",
+        "2024/08/06 08:56:05",
+        "2024/08/06 08:54:11",
+        "2024/08/06 08:52:40",
+        "2024/08/06 08:52:03",
+        "2024/08/06 08:51:22",
+        "2024/08/06 08:50:53",
+        "2024/08/06 08:50:31",
+        "2024/08/06 08:50:22",
+        "2024/08/06 08:48:16",
+        "2024/08/06 08:48:13",
+        "2024/08/06 08:45:34",
+        "2024/08/06 08:44:56",
+        "2024/08/06 08:43:48",
+        "2024/08/06 08:43:38",
+        "2024/08/06 08:41:41",
+        "2024/08/06 08:41:12",
+        "2024/08/06 08:40:49",
+        "2024/08/06 08:40:09",
+        "2024/08/06 08:40:03",
+        "2024/08/06 08:39:20",
+        "2024/08/06 08:37:26",
+        "2024/08/06 08:36:51",
+        "2024/08/06 08:35:12",
+        "2024/08/06 08:34:49",
+        "2024/08/06 08:33:38",
+        "2024/08/06 08:33:26",
+        "2024/08/06 08:32:16",
+        "2024/08/06 08:32:11",
+        "2024/08/06 08:30:05",
+        "2024/08/06 08:29:42",
+        "2024/08/06 08:29:27",
+        "2024/08/06 08:28:34",
+        "2024/08/06 08:27:37",
+        "2024/08/06 08:27:24",
+        "2024/08/06 08:27:20",
+        "2024/08/06 08:27:17",
+        "2024/08/06 08:26:29",
+        "2024/08/06 08:25:36"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tcc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "孝泽园",
+        "鱼米园",
+        "孝泽园停车场",
+        "鱼米园停车场"
+      ],
+      "value_pool": [
+        "孝泽园",
+        "鱼米园",
+        "孝泽园停车场",
+        "鱼米园停车场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "crk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "孝泽园停车场",
+        "渔新一路停车场"
+      ],
+      "value_pool": [
+        "孝泽园停车场",
+        "渔新一路停车场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gcfx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "direction",
+      "enum_values": [
+        "出场",
+        "入场"
+      ],
+      "value_pool": [
+        "出场",
+        "入场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fxjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "正常放行",
+        "未放行"
+      ],
+      "value_pool": [
+        "正常放行",
+        "未放行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "自动开闸",
+        "未开闸"
+      ],
+      "value_pool": [
+        "自动开闸",
+        "未开闸"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fxyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "免费自动放行",
+        "固定车自动放行",
+        "临时车自动放行",
+        "临时车车位已满禁止放行"
+      ],
+      "value_pool": [
+        "免费自动放行",
+        "固定车自动放行",
+        "临时车自动放行",
+        "临时车车位已满禁止放行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "临时车",
+        "国家电网员工",
+        "滨湖街道湖凌社区",
+        "车位租赁"
+      ],
+      "value_pool": [
+        "临时车",
+        "国家电网员工",
+        "滨湖街道湖凌社区",
+        "车位租赁"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "暂*车主姓名信息"
+      ],
+      "value_pool": [
+        "暂*车主姓名信息"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czsjh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "145*********",
+        "147**********",
+        "暂无车主手机号信息"
+      ],
+      "value_pool": [
+        "145*********",
+        "147**********",
+        "暂无车主手机号信息"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-08-09 17:19:30.0"
+      ],
+      "value_pool": [
+        "2024-08-09 17:19:30.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-10-24 19:45:44.0"
+      ],
+      "value_pool": [
+        "2024-10-24 19:45:44.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

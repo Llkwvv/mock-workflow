@@ -1,0 +1,143 @@
+{
+  "file_name": "鱼台县财政局_伤残军人补助明细信息202508010151.xlsx",
+  "table_name": "鱼台县财政局_伤残军人补助明细信息202508010151",
+  "row_count": 238,
+  "columns": [
+    "qh",
+    "yfjey",
+    "ahharbz",
+    "zjlx",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "qh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "[370827]鱼台县"
+      ],
+      "value_pool": [
+        "[370827]鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yfjey",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "4518.0",
+        "3950.5",
+        "4799.0",
+        "2821.5",
+        "2683.0",
+        "2401.5",
+        "1550.5",
+        "845.0",
+        "6633.0",
+        "5222.5",
+        "3530.0",
+        "3340.0",
+        "1130.0",
+        "1407.5",
+        "6212.5",
+        "8608.0"
+      ],
+      "min_value": 845.0,
+      "max_value": 8889.0
+    },
+    {
+      "name": "ahharbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "到人"
+      ],
+      "value_pool": [
+        "到人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "身份证号"
+      ],
+      "value_pool": [
+        "身份证号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "穆**",
+        "刘**",
+        "聂**",
+        "李**",
+        "齐**",
+        "黄**",
+        "王**",
+        "吴**",
+        "马**",
+        "张**",
+        "高**",
+        "梁**",
+        "赵**",
+        "任**",
+        "闫**",
+        "羿**",
+        "宋**",
+        "陈**",
+        "孟**",
+        "魏**",
+        "左**",
+        "谷**",
+        "周**",
+        "谭**",
+        "董**",
+        "冷**",
+        "袁**",
+        "陆**",
+        "郑**",
+        "吕**",
+        "徐**",
+        "郭**",
+        "薛**",
+        "卢**",
+        "沈**",
+        "贾**",
+        "路**",
+        "于**",
+        "靳**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

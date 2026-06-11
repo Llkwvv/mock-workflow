@@ -1,0 +1,125 @@
+{
+  "file_name": "鱼台县综合行政执法局_指导员派驻信息202508010110.xlsx",
+  "table_name": "鱼台县综合行政执法局_指导员派驻信息202508010110",
+  "row_count": 27,
+  "columns": [
+    "pzxz",
+    "dw",
+    "xb",
+    "姓名",
+    "pzsj"
+  ],
+  "fields": [
+    {
+      "name": "pzxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "老砦镇",
+        "谷亭街道",
+        "滨湖街道",
+        "唐马镇",
+        "王鲁镇",
+        "王庙镇",
+        "张黄镇",
+        "清河镇",
+        "鱼城镇",
+        "李阁镇",
+        "罗屯镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县综合行政执法局",
+        "执法局"
+      ],
+      "value_pool": [
+        "鱼台县综合行政执法局",
+        "执法局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵******",
+        "周******",
+        "郝******",
+        "赵*******",
+        "宋******",
+        "卢*****",
+        "王*****",
+        "郭******",
+        "李******",
+        "孙*****",
+        "张*****",
+        "屈******",
+        "张******",
+        "韩******",
+        "孔******",
+        "杨*****",
+        "程******",
+        "王******",
+        "刘******",
+        "马******",
+        "赵**",
+        "周**",
+        "郝**",
+        "宋**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022.1"
+      ],
+      "value_pool": [
+        "2022.1"
+      ],
+      "min_value": 2022.1,
+      "max_value": 2022.1
+    }
+  ]
+}

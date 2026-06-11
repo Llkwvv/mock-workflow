@@ -1,0 +1,153 @@
+{
+  "file_name": "红十字会_天使阳光基金资助申请信息202508010108.xlsx",
+  "table_name": "红十字会_天使阳光基金资助申请信息202508010108",
+  "row_count": 20,
+  "columns": [
+    "姓名",
+    "xb",
+    "yzyy",
+    "jtzz",
+    "zdbq"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "申**",
+        "杨**",
+        "苗**",
+        "沈**",
+        "王**",
+        "闫**",
+        "甘**",
+        "高**",
+        "郭**",
+        "李**",
+        "赵**",
+        "张**",
+        "聂**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yzyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁附属医院",
+        "济宁第一人民医院",
+        "齐鲁医院",
+        "千佛山医院",
+        "北京大学人民医院",
+        "山东省立医院",
+        "河北廊坊陆道培医院",
+        "济宁附院",
+        "河北燕达陆道培医院",
+        "北京医院"
+      ],
+      "value_pool": [
+        "济宁附属医院",
+        "济宁第一人民医院",
+        "齐鲁医院",
+        "千佛山医院",
+        "北京大学人民医院",
+        "山东省立医院",
+        "河北廊坊陆道培医院",
+        "济宁附院",
+        "河北燕达陆道培医院",
+        "北京医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "李阁镇申庄村",
+        "李阁镇杨庄村",
+        "谷亭街道缪集村",
+        "罗屯镇沈庄村",
+        "王鲁镇王鲁村",
+        "老砦镇老西村",
+        "滨湖街道佃户李村",
+        "滨湖街道大聂村",
+        "李阁镇老君村",
+        "李阁镇胡楼村",
+        "王庙镇炳灵村",
+        "罗屯镇苗村村",
+        "老砦镇仁北村",
+        "王鲁镇张庙村",
+        "张黄镇陈店村",
+        "王鲁镇后聂村",
+        "鱼台县王鲁镇王鲁村",
+        "鱼台县老砦镇老西村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdbq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "急性淋巴细胞白血病（标危型）",
+        "急性淋巴细胞白血病",
+        "2019.11.24急性髓系白血病",
+        "2020.4.16急性髓系白血病",
+        "2020.5.25急性髓系白血病",
+        "2020.7.30急性淋巴细胞白血病",
+        "2020.5.21急性T淋巴母细胞白血病（高危）",
+        "2020.8.29急性髓系白血病",
+        "2017.2急性淋巴细胞白血病",
+        "2021.1.29急性髓系白血病",
+        "2021.3.17伯基特淋巴瘤（白血病期）",
+        "肺动脉狭窄",
+        "先天性心脏病",
+        "先心病、肺动脉高压",
+        "先心病、房间隔缺损",
+        "2017.2.16急性淋巴细胞白血病",
+        "急性髓系白血病"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

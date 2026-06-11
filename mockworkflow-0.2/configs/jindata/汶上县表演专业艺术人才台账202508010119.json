@@ -1,0 +1,129 @@
+{
+  "file_name": "汶上县表演专业艺术人才台账202508010119.xlsx",
+  "table_name": "汶上县表演专业艺术人才台账202508010119",
+  "row_count": 20,
+  "columns": [
+    "姓名",
+    "shsjysjx",
+    "dw",
+    "zyml",
+    "cynx"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈**",
+        "蔡*",
+        "何**",
+        "刘**",
+        "梁**",
+        "蒋**",
+        "柴**",
+        "王**",
+        "周*",
+        "张**",
+        "李**",
+        "郭**",
+        "林**",
+        "朱**",
+        "王*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shsjysjx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2009年参加首届山东梆子演员大赛获得三等奖\n2010年7月获山东省地方戏曲大赛二等奖、2011年6月庆“七一”迎十艺，全省地方戏中青年演员比赛中荣获山东梆子豫剧专场二等奖。\n2013年9月获山东省 泰山文艺奖\n2014年3月获齐鲁文化之星奖",
+        "2004年12月，在第二届“中国戏曲演唱红梅大赛”山东赛区荣获一等奖；\n2、2007年07月28日，在第三届中国戏曲红梅大赛山东赛区比赛中，荣获表演二等奖；",
+        "第三届中国“红梅荟萃”戏曲大赛一等奖，山东梆子“十大名演员”一等奖",
+        "山东省第五届戏曲红梅大赛三等奖",
+        "山东省第六届戏曲红梅大赛二等奖",
+        "山东省第七届戏剧红梅大赛二等奖。；山东省第八届戏剧红梅大赛二等奖。",
+        "山东省第六届戏曲红梅大赛一等奖；山东省第七届戏剧红梅大赛一等奖；山东省第八届戏剧红梅大赛一等奖。",
+        "山东省第七届戏剧红梅大赛二等奖。山东省第八届戏剧红梅大赛三等奖。",
+        "山东省第七届戏剧红梅大赛一等奖；山东省第八届戏剧红梅大赛二等奖",
+        "山东省第五届戏曲红梅大赛荣获三等奖，山东省第六届戏曲红梅大赛荣获二等奖。",
+        "山东省第五届、第六届戏曲红梅大赛二等奖；第七届戏剧红梅大赛二等奖。",
+        "山东省第八届戏剧红梅大赛二等奖",
+        "山东省第七届戏剧红梅大赛三等奖",
+        "山东省第六\n届戏曲红梅大赛三等奖",
+        "第六届戏曲红梅大赛三等奖",
+        "山东省第七届戏剧红梅大赛优秀奖"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "汶上县山东梆子保护传承中心"
+      ],
+      "value_pool": [
+        "汶上县山东梆子保护传承中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东梆子"
+      ],
+      "value_pool": [
+        "山东梆子"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cynx",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "38",
+        "40",
+        "24",
+        "23",
+        "21",
+        "19"
+      ],
+      "value_pool": [
+        "38",
+        "40",
+        "24",
+        "23",
+        "21",
+        "19"
+      ],
+      "min_value": 19.0,
+      "max_value": 40.0
+    }
+  ]
+}

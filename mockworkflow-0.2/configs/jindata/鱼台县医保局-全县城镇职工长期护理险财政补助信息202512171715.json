@@ -1,0 +1,428 @@
+{
+  "file_name": "鱼台县医保局-全县城镇职工长期护理险财政补助信息202512171715.xlsx",
+  "table_name": "鱼台县医保局-全县城镇职工长期护理险财政补助信息202512171715",
+  "row_count": 34729,
+  "columns": [
+    "bmxx",
+    "ssxq",
+    "zgbm",
+    "ybbtfl",
+    "jtbtmx",
+    "姓名",
+    "sfzh",
+    "jtzt",
+    "btjey",
+    "btnd",
+    "ffsj",
+    "lrsj",
+    "gxsj",
+    "cjsj"
+  ],
+  "fields": [
+    {
+      "name": "bmxx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370827wjj-cqhl-000001",
+        "370827wjj-cqhl-000002",
+        "370827wjj-cqhl-000003",
+        "370827wjj-cqhl-000004",
+        "370827wjj-cqhl-000005",
+        "370827wjj-cqhl-000006",
+        "370827wjj-cqhl-000007",
+        "370827wjj-cqhl-000008",
+        "370827wjj-cqhl-000009",
+        "370827wjj-cqhl-000010",
+        "370827wjj-cqhl-000011",
+        "370827wjj-cqhl-000012",
+        "370827wjj-cqhl-000013",
+        "370827wjj-cqhl-000014",
+        "370827wjj-cqhl-000015",
+        "370827wjj-cqhl-000016",
+        "370827wjj-cqhl-000017",
+        "370827wjj-cqhl-000018",
+        "370827wjj-cqhl-000019",
+        "370827wjj-cqhl-000020",
+        "370827wjj-cqhl-000021",
+        "370827wjj-cqhl-000022",
+        "370827wjj-cqhl-000023",
+        "370827wjj-cqhl-000024",
+        "370827wjj-cqhl-000025",
+        "370827wjj-cqhl-000026",
+        "370827wjj-cqhl-000027",
+        "370827wjj-cqhl-000028",
+        "370827wjj-cqhl-000029",
+        "370827wjj-cqhl-000030",
+        "370827wjj-cqhl-000031",
+        "370827wjj-cqhl-000032",
+        "370827wjj-cqhl-000033",
+        "370827wjj-cqhl-000034",
+        "370827wjj-cqhl-000035",
+        "370827wjj-cqhl-000036",
+        "370827wjj-cqhl-000037",
+        "370827wjj-cqhl-000038",
+        "370827wjj-cqhl-000039",
+        "370827wjj-cqhl-000040",
+        "370827wjj-cqhl-000041",
+        "370827wjj-cqhl-000042",
+        "370827wjj-cqhl-000043",
+        "370827wjj-cqhl-000044",
+        "370827wjj-cqhl-000045",
+        "370827wjj-cqhl-000046",
+        "370827wjj-cqhl-000047",
+        "370827wjj-cqhl-000048",
+        "370827wjj-cqhl-000049",
+        "370827wjj-cqhl-000050",
+        "370827wjj-cqhl-000051",
+        "370827wjj-cqhl-000052",
+        "370827wjj-cqhl-000053",
+        "370827wjj-cqhl-000054",
+        "370827wjj-cqhl-000055",
+        "370827wjj-cqhl-000056",
+        "370827wjj-cqhl-000057",
+        "370827wjj-cqhl-000058",
+        "370827wjj-cqhl-000059",
+        "370827wjj-cqhl-000060",
+        "370827wjj-cqhl-000061",
+        "370827wjj-cqhl-000062",
+        "370827wjj-cqhl-000063",
+        "370827wjj-cqhl-000064",
+        "370827wjj-cqhl-000065",
+        "370827wjj-cqhl-000066",
+        "370827wjj-cqhl-000067",
+        "370827wjj-cqhl-000068",
+        "370827wjj-cqhl-000069",
+        "370827wjj-cqhl-000070",
+        "370827wjj-cqhl-000071",
+        "370827wjj-cqhl-000072",
+        "370827wjj-cqhl-000073",
+        "370827wjj-cqhl-000074",
+        "370827wjj-cqhl-000075",
+        "370827wjj-cqhl-000076",
+        "370827wjj-cqhl-000077",
+        "370827wjj-cqhl-000078",
+        "370827wjj-cqhl-000079",
+        "370827wjj-cqhl-000080",
+        "370827wjj-cqhl-000081",
+        "370827wjj-cqhl-000082",
+        "370827wjj-cqhl-000083",
+        "370827wjj-cqhl-000084",
+        "370827wjj-cqhl-000085",
+        "370827wjj-cqhl-000086",
+        "370827wjj-cqhl-000087",
+        "370827wjj-cqhl-000088",
+        "370827wjj-cqhl-000089",
+        "370827wjj-cqhl-000090",
+        "370827wjj-cqhl-000091",
+        "370827wjj-cqhl-000092",
+        "370827wjj-cqhl-000093",
+        "370827wjj-cqhl-000094",
+        "370827wjj-cqhl-000095",
+        "370827wjj-cqhl-000096",
+        "370827wjj-cqhl-000097",
+        "370827wjj-cqhl-000098",
+        "370827wjj-cqhl-000099",
+        "370827wjj-cqhl-000100"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县医保局"
+      ],
+      "value_pool": [
+        "鱼台县医保局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ybbtfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "城镇职工长期护理险财政补助"
+      ],
+      "value_pool": [
+        "城镇职工长期护理险财政补助"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtbtmx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "城镇职工长期护理险财政补助"
+      ],
+      "value_pool": [
+        "城镇职工长期护理险财政补助"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张*",
+        "刘*",
+        "樊*",
+        "董*",
+        "卜*",
+        "王*",
+        "李*",
+        "吴*",
+        "郭*",
+        "蒋*",
+        "马*",
+        "胡*",
+        "徐*",
+        "周*",
+        "解*",
+        "杨*",
+        "齐*",
+        "陈*",
+        "程*",
+        "田*",
+        "卢*",
+        "荣*",
+        "袁*",
+        "郝*",
+        "孟*",
+        "贾*",
+        "闫*",
+        "宋*",
+        "甄*",
+        "姚*",
+        "孙*",
+        "庞*",
+        "宗*",
+        "魏*",
+        "于*",
+        "谷*",
+        "翟*",
+        "房*",
+        "巨*",
+        "段*",
+        "窦*",
+        "吕*",
+        "邓*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "3708271993********",
+        "3708271990********",
+        "3708271989********",
+        "3708271998********",
+        "3708271984********",
+        "3708271973********",
+        "3708271988********",
+        "3708271994********",
+        "3708271982********",
+        "3708271983********",
+        "3708271980********",
+        "3708271981********",
+        "3708271986********",
+        "4503241986********",
+        "3708271985********",
+        "3708271991********",
+        "3708261980********",
+        "3708261977********",
+        "3708271974********",
+        "3706021979********",
+        "3708271987********",
+        "3708271968********",
+        "3708261970********",
+        "3708271976********",
+        "3708271970********",
+        "3701811992********",
+        "3708271995********",
+        "3708271967********",
+        "3708271997********",
+        "3708111991********",
+        "3713211967********",
+        "3708271992********",
+        "3708111987********",
+        "3708821986********",
+        "3708111989********",
+        "3708021981********",
+        "3708271962********",
+        "3701241968********",
+        "3708281969********",
+        "3708271979********",
+        "3708271978********",
+        "1404281992********",
+        "3705231990********",
+        "3708291990********",
+        "3708271996********",
+        "3708271971********",
+        "3708271969********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "已发布"
+      ],
+      "value_pool": [
+        "已发布"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "btjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "15"
+      ],
+      "value_pool": [
+        "15"
+      ],
+      "min_value": 15.0,
+      "max_value": 15.0
+    },
+    {
+      "name": "btnd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020年"
+      ],
+      "value_pool": [
+        "2020年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ffsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020-11-12"
+      ],
+      "value_pool": [
+        "2020-11-12"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lrsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020-11-25 14:04:32"
+      ],
+      "value_pool": [
+        "2020-11-25 14:04:32"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-10-25 10:27:24.0"
+      ],
+      "value_pool": [
+        "2024-10-25 10:27:24.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023-11-17 17:10:18.0"
+      ],
+      "value_pool": [
+        "2023-11-17 17:10:18.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

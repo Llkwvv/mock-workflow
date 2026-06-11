@@ -1,0 +1,128 @@
+{
+  "file_name": "贫困人口劳动技能状况202508010313.xlsx",
+  "table_name": "贫困人口劳动技能状况202508010313",
+  "row_count": 469,
+  "columns": [
+    "ldjnzk",
+    "nf",
+    "cj",
+    "姓名",
+    "zj"
+  ],
+  "fields": [
+    {
+      "name": "ldjnzk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "弱劳动力或半劳动力",
+        "技能劳动力",
+        "无劳动力",
+        "普通劳动力",
+        "丧失劳动力"
+      ],
+      "value_pool": [
+        "弱劳动力或半劳动力",
+        "技能劳动力",
+        "无劳动力",
+        "普通劳动力",
+        "丧失劳动力"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020"
+      ],
+      "value_pool": [
+        "2020"
+      ],
+      "min_value": 2020.0,
+      "max_value": 2020.0
+    },
+    {
+      "name": "cj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "荣**",
+        "李**",
+        "张**",
+        "徐**",
+        "杜**",
+        "许**",
+        "白**",
+        "邓**",
+        "魏**",
+        "陈**",
+        "司**",
+        "谢**",
+        "王**",
+        "梁**",
+        "杨**",
+        "何**",
+        "贾**",
+        "高**",
+        "袁**",
+        "朱**",
+        "刘**",
+        "孟**",
+        "马**",
+        "孙**",
+        "于**",
+        "桑**",
+        "祁**",
+        "冯**",
+        "潘**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "许庄街道"
+      ],
+      "value_pool": [
+        "许庄街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

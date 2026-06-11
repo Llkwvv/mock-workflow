@@ -1,0 +1,142 @@
+{
+  "file_name": "管理范围内河道堤防和水利设施的保护202506101015.xlsx",
+  "table_name": "管理范围内河道堤防和水利设施的保护202506101015",
+  "row_count": 60,
+  "columns": [
+    "rq",
+    "jcry",
+    "slssmc",
+    "szhl",
+    "jcnr"
+  ],
+  "fields": [
+    {
+      "name": "rq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021.03.06",
+        "2021.05.10",
+        "2021.05.13",
+        "2021.05.19",
+        "2021.03.07",
+        "2021.05.11",
+        "2022.03.06",
+        "2022.05.10",
+        "2022.05.13",
+        "2022.05.19",
+        "2022.03.07",
+        "2022.05.11",
+        "2025.3.6",
+        "2025.5.10",
+        "2025.5.13",
+        "2025.5.19",
+        "2025.03.6",
+        "2025.03.7",
+        "2025.5.11"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "王秀霞 王永华 门雨法",
+        "水利部检查组、陈忠服、王秀霞 王永华",
+        "省水利厅检查组、陈忠服、王秀霞 王永华",
+        "张德忠 王永华 门雨法",
+        "张德忠王永华 门雨法",
+        "张德忠 王永华",
+        "张德忠 王永华 梁留军",
+        "张德忠 王永华 王凤儒",
+        "张德忠 王永华 山来才",
+        "张德忠 王永华 杜凤修",
+        "张德忠  王永华  汤心科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slssmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "梁山节制闸",
+        "七山口节制闸",
+        "嘉祥村节制闸",
+        "杨庄节制闸",
+        "新庄节制闸"
+      ],
+      "value_pool": [
+        "梁山节制闸",
+        "七山口节制闸",
+        "嘉祥村节制闸",
+        "杨庄节制闸",
+        "新庄节制闸"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szhl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "洙赵新河",
+        "蔡河",
+        "洙水河",
+        "赵王河",
+        "郓城新河"
+      ],
+      "value_pool": [
+        "洙赵新河",
+        "蔡河",
+        "洙水河",
+        "赵王河",
+        "郓城新河"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "水闸运行安全隐患排查",
+        "汛前安全运行检查",
+        "水利部水闸安全运行检查",
+        "省水利厅水闸安全运行检查",
+        "水闸安全运行检查"
+      ],
+      "value_pool": [
+        "水闸运行安全隐患排查",
+        "汛前安全运行检查",
+        "水利部水闸安全运行检查",
+        "省水利厅水闸安全运行检查",
+        "水闸安全运行检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

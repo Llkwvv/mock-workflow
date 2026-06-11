@@ -1,0 +1,145 @@
+{
+  "file_name": "鱼台县自然资源和规划局_对无证开采矿产资源的行为的监管信息202506271818.xlsx",
+  "table_name": "鱼台县自然资源和规划局_对无证开采矿产资源的行为的监管信息202506271818",
+  "row_count": 59,
+  "columns": [
+    "xcdd",
+    "xcfs",
+    "xcqk",
+    "sj",
+    "zfry"
+  ],
+  "fields": [
+    {
+      "name": "xcdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "老砦镇双河煤矿",
+        "张黄镇鹿洼煤矿"
+      ],
+      "value_pool": [
+        "老砦镇双河煤矿",
+        "张黄镇鹿洼煤矿"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "日常监督检查"
+      ],
+      "value_pool": [
+        "日常监督检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "巡查过程中未发现无证开采矿产资源行为",
+        "巡查过程中未发现无证开采矿产资源行为，一切正常"
+      ],
+      "value_pool": [
+        "巡查过程中未发现无证开采矿产资源行为",
+        "巡查过程中未发现无证开采矿产资源行为，一切正常"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "43936",
+        "43966",
+        "43976",
+        "44035",
+        "44046",
+        "44069",
+        "44115",
+        "44132",
+        "44137",
+        "44198",
+        "44230",
+        "44259",
+        "44291",
+        "44322",
+        "44384",
+        "44417",
+        "44445",
+        "44449",
+        "44301",
+        "44331",
+        "44341",
+        "44400",
+        "44411",
+        "44434",
+        "44480",
+        "44497",
+        "44502",
+        "44563",
+        "44595",
+        "44624",
+        "44656",
+        "44687",
+        "44749",
+        "44782",
+        "44810",
+        "44814",
+        "44842",
+        "44854",
+        "44871",
+        "44875",
+        "44901",
+        "44905",
+        "44928",
+        "44960",
+        "44989",
+        "45021",
+        "45052",
+        "45114",
+        "45147",
+        "2025年1季度"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "屈云标、刘志国"
+      ],
+      "value_pool": [
+        "屈云标、刘志国"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

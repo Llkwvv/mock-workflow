@@ -1,0 +1,161 @@
+{
+  "file_name": "脱贫攻坚帮扶责任人信息202508010129.xlsx",
+  "table_name": "脱贫攻坚帮扶责任人信息202508010129",
+  "row_count": 49,
+  "columns": [
+    "bfc",
+    "lxfs",
+    "姓名",
+    "bfz",
+    "bfhs"
+  ],
+  "fields": [
+    {
+      "name": "bfc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "黑山沟",
+        "小山村",
+        "入云山村",
+        "王法峪村",
+        "石门村",
+        "入云山",
+        "小山庄"
+      ],
+      "value_pool": [
+        "黑山沟",
+        "小山村",
+        "入云山村",
+        "王法峪村",
+        "石门村",
+        "入云山",
+        "小山庄"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "139****5881",
+        "176****9868",
+        "175****8908",
+        "176****9897",
+        "176****9883",
+        "176****9876",
+        "176****9866",
+        "176****9896",
+        "176****9856",
+        "176****9836",
+        "176****9881",
+        "175****8907",
+        "176****9886",
+        "176****9877",
+        "176****9889",
+        "176****9878",
+        "176****9858",
+        "176****9890",
+        "176****9859",
+        "176****9869",
+        "175****8909",
+        "176****9899",
+        "155****5966",
+        "138****4278",
+        "135****9779",
+        "155****9105",
+        "135****0299",
+        "139****6976",
+        "176****7076",
+        "135****7566",
+        "138****1868",
+        "133****1502",
+        "135****4219",
+        "187****2868"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "苏**",
+        "张*",
+        "李**",
+        "程*",
+        "刘**",
+        "孔**",
+        "宁*",
+        "杨**",
+        "张**",
+        "吴**",
+        "孔*",
+        "王*",
+        "徐**",
+        "卞**",
+        "冉*",
+        "陈**",
+        "魏*",
+        "韩**",
+        "陈*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bfz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "泗张镇"
+      ],
+      "value_pool": [
+        "泗张镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bfhs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "5",
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "value_pool": [
+        "5",
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "min_value": 1.0,
+      "max_value": 5.0
+    }
+  ]
+}

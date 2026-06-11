@@ -1,0 +1,130 @@
+{
+  "file_name": "精品采摘园名单202507242142.xlsx",
+  "table_name": "精品采摘园名单202507242142",
+  "row_count": 37,
+  "columns": [
+    "yqlxr",
+    "yqdz",
+    "pdsj",
+    "pddw",
+    "yqmc"
+  ],
+  "fields": [
+    {
+      "name": "yqlxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "刘猛",
+        "王国栋",
+        "张磊",
+        "王*栋",
+        "张*"
+      ],
+      "value_pool": [
+        "刘猛",
+        "王国栋",
+        "张磊",
+        "王*栋",
+        "张*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yqdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pdsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022",
+        "2024"
+      ],
+      "value_pool": [
+        "2022",
+        "2024"
+      ],
+      "min_value": 2022.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "pddw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "太白湖机构"
+      ],
+      "value_pool": [
+        "太白湖机构"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "南阳湖农场1号园",
+        "南阳湖农场2号园",
+        "南阳湖农场3号园",
+        "南阳湖农场4号园",
+        "南阳湖农场5号园",
+        "南阳湖农场6号园",
+        "石桥葡萄园1号园",
+        "石桥葡萄园2号园",
+        "石桥葡萄园3号园",
+        "石桥葡萄园4号园",
+        "石桥葡萄园5号园",
+        "石桥葡萄园6号园",
+        "石桥葡萄园7号园",
+        "石桥葡萄园8号园",
+        "石桥葡萄园9号园",
+        "石桥葡萄园10号园",
+        "太白湖草莓庄园1号园",
+        "太白湖草莓庄园2号园",
+        "太白湖草莓庄园3号园",
+        "太白湖草莓庄园4号园",
+        "太白湖草莓庄园5号园",
+        "太白湖草莓庄园6号园",
+        "太白湖草莓庄园7号园",
+        "太白湖草莓庄园8号园",
+        "太白湖草莓庄园9号园",
+        "太白湖草莓庄园10号园",
+        "太白湖草莓庄园11号园",
+        "太白湖草莓庄园12号园",
+        "太白湖草莓庄园13号园"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

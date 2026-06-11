@@ -1,0 +1,93 @@
+{
+  "file_name": "微山县工商贸企业信息列表202603201045.xlsx",
+  "table_name": "微山县工商贸企业信息列表202603201045",
+  "row_count": 2,
+  "columns": [
+    "qymc",
+    "dz",
+    "fzr",
+    "lxdh",
+    "gxnf"
+  ],
+  "fields": [
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县安泓建材有限公司"
+      ],
+      "value_pool": [
+        "微山县安泓建材有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省济宁市微山县傅村街道张西村西50米"
+      ],
+      "value_pool": [
+        "山东省济宁市微山县傅村街道张西村西50米"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "刘四涛"
+      ],
+      "value_pool": [
+        "刘四涛"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "135********"
+      ],
+      "value_pool": [
+        "135********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxnf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2023",
+        "2024"
+      ],
+      "min_value": 2023.0,
+      "max_value": 2024.0
+    }
+  ]
+}

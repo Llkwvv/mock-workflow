@@ -1,0 +1,139 @@
+{
+  "file_name": "对建筑市场的监管检查202506241234.xlsx",
+  "table_name": "对建筑市场的监管检查202506241234",
+  "row_count": 30,
+  "columns": [
+    "jcfs",
+    "xzxdr",
+    "jcxwmc",
+    "ssjg",
+    "jcjg"
+  ],
+  "fields": [
+    {
+      "name": "jcfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "双随机一公开监管"
+      ],
+      "value_pool": [
+        "双随机一公开监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "微山县星空置业有限公司",
+        "微山县建筑设计院",
+        "山东金祥云贸易有限公司",
+        "枣庄市建筑设计研究院",
+        "山东龙顺置业有限公司",
+        "李健",
+        "山东永胜建设集团有限公司",
+        "山东京投集团有限公司微山分公司",
+        "丁申行",
+        "山东信一项目管理有限公司",
+        "三托集团枣庄市众信建筑安装工程有限公司",
+        "微山县马坡加油站",
+        "微山县市政工程处",
+        "微山住宅公司",
+        "微山县住宅建筑公司",
+        "微山新农商市场有限公司",
+        "济宁市起航建筑工程有限公司",
+        "微山博思储能科技有限公司",
+        "鑫桥旅社",
+        "韩庄镇假日宾馆",
+        "瑞荷渔家宾馆",
+        "微园民宿",
+        "济宁运正商务酒店有限公司（汉庭）",
+        "金大宾馆",
+        "广宇旅馆",
+        "微山岛玉清农家院",
+        "兴缘洗浴中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "对房屋建筑和市政工程抗震设防检查",
+        "对推广、限制和禁用技术与产品的监管",
+        "对房屋建筑和市政基础设施工程勘察设计质量的监管",
+        "对建设单位工程验收后的备案抽查",
+        "检查设计单位人员",
+        "对建筑施工企业项目负责人等管理人员履行安全职责的检查",
+        "对建筑节能、绿色建筑的检查、",
+        "检查监理工程师",
+        "对工程造价公司的监管",
+        "检查注册建筑师",
+        "安全生产及扬尘治理检查",
+        "对特殊建设工程消防验收的行政检查",
+        "对市政工程处无障碍环境建设的检查",
+        "对工程建设标准，定额实施的监管",
+        "对建筑施工企业安全生产活动的监管",
+        "对山东信一工程造价咨询企业的监管",
+        "对房地产开发企业的检查",
+        "对各类工程建设标准实施情况的监督检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山住房城乡建设局"
+      ],
+      "value_pool": [
+        "微山住房城乡建设局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果",
+        "发现问题作出责令改正等行政命令",
+        "发现问题做出行政指导",
+        "未发现问题"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果",
+        "发现问题作出责令改正等行政命令",
+        "发现问题做出行政指导",
+        "未发现问题"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

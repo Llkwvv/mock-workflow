@@ -1,0 +1,152 @@
+{
+  "file_name": "泗水县公益事业信息202506302134.xlsx",
+  "table_name": "泗水县公益事业信息202506302134",
+  "row_count": 25,
+  "columns": [
+    "syh",
+    "fbrq",
+    "mc",
+    "zpfl",
+    "fbjg"
+  ],
+  "fields": [
+    {
+      "name": "syh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "min_value": 1.0,
+      "max_value": 25.0
+    },
+    {
+      "name": "fbrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022年",
+        "2017年"
+      ],
+      "value_pool": [
+        "2022年",
+        "2017年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "泗水县全民健身实施计划（2016-2020年）",
+        "关于成立仲庙高明殿修缮工程领导小组通知",
+        "济宁市为民办实事篮球场捐赠公布",
+        "济宁市为民办实事篮球场捐赠管理使用信息",
+        "泗水县体育场地免费开放信息",
+        "泗水县历史展馆",
+        "泗水县图书馆",
+        "关于公布第四批县级非物质文化遗产名录的通知",
+        "关于公布第一批县级非物质文化遗产项目代表性传承人的通知",
+        "关于泗水北玉沟遗址考古发掘的申请",
+        "泗水县文化遗产保护工作会议方案",
+        "泗水县教育和体育局关于免费向社会开放学校体育场地的公告",
+        "泗水双创孵化园基地项目一期考古发掘项目进展情况及下一步工作计划",
+        "关于提升全市公共文化机构服务效能的意见",
+        "泗水县文化遗产保护情况",
+        "泗水县群众体育工作有亮点",
+        "开展“情暖社区·文明共建”图书捐赠活动",
+        "四大亮点扮靓2019泗水赏花汇·梅花节，春季旅游实现开门红",
+        "第六届全县读书朗诵大赛暨第十四届全市朗诵大赛选拔赛",
+        "城乡百姓走出家门欢度元宵节",
+        "泗水县第九届全民健身运动会马拉松比赛",
+        "中国梦·泗河情”庆祝新中国成立70周年暨“风情周末·乡居泗水”系列活动启动仪式隆重举行！",
+        "泗水县第六届青少年国学经典朗诵比赛成功举办",
+        "新青年音乐节",
+        "杨柳镇青年志愿者走上街头宣传\"99公益\""
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zpfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "公共文化体育",
+        "综合类"
+      ],
+      "value_pool": [
+        "公共文化体育",
+        "综合类"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fbjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "泗水县教育和体育局",
+        "县文化广电新闻出版局",
+        "县教育和体育局",
+        "泗水县文化广电新闻出版局",
+        "泗水县文化和旅游局",
+        "杨柳镇"
+      ],
+      "value_pool": [
+        "泗水县教育和体育局",
+        "县文化广电新闻出版局",
+        "县教育和体育局",
+        "泗水县文化广电新闻出版局",
+        "泗水县文化和旅游局",
+        "杨柳镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "file_name": "鱼台县水务局_农业灌排工程设施监管的信息202506271918.xlsx",
+  "table_name": "鱼台县水务局_农业灌排工程设施监管的信息202506271918",
+  "row_count": 28,
+  "columns": [
+    "sj",
+    "jcjg",
+    "jcfs",
+    "bmmc",
+    "jcdx",
+    "sxmc"
+  ],
+  "fields": [
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2023-05-07 00:00:00",
+        "2023-05-10 00:00:00",
+        "2023-06-06 00:00:00",
+        "2023-06-08 00:00:00",
+        "2023-06-09 00:00:00",
+        "2023-06-11 00:00:00",
+        "2023-07-12 00:00:00",
+        "2023-07-13 00:00:00",
+        "2023-08-04 00:00:00",
+        "2023-08-05 00:00:00",
+        "2023-08-08 00:00:00",
+        "2023-08-13 00:00:00",
+        "2023-08-23 00:00:00",
+        "2024-08-04 00:00:00",
+        "2024-08-05 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格"
+      ],
+      "value_pool": [
+        "合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "重点监管"
+      ],
+      "value_pool": [
+        "重点监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "县水务局",
+        "鱼台县水务局"
+      ],
+      "value_pool": [
+        "县水务局",
+        "鱼台县水务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "南田站",
+        "王口站",
+        "王口东站",
+        "张埝站",
+        "刘砦站",
+        "小砦站",
+        "晁庄站",
+        "李集站",
+        "李集北站",
+        "东里站",
+        "沙河站",
+        "西北站",
+        "盛庙站",
+        "马庄站",
+        "高庄站",
+        "付小楼站",
+        "赵庄站",
+        "宋庄站",
+        "田庄站",
+        "华庄站",
+        "大黄站",
+        "王鲁站",
+        "田庙站",
+        "小黄站",
+        "小黄南站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "占用农业灌排工程设施"
+      ],
+      "value_pool": [
+        "占用农业灌排工程设施"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

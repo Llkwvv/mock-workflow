@@ -1,0 +1,134 @@
+{
+  "file_name": "鱼台县检验检测中心_人员信息202508010138.xlsx",
+  "table_name": "鱼台县检验检测中心_人员信息202508010138",
+  "row_count": 19,
+  "columns": [
+    "zc",
+    "姓名",
+    "xb",
+    "zy",
+    "xzgw"
+  ],
+  "fields": [
+    {
+      "name": "zc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "其他",
+        "中级职称",
+        "初级职称"
+      ],
+      "value_pool": [
+        "其他",
+        "中级职称",
+        "初级职称"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孟**",
+        "高**",
+        "姜**",
+        "赵**",
+        "梁**",
+        "奚**",
+        "姚**",
+        "张**",
+        "李**",
+        "葛**",
+        "孔**",
+        "孙**",
+        "邵**",
+        "朱**",
+        "夏**",
+        "屈**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "计算机",
+        "畜牧兽医",
+        "动物遗传育种与繁殖",
+        "农业经济管理",
+        "社会科学",
+        "计量技术与管理",
+        "标准计量与质量管理",
+        "生物技术",
+        "生物化学与分子生物学",
+        "分析化学",
+        "应用化学",
+        "材料化学",
+        "食品科学与工程",
+        "质量管理",
+        "产品质量工程",
+        "工程经济"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzgw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "机构负责人",
+        "其他",
+        "质量负责人",
+        "质量监督员",
+        "部门负责人"
+      ],
+      "value_pool": [
+        "机构负责人",
+        "其他",
+        "质量负责人",
+        "质量监督员",
+        "部门负责人"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

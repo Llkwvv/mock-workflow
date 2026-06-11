@@ -1,0 +1,138 @@
+{
+  "file_name": "济宁市机动车综合性能检测经营企业信息202512171230.xlsx",
+  "table_name": "济宁市机动车综合性能检测经营企业信息202512171230",
+  "row_count": 14,
+  "columns": [
+    "qydz",
+    "qyfddbr",
+    "yyzt",
+    "xh",
+    "qymc"
+  ],
+  "fields": [
+    {
+      "name": "qydz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "泗水县城北外环路西段路北",
+        "泗水县济河办光明路南首路东",
+        "泗水县泗河办经济开发区泉源大道西首",
+        "金乡县鱼山街道张翟村",
+        "邹城市经济开发区同兴路377号",
+        "曲阜市杏坛路与104国道交叉路口北200米路西333号",
+        "山东省济宁市汶上县中都街道办事处疃里村东首",
+        "山东省济宁市邹城市大束镇南葛村村西、岚济路路南",
+        "山东省济宁市嘉祥县卧龙山街道中李楼村（338线南200米）",
+        "山东省济宁市嘉祥县县城建设南路南首",
+        "鱼台县经济开发区工业路西、车管所南88米#",
+        "山东省济宁市兖州旧关立交桥北路东",
+        "济宁市兖州区兴隆庄镇工业园",
+        "曲阜市孔林西南角"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyfddbr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张海光",
+        "李广振",
+        "乔友亮",
+        "李浩",
+        "沈彤彤",
+        "王其名",
+        "赵晋",
+        "孟宪新",
+        "李东旭",
+        "高兴元",
+        "魏宏",
+        "王所平",
+        "吕天辉",
+        "阎伟"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yyzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "正常"
+      ],
+      "value_pool": [
+        "正常"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "min_value": 1.0,
+      "max_value": 14.0
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "泗水县华胜机动车检测有限公司",
+        "泗水旭升机动车检测有限公司",
+        "泗水县大正机动车检测有限公司",
+        "金乡县恒诺机动车辆检测有限公司",
+        "山东亿德机动车检测有限公司",
+        "曲阜正通机动车检测有限公司",
+        "汶上县洁源机动车检测有限责任公司",
+        "济宁亚圣机动车检测有限公司",
+        "嘉祥县益捷机动车检测有限公司",
+        "嘉祥县恒通机动车检测有限公司",
+        "鱼台县晟德机动车检测有限公司",
+        "济宁市兖州区富平机动车检测有限公司",
+        "济宁元通车辆检测有限公司",
+        "曲阜市交通服务中心机动车综合性能检测有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

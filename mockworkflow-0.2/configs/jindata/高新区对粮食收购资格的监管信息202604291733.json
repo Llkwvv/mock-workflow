@@ -1,0 +1,309 @@
+{
+  "file_name": "高新区对粮食收购资格的监管信息202604291733.xlsx",
+  "table_name": "高新区对粮食收购资格的监管信息202604291733",
+  "row_count": 32,
+  "columns": [
+    "xzxdrzjlx",
+    "xzxdrzjbm",
+    "jgdxlx",
+    "xzxdr",
+    "jcxwmc",
+    "ssjg",
+    "jclb",
+    "jcxmmc",
+    "jcsj",
+    "jcjg",
+    "xzxdrxz",
+    "jgdx",
+    "jcxwbh"
+  ],
+  "fields": [
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "居民身份证"
+      ],
+      "value_pool": [
+        "居民身份证"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370811**********35",
+        "370822**********17",
+        "370802**********12"
+      ],
+      "value_pool": [
+        "370811**********35",
+        "370822**********17",
+        "370802**********12"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业、个体户、农专社"
+      ],
+      "value_pool": [
+        "企业、个体户、农专社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "耿*军",
+        "黄*质",
+        "梁*",
+        "黄**"
+      ],
+      "value_pool": [
+        "耿*军",
+        "黄*质",
+        "梁*",
+        "黄**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对粮食收购资格的监管",
+        "对粮食收购资格的行政检查"
+      ],
+      "value_pool": [
+        "对粮食收购资格的监管",
+        "对粮食收购资格的行政检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经发局"
+      ],
+      "value_pool": [
+        "经发局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "检查收购站粮食收购资格",
+        "对粮食收购资格的行政检查",
+        "对粮食收购资格的监管"
+      ],
+      "value_pool": [
+        "检查收购站粮食收购资格",
+        "对粮食收购资格的行政检查",
+        "对粮食收购资格的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2019-04-20",
+        "2020-04-13",
+        "2020-09-14",
+        "2020-12-30",
+        "2020-12-31",
+        "2021-03-04",
+        "2021-05-16",
+        "2021-06-30",
+        "2021-07-23",
+        "2021-05-28",
+        "2021-06-19",
+        "2021-07-30",
+        "2021-08-13",
+        "2021-09-19",
+        "2021-10-20",
+        "2021-09-20",
+        "2021-10-15",
+        "2021-11-12",
+        "2021-12-23",
+        "2021-09-22",
+        "2021-11-23",
+        "2022-05-30",
+        "2023-05-16",
+        "2023-07-22",
+        "2023-11-06",
+        "2024-04-30",
+        "2024-08-25",
+        "2025-04-24",
+        "2025-06-18"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "公民"
+      ],
+      "value_pool": [
+        "公民"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "92370800*********Y",
+        "92370800*********8",
+        "91370800*********D",
+        "923708***********8",
+        "913708***********D"
+      ],
+      "value_pool": [
+        "92370800*********Y",
+        "92370800*********8",
+        "91370800*********D",
+        "923708***********8",
+        "913708***********D"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "201902",
+        "202001",
+        "202003",
+        "2020011230",
+        "590005060001",
+        "12020123101",
+        "12021030401",
+        "12021072298",
+        "12021072337",
+        "12021072301",
+        "20210528",
+        "20210619",
+        "20210730",
+        "20210813",
+        "2021020813",
+        "2021010813",
+        "20210919",
+        "20211020",
+        "20210156",
+        "12021072322",
+        "20211112",
+        "20211223",
+        "2021020922",
+        "2021010829",
+        "20220530",
+        "20230505",
+        "20230722",
+        "20231106",
+        "20240430",
+        "20240825",
+        "20250424",
+        "20250618"
+      ],
+      "min_value": 201902.0,
+      "max_value": 590005060001.0
+    }
+  ]
+}

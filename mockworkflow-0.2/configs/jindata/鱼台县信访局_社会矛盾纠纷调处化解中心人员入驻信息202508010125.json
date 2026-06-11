@@ -1,0 +1,170 @@
+{
+  "file_name": "鱼台县信访局_社会矛盾纠纷调处化解中心人员入驻信息202508010125.xlsx",
+  "table_name": "鱼台县信访局_社会矛盾纠纷调处化解中心人员入驻信息202508010125",
+  "row_count": 20,
+  "columns": [
+    "dw",
+    "lxfs",
+    "xb",
+    "bz",
+    "姓名",
+    "zw"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "信访局",
+        "社会治理服务中心",
+        "住建局",
+        "人社局",
+        "教体局",
+        "水务局",
+        "农业农村局",
+        "自然资源和规划局",
+        "市场监督管理局"
+      ],
+      "value_pool": [
+        "信访局",
+        "社会治理服务中心",
+        "住建局",
+        "人社局",
+        "教体局",
+        "水务局",
+        "农业农村局",
+        "自然资源和规划局",
+        "市场监督管理局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "138****5018",
+        "155****0679",
+        "156****6677",
+        "151****9288",
+        "135****1226",
+        "159****9531",
+        "186****8090",
+        "156****6824",
+        "178****1207",
+        "171****7449",
+        "178****8521",
+        "198****0660",
+        "185****8508",
+        "136****7188",
+        "150****5722",
+        "137****4085",
+        "138****2566",
+        "152****6533",
+        "133****7995",
+        "150****3120"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "备注数据项无数据"
+      ],
+      "value_pool": [
+        "备注数据项无数据"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "何**",
+        "张**",
+        "葛**",
+        "甄**",
+        "陈**",
+        "周**",
+        "康**",
+        "高**",
+        "常**",
+        "丛**",
+        "曹**",
+        "田**",
+        "李***",
+        "袁***",
+        "孙**",
+        "王**",
+        "刘**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "信访局副局长",
+        "社会治理服务中心副主任",
+        "社会矛盾纠纷调处化解中心主任",
+        "信访局接访二科科长",
+        "社会治理服务中心工作人员",
+        "科员",
+        "网格员",
+        "信访科科长",
+        "劳动人事争议仲裁院调解庭庭长",
+        "工作人员",
+        "政工科科长",
+        "信访工作室主任",
+        "张黄镇市管所所长"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

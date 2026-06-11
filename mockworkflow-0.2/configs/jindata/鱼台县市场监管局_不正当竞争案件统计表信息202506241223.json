@@ -1,0 +1,187 @@
+{
+  "file_name": "鱼台县市场监管局_不正当竞争案件统计表信息202506241223.xlsx",
+  "table_name": "鱼台县市场监管局_不正当竞争案件统计表信息202506241223",
+  "row_count": 27,
+  "columns": [
+    "ysygbmajj",
+    "yssfjg",
+    "lywlj",
+    "syqzcsj",
+    "fkjewy",
+    "msjewy",
+    "ajzsj",
+    "zbmc",
+    "azwy"
+  ],
+  "fields": [
+    {
+      "name": "ysygbmajj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "0件"
+      ],
+      "value_pool": [
+        "0",
+        "0件"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yssfjg",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "lywlj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "syqzcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "fkjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "msjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "ajzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "0",
+        "0件"
+      ],
+      "value_pool": [
+        "0",
+        "0件"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "擅自使用与他人有一定影响的商品名称、包装、装潢等相同或者近似的标识",
+        "擅自使用他人有一定影响的企业名称（包括简称、字号等）、社会组织名称（包括简称等）、姓名（包括笔名、艺名、译名等）",
+        "擅自使用他人有一定影响的域名主体部分、网站名称、网页等",
+        "其他足以引人误认为是他人商品或者与他人存在特定联系的混淆行为",
+        "以盗窃、贿赂、欺诈、胁迫或者其他不正当手段获取权利人的商业秘密",
+        "披露、使用或者允许他人使用以前项手段获取的权利人的商业秘密",
+        "违反保密义务或者违反权利人有关保守商业秘密的要求，披露、使用或者允许他人使用其所掌握的商业秘密",
+        "教唆、引诱、帮助他人违反保密义务或者违反权利人有关保守商业秘密的要求，获取、披露、使用或者允许他人使用权利人的商业秘密",
+        "第三人明知或者应知商业秘密权利人的员工、前员工或者其他单位、个人实施前款所列违法行为，仍获取、披露、使用或者允许他人使用",
+        "贿赂交易相对方工作人员",
+        "贿赂受交易相对方委托的单位或个人",
+        "贿赂影响交易的单位或者个人",
+        "对商品性能、功能、质量、销售状况、用户评价、曾获荣誉作虚假或引人误解的商业宣传",
+        "通过组织虚假交易等方式，帮助其他经营者进行虚假或引人误解的商业宣传",
+        "所设奖的种类、兑奖条件、奖金金额或者奖品等有奖销售信息不明确，影响兑奖",
+        "采用谎称有奖或者故意让内定人员中奖的欺骗方式进行有奖销售",
+        "抽奖式的有奖销售，最高奖的金额超过五万元",
+        "编造、传播虚假信息或者误导性信息，损害竞争对手的商业信誉、商品声誉",
+        "未经其他经营者同意，在其合法提供的网络产品或者服务中，插入链接、强制进行目标跳转",
+        "误导、欺骗、强迫用户修改、关闭、卸载其他经营者合法提供的网络产品或者服务",
+        "恶意对其他经营者合法提供的网络产品或者服务实施不兼容",
+        "其他妨碍、破坏其他经营者合法提供的网络产品或者服务正常运行的行为",
+        "妨害监督检查部门依照本法履行职责，拒绝、阻碍调查",
+        "其他"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "azwy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "file_name": "汶上县加油站经纬度信息统计表202507242125.xlsx",
+  "table_name": "汶上县加油站经纬度信息统计表202507242125",
+  "row_count": 11,
+  "columns": [
+    "qymc",
+    "jd",
+    "wd",
+    "sjnd",
+    "qydz"
+  ],
+  "fields": [
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "中国石油天然气股份有限公司山东济宁销售分公司汶上县南二环加油站",
+        "中国石油天然气股份有限公司山东济宁销售分公司汶上圣泽大街加油站",
+        "中国石油天然气股份有限公司山东济宁销售分公司汶上九华山路加油站",
+        "中国石油天然气股份有限公司山东济宁销售分公司汶上郭仓加油站",
+        "中国石油天然气股份有限公司山东济宁销售分公司汶上北二环加油站",
+        "中国石化销售有限公司山东济宁汶上第五加油站",
+        "中国石化销售有限公司山东济宁汶上第四加油站",
+        "中国石化销售有限公司山东济宁汶上第十五加油站",
+        "中国石化销售有限公司山东济宁汶上第十四加油站",
+        "汶上县顺达加油站",
+        "汶上县联合石化龙腾加油站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "116.273",
+        "116.479",
+        "116.466",
+        "116.285",
+        "116.476",
+        "116.504",
+        "116.486",
+        "116.494",
+        "116.589",
+        "116.52"
+      ],
+      "min_value": 116.273,
+      "max_value": 116.589
+    },
+    {
+      "name": "wd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "35.413",
+        "35.721",
+        "35.707",
+        "35.475",
+        "35.753",
+        "35.72",
+        "35.804",
+        "35.7",
+        "35.732",
+        "35.792",
+        "35.57"
+      ],
+      "min_value": 35.413,
+      "max_value": 35.804
+    },
+    {
+      "name": "sjnd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2024年"
+      ],
+      "value_pool": [
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qydz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市汶上经济开发区桥口村北，汶上县南二环路与汶金线交汇处东50米路北",
+        "山东省济宁市汶上县城区圣泽大街25号，省道蒙馆线160公里处(路北)",
+        "山东省济宁市汶上县南一环路与西一环路交叉口西北角",
+        "汶上县郭仓镇政府驻地(105国道与郭石公路交叉口西南角))",
+        "山东省济宁市汶上县北二环路中段南，祥云社区东",
+        "济宁市汶上县汶上镇小楼村西105国道575公里处西",
+        "济宁市汶上县郭仓乡仁仓村北105国道562公里路东",
+        "济宁市汶上县汶上镇路林村北105国道543.3公里处路西",
+        "济宁市汶上县苑庄镇李村西汶宁公路11公里处路北",
+        "汶上县郭仓乡驻地南首105国道546公里处路西",
+        "山东省济宁市汶上县康驿镇驻地南105国道584公里处"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

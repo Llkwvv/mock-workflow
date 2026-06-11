@@ -1,0 +1,139 @@
+{
+  "file_name": "鱼台县民政局_鱼台县政府购买居家养老服务人员信息202508010157.xlsx",
+  "table_name": "鱼台县民政局_鱼台县政府购买居家养老服务人员信息202508010157",
+  "row_count": 38,
+  "columns": [
+    "姓名",
+    "fwzz",
+    "tgfwsj",
+    "dq",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "赵**",
+        "曹**",
+        "李**",
+        "刘**",
+        "张**",
+        "宫**",
+        "邓**",
+        "甄**",
+        "葛**",
+        "周**",
+        "马**",
+        "左**",
+        "魏**",
+        "秦**",
+        "罗**",
+        "闫**",
+        "郭**",
+        "申**",
+        "袁**",
+        "巩**",
+        "郝**",
+        "史**",
+        "房**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "益康老年公寓"
+      ],
+      "value_pool": [
+        "益康老年公寓"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tgfwsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "每月不低于30个小时"
+      ],
+      "value_pool": [
+        "每月不低于30个小时"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "城区",
+        "滨湖",
+        "谷亭",
+        "唐马",
+        "王鲁",
+        "老砦镇",
+        "李阁镇",
+        "清河镇",
+        "王庙镇",
+        "滨湖街道"
+      ],
+      "value_pool": [
+        "城区",
+        "滨湖",
+        "谷亭",
+        "唐马",
+        "王鲁",
+        "老砦镇",
+        "李阁镇",
+        "清河镇",
+        "王庙镇",
+        "滨湖街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女",
+        "女性",
+        "男性"
+      ],
+      "value_pool": [
+        "男",
+        "女",
+        "女性",
+        "男性"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

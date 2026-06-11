@@ -1,0 +1,139 @@
+{
+  "file_name": "梁山县限停产或产能置换企业清单信息202506161152.xlsx",
+  "table_name": "梁山县限停产或产能置换企业清单信息202506161152",
+  "row_count": 20,
+  "columns": [
+    "aqjg",
+    "aqzg",
+    "sfpbaqzj",
+    "xtcyy",
+    "xtcqymc"
+  ],
+  "fields": [
+    {
+      "name": "aqjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "应急局",
+        "县应急局、县消防救援大队",
+        "县应急局"
+      ],
+      "value_pool": [
+        "应急局",
+        "县应急局、县消防救援大队",
+        "县应急局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "aqzg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "工信局",
+        "县工信局"
+      ],
+      "value_pool": [
+        "工信局",
+        "县工信局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfpbaqzj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "无相关数据",
+        "是"
+      ],
+      "value_pool": [
+        "否",
+        "无相关数据",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xtcyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "两高",
+        "限电",
+        "产能置换",
+        "环保",
+        "因消防队查封泡沫板房，暂未经营",
+        "今年以来，一直未开工",
+        "合同到期",
+        "季节性临时停产",
+        "电力不足",
+        "换证期间"
+      ],
+      "value_pool": [
+        "两高",
+        "限电",
+        "产能置换",
+        "环保",
+        "因消防队查封泡沫板房，暂未经营",
+        "今年以来，一直未开工",
+        "合同到期",
+        "季节性临时停产",
+        "电力不足",
+        "换证期间"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xtcqymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金鑫水泥有限责任公司",
+        "梁山常青树板材有限公司",
+        "梁山龙翔特种设备有限公司",
+        "梁山阳光百川涂装有限公司",
+        "山东恒泰服饰股份有限公司",
+        "山东欧泰装饰材料有限公司",
+        "山东省梁山县卓远塑化有限公司",
+        "山东旭腾车辆制造有限公司",
+        "山东杨喜达车辆有限公司",
+        "山东缘升泰家具有限公司",
+        "万科碳素新材料有限公司",
+        "梁山福华车桥有限公司",
+        "梁山木兰淀粉制品厂",
+        "梁山县世龙棉织有限公司",
+        "梁山鑫源淀粉制品厂",
+        "梁山于涛淀粉制品厂",
+        "山东梁山一鼎肉类食品有限公司",
+        "山东梁山众信纺织有限公司",
+        "山东祥盛纺织股份有限公司",
+        "梁山新翔新材料有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

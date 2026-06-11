@@ -1,0 +1,127 @@
+{
+  "file_name": "微山县水务局水土保持费收缴情况_0.csv",
+  "table_name": "微山县水务局水土保持费收缴情况_0",
+  "row_count": 21,
+  "columns": [
+    "col",
+    "col1",
+    "col2",
+    "col3",
+    "col4"
+  ],
+  "fields": [
+    {
+      "name": "col",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "116001_03",
+        "116001_05",
+        "116001_04"
+      ],
+      "value_pool": [
+        "116001_03",
+        "116001_05",
+        "116001_04"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col1",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019/08/21",
+        "2019/11/05",
+        "2019/12/16",
+        "2019/12/27",
+        "2020/06/22",
+        "2020/07/13",
+        "2020/07/20",
+        "2020/07/30",
+        "2020/09/18"
+      ],
+      "value_pool": [
+        "2019/08/21",
+        "2019/11/05",
+        "2019/12/16",
+        "2019/12/27",
+        "2020/06/22",
+        "2020/07/13",
+        "2020/07/20",
+        "2020/07/30",
+        "2020/09/18"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col2",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "иҐІ╚й║Їгк╟йухКм╗сцф╠╬щ"
+      ],
+      "value_pool": [
+        "иҐІ╚й║Їгк╟йухКм╗сцф╠╬щ"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col3",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "жїф╠",
+        "ожҐП",
+        "в╙ук"
+      ],
+      "value_pool": [
+        "жїф╠",
+        "ожҐП",
+        "в╙ук"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col4",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "тФв╞©Ср╣╪╞ме╦ъв╞ц╨р╣споч╧╚к╬",
+        "тФв╞©Ср╣╪╞мепб╟╡ц╨р╣споч╧╚к╬",
+        "тФв╞©Ср╣(╪╞ме)╦ІЄЕц╨р╣споч╧╚к╬",
+        "иҐІ╚й║хЩ╨с©з©Ср╣спочтПхн╧╚к╬",
+        "иҐІ╚аЗкЁжцр╣споч╧╚к╬",
+        "тФв╞©Ср╣ё╗╪╞меё╘╦ІЄЕМЇй╞хх╣Гспоч╧╚к╬",
+        "тФв╞©Ср╣ё╗╪╞меё╘╦ІЄЕц╨р╣споч╧╚к╬",
+        "тФв╞©Ср╣╪╞меКЬдорҐт╨",
+        "тФв╞©Ср╣ё╗╪╞меё╘спочтПхн╧╚к╬лОЁбц╨©С",
+        "иҐІ╚й║н╒иҐ╨Ч©Ср╣╪╞меспоч╧╚к╬╩ІЁгц╨©С",
+        "н╒иҐоьк╝нЯ╧╚к╬",
+        "иҐІ╚й║н╒иҐ╨Ч©Ср╣╪╞меспоч╧╚к╬ЦТ╨сц╨©С"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

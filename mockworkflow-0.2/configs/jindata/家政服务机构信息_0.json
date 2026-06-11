@@ -1,0 +1,96 @@
+{
+  "file_name": "家政服务机构信息_0.csv",
+  "table_name": "家政服务机构信息_0",
+  "row_count": 21,
+  "columns": [
+    "tyshxydm",
+    "qymc",
+    "hyml"
+  ],
+  "fields": [
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "92370830MA3CU0R76N",
+        "92370830MA3DAK046X",
+        "92370830MA3DJEC45Q",
+        "92370830MA3F2MTQ4M",
+        "92370830MA3K2QW65H",
+        "92370830MA3MG6L85M",
+        "92370830MA3NBL65XE",
+        "92370830MA3NETR43B",
+        "92370830MA3NNY546X",
+        "92370830MA3PAWTK5Q",
+        "92370830MA3PP2CB3K",
+        "92370830MA3PR6FH37",
+        "92370830MA3QCCR73Y",
+        "92370830MA3RBK757G",
+        "92370830MA3RDL742N",
+        "92370830MA3RGW3434",
+        "92370830MA3T4C0624",
+        "92370830MA3T975W0K",
+        "92370830MA3TB8086U",
+        "92370830MA3TQTD37A",
+        "92370830MA3TW6LT0J"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县新起点家政服务中心",
+        "汶上县妙霖瑜伽馆",
+        "汶上县洁雅阁家政服务中心",
+        "汶上县速邦锁具店",
+        "汶上县贝福特儿童摄影会所",
+        "汶上县温馨家政服务中心",
+        "汶上县洁巧家电清洗服务店",
+        "汶上县鹏鸣家政服务中心",
+        "汶上县宇好宾馆",
+        "汶上县佳诚信息中介服务",
+        "汶上县秀花家政服务中心",
+        "汶上县宝霞月嫂服务中心",
+        "汶上县心爱家政服务店",
+        "汶上县鑫淼家政保洁服务店",
+        "汶上县咪儿家政服务部",
+        "汶上县天缘婚庆服务中心",
+        "汶上县贴心家政服务中心",
+        "汶上县广展装饰店",
+        "汶上县风舞家政",
+        "汶上县来剪吧理发馆",
+        "汶上县爱婴月嫂家政服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "居民服务、修理和其他服务业-O"
+      ],
+      "value_pool": [
+        "居民服务、修理和其他服务业-O"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "file_name": "高新区重点关注企业检查结果公示信息202605251203.xlsx",
+  "table_name": "高新区重点关注企业检查结果公示信息202605251203",
+  "row_count": 5,
+  "columns": [
+    "qymc",
+    "jcjg",
+    "zchtyshxydm",
+    "jcsx",
+    "jcsj",
+    "s",
+    "ccjg",
+    "xsq"
+  ],
+  "fields": [
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁德麟商贸有限公司",
+        "济宁如意国际纺织发展有限公司",
+        "济宁高新宁华大数据有限公司",
+        "山东经科设备租赁有限公司",
+        "济宁新欣创业投资有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新区市场监督管理局洸河市场监督管理所",
+        "济宁高新区市场监督管理局柳行市场监督管理所"
+      ],
+      "value_pool": [
+        "济宁高新区市场监督管理局洸河市场监督管理所",
+        "济宁高新区市场监督管理局柳行市场监督管理所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zchtyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "913708**********2B",
+        "913708**********74",
+        "913708**********86",
+        "913708**********7C",
+        "913708**********6A"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "公司营业地址"
+      ],
+      "value_pool": [
+        "公司营业地址"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-05-15",
+        "2025-05-16",
+        "2025-05-27",
+        "2025-05-30"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ccjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题"
+      ],
+      "value_pool": [
+        "未发现问题"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

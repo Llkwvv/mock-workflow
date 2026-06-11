@@ -1,0 +1,158 @@
+{
+  "file_name": "金乡县机关事业参保人员档案预审名单202508010319.xlsx",
+  "table_name": "金乡县机关事业参保人员档案预审名单202508010319",
+  "row_count": 716,
+  "columns": [
+    "dwxz",
+    "qy",
+    "dwmc",
+    "xb",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "dwxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "机关事业"
+      ],
+      "value_pool": [
+        "机关事业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁教育学院附属小学",
+        "济宁市公路管理局金乡公路局",
+        "金乡县保障性住房管理中心",
+        "金乡县卜集镇人民政府",
+        "金乡县卜集镇中心校",
+        "金乡县财政局",
+        "金乡县城市管理行政执法局",
+        "金乡县城乡建设管理服务中心",
+        "金乡县畜牧兽医局",
+        "金乡县党政机关招待所",
+        "金乡县第二实验小学",
+        "金乡县第二中学",
+        "金乡县第三中学",
+        "金乡县第一中学",
+        "金乡县东城小学",
+        "金乡县发展和改革局",
+        "金乡县房产服务中心",
+        "金乡县房屋征收和住房保障中心",
+        "金乡县妇幼保健计划生育服务中心",
+        "金乡县干部休养所",
+        "金乡县高河街道办事处",
+        "金乡县高河街道办事处中心校",
+        "金乡县公安局",
+        "金乡县供销合作总社",
+        "金乡县国土资源监察大队",
+        "金乡县国土资源局",
+        "金乡县胡集镇人民政府",
+        "金乡县胡集镇中心校"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "邵**",
+        "杨**",
+        "李**",
+        "孟**",
+        "肖**",
+        "陈**",
+        "刘**",
+        "王**",
+        "莫**",
+        "何**",
+        "殷**",
+        "邱**",
+        "侯**",
+        "孙**",
+        "张**",
+        "仇**",
+        "周**",
+        "赵**",
+        "代**",
+        "蔡**",
+        "任**",
+        "卞**",
+        "吴**",
+        "徐**",
+        "唐**",
+        "仝**",
+        "曾**",
+        "郭**",
+        "郑**",
+        "常**",
+        "丁**",
+        "魏**",
+        "程**",
+        "彭**",
+        "马**",
+        "奚**",
+        "晁**",
+        "宋**",
+        "贾**",
+        "胡**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "file_name": "机关事业单位退休人员养老保险手册审核记录信息202508010314.xlsx",
+  "table_name": "机关事业单位退休人员养老保险手册审核记录信息202508010314",
+  "row_count": 1,
+  "columns": [
+    "sfzh",
+    "xh",
+    "sftxshb",
+    "sf",
+    "dw",
+    "姓名",
+    "shrq"
+  ],
+  "fields": [
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370826****05151616"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "211"
+      ],
+      "min_value": 211.0,
+      "max_value": 211.0
+    },
+    {
+      "name": "sftxshb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "固定工"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山县教育和体育局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "欧***"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020.09.25"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

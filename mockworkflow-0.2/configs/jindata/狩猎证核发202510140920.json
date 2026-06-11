@@ -1,0 +1,136 @@
+{
+  "file_name": "狩猎证核发202510140920.xlsx",
+  "table_name": "狩猎证核发202510140920",
+  "row_count": 21,
+  "columns": [
+    "bz",
+    "bjsj",
+    "lxfs",
+    "sqsj",
+    "sqrdw"
+  ],
+  "fields": [
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "示例"
+      ],
+      "value_pool": [
+        "示例"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021年06月16日",
+        "备注",
+        "示例"
+      ],
+      "value_pool": [
+        "2021年06月16日",
+        "备注",
+        "示例"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "136****3892",
+        "内容",
+        "示例",
+        "1份"
+      ],
+      "value_pool": [
+        "136****3892",
+        "内容",
+        "示例",
+        "1份"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021年06月16日",
+        "项目",
+        "事项类型",
+        "办理对象",
+        "设定依据",
+        "申报条件",
+        "申报材料1",
+        "申报材料2",
+        "申报材料3",
+        "申报材料4",
+        "申报材料5",
+        "办理程序",
+        "法定期限",
+        "承诺时限",
+        "收费标准",
+        "结果送达",
+        "网上办理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东海祥产业园运营管理有限公司",
+        "摘要",
+        "行政许可事项",
+        "法人、个人及其他组织",
+        "1、《中华人民共和国野生动物保护法》(中华人民共和国主席令第24号，1988年11月通过，2018年10月修正）第十七条和第二十二条；",
+        "2、《中华人民共和国陆生野生动物保护实施条例》（1992年2月通过，2016年2月修订）第十五条。",
+        "3、具备相应的人员、技术，使用的猎捕工具、方法及猎捕时间、地点恰当。",
+        "1、种群数量、密度超过环境容纳量或对人和社会存在危害隐患；",
+        "2、因科学研究、驯养繁殖、文化交流等特殊需要；",
+        "3、具备相应的人员、技术，使用的猎捕工具、方法及猎捕时间",
+        "《非国家重点保护陆生野生动物狩猎证申请表》",
+        "证明其猎捕目的的有效文件和说明材料",
+        "实施猎捕的工作方案（申请猎捕的种类、数量、期限、地点、工具和方法）",
+        "持枪猎捕的，应当提交公安机关核发的持枪证的复印件",
+        "单位申请的,提供单位营业执照和法人有效身份证的复印件；个人申请的，提供个人身份证复印件",
+        "窗口提交申请—受理—审核—办结",
+        "20个工作日",
+        "3个工作日",
+        "不收费",
+        "济宁经济技术开发区为民服务中心6号楼2楼F6号一窗受理窗口现场发放；邮寄送达；自助取件。",
+        "山东政务服务网系统网址：http://zwfw.sd.gov.cn/"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

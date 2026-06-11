@@ -1,0 +1,172 @@
+{
+  "file_name": "嘉祥县综合行政执法局_扶贫人员情况表202508010206.xlsx",
+  "table_name": "嘉祥县综合行政执法局_扶贫人员情况表202508010206",
+  "row_count": 42,
+  "columns": [
+    "rs",
+    "zpyy",
+    "yhzgx",
+    "姓名",
+    "xz",
+    "pkhsx",
+    "xzc"
+  ],
+  "fields": [
+    {
+      "name": "rs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "min_value": 1.0,
+      "max_value": 5.0
+    },
+    {
+      "name": "zpyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "因病",
+        "缺劳力",
+        "因残"
+      ],
+      "value_pool": [
+        "因病",
+        "缺劳力",
+        "因残"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhzgx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "户主",
+        "之子",
+        "其他",
+        "配偶",
+        "之女",
+        "之儿媳",
+        "之孙子",
+        "之孙女"
+      ],
+      "value_pool": [
+        "户主",
+        "之子",
+        "其他",
+        "配偶",
+        "之女",
+        "之儿媳",
+        "之孙子",
+        "之孙女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "山**",
+        "楚**",
+        "曹**",
+        "张**",
+        "王**",
+        "李**",
+        "高**",
+        "田**",
+        "闫**",
+        "鹿**",
+        "宰**",
+        "薛**",
+        "黄**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "万张街道"
+      ],
+      "value_pool": [
+        "万张街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pkhsx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "低保户",
+        "特困供养户",
+        "一般农户"
+      ],
+      "value_pool": [
+        "低保户",
+        "特困供养户",
+        "一般农户"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "曹庄村",
+        "忙店村",
+        "宰庄村"
+      ],
+      "value_pool": [
+        "曹庄村",
+        "忙店村",
+        "宰庄村"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

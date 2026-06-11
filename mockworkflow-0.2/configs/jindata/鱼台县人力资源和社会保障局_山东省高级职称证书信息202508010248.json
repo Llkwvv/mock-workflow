@@ -1,0 +1,233 @@
+{
+  "file_name": "鱼台县人力资源和社会保障局_山东省高级职称证书信息202508010248.xlsx",
+  "table_name": "鱼台县人力资源和社会保障局_山东省高级职称证书信息202508010248",
+  "row_count": 98,
+  "columns": [
+    "pswyh",
+    "gbwh",
+    "cszy",
+    "xlzymc",
+    "pssj",
+    "姓名",
+    "xb",
+    "zgmc",
+    "gbsj"
+  ],
+  "fields": [
+    {
+      "name": "pswyh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市中小学教师高级职称评审委员会",
+        "济宁市基层中小学教师职称高级评审委员会",
+        "济宁市基层中小学教师高级职称评审委员会"
+      ],
+      "value_pool": [
+        "济宁市中小学教师高级职称评审委员会",
+        "济宁市基层中小学教师职称高级评审委员会",
+        "济宁市基层中小学教师高级职称评审委员会"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gbwh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "济教字【2020】61号",
+        "济教字【2022】19号"
+      ],
+      "value_pool": [
+        "济教字【2020】61号",
+        "济教字【2022】19号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cszy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "初中历史",
+        "初中语文",
+        "小学语文",
+        "初中道德与法治",
+        "初中英语",
+        "初中物理",
+        "初中生物",
+        "初中数学",
+        "小学数学",
+        "初中地理",
+        "初中体育与健康",
+        "初中化学",
+        "初中音乐"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xlzymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "中小学教师",
+        "基层中小学教师",
+        "中小学老师"
+      ],
+      "value_pool": [
+        "中小学教师",
+        "基层中小学教师",
+        "中小学老师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44153",
+        "44629"
+      ],
+      "value_pool": [
+        "44153",
+        "44629"
+      ],
+      "min_value": 44153.0,
+      "max_value": 44629.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "卜**",
+        "陈**",
+        "崔**",
+        "丁**",
+        "樊**",
+        "高**",
+        "郭**",
+        "侯**",
+        "黄**",
+        "解**",
+        "李**",
+        "刘**",
+        "马**",
+        "宋**",
+        "孙**",
+        "王**",
+        "吴**",
+        "奚**",
+        "辛**",
+        "邢**",
+        "闫**",
+        "杨**",
+        "于**",
+        "翟**",
+        "张**",
+        "董**",
+        "房**",
+        "葛**",
+        "梁**",
+        "林**",
+        "闵**",
+        "聂**",
+        "田**",
+        "童**",
+        "魏**",
+        "夏**",
+        "殷**",
+        "赵**",
+        "郑**",
+        "朱**",
+        "胡**",
+        "开**",
+        "吕**",
+        "石**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男",
+        "男性"
+      ],
+      "value_pool": [
+        "女",
+        "男",
+        "男性"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "中小学高级教师",
+        "基层中小学高级教师"
+      ],
+      "value_pool": [
+        "中小学高级教师",
+        "基层中小学高级教师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gbsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44174",
+        "44666"
+      ],
+      "value_pool": [
+        "44174",
+        "44666"
+      ],
+      "min_value": 44174.0,
+      "max_value": 44666.0
+    }
+  ]
+}

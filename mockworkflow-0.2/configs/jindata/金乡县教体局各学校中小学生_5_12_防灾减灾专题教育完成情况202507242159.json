@@ -1,0 +1,99 @@
+{
+  "file_name": "金乡县教体局各学校中小学生_5_12_防灾减灾专题教育完成情况202507242159.xlsx",
+  "table_name": "金乡县教体局各学校中小学生_5_12_防灾减灾专题教育完成情况202507242159",
+  "row_count": 1,
+  "columns": [
+    "xx",
+    "mkswcs",
+    "wcl",
+    "mkywcs",
+    "mkewcs",
+    "yktxs"
+  ],
+  "fields": [
+    {
+      "name": "xx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县实验小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mkswcs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1017"
+      ],
+      "min_value": 1017.0,
+      "max_value": 1017.0
+    },
+    {
+      "name": "wcl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0.995"
+      ],
+      "min_value": 0.995,
+      "max_value": 0.995
+    },
+    {
+      "name": "mkywcs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1017"
+      ],
+      "min_value": 1017.0,
+      "max_value": 1017.0
+    },
+    {
+      "name": "mkewcs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1017"
+      ],
+      "min_value": 1017.0,
+      "max_value": 1017.0
+    },
+    {
+      "name": "yktxs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1022"
+      ],
+      "min_value": 1022.0,
+      "max_value": 1022.0
+    }
+  ]
+}

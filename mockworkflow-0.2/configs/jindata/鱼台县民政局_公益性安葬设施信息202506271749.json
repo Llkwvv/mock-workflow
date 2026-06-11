@@ -1,0 +1,161 @@
+{
+  "file_name": "鱼台县民政局_公益性安葬设施信息202506271749.xlsx",
+  "table_name": "鱼台县民政局_公益性安葬设施信息202506271749",
+  "row_count": 33,
+  "columns": [
+    "xsq",
+    "sszj",
+    "xmwz",
+    "xmmc",
+    "jb"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sszj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "城区",
+        "李阁镇",
+        "王鲁镇",
+        "张黄镇",
+        "滨湖街道",
+        "谷亭街道",
+        "鱼城镇",
+        "老砦镇",
+        "罗屯镇",
+        "清河镇",
+        "唐马",
+        "王庙"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台县殡仪馆东侧",
+        "鱼台县殡仪馆向南向东",
+        "鱼台县李阁镇宋杨村",
+        "鱼台县李阁镇文集村",
+        "鱼台县李阁镇原李阁村北",
+        "鱼台县王鲁镇于屯村",
+        "鱼台县王鲁镇潘庄村",
+        "鱼台县张黄镇于梅村",
+        "鱼台县张黄镇阚家村",
+        "鱼台县滨湖街道于屯村",
+        "鱼台县滨湖街道七圣堂",
+        "鱼台县谷亭街道杨楼村",
+        "鱼台县鱼城镇中东北村",
+        "鱼台县鱼城镇",
+        "鱼台县老砦镇",
+        "鱼台县老砦镇仁北村",
+        "鱼台县老砦镇刘寨村西北村头",
+        "鱼台县罗屯镇",
+        "鱼台县罗屯镇芦阁村",
+        "鱼台县罗屯镇陈楼村",
+        "鱼台县清河镇相里村",
+        "鱼台县唐马镇",
+        "鱼台县唐马镇华庄排灌站院内",
+        "鱼台县王庙镇",
+        "鱼台县王庙镇冀庙排灌站院内",
+        "鱼城镇中东北村",
+        "鱼城镇",
+        "老砦镇",
+        "老砦镇仁北村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "县殡仪馆东公益性公墓",
+        "鱼台县永安公益性公墓",
+        "宋杨公益性公墓",
+        "文集公益性公墓",
+        "李阁镇骨灰堂",
+        "王鲁公益性公墓",
+        "潘庄公益性公墓",
+        "于梅公益性公墓",
+        "顺和公益性公墓",
+        "于屯公益性公墓",
+        "立和众公益性公墓",
+        "谷亭街道公益性公墓",
+        "杨楼公益性公墓",
+        "中东北公益性公墓",
+        "鱼城镇骨灰堂",
+        "老砦镇公益性公墓",
+        "仁北公益性公墓",
+        "老砦镇骨灰堂",
+        "罗屯镇公益性公墓",
+        "芦阁公益性公墓",
+        "罗屯镇骨灰堂",
+        "相里公益性公墓",
+        "相里骨灰堂",
+        "唐马镇公益性公墓",
+        "翰林公益性公墓",
+        "唐马镇骨灰堂",
+        "王庙公益性公墓",
+        "八和骨灰堂",
+        "王庙镇骨灰堂"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县级",
+        "镇级",
+        "村级"
+      ],
+      "value_pool": [
+        "县级",
+        "镇级",
+        "村级"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "file_name": "济宁经开应急管理中心_极端恶劣天气下安全防范工作安排202603271700.xlsx",
+  "table_name": "济宁经开应急管理中心_极端恶劣天气下安全防范工作安排202603271700",
+  "row_count": 24,
+  "columns": [
+    "gzcs",
+    "gznr",
+    "bzjc",
+    "fflb",
+    "csbh"
+  ],
+  "fields": [
+    {
+      "name": "gzcs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "min_value": 1.0,
+      "max_value": 4.0
+    },
+    {
+      "name": "gznr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "突出抓好矿山安全管理",
+        "突出抓好电力运行安全管理",
+        "突出抓好危险化学品安全管理",
+        "突出抓好交通安全管理",
+        "突出抓好建筑施工安全管理",
+        "其他行业领域做好安全管理",
+        "加强应急值守工作",
+        "严格落实值班岗位责任制",
+        "密切关注天气预报预警",
+        "加强与其他部门联动",
+        "完善应急预案",
+        "应急救援队伍在岗在位"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzjc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1.加强预案管理，做好预案教育和演练；",
+        "2.加强双回路供电安全风险分析研判；",
+        "3.加强灾害性天气应急处置；",
+        "4.暴雨过后安全隐患没有排除的，严禁安排下井作业；",
+        "1.加大力度进行线路改造升级；",
+        "2.密切联系气象部门，加强灾害性天气监测预警；",
+        "3.完善电力应急处置和故障抢修等预案；",
+        "1.研究制定危险化学品企业应急预案；",
+        "2.科学制定并落实有针对性的防控措施；",
+        "1.加强极端天气道路交通安全监管；",
+        "2.加强对桥梁隧道的安全检查；",
+        "3.加强对顺达港运输过境船只的交通的动态监管；",
+        "4.极端天气严禁各类船舶违规作业；",
+        "1.加大对建筑工地、生产厂房、临建设施的排查；",
+        "2.极端天气，要迅速停工撤人；",
+        "3.威胁的区域，要提前采取有效防范措施；",
+        "4.强降雨过后及时督促施工单位及时排除积水；",
+        "其他行业领域，也都要结合实际，切实做好极端恶劣天气下风险管控和安全隐患排查治理工作；",
+        "严格执行 24 小时值班制度和领导带班制度",
+        "一旦发生紧急突发事件，要立即进行处置并及时上报；",
+        "密切关注天气预报预警，及时采取应对举措；",
+        "进一步加强部门沟通联动，做到信息及时共享；",
+        "切实增强预案的科学性、针对性，确保各环节工作到位；",
+        "各级专兼职救援队伍要进入汛期战备状态，一旦出现紧急情况，迅速出动；"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fflb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "极端恶劣天气"
+      ],
+      "value_pool": [
+        "极端恶劣天气"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "督导检查"
+      ],
+      "value_pool": [
+        "督导检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

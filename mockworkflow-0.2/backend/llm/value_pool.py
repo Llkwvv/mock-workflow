@@ -82,7 +82,7 @@ def ensure_value_pools(
                 temperature=settings.llm_temperature,
                 max_tokens=settings.llm_max_tokens,
                 field=field,
-                samples=profile.samples.get(field.name, []),
+                profile=profile,
                 size=settings.llm_value_pool_size,
             )
             return field, pool, None
@@ -128,10 +128,10 @@ def _generate_pool(
     temperature: float,
     max_tokens: int,
     field: FieldSpec,
-    samples: list[str],
+    profile: SampleProfile,
     size: int,
 ) -> list[str]:
-    prompt = _build_pool_prompt(field, samples, size)
+    prompt = _build_pool_prompt(field, profile, size)
     try:
         response = client.chat.completions.create(
             model=model,
@@ -163,10 +163,12 @@ def _generate_pool(
     return _extract_pool(parsed, size)
 
 
-def _build_pool_prompt(field: FieldSpec, samples: list[str], size: int) -> str:
-    sample_preview = samples[:5]
+def _build_pool_prompt(field: FieldSpec, profile: SampleProfile, size: int) -> str:
+    sample_preview = profile.samples.get(field.name, [])[:5]
     semantic_hint = field.semantic.value if field.semantic else "unknown"
     length_hint = f"<= {field.length} characters" if field.length else "concise"
+    # Include neighboring field names for business context
+    neighbors = [c for c in profile.columns if c != field.name][:5]
     return (
         f"Generate {size} realistic candidate values for the database column below. "
         f"Values must be plausible, distinct, and culturally consistent with the samples.\n\n"
@@ -175,6 +177,7 @@ def _build_pool_prompt(field: FieldSpec, samples: list[str], size: int) -> str:
         f"Semantic: {semantic_hint}\n"
         f"SQL type: {field.type.value}\n"
         f"Length constraint: {length_hint}\n"
+        f"Other columns in the same table: {neighbors}\n"
         f"Sample values from real data: {sample_preview}\n\n"
         f"Return ONLY a valid JSON object of the form:\n"
         f'{{"values": ["v1", "v2", ...]}}\n\n'

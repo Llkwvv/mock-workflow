@@ -1,0 +1,233 @@
+{
+  "file_name": "济宁市教育局_济宁市齐鲁名师和齐鲁名师工程人选数量清单202504091028.xlsx",
+  "table_name": "济宁市教育局_济宁市齐鲁名师和齐鲁名师工程人选数量清单202504091028",
+  "row_count": 46,
+  "columns": [
+    "nf",
+    "姓名",
+    "xh",
+    "jb",
+    "rxhrdsj",
+    "rclb",
+    "bz"
+  ],
+  "fields": [
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020",
+        "2022"
+      ],
+      "value_pool": [
+        "2020",
+        "2022"
+      ],
+      "min_value": 2020.0,
+      "max_value": 2022.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘**",
+        "孟**",
+        "翟**",
+        "徐**",
+        "王**",
+        "侯**",
+        "许*",
+        "李**",
+        "闵**",
+        "陈**",
+        "薛**",
+        "耿**",
+        "黄**",
+        "田**",
+        "张*",
+        "梁**",
+        "满**",
+        "聂**",
+        "吴**",
+        "徐*",
+        "杨*",
+        "董**",
+        "郭*",
+        "郝**",
+        "李*",
+        "孙*",
+        "万*",
+        "魏**",
+        "张**",
+        "赵*",
+        "曹**",
+        "柴**",
+        "程**",
+        "秦**",
+        "程*",
+        "罗*",
+        "林**",
+        "严**",
+        "周**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "min_value": 1.0,
+      "max_value": 46.0
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "省级"
+      ],
+      "value_pool": [
+        "省级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rxhrdsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2009",
+        "2015",
+        "2019",
+        "2017",
+        "2012"
+      ],
+      "value_pool": [
+        "2009",
+        "2015",
+        "2019",
+        "2017",
+        "2012"
+      ],
+      "min_value": 2009.0,
+      "max_value": 2019.0
+    },
+    {
+      "name": "rclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "第一届齐鲁名师",
+        "第二届齐鲁名师",
+        "第三届齐鲁名师",
+        "第四届齐鲁名师工程人选",
+        "第一届 中职类齐鲁名师",
+        "第二届中职类齐鲁名师工程人选"
+      ],
+      "value_pool": [
+        "第一届齐鲁名师",
+        "第二届齐鲁名师",
+        "第三届齐鲁名师",
+        "第四届齐鲁名师工程人选",
+        "第一届 中职类齐鲁名师",
+        "第二届中职类齐鲁名师工程人选"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "2004入选",
+        "2009入选",
+        "2016入选",
+        "2013入选"
+      ],
+      "value_pool": [
+        "2004入选",
+        "2009入选",
+        "2016入选",
+        "2013入选"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

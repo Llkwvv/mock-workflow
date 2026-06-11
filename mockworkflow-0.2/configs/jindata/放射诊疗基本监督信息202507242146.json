@@ -1,0 +1,149 @@
+{
+  "file_name": "放射诊疗基本监督信息202507242146.xlsx",
+  "table_name": "放射诊疗基本监督信息202507242146",
+  "row_count": 59,
+  "columns": [
+    "zcdz",
+    "jyzt",
+    "dwmc",
+    "bgdwmc",
+    "bgrq"
+  ],
+  "fields": [
+    {
+      "name": "zcdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省济宁市嘉祥县"
+      ],
+      "value_pool": [
+        "山东省济宁市嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "正常"
+      ],
+      "value_pool": [
+        "正常"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥房兆林口腔门诊部",
+        "嘉祥儿童复健医院",
+        "嘉祥儿童医院",
+        "嘉祥民康医院",
+        "嘉祥诚和医院",
+        "嘉祥县满硐镇卫生院",
+        "嘉祥房兆林口腔有限公司口腔诊所",
+        "嘉祥县仲山镇卫生院",
+        "嘉祥贝美口腔医疗有限责任公司口腔门诊部",
+        "嘉祥瑞鑫口腔医院",
+        "嘉祥耳鼻喉医院",
+        "嘉祥县马村中心卫生院",
+        "嘉祥县中医院",
+        "嘉祥街道社社区卫生服务中心",
+        "进行陆庄医院",
+        "嘉祥同健医院",
+        "嘉祥县卧龙山中心卫生院",
+        "嘉祥县大张楼镇卫生院",
+        "嘉祥汉喜口腔门诊部",
+        "嘉祥汉喜口腔医疗有限公司口腔诊所",
+        "嘉祥县孟姑集镇卫生院",
+        "嘉祥利民中医医院",
+        "嘉祥萌山医院",
+        "嘉祥贾寿景口腔诊所",
+        "嘉祥县老僧堂镇卫生院",
+        "嘉祥平安康复医院",
+        "嘉祥口腔医院",
+        "嘉祥镇东花园口腔诊所",
+        "嘉祥县人民医院",
+        "嘉祥县万张街道卫生院",
+        "嘉祥顺康护理院",
+        "嘉祥李楼社区为民医院",
+        "嘉祥县金屯中心卫生院",
+        "嘉祥中心街口腔诊所",
+        "嘉祥惠民医院",
+        "嘉祥星河湾囗腔医疗有限公司口腔诊所",
+        "嘉祥吉祥医院",
+        "嘉祥高伟口腔诊所",
+        "嘉祥祥城医疗有限公司口腔诊所",
+        "嘉祥惠众口腔医疗有限公司口腔诊所",
+        "嘉祥县妇幼保健计划生育服务中",
+        "嘉祥红会医院",
+        "嘉祥县第二人民医院",
+        "嘉祥县黄垓镇卫生院",
+        "嘉祥县第三人民医院",
+        "嘉祥中西医院",
+        "嘉祥福林中医院",
+        "嘉祥爱尚口腔医疗有限公司口腔诊所",
+        "嘉祥李景福口腔诊所",
+        "嘉祥祥和护理院",
+        "嘉祥仁信护理院",
+        "嘉祥友崇谊文口腔门诊部",
+        "嘉祥丹凤山护理院",
+        "嘉祥嘉和苑护理院",
+        "嘉祥李光磊口腔诊所",
+        "嘉祥怀春口腔门诊部",
+        "嘉祥李建永口腔诊所",
+        "嘉祥和协门诊部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bgdwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县疾控中心"
+      ],
+      "value_pool": [
+        "嘉祥县疾控中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bgrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2025-07-17 00:00:00"
+      ],
+      "value_pool": [
+        "2025-07-17 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

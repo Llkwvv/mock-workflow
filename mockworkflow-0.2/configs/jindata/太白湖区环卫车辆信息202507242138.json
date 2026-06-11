@@ -1,0 +1,174 @@
+{
+  "file_name": "太白湖区环卫车辆信息202507242138.xlsx",
+  "table_name": "太白湖区环卫车辆信息202507242138",
+  "row_count": 30,
+  "columns": [
+    "xsc",
+    "ssc",
+    "gsc",
+    "ljc",
+    "slc",
+    "cxc"
+  ],
+  "fields": [
+    {
+      "name": "xsc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁HC8907",
+        "鲁HC8901",
+        "鲁HC8912",
+        "鲁H9E151",
+        "鲁H9E157",
+        "鲁HC9080",
+        "鲁HG7719",
+        "鲁HG7715",
+        "鲁HG7759",
+        "鲁HG7727",
+        "鲁HG7716",
+        "鲁HC8911",
+        "鲁HC8922",
+        "鲁H9E251",
+        "鲁H9E257",
+        "鲁HC9180",
+        "鲁HG7729",
+        "鲁HG7725"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鲁HC3515",
+        "鲁HC2922",
+        "鲁HC8921",
+        "鲁HC8621",
+        "鲁HC8915",
+        "鲁HG3307",
+        "鲁HC2913",
+        "鲁HG6716",
+        "鲁HQO589",
+        "鲁HQ0558"
+      ],
+      "value_pool": [
+        "鲁HC3515",
+        "鲁HC2922",
+        "鲁HC8921",
+        "鲁HC8621",
+        "鲁HC8915",
+        "鲁HG3307",
+        "鲁HC2913",
+        "鲁HG6716",
+        "鲁HQO589",
+        "鲁HQ0558"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gsc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鲁H9E193",
+        "鲁H9E153",
+        "铲车",
+        "鲁HQ0698",
+        "鲁HH3617",
+        "鲁HH3605"
+      ],
+      "value_pool": [
+        "鲁H9E193",
+        "鲁H9E153",
+        "铲车",
+        "鲁HQ0698",
+        "鲁HH3617",
+        "鲁HH3605"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ljc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁HC2920",
+        "鲁HC3083",
+        "鲁HC9012",
+        "鲁HC9013",
+        "鲁HC2921",
+        "鲁HC3032",
+        "鲁HC2916",
+        "鲁HG6618",
+        "鲁HG6637",
+        "5198",
+        "5193"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁HC9089",
+        "鲁HC9088",
+        "鲁HC9008",
+        "鲁HC9099",
+        "鲁HC9009",
+        "鲁HC8903",
+        "鲁HC8923",
+        "鲁HC2931",
+        "鲁HC9077",
+        "鲁HC9002",
+        "鲁HC9007"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cxc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鲁HG3306",
+        "鲁HG3360",
+        "鲁HG3578"
+      ],
+      "value_pool": [
+        "鲁HG3306",
+        "鲁HG3360",
+        "鲁HG3578"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

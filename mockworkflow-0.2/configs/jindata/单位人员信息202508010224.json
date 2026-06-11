@@ -1,0 +1,176 @@
+{
+  "file_name": "单位人员信息202508010224.xlsx",
+  "table_name": "单位人员信息202508010224",
+  "row_count": 65,
+  "columns": [
+    "xb",
+    "zzmm",
+    "dw",
+    "mz",
+    "xh",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzmm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中共党员",
+        "群众",
+        "团员"
+      ],
+      "value_pool": [
+        "中共党员",
+        "群众",
+        "团员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县机关事务服务中心"
+      ],
+      "value_pool": [
+        "微山县机关事务服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "2025"
+      ],
+      "min_value": 1.0,
+      "max_value": 2025.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "满**",
+        "读**",
+        "范**",
+        "孔**",
+        "陈**",
+        "郑**",
+        "尹*",
+        "曹**",
+        "王*",
+        "田**",
+        "裴**",
+        "殷**",
+        "张**",
+        "娄**",
+        "王**",
+        "朱**",
+        "李*",
+        "褚*",
+        "曾*",
+        "卜**",
+        "钟*",
+        "张*",
+        "徐*",
+        "纪*",
+        "李**",
+        "闵**",
+        "胡*",
+        "房*",
+        "陈*",
+        "战*"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

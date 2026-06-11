@@ -1,0 +1,155 @@
+{
+  "file_name": "高新区机动车注册登记信息202508010312.xlsx",
+  "table_name": "高新区机动车注册登记信息202508010312",
+  "row_count": 401,
+  "columns": [
+    "zcrxm",
+    "sljg",
+    "slbm",
+    "xsq",
+    "xzxksx",
+    "s"
+  ],
+  "fields": [
+    {
+      "name": "zcrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "贾**",
+        "高**",
+        "夏**",
+        "李**",
+        "付**",
+        "马**",
+        "周**",
+        "陈**",
+        "冯**",
+        "步**",
+        "刘**",
+        "王**",
+        "杨**",
+        "苏**",
+        "乔**",
+        "郑**",
+        "寇**",
+        "赵**",
+        "邵**",
+        "盛**",
+        "韩**",
+        "侯**",
+        "程**",
+        "许**",
+        "霍**",
+        "孔**",
+        "田**",
+        "山*******",
+        "济*******",
+        "曹**",
+        "踪**",
+        "温**",
+        "孙**",
+        "董**",
+        "姚**",
+        "岳**",
+        "代**",
+        "郝**",
+        "于**",
+        "魏**",
+        "车**",
+        "楚**",
+        "叶**",
+        "常**",
+        "米**",
+        "席**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sljg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "准予许可"
+      ],
+      "value_pool": [
+        "准予许可"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市公安局交通警察支队"
+      ],
+      "value_pool": [
+        "济宁市公安局交通警察支队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxksx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "机动车登记"
+      ],
+      "value_pool": [
+        "机动车登记"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

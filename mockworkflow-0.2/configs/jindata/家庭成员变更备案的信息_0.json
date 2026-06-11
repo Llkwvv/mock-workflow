@@ -1,0 +1,134 @@
+{
+  "file_name": "家庭成员变更备案的信息_0.csv",
+  "table_name": "家庭成员变更备案的信息_0",
+  "row_count": 31,
+  "columns": [
+    "sldw",
+    "bjmc",
+    "sqrhsqdw",
+    "bjsj",
+    "slsj"
+  ],
+  "fields": [
+    {
+      "name": "sldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁市任城区行政审批服务局"
+      ],
+      "value_pool": [
+        "济宁市任城区行政审批服务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "关于济宁市任城区贾庄放心吧蔬果超市家庭成员变更备案的业务",
+        "关于肖诺诺家庭成员变更备案的业务",
+        "关于王林英家庭成员变更备案的业务",
+        "关于陈兆晶家庭成员变更备案的业务",
+        "关于贾国庆家庭成员变更备案的业务",
+        "关于刘全会家庭成员变更备案的业务",
+        "关于孟倩倩家庭成员变更备案的业务",
+        "关于李冉冉家庭成员变更备案的业务",
+        "关于付汉红家庭成员变更备案的业务",
+        "关于宫海通家庭成员变更备案的业务",
+        "关于张庆常家庭成员变更备案的业务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrhsqdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市任城区贾庄放心吧蔬果超市",
+        "肖诺诺",
+        "王林英",
+        "陈兆晶",
+        "贾国庆",
+        "刘全会",
+        "孟倩倩",
+        "李冉冉",
+        "付汉红",
+        "宫海通",
+        "张庆常"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/5/11 11:02:00",
+        "2020/12/1 16:54:21",
+        "2020/12/1 16:54:20",
+        "2020/12/1 16:51:58",
+        "2020/12/1 16:49:25",
+        "2020/12/1 16:49:26",
+        "2020/12/1 16:51:57"
+      ],
+      "value_pool": [
+        "2020/5/11 11:02:00",
+        "2020/12/1 16:54:21",
+        "2020/12/1 16:54:20",
+        "2020/12/1 16:51:58",
+        "2020/12/1 16:49:25",
+        "2020/12/1 16:49:26",
+        "2020/12/1 16:51:57"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/5/11 10:02:00",
+        "2020/12/1 16:54:21",
+        "2020/12/1 16:54:20",
+        "2020/12/1 16:51:58",
+        "2020/12/1 16:49:25",
+        "2020/12/1 16:49:26",
+        "2020/12/1 16:51:57"
+      ],
+      "value_pool": [
+        "2020/5/11 10:02:00",
+        "2020/12/1 16:54:21",
+        "2020/12/1 16:54:20",
+        "2020/12/1 16:51:58",
+        "2020/12/1 16:49:25",
+        "2020/12/1 16:49:26",
+        "2020/12/1 16:51:57"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

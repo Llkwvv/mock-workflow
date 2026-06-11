@@ -1,0 +1,163 @@
+{
+  "file_name": "测量标志点监管信息202507210940.xlsx",
+  "table_name": "测量标志点监管信息202507210940",
+  "row_count": 47,
+  "columns": [
+    "jcjg",
+    "xh",
+    "qy",
+    "jcsj",
+    "jcdx"
+  ],
+  "fields": [
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "进行测量标志点保护的检查未发现问题"
+      ],
+      "value_pool": [
+        "进行测量标志点保护的检查未发现问题"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "min_value": 1.0,
+      "max_value": 27.0
+    },
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "任城区"
+      ],
+      "value_pool": [
+        "任城区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020.6.23",
+        "2020.10.9",
+        "2020.10.10",
+        "2020.11.19",
+        "2020.11.20",
+        "2020.11.25",
+        "2021.6.9",
+        "2021.10.26",
+        "2021.10.29",
+        "2024.3.27",
+        "2024.3.28",
+        "2024.10.25",
+        "2024.11.22",
+        "2024.11.28"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "喻屯河北朱庄",
+        "太白楼",
+        "安居街道白庄标志点",
+        "Ⅰ邯兖64标志点",
+        "Ⅱ郭济5-1标志点",
+        "喻屯Ⅱ南四湖46-1标志点",
+        "长沟镇Ⅱ郭济6-1标志点",
+        "唐口寺下郝标志点",
+        "安居镇测量标志点",
+        "唐口姚刘庄标志点",
+        "唐口姚刘庄测量标志点",
+        "Ⅰ邯兖65测量标志点",
+        "Ⅰ邯兖64(Ⅰ邯兖61)测量标志点",
+        "Ⅱ郭济3-1测量标志点",
+        "Ⅰ邯兖64测量标志",
+        "寺下郝测量标志",
+        "Ⅱ南四湖46-1  测量标志",
+        "白庄",
+        "Ⅰ邯兖65",
+        "Ⅱ南四湖52-1",
+        "安居镇",
+        "Ⅰ邯兖61（24）",
+        "基西",
+        "济宁市（太白楼）",
+        "Ⅰ邯兖64",
+        "Ⅱ兖金1(14)",
+        "Ⅱ鲁水文077",
+        "Ⅰ邯兖66(Ⅰ邯兖63)",
+        "Ⅱ郭济3-1",
+        "Ⅱ郭济2-1",
+        "寺下郝",
+        "Ⅱ南四湖51-1",
+        "Ⅱ兖金3(14)",
+        "Ⅱ济单6基(19)",
+        "济宁",
+        "济宁北基岩点",
+        "Ⅱ南四湖46-1"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

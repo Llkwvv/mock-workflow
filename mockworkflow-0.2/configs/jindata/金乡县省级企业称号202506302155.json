@@ -1,0 +1,141 @@
+{
+  "file_name": "金乡县省级企业称号202506302155.xlsx",
+  "table_name": "金乡县省级企业称号202506302155",
+  "row_count": 28,
+  "columns": [
+    "zjyq",
+    "qymc",
+    "ppch",
+    "nd",
+    "tjsj"
+  ],
+  "fields": [
+    {
+      "name": "zjyq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "新材料产业园",
+        "食品园区",
+        "高端装备产业园",
+        "鱼山街道",
+        "高河街道",
+        "凯盛物流物流园区"
+      ],
+      "value_pool": [
+        "新材料产业园",
+        "食品园区",
+        "高端装备产业园",
+        "鱼山街道",
+        "高河街道",
+        "凯盛物流物流园区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "凯赛(金乡)生物材料有限公司",
+        "山东亿盛实业股份有限公司",
+        "济宁键邦化工有限公司",
+        "山东硅科新材料有限公司",
+        "山东峪口禽业有限公司",
+        "山东九合电气有限公司",
+        "山东清亿智能装备制造有限公司",
+        "济宁康德瑞化工科技有限公司",
+        "山东辉瑞管业有限公司",
+        "山东天力润滑油有限公司",
+        "山东鑫诺食品科技有限公司",
+        "金乡县圣亚达铅笔有限公司",
+        "山东赛德丽新材料股份有限公司",
+        "金乡智慧产业园管理有限公司",
+        "山东亿九科技孵化器有限公司",
+        "山东雷迈新能源车业有限公司",
+        "金乡中联混凝土有限公司",
+        "山东金博电动车有限公司",
+        "金乡县凯盛农业发展有限公司",
+        "山东省金曼克电气集团股份有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ppch",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "省瞪羚企业",
+        "省专精特新",
+        "省级中小企业公共服务示范平台",
+        "省两化融合管理体系贯标试点企业",
+        "省5G试点示范项目",
+        "省双创基地",
+        "省单项冠军",
+        "省级创新工业产品目录"
+      ],
+      "value_pool": [
+        "省瞪羚企业",
+        "省专精特新",
+        "省级中小企业公共服务示范平台",
+        "省两化融合管理体系贯标试点企业",
+        "省5G试点示范项目",
+        "省双创基地",
+        "省单项冠军",
+        "省级创新工业产品目录"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2018年",
+        "2019年",
+        "2020年",
+        "2021年"
+      ],
+      "value_pool": [
+        "2018年",
+        "2019年",
+        "2020年",
+        "2021年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021.12"
+      ],
+      "value_pool": [
+        "2021.12"
+      ],
+      "min_value": 2021.12,
+      "max_value": 2021.12
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "file_name": "泗水县投资促进中心民情书记信息202508010119.xlsx",
+  "table_name": "泗水县投资促进中心民情书记信息202508010119",
+  "row_count": 10,
+  "columns": [
+    "zw",
+    "姓名",
+    "lxsqwgc",
+    "lxfs",
+    "mqsjtdmc"
+  ],
+  "fields": [
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "敏感信息，不予开放"
+      ],
+      "value_pool": [
+        "敏感信息，不予开放"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "孔**",
+        "邵**",
+        "张**",
+        "贾**",
+        "赵**",
+        "陶**",
+        "周**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxsqwgc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中册镇小李白村、中册镇中四村",
+        "中册镇中一村、中册镇中二村"
+      ],
+      "value_pool": [
+        "中册镇小李白村、中册镇中四村",
+        "中册镇中一村、中册镇中二村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1356370****",
+        "1525472****",
+        "1880547****",
+        "1825473****",
+        "1589860****",
+        "1515375****",
+        "1836479****",
+        "1825470****",
+        "1506475****",
+        "1825417****"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mqsjtdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "泗水县投资促进中心“民情书记”一队",
+        "泗水县投资促进中心“民情书记”二队"
+      ],
+      "value_pool": [
+        "泗水县投资促进中心“民情书记”一队",
+        "泗水县投资促进中心“民情书记”二队"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

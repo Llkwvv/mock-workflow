@@ -1,0 +1,230 @@
+{
+  "file_name": "任城区已脱贫享受政策建档立卡户房屋鉴定公示202508010257.xlsx",
+  "table_name": "任城区已脱贫享受政策建档立卡户房屋鉴定公示202508010257",
+  "row_count": 206,
+  "columns": [
+    "xsq",
+    "szcj",
+    "jtrk",
+    "jdsj",
+    "szzj",
+    "jdjg",
+    "hzxm"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "任城区"
+      ],
+      "value_pool": [
+        "任城区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szcj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "唐口村",
+        "梁北村",
+        "薛东村",
+        "范李庄村",
+        "孔庄村",
+        "高庄村",
+        "史庄村",
+        "韭菜姜村",
+        "前王堂村",
+        "前王村",
+        "常户村",
+        "鲍屯村",
+        "朱庙村",
+        "西王庄村",
+        "河中村",
+        "河西村",
+        "马庄村",
+        "李口村",
+        "关南李村",
+        "单庙村",
+        "张桥村",
+        "魏楼村",
+        "刘街村",
+        "东王庄村",
+        "寺下许村",
+        "姚刘王村",
+        "吴村",
+        "醋刘庄村",
+        "小流店村",
+        "宋北村",
+        "孙庄",
+        "北杨庄",
+        "汪庄",
+        "贾庄",
+        "栗乡",
+        "前双",
+        "黄楼",
+        "芦庙",
+        "程街",
+        "薛坡",
+        "吕庄",
+        "前寺村",
+        "千户",
+        "朱元庄",
+        "十里铺村",
+        "后屯",
+        "朱营",
+        "胡坑"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtrk",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2",
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "value_pool": [
+        "2",
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "min_value": 1.0,
+      "max_value": 5.0
+    },
+    {
+      "name": "jdsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020年"
+      ],
+      "value_pool": [
+        "2020年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szzj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "唐口街道",
+        "南张镇",
+        "李营街道",
+        "二十里铺"
+      ],
+      "value_pool": [
+        "唐口街道",
+        "南张镇",
+        "李营街道",
+        "二十里铺"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jdjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "D",
+        "C"
+      ],
+      "value_pool": [
+        "D",
+        "C"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hzxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "武**",
+        "马**",
+        "张**",
+        "李**",
+        "陈**",
+        "梁**",
+        "谭**",
+        "侯**",
+        "邢**",
+        "居**",
+        "王**",
+        "史**",
+        "姜**",
+        "邵**",
+        "戴**",
+        "常**",
+        "鲍**",
+        "赵**",
+        "朱**",
+        "于**",
+        "黄**",
+        "刘**",
+        "魏**",
+        "许**",
+        "秦**",
+        "肖**",
+        "姚**",
+        "倪**",
+        "李*********",
+        "李*",
+        "宋**",
+        "高**",
+        "孙**",
+        "齐*",
+        "彭**",
+        "杨**",
+        "艾**",
+        "伊**",
+        "程**",
+        "薛**",
+        "崔**",
+        "冯**",
+        "袁**",
+        "林**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

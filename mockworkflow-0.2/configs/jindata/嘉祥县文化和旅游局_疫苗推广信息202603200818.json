@@ -1,0 +1,134 @@
+{
+  "file_name": "嘉祥县文化和旅游局_疫苗推广信息202603200818.xlsx",
+  "table_name": "嘉祥县文化和旅游局_疫苗推广信息202603200818",
+  "row_count": 22,
+  "columns": [
+    "jzymrxm",
+    "jzsj",
+    "tgr",
+    "jzdd",
+    "sfwcjz"
+  ],
+  "fields": [
+    {
+      "name": "jzymrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王鲁腾",
+        "张国通",
+        "苏梦瑶",
+        "王祥标",
+        "冯凤苓",
+        "薛立贞",
+        "宋震滨",
+        "王汉云",
+        "宋洪英",
+        "张爱余",
+        "蔡香环",
+        "李涛",
+        "王有磊",
+        "岳增秀",
+        "朱爱真",
+        "王玉香",
+        "张紫嫣",
+        "丁丽丽",
+        "陈义周",
+        "王来存",
+        "陈华新",
+        "刘文欣"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "7.3"
+      ],
+      "value_pool": [
+        "7.3"
+      ],
+      "min_value": 7.3,
+      "max_value": 7.3
+    },
+    {
+      "name": "tgr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "王秀凤",
+        "张鸿斌",
+        "大队",
+        "王伟青",
+        "冯月霞",
+        "车丽娟",
+        "孙朝阳",
+        "侯洪涛",
+        "宋玉德",
+        "王学东",
+        "任宪俊",
+        "董蕊",
+        "徐秋丽",
+        "徐鸿芳",
+        "赵璇",
+        "薛以房",
+        "吴少君",
+        "马永"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥街道防保站接种点",
+        "县中医院成人接种门诊",
+        "嘉祥县人民医院",
+        "嘉祥街道社区医院"
+      ],
+      "value_pool": [
+        "嘉祥街道防保站接种点",
+        "县中医院成人接种门诊",
+        "嘉祥县人民医院",
+        "嘉祥街道社区医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfwcjz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

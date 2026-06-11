@@ -1,0 +1,170 @@
+{
+  "file_name": "济宁经济开发区定价项目清单202511030856.xlsx",
+  "table_name": "济宁经济开发区定价项目清单202511030856",
+  "row_count": 20,
+  "columns": [
+    "djbm",
+    "djxm",
+    "xh",
+    "djnr2",
+    "bz",
+    "djnr1"
+  ],
+  "fields": [
+    {
+      "name": "djbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县人民政府"
+      ],
+      "value_pool": [
+        "县人民政府"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "燃气",
+        "供排水",
+        "供热",
+        "交通运输",
+        "教育",
+        "保障性住房及物业服务",
+        "环境保护",
+        "文化旅游",
+        "有线电视",
+        "养老服务",
+        "殡葬服务",
+        "重要专业服务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "min_value": 1.0,
+      "max_value": 21.0
+    },
+    {
+      "name": "djnr2",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "县辖区管道燃气配气价格、销售价格",
+        "县属水利工程的供水价格",
+        "县辖区内公共管网供应的自来水、再生水价格",
+        "县辖区内污水处理收费标准",
+        "县辖区内供热价格",
+        "县属渡口车辆过渡费标准",
+        "县辖区农村道路客运票价",
+        "县辖区内自然垄断经营及具有公益性特征的机动车停放服务收费标准",
+        "区价格主管部门会同市、区教育主管部门",
+        "县辖区内公共租赁住房租金标准",
+        "县辖区内普通住宅前期物业服务收费标准",
+        "县辖区内生活垃圾处理收费标准",
+        "县辖区内户外广告资源有偿使用标准",
+        "利用公共资源建设的景区门票及景区内游览场所门票、交通服务价格",
+        "县辖区内有限电视基本收视维护费及相关收费标准",
+        "政府运营的养老服务机构县级及以下政府运营的养老机构服务收费标准",
+        "殡葬服务机构提供的基本服务收费标准",
+        "县公墓维护管理及公益性公墓价格标准",
+        "县辖区内公用事业经营单位提供的具有行业或技术垄断且与主营业务相关的服务收费标准"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "经开区"
+      ],
+      "value_pool": [
+        "经开区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djnr1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "县辖区管道燃气配气价格、销售价格",
+        "水利工程供水县属水利工程的供水价格",
+        "自来水、再生水",
+        "污水处理",
+        "县辖区内供热价格",
+        "车辆通行费",
+        "道路客运价格农村道路客运票价",
+        "城市交通价格县辖区内城市公交、轨道交通、轮渡票价县辖区内客运出租车运价、燃油附加费标准",
+        "公办中等以下学历教育",
+        "非盈利性民办中等以下学历教育",
+        "公共租赁住房租金标准",
+        "普通住宅前期物业服务收费标准",
+        "生活垃圾处理收费标准",
+        "户外广告资源有偿使用费标准",
+        "利用公共资源建设的景区门票及景区内游览场所门票、交通服务价格",
+        "有线电视基本收视维护费及相关收费标准",
+        "政府运营的养老机构服务收费标准",
+        "基本服务收费",
+        "公墓维护管理及公益性公墓价格",
+        "县辖区内公用事业经营单位提供的具有行业或技术垄断且与主营业务相关的服务收费标准"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

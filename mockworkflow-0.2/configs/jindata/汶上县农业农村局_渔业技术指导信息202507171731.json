@@ -1,0 +1,134 @@
+{
+  "file_name": "汶上县农业农村局_渔业技术指导信息202507171731.xlsx",
+  "table_name": "汶上县农业农村局_渔业技术指导信息202507171731",
+  "row_count": 21,
+  "columns": [
+    "pxks",
+    "fzr",
+    "qymc",
+    "lb",
+    "nr"
+  ],
+  "fields": [
+    {
+      "name": "pxks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "14课时",
+        "15课时",
+        "16课时"
+      ],
+      "value_pool": [
+        "14课时",
+        "15课时",
+        "16课时"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "贾存胜",
+        "杨锋",
+        "张曙光",
+        "李立国",
+        "李福利",
+        "李若昌",
+        "李利国",
+        "杜东阳",
+        "刘爱菊",
+        "邵作好",
+        "王建科",
+        "张勇",
+        "郭德根",
+        "赵易龙",
+        "李中宝",
+        "王庆龙",
+        "李 国",
+        "宋垒",
+        "廉加平",
+        "刘劲龙",
+        "肖龙峰"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "大王庄鱼塘",
+        "济宁杨家湾渔业有限公司",
+        "济宁渔园休闲渔业公司",
+        "李立国鱼塘",
+        "年年有余观赏鱼养殖基地",
+        "前凡养鱼场",
+        "汶上县昌轩养殖场",
+        "汶上县东豪特种水产养殖场",
+        "汶上县丰泽农业有限公司",
+        "汶上县辉兴养鱼场",
+        "汶上县建科渔场",
+        "汶上县军哲养殖家庭农场",
+        "汶上县莲花湖旅游开发有限公司",
+        "汶上县龙鑫驯养中心",
+        "汶上县桃城下乡村旅游合作社",
+        "汶上县永茂农业有限公司",
+        "汶上县远大渔场",
+        "汶上县云臣垂钓中心",
+        "汶上县鹧鸪养殖有限公司",
+        "闫高庄刘劲龙养鱼场",
+        "闫高庄养殖场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "渔业"
+      ],
+      "value_pool": [
+        "渔业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "渔业健康养殖技术"
+      ],
+      "value_pool": [
+        "渔业健康养殖技术"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

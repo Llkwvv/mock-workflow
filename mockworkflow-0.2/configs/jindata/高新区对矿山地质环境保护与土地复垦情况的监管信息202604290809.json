@@ -1,0 +1,340 @@
+{
+  "file_name": "高新区对矿山地质环境保护与土地复垦情况的监管信息202604290809.xlsx",
+  "table_name": "高新区对矿山地质环境保护与土地复垦情况的监管信息202604290809",
+  "row_count": 56,
+  "columns": [
+    "ssjg",
+    "xzxdrzjbm",
+    "xzxdrzjlx",
+    "jcsj",
+    "jcxmmc",
+    "jgdxlx",
+    "jgdx",
+    "jclb",
+    "xzxdrxz",
+    "jcxwbh",
+    "xzxdr",
+    "jcxwmc",
+    "jcjg"
+  ],
+  "fields": [
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "国土局"
+      ],
+      "value_pool": [
+        "国土局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "913708001661201254",
+        "91370000267174130H",
+        "913700001660825360",
+        "91370000MA3F40FX3C"
+      ],
+      "value_pool": [
+        "913708001661201254",
+        "91370000267174130H",
+        "913700001660825360",
+        "91370000MA3F40FX3C"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "统一社会信用代码"
+      ],
+      "value_pool": [
+        "统一社会信用代码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-02-23 00:00:00",
+        "2020-12-31 00:00:00",
+        "2020-09-16 00:00:00",
+        "2020-09-08 00:00:00",
+        "2020-08-23 00:00:00",
+        "2020-05-28 00:00:00",
+        "2020-05-15 00:00:00",
+        "2020-06-21 00:00:00",
+        "2020-06-04 00:00:00",
+        "2021-08-16 00:00:00",
+        "2022-05-19",
+        "2022-10-04",
+        "2022-10-08",
+        "2022-10-09",
+        "2022-10-11",
+        "2022-10-12",
+        "2022-10-13",
+        "2022-10-14",
+        "2022-11-07",
+        "2022-11-08",
+        "2022-11-09",
+        "2022-11-10",
+        "2022-11-14",
+        "2022-11-15",
+        "2023-04-20",
+        "2023-08-26",
+        "2023-08-28",
+        "2024-04-17",
+        "2024-06-05",
+        "2025-01-05",
+        "2025-01-15",
+        "2025-09-21",
+        "2025-12-28"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对矿山地质环境保护与土地复垦情况的检查",
+        "矿山地质环境；土地复垦",
+        "对矿山地质环境保护与土地复垦情况的监管"
+      ],
+      "value_pool": [
+        "对矿山地质环境保护与土地复垦情况的检查",
+        "矿山地质环境；土地复垦",
+        "对矿山地质环境保护与土地复垦情况的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业、个体户、农专社"
+      ],
+      "value_pool": [
+        "企业、个体户、农专社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "913708001661201254",
+        "91370000267174130H",
+        "913700001660825360",
+        "91370000MA3F40FX3C"
+      ],
+      "value_pool": [
+        "913708001661201254",
+        "91370000267174130H",
+        "913700001660825360",
+        "91370000MA3F40FX3C"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "法人"
+      ],
+      "value_pool": [
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "GXQZRZYJ20210008",
+        "GXQZRZYJKC20210007",
+        "GXQZRZYJKC20210006",
+        "GXQZRZYJKC20210005",
+        "GXQZRZYJ疯狂02012319",
+        "GXQZRZYJfk20200629",
+        "GXQZRZYJks2020122406",
+        "GXQZRZYJfk2020122402",
+        "GXQZRZYJks20201224",
+        "11370800004234373Rks0916",
+        "GXQZRZYJdz20200916",
+        "GXQZRZYJks20200916",
+        "GXQZRZYJks20200908",
+        "11370800004234373Rfk0908",
+        "11370800004234373Rfk0823",
+        "GXQZRZYJ20200528",
+        "GXQZRZYJ20200515",
+        "GXQZRZYJ20200621",
+        "GXQZRZYJ20200604",
+        "11370800004234373Rks0927",
+        "GXQZRZYJdz20200928",
+        "GXQZRZYJks20200930",
+        "GXQZRZYJkc20210406",
+        "GXQZRZYJkc20210407",
+        "GXQZRZYJkc20210408",
+        "GXQZRZYJ20210009",
+        "GXQZRZYJ202100010",
+        "GXQZRZYJkc20210409",
+        "GXQZRZYJ202100011",
+        "GXQZRZYJ20221013",
+        "GXQZRZYJkc20221013",
+        "GXQZRZYJ20221014",
+        "GXQZRZYJkc20221014",
+        "GXQZRZYJkc20221107",
+        "GXQZRZYJ20221108",
+        "GXQZRZYJkc20221108",
+        "GXQZRZYJ20221109",
+        "GXQZRZYJ20221015",
+        "GXQZRZYJkc20221109",
+        "GXQZRZYJ20221110",
+        "GXQZRZYJkc20221114",
+        "GXQZRZYJ20221114",
+        "GXQZRZYJ20221115",
+        "GXQZRZYJKC20221115",
+        "GXQZRZYJKC20230420",
+        "GXQZRZYJKC20230826",
+        "GXQZRZYJKC20230828",
+        "GXQZRZYJkc20240417",
+        "GXQZRZYJ20240605",
+        "GXQZRZYJ20250105",
+        "GXQZRZYJ20250115",
+        "GXQZRZYJ20250921",
+        "GXQZRZYJ20251228"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "田庄煤矿",
+        "济宁二号煤矿",
+        "杨村煤矿",
+        "许厂煤矿",
+        "杨村",
+        "济宁二号井煤矿"
+      ],
+      "value_pool": [
+        "田庄煤矿",
+        "济宁二号煤矿",
+        "杨村煤矿",
+        "许厂煤矿",
+        "杨村",
+        "济宁二号井煤矿"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对矿山地质环境保护与土地复垦情况的监管",
+        "对矿山地质环境保护与矿区土地复垦情况的监管"
+      ],
+      "value_pool": [
+        "对矿山地质环境保护与土地复垦情况的监管",
+        "对矿山地质环境保护与矿区土地复垦情况的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格",
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "合格",
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

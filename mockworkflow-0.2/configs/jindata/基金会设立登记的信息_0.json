@@ -1,0 +1,130 @@
+{
+  "file_name": "基金会设立登记的信息_0.csv",
+  "table_name": "基金会设立登记的信息_0",
+  "row_count": 20,
+  "columns": [
+    "bjmc",
+    "bjsj",
+    "slsj",
+    "sqrhsqdw",
+    "sldw"
+  ],
+  "fields": [
+    {
+      "name": "bjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "关于卢德韩基金会设立登记的业务",
+        "关于黄仁杰基金会设立登记的业务",
+        "关于孟庆龙基金会设立登记的业务",
+        "关于路金基金会设立登记的业务",
+        "关于栾红军基金会设立登记的业务",
+        "关于罗京京基金会设立登记的业务",
+        "关于李国铮基金会设立登记的业务",
+        "关于任丽丽基金会设立登记的业务",
+        "关于桑丽园基金会设立登记的业务",
+        "关于苏吟雪基金会设立登记的业务"
+      ],
+      "value_pool": [
+        "关于卢德韩基金会设立登记的业务",
+        "关于黄仁杰基金会设立登记的业务",
+        "关于孟庆龙基金会设立登记的业务",
+        "关于路金基金会设立登记的业务",
+        "关于栾红军基金会设立登记的业务",
+        "关于罗京京基金会设立登记的业务",
+        "关于李国铮基金会设立登记的业务",
+        "关于任丽丽基金会设立登记的业务",
+        "关于桑丽园基金会设立登记的业务",
+        "关于苏吟雪基金会设立登记的业务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:03:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:03:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:00:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:00:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrhsqdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "卢德韩",
+        "黄仁杰",
+        "孟庆龙",
+        "路金",
+        "栾红军",
+        "罗京京",
+        "李国铮",
+        "任丽丽",
+        "桑丽园",
+        "苏吟雪"
+      ],
+      "value_pool": [
+        "卢德韩",
+        "黄仁杰",
+        "孟庆龙",
+        "路金",
+        "栾红军",
+        "罗京京",
+        "李国铮",
+        "任丽丽",
+        "桑丽园",
+        "苏吟雪"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁市任城区行政审批服务局"
+      ],
+      "value_pool": [
+        "济宁市任城区行政审批服务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

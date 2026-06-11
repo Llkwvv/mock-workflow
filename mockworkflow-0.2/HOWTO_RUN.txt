@@ -1,0 +1,10 @@
+# Mockworkflow 项目启动指南
+
+## 启动后端服务
+.venv/bin/python3 start_backend.py
+
+# 服务启动在 http://localhost:8000
+
+## 其他命令（需先激活虚拟环境: source .venv/bin/activate）
+# 安装依赖:  pip install -e .
+# 运行测试:  pytest

@@ -1,0 +1,111 @@
+{
+  "file_name": "嘉祥县统计局民情书记包保信息202601081034.xlsx",
+  "table_name": "嘉祥县统计局民情书记包保信息202601081034",
+  "row_count": 3,
+  "columns": [
+    "zfsq",
+    "bmdw",
+    "xm",
+    "rq",
+    "mqsjtd",
+    "zfxq"
+  ],
+  "fields": [
+    {
+      "name": "zfsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "孟姑集镇"
+      ],
+      "value_pool": [
+        "孟姑集镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bmdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "县统计局"
+      ],
+      "value_pool": [
+        "县统计局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈*银",
+        "姜*华",
+        "张*真"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021.6"
+      ],
+      "value_pool": [
+        "2021.6"
+      ],
+      "min_value": 2021.6,
+      "max_value": 2021.6
+    },
+    {
+      "name": "mqsjtd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县派统计局单位“民情书记”服务一队"
+      ],
+      "value_pool": [
+        "嘉祥县派统计局单位“民情书记”服务一队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "前赵垓村"
+      ],
+      "value_pool": [
+        "前赵垓村"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

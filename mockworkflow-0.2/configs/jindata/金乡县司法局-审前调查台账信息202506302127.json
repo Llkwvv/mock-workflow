@@ -1,0 +1,202 @@
+{
+  "file_name": "金乡县司法局-审前调查台账信息202506302127.xlsx",
+  "table_name": "金乡县司法局-审前调查台账信息202506302127",
+  "row_count": 22,
+  "columns": [
+    "dcr",
+    "bdcr",
+    "ajlx",
+    "wtsj",
+    "dcnr",
+    "wtdw",
+    "dcdd"
+  ],
+  "fields": [
+    {
+      "name": "dcr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "侯保军、刘新全",
+        "田业峰、耿瑞",
+        "殷齐稳、常素梅",
+        "韩虎、冯明泽",
+        "张福红、杨艳丽",
+        "程登伦、胡一鸣",
+        "张爱娟、李伟",
+        "汪涵、周红晶",
+        "张殿、张清站",
+        "单波、宫德厂",
+        "刘静文、侯保林",
+        "张殿、王潇",
+        "韩洪启、陈之泰"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bdcr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "周玉祥",
+        "侯广岩",
+        "王永利",
+        "张荣正",
+        "张同领",
+        "李艳昌",
+        "陈留付",
+        "王磊",
+        "袁凯",
+        "史贝贝",
+        "李合喜",
+        "高东伟",
+        "张学良",
+        "李新领",
+        "张明",
+        "随丹丹",
+        "孙福建",
+        "张彦兵",
+        "李掌印",
+        "尚思路",
+        "张春光",
+        "梁落玲"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ajlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "缓刑"
+      ],
+      "value_pool": [
+        "缓刑"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wtsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021、10、12",
+        "2021、10、14",
+        "2021、10、20",
+        "2021、10、21",
+        "2021、10、27",
+        "2021、10、28",
+        "2021、10、29",
+        "2025.5.27",
+        "2025.3.6"
+      ],
+      "value_pool": [
+        "2021、10、12",
+        "2021、10、14",
+        "2021、10、20",
+        "2021、10、21",
+        "2021、10、27",
+        "2021、10、28",
+        "2021、10、29",
+        "2025.5.27",
+        "2025.3.6"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "对居住社区的影响",
+        "对社区影响"
+      ],
+      "value_pool": [
+        "对居住社区的影响",
+        "对社区影响"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wtdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "金乡县人民检察院",
+        "邹城市人民法院",
+        "东平县人民法院",
+        "金乡县公安局",
+        "金乡县人民法院",
+        "济宁市高新区人民法院"
+      ],
+      "value_pool": [
+        "金乡县人民检察院",
+        "邹城市人民法院",
+        "东平县人民法院",
+        "金乡县公安局",
+        "金乡县人民法院",
+        "济宁市高新区人民法院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dcdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县高河街道常庄村",
+        "金乡县羊山镇羊山村",
+        "金乡县高河街道孟庄村",
+        "金乡县卜集镇张八缸村",
+        "金乡县马庙镇洪庙村",
+        "金乡县肖云镇",
+        "金乡县化雨镇化南村",
+        "金乡县鱼山街道花庄村",
+        "金乡县胡集镇后史屯",
+        "金乡县卜集镇李庄村",
+        "金乡县卜集镇张瓦房村",
+        "金乡县金乡街道",
+        "金乡县鱼山街道张海村",
+        "金乡县鸡黍镇马集村",
+        "金乡县高河街道徐楼村",
+        "金乡县王丕街道李阁村",
+        "金乡县鸡黍镇东李村村",
+        "金乡县卜集镇闫庄村",
+        "金乡街道",
+        "鸡黍镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

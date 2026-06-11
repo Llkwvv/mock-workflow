@@ -1,0 +1,114 @@
+{
+  "file_name": "道路交通事故处理点202507242136.xlsx",
+  "table_name": "道路交通事故处理点202507242136",
+  "row_count": 1,
+  "columns": [
+    "电话",
+    "wd",
+    "dz",
+    "ssxzqh",
+    "sgcldw",
+    "jd",
+    "xzqhdm"
+  ],
+  "fields": [
+    {
+      "name": "电话",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "133****8122"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "35.426"
+      ],
+      "min_value": 35.426,
+      "max_value": 35.426
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市任城区常青路32号济宁市公安局交通警察支队任城区大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssxzqh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市任城区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sgcldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市公安局交通警察支队任城区勤务大队事故处理中队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "116.567"
+      ],
+      "min_value": 116.567,
+      "max_value": 116.567
+    },
+    {
+      "name": "xzqhdm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811"
+      ],
+      "min_value": 370811.0,
+      "max_value": 370811.0
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "file_name": "微山县非院前转运车辆信息一览表202605261552.xlsx",
+  "table_name": "微山县非院前转运车辆信息一览表202605261552",
+  "row_count": 3,
+  "columns": [
+    "sydw",
+    "lxdh",
+    "xsq",
+    "cph",
+    "szxz"
+  ],
+  "fields": [
+    {
+      "name": "sydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "开发区社区卫生服务中心",
+        "傅村街道卫生院",
+        "昭阳卫生院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "0537-8231789",
+        "0537-8588120",
+        "155****1555"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县"
+      ],
+      "value_pool": [
+        "微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cph",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁H**0S0",
+        "鲁H**0P8",
+        "鲁H**20P3"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "开发区",
+        "付村街道",
+        "昭阳街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

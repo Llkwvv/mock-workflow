@@ -1,0 +1,173 @@
+{
+  "file_name": "高新区双随机污染源数据202605251231.xlsx",
+  "table_name": "高新区双随机污染源数据202605251231",
+  "row_count": 2,
+  "columns": [
+    "jd",
+    "wrybh",
+    "tyshxydm",
+    "pwdwbm",
+    "wrylb",
+    "wrydwmc",
+    "jgjb",
+    "wd",
+    "frdb",
+    "dwdz"
+  ],
+  "fields": [
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "116.75",
+        "116.69"
+      ],
+      "min_value": 116.69,
+      "max_value": 116.75
+    },
+    {
+      "name": "wrybh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "913708002671270519001V",
+        "91370800MABRJJ5Q1B001V"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "913708*********519",
+        "913708*********Q1B"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pwdwbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "913708002671270519001V",
+        "91370800MABRJJ5Q1B001V"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wrylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "大气环境",
+        "水环境,大气环境"
+      ],
+      "value_pool": [
+        "大气环境",
+        "水环境,大气环境"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wrydwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁华能制药厂有限公司",
+        "济宁高新公用能源有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "国控",
+        "市控"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "35.44"
+      ],
+      "value_pool": [
+        "35.44"
+      ],
+      "min_value": 35.44,
+      "max_value": 35.44
+    },
+    {
+      "name": "frdb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "李*",
+        "韩**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市高新区黄屯街道广安路2号",
+        "山东省济宁市高新区王因街道崇文大道与西浦路交叉口向南200米路东"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "file_name": "高新区对普通中小学办学行为的监管信息202602111142.xlsx",
+  "table_name": "高新区对普通中小学办学行为的监管信息202602111142",
+  "row_count": 37,
+  "columns": [
+    "jcsj",
+    "xzxdrxz",
+    "xzxdrzjlx",
+    "jcxmmc",
+    "jclb",
+    "ssjg",
+    "jgdxlx",
+    "jgdx",
+    "jcxwbh",
+    "xzxdr",
+    "jcxwmc",
+    "jcjg",
+    "xzxdrzjbm"
+  ],
+  "fields": [
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020-12-23",
+        "2021-07-30",
+        "2021-08-12",
+        "2021-06-22",
+        "2021-07-15",
+        "2021-07-21",
+        "2022-05-27",
+        "2022-09-12",
+        "2023-04-20",
+        "2023-09-16",
+        "2024-03-15",
+        "2024-05-26",
+        "2024-07-19",
+        "2024-09-25",
+        "2024-11-17",
+        "2025-03-16"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "法人"
+      ],
+      "value_pool": [
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "统一社会信用代码"
+      ],
+      "value_pool": [
+        "统一社会信用代码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "课程设置和教材选用检查；收费情况检查；教育教学检查；办学情况检查；体育活动检查；教师管理检查；考试情况检查",
+        "对普通中小学办学行为的监管"
+      ],
+      "value_pool": [
+        "课程设置和教材选用检查；收费情况检查；教育教学检查；办学情况检查；体育活动检查；教师管理检查；考试情况检查",
+        "对普通中小学办学行为的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "发展软环境保障局"
+      ],
+      "value_pool": [
+        "发展软环境保障局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "非企业"
+      ],
+      "value_pool": [
+        "非企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区第五中学",
+        "济宁高新区蓼河新城外国语学校",
+        "济宁市科苑小学",
+        "济宁高新区济东中学",
+        "济宁高新区第四中学",
+        "济宁高新区第二小学",
+        "济宁高新区附小科苑校区",
+        "济宁高新区洸河中学",
+        "济宁高新区济东小学",
+        "济宁高新区高级中学",
+        "济宁高新区职业中等专业学校",
+        "济宁高新区第二中学",
+        "济宁高新技术产业开发区济东学校",
+        "济宁高新技术产业开发区黄屯中心小学",
+        "济宁高新技术产业开发区蓼河新城外国语学校",
+        "济宁高新技术产业开发区杨村煤矿中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "sfjjyc_2020009",
+        "sfjjyc_2020010",
+        "sfjjyc-2020019",
+        "sfjjyc-2020026",
+        "sfj202041x002",
+        "sfj2020-042",
+        "sfj2020-038",
+        "sfjjyc-2020013",
+        "sfjjyc_2020008",
+        "sfj2020-001",
+        "sfj2019p001",
+        "sfjjyc_2020020",
+        "sfjjyc_2020021",
+        "sfjjyc-2020022",
+        "sfjjyc-2020023",
+        "sfj202041x010",
+        "sfj2020-024",
+        "sfj2020-027",
+        "sfjjyc-2020028",
+        "sfjjyc_2020029",
+        "sfj2020-030",
+        "sfj2020p032",
+        "sfj2021x051",
+        "sfj2021x050",
+        "sfj2021x053",
+        "sfj2021x052",
+        "sfj2021-113",
+        "FBJ2022-008",
+        "FBJ2022-034",
+        "SFJ-JTC003",
+        "SFJ-JTC004",
+        "SFJ-JTC012",
+        "SFJ-JTC016",
+        "SFJ-JTC037",
+        "SFJ-JTC045",
+        "SFJ-JTC056",
+        "SFJ-JTC071"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区第五中学",
+        "济宁高新区蓼河新城外国语学校",
+        "济宁市科苑小学",
+        "济宁高新区济东中学",
+        "济宁高新区第四中学",
+        "济宁高新区第二小学",
+        "济宁高新区附小科苑校区",
+        "济宁高新区洸河中学",
+        "济宁高新区济东小学",
+        "济宁高新区高级中学",
+        "济宁高新区职业中等专业学校",
+        "济宁高新区第二中学",
+        "济宁高新技术产业开发区济东学校",
+        "济宁高新技术产业开发区黄屯中心小学",
+        "济宁高新技术产业开发区蓼河新城外国语学校",
+        "济宁高新技术产业开发区杨村煤矿中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对普通中小学办学行为的监管",
+        "对普通中小学办学行为的行政检查"
+      ],
+      "value_pool": [
+        "对普通中小学办学行为的监管",
+        "对普通中小学办学行为的行政检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "12370800754450112K",
+        "12370800MB2889931H",
+        "12370800678132357B",
+        "123708006745085569",
+        "123708004939905908",
+        "12370812MB2841241E",
+        "12370800MB288994X9",
+        "123708006745085644",
+        "12370800494011307H",
+        "123708004940112006",
+        "12370812MB284125X6",
+        "123708006817279091"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

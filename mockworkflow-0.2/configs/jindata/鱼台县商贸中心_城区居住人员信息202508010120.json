@@ -1,0 +1,150 @@
+{
+  "file_name": "鱼台县商贸中心_城区居住人员信息202508010120.xlsx",
+  "table_name": "鱼台县商贸中心_城区居住人员信息202508010120",
+  "row_count": 17,
+  "columns": [
+    "姓名",
+    "xb",
+    "zzmm",
+    "gzdw",
+    "lxdh",
+    "xxdz"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "随**",
+        "赵**",
+        "王**",
+        "袁**",
+        "朱**",
+        "马**",
+        "许**",
+        "秦**",
+        "李**",
+        "郎**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzmm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "党员",
+        "群众",
+        "团员"
+      ],
+      "value_pool": [
+        "党员",
+        "群众",
+        "团员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "县商贸服务中心"
+      ],
+      "value_pool": [
+        "县商贸服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "185****5799",
+        "139****1378",
+        "155****6076",
+        "135****1236",
+        "183****3627",
+        "152****8904",
+        "186****5965",
+        "139****6016",
+        "136****3359",
+        "132****7666",
+        "137****4686",
+        "135****3683",
+        "135****8383",
+        "3776938",
+        "139****8959",
+        "183****7839",
+        "159****5685"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "盛世华庭",
+        "商贸局家属院",
+        "龙城水景苑",
+        "书香苑",
+        "于屯村",
+        "幸福佳苑东区",
+        "京港花园",
+        "越河小区",
+        "河北区53612号",
+        "金贤源",
+        "马石庄",
+        "观鱼西苑",
+        "孝贤居",
+        "观鱼小区"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

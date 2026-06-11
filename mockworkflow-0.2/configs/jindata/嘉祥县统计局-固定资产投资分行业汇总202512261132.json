@@ -1,0 +1,94 @@
+{
+  "file_name": "嘉祥县统计局-固定资产投资分行业汇总202512261132.xlsx",
+  "table_name": "嘉祥县统计局-固定资产投资分行业汇总202512261132",
+  "row_count": 3,
+  "columns": [
+    "zbmc",
+    "nf",
+    "zblx",
+    "dm",
+    "tzwcewy"
+  ],
+  "fields": [
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "总计",
+        "农、林、牧、渔业",
+        "农业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019"
+      ],
+      "value_pool": [
+        "2019"
+      ],
+      "min_value": 2019.0,
+      "max_value": 2019.0
+    },
+    {
+      "name": "zblx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "固定资产投资分行业汇总"
+      ],
+      "value_pool": [
+        "固定资产投资分行业汇总"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "000",
+        "A",
+        "01"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tzwcewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1656075",
+        "44004",
+        "12563"
+      ],
+      "min_value": 12563.0,
+      "max_value": 1656075.0
+    }
+  ]
+}

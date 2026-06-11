@@ -1,0 +1,138 @@
+{
+  "file_name": "金乡县大蒜协会组织结构名单202508010112.xlsx",
+  "table_name": "金乡县大蒜协会组织结构名单202508010112",
+  "row_count": 26,
+  "columns": [
+    "dw",
+    "姓名",
+    "xhzw",
+    "qy",
+    "zw"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县凯盛农业发展有限公司",
+        "中蒜仓储有限责任公司",
+        "金乡县宏腾果蔬有限公司",
+        "金乡县宏宇冷藏加工有限公司",
+        "金乡县宏万年食品有限公司",
+        "山东东宝食品有限公司",
+        "金乡县金昊源农贸有限公司",
+        "金乡县京信种植专业合作社",
+        "济宁市鲁峰冷藏集团有限公司",
+        "金乡农商银行",
+        "金乡县大蒜信息协会",
+        "金乡县一顺蒜道食品有限公司",
+        "山东金恒农产品冷链物流有限公司",
+        "金乡县盛隆贸易有限公司",
+        "山东鑫诺食品科技有限公司",
+        "山东诚强实业股份有限公司",
+        "山东金祥源粮油食品有限公司",
+        "金乡县聚鑫源贸易有限公司",
+        "济宁新青港有限公司",
+        "金乡县金禧园食品有限公司",
+        "金乡县万兴食品有限公司",
+        "济宁市东运食品科技股份有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "李**",
+        "杨**",
+        "邵**",
+        "宋**",
+        "袁**",
+        "刘**",
+        "汤**",
+        "周**",
+        "侯**",
+        "荆**",
+        "郭**",
+        "程**",
+        "韩**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xhzw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "会长",
+        "副会长",
+        "副会长兼秘书长",
+        "常务理事",
+        "副秘书长"
+      ],
+      "value_pool": [
+        "会长",
+        "副会长",
+        "副会长兼秘书长",
+        "常务理事",
+        "副秘书长"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "董事长",
+        "总经理",
+        "会长",
+        "副总经理"
+      ],
+      "value_pool": [
+        "董事长",
+        "总经理",
+        "会长",
+        "副总经理"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

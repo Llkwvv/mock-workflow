@@ -1,0 +1,153 @@
+{
+  "file_name": "社会事业中心经开区参加_健步行_比赛名单202508010240.xlsx",
+  "table_name": "社会事业中心经开区参加_健步行_比赛名单202508010240",
+  "row_count": 98,
+  "columns": [
+    "dw",
+    "姓名",
+    "bmsj",
+    "nl",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "社会事业中心"
+      ],
+      "value_pool": [
+        "社会事业中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王*",
+        "吴*",
+        "贾**",
+        "任*****",
+        "韩***",
+        "李**",
+        "王**",
+        "石**",
+        "谢**",
+        "曹**",
+        "闫**",
+        "杨**",
+        "张*",
+        "林**",
+        "张**",
+        "刘**",
+        "韩**",
+        "高*",
+        "陈**",
+        "马**",
+        "董**",
+        "江**",
+        "琚*",
+        "韩*",
+        "孙**",
+        "胡**",
+        "柳**",
+        "吕**",
+        "岳**",
+        "付**",
+        "田**",
+        "尹**",
+        "梁**",
+        "鲁**",
+        "封**",
+        "李*",
+        "邵**",
+        "汤**",
+        "周**",
+        "何**",
+        "赵**",
+        "夏**",
+        "高**",
+        "西**",
+        "侯*",
+        "吕*",
+        "种**",
+        "唐**",
+        "董*",
+        "江*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bmsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "45233"
+      ],
+      "value_pool": [
+        "45233"
+      ],
+      "min_value": 45233.0,
+      "max_value": 45233.0
+    },
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "31",
+        "39",
+        "33",
+        "36",
+        "40",
+        "48",
+        "27",
+        "43",
+        "26",
+        "25",
+        "34",
+        "22",
+        "29"
+      ],
+      "min_value": 22.0,
+      "max_value": 48.0
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "file_name": "湖东堤截渗沟生产桥主要指标表202506302140.xlsx",
+  "table_name": "湖东堤截渗沟生产桥主要指标表202506302140",
+  "row_count": 72,
+  "columns": [
+    "qmgc",
+    "qlmc",
+    "qmk",
+    "xq",
+    "kj"
+  ],
+  "fields": [
+    {
+      "name": "qmgc",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "34.81",
+        "35.01",
+        "35.51",
+        "34.91",
+        "34. 6]",
+        "34.71",
+        "34.11",
+        "34.41",
+        "34.21",
+        "34.31",
+        "34.61",
+        "33.21",
+        "34.01",
+        "32.91",
+        "32.71",
+        "33.91"
+      ],
+      "min_value": 32.71,
+      "max_value": 35.51
+    },
+    {
+      "name": "qlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "泗河口东南生产桥",
+        "仲浅1＃生产桥",
+        "仲浅2＃生产桥",
+        "师庄1＃生产桥",
+        "师庄2＃生产桥",
+        "鲁桥1＃生产桥",
+        "鲁桥2＃生产桥",
+        "中心河生产桥",
+        "鲁南站生产桥",
+        "两城站生产桥",
+        "南羊庄生产侨",
+        "峦谷堆生产桥",
+        "北沙河南生产桥",
+        "后留庄西生产桥",
+        "留庄西北生产桥",
+        "留庄西生产桥",
+        "留庄西南生产桥",
+        "留庄矿西南生产桥",
+        "满口北生产桥",
+        "满口生产桥",
+        "满口东生产桥",
+        "徐营小学西生产桥",
+        "牛庄南生产桥",
+        "夏刘庄生产桥",
+        "刘村生产桥",
+        "沙谷堆生产桥",
+        "三孔桥生产桥",
+        "南庄生产桥",
+        "南庄南生产桥",
+        "薛河渔场生产桥",
+        "西万二生产桥",
+        "西万四南生产桥",
+        "后学村生产桥",
+        "南坝生产桥",
+        "黄埠庄生产桥",
+        "黄埠站东生产桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qmk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "净-4.5"
+      ],
+      "value_pool": [
+        "净-4.5"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县",
+        "微山县2010"
+      ],
+      "value_pool": [
+        "微山县",
+        "微山县2010"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "6",
+        "4"
+      ],
+      "value_pool": [
+        "6",
+        "4"
+      ],
+      "min_value": 4.0,
+      "max_value": 6.0
+    }
+  ]
+}

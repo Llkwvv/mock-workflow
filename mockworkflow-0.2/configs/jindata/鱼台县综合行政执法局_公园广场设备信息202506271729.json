@@ -1,0 +1,138 @@
+{
+  "file_name": "鱼台县综合行政执法局_公园广场设备信息202506271729.xlsx",
+  "table_name": "鱼台县综合行政执法局_公园广场设备信息202506271729",
+  "row_count": 32,
+  "columns": [
+    "jcdw",
+    "sl",
+    "zrr",
+    "jcqy",
+    "gygcsbmc"
+  ],
+  "fields": [
+    {
+      "name": "jcdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "市政公用事业服务中心"
+      ],
+      "value_pool": [
+        "市政公用事业服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1台",
+        "1个",
+        "2把",
+        "1把",
+        "2台",
+        "6件",
+        "60个",
+        "3台",
+        "10个",
+        "2个",
+        "15盘",
+        "20个",
+        "6盘",
+        "2辆",
+        "1辆",
+        "3把"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "李峰",
+        "王边防",
+        "王峰",
+        "别庆方"
+      ],
+      "value_pool": [
+        "李峰",
+        "王边防",
+        "王峰",
+        "别庆方"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县城区",
+        "孝贤广场"
+      ],
+      "value_pool": [
+        "鱼台县城区",
+        "孝贤广场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gygcsbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "电焊机",
+        "发电机",
+        "绝缘点阻表",
+        "电动手钻",
+        "电动冲击钻",
+        "电动角磨机",
+        "油锯",
+        "救生衣",
+        "果皮箱",
+        "绿篱机",
+        "割灌机",
+        "手锯",
+        "灭火器",
+        "3米合梯",
+        "4米合梯",
+        "5米合梯",
+        "警示带",
+        "警示墩",
+        "3寸汽油抽水机",
+        "2.5寸汽油抽水机",
+        "3寸水带",
+        "2.5寸水带",
+        "两轮巡逻车",
+        "电动四轮带棚巡逻车",
+        "电动四轮敞篷巡逻车",
+        "小型电动四轮巡逻车"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

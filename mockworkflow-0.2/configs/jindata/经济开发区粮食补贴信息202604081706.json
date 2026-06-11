@@ -1,0 +1,287 @@
+{
+  "file_name": "经济开发区粮食补贴信息202604081706.xlsx",
+  "table_name": "经济开发区粮食补贴信息202604081706",
+  "row_count": 100,
+  "columns": [
+    "bz",
+    "s",
+    "ms",
+    "zjd",
+    "xsq",
+    "btje",
+    "wnrs",
+    "姓名",
+    "c"
+  ],
+  "fields": [
+    {
+      "name": "bz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "120"
+      ],
+      "value_pool": [
+        "120"
+      ],
+      "min_value": 120.0,
+      "max_value": 120.0
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ms",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "7",
+        "3",
+        "8",
+        "9",
+        "2",
+        "5",
+        "6",
+        "4"
+      ],
+      "value_pool": [
+        "7",
+        "3",
+        "8",
+        "9",
+        "2",
+        "5",
+        "6",
+        "4"
+      ],
+      "min_value": 2.0,
+      "max_value": 9.0
+    },
+    {
+      "name": "zjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "疃里镇"
+      ],
+      "value_pool": [
+        "疃里镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经济开发区"
+      ],
+      "value_pool": [
+        "经济开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "btje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "840",
+        "360",
+        "960",
+        "1080",
+        "240",
+        "600",
+        "720",
+        "480"
+      ],
+      "value_pool": [
+        "840",
+        "360",
+        "960",
+        "1080",
+        "240",
+        "600",
+        "720",
+        "480"
+      ],
+      "min_value": 240.0,
+      "max_value": 1080.0
+    },
+    {
+      "name": "wnrs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2"
+      ],
+      "value_pool": [
+        "2"
+      ],
+      "min_value": 2.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张玉环",
+        "张翠娟",
+        "付春荣",
+        "张承轩",
+        "韩有叶",
+        "薛永贤",
+        "梁玉柱",
+        "韩新路",
+        "韩道敏",
+        "张爱国",
+        "付云堂",
+        "王少民",
+        "郑月勤",
+        "韩长启",
+        "郭翠兰",
+        "张来生",
+        "田秀娥",
+        "韩道防",
+        "张广敏",
+        "张承福",
+        "张运波",
+        "张东生",
+        "韩新院",
+        "王海龙",
+        "陈相军",
+        "薛荣为",
+        "薛兴海",
+        "张广山",
+        "张运华",
+        "韩有之",
+        "韩学良",
+        "韩有望",
+        "韩友功",
+        "韩保行",
+        "韩方兴",
+        "韩道林",
+        "王永琴",
+        "薛荣刚",
+        "张群生",
+        "韩红卫",
+        "韩建桥",
+        "蒙美荣",
+        "薛兴雨",
+        "韩有雪",
+        "韩荣华",
+        "任珊",
+        "张治华",
+        "韩学广",
+        "常秀刚",
+        "王淑贤",
+        "韩群红",
+        "吕秋菊",
+        "梁金灿",
+        "韩道光",
+        "韩东生",
+        "韩留新",
+        "韩记行",
+        "韩道哲",
+        "韩有会",
+        "韩学才",
+        "韩学瑞",
+        "张晓太",
+        "张广习",
+        "张顺太",
+        "胡得荣",
+        "韩继水",
+        "韩长新",
+        "张成合",
+        "张承鸾",
+        "张广东",
+        "张广玉",
+        "薛玉晶",
+        "付秀华",
+        "梁齐云",
+        "张德玉",
+        "韩道伦",
+        "张广祥",
+        "张仰科",
+        "张明太",
+        "张有太",
+        "张承祥",
+        "薛兴珩",
+        "韩方阁",
+        "薛洋洋",
+        "韩新良",
+        "韩道金",
+        "韩道英",
+        "张广言",
+        "韩同祥",
+        "韩学岭",
+        "佟雪萍",
+        "韩计新",
+        "张广印",
+        "张留臣",
+        "张承伦",
+        "张玉中",
+        "韩道政",
+        "韩有贵",
+        "张永红",
+        "张池太"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "c",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "杨庄"
+      ],
+      "value_pool": [
+        "杨庄"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

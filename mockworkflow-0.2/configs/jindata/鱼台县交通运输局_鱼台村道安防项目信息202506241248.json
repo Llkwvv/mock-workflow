@@ -1,0 +1,270 @@
+{
+  "file_name": "鱼台县交通运输局_鱼台村道安防项目信息202506241248.xlsx",
+  "table_name": "鱼台县交通运输局_鱼台村道安防项目信息202506241248",
+  "row_count": 39,
+  "columns": [
+    "xmmc",
+    "zyjsnr",
+    "cdgl",
+    "lmjgxs",
+    "sslx",
+    "jsxz",
+    "lm",
+    "lj",
+    "xmlxbm"
+  ],
+  "fields": [
+    {
+      "name": "xmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济徐线-张堰",
+        "老枣曹线-前吴集",
+        "张堰村道",
+        "李党村道1",
+        "赵店-吕屯",
+        "枣曹线-李集",
+        "鱼清线-百里村",
+        "G237-刘庙",
+        "李阁-姜楼",
+        "卷棚楼-张庄",
+        "大魏-张庄",
+        "汪庄-谷缪路",
+        "清陈线-大程",
+        "花果山-崇眉集",
+        "华村-东丰线",
+        "赵庄-北房",
+        "枣曹线-刘寨",
+        "老宏路-小寨",
+        "枣曹线-小乡",
+        "左堌堆-石庄",
+        "东丰线-胡阁",
+        "胡阁村道2",
+        "济徐线-义和",
+        "S346-马莪",
+        "中西南村道",
+        "于梅-杨庄",
+        "鱼丰线-杨宅子",
+        "张庄-东丰线",
+        "小吴-滨湖大道",
+        "王周线-王庙",
+        "运南-双韩",
+        "阚家-袁洼",
+        "阚家-军城",
+        "白庙-前杜"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zyjsnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "路基路面"
+      ],
+      "value_pool": [
+        "路基路面"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cdgl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0.4",
+        "0.8",
+        "0.6",
+        "2",
+        "1.2",
+        "0.7",
+        "1.4",
+        "2.7",
+        "3.6",
+        "3.1",
+        "2.6",
+        "1.7",
+        "1.1",
+        "2.1",
+        "0.9",
+        "1",
+        "2.8",
+        "1.5",
+        "1.8",
+        "4.1",
+        "2.7公里",
+        "2.6公里",
+        "1.7公里",
+        "1.1公里",
+        "2.1公里"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lmjgxs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "水泥混凝土",
+        "沥青混凝土",
+        "水泥/沥青混凝土"
+      ],
+      "value_pool": [
+        "水泥混凝土",
+        "沥青混凝土",
+        "水泥/沥青混凝土"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sslx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "公路"
+      ],
+      "value_pool": [
+        "公路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jsxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "改建",
+        "新建"
+      ],
+      "value_pool": [
+        "改建",
+        "新建"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lm",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "4.0",
+        "5.0",
+        "6.0",
+        "4.5",
+        "8.0",
+        "7.0"
+      ],
+      "value_pool": [
+        "4.0",
+        "5.0",
+        "6.0",
+        "4.5",
+        "8.0",
+        "7.0"
+      ],
+      "min_value": 4.0,
+      "max_value": 8.0
+    },
+    {
+      "name": "lj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "5",
+        "6",
+        "7",
+        "9",
+        "8"
+      ],
+      "value_pool": [
+        "5",
+        "6",
+        "7",
+        "9",
+        "8"
+      ],
+      "min_value": 5.0,
+      "max_value": 9.0
+    },
+    {
+      "name": "xmlxbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "C084370827",
+        "C394370827",
+        "C556370827",
+        "C377370827",
+        "C342370827",
+        "C037370827",
+        "C332370827",
+        "C339370827",
+        "C331370827",
+        "C045370827",
+        "C559370827",
+        "C343370827",
+        "C573370827",
+        "C572370827",
+        "C576370827",
+        "C077370827",
+        "C082370827",
+        "C545370827",
+        "C569370827",
+        "C397370827",
+        "C632370827",
+        "C549370827",
+        "C329370827",
+        "C454370827",
+        "C558370827",
+        "C026370827",
+        "C338370827",
+        "C340370827",
+        "C036370827",
+        "C193370827",
+        "C553370827",
+        "C087370827",
+        "C088370827",
+        "C018370827"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

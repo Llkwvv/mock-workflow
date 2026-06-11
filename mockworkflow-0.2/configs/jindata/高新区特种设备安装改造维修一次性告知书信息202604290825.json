@@ -1,0 +1,326 @@
+{
+  "file_name": "高新区特种设备安装改造维修一次性告知书信息202604290825.xlsx",
+  "table_name": "高新区特种设备安装改造维修一次性告知书信息202604290825",
+  "row_count": 42,
+  "columns": [
+    "sgdwqc",
+    "sgdw",
+    "sglb",
+    "sbzzdwqc",
+    "sbmc",
+    "sbzl",
+    "sydwqc",
+    "sbdd",
+    "azgzwxq",
+    "zzbh",
+    "gzsbh"
+  ],
+  "fields": [
+    {
+      "name": "sgdwqc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "凯尔菱电（山东）电梯有限公司",
+        "河南艾德依电梯机电工程有限公司",
+        "南通浙奥电梯工程有限公司",
+        "巨人通力电梯有限公司济南分公司"
+      ],
+      "value_pool": [
+        "凯尔菱电（山东）电梯有限公司",
+        "河南艾德依电梯机电工程有限公司",
+        "南通浙奥电梯工程有限公司",
+        "巨人通力电梯有限公司济南分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "凯尔菱电（山东）电梯有限公司",
+        "河南艾德依电梯机电工程有限公司",
+        "南通浙奥电梯工程有限公司",
+        "巨人通力电梯有限公司济南分公司"
+      ],
+      "value_pool": [
+        "凯尔菱电（山东）电梯有限公司",
+        "河南艾德依电梯机电工程有限公司",
+        "南通浙奥电梯工程有限公司",
+        "巨人通力电梯有限公司济南分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sglb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "安装"
+      ],
+      "value_pool": [
+        "安装"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbzzdwqc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "凯尔菱电（山东）电梯有限公司",
+        "江西富士电梯有限公司",
+        "奥的斯机电电梯有限公司",
+        "巨人通力电梯有限公司"
+      ],
+      "value_pool": [
+        "凯尔菱电（山东）电梯有限公司",
+        "江西富士电梯有限公司",
+        "奥的斯机电电梯有限公司",
+        "巨人通力电梯有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "载货电梯",
+        "曳引驱动乘客电梯"
+      ],
+      "value_pool": [
+        "载货电梯",
+        "曳引驱动乘客电梯"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "电梯"
+      ],
+      "value_pool": [
+        "电梯"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sydwqc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东鲁抗好丽友生物科技开发有限公司",
+        "山东火炬房地产开发集团有限公司",
+        "济宁公用瑞马新天地置业有限公司",
+        "济宁华都金达置业有限公司",
+        "济宁海达融创置业有限公司"
+      ],
+      "value_pool": [
+        "山东鲁抗好丽友生物科技开发有限公司",
+        "山东火炬房地产开发集团有限公司",
+        "济宁公用瑞马新天地置业有限公司",
+        "济宁华都金达置业有限公司",
+        "济宁海达融创置业有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市高新区德源路88号鲁抗医药院内",
+        "高新区杨柳国际新城J2-3单元东梯",
+        "高新区杨柳国际新城J2-2单元东梯",
+        "高新区杨柳国际新城J2-1单元西梯",
+        "高新区杨柳国际新城J1-3单元东梯",
+        "高新区杨柳国际新城J1-2单元西梯",
+        "高新区杨柳国际新城J1-1单元东梯",
+        "济宁市高新区菱花南路与崇文大道交叉口（公用瑞马新天地）",
+        "济宁市高新区山博路北，鸿广路南，蓼河路西（华都国滨府）",
+        "济宁市高新区广安路和治学路交汇处融创.济宁府"
+      ],
+      "value_pool": [
+        "济宁市高新区德源路88号鲁抗医药院内",
+        "高新区杨柳国际新城J2-3单元东梯",
+        "高新区杨柳国际新城J2-2单元东梯",
+        "高新区杨柳国际新城J2-1单元西梯",
+        "高新区杨柳国际新城J1-3单元东梯",
+        "高新区杨柳国际新城J1-2单元西梯",
+        "高新区杨柳国际新城J1-1单元东梯",
+        "济宁市高新区菱花南路与崇文大道交叉口（公用瑞马新天地）",
+        "济宁市高新区山博路北，鸿广路南，蓼河路西（华都国滨府）",
+        "济宁市高新区广安路和治学路交汇处融创.济宁府"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "azgzwxq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021-10-22",
+        "2021-10-20",
+        "2021-10-19",
+        "2021-10-09"
+      ],
+      "value_pool": [
+        "2021-10-22",
+        "2021-10-20",
+        "2021-10-19",
+        "2021-10-09"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "2109322",
+        "FUJI-PC02016F",
+        "FUJI-PC02016E",
+        "FUJI-PC02016D",
+        "FUJI-PC02016C",
+        "FUJI-PC02016B",
+        "FUJI-PC02016A",
+        "F8N61W93",
+        "F8N61W92",
+        "F8N61W91",
+        "F8N61W90",
+        "F8N61W89",
+        "F8N61W88",
+        "F8N61W79",
+        "F8N61W78",
+        "F8N61W77",
+        "F8N61W76",
+        "F8N61W75",
+        "F8N61W74",
+        "F8N12U16",
+        "F8N12U15",
+        "F8N12U14",
+        "F8N12U13",
+        "F8N12U12",
+        "F8N12U11",
+        "F8N12U10",
+        "F8N12U09",
+        "F8N12U08",
+        "F8N12U07",
+        "F8N12U06",
+        "F8N12U05",
+        "F8N12U04",
+        "F8N12U03",
+        "F8N12U02",
+        "44426596",
+        "44426595",
+        "44426592",
+        "44426591",
+        "44426611",
+        "44426610",
+        "44426609",
+        "44426608"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzsbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "2109322-KELD-2021",
+        "FUJI-PC02016F-2021",
+        "FUJI-PC02016E-2021",
+        "FUJI-PC02016D-2021",
+        "FUJI-PC02016C-2021",
+        "FUJI-PC02016B-2021",
+        "FUJI-PC02016A-2021",
+        "F8N61W93(2021)",
+        "F8N61W92(2021)",
+        "F8N61W91(2021)",
+        "F8N61W90(2021)",
+        "F8N61W89(2021)",
+        "F8N61W88(2021)",
+        "F8N61W79(2021)",
+        "F8N61W78(2021)",
+        "F8N61W77(2021)",
+        "F8N61W76(2021)",
+        "F8N61W75(2021)",
+        "F8N61W74(2021)",
+        "F8N12U16(2021)",
+        "F8N12U15(2021)",
+        "F8N12U14(2021)",
+        "F8N12U13(2021)",
+        "F8N12U12(2021)",
+        "F8N12U11(2021)",
+        "F8N12U10(2021)",
+        "F8N12U09(2021)",
+        "F8N12U08(2021)",
+        "F8N12U07(2021)",
+        "F8N12U06(2021)",
+        "F8N12U05(2021)",
+        "F8N12U04(2021)",
+        "F8N12U03(2021)",
+        "F8N12U02(2021)",
+        "44426596-013-2021",
+        "44426595-012-2021",
+        "44426592-011-2021",
+        "44426591-010-2021",
+        "44426611-009-2021",
+        "44426610-008-2021",
+        "44426609-007-2021",
+        "44426608-006-2021"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

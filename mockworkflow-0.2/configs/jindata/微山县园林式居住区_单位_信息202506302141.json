@@ -1,0 +1,149 @@
+{
+  "file_name": "微山县园林式居住区_单位_信息202506302141.xlsx",
+  "table_name": "微山县园林式居住区_单位_信息202506302141",
+  "row_count": 92,
+  "columns": [
+    "dwmc",
+    "ssxsq",
+    "xz",
+    "szxzjd",
+    "jb"
+  ],
+  "fields": [
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山湖矿业集团有限公司",
+        "微山县气象局",
+        "微山县工商行政管理局",
+        "微山县财政局",
+        "微山县实验中学",
+        "微山县三河口生建煤矿",
+        "微山县县乡公路管理处",
+        "微山县欢城煤矿",
+        "微山县公路管理局",
+        "微山县交通局检测站",
+        "微山县崔庄煤矿",
+        "滨湖春天",
+        "鹿鸣新城",
+        "龙顺·御园",
+        "微山县生活垃圾处理厂",
+        "微山县地方税务局",
+        "微山县经济开发区管委会",
+        "微山县污水处理厂",
+        "微山县自然资源与规划局",
+        "微山县社会福利中心",
+        "润峰集团",
+        "微山县市政公用事业服务中心",
+        "众联20度热力公司",
+        "微山县人民检察院",
+        "中国农业银行微山县支行",
+        "韩庄闸管理处",
+        "微山县夏镇盐当村委会",
+        "微山县实验小学",
+        "微山湖昊福药业",
+        "微山县公安局",
+        "微山县教师进修学校",
+        "中国银行微山支行",
+        "微山县鑫淼自来水厂",
+        "微山县渔业综合管理委员会",
+        "鑫苑社区",
+        "星月城小区",
+        "文城时代",
+        "上峰阳光华府",
+        "星空喜园",
+        "悦达小区",
+        "苏园一村",
+        "民生小区",
+        "顺和家园",
+        "微山湖酒业有限公司",
+        "南水北调东线山东干线济宁管理局二级坝泵站管理处",
+        "山东圣嘉型材有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssxsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县",
+        "2024微山县"
+      ],
+      "value_pool": [
+        "微山县",
+        "2024微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "良好"
+      ],
+      "value_pool": [
+        "良好"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szxzjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "夏镇街道",
+        "昭阳街道",
+        "付村街道",
+        "欢城镇",
+        "经济开发区",
+        "韩庄镇"
+      ],
+      "value_pool": [
+        "夏镇街道",
+        "昭阳街道",
+        "付村街道",
+        "欢城镇",
+        "经济开发区",
+        "韩庄镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市级"
+      ],
+      "value_pool": [
+        "市级"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

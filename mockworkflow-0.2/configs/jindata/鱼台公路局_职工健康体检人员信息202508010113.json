@@ -1,0 +1,154 @@
+{
+  "file_name": "鱼台公路局_职工健康体检人员信息202508010113.xlsx",
+  "table_name": "鱼台公路局_职工健康体检人员信息202508010113",
+  "row_count": 16,
+  "columns": [
+    "zysx",
+    "sj",
+    "xm",
+    "姓名",
+    "dd",
+    "xh"
+  ],
+  "fields": [
+    {
+      "name": "zysx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "请体检人按照要求，持本人身份证到健康管理中心前台登记确认进行体检."
+      ],
+      "value_pool": [
+        "请体检人按照要求，持本人身份证到健康管理中心前台登记确认进行体检."
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44480",
+        "44481",
+        "44482",
+        "44483",
+        "45578",
+        "45579"
+      ],
+      "value_pool": [
+        "44480",
+        "44481",
+        "44482",
+        "44483",
+        "45578",
+        "45579"
+      ],
+      "min_value": 44480.0,
+      "max_value": 45579.0
+    },
+    {
+      "name": "xm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "内科、外科、彩超、血检、心电图",
+        "彩超、血检、心电图"
+      ],
+      "value_pool": [
+        "内科、外科、彩超、血检、心电图",
+        "彩超、血检、心电图"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘**",
+        "李**",
+        "葛**",
+        "张**",
+        "闫**",
+        "牛**",
+        "马**",
+        "范**",
+        "魏**",
+        "周**",
+        "王**",
+        "卢**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台县人民医院2号楼1楼健康管理中心",
+        "鱼台县人民医院2号楼2楼健康管理中心",
+        "鱼台县人民医院2号楼3楼健康管理中心",
+        "鱼台县人民医院2号楼4楼健康管理中心",
+        "鱼台县人民医院2号楼7楼健康管理中心",
+        "鱼台县人民医院2号楼9楼健康管理中心",
+        "鱼台县人民医院2号楼10楼健康管理中心",
+        "鱼台县人民医院2号楼12楼健康管理中心",
+        "鱼台县人民医院2号楼17楼健康管理中心",
+        "鱼台县人民医院2号楼18楼健康管理中心",
+        "鱼台县人民医院2号楼21楼健康管理中心",
+        "鱼台县人民医院2号楼22楼健康管理中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8",
+        "11",
+        "13",
+        "14",
+        "16",
+        "21",
+        "22",
+        "25",
+        "26",
+        "202502",
+        "202503"
+      ],
+      "min_value": 1.0,
+      "max_value": 202503.0
+    }
+  ]
+}

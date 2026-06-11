@@ -1,0 +1,190 @@
+{
+  "file_name": "济宁市机关事业单位停车场免费错时开放名单202603250811.xlsx",
+  "table_name": "济宁市机关事业单位停车场免费错时开放名单202603250811",
+  "row_count": 5,
+  "columns": [
+    "tcclx",
+    "mfsjd",
+    "tcwzs",
+    "zb",
+    "zb1",
+    "电话",
+    "tccmc",
+    "cs",
+    "xxdz",
+    "mfzq"
+  ],
+  "fields": [
+    {
+      "name": "tcclx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "露天"
+      ],
+      "value_pool": [
+        "露天"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mfsjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "周一-周五：19:00-07:30\n；周六-周日及法定节假日全天开放"
+      ],
+      "value_pool": [
+        "周一-周五：19:00-07:30\n；周六-周日及法定节假日全天开放"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tcwzs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "30",
+        "20",
+        "25",
+        "320"
+      ],
+      "min_value": 20.0,
+      "max_value": 320.0
+    },
+    {
+      "name": "zb",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "116.993708",
+        "116.99431",
+        "116.990975",
+        "116.993483",
+        "116.98744"
+      ],
+      "min_value": 116.98744,
+      "max_value": 116.99431
+    },
+    {
+      "name": "zb1",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "35.577486",
+        "35.592579",
+        "35.578025",
+        "35.597268",
+        "35.567913"
+      ],
+      "min_value": 35.567913,
+      "max_value": 35.597268
+    },
+    {
+      "name": "电话",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "155********",
+        "136********",
+        "138********",
+        "176********",
+        "188********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tccmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "曲阜市审计局-停车场",
+        "曲阜市阙里社区-停车场",
+        "曲阜市工商银行曲阜支行-停车场",
+        "曲阜市中国邮政曲阜分公司-停车场",
+        "曲阜市为民服务中心-停车场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市曲阜市舞雩台路7号",
+        "济宁市曲阜市新文化街中段",
+        "济宁市曲阜市大同路11号",
+        "济宁市曲阜市鼓楼北街12号",
+        "济宁市曲阜市大成路星光天地广场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mfzq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "周一-周日、法定节假日"
+      ],
+      "value_pool": [
+        "周一-周日、法定节假日"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

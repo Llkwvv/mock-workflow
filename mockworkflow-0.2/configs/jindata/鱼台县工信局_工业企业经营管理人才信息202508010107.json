@@ -1,0 +1,122 @@
+{
+  "file_name": "鱼台县工信局_工业企业经营管理人才信息202508010107.xlsx",
+  "table_name": "鱼台县工信局_工业企业经营管理人才信息202508010107",
+  "row_count": 20,
+  "columns": [
+    "xb",
+    "szdw",
+    "rcxm",
+    "zzmm",
+    "xlxw"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁安泰矿山设备制造有限公司",
+        "山东辰龙药业有限公司",
+        "济宁福顺化工有限公司",
+        "济宁市圣奥精细化工有限公司",
+        "山东水发环境科技有限公司",
+        "中节能元泰（山东）环保科技有限公司",
+        "山东鲁泰化学有限公司",
+        "凯本金威特种化学品（济宁）有限公司",
+        "济宁正东化工有限公司",
+        "济宁康盛彩虹生物科技有限公司",
+        "济宁峰润生物科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rcxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "宋***",
+        "孙**",
+        "姚**",
+        "梁***",
+        "盛**",
+        "孟**",
+        "李***",
+        "马**",
+        "刘**",
+        "王***",
+        "高**",
+        "邓**",
+        "华**",
+        "颜***",
+        "吴**",
+        "盛***",
+        "闫**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzmm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "党员",
+        "群众"
+      ],
+      "value_pool": [
+        "党员",
+        "群众"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xlxw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "本科",
+        "研究生"
+      ],
+      "value_pool": [
+        "本科",
+        "研究生"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

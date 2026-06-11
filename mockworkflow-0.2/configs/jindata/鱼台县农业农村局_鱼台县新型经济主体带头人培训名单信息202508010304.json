@@ -1,0 +1,137 @@
+{
+  "file_name": "鱼台县农业农村局_鱼台县新型经济主体带头人培训名单信息202508010304.xlsx",
+  "table_name": "鱼台县农业农村局_鱼台县新型经济主体带头人培训名单信息202508010304",
+  "row_count": 235,
+  "columns": [
+    "mz",
+    "ly",
+    "姓名",
+    "xb",
+    "pxxq"
+  ],
+  "fields": [
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉族"
+      ],
+      "value_pool": [
+        "汉族"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "农民（务农人员）"
+      ],
+      "value_pool": [
+        "农民（务农人员）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "任**",
+        "刘**",
+        "王**",
+        "李**",
+        "盛**",
+        "巨**",
+        "解**",
+        "薛**",
+        "郭**",
+        "付**",
+        "陈**",
+        "张**",
+        "吴**",
+        "周**",
+        "于**",
+        "杨**",
+        "赵**",
+        "马**",
+        "随**",
+        "殷**",
+        "程**",
+        "侯**",
+        "褚**",
+        "樊**",
+        "车**",
+        "史**",
+        "黄**",
+        "宋**",
+        "朱**",
+        "闵**",
+        "窦**",
+        "田**",
+        "邵**",
+        "聂**",
+        "董**",
+        "高**",
+        "杜**",
+        "闫***",
+        "闫**",
+        "姚**",
+        "纪**",
+        "甄**",
+        "古**",
+        "孙**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "种植技术"
+      ],
+      "value_pool": [
+        "种植技术"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "file_name": "山东省国家和市级林木良种基地考核202504231527.xlsx",
+  "table_name": "山东省国家和市级林木良种基地考核202504231527",
+  "row_count": 36,
+  "columns": [
+    "kpjg",
+    "fbjg",
+    "nd",
+    "xh",
+    "jdmc"
+  ],
+  "fields": [
+    {
+      "name": "kpjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "优秀基地",
+        "良好基地",
+        "合格基地"
+      ],
+      "value_pool": [
+        "优秀基地",
+        "良好基地",
+        "合格基地"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fbjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省自然资源厅"
+      ],
+      "value_pool": [
+        "山东省自然资源厅"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019",
+        "2020",
+        "2021",
+        "2023"
+      ],
+      "value_pool": [
+        "2019",
+        "2020",
+        "2021",
+        "2023"
+      ],
+      "min_value": 2019.0,
+      "max_value": 2023.0
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "min_value": 1.0,
+      "max_value": 36.0
+    },
+    {
+      "name": "jdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "省林业科学研究院国家白蜡良种基地",
+        "宁阳县高桥林场国家杨树良种基地",
+        "费县大青山林场国家刺槐良种基地",
+        "东营市试验林场国家白蜡良种基地",
+        "冠县国有苗圃国家杨树良种基地",
+        "枣庄市山亭区国有徐庄林场国家侧柏良种基地",
+        "金乡县白洼林场国家白榆良种基地",
+        "乳山市垛山林场国家刺槐、黑松良种基地",
+        "乐陵市国有园艺场国家枣树良种基地"
+      ],
+      "value_pool": [
+        "省林业科学研究院国家白蜡良种基地",
+        "宁阳县高桥林场国家杨树良种基地",
+        "费县大青山林场国家刺槐良种基地",
+        "东营市试验林场国家白蜡良种基地",
+        "冠县国有苗圃国家杨树良种基地",
+        "枣庄市山亭区国有徐庄林场国家侧柏良种基地",
+        "金乡县白洼林场国家白榆良种基地",
+        "乳山市垛山林场国家刺槐、黑松良种基地",
+        "乐陵市国有园艺场国家枣树良种基地"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

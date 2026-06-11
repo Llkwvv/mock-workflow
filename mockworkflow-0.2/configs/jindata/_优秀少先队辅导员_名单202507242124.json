@@ -1,0 +1,109 @@
+{
+  "file_name": "_优秀少先队辅导员_名单202507242124.xlsx",
+  "table_name": "_优秀少先队辅导员_名单202507242124",
+  "row_count": 11,
+  "columns": [
+    "nf",
+    "xx",
+    "rydjsxz",
+    "xq",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023",
+        "2022"
+      ],
+      "value_pool": [
+        "2023",
+        "2022"
+      ],
+      "min_value": 2022.0,
+      "max_value": 2023.0
+    },
+    {
+      "name": "xx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县少先队总辅导员",
+        "汶上县第三实验小学吉市口校区",
+        "汶上县第一实验小学",
+        "汶上县第二实验小学",
+        "汶上县第二实验中学",
+        "汶上县第一实验中学",
+        "汶上县郭仓镇徐堂小学",
+        "汶上县南旺镇第一中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rydjsxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市"
+      ],
+      "value_pool": [
+        "市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈  雪",
+        "周培淼",
+        "杨昌同",
+        "王晴晴",
+        "孔然然",
+        "李  涛",
+        "李猛猛",
+        "刘秋丽",
+        "李燕",
+        "周琛",
+        "赵忠真"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "file_name": "鱼台县应急局_高危行业考核信息202508010146.xlsx",
+  "table_name": "鱼台县应急局_高危行业考核信息202508010146",
+  "row_count": 25,
+  "columns": [
+    "sfhg",
+    "姓名",
+    "llcj",
+    "rylx",
+    "xb",
+    "gzdw",
+    "kslx",
+    "zcxm"
+  ],
+  "fields": [
+    {
+      "name": "sfhg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "不合格",
+        "合格"
+      ],
+      "value_pool": [
+        "不合格",
+        "合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孟**",
+        "王**",
+        "随**",
+        "刘**",
+        "宗**",
+        "张**",
+        "周**",
+        "祝**",
+        "盛**",
+        "马**",
+        "田**",
+        "冯**",
+        "袁**",
+        "古**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "llcj",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "86",
+        "92",
+        "76",
+        "77",
+        "90",
+        "94",
+        "79",
+        "83",
+        "89",
+        "96",
+        "85",
+        "81",
+        "无"
+      ],
+      "min_value": 76.0,
+      "max_value": 96.0
+    },
+    {
+      "name": "rylx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "安全生产管理人员",
+        "主要负责人",
+        "安全生产工作人员"
+      ],
+      "value_pool": [
+        "安全生产管理人员",
+        "主要负责人",
+        "安全生产工作人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女",
+        "男性",
+        "女性"
+      ],
+      "value_pool": [
+        "男",
+        "女",
+        "男性",
+        "女性"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东清鑫新材料有限公司",
+        "山东京正新材料有限公司",
+        "鱼台县罗屯弘发加油站",
+        "鱼台县丰东加油站（普通合伙）",
+        "鱼台县李阁乡求实加油站",
+        "中国石化销售有限公司山东济宁鱼台石油分公司",
+        "鱼台德誉经贸有限公司",
+        "济宁龙岳化工有限公司",
+        "鱼台清河高新技术开发有限公司",
+        "鱼台县清河建安加油站有限公司",
+        "济宁昊天科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kslx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "初培",
+        "复审",
+        "换证",
+        "初级培训"
+      ],
+      "value_pool": [
+        "初培",
+        "复审",
+        "换证",
+        "初级培训"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "危险化学品经营单位",
+        "危化品经营单位"
+      ],
+      "value_pool": [
+        "危险化学品经营单位",
+        "危化品经营单位"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

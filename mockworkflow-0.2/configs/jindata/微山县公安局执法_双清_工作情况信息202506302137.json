@@ -1,0 +1,182 @@
+{
+  "file_name": "微山县公安局执法_双清_工作情况信息202506302137.xlsx",
+  "table_name": "微山县公安局执法_双清_工作情况信息202506302137",
+  "row_count": 54,
+  "columns": [
+    "dw",
+    "xsajqcs",
+    "xzajqcs",
+    "xsajqcl",
+    "xzajqcl",
+    "pm"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "付村派出所",
+        "两城派出所",
+        "欢城派出所",
+        "开发区派出所",
+        "夏镇一所",
+        "夏镇二所",
+        "微山湖派出所",
+        "韩庄分局",
+        "留庄派出所",
+        "鲁桥一所",
+        "马坡派出所",
+        "昭阳派出所",
+        "赵庙派出所",
+        "张楼派出所",
+        "西平派出所",
+        "高楼派出所",
+        "鲁桥二所",
+        "南阳派出所",
+        "刑侦大队一中队",
+        "刑侦大队二中队",
+        "刑侦大队三中队",
+        "经侦大队",
+        "交警大队",
+        "治安大队",
+        "湖上分局",
+        "网安大队",
+        "森林警察",
+        "2024付村派出所",
+        "2024两城派出所",
+        "2024欢城派出所",
+        "2024开发区派出所",
+        "2024夏镇一所",
+        "2024夏镇二所",
+        "2024微山湖派出所",
+        "2024韩庄分局",
+        "2024留庄派出所",
+        "2024鲁桥一所",
+        "2024马坡派出所",
+        "2024昭阳派出所",
+        "2024赵庙派出所",
+        "2024张楼派出所",
+        "2024西平派出所",
+        "2024高楼派出所",
+        "2024鲁桥二所",
+        "2024南阳派出所",
+        "2024刑侦大队一中队",
+        "2024刑侦大队二中队",
+        "2024刑侦大队三中队",
+        "2024经侦大队",
+        "2024交警大队",
+        "2024治安大队",
+        "2024湖上分局",
+        "2024网安大队",
+        "2024森林警察"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsajqcs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "9",
+        "5",
+        "6",
+        "1",
+        "0",
+        "2"
+      ],
+      "value_pool": [
+        "9",
+        "5",
+        "6",
+        "1",
+        "0",
+        "2"
+      ],
+      "min_value": 0.0,
+      "max_value": 9.0
+    },
+    {
+      "name": "xzajqcs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "3",
+        "4",
+        "0",
+        "5",
+        "2",
+        "1"
+      ],
+      "value_pool": [
+        "3",
+        "4",
+        "0",
+        "5",
+        "2",
+        "1"
+      ],
+      "min_value": 0.0,
+      "max_value": 5.0
+    },
+    {
+      "name": "xsajqcl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "xzajqcl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "pm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "file_name": "鱼台公路局_管养桥梁信息202506202037.xlsx",
+  "table_name": "鱼台公路局_管养桥梁信息202506202037",
+  "row_count": 21,
+  "columns": [
+    "mc",
+    "qm",
+    "qk",
+    "lx",
+    "qz",
+    "qd"
+  ],
+  "fields": [
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "清河桥",
+        "盛洼桥左",
+        "盛洼桥右",
+        "王鲁惠河桥左",
+        "王鲁惠河桥右",
+        "西支河桥北环",
+        "边河桥右",
+        "边河桥左",
+        "张埝桥右",
+        "张埝桥左",
+        "东鱼河桥右",
+        "东鱼河桥左",
+        "西支河桥南环",
+        "树李桥左",
+        "树李桥右",
+        "惠河桥郯兰线",
+        "东鱼河大桥左",
+        "东鱼河大桥右",
+        "惠河桥丰长线",
+        "白马河桥",
+        "白马河桥（新）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "水泥混凝土",
+        "沥青混凝土"
+      ],
+      "value_pool": [
+        "水泥混凝土",
+        "沥青混凝土"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qk",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "12.7",
+        "11.5",
+        "12.3",
+        "11.2",
+        "24.5",
+        "12.8",
+        "10.0",
+        "23.0",
+        "13.0",
+        "8.0",
+        "18.5",
+        "20.0"
+      ],
+      "min_value": 8.0,
+      "max_value": 24.5
+    },
+    {
+      "name": "lx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "大桥",
+        "中桥"
+      ],
+      "value_pool": [
+        "大桥",
+        "中桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qz",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "227",
+        "78",
+        "77",
+        "104.5",
+        "302",
+        "64",
+        "226",
+        "396",
+        "376",
+        "98.6",
+        "127",
+        "39305",
+        "393.5",
+        "80.3",
+        "8108",
+        "计划重新修建"
+      ],
+      "min_value": 64.0,
+      "max_value": 39305.0
+    },
+    {
+      "name": "qd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "双柱式",
+        "多柱式"
+      ],
+      "value_pool": [
+        "双柱式",
+        "多柱式"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

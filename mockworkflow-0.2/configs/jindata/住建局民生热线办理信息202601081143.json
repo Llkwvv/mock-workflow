@@ -1,0 +1,93 @@
+{
+  "file_name": "住建局民生热线办理信息202601081143.xlsx",
+  "table_name": "住建局民生热线办理信息202601081143",
+  "row_count": 3,
+  "columns": [
+    "cbr",
+    "ljsj",
+    "blqj",
+    "sjly",
+    "bh"
+  ],
+  "fields": [
+    {
+      "name": "cbr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "盖影坛"
+      ],
+      "value_pool": [
+        "盖影坛"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ljsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-10-01 17:21:02",
+        "2025-06-05 17:21:02",
+        "2025-06-28 17:21:02"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blqj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2025-10-04 17:21:02",
+        "2025-06-08 17:21:02",
+        "2025-07-01 17:21:02"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "市场",
+        "燃热"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "DH2025072101673",
+        "DH2025022512503",
+        "DH2025082203553"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

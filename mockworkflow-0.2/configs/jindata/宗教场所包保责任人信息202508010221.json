@@ -1,0 +1,141 @@
+{
+  "file_name": "宗教场所包保责任人信息202508010221.xlsx",
+  "table_name": "宗教场所包保责任人信息202508010221",
+  "row_count": 47,
+  "columns": [
+    "csjb",
+    "csmc",
+    "姓名",
+    "xzjd",
+    "sj"
+  ],
+  "fields": [
+    {
+      "name": "csjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "基督教"
+      ],
+      "value_pool": [
+        "基督教"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "航运新村基督教聚会点",
+        "济宁市北王二村基督教活动场所",
+        "济宁市后李村基督教活动场所",
+        "济宁市后石村基督教活动场所",
+        "济宁市栗河崖村基督教活动场所",
+        "济宁市陆桥村基督教活动场所",
+        "济宁市吴家湾村基督教活动场所",
+        "济宁市辛店村基督教活动场所",
+        "济宁市新闸村基督教活动场所",
+        "新兴村基督教聚会点",
+        "济宁市栗河涯村基督教活动场所",
+        "济宁市北王村基督教活动场所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "梁**",
+        "胡**",
+        "樊**",
+        "张**",
+        "崔**",
+        "陈**",
+        "王**",
+        "孙**",
+        "孔**",
+        "黄**",
+        "李**",
+        "屈**",
+        "邓**",
+        "周**",
+        "马**",
+        "姜**",
+        "权**",
+        "宋**",
+        "吴**",
+        "甄**",
+        "席**",
+        "贺**",
+        "刘**",
+        "卞**",
+        "邵**",
+        "赵**",
+        "蔡**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "许庄街道",
+        "石桥镇"
+      ],
+      "value_pool": [
+        "许庄街道",
+        "石桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022",
+        "2023",
+        "2020",
+        "2018",
+        "2019",
+        "2021",
+        "2025"
+      ],
+      "value_pool": [
+        "2022",
+        "2023",
+        "2020",
+        "2018",
+        "2019",
+        "2021",
+        "2025"
+      ],
+      "min_value": 2018.0,
+      "max_value": 2025.0
+    }
+  ]
+}

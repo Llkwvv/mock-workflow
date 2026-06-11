@@ -1,0 +1,172 @@
+{
+  "file_name": "高新区出具健康查体人员介绍信服务信息202605251222.xlsx",
+  "table_name": "高新区出具健康查体人员介绍信服务信息202605251222",
+  "row_count": 8,
+  "columns": [
+    "blzt",
+    "sqdwsqr",
+    "sldw",
+    "sxbm",
+    "xsq",
+    "sxmc",
+    "slsj",
+    "bjbh",
+    "jbr"
+  ],
+  "fields": [
+    {
+      "name": "blzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "正常办结"
+      ],
+      "value_pool": [
+        "正常办结"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqdwsqr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "谢金行",
+        "顾承驿",
+        "黄嫣然",
+        "吴梦瑶",
+        "许博博",
+        "付道勇",
+        "郑茂元",
+        "陈申奥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "黄屯街道办事处"
+      ],
+      "value_pool": [
+        "黄屯街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1937081100431545665372003972000"
+      ],
+      "value_pool": [
+        "1937081100431545665372003972000"
+      ],
+      "min_value": 1.9370811004315456e+30,
+      "max_value": 1.9370811004315456e+30
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "出具健康查体人员介绍信"
+      ],
+      "value_pool": [
+        "出具健康查体人员介绍信"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2025-09-30"
+      ],
+      "value_pool": [
+        "2025-09-30"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "80811010486420",
+        "80811010486421",
+        "80811010486422",
+        "80811010486423",
+        "80811010486424",
+        "80811010486425",
+        "80811010486426",
+        "80811010486427"
+      ],
+      "min_value": 80811010486420.0,
+      "max_value": 80811010486427.0
+    },
+    {
+      "name": "jbr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "黄屯街道办事处"
+      ],
+      "value_pool": [
+        "黄屯街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "file_name": "金乡县教育和体育局后勤科_双随机一公开_抽查结果202507171752.xlsx",
+  "table_name": "金乡县教育和体育局后勤科_双随机一公开_抽查结果202507171752",
+  "row_count": 1,
+  "columns": [
+    "fddbr",
+    "rwmc",
+    "gxbm",
+    "jcjg",
+    "jcdxmc",
+    "dz",
+    "jcsj"
+  ],
+  "fields": [
+    {
+      "name": "fddbr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李艳"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "食堂食品安全双随机一公开检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "县教体局/县市监局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "良好"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "高河街道金苹果幼儿园食堂"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县高河街道候李村，金桥煤矿东侧"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021年"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

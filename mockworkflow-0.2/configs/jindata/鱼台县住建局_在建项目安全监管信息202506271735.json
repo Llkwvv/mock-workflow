@@ -1,0 +1,162 @@
+{
+  "file_name": "鱼台县住建局_在建项目安全监管信息202506271735.xlsx",
+  "table_name": "鱼台县住建局_在建项目安全监管信息202506271735",
+  "row_count": 24,
+  "columns": [
+    "zgqk",
+    "xmmc",
+    "jcry",
+    "jcsj",
+    "jcqk"
+  ],
+  "fields": [
+    {
+      "name": "zgqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已整改"
+      ],
+      "value_pool": [
+        "已整改"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "棠邑壹号院",
+        "春晓观棠",
+        "济宁银行",
+        "棠邑学校",
+        "妇幼保健院",
+        "县医院扩建",
+        "别家新村",
+        "文昌C区",
+        "文昌D区",
+        "龙城公馆一期",
+        "龙城水景苑",
+        "经纬佳苑",
+        "地中海三期",
+        "江山樾一期",
+        "江山樾二期",
+        "江山樾三期",
+        "龙城公馆二期",
+        "科技孵化器",
+        "锦绣华城四期",
+        "锦绣华城五期",
+        "壹号院小区",
+        "春晓观棠小区",
+        "济宁银行工地",
+        "棠邑中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "徐震、刘尊超",
+        "李静、李新涛",
+        "闫来因、柳森",
+        "李新涛、王庆岗",
+        "柳森、程浩",
+        "程浩、闫来因",
+        "李新涛、李静",
+        "李静、王庆岗",
+        "柳森、徐震",
+        "房丛荣、刘尊超"
+      ],
+      "value_pool": [
+        "徐震、刘尊超",
+        "李静、李新涛",
+        "闫来因、柳森",
+        "李新涛、王庆岗",
+        "柳森、程浩",
+        "程浩、闫来因",
+        "李新涛、李静",
+        "李静、王庆岗",
+        "柳森、徐震",
+        "房丛荣、刘尊超"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021.07.21",
+        "2021.07.22",
+        "2021.07.23",
+        "2021.07.24",
+        "2021.07.25",
+        "2021.07.26",
+        "2021.07.27",
+        "2021.07.28",
+        "2021.07.29",
+        "2021.07.30",
+        "2021.07.31",
+        "2021.08.02",
+        "2021.08.05",
+        "2021.08.06",
+        "2021.08.07",
+        "2021.08.08",
+        "2021.08.09",
+        "2021.08.10",
+        "2021.08.11",
+        "2021.08.12",
+        "45689"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "个别工人未佩戴安全帽",
+        "道路撒水不及时",
+        "现场混乱",
+        "用电不规范",
+        "个别照明灯损坏",
+        "无",
+        "硬化道路部分损坏",
+        "个别防汛水泵损坏",
+        "安全管理人员未到岗",
+        "未进行班前安全教育",
+        "个别工人未戴安全帽",
+        "撒水不及时",
+        "现场乱",
+        "用电方式不规范"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

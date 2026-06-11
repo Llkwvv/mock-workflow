@@ -1,0 +1,151 @@
+{
+  "file_name": "鱼台县地震监测预警中心_地震宏观观测点信息202508010126.xlsx",
+  "table_name": "鱼台县地震监测预警中心_地震宏观观测点信息202508010126",
+  "row_count": 21,
+  "columns": [
+    "dz",
+    "tjnf",
+    "gcyxm",
+    "gcnr",
+    "dzhggcd"
+  ],
+  "fields": [
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "滨湖区养鱼池",
+        "谷亭镇王子亮村",
+        "王鲁镇王鲁村",
+        "王庙镇旧城海子",
+        "王庙镇周堂村",
+        "清河镇田庄村",
+        "张黄镇湿地",
+        "唐马镇大随庄村",
+        "李阁镇太公庙村",
+        "老砦镇双合村",
+        "老砦镇东村",
+        "罗屯镇冯楼村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjnf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022年",
+        "2024年"
+      ],
+      "value_pool": [
+        "2022年",
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gcyxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "朱**",
+        "董**",
+        "王**",
+        "李**",
+        "马**",
+        "李***",
+        "甘**",
+        "姜**",
+        "冯**",
+        "李*"
+      ],
+      "value_pool": [
+        "朱**",
+        "董**",
+        "王**",
+        "李**",
+        "马**",
+        "李***",
+        "甘**",
+        "姜**",
+        "冯**",
+        "李*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "鸡",
+        "鱼",
+        "鹅",
+        "狗",
+        "猪",
+        "羊"
+      ],
+      "value_pool": [
+        "鸡",
+        "鱼",
+        "鹅",
+        "狗",
+        "猪",
+        "羊"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dzhggcd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "滨湖街道观测点",
+        "谷亭街道观测点",
+        "王鲁镇观测点",
+        "王庙镇观测点",
+        "清河镇观测点",
+        "张黄镇观测点",
+        "唐马镇观测点",
+        "李阁镇观测点",
+        "老砦镇观测点",
+        "罗屯镇观测点"
+      ],
+      "value_pool": [
+        "滨湖街道观测点",
+        "谷亭街道观测点",
+        "王鲁镇观测点",
+        "王庙镇观测点",
+        "清河镇观测点",
+        "张黄镇观测点",
+        "唐马镇观测点",
+        "李阁镇观测点",
+        "老砦镇观测点",
+        "罗屯镇观测点"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

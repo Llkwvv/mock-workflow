@@ -1,0 +1,130 @@
+{
+  "file_name": "鱼台县教育和体育局_生活补助信息202508010202.xlsx",
+  "table_name": "鱼台县教育和体育局_生活补助信息202508010202",
+  "row_count": 4964,
+  "columns": [
+    "xxmc",
+    "xb",
+    "xd",
+    "je",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "xxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县谷亭街道中学"
+      ],
+      "value_pool": [
+        "鱼台县谷亭街道中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "初中"
+      ],
+      "value_pool": [
+        "初中"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "je",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "625"
+      ],
+      "value_pool": [
+        "625"
+      ],
+      "min_value": 250.0,
+      "max_value": 625.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杨**",
+        "马**",
+        "尹**",
+        "王**",
+        "李**",
+        "纪**",
+        "牛**",
+        "张**",
+        "宋**",
+        "孙**",
+        "田**",
+        "于**",
+        "刘**",
+        "郭**",
+        "甄**",
+        "姜**",
+        "姚**",
+        "赵**",
+        "屈**",
+        "房**",
+        "贾**",
+        "缪**",
+        "闵**",
+        "朱**",
+        "盛**",
+        "徐**",
+        "邵**",
+        "侯**",
+        "随**",
+        "闫**",
+        "蒋**",
+        "魏**",
+        "龚**",
+        "宫**",
+        "何**",
+        "董**",
+        "黄**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "file_name": "微山县渔管委普法考试人员名单202508010304.xlsx",
+  "table_name": "微山县渔管委普法考试人员名单202508010304",
+  "row_count": 260,
+  "columns": [
+    "mz",
+    "kscj",
+    "nd",
+    "xb",
+    "dw",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kscj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格"
+      ],
+      "value_pool": [
+        "合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021"
+      ],
+      "value_pool": [
+        "2021"
+      ],
+      "min_value": 2021.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县渔管委"
+      ],
+      "value_pool": [
+        "微山县渔管委"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "于*",
+        "冯*",
+        "刘*",
+        "曹*",
+        "胡**",
+        "王*",
+        "朱**",
+        "李**",
+        "闫**",
+        "刘**",
+        "种**",
+        "莫**",
+        "杨*",
+        "孙**",
+        "王**",
+        "陈**",
+        "宋**",
+        "孔**",
+        "赵**",
+        "史**",
+        "渠**",
+        "雷**",
+        "范**",
+        "程*",
+        "周*",
+        "安**",
+        "韩**",
+        "张*",
+        "闫*",
+        "贺*",
+        "殷**",
+        "吕*",
+        "吕**",
+        "宦**",
+        "崔**",
+        "黄**",
+        "褚**",
+        "裴**",
+        "郭*",
+        "桑**",
+        "肖**",
+        "柴*",
+        "徐*",
+        "马**",
+        "卜**",
+        "殷*",
+        "李*",
+        "仲**",
+        "邢*",
+        "唐*",
+        "解**",
+        "侯**",
+        "郑*",
+        "褚*",
+        "薛**",
+        "段**",
+        "付*",
+        "苗**",
+        "朱*"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

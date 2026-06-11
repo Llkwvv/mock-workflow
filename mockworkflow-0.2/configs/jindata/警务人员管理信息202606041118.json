@@ -1,0 +1,163 @@
+{
+  "file_name": "警务人员管理信息202606041118.xlsx",
+  "table_name": "警务人员管理信息202606041118",
+  "row_count": 37,
+  "columns": [
+    "zzmm",
+    "姓名",
+    "gzdw",
+    "xb",
+    "zw"
+  ],
+  "fields": [
+    {
+      "name": "zzmm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中共党员"
+      ],
+      "value_pool": [
+        "中共党员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王衍凤",
+        "肖红",
+        "马其明",
+        "卢方华",
+        "王锋",
+        "刘海文",
+        "王继富",
+        "杜青",
+        "冯广军",
+        "庄新磊",
+        "王惠",
+        "乔义军",
+        "张卫华",
+        "张会东",
+        "王衍海",
+        "韩昌生",
+        "王军",
+        "蔡承志",
+        "宋相申",
+        "倪立新",
+        "张玉强",
+        "李超",
+        "刘艳强",
+        "兰志洪",
+        "王衍福",
+        "张建东",
+        "朱利红",
+        "马新防",
+        "杨守焕",
+        "刘瑶",
+        "李芹",
+        "张东原",
+        "班孝彬",
+        "刘岩",
+        "张恒涛",
+        "冯广营",
+        "于喆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东省泗水县公安局国内安全保卫大队副大队长",
+        "山东省泗水县公安局指挥中心副主任",
+        "山东省泗水县公安局国内安全保卫大队教导员",
+        "山东省泗水县公安局交通警察大队教导员",
+        "山东省泗水县公安局督察大队指导员",
+        "山东省泗水县公安局交通警察大队车辆管理所所长",
+        "山东省泗水县公安局治安管理大队河道",
+        "山东省泗水县公安局网络安全保卫大队副大队长",
+        "山东省泗水县拘留所副所长",
+        "公安局网安大队大队长",
+        "公安局国保大队大队长",
+        "公安局经侦大队大队长",
+        "公安局治安大队大队长",
+        "公安局特巡警大队大队长",
+        "公安局交警大队大队长",
+        "公安局禁毒大队大队长",
+        "刑事侦查大队大队长",
+        "法制大队大队长",
+        "城关第三派出所所长",
+        "杨柳派出所所长",
+        "柘沟派出所",
+        "星村派出所所长",
+        "泉林派出所所长",
+        "森林警察大队大队长",
+        "控申科科长",
+        "警务保障室主任",
+        "治安大队教导员",
+        "指挥中心主任",
+        "出入境管理大队大队长",
+        "泗水县公安局法制大队",
+        "泗水县公安局出入境管理大队",
+        "泗水县公安局督察审计大队",
+        "泗水县公安局科技信息化大队",
+        "泗水县公安局政务服务大队",
+        "泗水县看守所",
+        "泗水县拘留所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "民警"
+      ],
+      "value_pool": [
+        "民警"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

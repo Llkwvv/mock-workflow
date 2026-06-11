@@ -1,0 +1,84 @@
+{
+  "file_name": "济宁市历年来城镇登记失业人员及失业率信息202506302120.xlsx",
+  "table_name": "济宁市历年来城镇登记失业人员及失业率信息202506302120",
+  "row_count": 14,
+  "columns": [
+    "nd",
+    "syrsw",
+    "syl"
+  ],
+  "fields": [
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "min_value": 2011.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "syrsw",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "3.9",
+        "3.1",
+        "3.3",
+        "3.0",
+        "2.2",
+        "0.9",
+        "0.4",
+        "0.28"
+      ],
+      "min_value": 0.28,
+      "max_value": 3.9
+    },
+    {
+      "name": "syl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "3",
+        "3.1",
+        "2.3",
+        "1.8",
+        "失业率自22年之后不在进行统计"
+      ],
+      "value_pool": [
+        "3",
+        "3.1",
+        "2.3",
+        "1.8",
+        "失业率自22年之后不在进行统计"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

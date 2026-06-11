@@ -1,0 +1,135 @@
+{
+  "file_name": "企业职工基本养老保险历史缴费记录查询登记信息202508010323.xlsx",
+  "table_name": "企业职工基本养老保险历史缴费记录查询登记信息202508010323",
+  "row_count": 9,
+  "columns": [
+    "sqsj",
+    "szdw",
+    "sfzh",
+    "xy",
+    "djs",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "sqsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023-03-03 00:00:00",
+        "2023-02-27 00:00:00",
+        "2023-03-10 00:00:00",
+        "2023-03-28 00:00:00"
+      ],
+      "value_pool": [
+        "2023-03-03 00:00:00",
+        "2023-02-27 00:00:00",
+        "2023-03-10 00:00:00",
+        "2023-03-28 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "山东久茂电力工程有限公司",
+        "灵活就业人员（夏镇）",
+        "灵活就业人员（马坡）",
+        "温州东大矿建工程有限公司微山分公司"
+      ],
+      "value_pool": [
+        "山东久茂电力工程有限公司",
+        "灵活就业人员（夏镇）",
+        "灵活就业人员（马坡）",
+        "温州东大矿建工程有限公司微山分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "513436****04092816",
+        "513431****01102733",
+        "513431****02172016",
+        "513431****12072015",
+        "370421****02015628",
+        "370826****01226826",
+        "140522****06055010",
+        "140522****11055015",
+        "140522****0509501X"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县"
+      ],
+      "value_pool": [
+        "微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djs",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "吉***",
+        "补***",
+        "及***",
+        "上***"
+      ],
+      "value_pool": [
+        "吉***",
+        "补***",
+        "及***",
+        "上***"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

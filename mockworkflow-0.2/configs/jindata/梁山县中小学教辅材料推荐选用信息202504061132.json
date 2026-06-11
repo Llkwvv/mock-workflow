@@ -1,0 +1,180 @@
+{
+  "file_name": "梁山县中小学教辅材料推荐选用信息202504061132.xlsx",
+  "table_name": "梁山县中小学教辅材料推荐选用信息202504061132",
+  "row_count": 50,
+  "columns": [
+    "xd",
+    "xk",
+    "lb",
+    "xz",
+    "cbs",
+    "sybb"
+  ],
+  "fields": [
+    {
+      "name": "xd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "小学",
+        "初中",
+        "高中"
+      ],
+      "value_pool": [
+        "小学",
+        "初中",
+        "高中"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "语文",
+        "数学",
+        "英语",
+        "历史",
+        "地理",
+        "物理",
+        "化学",
+        "生物",
+        "道德与法治",
+        "思想政治"
+      ],
+      "value_pool": [
+        "语文",
+        "数学",
+        "英语",
+        "历史",
+        "地理",
+        "物理",
+        "化学",
+        "生物",
+        "道德与法治",
+        "思想政治"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "同步练习类",
+        "实践手册",
+        "填充图册",
+        "地图册",
+        "探究报告册",
+        "复习辅导类"
+      ],
+      "value_pool": [
+        "同步练习类",
+        "实践手册",
+        "填充图册",
+        "地图册",
+        "探究报告册",
+        "复习辅导类"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "六三",
+        "略",
+        "三"
+      ],
+      "value_pool": [
+        "六三",
+        "略",
+        "三"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cbs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "海燕出版社有限公司",
+        "人民教育出版社有限公司",
+        "山东科学技术出版社有限公司",
+        "明天出版社有限公司",
+        "北京师范大学出版社（集团）有限公司",
+        "山东友谊出版社有限公司",
+        "上海科学技术出版社有限公司",
+        "西安出版社有限责任公司",
+        "中国地图出版社有限公司",
+        "星球地图出版社",
+        "山东教育出版社有限公司",
+        "泰山出版社有限公司",
+        "山东文艺出版社有限公司",
+        "广东新世纪出版社有限公司",
+        "山东省地图出版社有限公司",
+        "知识出版社",
+        "大象出版社有限公司",
+        "山东人民出版社有限公司",
+        "地质出版有限公司",
+        "湖南教育",
+        "山东画报出版社有限公司",
+        "山东美术出版社有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sybb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "统编版",
+        "人教版",
+        "商务版",
+        "沪科版",
+        "鲁教版",
+        "济南版",
+        "略",
+        "人教版A版"
+      ],
+      "value_pool": [
+        "统编版",
+        "人教版",
+        "商务版",
+        "沪科版",
+        "鲁教版",
+        "济南版",
+        "略",
+        "人教版A版"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

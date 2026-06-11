@@ -1,0 +1,140 @@
+{
+  "file_name": "房屋建筑和市政工程质量检测委托合同备案信息202507011215.xlsx",
+  "table_name": "房屋建筑和市政工程质量检测委托合同备案信息202507011215",
+  "row_count": 26,
+  "columns": [
+    "htbabh",
+    "gcmc",
+    "jcjg",
+    "qy",
+    "nf"
+  ],
+  "fields": [
+    {
+      "name": "htbabh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "2021"
+      ],
+      "value_pool": [
+        "2021"
+      ],
+      "min_value": 2021.0,
+      "max_value": 2021.0
+    },
+    {
+      "name": "gcmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "HT2105715",
+        "HT2105720",
+        "HT2105914",
+        "HT2105978",
+        "HT2106088",
+        "HT2106162",
+        "HT2106179",
+        "HT2106289",
+        "HT2106471",
+        "HT2106469",
+        "HT2106503",
+        "HT2106561",
+        "HT2106589",
+        "HT2106588",
+        "HT2106631",
+        "HT2106666",
+        "HT2106717",
+        "HT2106736",
+        "HT2106811",
+        "HT2106865",
+        "HT2106972",
+        "HT2106982",
+        "HT2107030",
+        "HT2107061",
+        "HT2107137",
+        "HT2107226"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥"
+      ],
+      "value_pool": [
+        "嘉祥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县东顺花园8#住宅楼",
+        "北湖新区M15共享社区养老院",
+        "关键功能部件产业化项目",
+        "嘉祥梁肥建材经销处",
+        "微山县两城镇2020年度废弃矿山治理项目四标段",
+        "世纪连泓酞菁绿G7车间",
+        "微山县两城镇鸿运石料厂等五家废弃矿山治理项目施工五标",
+        "麒麟·万象城16#楼",
+        "嘉祥县乡村振兴服务中心项目",
+        "嘉祥县大张楼镇新希望联合幼儿园",
+        "嘉祥阳光四季城",
+        "祥泰新型建材有限公司",
+        "济宁诚建新型建材有限责任公司",
+        "嘉祥恒隆新型材料有限公司",
+        "梁宝寺镇南张、南郭楼新村美丽宜居项目",
+        "济宁欧隆众鑫商品混凝土有限公司",
+        "梁山县杨营卫生应急中心室外配套及道路工程与室外排水工程",
+        "嘉祥县南关棚户区改造二期",
+        "嘉祥高铁产业园高铁产业孵化器项目安装及配套工程",
+        "嘉祥城建阳光城市花园A区",
+        "济宁光远公路工程有限公司",
+        "嘉祥县大刘庙上王庄菜庄李城中村棚户区改造项目菜庄李片区",
+        "石墨复合材料产业园厂区4#5#生产车间",
+        "山东庆葆堂生物科技有限公司1-4#车间及办公楼",
+        "嘉祥县嘉北新区社区服务中心商业街1-11#楼工程",
+        "山东益大新材料股份有限公司年产7万吨针状胶高精细化学材料综合利用项目石墨材料车间"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东德宇建设工程质量检测有限公司"
+      ],
+      "value_pool": [
+        "山东德宇建设工程质量检测有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

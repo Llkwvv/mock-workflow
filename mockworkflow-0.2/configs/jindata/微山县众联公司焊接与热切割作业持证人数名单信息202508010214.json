@@ -1,0 +1,148 @@
+{
+  "file_name": "微山县众联公司焊接与热切割作业持证人数名单信息202508010214.xlsx",
+  "table_name": "微山县众联公司焊接与热切割作业持证人数名单信息202508010214",
+  "row_count": 42,
+  "columns": [
+    "gsmc",
+    "dqsj",
+    "czmc",
+    "姓名",
+    "fzsj"
+  ],
+  "fields": [
+    {
+      "name": "gsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "众联"
+      ],
+      "value_pool": [
+        "众联"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dqsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025.05.16",
+        "2024.05.07",
+        "2022.08.05",
+        "2022.01.27",
+        "2025.07.15",
+        "2022.03.31",
+        "2023.02.28",
+        "2025.06.17",
+        "2015.05.14",
+        "2021.04.17",
+        "2023.06.18",
+        "2024.09.19",
+        "2024.09.12",
+        "2025.11.25",
+        "2026.04.16",
+        "2025.07.01",
+        "2025.03.22",
+        "2025.08.14",
+        "2025.06.05",
+        "2018.03.12",
+        "2023.02.07",
+        "2026",
+        "2021",
+        "2025"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "焊接与热切割作业"
+      ],
+      "value_pool": [
+        "焊接与热切割作业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘**",
+        "陈**",
+        "任**",
+        "张**",
+        "马**",
+        "左**",
+        "杨**",
+        "王**",
+        "褚**",
+        "李**",
+        "林**",
+        "胡**",
+        "贾**",
+        "华**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2019.05.16",
+        "2018.05.07",
+        "2016.08.05",
+        "2016.01.27",
+        "2019.07.16",
+        "2016.03.31",
+        "2017.02.28",
+        "2020.01.14",
+        "2009.05.14",
+        "2015.04.17",
+        "2017.06.18",
+        "2018.09.19",
+        "2018.09.12",
+        "2019.11.26",
+        "2020.04.17",
+        "2019.07.01",
+        "2016.03.22",
+        "2019.08.14",
+        "2019.06.05",
+        "2006.04.11",
+        "2017.02.07",
+        "2020",
+        "2015",
+        "2019",
+        "2016"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

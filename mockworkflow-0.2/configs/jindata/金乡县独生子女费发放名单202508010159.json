@@ -1,0 +1,151 @@
+{
+  "file_name": "金乡县独生子女费发放名单202508010159.xlsx",
+  "table_name": "金乡县独生子女费发放名单202508010159",
+  "row_count": 909,
+  "columns": [
+    "xy",
+    "qhbm",
+    "zj",
+    "btje",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "xy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qhbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370828010101",
+        "370828010201",
+        "370828010301",
+        "370828010401",
+        "370828010501"
+      ],
+      "value_pool": [
+        "370828010101",
+        "370828010201",
+        "370828010301",
+        "370828010401",
+        "370828010501"
+      ],
+      "min_value": 370828010101.0,
+      "max_value": 370828014401.0
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡街道"
+      ],
+      "value_pool": [
+        "金乡街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "btje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "120",
+        "30",
+        "20",
+        "60",
+        "600",
+        "40",
+        "70",
+        "10"
+      ],
+      "value_pool": [
+        "120",
+        "30",
+        "20",
+        "60",
+        "600",
+        "40",
+        "70",
+        "10"
+      ],
+      "min_value": 10.0,
+      "max_value": 1200.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "任**",
+        "孙**",
+        "马**",
+        "薛**",
+        "周**",
+        "王**",
+        "金**",
+        "黄**",
+        "杨**",
+        "胡**",
+        "吴**",
+        "戴**",
+        "张**",
+        "毕**",
+        "陈**",
+        "程**",
+        "尚**",
+        "高**",
+        "吕**",
+        "代**",
+        "郝**",
+        "段**",
+        "刘**",
+        "赵**",
+        "郭**",
+        "岳**",
+        "姚**",
+        "何**",
+        "史**",
+        "韩**",
+        "寻**",
+        "侯**",
+        "苏**",
+        "安**",
+        "毛**",
+        "辛**",
+        "蔡**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

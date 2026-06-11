@@ -1,0 +1,142 @@
+{
+  "file_name": "汶上县交通运输局_部分乡道使用性能表信息202506271707.xlsx",
+  "table_name": "汶上县交通运输局_部分乡道使用性能表信息202506271707",
+  "row_count": 28,
+  "columns": [
+    "lmp",
+    "cd",
+    "ppjdj",
+    "zh",
+    "xd"
+  ],
+  "fields": [
+    {
+      "name": "lmp",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "84.39",
+        "77.04",
+        "77.2",
+        "94.21",
+        "86.65",
+        "91.21",
+        "90.44",
+        "93.26",
+        "97.85",
+        "55.13",
+        "91.41",
+        "86.77",
+        "96.0",
+        "83.29",
+        "95.17",
+        "92.91",
+        "90.83",
+        "96.45",
+        "90.35",
+        "84.77",
+        "86.15",
+        "93.66",
+        "97.51",
+        "83.58",
+        "77.59",
+        "78.56",
+        "74.05",
+        "80.32"
+      ],
+      "min_value": 55.13,
+      "max_value": 97.85
+    },
+    {
+      "name": "cd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1000",
+        "800"
+      ],
+      "value_pool": [
+        "1000",
+        "800"
+      ],
+      "min_value": 800.0,
+      "max_value": 1000.0
+    },
+    {
+      "name": "ppjdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "良",
+        "次",
+        "优",
+        "中"
+      ],
+      "value_pool": [
+        "良",
+        "次",
+        "优",
+        "中"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "K0+000～K1+000",
+        "K1+000～K2+000",
+        "K2+000～K3+000",
+        "K3+000～K4+000",
+        "K4+000～K5+000",
+        "K5+000～K6+000",
+        "K6+000～K7+000",
+        "K7+000～K8+000",
+        "K8+000～K9+000",
+        "K9+000～K10+000",
+        "K10+000～K11+000",
+        "K11+000～K12+000",
+        "K12+000～K12+800",
+        "K12+000～K13+000",
+        "K13+000～K14+000",
+        "K14+000～K15+000"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "杨屯镇信用社-军屯乡",
+        "军屯乡魏杨-琵琶山"
+      ],
+      "value_pool": [
+        "杨屯镇信用社-军屯乡",
+        "军屯乡魏杨-琵琶山"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

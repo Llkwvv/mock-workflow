@@ -1,0 +1,140 @@
+{
+  "file_name": "济宁经开应急管理中心_应急救援配备器材参考一览表信息202603280802.xlsx",
+  "table_name": "济宁经开应急管理中心_应急救援配备器材参考一览表信息202603280802",
+  "row_count": 27,
+  "columns": [
+    "qclx",
+    "qcmc",
+    "dw",
+    "pbbz",
+    "sl"
+  ],
+  "fields": [
+    {
+      "name": "qclx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "灭火器材",
+        "破拆器材",
+        "通信器材",
+        "救援器材",
+        "消防员防护装备"
+      ],
+      "value_pool": [
+        "灭火器材",
+        "破拆器材",
+        "通信器材",
+        "救援器材",
+        "消防员防护装备"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qcmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "水枪",
+        "ABC型干粉灭火器（≥4公斤装）或水基灭火器",
+        "强光照明灯",
+        "水带",
+        "分水器",
+        "机动消防泵（含手抬泵、浮艇泵）",
+        "单杠梯",
+        "消火栓扳手",
+        "大斧",
+        "绝缘剪断钳",
+        "铁铤",
+        "外线电话",
+        "手持对讲机",
+        "消防过滤式综合防毒面具",
+        "缓降绳",
+        "消防头盔",
+        "消防员灭火防护服",
+        "消防手套",
+        "消防安全腰带",
+        "消防员灭火防护靴",
+        "正压式消防空气呼吸器",
+        "佩戴式防爆照明灯",
+        "消防员呼救器",
+        "方位灯",
+        "消防轻型安全绳",
+        "消防腰斧"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "把",
+        "个",
+        "盘",
+        "台",
+        "条",
+        "1顶/人",
+        "1套/人",
+        "1付/人",
+        "1根/人",
+        "1双/人",
+        "2具/站",
+        "1个/人",
+        "1把/人",
+        "2个/人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pbbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "必配",
+        "选配",
+        "配备具有方位灯功能的消防员呼救器可不配方位灯"
+      ],
+      "value_pool": [
+        "必配",
+        "选配",
+        "配备具有方位灯功能的消防员呼救器可不配方位灯"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "参照相关标准执行"
+      ],
+      "value_pool": [
+        "参照相关标准执行"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "file_name": "高新区对燃气经营的监管信息202602111230.xlsx",
+  "table_name": "高新区对燃气经营的监管信息202602111230",
+  "row_count": 242,
+  "columns": [
+    "xzxdr",
+    "jg",
+    "jcxmmc",
+    "xzxdrzjbm",
+    "xzxdrxz",
+    "jcsj",
+    "jcxwbh",
+    "xzxdrzjlx",
+    "jcxwmc",
+    "jclb",
+    "jgdx",
+    "jgdxlx",
+    "ssjg"
+  ],
+  "fields": [
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁华润高新燃气有限公司",
+        "济宁华润燃气有限公司王因加气母站",
+        "济宁高新安达服务有限公司加油加气站",
+        "对济宁华润高新燃气有限公司",
+        "济宁华润高新燃气"
+      ],
+      "value_pool": [
+        "济宁华润高新燃气有限公司",
+        "济宁华润燃气有限公司王因加气母站",
+        "济宁高新安达服务有限公司加油加气站",
+        "对济宁华润高新燃气有限公司",
+        "济宁华润高新燃气"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果",
+        "发现问题作出责令改正等行政命令"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果",
+        "发现问题作出责令改正等行政命令"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对燃气经营的行政检查",
+        "对燃气经营的监管"
+      ],
+      "value_pool": [
+        "对燃气经营的行政检查",
+        "对燃气经营的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "913708**********6J",
+        "913708**********8W",
+        "913708**********14"
+      ],
+      "value_pool": [
+        "913708**********6J",
+        "913708**********8W",
+        "913708**********14"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "法人"
+      ],
+      "value_pool": [
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020-11-27",
+        "2020-12-03",
+        "2020-12-09",
+        "2020-12-16",
+        "2020-12-23",
+        "2020-12-30",
+        "2021-01-15",
+        "2021-02-03",
+        "2021-02-08",
+        "2021-02-09",
+        "2021-02-25",
+        "2021-02-26",
+        "2021-03-02",
+        "2021-03-03",
+        "2021-03-09",
+        "2021-03-11",
+        "2021-03-15",
+        "2021-03-25",
+        "2021-04-13",
+        "2021-04-28",
+        "2021-05-07",
+        "2021-05-10",
+        "2021-05-19",
+        "2021-05-20",
+        "2021-05-26",
+        "2021-06-04",
+        "2021-06-08",
+        "2020-07-29",
+        "2020-07-15",
+        "2020-10-25",
+        "2020-10-24",
+        "2020-10-23",
+        "2020-10-21",
+        "2020-03-04"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "jngxzjj20201127028",
+        "jngxzjj20201127029",
+        "jngxzjj20201127030",
+        "jngxzjj20201203070",
+        "jngxzjj20201203071",
+        "jngxzjj20201203072",
+        "jngxzjj20201209099",
+        "jngxzjj20201209100",
+        "jngxzjj20201209101",
+        "jngxzjj20201216127",
+        "jngxzjj20201216128",
+        "jngxzjj20201216129",
+        "jngxzjj20201223001",
+        "jngxzjj20201223002",
+        "jngxzjj20201223003",
+        "jngxzjj20201230217",
+        "jngxzjj20201230218",
+        "jngxzjj20201230219",
+        "jngxzjj20210115271",
+        "jngxzjj20210115272",
+        "jngxzjj20210115273",
+        "jngxzjj20210203314",
+        "jngxzjj20210203315",
+        "jngxzjj20210203316",
+        "jngxzjj20210208323",
+        "jngxzjj20210208324",
+        "jngxzjj20210208325",
+        "jngxzjj20210209321",
+        "jngxzjj20210209322",
+        "jngxzjj20210209323",
+        "jngxzjj20210225351",
+        "jngxzjj20210225352",
+        "jngxzjj20210225353",
+        "jngxzjj20210226355",
+        "jngxzjj20210226356",
+        "jngxzjj20210226357",
+        "jngxzjj20210302365",
+        "jngxzjj20210302366",
+        "jngxzjj20210302367",
+        "jngxzjj20210303372",
+        "jngxzjj20210303373",
+        "jngxzjj20210303374",
+        "jngxzjj20210309385",
+        "jngxzjj20210309386",
+        "jngxzjj20210309387",
+        "jngxzjj20210311396",
+        "jngxzjj20210311397",
+        "jngxzjj20210311398",
+        "jngxzjj20210315404",
+        "jngxzjj20210315405",
+        "jngxzjj20210315406",
+        "jngxzjj202103254312",
+        "jngxzjj202103254313",
+        "jngxzjj202103254314",
+        "jngxzjj20210413452",
+        "jngxzjj20210413453",
+        "jngxzjj20210413454",
+        "jngxzjj20210428477",
+        "jngxzjj20210428478",
+        "jngxzjj20210428479",
+        "jngxzjj20210507486",
+        "jngxzjj20210507487",
+        "jngxzjj20210507488",
+        "jngxzjj20210510489",
+        "jngxzjj20210510490",
+        "jngxzjj20210510491",
+        "jngxzjj20210519509",
+        "jngxzjj20210519510",
+        "jngxzjj20210519511",
+        "jngxzjj20210520516",
+        "jngxzjj20210520517",
+        "jngxzjj20210520518",
+        "jngxzjj20210526528",
+        "jngxzjj20210526529",
+        "jngxzjj20210526530",
+        "jngxzjj20210604544",
+        "jngxzjj20210604545",
+        "jngxzjj20210604546",
+        "jngxzjj20210608550",
+        "jngxzjj20210608551",
+        "jngxzjj20210608552",
+        "0017000401",
+        "37130105002",
+        "3713010501",
+        "3713010518",
+        "3713010521",
+        "3713010523",
+        "3713010524",
+        "3713010526",
+        "3713010527",
+        "3713010528",
+        "3713010529",
+        "37130105001",
+        "37160207001",
+        "3716020701",
+        "3716020713",
+        "3716020715",
+        "3716020717",
+        "3716020718",
+        "jngxzjj0304002"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "统一社会信用代码"
+      ],
+      "value_pool": [
+        "统一社会信用代码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "对燃气经营许可证核发及事中事后情况进行行政检查",
+        "对燃气经营许可证核发及事中事后情况进行行政检查燃气经营许可证核发及事中事后情况进行行政检查",
+        "燃气经营许可证核发及事中事后情况进行行政检查",
+        "燃气经营进行行政检查",
+        "燃气经营情况进行行政检查",
+        "燃气经营情况行政检查",
+        "燃气经营情况进行检查",
+        "对济宁华润高新燃气有限公司燃气经营许可证核发及事中事后情况进行行政检查",
+        "对济宁华润燃气有限公司王因加气母站燃气经营许可证核发及事中事后情况进行行政检查",
+        "对济宁高新安达服务有限公司加油加气站燃气经营许可证核发及事中事后情况进行行政检查",
+        "对燃气经营进行行政检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "913708**********6J",
+        "913708**********8W",
+        "913708**********14"
+      ],
+      "value_pool": [
+        "913708**********6J",
+        "913708**********8W",
+        "913708**********14"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业、个体户、农专社"
+      ],
+      "value_pool": [
+        "企业、个体户、农专社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "住建局"
+      ],
+      "value_pool": [
+        "住建局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

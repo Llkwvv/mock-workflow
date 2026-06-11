@@ -1,0 +1,91 @@
+{
+  "file_name": "金乡县分镇街生猪存出栏情况202507242135.xlsx",
+  "table_name": "金乡县分镇街生猪存出栏情况202507242135",
+  "row_count": 2,
+  "columns": [
+    "cl",
+    "cl1",
+    "qb",
+    "dq",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "cl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "14.421",
+        "13.91"
+      ],
+      "min_value": 13.91,
+      "max_value": 14.421
+    },
+    {
+      "name": "cl1",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "26.82",
+        "26.9"
+      ],
+      "min_value": 26.82,
+      "max_value": 26.9
+    },
+    {
+      "name": "qb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2022年",
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "万头"
+      ],
+      "value_pool": [
+        "万头"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

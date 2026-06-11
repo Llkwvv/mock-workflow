@@ -1,0 +1,116 @@
+{
+  "file_name": "高新区取水许可证名录202603201041.xlsx",
+  "table_name": "高新区取水许可证名录202603201041",
+  "row_count": 4,
+  "columns": [
+    "yxqssj",
+    "yxjzsj",
+    "hjsl",
+    "nsrxm",
+    "qsxkzbh",
+    "sylxjxkdxsl"
+  ],
+  "fields": [
+    {
+      "name": "yxqssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-02-29"
+      ],
+      "value_pool": [
+        "2024-02-29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yxjzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-11-02",
+        "2025-12-31",
+        "2024-03-31",
+        "2024-12-31"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjsl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "88440",
+        "10000",
+        "12720",
+        "地下水2851000，中水700000"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nsrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东**********公司",
+        "济宁*********公司",
+        "中*************公司",
+        "山东********公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qsxkzbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "D370871G2023-0014",
+        "D370871G2023-0015",
+        "D370871G2023-0016",
+        "D370871G2023-0017"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sylxjxkdxsl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "88440",
+        "10000",
+        "12720",
+        "地下水2851000，中水700000"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

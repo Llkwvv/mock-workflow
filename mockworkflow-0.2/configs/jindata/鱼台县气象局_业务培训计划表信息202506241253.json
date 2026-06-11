@@ -1,0 +1,235 @@
+{
+  "file_name": "鱼台县气象局_业务培训计划表信息202506241253.xlsx",
+  "table_name": "鱼台县气象局_业务培训计划表信息202506241253",
+  "row_count": 53,
+  "columns": [
+    "pxnyf",
+    "zrdw",
+    "pxbmc",
+    "pxdx",
+    "cbdw",
+    "pxts",
+    "cxrs",
+    "pxnr"
+  ],
+  "fields": [
+    {
+      "name": "pxnyf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2020年1月",
+        "2020年2月",
+        "2020年3月",
+        "2020年4月",
+        "2020年5月",
+        "2020年6月",
+        "2020年7月",
+        "2020年8月",
+        "2020年9月",
+        "2020年10月",
+        "2020年11月",
+        "2020年12月",
+        "2021年1月",
+        "2021年2月",
+        "2021年3月",
+        "2021年4月",
+        "2021年5月",
+        "2021年6月",
+        "2021年7月",
+        "2021年8月",
+        "2021年9月",
+        "2021年10月",
+        "2021年11月",
+        "2021年12月",
+        "2022年1月",
+        "2022年2月",
+        "2022年3月",
+        "2022年4月",
+        "2022年5月",
+        "2022年6月",
+        "2022年7月",
+        "2022年8月",
+        "2022年9月",
+        "2022年10月",
+        "2022年11月",
+        "2022年12月",
+        "2023年1月",
+        "2023年2月",
+        "2023年3月",
+        "2023年4月",
+        "2023年5月",
+        "2023年6月",
+        "2023年7月",
+        "2023年8月",
+        "2023年9月",
+        "45292",
+        "45323",
+        "45352",
+        "45383",
+        "45413",
+        "45444",
+        "45474",
+        "45505"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县气象局"
+      ],
+      "value_pool": [
+        "鱼台县气象局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "气象预报发布与传播管理办法",
+        "气象信息服务管理办法",
+        "气象专用技术装备使用许可管理办法",
+        "气象观测业务运行准入和退出管理办法",
+        "气象观测业务事故分级和认定管理办法",
+        "能见度、雨量核查培训",
+        "气象灾害管理系统的使用方法",
+        "汛期周通报材料",
+        "地面观测规范第一版",
+        "气象观测质量管理体系",
+        "观测计算机业务软件安装",
+        "地面综合观测业务软件与数据标准化应用",
+        "冬季观测常见问题处理解析视频培训",
+        "新型自动气象站视频培训",
+        "常见异常数据处理及MDOS备注事项整理视频培训",
+        "举办DPZ1综合集成硬件控制器使用及维修视频培训",
+        "冬季常见气象灾害及预警发布流程视频培训",
+        "地面气象观测自动化技术路线"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "综合观测人员"
+      ],
+      "value_pool": [
+        "综合观测人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "业务科"
+      ],
+      "value_pool": [
+        "业务科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxts",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "2",
+        "3",
+        "0.5",
+        "15",
+        "每周四"
+      ],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "0.5",
+        "15",
+        "每周四"
+      ],
+      "min_value": 0.5,
+      "max_value": 15.0
+    },
+    {
+      "name": "cxrs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "4"
+      ],
+      "value_pool": [
+        "4"
+      ],
+      "min_value": 4.0,
+      "max_value": 4.0
+    },
+    {
+      "name": "pxnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "预报发布与传播",
+        "信息服务",
+        "技术装备使用",
+        "业务运行",
+        "业务事故分级和认定",
+        "仪器核查",
+        "灾情的填报",
+        "上报材料的填写",
+        "仪器维护",
+        "程序文件、作业指导书、工作记录",
+        "计算机业务软件",
+        "业务软件与数据标准化应用",
+        "冬季观测常见问题处理",
+        "新型自动气象站",
+        "异常数据处理及MDOS备注",
+        "DPZ1综合集成硬件控制器",
+        "预警发布",
+        "地面气象观测自动化技术"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

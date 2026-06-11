@@ -1,0 +1,172 @@
+{
+  "file_name": "高新区社会保险个人权益记录查询服务信息202605251218.xlsx",
+  "table_name": "高新区社会保险个人权益记录查询服务信息202605251218",
+  "row_count": 8,
+  "columns": [
+    "sqdwsqr",
+    "slsj",
+    "sxbm",
+    "jbr",
+    "sldw",
+    "sxmc",
+    "xsq",
+    "bjbh",
+    "blzt"
+  ],
+  "fields": [
+    {
+      "name": "sqdwsqr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "周长连",
+        "周广才",
+        "王红娥",
+        "韩现玉",
+        "董兰菊",
+        "韩四菊",
+        "杨印香",
+        "王代所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2025-03-06"
+      ],
+      "value_pool": [
+        "2025-03-06"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "11370812004322197M5372004979000"
+      ],
+      "value_pool": [
+        "11370812004322197M5372004979000"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jbr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "黄屯街道办事处"
+      ],
+      "value_pool": [
+        "黄屯街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "黄屯街道办事处"
+      ],
+      "value_pool": [
+        "黄屯街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "社会保险个人权益记录查询"
+      ],
+      "value_pool": [
+        "社会保险个人权益记录查询"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "80811010218462",
+        "80811010217115",
+        "80811010216649",
+        "80811010216523",
+        "80811010216408",
+        "80811010216361",
+        "80811010216172",
+        "80811010214258"
+      ],
+      "min_value": 80811010214258.0,
+      "max_value": 80811010218462.0
+    },
+    {
+      "name": "blzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "正常办结"
+      ],
+      "value_pool": [
+        "正常办结"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

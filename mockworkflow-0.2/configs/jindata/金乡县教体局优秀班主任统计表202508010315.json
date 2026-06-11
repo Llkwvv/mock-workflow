@@ -1,0 +1,147 @@
+{
+  "file_name": "金乡县教体局优秀班主任统计表202508010315.xlsx",
+  "table_name": "金乡县教体局优秀班主任统计表202508010315",
+  "row_count": 666,
+  "columns": [
+    "gzxx",
+    "dq",
+    "xd",
+    "sj",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "gzxx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡一中",
+        "金乡县第二中学",
+        "初中学校",
+        "金乡县胡集中学",
+        "金乡县奎星中学",
+        "金乡县文峰中学",
+        "金乡县王丕中学",
+        "金乡县第三中学",
+        "金乡县金曼克中学"
+      ],
+      "value_pool": [
+        "金乡一中",
+        "金乡县第二中学",
+        "初中学校",
+        "金乡县胡集中学",
+        "金乡县奎星中学",
+        "金乡县文峰中学",
+        "金乡县王丕中学",
+        "金乡县第三中学",
+        "金乡县金曼克中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高中",
+        "初中"
+      ],
+      "value_pool": [
+        "高中",
+        "初中"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021年"
+      ],
+      "value_pool": [
+        "2021年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "高**",
+        "张**",
+        "殷**",
+        "周**",
+        "郭**",
+        "史**",
+        "刘**",
+        "李**",
+        "孟**",
+        "侯**",
+        "杜**",
+        "吴**",
+        "宋**",
+        "孙**",
+        "邵**",
+        "祝**",
+        "苏**",
+        "赵**",
+        "吕**",
+        "杨**",
+        "尹**",
+        "田**",
+        "臧**",
+        "姓**",
+        "薛**",
+        "尚**",
+        "朱**",
+        "董**",
+        "安**",
+        "毕**",
+        "马**",
+        "孔**",
+        "于**",
+        "辛**",
+        "徐**",
+        "韩**",
+        "卜**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

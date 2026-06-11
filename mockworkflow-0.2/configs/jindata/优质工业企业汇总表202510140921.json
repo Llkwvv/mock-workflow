@@ -1,0 +1,182 @@
+{
+  "file_name": "优质工业企业汇总表202510140921.xlsx",
+  "table_name": "优质工业企业汇总表202510140921",
+  "row_count": 31,
+  "columns": [
+    "pfdw",
+    "qymc",
+    "qyry",
+    "xh",
+    "pznd",
+    "sl",
+    "glqx"
+  ],
+  "fields": [
+    {
+      "name": "pfdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "山东省工信厅",
+        "济宁市工信局"
+      ],
+      "value_pool": [
+        "山东省工信厅",
+        "济宁市工信局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "欣格瑞（山东）环境科技有限公司",
+        "山东光大线路器材有限公司",
+        "山东格瑞水务有限公司",
+        "济宁金牛重工有限公司",
+        "济宁华隆机械制造有限公司",
+        "山东莱特光电科技有限公司",
+        "山东乾钢金属科技有限公司",
+        "中北润良新能源（济宁）股份有限公司",
+        "山东纳鑫新能源有限公司",
+        "济宁航通机械有限公司",
+        "山东沃尔斯铜铝业有限公司",
+        "山东菲特环保设备有限公司",
+        "山东瑞能电气集团股份有限公司",
+        "山东瑞祥模具有限公司",
+        "山东嘉源塑胶科技有限公司",
+        "山东鲁能光大电力器材有限公司",
+        "山东艾克索仑电气有限公司",
+        "山东楷益塑业科技有限公司",
+        "山东佰斯德电力科技有限公司",
+        "伟龙食品有限公司",
+        "济宁久邦工程机械有限公司",
+        "山东中亿烯创新材料科技有限公司",
+        "美天为华环境工程（山东）有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "省级瞪羚企业",
+        "市级瞪羚企业"
+      ],
+      "value_pool": [
+        "省级瞪羚企业",
+        "市级瞪羚企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "min_value": 1.0,
+      "max_value": 31.0
+    },
+    {
+      "name": "pznd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2024",
+        "2023"
+      ],
+      "value_pool": [
+        "2024",
+        "2023"
+      ],
+      "min_value": 2023.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "sl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "glqx",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "3"
+      ],
+      "value_pool": [
+        "3"
+      ],
+      "min_value": 3.0,
+      "max_value": 3.0
+    }
+  ]
+}

@@ -1,6 +1,18 @@
 {
   "models": [
     {
+      "name": "deepseek-chat",
+      "enabled": false,
+      "priority": 10,
+      "description": "DeepSeek V3 (cloud)"
+    },
+    {
+      "name": "Qwen/Qwen2.5-72B-Instruct",
+      "enabled": false,
+      "priority": 9,
+      "description": "ModelScope Qwen2.5 72B (cloud)"
+    },
+    {
       "name": "qwen3:8b",
       "enabled": true,
       "priority": 1,

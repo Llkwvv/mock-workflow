@@ -1,0 +1,140 @@
+{
+  "file_name": "残疾人运动员注册登记信息202508010113.xlsx",
+  "table_name": "残疾人运动员注册登记信息202508010113",
+  "row_count": 21,
+  "columns": [
+    "cjrxm",
+    "cjxm",
+    "cjlb",
+    "lxdh",
+    "zcsj"
+  ],
+  "fields": [
+    {
+      "name": "cjrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵*",
+        "张**",
+        "杨*",
+        "王*",
+        "公**",
+        "高**",
+        "段**",
+        "马**",
+        "闫**",
+        "孙**",
+        "于**",
+        "李**",
+        "王**",
+        "党**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "射箭",
+        "飞镖",
+        "举重",
+        "田径",
+        "轮椅竞速",
+        "围棋",
+        "游泳",
+        "武术",
+        "轮椅击剑",
+        "轮椅篮球",
+        "标枪"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "肢体",
+        "视力",
+        "听力"
+      ],
+      "value_pool": [
+        "肢体",
+        "视力",
+        "听力"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "155****0059",
+        "158****6599",
+        "134****3222",
+        "150****2930",
+        "139****3104",
+        "136****8077",
+        "133****4355",
+        "186****6146",
+        "231****",
+        "131****0705",
+        "259****",
+        "158****0767",
+        "****",
+        "186****1446",
+        "158****99.0",
+        "134****22.0",
+        "136****77.0",
+        "133****55.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2025.3.19",
+        "2025.3.25",
+        "2025.3.26",
+        "2025.3.20",
+        "2017/4/13"
+      ],
+      "value_pool": [
+        "2025.3.19",
+        "2025.3.25",
+        "2025.3.26",
+        "2025.3.20",
+        "2017/4/13"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

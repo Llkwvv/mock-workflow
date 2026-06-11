@@ -1,0 +1,213 @@
+{
+  "file_name": "泗水县春尺蠖越冬前基数调查信息202606041146.xlsx",
+  "table_name": "泗水县春尺蠖越冬前基数调查信息202606041146",
+  "row_count": 73,
+  "columns": [
+    "yczs",
+    "dczs",
+    "ct",
+    "dcsj",
+    "bzdks",
+    "dd",
+    "czl",
+    "nf"
+  ],
+  "fields": [
+    {
+      "name": "yczs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "value_pool": [
+        "0",
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "min_value": 0.0,
+      "max_value": 4.0
+    },
+    {
+      "name": "dczs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "10"
+      ],
+      "value_pool": [
+        "10"
+      ],
+      "min_value": 10.0,
+      "max_value": 10.0
+    },
+    {
+      "name": "ct",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "蛹"
+      ],
+      "value_pool": [
+        "蛹"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "11.5",
+        "11.6",
+        "11.3",
+        "11.4",
+        "11.11",
+        "11.19",
+        "11.21",
+        "11.12",
+        "11.1"
+      ],
+      "value_pool": [
+        "11.5",
+        "11.6",
+        "11.3",
+        "11.4",
+        "11.11",
+        "11.19",
+        "11.21",
+        "11.12",
+        "11.1"
+      ],
+      "min_value": 11.1,
+      "max_value": 11.6
+    },
+    {
+      "name": "bzdks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "华村镇大黄沟村",
+        "华村镇小黄沟村",
+        "济河街道南尚舒",
+        "济河街道北尚舒",
+        "泉林镇花园",
+        "泉林镇青龙",
+        "星村镇沙岗",
+        "星村镇北陈",
+        "济河街道任家庄",
+        "苗馆镇峙山庄",
+        "泗张镇苏家庄",
+        "泉林镇柳河峪村",
+        "泉林镇安乐庄",
+        "泉林镇义合庄",
+        "星村镇双泉村",
+        "华村镇南华村",
+        "高峪镇尧山村",
+        "泗张镇后袁庄",
+        "苗馆镇邓家庄",
+        "华村镇邢家屋",
+        "高峪镇尧山",
+        "泉林龙汪崖",
+        "星村镇东仲家庄",
+        "泗张镇黑山沟村",
+        "苗馆镇响泉村",
+        "泉林镇李家庙",
+        "华村镇河西庄"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ],
+      "value_pool": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ],
+      "min_value": 0.0,
+      "max_value": 3.0
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "value_pool": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "min_value": 2018.0,
+      "max_value": 2025.0
+    }
+  ]
+}

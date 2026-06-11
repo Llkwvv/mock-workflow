@@ -1,0 +1,181 @@
+{
+  "file_name": "煤场视频中断企业统计表_0.csv",
+  "table_name": "煤场视频中断企业统计表_0",
+  "row_count": 50,
+  "columns": [
+    "yjqdnsf",
+    "szwz",
+    "hylb",
+    "qymc",
+    "xcwgy",
+    "sflstxc"
+  ],
+  "fields": [
+    {
+      "name": "yjqdnsf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未连接",
+        "中断",
+        "通畅",
+        "未接入"
+      ],
+      "value_pool": [
+        "未连接",
+        "中断",
+        "通畅",
+        "未接入"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "留庄",
+        "欢城",
+        "夏镇",
+        "傅村"
+      ],
+      "value_pool": [
+        "留庄",
+        "欢城",
+        "夏镇",
+        "傅村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "煤场"
+      ],
+      "value_pool": [
+        "煤场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山县明鸿物资贸易公司",
+        "微山县忠真贸易有限公司",
+        "微山县留庄镇在民货场",
+        "微山县铭源贸易有限公司",
+        "微山县新耀洗煤有限公司",
+        "微山湖岱庄煤炭运销有限公司",
+        "微山红英煤炭洗选有限公司",
+        "山东菜园物资运销有限公司",
+        "微山县润盈工贸有限公司",
+        "微山县宏宇煤炭贸易有限公司",
+        "济宁大业煤炭洗选有限公司",
+        "山东晨新能源能源科技有限公司",
+        "山东哲余铭能源有限公司",
+        "山东七五能源有限公司",
+        "济宁市正扬能源有限公司",
+        "山东凯利龙能源贸易有限公司",
+        "山东春江能源有限公司",
+        "微山县鑫普物资贸易有限公司",
+        "微山县泓盛煤炭洗选有限公司",
+        "微山县凯峰水煤浆有限公司",
+        "微山县顺科来商贸有限公司",
+        "微山县双信贸易有限公司",
+        "山东容商实业发现集团有限公司微山县洗煤厂",
+        "济宁正通物资贸易有限公司",
+        "微山县硕慈贸易有限公司",
+        "微山县豪轩贸易有限公司",
+        "微山县苏巍煤炭洗选有限公司",
+        "微山县昊鑫贸易有限公司",
+        "微山县春蕾物资贸易有限公司",
+        "微山县锋泰物资贸易有限公司",
+        "微山县政润物资贸易有限公司",
+        "微山县亿龙煤炭洗选有限公司",
+        "山东利发煤业集团有限公司",
+        "微山县向阳物资贸易有限公司",
+        "微山县建宇贸易有限公司",
+        "微山县辰泰贸易有限公司",
+        "山东瀚洋能源有限公司",
+        "微山县绳坤贸易有限公司",
+        "微山县硕鹏贸易有限公司",
+        "微山县湖滨能源有限公司",
+        "微山县动力贸易有限公司",
+        "微山县恒烽浮选有限公司",
+        "微山县兴锋物资贸易有限公司",
+        "山东永亿物资有限公司",
+        "微山县恩扬贸易有限公司",
+        "山东奥斯特新材料有限公司",
+        "山东丰广煤炭先选有限公司",
+        "微山县丰源洗煤厂 ",
+        "微山县源丰物资贸易有限公司",
+        "山东鑫琪贸易有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcwgy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "孙景超",
+        "张抗",
+        "朱柏霖",
+        "刘星德",
+        "王步省",
+        "杨瀚",
+        "朱杰",
+        "殷萧森",
+        "高政",
+        "班曼曼",
+        "闫翠晶",
+        "杜洪亚",
+        "张波",
+        "黄传鹏"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sflstxc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

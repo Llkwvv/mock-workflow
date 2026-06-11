@@ -1,0 +1,178 @@
+{
+  "file_name": "嘉祥县文化和旅游局_嘉祥县印刷厂信息202512171325.xlsx",
+  "table_name": "嘉祥县文化和旅游局_嘉祥县印刷厂信息202512171325",
+  "row_count": 25,
+  "columns": [
+    "mqzgqk",
+    "qymc",
+    "wtfl",
+    "zrdw",
+    "wtqkcl",
+    "wtssqkfl",
+    "jhzgsj",
+    "wtjyms"
+  ],
+  "fields": [
+    {
+      "name": "mqzgqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "整改完成"
+      ],
+      "value_pool": [
+        "整改完成"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县永强包装有限公司",
+        "嘉祥县双合编织袋厂",
+        "济宁镇田包装制品有限公司",
+        "嘉祥县陈爱云编织袋加工中心",
+        "嘉祥县汇丰编织袋销售部",
+        "嘉祥县万张诗语编织袋厂",
+        "嘉祥县先允创展编织袋有限公司",
+        "嘉祥县盛欣包装有限公司"
+      ],
+      "value_pool": [
+        "嘉祥县永强包装有限公司",
+        "嘉祥县双合编织袋厂",
+        "济宁镇田包装制品有限公司",
+        "嘉祥县陈爱云编织袋加工中心",
+        "嘉祥县汇丰编织袋销售部",
+        "嘉祥县万张诗语编织袋厂",
+        "嘉祥县先允创展编织袋有限公司",
+        "嘉祥县盛欣包装有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wtfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "一般问题"
+      ],
+      "value_pool": [
+        "一般问题"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县文旅局"
+      ],
+      "value_pool": [
+        "嘉祥县文旅局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wtqkcl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "限期整改",
+        "当场整改"
+      ],
+      "value_pool": [
+        "限期整改",
+        "当场整改"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wtssqkfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "4.全员安全教育培训情况",
+        "3.安全风险辨识及管控情况",
+        "7.应急准备情况"
+      ],
+      "value_pool": [
+        "4.全员安全教育培训情况",
+        "3.安全风险辨识及管控情况",
+        "7.应急准备情况"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jhzgsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021.1.31",
+        "2021.2.1"
+      ],
+      "value_pool": [
+        "2021.1.31",
+        "2021.2.1"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wtjyms",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "未开展安全生产培训",
+        "违规彩钢板房未拆除",
+        "本年度未开展应急演练",
+        "未进行安全教育培训",
+        "库房违规彩钢板未拆除。",
+        "本年度未开展应急演练，",
+        "未有消防用沙",
+        "灭火器放置方法不当",
+        "未增加室内消火栓，灭火器材不足",
+        "违规彩钢板房仍未拆除",
+        "灭火器材不足",
+        "本年度未开展应急演练。",
+        "未开展应急演练",
+        "未进行安全培训"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

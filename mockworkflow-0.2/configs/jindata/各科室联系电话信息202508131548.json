@@ -1,0 +1,163 @@
+{
+  "file_name": "各科室联系电话信息202508131548.xlsx",
+  "table_name": "各科室联系电话信息202508131548",
+  "row_count": 22,
+  "columns": [
+    "姓名",
+    "fgld",
+    "fznr",
+    "zw",
+    "lxdh",
+    "ks"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张思善",
+        "张悦",
+        "孔明珠",
+        "田启森",
+        "田璇",
+        "商秀红",
+        "王常新",
+        "任昊",
+        "王晨阳",
+        "刘晓楠",
+        "闫苗苗",
+        "刘艳珍",
+        "任思坤",
+        "汤云风",
+        "张令坤",
+        "孙羊羊",
+        "唐双",
+        "刘敦坤",
+        "李文华",
+        "高瑞敏",
+        "任涵雪",
+        "杨改凤"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fgld",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "孔维波"
+      ],
+      "value_pool": [
+        "孔维波"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fznr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "办公室文件工作",
+        "财务人事工作",
+        "信访督查工作",
+        "信工整体工作",
+        "驻省驻京",
+        "社会工作部工作"
+      ],
+      "value_pool": [
+        "办公室文件工作",
+        "财务人事工作",
+        "信访督查工作",
+        "信工整体工作",
+        "驻省驻京",
+        "社会工作部工作"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "科长",
+        "科员",
+        "副科长"
+      ],
+      "value_pool": [
+        "科长",
+        "科员",
+        "副科长"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "0537-7716188",
+        "0537-7716189",
+        "0537-7716190",
+        "0537-7716191",
+        "0537-6625190",
+        "0537-6625198",
+        "0537-7716199",
+        "0537-6990866",
+        "0537-6982299",
+        "0537-6982300",
+        "0537-6982301",
+        "0537-6982302"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "综合管理办公室",
+        "财务和人事科",
+        "督促查办科",
+        "信访工作办公室",
+        "驻省驻京工作办公室",
+        "社会工作办公室"
+      ],
+      "value_pool": [
+        "综合管理办公室",
+        "财务和人事科",
+        "督促查办科",
+        "信访工作办公室",
+        "驻省驻京工作办公室",
+        "社会工作办公室"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

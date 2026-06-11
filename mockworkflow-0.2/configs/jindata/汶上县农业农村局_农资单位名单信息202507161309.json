@@ -1,0 +1,136 @@
+{
+  "file_name": "汶上县农业农村局_农资单位名单信息202507161309.xlsx",
+  "table_name": "汶上县农业农村局_农资单位名单信息202507161309",
+  "row_count": 22,
+  "columns": [
+    "jyzmc",
+    "jyfw",
+    "szd",
+    "zj",
+    "fzr"
+  ],
+  "fields": [
+    {
+      "name": "jyzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县华良生资门市部",
+        "汶上县幸福农资超市",
+        "汶上县存动农资销售中心",
+        "汶上县永生农资超市",
+        "汶上县忠兰农资服务中心",
+        "汶上县红旭农资经营部",
+        "汶上县刘楼乡农业技术推广站门市部",
+        "汶上县次邱供销合作社生资门市部",
+        "汶上县次邱镇付村集村梨园",
+        "济宁市汶上县天利农资超市",
+        "汶上县红高粱家庭农场",
+        "汶上县繁和种植农民专业合作社",
+        "汶上县俊涛农资经营部",
+        "汶上县桥头农资门市部",
+        "汶上县飞越种植农民专业合作社",
+        "汶上县次丘镇河里村丽然农资",
+        "汶上县春雷农资销售部",
+        "汶上县刘楼供销社辛海村利民服务部",
+        "汶上县保灿农资经营部",
+        "汶上县红松农资超市",
+        "汶上县农心农资超市",
+        "汶上县庆丰蔬菜种植农民专业合作社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "农药、化肥",
+        "农药"
+      ],
+      "value_pool": [
+        "农药、化肥",
+        "农药"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "刘楼镇",
+        "次邱镇"
+      ],
+      "value_pool": [
+        "刘楼镇",
+        "次邱镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "郭中领",
+        "陈秀苓",
+        "谷盼盼",
+        "郭永生",
+        "郭忠兰",
+        "何玉菊",
+        "李敏",
+        "李庆国",
+        "李新香",
+        "李永春",
+        "林凡成",
+        "林凡合",
+        "刘俊涛",
+        "刘泉台",
+        "邵东亮",
+        "向丽然",
+        "肖桂平",
+        "辛文成",
+        "徐保灿",
+        "张红松",
+        "张茂森",
+        "郑则强"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

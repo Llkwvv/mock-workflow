@@ -1,0 +1,152 @@
+{
+  "file_name": "鱼台县教育和体育局_规范化学校信息202506271803.xlsx",
+  "table_name": "鱼台县教育和体育局_规范化学校信息202506271803",
+  "row_count": 45,
+  "columns": [
+    "dj",
+    "xd",
+    "dw",
+    "rdsj",
+    "lx"
+  ],
+  "fields": [
+    {
+      "name": "dj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "省级",
+        "市级"
+      ],
+      "value_pool": [
+        "省级",
+        "市级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高中",
+        "初中",
+        "小学"
+      ],
+      "value_pool": [
+        "高中",
+        "初中",
+        "小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台县第一中学",
+        "鱼台县第二中学",
+        "清河镇石集中学",
+        "清河镇中心中学",
+        "王庙镇周堂中学",
+        "鱼台县滨湖中学",
+        "张黄镇中心中学",
+        "罗屯镇中心中学",
+        "王庙镇中心中学",
+        "老砦中心中学",
+        "唐马镇中心中学",
+        "鱼台县实验小学",
+        "王鲁镇张庙小学",
+        "王鲁镇中心小学",
+        "清河镇中心小学",
+        "老砦镇中心小学",
+        "鱼城镇洪庙小学",
+        "谷亭镇周堂小学",
+        "谷亭镇中心小学",
+        "张黄镇后杜小学",
+        "谷亭镇八里湾小学",
+        "李阁镇陈楼小学",
+        "王庙镇周堂小学",
+        "鱼城镇前蒋小学",
+        "张黄镇吴马小学",
+        "鱼台县第二实验小学",
+        "张黄镇中心小学",
+        "张黄镇武台小学",
+        "张黄镇小吴小学",
+        "张黄镇明德小学",
+        "罗屯镇中心小学",
+        "罗屯镇赵楼小学",
+        "罗屯镇大闫小学",
+        "罗屯镇苗村小学",
+        "王庙镇明德小学",
+        "王庙镇旧城小学",
+        "唐马镇明德小学",
+        "鱼城镇乔庄小学",
+        "李阁镇陈娥小学",
+        "王鲁镇宋庄小学",
+        "鱼台县王鲁镇张庙小学",
+        "鱼台县王鲁镇中心小学",
+        "鱼台县清河镇中心小学",
+        "鱼台县老砦镇中心小学",
+        "鱼台县鱼城镇洪庙小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rdsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2005.6",
+        "2001.2",
+        "2012.11",
+        "2004.07",
+        "2006.06",
+        "2009.03",
+        "2011.02",
+        "1997.03",
+        "2007.03",
+        "2009.11",
+        "2010.12",
+        "2012.12",
+        "2016.1"
+      ],
+      "min_value": 1997.03,
+      "max_value": 2016.1
+    },
+    {
+      "name": "lx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "规范化学校"
+      ],
+      "value_pool": [
+        "规范化学校"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

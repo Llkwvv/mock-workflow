@@ -1,0 +1,150 @@
+{
+  "file_name": "梁山县人社局社保中心企业职工暂停拨付人员信息202508010206.xlsx",
+  "table_name": "梁山县人社局社保中心企业职工暂停拨付人员信息202508010206",
+  "row_count": 46,
+  "columns": [
+    "ztyy",
+    "姓名",
+    "sfzhm",
+    "xb",
+    "ztqsny"
+  ],
+  "fields": [
+    {
+      "name": "ztyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "其他原因暂停养老待遇",
+        "养老保险待遇暂停",
+        "养老待遇享受人员未提供生存证明",
+        "养老待遇享受人员被判刑收监执行"
+      ],
+      "value_pool": [
+        "其他原因暂停养老待遇",
+        "养老保险待遇暂停",
+        "养老待遇享受人员未提供生存证明",
+        "养老待遇享受人员被判刑收监执行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵**",
+        "任**",
+        "郑**",
+        "王**",
+        "孙**",
+        "代**",
+        "曹**",
+        "刘**",
+        "倪**",
+        "宋**",
+        "齐**",
+        "李**",
+        "常**",
+        "庞**",
+        "张**",
+        "邓**",
+        "庄**",
+        "于**",
+        "韩**",
+        "郭**",
+        "高**",
+        "吴**",
+        "崔**",
+        "闫**",
+        "戴**",
+        "林**",
+        "肖**",
+        "翟**",
+        "吕**",
+        "邢**",
+        "袁*",
+        "李*",
+        "邰**",
+        "陈**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "37292719**********",
+        "37083220**********",
+        "37092319**********",
+        "37292819**********",
+        "37083219**********"
+      ],
+      "value_pool": [
+        "37292719**********",
+        "37083220**********",
+        "37092319**********",
+        "37292819**********",
+        "37083219**********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ztqsny",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2022-04-01 00:00:00",
+        "2022-07-01 00:00:00",
+        "2022-10-01 00:00:00",
+        "2023-01-01 00:00:00",
+        "2023-02-01 00:00:00",
+        "2023-03-01 00:00:00",
+        "2023-04-01 00:00:00",
+        "2023-06-01 00:00:00",
+        "2023-07-01 00:00:00",
+        "2023-08-01 00:00:00",
+        "2023-09-01 00:00:00",
+        "2023-10-01 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

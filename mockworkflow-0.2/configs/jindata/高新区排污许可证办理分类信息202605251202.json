@@ -1,0 +1,227 @@
+{
+  "file_name": "高新区排污许可证办理分类信息202605251202.xlsx",
+  "table_name": "高新区排污许可证办理分类信息202605251202",
+  "row_count": 2,
+  "columns": [
+    "sfxzg",
+    "yxqx",
+    "szs",
+    "xkzgllb",
+    "bllx",
+    "pwdwmc",
+    "fzsj",
+    "hfjg",
+    "szqx",
+    "xkzbh",
+    "bjsj",
+    "szszxs",
+    "hylb"
+  ],
+  "fields": [
+    {
+      "name": "sfxzg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yxqx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2025-10-13至2030-10-12",
+        "2025-08-11至2030-08-10"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xkzgllb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "简化管理"
+      ],
+      "value_pool": [
+        "简化管理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bllx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "延续"
+      ],
+      "value_pool": [
+        "延续"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pwdwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "兴和（山东）机械有限公司",
+        "山东东岳专用汽车制造有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-10-13",
+        "2025-08-11"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hfjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市生态环境局（高新）"
+      ],
+      "value_pool": [
+        "济宁市生态环境局（高新）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szqx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新技术产业开发区"
+      ],
+      "value_pool": [
+        "济宁高新技术产业开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xkzbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "913708006792026529001W",
+        "91370800267162981A001V"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-10-13",
+        "2025-08-11"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szszxs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省"
+      ],
+      "value_pool": [
+        "山东省"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "液压动力机械及元件制造",
+        "改装汽车制造"
+      ],
+      "value_pool": [
+        "液压动力机械及元件制造",
+        "改装汽车制造"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

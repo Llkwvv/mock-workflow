@@ -1,0 +1,128 @@
+{
+  "file_name": "汶上县农业农村局_市级抽检信息202507171732.xlsx",
+  "table_name": "汶上县农业农村局_市级抽检信息202507171732",
+  "row_count": 22,
+  "columns": [
+    "jclb",
+    "jcjg",
+    "jcxs",
+    "zrr",
+    "cjdx"
+  ],
+  "fields": [
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市级第一次监督抽检",
+        "市级第三次监督抽检",
+        "市级第四次监督抽检",
+        "市级第五次监督抽检",
+        "市级第六次监督抽检",
+        "市级第二次监督抽检"
+      ],
+      "value_pool": [
+        "市级第一次监督抽检",
+        "市级第三次监督抽检",
+        "市级第四次监督抽检",
+        "市级第五次监督抽检",
+        "市级第六次监督抽检",
+        "市级第二次监督抽检"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "高中生",
+        "徐建华",
+        "刘传珠",
+        "王光锋",
+        "王海燕",
+        "王春英",
+        "林凡华",
+        "付双月",
+        "张道立",
+        "韩洪贤",
+        "孔德华",
+        "杨光君",
+        "张春林",
+        "付海涛",
+        "宫庆飞"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县兴茂家庭农场",
+        "汶上县翔鑫农业科技有限公司",
+        "汶上县问心堂家庭农场",
+        "汶上县绿科种植农民专业合作社",
+        "汶上县绿康种植农民专业合作社",
+        "汶上县鲁迎种植农民专业合作社",
+        "汶上县立兴种植农民专业合作社",
+        "汶上县吉月沼气服务农民专业合作社",
+        "汶上县道立农民种植专业合作社",
+        "汶上县春浩种植农民专业合作社",
+        "山东儒兴农业发展有限公司",
+        "山东济宁丰泽农业科技有限公司",
+        "山东春华农业科技有限公司",
+        "济宁裕凯农业科技有限公司",
+        "济宁景明生态农业有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

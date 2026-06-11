@@ -1,0 +1,113 @@
+{
+  "file_name": "嘉祥县司法局执法监督联系点公开信息202602111201.xlsx",
+  "table_name": "嘉祥县司法局执法监督联系点公开信息202602111201",
+  "row_count": 20,
+  "columns": [
+    "dz",
+    "xs",
+    "qyxz",
+    "hdsj",
+    "mc"
+  ],
+  "fields": [
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "自荐"
+      ],
+      "value_pool": [
+        "自荐"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "公司"
+      ],
+      "value_pool": [
+        "公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hdsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024.1",
+        "2020.3"
+      ],
+      "value_pool": [
+        "2024.1",
+        "2020.3"
+      ],
+      "min_value": 2020.3,
+      "max_value": 2024.1
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东新高地创新产业园管理有限公司",
+        "泰山财产保险股份有限公司济宁市嘉祥支公司",
+        "山东至善物业管理有限公司",
+        "济宁嘉美餐饮有限公司济宁市华邦旅游开发公司",
+        "济宁市祥城影院管理有限公司",
+        "嘉祥金通机动车检测有限公司",
+        "山东康益冷链物流产业发展有限公司",
+        "嘉祥醴泉再生资源利用有限公司",
+        "嘉祥县聚益农业服务有限公司",
+        "嘉祥县伊美洗化有限公司",
+        "山东城艺园林市政工程有限公司",
+        "山东嘉德景区管理服务有限公司",
+        "嘉祥县驾道汽车维修服务中心",
+        "嘉祥县萌山医院",
+        "济宁久源食品有限公司",
+        "德丰重工",
+        "济宁九巨龙新型建材有限公司",
+        "济宁晨星医疗科技有限公司",
+        "山东恒圣石墨科技有限公司",
+        "嘉冠粮油有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

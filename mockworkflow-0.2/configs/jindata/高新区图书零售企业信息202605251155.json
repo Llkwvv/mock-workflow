@@ -1,0 +1,142 @@
+{
+  "file_name": "高新区图书零售企业信息202605251155.xlsx",
+  "table_name": "高新区图书零售企业信息202605251155",
+  "row_count": 5,
+  "columns": [
+    "qfsj",
+    "jydz",
+    "dwmc",
+    "jyfw",
+    "lxdh",
+    "frdb",
+    "xkzh"
+  ],
+  "fields": [
+    {
+      "name": "qfsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-11-04",
+        "2024-12-31",
+        "2025-02-10",
+        "2025-02-11",
+        "2025-04-02"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jydz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市高新区黄屯街道龙城华府小区33号楼01单元1层0113号",
+        "山东省济宁市高新区黄屯街道办事处金色嘉苑东区6号楼第5号商业房",
+        "山东省济宁市高新区洸河街道金色兰庭小区三号楼2单元1202",
+        "山东省济宁市高新区柳行街道杨柳国际新城E区商业楼一至二层0116号房-1（一址多照）",
+        "济宁市高新区同济路西"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区木马文体店（个体工商户）",
+        "济宁高新区一方舟文体店",
+        "济宁高新区书香阁文化传播服务中心",
+        "济宁高新区星屹文玩店（个体工商户）",
+        "山东雅正印刷有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "出版物零售",
+        "出版物互联网销售"
+      ],
+      "value_pool": [
+        "出版物零售",
+        "出版物互联网销售"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "187*****950",
+        "138*****267",
+        "186*****913",
+        "150*****391",
+        "139*****795"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "frdb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "马天放",
+        "邱元强",
+        "孙中飞",
+        "陈强",
+        "温成彬"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xkzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "37H00C237",
+        "37H00C204",
+        "37H00C138",
+        "37H00C239",
+        "37H00C242"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

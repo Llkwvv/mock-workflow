@@ -1,0 +1,115 @@
+{
+  "file_name": "鱼台县退役军人事务局_参加适应性培训退役军人信息202508010215.xlsx",
+  "table_name": "鱼台县退役军人事务局_参加适应性培训退役军人信息202508010215",
+  "row_count": 34,
+  "columns": [
+    "stzk",
+    "rwdd",
+    "xb",
+    "mz",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "stzk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "健康"
+      ],
+      "value_pool": [
+        "健康"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rwdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台"
+      ],
+      "value_pool": [
+        "鱼台"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "宋**",
+        "梁**",
+        "胡**",
+        "展**",
+        "申**",
+        "蒿**",
+        "杨**",
+        "缪**",
+        "张**",
+        "韩**",
+        "李**",
+        "郭**",
+        "葛**",
+        "马**",
+        "袁**",
+        "王**",
+        "巩**",
+        "刘**",
+        "于**",
+        "卜**",
+        "田**",
+        "冯**",
+        "黄**",
+        "于****"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

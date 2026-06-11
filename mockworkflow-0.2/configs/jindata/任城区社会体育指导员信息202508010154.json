@@ -1,0 +1,160 @@
+{
+  "file_name": "任城区社会体育指导员信息202508010154.xlsx",
+  "table_name": "任城区社会体育指导员信息202508010154",
+  "row_count": 401,
+  "columns": [
+    "zdxmmc",
+    "zdydj",
+    "bjsj",
+    "ssqx",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "zdxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "广场舞",
+        "羽毛球",
+        "太极拳",
+        "篮球",
+        "工间操"
+      ],
+      "value_pool": [
+        "广场舞",
+        "羽毛球",
+        "太极拳",
+        "篮球",
+        "工间操"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdydj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "国家三级",
+        "三级"
+      ],
+      "value_pool": [
+        "国家三级",
+        "三级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021-10-27",
+        "2021-12-08",
+        "2024年11月19日"
+      ],
+      "value_pool": [
+        "2021-10-27",
+        "2021-12-08",
+        "2024年11月19日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssqx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "任城区"
+      ],
+      "value_pool": [
+        "任城区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "白**",
+        "曹**",
+        "陈**",
+        "程**",
+        "楚**",
+        "崔**",
+        "邓**",
+        "杜**",
+        "冯**",
+        "宫**",
+        "郭**",
+        "贺**",
+        "胡**",
+        "姜**",
+        "李**",
+        "刘**",
+        "马**",
+        "孟**",
+        "潘**",
+        "屈**",
+        "谭**",
+        "田**",
+        "汪**",
+        "王**",
+        "魏**",
+        "吴**",
+        "谢**",
+        "徐**",
+        "宣**",
+        "张**",
+        "赵**",
+        "郑**",
+        "朱**",
+        "庄**",
+        "杨**",
+        "靖**",
+        "奕**",
+        "范**",
+        "袁**",
+        "宁**",
+        "盛**",
+        "季**",
+        "任*",
+        "蔡**",
+        "王*",
+        "肖*",
+        "常*",
+        "高**",
+        "顾**",
+        "赵*",
+        "梁*",
+        "李*",
+        "吕**",
+        "付**",
+        "辛**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

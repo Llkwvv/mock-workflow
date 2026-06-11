@@ -1,0 +1,127 @@
+{
+  "file_name": "济宁市公交线路信息202512261139.xlsx",
+  "table_name": "济宁市公交线路信息202512261139",
+  "row_count": 3,
+  "columns": [
+    "xlmc",
+    "yxsj",
+    "qszd",
+    "ytjtzd",
+    "pj",
+    "xzqh",
+    "sjly"
+  ],
+  "fields": [
+    {
+      "name": "xlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "201路",
+        "103"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "夏季主站首末班时间：早6:15，晚19:50，副站末班时间：晚18:30；冬季主站首末班时间：早6:15，晚19:20，副站末班时间：晚18:10",
+        "6:10-18:30",
+        "12小时10分"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qszd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁健康护理学院(始发站）至济宁源尚农产品批发市场（终点站）",
+        "西关大集-疃里杨庄",
+        "汽车站-郭里"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ytjtzd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁健康护理学院、人民医院西院区西门、人民医院西院区北门、人民医院西院区东门、任城人力资源市场、八里庙西社区、八里庙运河大桥、鲁商运河公馆南门、济安医院、大悲庵、济宁老年医院、电厂公铁立交、南池水景园北门、博古庄、南池公园、来鹤小区、宏乐口腔医院、柳巷口桥、解放桥、东大寺、龙贵购物中心、济宁学院附属中学、太东市场（清华宾馆）、济宁第一职业中专（上行）、银座商城、琵琶山大市场（上行）、第二人民医院、明珠花园、银都花园、皇营、如意嘉园、四方驾校、新华物流、凌云小区、万丽富德广场、杨柳国际新城西门、东三路口、杨柳微枢纽、如意公寓、济宁源尚农产品批发市场",
+        "徐庄路口",
+        "汽车站、小贾庄、大贾庄、北宿中学、变电所、北宿卫生院、北宿镇政府、北宿矿、北宿矿家属区、吴官庄、落陵煤矿、工业新城、马楼、航管处，太平镇、太平交管所、太平西、荣信化工厂、北亢、南亢、高庄、夹道、果庄、玉米加工厂、卧牛村、西郭村西、旺山庄、郭里镇交管所、郭里商贸城"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "12月-3月、6月-9月票价2元;4月、5月、10月、11月票价1元",
+        "2",
+        "1"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzqh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区",
+        "嘉祥县",
+        "邹城市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新正义公共汽车有限公司",
+        "济宁市公共交通集团有限公司嘉祥分公司",
+        "邹城市国运公共交通有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

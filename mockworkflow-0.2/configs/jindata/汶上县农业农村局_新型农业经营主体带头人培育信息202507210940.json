@@ -1,0 +1,146 @@
+{
+  "file_name": "汶上县农业农村局_新型农业经营主体带头人培育信息202507210940.xlsx",
+  "table_name": "汶上县农业农村局_新型农业经营主体带头人培育信息202507210940",
+  "row_count": 48,
+  "columns": [
+    "zj",
+    "ry",
+    "xb",
+    "whcd",
+    "pxdd"
+  ],
+  "fields": [
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "南旺镇",
+        "康驿镇",
+        "中都街道"
+      ],
+      "value_pool": [
+        "南旺镇",
+        "康驿镇",
+        "中都街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "陈广柬",
+        "陈中财",
+        "陈中雨",
+        "付进昌",
+        "付士勤",
+        "付五星",
+        "付长记",
+        "高庆安",
+        "郭根顺",
+        "郭金光",
+        "郭克良",
+        "郭学才",
+        "郭学军",
+        "郭延青",
+        "何敬强",
+        "胡凤",
+        "贾维连",
+        "孔德犁",
+        "李秋分",
+        "李兆国",
+        "李中会",
+        "刘波",
+        "刘浩",
+        "刘树和",
+        "刘忠民",
+        "陆培培",
+        "宋连潇",
+        "苏进富",
+        "田宪连",
+        "王继双",
+        "王建国",
+        "王瑞恩",
+        "王申文",
+        "王绪强",
+        "王兆坤",
+        "王振玉",
+        "徐灿柚",
+        "徐兆池",
+        "闫存才",
+        "闫存臣",
+        "张建坤",
+        "张如诗",
+        "张玉坦",
+        "赵建珠",
+        "赵连法",
+        "郑龙德",
+        "周传奎"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "whcd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "初中",
+        "高中"
+      ],
+      "value_pool": [
+        "初中",
+        "高中"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东卓荣农业服务有限公司"
+      ],
+      "value_pool": [
+        "山东卓荣农业服务有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "file_name": "微山县固定式喷灌发展情况表202504231518.xlsx",
+  "table_name": "微山县固定式喷灌发展情况表202504231518",
+  "row_count": 30,
+  "columns": [
+    "cz",
+    "pgmjgqgc1",
+    "szxq",
+    "szxz",
+    "jssf"
+  ],
+  "fields": [
+    {
+      "name": "cz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "界牌口",
+        "王庄",
+        "箭道",
+        "谢桥",
+        "徐村",
+        "前寨门口",
+        "吴庄",
+        "后朱庄",
+        "张庄",
+        "张楼",
+        "前朱庄",
+        "于桥",
+        "大王庙",
+        "李集",
+        "赵庄",
+        "袁堂",
+        "崔庄",
+        "二龙岗",
+        "乔岗",
+        "高谷堆",
+        "陈楼",
+        "岱庄",
+        "珠梅集",
+        "苏庄",
+        "上辛庄",
+        "鲁南"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pgmjgqgc1",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "66.7",
+        "33.3",
+        "6.7",
+        "13.3",
+        "16.7",
+        "26.7",
+        "8.0",
+        "80.0",
+        "20.0",
+        "36.7",
+        "53.3",
+        "10.0",
+        "30.0",
+        "90.0",
+        "17.3",
+        "46.7",
+        "842.1"
+      ],
+      "min_value": 6.7,
+      "max_value": 842.1
+    },
+    {
+      "name": "szxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县"
+      ],
+      "value_pool": [
+        "微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "欢 城",
+        "两 城",
+        "夏 镇",
+        "欢城",
+        "付村",
+        "两城",
+        "合 计",
+        "驩城镇"
+      ],
+      "value_pool": [
+        "欢 城",
+        "两 城",
+        "夏 镇",
+        "欢城",
+        "付村",
+        "两城",
+        "合 计",
+        "驩城镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jssf",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1990-1991",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000"
+      ],
+      "value_pool": [
+        "1990-1991",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000"
+      ],
+      "min_value": 1995.0,
+      "max_value": 2000.0
+    }
+  ]
+}

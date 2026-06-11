@@ -1,0 +1,113 @@
+{
+  "file_name": "公路工程建筑企业信息_0.csv",
+  "table_name": "公路工程建筑企业信息_0",
+  "row_count": 21,
+  "columns": [
+    "hyml",
+    "qyzwm",
+    "hydm",
+    "tyshxydm"
+  ],
+  "fields": [
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 建筑业-E"
+      ],
+      "value_pool": [
+        " 建筑业-E"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyzwm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 山东威涵路桥工程有限公司汶上分公司",
+        " 济宁山风公路工程有限公司",
+        " 汶上县美都路桥工程有限公司",
+        " 济宁鑫辉建筑加固工程有限公司",
+        " 中铁一局集团第五工程有限公司济宁制梁场",
+        " 山东瀚江建筑工程有限公司",
+        " 山东稷隆建筑工程有限公司",
+        " 曲阜市永兴路桥有限公司汶上县第一分公司",
+        " 济宁俐佳公路工程有限公司",
+        " 济宁市公路工程公司汶上工程部",
+        " 济宁联丰公路养护工程有限公司",
+        " 曲阜市永兴路桥有限公司汶上县第二分公司",
+        " 汶上县兴合公路养护工程有限公司",
+        " 汶上县民仓路桥工程有限公司",
+        " 汶上县忠仓路桥工程有限公司",
+        " 济宁沛鑫建筑劳务有限公司",
+        " 山东佳迅路桥有限公司",
+        " 山东森岗建设工程有限公司",
+        " 山东华清公路养护有限公司",
+        " 山东智达公路养护工程有限公司",
+        " 汶上鸿鹄公路工程有限责任公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 4812|    公路工程建筑   "
+      ],
+      "value_pool": [
+        " 4812|    公路工程建筑   "
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 91370830MA3DNDP39D",
+        " 91370830MA3NFLY17G",
+        " 91370830MA3P8LU66X",
+        " 91370830MA3QQ02F3X",
+        " 91370830MA3QKA7H67",
+        " 91370830MA3QD9BD8A",
+        " 91370830MA3QDT3EXR",
+        " 91370830MA3F36BY7E",
+        " 91370830MA3M885186",
+        " 91370830MA3HJQWW8B",
+        " 91370830MA3CBL6D5M",
+        " 91370830MA3M4X9E6W",
+        " 91370830MA3N20L08L",
+        " 91370830MA3N4UFX26",
+        " 91370830MA3N4UGD5L",
+        " 91370830MA3T9H3C16",
+        " 91370830MA3TFH074P",
+        " 91370830MA3TJDT96X",
+        " 91370830MA3TJHM33Y",
+        " 91370830MA3TGX7P5H",
+        " 91370830MA3TLGYH2M"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "file_name": "鱼台县民政局_鱼台持证社会工作人才信息202508010120.xlsx",
+  "table_name": "鱼台县民政局_鱼台持证社会工作人才信息202508010120",
+  "row_count": 16,
+  "columns": [
+    "gzdd",
+    "姓名",
+    "jg",
+    "xb",
+    "mz",
+    "fwlyhyjfx"
+  ],
+  "fields": [
+    {
+      "name": "gzdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵**",
+        "随**",
+        "刘**",
+        "孟**",
+        "马**",
+        "王**",
+        "杨**",
+        "武**",
+        "焦**",
+        "段**",
+        "姜**",
+        "纪**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东鱼台",
+        "山东济宁任城区",
+        "山东淄博",
+        "山东潍坊"
+      ],
+      "value_pool": [
+        "山东鱼台",
+        "山东济宁任城区",
+        "山东淄博",
+        "山东潍坊"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女",
+        "男性",
+        "女性"
+      ],
+      "value_pool": [
+        "男",
+        "女",
+        "男性",
+        "女性"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwlyhyjfx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "direction",
+      "enum_values": [
+        "社会救助社会工作",
+        "学校社会工作",
+        "社区社会工作",
+        "医务社会工作",
+        "企业社会工作"
+      ],
+      "value_pool": [
+        "社会救助社会工作",
+        "学校社会工作",
+        "社区社会工作",
+        "医务社会工作",
+        "企业社会工作"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

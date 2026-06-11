@@ -1,0 +1,134 @@
+{
+  "file_name": "鱼台县退役军人事务局_符合政府安排工作转业士官信息202508010147.xlsx",
+  "table_name": "鱼台县退役军人事务局_符合政府安排工作转业士官信息202508010147",
+  "row_count": 26,
+  "columns": [
+    "azsj",
+    "rwd",
+    "azd",
+    "姓名",
+    "xl",
+    "rwsj"
+  ],
+  "fields": [
+    {
+      "name": "azsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023年9月"
+      ],
+      "value_pool": [
+        "2023年9月"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rwd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "济宁市鱼台县"
+      ],
+      "value_pool": [
+        "济宁市鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "azd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "周**",
+        "刘**",
+        "阚**",
+        "梅**",
+        "柴**",
+        "李**",
+        "王**",
+        "岳**",
+        "冯**",
+        "樊**",
+        "吴**",
+        "马**",
+        "申**",
+        "曹**",
+        "黄**",
+        "谢**",
+        "白**",
+        "陈**",
+        "石**",
+        "高**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "大专"
+      ],
+      "value_pool": [
+        "大专"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rwsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2006.12",
+        "2009.12",
+        "2005.12",
+        "2010.12"
+      ],
+      "value_pool": [
+        "2006.12",
+        "2009.12",
+        "2005.12",
+        "2010.12"
+      ],
+      "min_value": 2005.12,
+      "max_value": 2010.12
+    }
+  ]
+}

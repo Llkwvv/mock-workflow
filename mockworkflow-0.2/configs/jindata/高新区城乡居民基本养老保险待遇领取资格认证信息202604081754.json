@@ -1,0 +1,222 @@
+{
+  "file_name": "高新区城乡居民基本养老保险待遇领取资格认证信息202604081754.xlsx",
+  "table_name": "高新区城乡居民基本养老保险待遇领取资格认证信息202604081754",
+  "row_count": 501,
+  "columns": [
+    "zjlx",
+    "jtsqmc",
+    "bljg",
+    "blsx",
+    "zjhm",
+    "blr",
+    "xb",
+    "sqrxm"
+  ],
+  "fields": [
+    {
+      "name": "zjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "身份证"
+      ],
+      "value_pool": [
+        "身份证"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtsqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "接庄街道办事处"
+      ],
+      "value_pool": [
+        "接庄街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bljg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "办结"
+      ],
+      "value_pool": [
+        "办结"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blsx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "城乡居民基本养老保险待遇领取资格认证"
+      ],
+      "value_pool": [
+        "城乡居民基本养老保险待遇领取资格认证"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********14",
+        "370811**********15",
+        "370811**********51",
+        "370811**********22",
+        "370811**********13",
+        "370811**********49",
+        "370811**********16",
+        "370811**********23",
+        "370811**********94",
+        "370811**********28",
+        "370811**********1X",
+        "370811**********17",
+        "370811**********30",
+        "370811**********64",
+        "370811**********4X",
+        "370811**********20",
+        "370811**********39",
+        "370811**********41",
+        "370811**********18",
+        "370811**********59",
+        "370811**********32",
+        "370811**********11",
+        "370811**********21",
+        "370811**********27",
+        "370811**********3X",
+        "370811**********6X",
+        "370811**********36",
+        "370811**********25",
+        "370811**********7X",
+        "370811**********58",
+        "370811**********53",
+        "370811**********2X",
+        "370811**********37",
+        "370811**********48",
+        "370822**********24",
+        "370811**********12",
+        "370811**********52",
+        "370811**********40",
+        "370811**********43",
+        "370811**********10",
+        "370811**********60",
+        "370811**********19",
+        "370811**********42",
+        "370811**********24",
+        "370811**********54",
+        "370811**********35",
+        "370811**********31"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "接庄街道办事处"
+      ],
+      "value_pool": [
+        "接庄街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "常**",
+        "邢**",
+        "潘**",
+        "郑**",
+        "李**",
+        "胡**",
+        "黄**",
+        "冯**",
+        "任**",
+        "储**",
+        "陈**",
+        "秦**",
+        "段**",
+        "焦**",
+        "顾**",
+        "郭**",
+        "刘**",
+        "宋**",
+        "朱**",
+        "薛**",
+        "董**",
+        "高**",
+        "石**",
+        "白**",
+        "阚**",
+        "王**",
+        "乔**",
+        "姜**",
+        "候**",
+        "马**",
+        "孙**",
+        "吴**",
+        "赵**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

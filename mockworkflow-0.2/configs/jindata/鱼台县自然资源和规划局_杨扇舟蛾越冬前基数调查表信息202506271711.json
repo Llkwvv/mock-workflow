@@ -1,0 +1,371 @@
+{
+  "file_name": "鱼台县自然资源和规划局_杨扇舟蛾越冬前基数调查表信息202506271711.xlsx",
+  "table_name": "鱼台县自然资源和规划局_杨扇舟蛾越冬前基数调查表信息202506271711",
+  "row_count": 39,
+  "columns": [
+    "dczs",
+    "bzdks",
+    "swl",
+    "yfdcmj",
+    "dbmjm",
+    "zht",
+    "zgdzck",
+    "swyy",
+    "dd",
+    "zcks",
+    "ct",
+    "cxb",
+    "dcsj",
+    "czlhbzl",
+    "ycbzs",
+    "hcks",
+    "ckmdgbzst"
+  ],
+  "fields": [
+    {
+      "name": "dczs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "20"
+      ],
+      "value_pool": [
+        "20"
+      ],
+      "min_value": 20.0,
+      "max_value": 20.0
+    },
+    {
+      "name": "bzdks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "swl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "yfdcmj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "667"
+      ],
+      "value_pool": [
+        "667"
+      ],
+      "min_value": 667.0,
+      "max_value": 667.0
+    },
+    {
+      "name": "dbmjm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1500"
+      ],
+      "value_pool": [
+        "1500"
+      ],
+      "min_value": 1500.0,
+      "max_value": 1500.0
+    },
+    {
+      "name": "zht",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "zgdzck",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "1",
+        "2"
+      ],
+      "value_pool": [
+        "0",
+        "1",
+        "2"
+      ],
+      "min_value": 0.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "swyy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "清河镇刘楼村北",
+        "省道251振南木耳西",
+        "王庙镇高速路口西谢路",
+        "王庙镇348线大李村段",
+        "谷亭街道西渡口方向",
+        "谷亭街道胡集东鱼河堤",
+        "老砦镇南田北河堤",
+        "张黄镇老万福河堤",
+        "王鲁镇惠河堤",
+        "滨湖街道连接线河堤",
+        "谷亭王子亮干渠",
+        "唐马镇甄庄",
+        "清河镇石集村干渠",
+        "王鲁镇王鲁村",
+        "滨湖街道马石庄",
+        "谷亭街道缪集村",
+        "张黄镇陈店村",
+        "滨湖街道陈年村",
+        "鱼城镇杨邵村",
+        "唐马镇随庄村干渠",
+        "滨湖街道高庄河堤",
+        "唐马镇随庄干渠",
+        "谷亭街道王子亮村沟渠",
+        "谷亭街道胡集东鱼河桥西",
+        "老砦镇刘寨村复新河大桥东",
+        "王鲁镇老万福河桥东河堤",
+        "张黄镇陈店苗圃",
+        "张黄镇陈店排灌站",
+        "张黄镇樊庄村干渠",
+        "张黄镇杈王至于梅路",
+        "清河镇盛洼桥东327国道北侧",
+        "罗屯镇冯楼村东干渠",
+        "王庙镇树李桥西南侧",
+        "李阁镇太公庙村围村林"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "0",
+        "1",
+        "4",
+        "2"
+      ],
+      "value_pool": [
+        "0",
+        "1",
+        "4",
+        "2"
+      ],
+      "min_value": 0.0,
+      "max_value": 4.0
+    },
+    {
+      "name": "ct",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "蛹",
+        "幼虫"
+      ],
+      "value_pool": [
+        "蛹",
+        "幼虫"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cxb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "dcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "11.04",
+        "11.05",
+        "11.07",
+        "11.08",
+        "11.09",
+        "11.1",
+        "11.7",
+        "11.8",
+        "11.9",
+        "11.11",
+        "2025.03.04",
+        "2025.03.05",
+        "2025.03.06",
+        "2025.03.07",
+        "2025.03.08"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czlhbzl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "5",
+        "10"
+      ],
+      "value_pool": [
+        "0",
+        "5",
+        "10"
+      ],
+      "min_value": 0.0,
+      "max_value": 10.0
+    },
+    {
+      "name": "ycbzs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "1",
+        "2"
+      ],
+      "value_pool": [
+        "0",
+        "1",
+        "2"
+      ],
+      "min_value": 0.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "hcks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "0",
+        "1",
+        "4",
+        "2"
+      ],
+      "value_pool": [
+        "0",
+        "1",
+        "4",
+        "2"
+      ],
+      "min_value": 0.0,
+      "max_value": 4.0
+    },
+    {
+      "name": "ckmdgbzst",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "1",
+        "2"
+      ],
+      "value_pool": [
+        "0",
+        "1",
+        "2"
+      ],
+      "min_value": 0.0,
+      "max_value": 2.0
+    }
+  ]
+}

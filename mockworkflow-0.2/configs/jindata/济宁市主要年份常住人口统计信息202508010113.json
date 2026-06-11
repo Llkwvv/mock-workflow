@@ -1,0 +1,121 @@
+{
+  "file_name": "济宁市主要年份常住人口统计信息202508010113.xlsx",
+  "table_name": "济宁市主要年份常住人口统计信息202508010113",
+  "row_count": 14,
+  "columns": [
+    "nd",
+    "nmczrkwr",
+    "czrkwr",
+    "nyrkwr"
+  ],
+  "fields": [
+    {
+      "name": "nd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1990年",
+        "1995年",
+        "2000年",
+        "2005年",
+        "2010年",
+        "2015年",
+        "2016年",
+        "2017年",
+        "2018年",
+        "2019年",
+        "2020年",
+        "2021年",
+        "2022年",
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nmczrkwr",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "727.06",
+        "761.74",
+        "786.3",
+        "805.78",
+        "808.2",
+        "823.1",
+        "829.3",
+        "834.6",
+        "834.8",
+        "835.8",
+        "836.07",
+        "833.65",
+        "829.06",
+        "824.05"
+      ],
+      "min_value": 727.06,
+      "max_value": 836.07
+    },
+    {
+      "name": "czrkwr",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "93.07",
+        "123.42",
+        "187.05",
+        "210.37",
+        "347.3",
+        "436.07",
+        "460.8",
+        "480.13",
+        "492.18",
+        "493.17",
+        "502.39",
+        "510.1",
+        "513.85",
+        "519.55"
+      ],
+      "min_value": 93.07,
+      "max_value": 519.55
+    },
+    {
+      "name": "nyrkwr",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "633.99",
+        "638.32",
+        "599.25",
+        "595.41",
+        "266.1",
+        "436.1",
+        "368.5",
+        "354.47",
+        "342.62",
+        "342.63",
+        "333.68",
+        "323.55",
+        "315.21",
+        "304.5"
+      ],
+      "min_value": 266.1,
+      "max_value": 638.32
+    }
+  ]
+}

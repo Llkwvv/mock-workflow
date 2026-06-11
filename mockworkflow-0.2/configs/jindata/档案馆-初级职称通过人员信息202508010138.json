@@ -1,0 +1,151 @@
+{
+  "file_name": "档案馆-初级职称通过人员信息202508010138.xlsx",
+  "table_name": "档案馆-初级职称通过人员信息202508010138",
+  "row_count": 32,
+  "columns": [
+    "sbzc",
+    "xl",
+    "dw",
+    "姓名",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "sbzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "助理馆员",
+        "管理员"
+      ],
+      "value_pool": [
+        "助理馆员",
+        "管理员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "大学",
+        "研究生",
+        "中专",
+        "大专",
+        "大学/学士",
+        "大学/无",
+        "大专/无"
+      ],
+      "value_pool": [
+        "大学",
+        "研究生",
+        "中专",
+        "大专",
+        "大学/学士",
+        "大学/无",
+        "大专/无"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县医疗保障服务中心",
+        "嘉祥县社会保险事业中心",
+        "嘉祥县人民医院",
+        "嘉祥县职业中等专业学校",
+        "山东唐宁商业运营管理有限公司",
+        "嘉祥县市政工程设施管理办公室",
+        "山东诚祥建设集团股份有限公司",
+        "嘉祥县公共就业和人才服务中心",
+        "嘉祥县园林环卫事务中心",
+        "山东省嘉祥县公证处",
+        "嘉祥县中医院",
+        "嘉祥县不动产登记中心",
+        "嘉祥县人才交流服务中心",
+        "山东萌山钢构工程有限公司",
+        "嘉祥县机关事业单位社会保险事业处",
+        "济宁建祥测绘有限公司",
+        "嘉祥县土地勘测规划站",
+        "嘉祥县食品药品稽查大队",
+        "嘉祥县就业办公室",
+        "嘉祥县土地整理中心",
+        "嘉祥广播电视台",
+        "嘉祥县档案馆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孙*",
+        "张**",
+        "闫*",
+        "董**",
+        "高**",
+        "武**",
+        "贾*",
+        "陈**",
+        "国**",
+        "郭**",
+        "孙**",
+        "李**",
+        "金**",
+        "王**",
+        "靳**",
+        "任*",
+        "齐*",
+        "曹*",
+        "赵**",
+        "狄**",
+        "晁**",
+        "王*",
+        "任**",
+        "刘**",
+        "梁*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

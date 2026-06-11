@@ -1,0 +1,160 @@
+{
+  "file_name": "鱼台县司法局-社区矫正业务培训台帐信息202506271712.xlsx",
+  "table_name": "鱼台县司法局-社区矫正业务培训台帐信息202506271712",
+  "row_count": 43,
+  "columns": [
+    "pxdd",
+    "pxxg",
+    "pxnr",
+    "pxsj",
+    "pxr",
+    "cxry"
+  ],
+  "fields": [
+    {
+      "name": "pxdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县司法局六楼会议室",
+        "鱼台县司法局四楼小会议室",
+        "鱼台县司法局四楼会议室"
+      ],
+      "value_pool": [
+        "鱼台县司法局六楼会议室",
+        "鱼台县司法局四楼小会议室",
+        "鱼台县司法局四楼会议室"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxxg",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "较好",
+        "良好"
+      ],
+      "value_pool": [
+        "较好",
+        "良好"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "《中华人民共和国社区矫正法》",
+        "《中华人民共和国社区矫正法实施办法》",
+        "《社区矫正法执法文书格式（试行）》",
+        "《暂予监外执行规定》",
+        "司法行政基层工作信息管理平台",
+        "《山东省社区矫正实施细则（试行）》",
+        "新入职公务员社区矫正业务培训",
+        "《济宁市社区矫正工作指引（试行）》",
+        "《济宁市社区矫正档案文书格式（试行）》",
+        "济宁市“云矫务”平台使用",
+        "《济宁市社区矫正对象信息化\n核查工作管理暂行规定》",
+        "《中华人民共和国社区矫正法》实施一周年业务培训",
+        "山东省智慧矫正平台业务培训",
+        "司法部统计管理系统业务培训",
+        "全国安置帮教工作信息管理系统业务培训",
+        "山东省智慧矫正平台",
+        "济宁云矫务平台使用"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020.7",
+        "2020.11",
+        "2020.12",
+        "2021.2",
+        "2021.4",
+        "2021.6",
+        "2021.7",
+        "2021.9",
+        "2021.1",
+        "2021.11",
+        "2021.12",
+        "2022.1",
+        "2022.2",
+        "2022.3",
+        "2022.4",
+        "2022.5",
+        "2022.6",
+        "2022.7",
+        "2022.8",
+        "2022.9"
+      ],
+      "min_value": 2020.11,
+      "max_value": 2022.9
+    },
+    {
+      "name": "pxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "张国亮、任祥",
+        "张国亮、尹洪庆",
+        "张国亮、李奇",
+        "张国亮",
+        "张国亮、甄赛",
+        "张*亮、尹*庆"
+      ],
+      "value_pool": [
+        "张国亮、任祥",
+        "张国亮、尹洪庆",
+        "张国亮、李奇",
+        "张国亮",
+        "张国亮、甄赛",
+        "张*亮、尹*庆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cxry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "各司法所社区矫正工作人员",
+        "新入职公务员（社区矫正岗位）"
+      ],
+      "value_pool": [
+        "各司法所社区矫正工作人员",
+        "新入职公务员（社区矫正岗位）"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

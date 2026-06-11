@@ -1,0 +1,138 @@
+{
+  "file_name": "金乡工业和信息化局攀登企业名单202506302135.xlsx",
+  "table_name": "金乡工业和信息化局攀登企业名单202506302135",
+  "row_count": 27,
+  "columns": [
+    "sscy",
+    "tjsj",
+    "qylx",
+    "lsyqzj",
+    "qymc"
+  ],
+  "fields": [
+    {
+      "name": "sscy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高端化工",
+        "新材料",
+        "食品加工",
+        "高端装备"
+      ],
+      "value_pool": [
+        "高端化工",
+        "新材料",
+        "食品加工",
+        "高端装备"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021"
+      ],
+      "value_pool": [
+        "2021"
+      ],
+      "min_value": 2021.0,
+      "max_value": 2021.0
+    },
+    {
+      "name": "qylx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "领军企业",
+        "骨干企业",
+        "龙头企业",
+        "高成长企业"
+      ],
+      "value_pool": [
+        "领军企业",
+        "骨干企业",
+        "龙头企业",
+        "高成长企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lsyqzj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "新材料产业园",
+        "食品产业园",
+        "高端装备产业园",
+        "高河街道",
+        "王丕街道",
+        "马庙镇"
+      ],
+      "value_pool": [
+        "新材料产业园",
+        "食品产业园",
+        "高端装备产业园",
+        "高河街道",
+        "王丕街道",
+        "马庙镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东亿盛实业股份有限公司",
+        "济宁亚科新材料科技有限公司",
+        "山东硅科新材料有限公司",
+        "山东炜杰化工科技有限公司",
+        "山东汇能新材料科技股份有限公司",
+        "凯赛（金乡）生物材料有限公司",
+        "如鲲（山东）新材料科技有限公司",
+        "济宁南天农科化工有限公司",
+        "山东同利新材料有限公司",
+        "山东巨能兴业新型材料科技发展有限公司",
+        "金乡稻香村食品有限公司/稻香村食品集团（金乡）有限公司",
+        "金乡县万兴食品有限公司",
+        "山东鑫诺食品科技有限公司",
+        "山东轩逸食品有限公司",
+        "山东金人电气有限公司",
+        "山东省金曼克电气集团股份有限公司",
+        "山东雷迈新能源车业有限公司",
+        "鲁特电工股份有限公司",
+        "山东北电电气有限公司",
+        "山东亿九电气发展有限公司",
+        "山东奇立伟肥业股份有限公司",
+        "山东睿安海纳生物科技有限公司",
+        "济宁市朝源食品科技有限公司",
+        "山东省玛丽亚农业机械股份有限公司",
+        "山东恒昌新材料科技股份有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

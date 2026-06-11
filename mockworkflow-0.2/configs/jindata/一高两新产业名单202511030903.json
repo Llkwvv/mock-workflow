@@ -1,0 +1,134 @@
+{
+  "file_name": "一高两新产业名单202511030903.xlsx",
+  "table_name": "一高两新产业名单202511030903",
+  "row_count": 21,
+  "columns": [
+    "qymc",
+    "pxh",
+    "hydm",
+    "hylb",
+    "qy"
+  ],
+  "fields": [
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东莱特光电科技有限公司",
+        "济宁市宁宇聚氨酯有限公司",
+        "山东嘉源塑胶科技股份有限公司",
+        "山东楷益塑业科技有限公司",
+        "济宁市华祥石墨制品有限公司",
+        "济宁经济开发区亿能钢构有限公司",
+        "济宁市惠德金属制品有限公司",
+        "济宁经济开发区冠宇钢管有限公司",
+        "济宁中祥金属制品有限公司",
+        "济宁钰昌金属制品有限公司",
+        "济宁晟旺金属制品有限公司",
+        "山东建国成辉工程材料有限公司",
+        "济宁市星宇机械有限公司",
+        "山东凯诺尔机电工程有限公司",
+        "济宁久邦工程机械设备有限公司",
+        "济宁天力建筑设备有限公司",
+        "山东基信机械科技有限公司",
+        "山东瑞祥模具有限公司",
+        "鑫达铝业（山东）有限公司",
+        "济宁智德诚金属制品有限公司",
+        "山东中矿重工机械集团有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "min_value": 1.0,
+      "max_value": 21.0
+    },
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "****"
+      ],
+      "value_pool": [
+        "****"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "高端装备、新能源",
+        "新材料",
+        "高端装备"
+      ],
+      "value_pool": [
+        "高端装备、新能源",
+        "新材料",
+        "高端装备"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经开区"
+      ],
+      "value_pool": [
+        "经开区"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

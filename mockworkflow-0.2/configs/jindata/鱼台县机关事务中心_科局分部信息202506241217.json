@@ -1,0 +1,134 @@
+{
+  "file_name": "鱼台县机关事务中心_科局分部信息202506241217.xlsx",
+  "table_name": "鱼台县机关事务中心_科局分部信息202506241217",
+  "row_count": 23,
+  "columns": [
+    "xckj",
+    "l",
+    "c",
+    "dckj",
+    "gxjg"
+  ],
+  "fields": [
+    {
+      "name": "xckj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "机关工委",
+        "科协",
+        "机要局",
+        "宣传部",
+        "人大",
+        "妇联",
+        "县委办",
+        "组织部",
+        "纪委",
+        "网信办",
+        "文旅事业中心",
+        "物业",
+        "政府办",
+        "发改局",
+        "统计局",
+        "医保局",
+        "文化旅游局",
+        "审计局",
+        "财政局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "l",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县委大楼",
+        "政府大楼",
+        "银座佳悦"
+      ],
+      "value_pool": [
+        "县委大楼",
+        "政府大楼",
+        "银座佳悦"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "c",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "16",
+        "17"
+      ],
+      "min_value": 1.0,
+      "max_value": 17.0
+    },
+    {
+      "name": "dckj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "组织部",
+        "配电室",
+        "党史办",
+        "编办",
+        "人大",
+        "政协",
+        "县委办",
+        "纪委",
+        "总工会",
+        "文旅局",
+        "政府办",
+        "商务局",
+        "发改局",
+        "统计局",
+        "财政局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县机关事务中心"
+      ],
+      "value_pool": [
+        "鱼台县机关事务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

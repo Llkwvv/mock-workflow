@@ -1,0 +1,150 @@
+{
+  "file_name": "汶上县骨干教师信息202508010203.xlsx",
+  "table_name": "汶上县骨干教师信息202508010203",
+  "row_count": 42,
+  "columns": [
+    "gbsj",
+    "rych",
+    "xsq",
+    "xx",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "gbsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44228"
+      ],
+      "value_pool": [
+        "44228"
+      ],
+      "min_value": 44228.0,
+      "max_value": 44228.0
+    },
+    {
+      "name": "rych",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县骨干教师"
+      ],
+      "value_pool": [
+        "汶上县骨干教师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "白石镇中学",
+        "汶上圣泽中学",
+        "汶上县第一实验中学",
+        "汶上县第五实验中学",
+        "康驿镇第二中学",
+        "康驿镇颜珠小学",
+        "汶上县第四实验小学东门校区",
+        "义桥镇九华小学",
+        "苑庄镇中学",
+        "刘楼镇中学",
+        "汶上县特殊教育学校",
+        "汶上县第一中学",
+        "郭楼镇阳坝小学",
+        "汶上县第四实验小学小楼校区",
+        "刘楼镇河东小学",
+        "康驿镇中心小学",
+        "南旺镇第二中学",
+        "杨店镇中学",
+        "汶上县第五实验小学东和园校区",
+        "汶上县第六实验小学",
+        "寅寺镇中心小学",
+        "郭仓镇中学",
+        "郭楼镇中学",
+        "寅寺镇中学",
+        "南站镇中学",
+        "义桥镇中学",
+        "汶上县第一实验小学",
+        "汶上县第四实验中学",
+        "白石镇李庄小学",
+        "军屯乡明德小学",
+        "苑庄镇田村小学",
+        "汶上县第六实验中学中都国际部",
+        "军屯乡中学",
+        "汶上县开发区中心幼儿园",
+        "汶上县第二实验中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "马**",
+        "王**",
+        "尹**",
+        "韦**",
+        "刘**",
+        "孙**",
+        "朱**",
+        "齐**",
+        "任**",
+        "杨***",
+        "李**",
+        "李***",
+        "宋**",
+        "张**",
+        "郑***",
+        "周**",
+        "林**",
+        "胡**",
+        "徐**",
+        "徐***",
+        "郭**",
+        "高***",
+        "姬**",
+        "曹***",
+        "景**",
+        "路**",
+        "谭**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "file_name": "鱼台县检验检测中心_设备检定信息202506241200.xlsx",
+  "table_name": "鱼台县检验检测中心_设备检定信息202506241200",
+  "row_count": 58,
+  "columns": [
+    "jdjzrq",
+    "tjnf",
+    "xhgg",
+    "fzdd",
+    "yqmc"
+  ],
+  "fields": [
+    {
+      "name": "jdjzrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022.10.14",
+        "2024.10.10"
+      ],
+      "value_pool": [
+        "2022.10.14",
+        "2024.10.10"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjnf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022年",
+        "2024年"
+      ],
+      "value_pool": [
+        "2022年",
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xhgg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "YP202N",
+        "QUINTIX224-1CN",
+        "AR1140",
+        "FA2204B",
+        "ESJ220-4B",
+        "QUINTIX213-1CN",
+        "YP1201N",
+        "CP225D",
+        "JA3003B",
+        "SPL-25D",
+        "SPX-150B",
+        "ZB-B",
+        "SAC-i",
+        "PZ-D-5",
+        "MP5002J",
+        "PHS-3C",
+        "JJSY30X8",
+        "DDS-11A",
+        "1-5L",
+        "10μL",
+        "RE-52AA",
+        "HH",
+        "GHP-9160",
+        "202-1AB",
+        "HWL-125",
+        "DHG-9245A",
+        "HH-S6",
+        "ZHPW-70",
+        "ZD-2",
+        "GSP-230",
+        "DH2500A"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "天平室",
+        "培养室",
+        "感官室",
+        "标液配制室",
+        "微生物室",
+        "理化室3",
+        "理化室2",
+        "高温室",
+        "灭菌室"
+      ],
+      "value_pool": [
+        "天平室",
+        "培养室",
+        "感官室",
+        "标液配制室",
+        "微生物室",
+        "理化室3",
+        "理化室2",
+        "高温室",
+        "灭菌室"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "电子天平",
+        "生化培养箱",
+        "白度计",
+        "自动旋光仪",
+        "液体相对密度天平",
+        "全自动天平密度仪",
+        "酸度计",
+        "圆形验粉筛",
+        "电导率仪",
+        "微量移液器",
+        "旋转蒸发仪",
+        "数显恒温水浴锅",
+        "隔水式恒温培养箱",
+        "电热恒温干燥箱",
+        "电热恒温水浴锅",
+        "恒温振荡培养箱",
+        "自动电位滴定仪",
+        "电热恒温培养箱"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

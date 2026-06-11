@@ -1,0 +1,161 @@
+{
+  "file_name": "鱼台县交通运输局_鱼台桥梁代码信息202506271918.xlsx",
+  "table_name": "鱼台县交通运输局_鱼台桥梁代码信息202506271918",
+  "row_count": 28,
+  "columns": [
+    "qldm",
+    "qhmc",
+    "qlmc",
+    "id",
+    "qhdm"
+  ],
+  "fields": [
+    {
+      "name": "qldm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "Y550370827L0010",
+        "X026370827L0030",
+        "Y206370827L0020",
+        "Y396370827L0010",
+        "Y208370827L0010",
+        "X028370827L0030",
+        "Y213370827L0010",
+        "X026370827L0020",
+        "X106370827L0010",
+        "Y207370827L0010",
+        "Y206370827L0010",
+        "X028370827L0020",
+        "Y193370827L0010",
+        "X027370827L0030",
+        "X027370827L0020",
+        "X027370827L0010",
+        "Y216370827L0010",
+        "X028370827L0010",
+        "Y216370827L0020",
+        "Y195370827L0010",
+        "X002370828L0040",
+        "X029370827L0010",
+        "X025370827L0020",
+        "X025370827L0010"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "冀马桥",
+        "大魏桥",
+        "乔庄桥",
+        "张庄桥",
+        "刘寨桥",
+        "双集桥",
+        "湾里桥",
+        "幸福桥",
+        "双合北桥",
+        "陈楼桥",
+        "杨庄桥",
+        "董庄桥",
+        "西姚桥",
+        "李阁桥",
+        "戚庄桥",
+        "旧城桥",
+        "郭河桥",
+        "渝河桥",
+        "路屯桥",
+        "郭庄桥",
+        "鱼清河桥",
+        "万福桥",
+        "苏鲁边桥",
+        "红卫河桥",
+        "鱼台县郭河桥",
+        "鱼台县渝河桥",
+        "鱼台县路屯桥",
+        "鱼台县郭庄桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "id",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "008A2C8A-8B7B-40AD-9C2E-7FCB2EB5324B",
+        "7DE6F4D5-C56B-4947-A01F-72FFAB3B3E9F",
+        "638FCACF-13F7-48DE-A7A6-0FD5D87C08F5",
+        "68E8BAFC-4E8B-4034-9075-B29D2C53F01F",
+        "EEA41BFD-80A8-43F4-9CB2-CE78088EF8A2",
+        "E51C7C8D-D636-43DD-B828-A5549C479A7C",
+        "752099EB-E115-4676-A8C1-F0BE3AEB2C47",
+        "9F65F988-2611-430B-A810-C678BB5DDB93",
+        "366DC0E6-A579-4604-9EFE-BA267CE5D108",
+        "F5DB4C0B-51A9-45D1-B9DB-1DCD4C25DE7F",
+        "630CBD8B-835B-4726-8069-193318E05D4C",
+        "302E638F-55BE-460B-B665-4C34710717ED",
+        "94D742F9-76BA-4821-BE07-22D79A1180B2",
+        "827DA01D-F132-4669-AAB8-AEF8DE037F0E",
+        "2F088BAC-C7D1-4C57-8A42-656FD9E9FCDA",
+        "B9D672BE-BBE4-40E1-A578-C3A62E252D1F",
+        "DA5489EE-C04D-4595-80AE-24B6CCE92CB6",
+        "3DBFA248-858D-430C-BDA9-C3D8C559A6FA",
+        "7E6A4B57-2185-4BBA-A2A5-FB76545851B8",
+        "D3615079-75C9-4600-A717-61FD3EFC9CD1",
+        "235852D3-CBC6-49ED-BFC2-E86E7375D27F",
+        "EDA6A1A2-8117-49F8-9611-DCE9EF6B3A3E",
+        "5F0866E3-2D2B-42D4-9E4B-5089EB90BC51",
+        "91226A75-50C9-4B26-8549-881E3F8C7C8F"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qhdm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370827"
+      ],
+      "value_pool": [
+        "370827"
+      ],
+      "min_value": 370827.0,
+      "max_value": 370827.0
+    }
+  ]
+}

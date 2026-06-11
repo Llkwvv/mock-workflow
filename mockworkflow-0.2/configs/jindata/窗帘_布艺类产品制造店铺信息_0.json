@@ -1,0 +1,94 @@
+{
+  "file_name": "窗帘_布艺类产品制造店铺信息_0.csv",
+  "table_name": "窗帘_布艺类产品制造店铺信息_0",
+  "row_count": 20,
+  "columns": [
+    "col",
+    "col1",
+    "col2"
+  ],
+  "fields": [
+    {
+      "name": "col",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "ЦКиооьиЩ╬ЭЄ╟а╠╣Й",
+        "ЦКиооьГВНзЄ╟а╠╣Й",
+        "ЦКиооь╪роИЄ╟а╠╣Й",
+        "ЦКиооь╬ЧнУЄ╟йн╣Й",
+        "ЦКиооь╩╙кЁба╨оҐПцеЄ╟╪с╧єоЗйш╣Й",
+        "ЦКиооьйФЖнЄ╟а╠╣Й",
+        "ЦКиооьЇ©а╛╦╠йЁфЇЁ╛йп",
+        "ЦКиооьҐ╗цЯЄ╟а╠╣Й",
+        "ЦКиооьЁ╛х╩Є╟а╠╣Й",
+        "ЦКиооь╨Л╦ёЄ╟а╠╡╪ру╣Й",
+        "ЦКиооь╧Пф╩Є╟а╠╣Й",
+        "ЦКиооьХСльнВЄ╟а╠╡╪ру╣Й",
+        "ЦКиооь©вб╔╡╪пп",
+        "ЦКиооьпюЇиЄ╟а╠╡╪ру╣Й",
+        "ЦКиооьа╠хГ╩ґЄ╟а╠╡╪ру╣Й",
+        "ЦКиооьпЦ╬уЄ╟а╠╡╪ру╣Й",
+        "ЦКиооьй╒тЄЄ╟а╠╡╪ру╣Й",
+        "ЦКиооькдрІ╡щЄ╟а╠",
+        "ЦКиооьблбэ╡╪ру╣Й",
+        "ЦКиооь╟ммЧ╧єруфЇ╪с╧єЁї"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "жфтЛр╣-C"
+      ],
+      "value_pool": [
+        "жфтЛр╣-C"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col2",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "92370830MA3EMTXE9G",
+        "92370830MA3EQQF70N",
+        "92370830MA3EYW8W00",
+        "92370830MA3MEC7E0E",
+        "92370830MA3MEJGY0D",
+        "92370830MA3MNJ9E16",
+        "92370830MA3MRX624Q",
+        "92370830MA3NXPFH6P",
+        "92370830MA3QFW910F",
+        "92370830MA3R09DM4C",
+        "92370830MA3RGWRY1M",
+        "92370830MA3RMG4N4F",
+        "92370830MA3RQCP6XJ",
+        "92370830MA3RQER68B",
+        "92370830MA3RTMY1XM",
+        "92370830MA3RXNFU00",
+        "92370830MA3TFY2J10",
+        "92370830MA3TQN943B",
+        "92370830MA3TQQPM0H",
+        "92370830MA3TUKD34M"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

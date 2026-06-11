@@ -1,0 +1,115 @@
+{
+  "file_name": "梁山县厕所改造信息202508010401_1.xlsx",
+  "table_name": "梁山县厕所改造信息202508010401_1",
+  "row_count": 46155,
+  "columns": [
+    "xz",
+    "gznf",
+    "cz",
+    "gcfs",
+    "hzxm"
+  ],
+  "fields": [
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "韩岗镇"
+      ],
+      "value_pool": [
+        "韩岗镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gznf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2017"
+      ],
+      "value_pool": [
+        "2017"
+      ],
+      "min_value": 2016.0,
+      "max_value": 2018.0
+    },
+    {
+      "name": "cz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "任庄村",
+        "荣店村"
+      ],
+      "value_pool": [
+        "任庄村",
+        "荣店村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gcfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "三格式"
+      ],
+      "value_pool": [
+        "三格式"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hzxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "黄**",
+        "刘**",
+        "张**",
+        "盛**",
+        "郗**",
+        "时**",
+        "庄**",
+        "任**",
+        "吴**",
+        "李**",
+        "石**",
+        "王**",
+        "郝**",
+        "田**",
+        "周**",
+        "马**",
+        "孙**",
+        "兰**",
+        "薛**",
+        "齐**",
+        "荣**",
+        "苏**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

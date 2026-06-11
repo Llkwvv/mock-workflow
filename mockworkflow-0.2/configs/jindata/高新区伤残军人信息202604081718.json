@@ -1,0 +1,211 @@
+{
+  "file_name": "高新区伤残军人信息202604081718.xlsx",
+  "table_name": "高新区伤残军人信息202604081718",
+  "row_count": 3,
+  "columns": [
+    "mz",
+    "scsb",
+    "scsq",
+    "xb",
+    "姓名",
+    "nlzs",
+    "scxz",
+    "scdj",
+    "yfdxlb",
+    "ssxzqh",
+    "yfryzt",
+    "sfzh"
+  ],
+  "fields": [
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉族"
+      ],
+      "value_pool": [
+        "汉族"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scsb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "在乡"
+      ],
+      "value_pool": [
+        "在乡"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "建国后"
+      ],
+      "value_pool": [
+        "建国后"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "邢**",
+        "刘**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nlzs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "26",
+        "25",
+        "71"
+      ],
+      "min_value": 25.0,
+      "max_value": 71.0
+    },
+    {
+      "name": "scxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "因公"
+      ],
+      "value_pool": [
+        "因公"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "十级",
+        "八级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yfdxlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "伤残人员"
+      ],
+      "value_pool": [
+        "伤残人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssxzqh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新******区"
+      ],
+      "value_pool": [
+        "济宁高新******区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yfryzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "享受待遇"
+      ],
+      "value_pool": [
+        "享受待遇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********11",
+        "370811**********39",
+        "370811**********1X"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

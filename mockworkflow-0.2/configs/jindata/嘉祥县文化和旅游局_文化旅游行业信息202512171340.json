@@ -1,0 +1,259 @@
+{
+  "file_name": "嘉祥县文化和旅游局_文化旅游行业信息202512171340.xlsx",
+  "table_name": "嘉祥县文化和旅游局_文化旅游行业信息202512171340",
+  "row_count": 20,
+  "columns": [
+    "zzjgdm",
+    "tyshxydm",
+    "dwszdjcmph",
+    "dwmc",
+    "dwszsf",
+    "dwszxsq",
+    "dwszddzcm",
+    "dwszddzjdbscm",
+    "dwszdqhdm"
+  ],
+  "fields": [
+    {
+      "name": "zzjgdm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "MA3CDCMP1",
+        "MA3N0XH1X",
+        "MA3F37F31",
+        "MA3EX4WC8",
+        "MA3C7RN95",
+        "MA3C7HTJ8",
+        "MA3D147D1",
+        "MA3D17981",
+        "MA3MQPYJ4",
+        "MA3MQJBY4",
+        "MA3C5BWUX",
+        "MA3CBC0C4",
+        "MA3C6HP60",
+        "789288477",
+        "MA3C67UA8",
+        "MA3C8P363",
+        "MA3LYCWA5",
+        "MA3NYMAW4",
+        "MA3NTJX70",
+        "081763076"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370829MA3CDCMP11",
+        "91370829MA3N0XH1XA",
+        "91370829MA3F37F31G",
+        "91370829MA3EX4WC8A",
+        "91370829MA3C7RN954",
+        "91370829MA3C7HTJ8K",
+        "91370829MA3D147D13",
+        "91370829MA3D17981Y",
+        "91370829MA3MQPYJ44",
+        "91370829MA3MQJBY4G",
+        "91370829MA3C5BWUXE",
+        "91370829MA3CBC0C48",
+        "91370829MA3C6HP60M",
+        "913708297892884777",
+        "91370829MA3C67UA81",
+        "91370829MA3C8P3638",
+        "91370829MA3LYCWA50",
+        "91370829MA3NYMAW4F",
+        "91370829MA3NTJX70L",
+        "91370829081763076M"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwszdjcmph",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "盛世路中路祥城中学南300米路东",
+        "环山路北侧孔庄南区（呈祥街南）",
+        "嘉祥县建设路西中央华府",
+        "嘉祥兖兰中路63号",
+        "建设路西商城路北",
+        "冠亚上城C区",
+        "冠亚上城H区",
+        "兖兰中街路南",
+        "建设北路西呈祥大道南佰诚花园4号楼",
+        "曾子中英文学校对过",
+        "冠亚上城G区",
+        "嘉祥县机场路6号",
+        "呈祥路北萌山路西",
+        "星河湾小区(萌山路东丶呈祥路北)",
+        "建设路冠亚上城H5号楼101",
+        "冠亚上城H区13-5-113",
+        "冠亚上城H区13-5-114",
+        "冠亚上城H区13-5-115",
+        "迎凤路中心街路口东100米"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁天元教育旅行社有限公司嘉祥营业部",
+        "济宁春秋国际旅行社嘉祥呈祥营业部",
+        "济宁市联欢旅游有限公司嘉祥营业部",
+        "济宁春秋国际旅行社嘉祥兖兰路营业部",
+        "山东交运旅游集团有限公司嘉祥顺通营业部",
+        "山东旅游有限公司济宁嘉祥迎风路营业部",
+        "济宁春秋国际旅行社嘉祥营业部",
+        "济宁华夏国际旅行社有限公司嘉祥分公司",
+        "青岛友博国际旅行社有限公司济宁分公司",
+        "济宁春秋国际旅行社嘉祥第二营业部",
+        "济宁畅游天下国际旅行社有限公司嘉祥营业部",
+        "济宁吉祥文化旅游有限公司",
+        "济宁顺通国际旅行社有限公司嘉祥营业部",
+        "嘉祥阳光假日旅行社有限公司",
+        "济宁百事通国际旅行社有限公司嘉祥呈祥大道营业部",
+        "济宁乐途旅行社有限公司嘉祥营业部",
+        "济宁众信国际旅行社有限公司嘉祥营业部",
+        "济宁名扬国际旅行社有限公司嘉祥第一营业部",
+        "猴开心（北京）国际旅行社有限公司济宁市嘉祥县呈祥路营业部",
+        "山东唐宁影城有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwszsf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省"
+      ],
+      "value_pool": [
+        "山东省"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwszxsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwszddzcm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "洪山村委会",
+        "孔庄社区居民委员会",
+        "西关社区居民委员会",
+        "南关社区居民委员会",
+        "高庄村委会",
+        "北关社区居民委员会",
+        "李楼村委会",
+        "满庄村委会"
+      ],
+      "value_pool": [
+        "洪山村委会",
+        "孔庄社区居民委员会",
+        "西关社区居民委员会",
+        "南关社区居民委员会",
+        "高庄村委会",
+        "北关社区居民委员会",
+        "李楼村委会",
+        "满庄村委会"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwszddzjdbscm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥镇街道办事处"
+      ],
+      "value_pool": [
+        "嘉祥镇街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwszdqhdm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370829001206",
+        "370829001007",
+        "370829001003",
+        "370829001002",
+        "370829001225",
+        "370829001004",
+        "370829001204",
+        "370829001236",
+        "370829001"
+      ],
+      "value_pool": [
+        "370829001206",
+        "370829001007",
+        "370829001003",
+        "370829001002",
+        "370829001225",
+        "370829001004",
+        "370829001204",
+        "370829001236",
+        "370829001"
+      ],
+      "min_value": 370829001.0,
+      "max_value": 370829001236.0
+    }
+  ]
+}

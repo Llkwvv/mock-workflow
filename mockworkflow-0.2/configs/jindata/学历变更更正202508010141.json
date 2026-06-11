@@ -1,0 +1,84 @@
+{
+  "file_name": "学历变更更正202508010141.xlsx",
+  "table_name": "学历变更更正202508010141",
+  "row_count": 1,
+  "columns": [
+    "dq",
+    "sxcl",
+    "blsj",
+    "xh",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxcl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "身份证、户口本、与变更更正事项对应的材料"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-02-08"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "101"
+      ],
+      "min_value": 101.0,
+      "max_value": 101.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "马**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

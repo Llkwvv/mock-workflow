@@ -1,0 +1,158 @@
+{
+  "file_name": "高新区残疾人辅助器具适配信息202605251215.xlsx",
+  "table_name": "高新区残疾人辅助器具适配信息202605251215",
+  "row_count": 2,
+  "columns": [
+    "lxfs",
+    "cjlb",
+    "nl",
+    "fjxq",
+    "dz",
+    "姓名",
+    "slr",
+    "zjzt",
+    "cjzsfz"
+  ],
+  "fields": [
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "151*****967",
+        "159*****958"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "肢体"
+      ],
+      "value_pool": [
+        "肢体"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "17",
+        "18"
+      ],
+      "min_value": 17.0,
+      "max_value": 18.0
+    },
+    {
+      "name": "fjxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "辅助器具"
+      ],
+      "value_pool": [
+        "辅助器具"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新区接庄街道"
+      ],
+      "value_pool": [
+        "济宁高新区接庄街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "阚**",
+        "张**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "接庄街道办事处"
+      ],
+      "value_pool": [
+        "接庄街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "持证残疾人"
+      ],
+      "value_pool": [
+        "持证残疾人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjzsfz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********42",
+        "370811**********72"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "file_name": "鱼台县人力资源和社会保障局_山东省初级职称证书信息202508010300.xlsx",
+  "table_name": "鱼台县人力资源和社会保障局_山东省初级职称证书信息202508010300",
+  "row_count": 131,
+  "columns": [
+    "gbsj",
+    "gbwh",
+    "cszy",
+    "zgmc",
+    "pssj",
+    "xlzymc",
+    "姓名",
+    "pswyh",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "gbsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020年12月4日"
+      ],
+      "value_pool": [
+        "2020年12月4日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gbwh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "鱼人社发【2020】24号"
+      ],
+      "value_pool": [
+        "鱼人社发【2020】24号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cszy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "数学",
+        "语文",
+        "外语",
+        "体育",
+        "体育与健康",
+        "音乐",
+        "美术",
+        "初中生物",
+        "化学",
+        "生物"
+      ],
+      "value_pool": [
+        "数学",
+        "语文",
+        "外语",
+        "体育",
+        "体育与健康",
+        "音乐",
+        "美术",
+        "初中生物",
+        "化学",
+        "生物"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "中小学二级教师",
+        "中小学三级教师"
+      ],
+      "value_pool": [
+        "中小学二级教师",
+        "中小学三级教师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44158"
+      ],
+      "value_pool": [
+        "44158"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xlzymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "中小学教师"
+      ],
+      "value_pool": [
+        "中小学教师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "姚**",
+        "张**",
+        "朱**",
+        "刘**",
+        "潘**",
+        "侯**",
+        "马**",
+        "王**",
+        "李**",
+        "孙**",
+        "闫**",
+        "杨**",
+        "任**",
+        "盛**",
+        "聂**",
+        "赵**",
+        "韩**",
+        "穆**",
+        "房**",
+        "田**",
+        "陈**",
+        "代**",
+        "谢**",
+        "黄**",
+        "郭**",
+        "吕**",
+        "肖**",
+        "徐**",
+        "宋**",
+        "翟**",
+        "屈**",
+        "邵**",
+        "戚**",
+        "周**",
+        "邢**",
+        "梁**",
+        "邓**",
+        "郑**",
+        "袁**",
+        "胡**",
+        "巩**",
+        "卜**",
+        "霍**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pswyh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县中小学教师职务初级评审委员会"
+      ],
+      "value_pool": [
+        "鱼台县中小学教师职务初级评审委员会"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

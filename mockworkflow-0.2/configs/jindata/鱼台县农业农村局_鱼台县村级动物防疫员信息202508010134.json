@@ -1,0 +1,154 @@
+{
+  "file_name": "鱼台县农业农村局_鱼台县村级动物防疫员信息202508010134.xlsx",
+  "table_name": "鱼台县农业农村局_鱼台县村级动物防疫员信息202508010134",
+  "row_count": 30,
+  "columns": [
+    "zj",
+    "xb",
+    "lxfs",
+    "jb",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "老 砦",
+        "唐 马",
+        "谷 亭",
+        "滨 湖",
+        "王 庙",
+        "鱼 城",
+        "李 阁",
+        "罗 屯",
+        "清 河",
+        "张 黄",
+        "王 鲁",
+        "李阁镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女",
+        "男性",
+        "女性"
+      ],
+      "value_pool": [
+        "男",
+        "女",
+        "男性",
+        "女性"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "137****4290",
+        "159****3796",
+        "153****9516",
+        "139****8384",
+        "135****7351",
+        "139****5307",
+        "155****7267",
+        "130****5007",
+        "155****5055",
+        "134****2425",
+        "157****9622",
+        "151****2018",
+        "183****1517",
+        "182****7358",
+        "188****7119",
+        "153****7891",
+        "139****7759",
+        "152****2811",
+        "150****3016",
+        "139****1158",
+        "131****9484",
+        "134****7166",
+        "137****3567",
+        "182****0044",
+        "182****0588",
+        "152****9399",
+        "186****1676"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "组 长",
+        "组 员"
+      ],
+      "value_pool": [
+        "组 长",
+        "组 员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "于**",
+        "张**",
+        "许***",
+        "郑**",
+        "刘**",
+        "骆**",
+        "韩***",
+        "翟**",
+        "闫**",
+        "闵**",
+        "周**",
+        "石**",
+        "朱**",
+        "仇**",
+        "马**",
+        "侯***",
+        "杨**",
+        "孙**",
+        "解**",
+        "王**",
+        "李**",
+        "李***"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

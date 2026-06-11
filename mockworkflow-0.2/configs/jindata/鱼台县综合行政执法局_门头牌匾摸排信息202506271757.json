@@ -1,0 +1,150 @@
+{
+  "file_name": "鱼台县综合行政执法局_门头牌匾摸排信息202506271757.xlsx",
+  "table_name": "鱼台县综合行政执法局_门头牌匾摸排信息202506271757",
+  "row_count": 33,
+  "columns": [
+    "wz",
+    "pcry",
+    "mc",
+    "fr",
+    "pcdw"
+  ],
+  "fields": [
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "孝贤大道南段",
+        "孝贤大道南"
+      ],
+      "value_pool": [
+        "孝贤大道南段",
+        "孝贤大道南"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "韩向阳"
+      ],
+      "value_pool": [
+        "韩向阳"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台实验中学",
+        "鱼台县第二中学",
+        "和平村卫生室",
+        "168家政服务公司",
+        "郑老五水电暖大全",
+        "皇岛卫浴",
+        "兴隆茶社",
+        "孔府宴深源泉专卖店",
+        "辛氏推拿",
+        "神墨教育",
+        "鸡汤饸烙面",
+        "渔乐圈钓具",
+        "馨益窗帘制衣",
+        "沃康公司",
+        "鱼台县诚众人力资源公司",
+        "益德源医药",
+        "翰林早点",
+        "翰林足浴",
+        "香酥油饼混沌",
+        "靓密码",
+        "小莫扎特音乐艺术中心",
+        "乐购生鲜超市",
+        "顺丰速运",
+        "解放村卫生室",
+        "泉聚饭莊",
+        "学府推拿",
+        "小博士母婴生活馆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "郭涛",
+        "林传印",
+        "刘冠军",
+        "屈东",
+        "郑福军",
+        "安翠芝",
+        "王洪波",
+        "辛世光",
+        "时倩",
+        "孙娟",
+        "稍长友",
+        "宋国庆",
+        "张明才",
+        "马涛",
+        "刘金良",
+        "王苏鲁",
+        "张跃冉",
+        "杜嘉男",
+        "随海燕",
+        "王圣伟",
+        "宋粉粉",
+        "刘飞",
+        "闫云",
+        "惠珍",
+        "陈永伦",
+        "朱明侠",
+        "郭*",
+        "林*印",
+        "刘*军",
+        "屈*",
+        "郑*军"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pcdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县综合行政执法局",
+        "执法局"
+      ],
+      "value_pool": [
+        "鱼台县综合行政执法局",
+        "执法局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

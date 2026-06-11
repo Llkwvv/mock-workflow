@@ -1,0 +1,148 @@
+{
+  "file_name": "微山县限额以上餐饮企业名单202506271744.xlsx",
+  "table_name": "微山县限额以上餐饮企业名单202506271744",
+  "row_count": 30,
+  "columns": [
+    "dwxxmc",
+    "xz",
+    "bz",
+    "zzjgdm",
+    "hydm"
+  ],
+  "fields": [
+    {
+      "name": "dwxxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东芳林嫂餐饮有限公司",
+        "微山县明湖酒店",
+        "微山县紫云轩餐饮会馆有限公司",
+        "济宁爱伊堡酒店管理有限公司",
+        "微山县夏镇微湖苑酒店",
+        "微山县夏镇延龙菜馆",
+        "微山县夏镇百家兴饭店",
+        "微山县金汇饭庄",
+        "微山御香苑商务服务有限公司",
+        "山东省回味从前餐饮管理有限公司",
+        "微山小芙大蓉餐饮经营酒店",
+        "微山夏镇宫记印象人家餐饮经营店",
+        "微山县巴兴重庆火锅店",
+        "寿光永正餐饮管理有限公司微山分公司(肯德基)",
+        "微山县夏镇煌城根餐饮经营店",
+        "芙蓉小镇四季青店（微山夏镇食全食美餐饮酒店）",
+        "微山乐食餐饮有限公司",
+        "微山县夏镇老根山庄灶台锅",
+        "微山那家老院子餐饮有限公司",
+        "微山夏镇厨嫂鱼馆",
+        "微山县夏镇龙坎火锅店",
+        "微山味每思餐饮有限公司",
+        "微山县长伟餐饮有限公司",
+        "山东祯禧祥餐饮管理有限公司",
+        "微山嗨辣餐饮有限公司",
+        "微山县鹏诺餐饮有限公司",
+        "微山毅诚餐饮管理有限公司",
+        "微山亿鸿餐饮管理有限公司",
+        "山东运荷餐饮管理咨询有限公司",
+        "微山县立发餐饮有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "夏镇街道"
+      ],
+      "value_pool": [
+        "夏镇街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "限额以上"
+      ],
+      "value_pool": [
+        "限额以上"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzjgdm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370826555221755X",
+        "92370826MA3T2X9C59",
+        "91370826054962504K",
+        "91370826MA7K9LYF3C",
+        "92370826MA3DENT838",
+        "92370826MA3D8QPK1C",
+        "92370826MA3DEWMR9B",
+        "92370826MA3DG71Y5A",
+        "91370826MA3DHJ2W32",
+        "913708260629730945",
+        "92370826MA3PLYPK5T",
+        "92370826MA3U6RN29R",
+        "92370826MA3PHLCM1J",
+        "91370826MA3QL9XQ89",
+        "92370826MA3TM47G5G",
+        "92370826MA3WNQ6P00",
+        "913708263130718899",
+        "92370826MA3EWXAG4A",
+        "91370826MA3WJCHJ1R",
+        "92370826MA94D8PB9X",
+        "92370826MAC25TDMXY",
+        "91370826MABLL22N7F",
+        "91370826MAC43NUQ53",
+        "91370826MA954J79X7",
+        "91370826MA3FGKWYXW",
+        "91370826MA7KR81J9J",
+        "91370826MA7LLCCG35",
+        "91370826MA7M2DFJ73",
+        "91370826MAC2LA7H65",
+        "91370826MAC4Q40997"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hydm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "6210"
+      ],
+      "value_pool": [
+        "6210"
+      ],
+      "min_value": 6210.0,
+      "max_value": 6210.0
+    }
+  ]
+}

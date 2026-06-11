@@ -1,0 +1,143 @@
+{
+  "file_name": "护路办日常工作总表202506241201.xlsx",
+  "table_name": "护路办日常工作总表202506241201",
+  "row_count": 107,
+  "columns": [
+    "cljg",
+    "jcsj",
+    "jcry",
+    "jcqk",
+    "jcqdhlf"
+  ],
+  "fields": [
+    {
+      "name": "cljg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "继续保持.加强巡查"
+      ],
+      "value_pool": [
+        "继续保持.加强巡查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021.1.8",
+        "2021.1.12",
+        "2021.1.20",
+        "2021.1.29",
+        "2021.2.4",
+        "2021.2.10",
+        "2021.2.19",
+        "2021.2.25",
+        "2021.3.2",
+        "2021.3.12",
+        "2021.3.17",
+        "2021.3.25",
+        "2021.4.1",
+        "2021.4.11",
+        "2021.4.13",
+        "2021.4.20",
+        "2021.4.28",
+        "2021.5.4",
+        "2021.5.13",
+        "2021.5.20",
+        "2021.5.31",
+        "2021.6.7",
+        "2021.6.11",
+        "2021.6.18",
+        "2021.6.22",
+        "2021.6.29",
+        "2021.7.6",
+        "2021.7.13",
+        "2021.7.20",
+        "2021.7.26",
+        "2021.8.2",
+        "2021.8.9",
+        "2021.8.11",
+        "2021.8.13",
+        "2021.8.20",
+        "2021.8.23"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "徐平"
+      ],
+      "value_pool": [
+        "徐平"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "台账规范，线路正常",
+        "线路正常，台账规范",
+        "台账规范，卫生良好",
+        "卫生良好，着装规范",
+        "线路正常，卫生良好",
+        "台账规范，着装规范",
+        "线路正常，着装规范"
+      ],
+      "value_pool": [
+        "台账规范，线路正常",
+        "线路正常，台账规范",
+        "台账规范，卫生良好",
+        "卫生良好，着装规范",
+        "线路正常，卫生良好",
+        "台账规范，着装规范",
+        "线路正常，着装规范"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcqdhlf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "29号",
+        "27号",
+        "25号"
+      ],
+      "value_pool": [
+        "29号",
+        "27号",
+        "25号"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

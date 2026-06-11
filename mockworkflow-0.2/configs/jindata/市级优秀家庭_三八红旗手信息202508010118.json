@@ -1,0 +1,142 @@
+{
+  "file_name": "市级优秀家庭_三八红旗手信息202508010118.xlsx",
+  "table_name": "市级优秀家庭_三八红旗手信息202508010118",
+  "row_count": 21,
+  "columns": [
+    "yxjtlb",
+    "hzxm",
+    "jtzz",
+    "jb",
+    "ssdw"
+  ],
+  "fields": [
+    {
+      "name": "yxjtlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "济宁市五好家庭",
+        "济宁市“最美孝老爱亲家庭”",
+        "济宁市“最美家庭”",
+        "济宁市“最美书香家庭”",
+        "济宁市“好婆婆”",
+        "济宁市“好媳妇”",
+        "济宁市三八红旗手标兵",
+        "济宁市三八红旗手",
+        "济宁市三八红旗集体"
+      ],
+      "value_pool": [
+        "济宁市五好家庭",
+        "济宁市“最美孝老爱亲家庭”",
+        "济宁市“最美家庭”",
+        "济宁市“最美书香家庭”",
+        "济宁市“好婆婆”",
+        "济宁市“好媳妇”",
+        "济宁市三八红旗手标兵",
+        "济宁市三八红旗手",
+        "济宁市三八红旗集体"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hzxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杜**",
+        "崔**",
+        "王*",
+        "张*",
+        "王**",
+        "李**",
+        "张**",
+        "黄*",
+        "刘**",
+        "司**",
+        "李*",
+        "邓**",
+        "史**",
+        "济**************",
+        "疃****",
+        "马****",
+        "济*************"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县纸坊镇石腊屯村",
+        "经开区疃里镇崔桥村",
+        "嘉祥县五洲祥城",
+        "经开区疃里镇崔庄村",
+        "嘉祥县顺河小区",
+        "济宁市嘉祥县星河湾小区",
+        "经开区疃里王集东村济镇",
+        "经开区疃里镇龙桥村",
+        "经开区疃里镇竹匠李村",
+        "嘉祥县立国花园",
+        "经开区疃里镇东高庄村",
+        "济宁经济技术开发区财政集中支付中心",
+        "济宁经开区疃里镇中学",
+        "济宁经开区马集镇中学",
+        "济宁经济技术开发区区直机关党委",
+        "济宁经济开发区社会事业局",
+        "济宁经济开发区疃里镇大王小学",
+        "济宁慈善中国好人秋英爱心义工团",
+        "疃里镇妇联",
+        "马集镇妇联",
+        "济宁市爱克森服装有限责任公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市级"
+      ],
+      "value_pool": [
+        "市级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁经济开发区"
+      ],
+      "value_pool": [
+        "济宁经济开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

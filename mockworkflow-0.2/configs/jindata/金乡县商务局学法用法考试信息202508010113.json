@@ -1,0 +1,114 @@
+{
+  "file_name": "金乡县商务局学法用法考试信息202508010113.xlsx",
+  "table_name": "金乡县商务局学法用法考试信息202508010113",
+  "row_count": 24,
+  "columns": [
+    "dw",
+    "姓名",
+    "xb",
+    "xq",
+    "sftg"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "县商务局"
+      ],
+      "value_pool": [
+        "县商务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孙**",
+        "徐**",
+        "韩**",
+        "刘**",
+        "王**",
+        "周**",
+        "李**",
+        "吕**",
+        "杨**",
+        "郭**",
+        "初**",
+        "吴**",
+        "杜**",
+        "高**",
+        "张**",
+        "曹**",
+        "王*",
+        "马**",
+        "杨*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sftg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "是否通过"
+      ],
+      "value_pool": [
+        "是",
+        "是否通过"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "file_name": "鱼台县民政局_分散供养孤儿信息202508010218.xlsx",
+  "table_name": "鱼台县民政局_分散供养孤儿信息202508010218",
+  "row_count": 49,
+  "columns": [
+    "lb",
+    "zj",
+    "xb",
+    "姓名",
+    "hj"
+  ],
+  "fields": [
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "分散供养孤儿"
+      ],
+      "value_pool": [
+        "分散供养孤儿"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "滨湖",
+        "谷亭",
+        "李阁",
+        "罗屯",
+        "清河",
+        "唐马",
+        "王庙",
+        "王鲁",
+        "鱼城",
+        "张黄",
+        "老砦",
+        "县直",
+        "王庙镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "谷**",
+        "周**",
+        "张**",
+        "谭**",
+        "李**",
+        "王**",
+        "曹**",
+        "武**",
+        "陈**",
+        "展**",
+        "任**",
+        "林**",
+        "刘**",
+        "沙**",
+        "苑**",
+        "梁**",
+        "满**",
+        "齐**",
+        "宋**",
+        "闫**",
+        "袁**",
+        "夏**",
+        "赵**",
+        "孙**",
+        "单**",
+        "薛**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

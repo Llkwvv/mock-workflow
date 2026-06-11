@@ -1,0 +1,184 @@
+{
+  "file_name": "商品房销售现场信息202506202049.xlsx",
+  "table_name": "商品房销售现场信息202506202049",
+  "row_count": 24,
+  "columns": [
+    "sfgsjsgcsgxkz",
+    "xmwz",
+    "sfgsspfysxkz",
+    "xmmc",
+    "qymc",
+    "sfgsjsgcydghxkz",
+    "sfgstdsyz"
+  ],
+  "fields": [
+    {
+      "name": "sfgsjsgcsgxkz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "呈祥大道南",
+        "获麟西街北",
+        "建设北路西，呈祥大道北",
+        "机场路东",
+        "求知路南",
+        "洪山路东，求知路南",
+        "洪山路东，呈祥大道南",
+        "三二七国道北",
+        "洪山路西，兖兰路北",
+        "洪山路东，吉祥路北",
+        "嘉祥大道东",
+        "呈祥大道北，机场路西",
+        "呈祥大道北，洪山路东",
+        "建设路西，获麟街北",
+        "建设北路东",
+        "建设北路东，嘉北路北",
+        "二五二省道西",
+        "呈祥大道北",
+        "二五二省路西",
+        "曾子大道北"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfgsspfysxkz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "全济利园",
+        "君悦苑",
+        "祥瑞裕璟",
+        "辰雨原著",
+        "麟祥景苑",
+        "学府名都",
+        "立国大顺",
+        "龙城华府",
+        "山水龙城",
+        "徐汇风景",
+        "尚龙和院",
+        "圣润公馆",
+        "东方悦府",
+        "梧樾公馆",
+        "麒麟万象城",
+        "麟鑫苑",
+        "阳光四季城",
+        "祥城北苑四期",
+        "祥安名府",
+        "中农联",
+        "祥炬花园",
+        "护山新农贸市场",
+        "圣贤世家",
+        "书香门第"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁全济置业有限公司",
+        "山东涌正置业有限公司",
+        "济宁隆鑫置业有限公司",
+        "济宁丰硕置业有限公司",
+        "济宁宏达置业有限公司",
+        "济宁久泰置业有限公司",
+        "济宁立国集团嘉祥分公司",
+        "济宁九巨龙集团嘉祥分公司",
+        "嘉祥玖贡置业有限公司",
+        "嘉祥城建集团有限公司",
+        "济宁尚龙置业有限公司",
+        "济宁圣润置业有限公司",
+        "嘉祥县颐居置业有限公司",
+        "济宁德淏置业有限公司",
+        "嘉祥盛隆房地产开发有限公司",
+        "嘉祥祥安置业有限公司",
+        "嘉祥中农联农产品市场运营管理有限公司",
+        "济宁祥炬置业有限公司",
+        "嘉祥县护山新农贸市场有限公司",
+        "济宁润东有限公司",
+        "山东润信控股集团有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfgsjsgcydghxkz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfgstdsyz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "file_name": "冒黑烟抄告信息202510140914.xlsx",
+  "table_name": "冒黑烟抄告信息202510140914",
+  "row_count": 21,
+  "columns": [
+    "jcdd",
+    "tjlx",
+    "dlyszh",
+    "cph",
+    "ysqy"
+  ],
+  "fields": [
+    {
+      "name": "jcdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经开区"
+      ],
+      "value_pool": [
+        "经开区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "济徐高速下道口"
+      ],
+      "value_pool": [
+        "济徐高速下道口"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dlyszh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "21503989",
+        "21502625",
+        "370830304461",
+        "05322261",
+        "320801017158",
+        "370785321537",
+        "131122008498",
+        "370829325464",
+        "371591320804",
+        "10729955",
+        "嘉祥迅捷货物代理有限公司",
+        "嘉祥鸿昌运输有限公司",
+        "嘉祥盛途货物运输有限公司",
+        "济宁长运物流有限公司",
+        "嘉祥县卡晟汽车运输有限公司",
+        "济宁华祥物流有限公司",
+        "汶上县路远物流有限公司",
+        "金乡县晨鑫运输有限公司",
+        "嘉祥县恒祥汽车运输有限公司",
+        "济宁家欢运输有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cph",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "苏CCD710",
+        "苏CU3572",
+        "鲁HW2097",
+        "苏CC6117",
+        "苏H11379",
+        "鲁V80803",
+        "冀T78362",
+        "鲁H9H903",
+        "鲁PN1509",
+        "辽A4066A",
+        "鲁HN5219",
+        "鲁H55A59",
+        "鲁HQ0383",
+        "鲁H9H832",
+        "鲁H70W55",
+        "鲁HW1593",
+        "鲁HF6666",
+        "鲁H91H02",
+        "鲁H11R67",
+        "鲁H46A48",
+        "鲁H33N82"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ysqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "黄*梁",
+        "李*龙",
+        "王*峰",
+        "张*东",
+        "陈*",
+        "赵*灿",
+        "王*红",
+        "嘉祥县****限公司",
+        "临清市****限公司",
+        "沈阳市****服务中心",
+        "高*成",
+        "张*珍",
+        "任*群",
+        "魏*昌",
+        "张*雨",
+        "刘*斌",
+        "张*含",
+        "戴*林",
+        "张*威",
+        "李*才",
+        "党*延"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

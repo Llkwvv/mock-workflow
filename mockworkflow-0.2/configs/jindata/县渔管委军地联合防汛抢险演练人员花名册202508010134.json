@@ -1,0 +1,138 @@
+{
+  "file_name": "县渔管委军地联合防汛抢险演练人员花名册202508010134.xlsx",
+  "table_name": "县渔管委军地联合防汛抢险演练人员花名册202508010134",
+  "row_count": 31,
+  "columns": [
+    "zzmm",
+    "姓名",
+    "xb",
+    "gzdw",
+    "fbyqk",
+    "rylb"
+  ],
+  "fields": [
+    {
+      "name": "zzmm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中共党员",
+        "群众"
+      ],
+      "value_pool": [
+        "中共党员",
+        "群众"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "朱**",
+        "刘**",
+        "胡**",
+        "史**",
+        "华*",
+        "韩**",
+        "王**",
+        "李**",
+        "莫**",
+        "张**",
+        "陈*",
+        "刘*",
+        "苗**",
+        "张*",
+        "孙**",
+        "宗*",
+        "许**",
+        "石**",
+        "王*",
+        "殷**",
+        "黄**",
+        "赵*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县渔管委"
+      ],
+      "value_pool": [
+        "微山县渔管委"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fbyqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "否"
+      ],
+      "value_pool": [
+        "是",
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "分队负责人",
+        "分队副队长",
+        "成员"
+      ],
+      "value_pool": [
+        "分队负责人",
+        "分队副队长",
+        "成员"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

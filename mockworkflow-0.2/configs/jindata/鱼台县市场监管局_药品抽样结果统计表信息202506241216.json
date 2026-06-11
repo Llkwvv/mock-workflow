@@ -1,0 +1,149 @@
+{
+  "file_name": "鱼台县市场监管局_药品抽样结果统计表信息202506241216.xlsx",
+  "table_name": "鱼台县市场监管局_药品抽样结果统计表信息202506241216",
+  "row_count": 22,
+  "columns": [
+    "cyhj",
+    "cyjg",
+    "ypmc",
+    "cybh",
+    "gg"
+  ],
+  "fields": [
+    {
+      "name": "cyhj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "流通",
+        "使用"
+      ],
+      "value_pool": [
+        "流通",
+        "使用"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cyjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格",
+        "检查合格"
+      ],
+      "value_pool": [
+        "合格",
+        "检查合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ypmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "降糖宁胶囊",
+        "降脂宁颗粒",
+        "头孢拉定胶囊",
+        "甲硝唑片",
+        "曲克芦丁片",
+        "心脑清软胶囊",
+        "玉叶清火片",
+        "腰息痛胶囊",
+        "碳酸氢钠片",
+        "益心酮滴丸",
+        "藿香正气水",
+        "万通筋骨片",
+        "杞菊地黄丸",
+        "除脂生发片",
+        "白术",
+        "炙甘草",
+        "炒酸枣仁",
+        "黄芩",
+        "板蓝根颗粒",
+        "盐酸雷尼替丁胶囊"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cybh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "SJLTJD2020JN0487",
+        "SJLTJD2020JN0488",
+        "SJLTJD2020JN0464",
+        "SJLTJD2020JN0466",
+        "SJLTJD2020JN0468",
+        "SJLTJD2020JN0471",
+        "SJLTJD2020JN0475",
+        "SJLTJD2020JN0478",
+        "SJLTJD2020JN0481",
+        "SJLTJD2020JN0484",
+        "SJLTJD2020JN0485",
+        "SJLTJD2020JN0486",
+        "DSLTAA2020JN0207",
+        "DSLTAA2020JN0209",
+        "DSLTAA2020JN0210",
+        "DSLTAA2020JN0211",
+        "DSLTAA2020JN0212",
+        "DSLTAA2020JN0213",
+        "DSLTAA2020JN0214",
+        "DSLTAA2020JN0215",
+        "SJLTJD2025JN0471",
+        "SJLTJD2025JN0475"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "每粒装0.4g",
+        "每袋重10g",
+        "0.25g",
+        "0.2g",
+        "60mg",
+        "每粒装0.4g(含维生素E17mg)",
+        "(1)薄膜衣片(片芯重0.36g)  ",
+        "每粒装0.3g(含对乙酰氨基酚0.1g)",
+        "0.3g",
+        "每丸重36.4mg",
+        "每支装10ml",
+        "糖衣片(片芯重0.28g);薄膜衣每片重0.28g",
+        "每8丸相当于原药材3g",
+        "每片重0.3g",
+        "统",
+        "每袋装10g;每袋装3g",
+        "0.15g(按C13H22N4O3S计算)",
+        "(1)薄膜衣片"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

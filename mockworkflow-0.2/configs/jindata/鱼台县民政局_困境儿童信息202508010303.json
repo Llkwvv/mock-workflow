@@ -1,0 +1,154 @@
+{
+  "file_name": "鱼台县民政局_困境儿童信息202508010303.xlsx",
+  "table_name": "鱼台县民政局_困境儿童信息202508010303",
+  "row_count": 225,
+  "columns": [
+    "姓名",
+    "zj",
+    "xb",
+    "xsq",
+    "lb"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "赵**",
+        "李**",
+        "聂**",
+        "胡**",
+        "黄**",
+        "魏**",
+        "宋**",
+        "孙**",
+        "缪**",
+        "屈**",
+        "田**",
+        "纪**",
+        "冀**",
+        "郭**",
+        "马**",
+        "付**",
+        "张**",
+        "刘**",
+        "杨**",
+        "解**",
+        "彭**",
+        "徐**",
+        "陶**",
+        "路**",
+        "齐**",
+        "任**",
+        "姜**",
+        "卢**",
+        "闫**",
+        "申**",
+        "吴**",
+        "姚**",
+        "于**",
+        "战**",
+        "冯**",
+        "董**",
+        "沈**",
+        "随**",
+        "鉴**",
+        "梁**",
+        "袁**",
+        "林**",
+        "潘**",
+        "施**",
+        "方**",
+        "吕**",
+        "史**",
+        "甄**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "滨湖",
+        "谷亭",
+        "老砦",
+        "李阁",
+        "罗屯",
+        "清河",
+        "唐马"
+      ],
+      "value_pool": [
+        "滨湖",
+        "谷亭",
+        "老砦",
+        "李阁",
+        "罗屯",
+        "清河",
+        "唐马"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台"
+      ],
+      "value_pool": [
+        "鱼台"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "困境儿童"
+      ],
+      "value_pool": [
+        "困境儿童"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

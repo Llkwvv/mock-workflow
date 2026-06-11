@@ -1,0 +1,139 @@
+{
+  "file_name": "嘉祥县司法鉴定员与公证员信息202508010117.xlsx",
+  "table_name": "嘉祥县司法鉴定员与公证员信息202508010117",
+  "row_count": 20,
+  "columns": [
+    "lx",
+    "bzsj",
+    "ssjg",
+    "zfzh",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "lx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "鉴定员",
+        "公证员"
+      ],
+      "value_pool": [
+        "鉴定员",
+        "公证员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2016年",
+        "2018年",
+        "2019年",
+        "2020年",
+        "2017年",
+        "1998年",
+        "2014年",
+        "2015年"
+      ],
+      "value_pool": [
+        "2016年",
+        "2018年",
+        "2019年",
+        "2020年",
+        "2017年",
+        "1998年",
+        "2014年",
+        "2015年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁祥诚法医司法鉴定所",
+        "嘉祥县公证处"
+      ],
+      "value_pool": [
+        "济宁祥诚法医司法鉴定所",
+        "嘉祥县公证处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370805142***",
+        "37080914****",
+        "37080514****",
+        "37081814****",
+        "37081914****",
+        "37082014****",
+        "37081614****",
+        "37081214****",
+        "37081314****",
+        "3708121****",
+        "11508111998****",
+        "11508122014****",
+        "11508122015****",
+        "11508122016****",
+        "11508112018****",
+        "11508122018****"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "付**",
+        "钱**",
+        "黄**",
+        "崔**",
+        "张**",
+        "张*",
+        "宁**",
+        "刘**",
+        "尹*",
+        "李**",
+        "路**",
+        "蔡**",
+        "焦**",
+        "杨**",
+        "邵**",
+        "韩**",
+        "江**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

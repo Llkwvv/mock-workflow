@@ -1,0 +1,146 @@
+{
+  "file_name": "太白湖新区船舶受电设施接插件调研信息202507242143.xlsx",
+  "table_name": "太白湖新区船舶受电设施接插件调研信息202507242143",
+  "row_count": 42,
+  "columns": [
+    "cblx",
+    "nf",
+    "xs",
+    "lx",
+    "cm"
+  ],
+  "fields": [
+    {
+      "name": "cblx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "岸电受电"
+      ],
+      "value_pool": [
+        "岸电受电"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021"
+      ],
+      "value_pool": [
+        "2021"
+      ],
+      "min_value": 2021.0,
+      "max_value": 2021.0
+    },
+    {
+      "name": "xs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "六芯",
+        "五芯",
+        "其他"
+      ],
+      "value_pool": [
+        "六芯",
+        "五芯",
+        "其他"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "多用途货船",
+        "集装箱船",
+        "拖船",
+        "散货船",
+        "干货船",
+        "驳船"
+      ],
+      "value_pool": [
+        "多用途货船",
+        "集装箱船",
+        "拖船",
+        "散货船",
+        "干货船",
+        "驳船"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鸿航1",
+        "鸿航6",
+        "润通集1号",
+        "京杭之星",
+        "凯博集8888",
+        "鲁济宁拖0671",
+        "鲁济宁拖0672",
+        "鲁济宁拖0673",
+        "鲁济宁拖1927",
+        "鲁济宁拖1928",
+        "鲁济宁拖1929",
+        "鲁济宁货4303",
+        "鲁济宁货5783",
+        "鲁济宁货5592",
+        "鲁济宁货5577",
+        "鲁济宁货5297",
+        "鲁济宁货5576",
+        "鲁济宁货5559",
+        "鲁济宁货5558",
+        "鲁济宁货5426",
+        "鲁济宁货5416",
+        "鲁济宁货5395",
+        "鲁济宁货5362",
+        "鲁济宁货5301",
+        "鲁济宁驳11709",
+        "鲁济宁货5066",
+        "鲁济宁货5262",
+        "鲁济宁货5129",
+        "鲁济宁货5127",
+        "鲁济宁货5109",
+        "鲁济宁货5106",
+        "鲁济宁货5088",
+        "鲁济宁货5086",
+        "鲁济宁货5295",
+        "鲁济宁货5363",
+        "鲁济宁货5302",
+        "鲁济宁货5166",
+        "鲁济宁货5162",
+        "鲁济宁货5329",
+        "鲁济宁货5227",
+        "鲁济宁货5209"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

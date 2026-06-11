@@ -1,0 +1,145 @@
+{
+  "file_name": "微山县供销社_爱心包裹_捐赠信息202508010213.xlsx",
+  "table_name": "微山县供销社_爱心包裹_捐赠信息202508010213",
+  "row_count": 47,
+  "columns": [
+    "jzfs",
+    "jzsj",
+    "姓名",
+    "xh",
+    "jzjey"
+  ],
+  "fields": [
+    {
+      "name": "jzfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "现金"
+      ],
+      "value_pool": [
+        "现金"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021.11.25",
+        "2023"
+      ],
+      "value_pool": [
+        "2021.11.25",
+        "2023"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "陈***",
+        "田**",
+        "郭**",
+        "周***",
+        "程***",
+        "魏**",
+        "王**",
+        "赵**",
+        "史**",
+        "王***",
+        "庄***",
+        "刘**",
+        "宋**",
+        "秦**",
+        "高***",
+        "胡**",
+        "孟**",
+        "李**",
+        "乔**",
+        "耿**",
+        "褚**",
+        "陈*",
+        "周*",
+        "庄*",
+        "王*",
+        "高*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "min_value": 1.0,
+      "max_value": 28.0
+    },
+    {
+      "name": "jzjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "100"
+      ],
+      "value_pool": [
+        "100"
+      ],
+      "min_value": 100.0,
+      "max_value": 100.0
+    }
+  ]
+}

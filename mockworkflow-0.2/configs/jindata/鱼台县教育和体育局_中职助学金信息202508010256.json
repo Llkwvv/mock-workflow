@@ -1,0 +1,172 @@
+{
+  "file_name": "鱼台县教育和体育局_中职助学金信息202508010256.xlsx",
+  "table_name": "鱼台县教育和体育局_中职助学金信息202508010256",
+  "row_count": 153,
+  "columns": [
+    "姓名",
+    "xxmc",
+    "xb",
+    "njbj",
+    "je"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "刘**",
+        "孙**",
+        "赵**",
+        "武**",
+        "程**",
+        "聂**",
+        "陈**",
+        "马**",
+        "孟**",
+        "任**",
+        "徐**",
+        "卢**",
+        "王**",
+        "李**",
+        "董**",
+        "韩**",
+        "郑**",
+        "冷**",
+        "周**",
+        "路**",
+        "黄**",
+        "吴**",
+        "蒋**",
+        "姚**",
+        "古**",
+        "郭**",
+        "田**",
+        "樊**",
+        "杨**",
+        "禹**",
+        "甄**",
+        "秦**",
+        "侯**",
+        "林**",
+        "申**",
+        "芈**",
+        "安**",
+        "高**",
+        "薛**",
+        "苗**",
+        "曹**",
+        "杜**",
+        "户**",
+        "别**",
+        "许**",
+        "翟**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县职业中等专业学校"
+      ],
+      "value_pool": [
+        "鱼台县职业中等专业学校"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "njbj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2020高考1班",
+        "2020高考2班",
+        "2020高考3班",
+        "2020高考4班",
+        "2020高考5班",
+        "2020技能10班",
+        "2020技能11班",
+        "2020技能12班",
+        "2020技能13班",
+        "2020技能14班",
+        "2020技能15班",
+        "2020技能18班",
+        "2020技能1班",
+        "2020技能2班",
+        "2020技能3班",
+        "2020技能4班",
+        "2020技能5班",
+        "2020技能6班",
+        "2020技能7班",
+        "2020技能8班",
+        "2020技能9班",
+        "2021高考1班",
+        "2021高考2班",
+        "2021高考3班",
+        "2021高考4班",
+        "2021高考6班",
+        "2021高考7班",
+        "2021高考8班",
+        "2021机电3+2班",
+        "2021计算机3+2班",
+        "2021技能10班"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "je",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1000",
+        "850",
+        "1150"
+      ],
+      "value_pool": [
+        "1000",
+        "850",
+        "1150"
+      ],
+      "min_value": 850.0,
+      "max_value": 1150.0
+    }
+  ]
+}

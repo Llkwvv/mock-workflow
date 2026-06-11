@@ -1,0 +1,161 @@
+{
+  "file_name": "鱼台县综合行政执法局_井盖包保信息202506271744.xlsx",
+  "table_name": "鱼台县综合行政执法局_井盖包保信息202506271744",
+  "row_count": 56,
+  "columns": [
+    "bbr",
+    "zrzd",
+    "jcpl",
+    "dw",
+    "ld"
+  ],
+  "fields": [
+    {
+      "name": "bbr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "吴建国",
+        "刘建军",
+        "马艳霞",
+        "王伯平",
+        "王文强",
+        "刘东升",
+        "安佳玉",
+        "刘明辉",
+        "孙兰",
+        "时键",
+        "刘传利",
+        "郭超",
+        "刘为光",
+        "韩向阳",
+        "丁荣秋",
+        "刘磊",
+        "王强",
+        "马法臣",
+        "李迪",
+        "宁莲芳",
+        "闫茂松",
+        "甄浩",
+        "徐亚群",
+        "曹士镇",
+        "李秋梅",
+        "任翠霞",
+        "宋业状",
+        "张鹏远",
+        "宋海岩",
+        "朱信雷",
+        "魏斌",
+        "张 鹏飞",
+        "范斌",
+        "杨晓冉",
+        "董继玲",
+        "刘宝亮",
+        "赵灿",
+        "王文池",
+        "范辛勤",
+        "尹文涛",
+        "肖文田",
+        "胡振涛",
+        "赵力",
+        "陈凡胜",
+        "赵猛",
+        "赵春华",
+        "刘振江",
+        "刘振声",
+        "姜念光",
+        "杨军"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrzd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "城区一分队",
+        "城区二分队",
+        "城区三分队",
+        "开发区中队",
+        "执法局城区一分队"
+      ],
+      "value_pool": [
+        "城区一分队",
+        "城区二分队",
+        "城区三分队",
+        "开发区中队",
+        "执法局城区一分队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcpl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "每周",
+        "每周一次"
+      ],
+      "value_pool": [
+        "每周",
+        "每周一次"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县综合行政执法局",
+        "执法局"
+      ],
+      "value_pool": [
+        "鱼台县综合行政执法局",
+        "执法局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ld",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "湖凌二路",
+        "湖凌三路",
+        "鱼新一路",
+        "鱼新二路",
+        "鱼台县湖凌二路"
+      ],
+      "value_pool": [
+        "湖凌二路",
+        "湖凌三路",
+        "鱼新一路",
+        "鱼新二路",
+        "鱼台县湖凌二路"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

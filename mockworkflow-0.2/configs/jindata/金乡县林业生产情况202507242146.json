@@ -1,0 +1,133 @@
+{
+  "file_name": "金乡县林业生产情况202507242146.xlsx",
+  "table_name": "金乡县林业生产情况202507242146",
+  "row_count": 32,
+  "columns": [
+    "qb",
+    "sl",
+    "dw",
+    "nf",
+    "xm"
+  ],
+  "fields": [
+    {
+      "name": "qb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1-12月"
+      ],
+      "value_pool": [
+        "1-12月"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "118.12",
+        "170.0",
+        "2.23",
+        "1.8",
+        "22283.0",
+        "7630.0",
+        "5400.0",
+        "2230.0",
+        "135.0",
+        "2775.0",
+        "2.0",
+        "52.0",
+        "25826.0",
+        "20400.0",
+        "5426.0",
+        "7390.0"
+      ],
+      "min_value": 1.8,
+      "max_value": 25826.0
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "公顷",
+        "万株",
+        "吨",
+        "百株",
+        "立方米"
+      ],
+      "value_pool": [
+        "公顷",
+        "万株",
+        "吨",
+        "百株",
+        "立方米"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022年",
+        "2023年"
+      ],
+      "value_pool": [
+        "2022年",
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "一、本年造林面积",
+        "（一）人工造林面积",
+        "1、用材林",
+        "2、经济林",
+        "3、防护林",
+        "（二）人工更新面积",
+        "二、森林抚育面积",
+        "三、本年四旁（零星）植树",
+        "四、林木育种和育苗",
+        "1、林木育种",
+        "其中：阔叶乔木树种种子",
+        "2、林木育苗",
+        "其中：阔叶乔木苗类",
+        "五、木材采伐量",
+        "1、原木",
+        "2、薪材",
+        "三、林木育种和育苗",
+        "四、木材采伐量",
+        "六、林产品采集"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

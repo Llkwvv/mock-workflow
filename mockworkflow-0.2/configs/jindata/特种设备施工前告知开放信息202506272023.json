@@ -1,0 +1,170 @@
+{
+  "file_name": "特种设备施工前告知开放信息202506272023.xlsx",
+  "table_name": "特种设备施工前告知开放信息202506272023",
+  "row_count": 2,
+  "columns": [
+    "azgzwxrq",
+    "sbdd",
+    "sgdw",
+    "sglb",
+    "gzsbh",
+    "sbmc",
+    "sbzl",
+    "sbdm",
+    "sydw",
+    "zzbh"
+  ],
+  "fields": [
+    {
+      "name": "azgzwxrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-3-19",
+        "2024.09.06"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县开发区",
+        "汶上县寅寺镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "安卡重工有限公司",
+        "山东诚联安装集团有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sglb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "安装"
+      ],
+      "value_pool": [
+        "安装"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzsbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "12061021",
+        "ZYDH2024-006"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "电动单梁桥式起重机",
+        "液氯储罐"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "起重机械",
+        "压力容器"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbdm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "417010B93**********",
+        "213010**********32"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "孔祥东",
+        "济宁中银电化有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "12061021",
+        "24-132"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

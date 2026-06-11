@@ -1,0 +1,166 @@
+{
+  "file_name": "路灯等基础设施维护检查信息202507011217.xlsx",
+  "table_name": "路灯等基础设施维护检查信息202507011217",
+  "row_count": 42,
+  "columns": [
+    "wz",
+    "sfsh",
+    "sfzcyx",
+    "xcy",
+    "jcsj"
+  ],
+  "fields": [
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "呈祥大道",
+        "昌盛街",
+        "萌山路",
+        "兖兰路",
+        "迎凤路",
+        "嘉祥大道",
+        "环湖西路",
+        "萌山路北延",
+        "红太阳路南延",
+        "德祥路",
+        "文苑路",
+        "嘉贸路",
+        "城南街",
+        "建设南路",
+        "建设北路",
+        "338线",
+        "获麟街",
+        "中心街",
+        "曾子像高杆灯",
+        "星河湾广场高杆灯",
+        "演武路",
+        "盛世路南延",
+        "冠亚街",
+        "城南街（萌山中学段）",
+        "嘉金线",
+        "机场连接线",
+        "嘉北路",
+        "李楼桥",
+        "演武路北延",
+        "获麟街东段",
+        "东一路",
+        "顺河路",
+        "获麟街西段",
+        "建设路（澳奇超市门口）",
+        "吉祥路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfsh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "损坏，已维修"
+      ],
+      "value_pool": [
+        "否",
+        "损坏，已维修"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzcyx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "email",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "赵德强",
+        "周长江",
+        "董东海",
+        "黄贤会",
+        "董强",
+        "王远想",
+        "董效彬",
+        "高省银",
+        "杨宽索",
+        "杨存磊"
+      ],
+      "value_pool": [
+        "赵德强",
+        "周长江",
+        "董东海",
+        "黄贤会",
+        "董强",
+        "王远想",
+        "董效彬",
+        "高省银",
+        "杨宽索",
+        "杨存磊"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "11.1",
+        "11.2",
+        "11.3",
+        "11.4",
+        "11.5",
+        "11.6",
+        "11.7",
+        "11.8",
+        "11.9",
+        "11.11",
+        "11.12",
+        "11.13",
+        "11.14",
+        "11.15",
+        "11.16",
+        "11.17",
+        "11.18",
+        "11.19",
+        "11.21",
+        "11.22",
+        "11.23",
+        "11.24",
+        "11.25"
+      ],
+      "min_value": 11.1,
+      "max_value": 11.9
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "file_name": "高新区济宁市年度产业急需中青年技师拟推荐人选名单公示202508010255.xlsx",
+  "table_name": "高新区济宁市年度产业急需中青年技师拟推荐人选名单公示202508010255",
+  "row_count": 85,
+  "columns": [
+    "xsq",
+    "ryxm",
+    "s",
+    "nd",
+    "ssjg",
+    "szdw"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ryxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "袁**",
+        "贺**",
+        "刘**",
+        "韩**",
+        "李**",
+        "马**",
+        "冯**",
+        "杨**",
+        "汤**",
+        "罗**",
+        "汪**",
+        "程**",
+        "宋**",
+        "代**",
+        "闫**",
+        "何**",
+        "窦**",
+        "夏**",
+        "赵**",
+        "徐**",
+        "崔**",
+        "邱**",
+        "孙**",
+        "成**",
+        "郭**",
+        "田**",
+        "史**",
+        "任**",
+        "芦**",
+        "穆**",
+        "黄**",
+        "孔**",
+        "周**",
+        "王**",
+        "张**",
+        "蒋**",
+        "戴**",
+        "高**",
+        "荣**",
+        "胡**",
+        "吕**",
+        "孟**",
+        "季**",
+        "柏**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019年",
+        "2017年",
+        "2018年",
+        "2021年"
+      ],
+      "value_pool": [
+        "2019年",
+        "2017年",
+        "2018年",
+        "2021年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "人力资源部"
+      ],
+      "value_pool": [
+        "人力资源部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁技术学院实习厂",
+        "辰欣药业股份有限公司",
+        "中国重汽集团济宁商用车有限公司",
+        "迪尔集团有限公司",
+        "山东鲁抗医药股份有限公司",
+        "山东如意毛纺服装集团股份有限公司",
+        "山推工程机械股份有限公司",
+        "山东广育堂国药有限公司",
+        "济宁润豪汽车销售服务有限公司",
+        "济宁天泓雷克萨斯汽车销售服务有限公司",
+        "济宁天莱汽车销售服务有限公司",
+        "济宁润通汽车销售服务有限公司",
+        "山东胜利生物工程有限公司",
+        "济宁润华汽车销售服务有限公司",
+        "济宁丰华汽车销售服务有限公司",
+        "小松山推工程机械有限公司",
+        "艾美科健（中国）生物医药有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

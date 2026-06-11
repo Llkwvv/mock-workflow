@@ -1,0 +1,129 @@
+{
+  "file_name": "经开区吉祥路两侧店外经营处罚信息202508010132.xlsx",
+  "table_name": "经开区吉祥路两侧店外经营处罚信息202508010132",
+  "row_count": 30,
+  "columns": [
+    "xzcf",
+    "wz",
+    "mc",
+    "wfxw",
+    "mfqfqk"
+  ],
+  "fields": [
+    {
+      "name": "xzcf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "警告"
+      ],
+      "value_pool": [
+        "警告"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "新挑河河东村",
+        "张刘庄",
+        "高庙",
+        "董家",
+        "董家村"
+      ],
+      "value_pool": [
+        "新挑河河东村",
+        "张刘庄",
+        "高庙",
+        "董家",
+        "董家村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "韩敬卫",
+        "魏欢欢",
+        "周山山",
+        "曹来启",
+        "张忠图",
+        "汤小兰",
+        "林秀丽",
+        "梁春雪",
+        "江川",
+        "卢继海",
+        "刘连厂",
+        "王健",
+        "刘灿",
+        "贾垂海",
+        "晁月银",
+        "杨书杭",
+        "贾经恒",
+        "岳红玉",
+        "陈洪",
+        "孙超",
+        "李永霞",
+        "张攀攀",
+        "贾万亮",
+        "杨宪忍",
+        "柏本华",
+        "董龙利",
+        "张雪兰",
+        "刘志里",
+        "张继才",
+        "刘灯宝"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wfxw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "店外经营"
+      ],
+      "value_pool": [
+        "店外经营"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mfqfqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "file_name": "鱼台县教育和体育局_质量监测信息202506271725.xlsx",
+  "table_name": "鱼台县教育和体育局_质量监测信息202506271725",
+  "row_count": 27,
+  "columns": [
+    "jcdw",
+    "jcxk",
+    "jcnj",
+    "jcmc",
+    "jcsj"
+  ],
+  "fields": [
+    {
+      "name": "jcdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "全县中小学",
+        "全县小学",
+        "全县中学",
+        "全县七年级",
+        "全县八年级"
+      ],
+      "value_pool": [
+        "全县中小学",
+        "全县小学",
+        "全县中学",
+        "全县七年级",
+        "全县八年级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "语文、数学、英语、道法、物理、化学、生物、地理、历史",
+        "语文、数学、英语、科学、道法",
+        "语文",
+        "数学",
+        "英语",
+        "道法",
+        "物理",
+        "化学",
+        "生物",
+        "地理",
+        "历史"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcnj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "一至九年级",
+        "六年级",
+        "一至五年级",
+        "七、八年级",
+        "七年级",
+        "八年级"
+      ],
+      "value_pool": [
+        "一至九年级",
+        "六年级",
+        "一至五年级",
+        "七、八年级",
+        "七年级",
+        "八年级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "期末质量监测",
+        "期中质量监测"
+      ],
+      "value_pool": [
+        "期末质量监测",
+        "期中质量监测"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022年1月25-27日",
+        "2022年4月26-28日",
+        "44741",
+        "2022年7月5日-6日",
+        "2022年7月12日-14日",
+        "44876",
+        "44877",
+        "2024年度"
+      ],
+      "value_pool": [
+        "2022年1月25-27日",
+        "2022年4月26-28日",
+        "44741",
+        "2022年7月5日-6日",
+        "2022年7月12日-14日",
+        "44876",
+        "44877",
+        "2024年度"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

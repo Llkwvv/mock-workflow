@@ -1,0 +1,137 @@
+{
+  "file_name": "医疗机构妇幼健康信息202603280802.xlsx",
+  "table_name": "医疗机构妇幼健康信息202603280802",
+  "row_count": 24,
+  "columns": [
+    "jyzt",
+    "zcdz",
+    "jydz",
+    "bgrq",
+    "dwmc"
+  ],
+  "fields": [
+    {
+      "name": "jyzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "正常"
+      ],
+      "value_pool": [
+        "正常"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市嘉祥县大张楼镇政府驻地",
+        "山东省济宁市嘉祥县城中心西街58号",
+        "山东省济宁市嘉祥县嘉祥镇周庄东327国道北",
+        "嘉祥县城区兖兰路40号",
+        "山东省济宁市嘉祥县纸坊镇政府驻地",
+        "山东省济宁市嘉祥县梁宝寺镇驻地",
+        "山东省济宁市嘉祥县城迎风路2号",
+        "嘉祥县孟姑集镇政府驻地",
+        "嘉祥县仲山镇政府驻地",
+        "山东省济宁市嘉祥县金屯镇驻地",
+        "山东省济宁市嘉祥县城呈祥街1号",
+        "山东省济宁市嘉祥县城中心西街72号",
+        "嘉祥县昌盛西街1号",
+        "嘉祥县兖兰东街93号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jydz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市嘉祥县大张楼镇政府驻地",
+        "山东省济宁市嘉祥县城中心西街58号",
+        "山东省济宁市嘉祥县嘉祥镇周庄东327国道北",
+        "嘉祥县城区兖兰路40号",
+        "山东省济宁市嘉祥县纸坊镇政府驻地",
+        "山东省济宁市嘉祥县梁宝寺镇驻地",
+        "山东省济宁市嘉祥县城迎风路2号",
+        "嘉祥县孟姑集镇政府驻地",
+        "嘉祥县仲山镇政府驻地",
+        "山东省济宁市嘉祥县金屯镇驻地",
+        "山东省济宁市嘉祥县城呈祥街1号",
+        "山东省济宁市嘉祥县城中心西街72号",
+        "嘉祥县昌盛西街1号",
+        "嘉祥县兖兰东街93号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bgrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021/11/02",
+        "2021/10/27",
+        "2021/10/22",
+        "2021/09/26",
+        "2021/09/23",
+        "2021/08/17",
+        "2021/06/21",
+        "2021/05/21",
+        "2021/05/19",
+        "2021/05/08",
+        "2021/05/07",
+        "2021/04/30"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县大张楼镇卫生院",
+        "嘉祥县妇幼保健计划生育服务中心",
+        "嘉祥红会医院",
+        "嘉祥萌山医院",
+        "嘉祥县第三人民医院",
+        "嘉祥县第二人民医院",
+        "嘉祥县人民医院",
+        "嘉祥县孟姑集镇卫生院",
+        "嘉祥县仲山镇卫生院",
+        "嘉祥县金屯中心卫生院",
+        "嘉祥县诚和医院",
+        "嘉祥县红会医院",
+        "嘉祥县中医院",
+        "嘉祥民康医院",
+        "嘉祥惠民医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

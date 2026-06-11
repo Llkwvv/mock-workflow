@@ -1,0 +1,145 @@
+{
+  "file_name": "鱼台县综合行政执法局_城市道路保洁信息202506271753.xlsx",
+  "table_name": "鱼台县综合行政执法局_城市道路保洁信息202506271753",
+  "row_count": 30,
+  "columns": [
+    "dlmc",
+    "bjgs",
+    "lb",
+    "jtwz",
+    "zgdw"
+  ],
+  "fields": [
+    {
+      "name": "dlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "孝贤大道",
+        "观鱼大街",
+        "湖凌四路",
+        "古亭路",
+        "鱼新三路",
+        "建设路",
+        "古棠路",
+        "三贤路",
+        "悯农路",
+        "闵子骞路",
+        "湖凌三路",
+        "滨河西路",
+        "谭庄路",
+        "稻改路",
+        "湖凌一路",
+        "金盛街",
+        "樊子迟路",
+        "贤思路",
+        "谷亭老街",
+        "学苑路",
+        "宓子贱路",
+        "孝贤阁路",
+        "丰谷路",
+        "英雄路",
+        "济水路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "龙吉顺有限公司",
+        "鱼台龙吉顺有限公司"
+      ],
+      "value_pool": [
+        "龙吉顺有限公司",
+        "鱼台龙吉顺有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "主干路",
+        "次干路",
+        "支路",
+        "主路"
+      ],
+      "value_pool": [
+        "主干路",
+        "次干路",
+        "支路",
+        "主路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "G237--南环路",
+        "兴鱼大道--东环路",
+        "G237--鱼新三路",
+        "观鱼大街--鱼新一路",
+        "东环路--兴鱼大道",
+        "滨河西路--兴鱼大道",
+        "东环路--稻改路",
+        "宓子贱路--稻改路",
+        "滨河西路--稻改路",
+        "建设路--古棠路",
+        "观鱼大街--建设路",
+        "观鱼大街--古棠路",
+        "鱼新一路--南环路",
+        "湖凌三路--谭庄路",
+        "三贤路--古棠路",
+        "湖凌三路--湖凌四路",
+        "孝贤大道--文昌路",
+        "观鱼大街--三贤路",
+        "滨河西路--孝贤大道",
+        "鱼新二路-鱼新三路",
+        "东环路向东",
+        "工业路向西"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县综合行政执法局",
+        "执法局"
+      ],
+      "value_pool": [
+        "鱼台县综合行政执法局",
+        "执法局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

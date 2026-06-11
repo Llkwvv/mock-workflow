@@ -1,0 +1,163 @@
+{
+  "file_name": "汶上县校外托管机构日常监督检查信息202506241207.xlsx",
+  "table_name": "汶上县校外托管机构日常监督检查信息202506241207",
+  "row_count": 15,
+  "columns": [
+    "jcrs",
+    "gcxs",
+    "dz",
+    "jgmc",
+    "fzr",
+    "jcrq"
+  ],
+  "fields": [
+    {
+      "name": "jcrs",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "65.0",
+        "30.0",
+        "55.0",
+        "40.0",
+        "43.0",
+        "75.0",
+        "70.0",
+        "120.0",
+        "85.0",
+        "50.0",
+        "39.0",
+        "60.0"
+      ],
+      "min_value": 30.0,
+      "max_value": 120.0
+    },
+    {
+      "name": "gcxs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "自主经营"
+      ],
+      "value_pool": [
+        "自主经营"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "中都苑小区西门北60米路东",
+        "上县中都街道中都苑小区1002号楼1单元1-104室",
+        "中都街道文慧园2号3-101",
+        "姬沟社区尚书路1-11号2楼",
+        "尚书路中段路南1660-3",
+        "尚书路西段1660-21号",
+        "沟社区西门北门西房1#1-14号",
+        "中都街道花园路306号",
+        "万隆商城28号楼3楼01号",
+        "汶上县中都街道锦绣家园8号楼102",
+        "汶上县中都街道宁民路505号",
+        "汶上县中都街道吉祥花园1014-1-102门面（闫村社区）",
+        "济宁市汶上县中都街道办事处吉祥花园小区1009座01单元0001号房",
+        "汶上街道胜利路南段吉祥花园小区28-2-102室二楼",
+        "汶上县中都街道宁民路43号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县明智小餐桌服务部",
+        "汶上星耀校外托管中心",
+        "汶上县文慧园小餐桌服务部",
+        "汶上县智博园托辅中心",
+        "汶上县明朗托管中心",
+        "汶上县博思特教育培训学校有限公司",
+        "一山晋级信息咨询管理（汶上）有限公司",
+        "汶上县儒佳托管有限公司",
+        "汶上县儒尚托管有限公司",
+        "济宁智学教育培训有限公司",
+        "汶上县慧源校外托管中心",
+        "汶上一山教育信息咨询有限公司",
+        "汶上县学润教育培训学校有限公司",
+        "汶上县学智托管中心",
+        "汶上县乐家小餐桌服务部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "田红苓",
+        "顾玉红",
+        "谭亚丽",
+        "张峰",
+        "姬雪梅",
+        "吴兆纲",
+        "何晓",
+        "于明涛",
+        "林兰洲",
+        "孙辉",
+        "胡言辉",
+        "陈宁宁",
+        "孙环",
+        "李亚平"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-03-12 09:30:00",
+        "2025-03-12 11:30:00",
+        "2025-03-12 14:30:00",
+        "2025-03-12 16:00:00",
+        "2025-03-13 08:30:00",
+        "2025-03-13 10:00:00",
+        "2025-03-13 10:30:00",
+        "2025-03-13 11:30:00",
+        "2025-03-13 13:30:00",
+        "2025-03-13 15:00:00",
+        "2025-03-14 09:30:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

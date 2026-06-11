@@ -1,0 +1,122 @@
+{
+  "file_name": "鱼台县档案馆_人员信息202508010109.xlsx",
+  "table_name": "鱼台县档案馆_人员信息202508010109",
+  "row_count": 23,
+  "columns": [
+    "zw",
+    "bz",
+    "xb",
+    "姓名",
+    "grsf"
+  ],
+  "fields": [
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "无",
+        "馆长",
+        "副科级",
+        "副馆长",
+        "科长",
+        "工作人员"
+      ],
+      "value_pool": [
+        "无",
+        "馆长",
+        "副科级",
+        "副馆长",
+        "科长",
+        "工作人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "退休",
+        "无"
+      ],
+      "value_pool": [
+        "退休",
+        "无"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "田**",
+        "刘**",
+        "房**",
+        "李**",
+        "范**",
+        "杨**",
+        "陈**",
+        "蒋**",
+        "王**",
+        "郭**",
+        "甄**",
+        "董**",
+        "殷**",
+        "梁**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "grsf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "干部",
+        "工人"
+      ],
+      "value_pool": [
+        "干部",
+        "工人"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

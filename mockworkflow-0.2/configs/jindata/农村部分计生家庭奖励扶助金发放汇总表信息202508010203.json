@@ -1,0 +1,107 @@
+{
+  "file_name": "农村部分计生家庭奖励扶助金发放汇总表信息202508010203.xlsx",
+  "table_name": "农村部分计生家庭奖励扶助金发放汇总表信息202508010203",
+  "row_count": 8,
+  "columns": [
+    "ffje",
+    "姓名",
+    "jtzz",
+    "zh",
+    "zjhm"
+  ],
+  "fields": [
+    {
+      "name": "ffje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "300"
+      ],
+      "value_pool": [
+        "300"
+      ],
+      "min_value": 300.0,
+      "max_value": 300.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "**",
+        "李**",
+        "***"
+      ],
+      "value_pool": [
+        "**",
+        "李**",
+        "***"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "老僧堂镇大靳",
+        "山东省济宁市嘉祥县孟姑集镇响水口村",
+        "隋庄",
+        "山东省济宁市嘉祥县仲山镇赵山岭村委会183号",
+        "山东省济宁市嘉祥县仲山镇北李村委会",
+        "山东省济宁市嘉祥县仲山镇后海村委会",
+        "山东省济宁市嘉祥县仲山镇赵山岭村委会"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "62****************"
+      ],
+      "value_pool": [
+        "62****************"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "3************221",
+        "3************614",
+        "3************043",
+        "3************031",
+        "5************52X",
+        "3************060",
+        "3************021",
+        "3************087"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

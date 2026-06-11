@@ -1,0 +1,113 @@
+{
+  "file_name": "监督管理全县计量技术机构信息202602111200.xlsx",
+  "table_name": "监督管理全县计量技术机构信息202602111200",
+  "row_count": 20,
+  "columns": [
+    "ptry",
+    "jgmc",
+    "jcsx",
+    "jcsj",
+    "jcqk"
+  ],
+  "fields": [
+    {
+      "name": "ptry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "刘海平",
+        "崔允帅"
+      ],
+      "value_pool": [
+        "刘海平",
+        "崔允帅"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县计量检定测试所",
+        "山东鑫泽俪测试科技有限公司"
+      ],
+      "value_pool": [
+        "嘉祥县计量检定测试所",
+        "山东鑫泽俪测试科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "执行计量法律法规情况",
+        "计量标准溯源情况",
+        "检定工作规范性",
+        "技术人员培训情况"
+      ],
+      "value_pool": [
+        "执行计量法律法规情况",
+        "计量标准溯源情况",
+        "检定工作规范性",
+        "技术人员培训情况"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025.9.20",
+        "2025.9.21",
+        "2025.9.22",
+        "2025.9.23",
+        "2025.05.12",
+        "2025.06.12",
+        "2025.02.21",
+        "2025.02.26",
+        "2025.04.16",
+        "2025.07.28",
+        "2025.07.29",
+        "2025.11.19"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格"
+      ],
+      "value_pool": [
+        "合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

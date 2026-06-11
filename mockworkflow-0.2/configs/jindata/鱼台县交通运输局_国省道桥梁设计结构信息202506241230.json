@@ -1,0 +1,137 @@
+{
+  "file_name": "鱼台县交通运输局_国省道桥梁设计结构信息202506241230.xlsx",
+  "table_name": "鱼台县交通运输局_国省道桥梁设计结构信息202506241230",
+  "row_count": 26,
+  "columns": [
+    "sbjg",
+    "qmpz",
+    "xbjg",
+    "qlmc",
+    "zz"
+  ],
+  "fields": [
+    {
+      "name": "sbjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "T梁",
+        "简支梁",
+        "小箱梁",
+        "梁桥",
+        "I型梁",
+        "矩形梁",
+        "箱型连续梁桥",
+        "矩形空心板梁"
+      ],
+      "value_pool": [
+        "T梁",
+        "简支梁",
+        "小箱梁",
+        "梁桥",
+        "I型梁",
+        "矩形梁",
+        "箱型连续梁桥",
+        "矩形空心板梁"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qmpz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "沥青混凝土"
+      ],
+      "value_pool": [
+        "沥青混凝土"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xbjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "框架式墩台、双柱式墩",
+        "框架式墩台、柱式墩",
+        "框架式桥台、双柱式墩",
+        "柱式桥台、柱式墩",
+        "组合式桥台、双柱式墩",
+        "框架式桥台、多柱式墩",
+        "肋板桥台、双柱式墩",
+        "三柱式桥台、三柱式墩",
+        "双柱式桥台、双柱式墩",
+        "埋置式桥台、双柱式墩",
+        "埋置式桥台、多柱式墩"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "清河桥",
+        "盛洼桥（右）",
+        "盛洼桥（左）",
+        "王鲁惠河桥（左）",
+        "王鲁惠河桥（右）",
+        "西支河桥",
+        "东鱼河唐马桥",
+        "苏鲁边河桥（左）",
+        "苏鲁边河桥（右）",
+        "边河桥（左）",
+        "边河桥（右）",
+        "张埝桥（左）",
+        "张埝桥（右）",
+        "东鱼河桥（南）",
+        "东鱼河桥（北）",
+        "树李桥",
+        "惠河桥",
+        "东鱼河大桥（左）",
+        "东鱼河大桥（右）",
+        "白马河桥",
+        "鱼台县东鱼河桥（南）",
+        "鱼台县东鱼河桥（北）",
+        "鱼台县西支河桥",
+        "鱼台县树李桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "板式橡胶支座"
+      ],
+      "value_pool": [
+        "板式橡胶支座"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

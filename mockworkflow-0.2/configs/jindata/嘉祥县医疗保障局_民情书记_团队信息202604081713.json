@@ -1,0 +1,249 @@
+{
+  "file_name": "嘉祥县医疗保障局_民情书记_团队信息202604081713.xlsx",
+  "table_name": "嘉祥县医疗保障局_民情书记_团队信息202604081713",
+  "row_count": 1,
+  "columns": [
+    "zzmm",
+    "mz",
+    "xb",
+    "czbsjsj",
+    "dwjzw",
+    "tdzw",
+    "fwqgzry",
+    "crks",
+    "bmdw",
+    "chs",
+    "zffwq",
+    "zfzj",
+    "姓名",
+    "zfc",
+    "mqsjtd",
+    "csny"
+  ],
+  "fields": [
+    {
+      "name": "zzmm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "群众"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czbsjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "徐长青"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwjzw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "医保事业中心智能监测科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tdzw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "队员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwqgzry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "刘宪国"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "crks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "1429"
+      ],
+      "min_value": 1429.0,
+      "max_value": 1429.0
+    },
+    {
+      "name": "bmdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县医疗保障局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "chs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "520"
+      ],
+      "min_value": 520.0,
+      "max_value": 520.0
+    },
+    {
+      "name": "zffwq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "土山桥服务区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfzj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金屯镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "吴**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "房徐新村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mqsjtd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县派医疗保障局“民情书记”后勤保障三队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csny",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1998.06"
+      ],
+      "min_value": 1998.06,
+      "max_value": 1998.06
+    }
+  ]
+}

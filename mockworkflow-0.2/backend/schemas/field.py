@@ -27,7 +27,41 @@ class FieldSemantic(StrEnum):
     phone_number = "phone_number"
     email = "email"
     url = "url"
+    region = "region"
+    id_card = "id_card"
+    credit_code = "credit_code"
+    bank_card = "bank_card"
+    postal_code = "postal_code"
+    gender = "gender"
+    age = "age"
+    birthdate = "birthdate"
+    person_name = "person_name"
+    address = "address"
     unknown = "unknown"
+
+    @classmethod
+    def _register_dynamic(cls, name: str) -> "FieldSemantic":
+        """Register a new semantic member at runtime (used by SemanticRegistry)."""
+        name = name.strip()
+        if not name:
+            raise ValueError("semantic name cannot be empty")
+        existing = cls._value2member_map_.get(name)
+        if existing is not None:
+            return existing  # type: ignore[return-value]
+        member = str.__new__(cls, name)
+        member._name_ = name
+        member._value_ = name
+        cls._member_map_[name] = member
+        cls._value2member_map_[name] = member
+        return member  # type: ignore[return-value]
+
+
+class DistributionInfo(BaseModel):
+    """Statistical distribution fitted to a numeric column."""
+
+    type: str = Field(default="uniform", description="uniform | normal | lognormal | exponential | poisson")
+    params: dict[str, float] = Field(default_factory=dict, description="Distribution parameters (mu, sigma, lambda, etc.)")
+    goodness_of_fit: float = Field(default=0.0, ge=0, le=1, description="KS test p-value or similar score")
 
 
 class ColumnProfile(BaseModel):
@@ -40,6 +74,19 @@ class ColumnProfile(BaseModel):
     max_value: float | None = None
     datetime_format: str | None = None
     confidence: float = Field(default=0, ge=0, le=1)
+    distribution: DistributionInfo | None = None
+    value_frequency: dict[str, int] = Field(
+        default_factory=dict,
+        description="Distinct sample value -> occurrence count, for frequency-weighted sampling",
+    )
+
+
+class ConstraintSpec(BaseModel):
+    """Cross-field constraint expressed as a DSL string."""
+
+    expression: str = Field(min_length=1, description="DSL expression, e.g. 'start_time < end_time'")
+    fields: list[str] = Field(default_factory=list, description="Field names involved in this constraint")
+    confidence: float = Field(default=0.5, ge=0, le=1, description="Confidence that this constraint holds")
 
 
 class FieldSpec(BaseModel):
@@ -57,6 +104,18 @@ class FieldSpec(BaseModel):
     value_pool: list[str] = Field(default_factory=list)
     uncertain: bool = False
     confidence: float | None = Field(default=None, ge=0, le=1)
+    constraints: list[ConstraintSpec] = Field(default_factory=list)
+    distribution: DistributionInfo | None = None
+    value_frequency: dict[str, int] = Field(
+        default_factory=dict,
+        description="Distinct sample value -> count, used for frequency-weighted sampling",
+    )
+    unique_ratio: float | None = Field(
+        default=None, ge=0, le=1,
+        description="Ratio of distinct values in the sample, used to choose generation strategy",
+    )
+    min_value: float | None = Field(default=None, description="Observed numeric minimum from sample")
+    max_value: float | None = Field(default=None, description="Observed numeric maximum from sample")
 
     @field_validator("name")
     @classmethod

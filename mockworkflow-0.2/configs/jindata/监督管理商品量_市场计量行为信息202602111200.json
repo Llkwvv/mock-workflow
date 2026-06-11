@@ -1,0 +1,130 @@
+{
+  "file_name": "监督管理商品量_市场计量行为信息202602111200.xlsx",
+  "table_name": "监督管理商品量_市场计量行为信息202602111200",
+  "row_count": 20,
+  "columns": [
+    "pycxdw",
+    "cltsjb",
+    "jcjmsc",
+    "scjgs",
+    "jcsj"
+  ],
+  "fields": [
+    {
+      "name": "pycxdw",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "8",
+        "10",
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "value_pool": [
+        "8",
+        "10",
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 10.0
+    },
+    {
+      "name": "cltsjb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "2",
+        "0"
+      ],
+      "value_pool": [
+        "1",
+        "2",
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "jcjmsc",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "3",
+        "2",
+        "1",
+        "无",
+        "4"
+      ],
+      "value_pool": [
+        "3",
+        "2",
+        "1",
+        "无",
+        "4"
+      ],
+      "min_value": 1.0,
+      "max_value": 4.0
+    },
+    {
+      "name": "scjgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥街道一所",
+        "嘉祥街道二所",
+        "卧龙山所",
+        "梁宝寺所",
+        "大张楼所",
+        "马村所",
+        "金屯所",
+        "纸坊所",
+        "老僧堂所",
+        "孟姑集所",
+        "黄垓所",
+        "万张所",
+        "满硐所",
+        "仲山所",
+        "经开区所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2025年10-12月",
+        "2025年7-9月"
+      ],
+      "value_pool": [
+        "2025年10-12月",
+        "2025年7-9月"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

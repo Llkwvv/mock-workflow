@@ -1,0 +1,225 @@
+{
+  "file_name": "经开区肉禽养殖生产摸底排查台账表202508010117.xlsx",
+  "table_name": "经开区肉禽养殖生产摸底排查台账表202508010117",
+  "row_count": 21,
+  "columns": [
+    "yzchmc",
+    "sjnclgmz",
+    "dqclgmz",
+    "yzczxtrjryqt",
+    "lxxtgmczyh",
+    "qxmc",
+    "yzcdz",
+    "qyfzrxm",
+    "sfczwthknxtsf"
+  ],
+  "fields": [
+    {
+      "name": "yzchmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "王连伟养殖场",
+        "杜贻哲养殖场",
+        "马登峰养殖场",
+        "权有过养殖场",
+        "孙茂磊养殖场",
+        "乔长生养殖场",
+        "杨义专养殖场",
+        "王新建养殖场",
+        "华平养殖场",
+        "闫鹏养殖场",
+        "华芹养殖场",
+        "盛宝晴养殖场",
+        "孙永哲养殖场",
+        "孙永镇养殖场",
+        "孙善章养殖场",
+        "崔宗纯养鸭场",
+        "陆世革养鸭场",
+        "杜中运养鹅场",
+        "狄宣争养鹅场",
+        "晟瑞养殖场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjnclgmz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "60000",
+        "80000",
+        "75000",
+        "100000",
+        "150000",
+        "50000",
+        "40000",
+        "45000",
+        "105000",
+        "5000",
+        "7000"
+      ],
+      "min_value": 5000.0,
+      "max_value": 150000.0
+    },
+    {
+      "name": "dqclgmz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "20000",
+        "15000",
+        "5000",
+        "3000",
+        "8000"
+      ],
+      "value_pool": [
+        "0",
+        "20000",
+        "15000",
+        "5000",
+        "3000",
+        "8000"
+      ],
+      "min_value": 0.0,
+      "max_value": 20000.0
+    },
+    {
+      "name": "yzczxtrjryqt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "肉鸭",
+        "肉鸡",
+        "鹅"
+      ],
+      "value_pool": [
+        "肉鸭",
+        "肉鸡",
+        "鹅"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxxtgmczyh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "规模场",
+        "专业户"
+      ],
+      "value_pool": [
+        "规模场",
+        "专业户"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "经开区"
+      ],
+      "value_pool": [
+        "经开区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yzcdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "刘街",
+        "马集",
+        "乔庄",
+        "薄店",
+        "长坦纸坊",
+        "鸭子李",
+        "旷山",
+        "下花林",
+        "崔桥",
+        "杨庄",
+        "杜马",
+        "狄家村北外环",
+        "进士张"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyfzrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "杜**",
+        "马**",
+        "权**",
+        "孙**",
+        "乔**",
+        "杨**",
+        "秦**",
+        "闫*",
+        "高**",
+        "盛**",
+        "崔**",
+        "陆**",
+        "狄**",
+        "张*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfczwthknxtsf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

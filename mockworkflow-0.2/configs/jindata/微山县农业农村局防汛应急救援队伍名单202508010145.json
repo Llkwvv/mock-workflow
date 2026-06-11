@@ -1,0 +1,187 @@
+{
+  "file_name": "微山县农业农村局防汛应急救援队伍名单202508010145.xlsx",
+  "table_name": "微山县农业农村局防汛应急救援队伍名单202508010145",
+  "row_count": 33,
+  "columns": [
+    "dw",
+    "xb",
+    "xh",
+    "姓名",
+    "fz",
+    "bz"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县农业农村局"
+      ],
+      "value_pool": [
+        "微山县农业农村局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "min_value": 1.0,
+      "max_value": 33.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈*",
+        "杨**",
+        "刘**",
+        "程**",
+        "肖**",
+        "盛***",
+        "渠**",
+        "渠***",
+        "陈***",
+        "张**",
+        "母**",
+        "高***",
+        "李***",
+        "陈**",
+        "张***",
+        "邹**",
+        "满**",
+        "林***",
+        "蒋**",
+        "唐**",
+        "赵**",
+        "薛***",
+        "王***",
+        "周**",
+        "程*",
+        "张*",
+        "满*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "总指挥",
+        "第一组防汛抢险",
+        "第二组人员疏散",
+        "第三组灾后农业生产自救",
+        "第四组车辆保障",
+        "第五组后勤保障",
+        "宣传组"
+      ],
+      "value_pool": [
+        "总指挥",
+        "第一组防汛抢险",
+        "第二组人员疏散",
+        "第三组灾后农业生产自救",
+        "第四组车辆保障",
+        "第五组后勤保障",
+        "宣传组"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "总指挥",
+        "组  长",
+        "组员",
+        "组长",
+        "机动"
+      ],
+      "value_pool": [
+        "总指挥",
+        "组  长",
+        "组员",
+        "组长",
+        "机动"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

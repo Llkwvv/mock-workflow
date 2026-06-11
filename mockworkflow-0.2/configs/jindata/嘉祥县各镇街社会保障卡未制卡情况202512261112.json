@@ -1,0 +1,218 @@
+{
+  "file_name": "嘉祥县各镇街社会保障卡未制卡情况202512261112.xlsx",
+  "table_name": "嘉祥县各镇街社会保障卡未制卡情况202512261112",
+  "row_count": 20,
+  "columns": [
+    "jbjgbh",
+    "sqmc",
+    "jbjgmc",
+    "xzbh",
+    "姓名",
+    "sfyzp",
+    "sqbh",
+    "xzmc"
+  ],
+  "fields": [
+    {
+      "name": "jbjgbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "37082907"
+      ],
+      "value_pool": [
+        "37082907"
+      ],
+      "min_value": 37082907.0,
+      "max_value": 37082907.0
+    },
+    {
+      "name": "sqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "闫村",
+        "徐庄",
+        "新营村",
+        "卧佛寺村",
+        "韦庄",
+        "王集村",
+        "汪孟屯",
+        "孙山头",
+        "石腊屯",
+        "任三村",
+        "钱集村",
+        "前唐村",
+        "南武山西村",
+        "金屯村",
+        "嘉祥街道驻地",
+        "嘉祥村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jbjgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县人社局"
+      ],
+      "value_pool": [
+        "嘉祥县人社局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "370829005",
+        "370829001",
+        "370829003",
+        "370829002",
+        "370829006",
+        "370829004",
+        "370829007",
+        "370829009"
+      ],
+      "value_pool": [
+        "370829005",
+        "370829001",
+        "370829003",
+        "370829002",
+        "370829006",
+        "370829004",
+        "370829007",
+        "370829009"
+      ],
+      "min_value": 370829001.0,
+      "max_value": 370829009.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "阎*锋",
+        "李*悦",
+        "王*新",
+        "王*连",
+        "代*波",
+        "韦*",
+        "王*亮",
+        "张*妍",
+        "李*垚",
+        "丁*",
+        "任*霖",
+        "郭*",
+        "付*文",
+        "吴*超",
+        "乔*宸",
+        "黄*妮",
+        "王*霖",
+        "王*欣",
+        "张*亮",
+        "李*宸"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfyzp",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "有"
+      ],
+      "value_pool": [
+        "有"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "370829005035",
+        "370829001012",
+        "370829003011",
+        "370829003053",
+        "370829002005",
+        "370829006011",
+        "370829004021",
+        "370829006010",
+        "370829001013",
+        "370829005032",
+        "370829003015",
+        "370829001011",
+        "370829007016",
+        "370829007015",
+        "370829009009",
+        "370829001010",
+        "370829001008",
+        "370829001001"
+      ],
+      "min_value": 370829001001.0,
+      "max_value": 370829009009.0
+    },
+    {
+      "name": "xzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "纸坊镇",
+        "嘉祥镇",
+        "大张楼镇",
+        "卧龙山镇",
+        "老僧堂乡",
+        "粱宝寺镇",
+        "满硐乡",
+        "金屯镇"
+      ],
+      "value_pool": [
+        "纸坊镇",
+        "嘉祥镇",
+        "大张楼镇",
+        "卧龙山镇",
+        "老僧堂乡",
+        "粱宝寺镇",
+        "满硐乡",
+        "金屯镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

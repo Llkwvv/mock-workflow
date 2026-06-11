@@ -1,0 +1,150 @@
+{
+  "file_name": "汶上县质量品牌建设荣誉信息202506161453.xlsx",
+  "table_name": "汶上县质量品牌建设荣誉信息202506161453",
+  "row_count": 21,
+  "columns": [
+    "hjnd",
+    "rymc",
+    "hjqy",
+    "hjcp",
+    "hjmc"
+  ],
+  "fields": [
+    {
+      "name": "hjnd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2017年",
+        "2019年",
+        "2010年",
+        "2014年",
+        "2016年",
+        "2018年",
+        "2020年",
+        "2021年"
+      ],
+      "value_pool": [
+        "2017年",
+        "2019年",
+        "2010年",
+        "2014年",
+        "2016年",
+        "2018年",
+        "2020年",
+        "2021年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "省长质量奖",
+        "市长质量奖",
+        "山东名牌产品",
+        "山东省知名品牌",
+        "山东省优质品牌",
+        "山东优质品牌",
+        "山东省高端品牌培育企业"
+      ],
+      "value_pool": [
+        "省长质量奖",
+        "市长质量奖",
+        "山东名牌产品",
+        "山东省知名品牌",
+        "山东省优质品牌",
+        "山东优质品牌",
+        "山东省高端品牌培育企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "新风光电子科技股份有限公司",
+        "山东佛都半导体照明有限公司陶俊义",
+        "汶上县供销合作社联合社",
+        "山东金秋农牧科技股份有限公司",
+        "山东华力机电有限公司",
+        "山东华尚电气有限公司",
+        "汶上县金秋食品有限公司",
+        "山东土木启生物科技有限公司",
+        "山东大佳机械有限公司",
+        "山东兴诺工贸股份有限公司"
+      ],
+      "value_pool": [
+        "新风光电子科技股份有限公司",
+        "山东佛都半导体照明有限公司陶俊义",
+        "汶上县供销合作社联合社",
+        "山东金秋农牧科技股份有限公司",
+        "山东华力机电有限公司",
+        "山东华尚电气有限公司",
+        "汶上县金秋食品有限公司",
+        "山东土木启生物科技有限公司",
+        "山东大佳机械有限公司",
+        "山东兴诺工贸股份有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjcp",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "license_plate",
+      "enum_values": [],
+      "value_pool": [
+        "动态无功补偿装置（SVG）",
+        "非晶合金变压器",
+        "芦花烧鸡",
+        "往复式内燃驱动的交流发电机组",
+        "立体卷铁心配电变压器",
+        "生物营养肥（“土木启”商标）",
+        "智能畜禽养殖设备（“TBB”商标）",
+        "非晶合金铁芯变压器（“Huasense”商标）",
+        "芦花烧鸡（“汶水”商标）",
+        "往复式内燃驱动的交流发电机组（“山华”商标）",
+        "玻璃水瓶、水杯（“斯佰诺”商标）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "第六届省长质量奖提名奖",
+        "第七届省长质量奖提名奖",
+        "第二届市长质量奖",
+        "第四届市长质量奖个人奖提名奖",
+        "第五届市长质量奖提名奖",
+        "第六届济宁市市长质量奖",
+        "第六届济宁市市长质量奖提名奖"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

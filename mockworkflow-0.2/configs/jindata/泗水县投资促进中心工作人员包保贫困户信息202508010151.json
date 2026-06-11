@@ -1,0 +1,196 @@
+{
+  "file_name": "泗水县投资促进中心工作人员包保贫困户信息202508010151.xlsx",
+  "table_name": "泗水县投资促进中心工作人员包保贫困户信息202508010151",
+  "row_count": 35,
+  "columns": [
+    "rbh",
+    "xzcmc",
+    "hbh",
+    "sfljdw",
+    "xz",
+    "bfzrrxm",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "rbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "310058624384",
+        "310058340745",
+        "310058407906",
+        "310058417582",
+        "310058414704",
+        "100000215835597",
+        "100000216273637",
+        "310058563833",
+        "310058364010",
+        "310058581917",
+        "100000216985810",
+        "310058378929",
+        "310058659925",
+        "310058295874",
+        "310058543074",
+        "310058585808",
+        "310058411368",
+        "310058361208",
+        "310058413973",
+        "310058624038"
+      ],
+      "min_value": 310058295874.0,
+      "max_value": 100000216985810.0
+    },
+    {
+      "name": "xzcmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "中册二村村",
+        "中册四村村",
+        "中册一村村"
+      ],
+      "value_pool": [
+        "中册二村村",
+        "中册四村村",
+        "中册一村村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "3119556113",
+        "3119441697",
+        "3119452214",
+        "3119447753",
+        "3119453379",
+        "100000215850235",
+        "100000216294595",
+        "3119571581",
+        "3119484374",
+        "3119573289",
+        "100000217282626",
+        "3119484908",
+        "3119561009",
+        "3119451907",
+        "3119560663",
+        "3119553516",
+        "3119450746",
+        "3119470000",
+        "3119453375",
+        "3119551598"
+      ],
+      "min_value": 3119441697.0,
+      "max_value": 100000217282626.0
+    },
+    {
+      "name": "sfljdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中册镇"
+      ],
+      "value_pool": [
+        "中册镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bfzrrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "朱***",
+        "张**",
+        "王***",
+        "孔**",
+        "张***",
+        "沙***",
+        "李***",
+        "余**",
+        "陈***",
+        "刘***",
+        "赵**",
+        "张*",
+        "周**",
+        "邵**",
+        "李**",
+        "周***",
+        "陶**",
+        "曹***",
+        "贾**",
+        "霍**",
+        "张****",
+        "杜***",
+        "郑***"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "刘*",
+        "徐**",
+        "马**",
+        "陈**",
+        "郭**",
+        "颜**",
+        "李*",
+        "宋**",
+        "张**",
+        "杨**",
+        "孔**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

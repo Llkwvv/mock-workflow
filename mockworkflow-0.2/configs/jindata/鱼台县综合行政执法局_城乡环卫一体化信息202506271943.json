@@ -1,0 +1,163 @@
+{
+  "file_name": "鱼台县综合行政执法局_城乡环卫一体化信息202506271943.xlsx",
+  "table_name": "鱼台县综合行政执法局_城乡环卫一体化信息202506271943",
+  "row_count": 63,
+  "columns": [
+    "sszj",
+    "dkks",
+    "khjg",
+    "zgdw",
+    "cjmc"
+  ],
+  "fields": [
+    {
+      "name": "sszj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "老砦镇",
+        "罗屯镇",
+        "滨湖街道",
+        "鱼城镇",
+        "老砦"
+      ],
+      "value_pool": [
+        "老砦镇",
+        "罗屯镇",
+        "滨湖街道",
+        "鱼城镇",
+        "老砦"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dkks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "村镇环卫科"
+      ],
+      "value_pool": [
+        "村镇环卫科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "khjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格",
+        "优秀"
+      ],
+      "value_pool": [
+        "合格",
+        "优秀"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县综合行政执法局"
+      ],
+      "value_pool": [
+        "鱼台县综合行政执法局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "独山村",
+        "沙河村",
+        "陆姚村",
+        "中心村",
+        "许楼村",
+        "刘寨村",
+        "临湖村",
+        "前六屯村",
+        "仁南村",
+        "李集村",
+        "东里村",
+        "西城村",
+        "老砦村",
+        "义和村",
+        "老北村",
+        "仁北村",
+        "盛庄村",
+        "罗屯村",
+        "许刘村",
+        "堽上村",
+        "高庄村",
+        "大闫村",
+        "芦阁村",
+        "郭河村",
+        "前李村",
+        "新骆村",
+        "随海村",
+        "刘庄村",
+        "陈楼村",
+        "冯楼村",
+        "随集村",
+        "屈庄村",
+        "郭庄村",
+        "王楼村",
+        "沈庄村",
+        "沈集村",
+        "苗村",
+        "八户村",
+        "孙楼村",
+        "后军村",
+        "前军村",
+        "城西村",
+        "和众村",
+        "微湖村",
+        "马莪村",
+        "杨邵村",
+        "双庙村",
+        "牌子王村",
+        "蒋庄村",
+        "湾里村",
+        "夏庄村",
+        "李白村",
+        "卜桥村",
+        "中东南村",
+        "洪庙村",
+        "张庄村",
+        "李党村",
+        "独山",
+        "沙河",
+        "陆姚",
+        "中心",
+        "许楼"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

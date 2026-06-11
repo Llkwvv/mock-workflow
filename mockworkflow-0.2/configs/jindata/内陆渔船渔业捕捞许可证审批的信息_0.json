@@ -1,0 +1,130 @@
+{
+  "file_name": "内陆渔船渔业捕捞许可证审批的信息_0.csv",
+  "table_name": "内陆渔船渔业捕捞许可证审批的信息_0",
+  "row_count": 23,
+  "columns": [
+    "bjmc",
+    "slsj",
+    "sqrhsqdw",
+    "bjsj",
+    "sldw"
+  ],
+  "fields": [
+    {
+      "name": "bjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "关于王慧芳内陆渔船渔业捕捞许可证审批的业务",
+        "关于张平龙内陆渔船渔业捕捞许可证审批的业务",
+        "关于张玉焕内陆渔船渔业捕捞许可证审批的业务",
+        "关于左康磊内陆渔船渔业捕捞许可证审批的业务",
+        "关于张宇翔内陆渔船渔业捕捞许可证审批的业务",
+        "关于常闯内陆渔船渔业捕捞许可证审批的业务",
+        "关于冯佳内陆渔船渔业捕捞许可证审批的业务",
+        "关于付德礼内陆渔船渔业捕捞许可证审批的业务",
+        "关于范珂珂内陆渔船渔业捕捞许可证审批的业务",
+        "关于宫少贞内陆渔船渔业捕捞许可证审批的业务"
+      ],
+      "value_pool": [
+        "关于王慧芳内陆渔船渔业捕捞许可证审批的业务",
+        "关于张平龙内陆渔船渔业捕捞许可证审批的业务",
+        "关于张玉焕内陆渔船渔业捕捞许可证审批的业务",
+        "关于左康磊内陆渔船渔业捕捞许可证审批的业务",
+        "关于张宇翔内陆渔船渔业捕捞许可证审批的业务",
+        "关于常闯内陆渔船渔业捕捞许可证审批的业务",
+        "关于冯佳内陆渔船渔业捕捞许可证审批的业务",
+        "关于付德礼内陆渔船渔业捕捞许可证审批的业务",
+        "关于范珂珂内陆渔船渔业捕捞许可证审批的业务",
+        "关于宫少贞内陆渔船渔业捕捞许可证审批的业务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:01:35"
+      ],
+      "value_pool": [
+        "2020/11/3 9:01:35"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrhsqdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "王慧芳",
+        "张平龙",
+        "张玉焕",
+        "左康磊",
+        "张宇翔",
+        "常闯",
+        "冯佳",
+        "付德礼",
+        "范珂珂",
+        "宫少贞"
+      ],
+      "value_pool": [
+        "王慧芳",
+        "张平龙",
+        "张玉焕",
+        "左康磊",
+        "张宇翔",
+        "常闯",
+        "冯佳",
+        "付德礼",
+        "范珂珂",
+        "宫少贞"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:03:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:03:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "任城区农业农村局"
+      ],
+      "value_pool": [
+        "任城区农业农村局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "file_name": "嘉祥县文化和旅游局_优秀文化推广普及信息202512171413.xlsx",
+  "table_name": "嘉祥县文化和旅游局_优秀文化推广普及信息202512171413",
+  "row_count": 22,
+  "columns": [
+    "hdsj",
+    "hddd",
+    "hdnrjj",
+    "jbdw",
+    "hdmc"
+  ],
+  "fields": [
+    {
+      "name": "hdsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2022.1.1",
+        "2022.1.27",
+        "2022.1.28",
+        "2023年每周日",
+        "2022.4.18",
+        "2022.9.20",
+        "2022.10.3",
+        "2022.10.10",
+        "2022.10.17",
+        "2022.10.24",
+        "2022.10.31"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hddd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "文化体验室",
+        "文化馆一楼音乐厅",
+        "少儿阅览室",
+        "金祥.凤凰城",
+        "满硐镇",
+        "金屯镇",
+        "梁宝寺镇"
+      ],
+      "value_pool": [
+        "文化体验室",
+        "文化馆一楼音乐厅",
+        "少儿阅览室",
+        "金祥.凤凰城",
+        "满硐镇",
+        "金屯镇",
+        "梁宝寺镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hdnrjj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "DIY手工折纸、新年挂饰",
+        "参赛选手诵读红色经典著作、红色家书、\n伟人传记、革命英雄事迹等感人篇章",
+        "参赛选手诵读红色经典著作、红色家书、伟人传记、\n革命英雄事迹等感人篇章",
+        "向青少年读者阅读分享经典著作、红色故事等系列书籍",
+        "讲解雷锋的故事、展示“雷锋”剪纸系列作品，指导老师向孩子们讲解剪纸的基本要领和方法",
+        "手工拓展：中秋节儿童灯笼手工DIY",
+        "以现场教学的方式向社区青少年朋友讲述国庆的一些常识，\n还通过讲红色故事、唱红色歌曲等喜闻乐见的形式让青少年\n追寻红色记忆",
+        "书法绘画：陶冶青少年的道德情操和塑造完美人格，增强孩子的自由与创造精神。",
+        "青少年围棋：课程通过现场教学从不同方面激发少年儿童的\n参与兴趣，有效提高了孩子的思维能力和专注力。",
+        "经典诗文诵读：以古诗词和经典古文作为诵读的主要内容，\n通过对古诗词和经典古文的学习和诵读提高青少年的普通话\n水平和写作水平。",
+        "书法绘画：陶冶青少年的道德情操和塑造完美人格，增强\n孩子的自由与创造精神。"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县图书馆"
+      ],
+      "value_pool": [
+        "嘉祥县图书馆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "激情元旦 喜迎新年",
+        "传承红色基因 争做华彩少年",
+        "品味阅读 分享经典",
+        "我们的中国梦-文化进万家",
+        "我和中秋有个约会",
+        "重温红色记忆 鞭策自我成长",
+        "中华优秀传统文化进镇街"
+      ],
+      "value_pool": [
+        "激情元旦 喜迎新年",
+        "传承红色基因 争做华彩少年",
+        "品味阅读 分享经典",
+        "我们的中国梦-文化进万家",
+        "我和中秋有个约会",
+        "重温红色记忆 鞭策自我成长",
+        "中华优秀传统文化进镇街"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

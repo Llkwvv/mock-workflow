@@ -1,0 +1,128 @@
+{
+  "file_name": "汶上县发改局双随机抽查人员名录库202508010122.xlsx",
+  "table_name": "汶上县发改局双随机抽查人员名录库202508010122",
+  "row_count": 21,
+  "columns": [
+    "xb",
+    "zfbm",
+    "xsq",
+    "姓名",
+    "zfzh"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "发改局"
+      ],
+      "value_pool": [
+        "发改局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "宋**",
+        "杜*",
+        "胡**",
+        "贾**",
+        "徐**",
+        "王**",
+        "韩**",
+        "房*",
+        "张**",
+        "荣*",
+        "赵**",
+        "吴**",
+        "邵**",
+        "孔**",
+        "孙*",
+        "王*",
+        "刘**",
+        "李*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "150****3001",
+        "150****3002",
+        "150****3003",
+        "150****3004",
+        "150****3005",
+        "150****3006",
+        "150****3007",
+        "150****3008",
+        "150****3009",
+        "150****3010",
+        "150****3011",
+        "150****3012",
+        "150****3013",
+        "150****3014",
+        "150****3015",
+        "150****3016",
+        "150****3017",
+        "150****3018",
+        "150****3019",
+        "国家级"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

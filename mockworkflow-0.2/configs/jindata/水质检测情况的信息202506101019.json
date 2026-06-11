@@ -1,0 +1,137 @@
+{
+  "file_name": "水质检测情况的信息202506101019.xlsx",
+  "table_name": "水质检测情况的信息202506101019",
+  "row_count": 87,
+  "columns": [
+    "jcjg",
+    "qydd",
+    "sjdw",
+    "jcxm",
+    "sj"
+  ],
+  "fields": [
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格"
+      ],
+      "value_pool": [
+        "合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qydd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "阿城水源地",
+        "任店水源地",
+        "矿柱林水源地",
+        "坑塘水源地",
+        "青山水厂",
+        "东城水厂",
+        "老僧堂水厂",
+        "向阳水厂",
+        "阿城水厂",
+        "曙光水源地",
+        "王大堰水源地",
+        "阿城加压站",
+        "东城加压站",
+        "梁宝寺加压站",
+        "老僧堂加压站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "山东祥城建设有限公司供水分公司",
+        "嘉祥县乡村管理服务有限公司"
+      ],
+      "value_pool": [
+        "山东祥城建设有限公司供水分公司",
+        "嘉祥县乡村管理服务有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "29项",
+        "34项",
+        "106项",
+        "33项",
+        "97项",
+        "36项",
+        "37项",
+        "90项"
+      ],
+      "value_pool": [
+        "29项",
+        "34项",
+        "106项",
+        "33项",
+        "97项",
+        "36项",
+        "37项",
+        "90项"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020.11.30",
+        "2021.03.08",
+        "2021.06.30",
+        "2021.09.29",
+        "2022.01.28",
+        "2022.05.20",
+        "2022.09.01",
+        "2023.02.07",
+        "2023.04.18",
+        "2024.4.15",
+        "2025.5.9",
+        "2024.1.25",
+        "2024.1.26",
+        "2024.8.26",
+        "2024.11.20",
+        "2025.1.8",
+        "2025.5.10",
+        "2025.5.11"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

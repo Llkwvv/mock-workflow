@@ -1,0 +1,152 @@
+{
+  "file_name": "嘉祥县社保卡服务部门联系方式信息202507242137.xlsx",
+  "table_name": "嘉祥县社保卡服务部门联系方式信息202507242137",
+  "row_count": 20,
+  "columns": [
+    "jbks",
+    "jbjgdz",
+    "xsq",
+    "jbjg",
+    "lxdh"
+  ],
+  "fields": [
+    {
+      "name": "jbks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "社保卡办公室",
+        "社保卡窗口",
+        "农商银行自助服务区",
+        "社保中心综合科",
+        "孟姑集镇人社所",
+        "万张人社所",
+        "满硐镇人社所",
+        "马村人社所",
+        "老僧堂镇人社所",
+        "纸坊镇人社所",
+        "金屯镇人社所",
+        "大张楼人社所",
+        "卧龙山人社所",
+        "马集人社所",
+        "疃里人社所",
+        "黄垓人社所",
+        "仲山人社所",
+        "梁宝寺人社所",
+        "嘉祥街道人社所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jbjgdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县为民服务中心西辅楼2楼",
+        "嘉祥县孟姑集镇政府驻地",
+        "嘉祥县万张镇政府驻地",
+        "嘉祥县满硐镇政府驻地",
+        "嘉祥县马村镇政府驻地",
+        "嘉祥县老僧堂镇政府驻地",
+        "嘉祥县纸坊镇驻地北200米",
+        "嘉祥县金屯镇政府驻地",
+        "嘉祥县大张楼镇政府驻地",
+        "嘉祥县卧龙山镇政府驻地",
+        "嘉祥县马集镇政府驻地",
+        "嘉祥县疃里镇政府驻地",
+        "嘉祥县黄垓镇政府驻地",
+        "嘉祥县仲山镇政府驻地",
+        "嘉祥县梁宝寺镇政府驻地",
+        "嘉祥县嘉祥街道政府驻地"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jbjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "社保中心",
+        "孟姑集镇人社所",
+        "万张人社所",
+        "满硐镇人社所",
+        "马村人社所",
+        "老僧堂镇人社所",
+        "纸坊镇人社所",
+        "金屯镇人社所",
+        "大张楼人社所",
+        "卧龙山人社所",
+        "马集人社所",
+        "疃里人社所",
+        "黄垓人社所",
+        "仲山人社所",
+        "梁宝寺人社所",
+        "嘉祥街道人社所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "6868602",
+        "6868925",
+        "6868926",
+        "6508036",
+        "6558837",
+        "6595323",
+        "6529315",
+        "3211890",
+        "6697768",
+        "3219128",
+        "6562729",
+        "6404919",
+        "6459691",
+        "6529599",
+        "6563506",
+        "6625885",
+        "6625327",
+        "6822778",
+        "6863219"
+      ],
+      "min_value": 3211890.0,
+      "max_value": 6868926.0
+    }
+  ]
+}

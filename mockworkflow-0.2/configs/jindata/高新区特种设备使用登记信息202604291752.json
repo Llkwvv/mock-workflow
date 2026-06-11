@@ -1,0 +1,217 @@
+{
+  "file_name": "高新区特种设备使用登记信息202604291752.xlsx",
+  "table_name": "高新区特种设备使用登记信息202604291752",
+  "row_count": 3,
+  "columns": [
+    "zcdjrq",
+    "ccbh",
+    "dwnbbh",
+    "sbpz",
+    "zcdm",
+    "sbdm",
+    "sbzl",
+    "sbsydd",
+    "sbsydw",
+    "sydwdm",
+    "syzbh",
+    "sblb"
+  ],
+  "fields": [
+    {
+      "name": "zcdjrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020-05-06",
+        "2020-05-27",
+        "2020-06-29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ccbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "M5BA16247",
+        "M5AI12498",
+        "M5BJ15652"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwnbbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "M5BA16247",
+        "M5AI12498",
+        "M5BJ15652"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbpz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "内燃平衡重式叉车",
+        "油气筒",
+        "电动单梁起重机"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcdm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "312010525202000698",
+        "312010525202000526",
+        "312010525202000437"
+      ],
+      "min_value": 3.1201052520200045e+17,
+      "max_value": 3.120105252020007e+17
+    },
+    {
+      "name": "sbdm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "312010525202000698",
+        "312010525202000526",
+        "312010525202000437"
+      ],
+      "min_value": 3.1201052520200045e+17,
+      "max_value": 3.120105252020007e+17
+    },
+    {
+      "name": "sbzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "场（厂）内专用机动车辆",
+        "压力容器",
+        "起重机械"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbsydd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "厂区"
+      ],
+      "value_pool": [
+        "厂区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbsydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁精益轴承有限公司",
+        "胜代机械（山东）有限公司",
+        "小松山推工程机械有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sydwdm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "913708**********1C",
+        "913708**********72",
+        "913708**********25"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "syzbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "车11鲁H02585(20)",
+        "容1LS鲁HN1586",
+        "起19鲁H00180(20)"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sblb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "机动工业车辆",
+        "固定式压力容器",
+        "桥式起重机"
+      ],
+      "value_pool": [
+        "机动工业车辆",
+        "固定式压力容器",
+        "桥式起重机"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

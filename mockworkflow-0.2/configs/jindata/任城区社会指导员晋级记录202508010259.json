@@ -1,0 +1,173 @@
+{
+  "file_name": "任城区社会指导员晋级记录202508010259.xlsx",
+  "table_name": "任城区社会指导员晋级记录202508010259",
+  "row_count": 209,
+  "columns": [
+    "jsxm",
+    "mz",
+    "jsjb",
+    "xb",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "jsxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "广播体操",
+        "毽球",
+        "健身气功",
+        "柔力球",
+        "广场舞",
+        "秧歌",
+        "舞蹈",
+        "武术",
+        "健身秧歌"
+      ],
+      "value_pool": [
+        "广播体操",
+        "毽球",
+        "健身气功",
+        "柔力球",
+        "广场舞",
+        "秧歌",
+        "舞蹈",
+        "武术",
+        "健身秧歌"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉",
+        "汉族"
+      ],
+      "value_pool": [
+        "汉",
+        "汉族"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jsjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "国家二级",
+        "国家一级",
+        "国家级",
+        "二级"
+      ],
+      "value_pool": [
+        "国家二级",
+        "国家一级",
+        "国家级",
+        "二级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "曹**",
+        "马**",
+        "徐**",
+        "陈**",
+        "杨**",
+        "李**",
+        "谭**",
+        "侯**",
+        "郭**",
+        "高**",
+        "刘**",
+        "张**",
+        "庞**",
+        "周**",
+        "肖**",
+        "常**",
+        "赵**",
+        "王**",
+        "许**",
+        "吴**",
+        "于**",
+        "邵**",
+        "田**",
+        "文***",
+        "戈**",
+        "申**",
+        "姜**",
+        "沙**",
+        "岳**",
+        "程**",
+        "颜**",
+        "黄**",
+        "朱**",
+        "苏**",
+        "李***",
+        "韩***",
+        "舒***",
+        "莎**",
+        "展**",
+        "孙***",
+        "赵***",
+        "张***",
+        "梁***",
+        "任**",
+        "戴**",
+        "崔**",
+        "孔**",
+        "高*",
+        "常*",
+        "李*",
+        "刘*",
+        "胡**",
+        "周*",
+        "彭**",
+        "魏**",
+        "吉**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

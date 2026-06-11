@@ -1,0 +1,127 @@
+{
+  "file_name": "家具零售企业信息_0.csv",
+  "table_name": "家具零售企业信息_0",
+  "row_count": 28,
+  "columns": [
+    "qyzwm",
+    "tyshxydm",
+    "hydm",
+    "hyml"
+  ],
+  "fields": [
+    {
+      "name": "qyzwm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 汶上县旺增商贸有限公司",
+        " 汶上县广增商贸有限公司",
+        " 汶上县繁榜商贸有限公司",
+        " 济宁道克商贸有限公司",
+        " 汶上县万民商贸有限公司",
+        " 汶上县通佰商贸有限公司",
+        " 汶上县宝莱家具销售有限公司第一分公司",
+        " 汶上县美振家具销售中心",
+        " 汶上县四平商贸中心",
+        " 汶上县乐尔齐家具销售有限公司",
+        " 济宁思进商贸有限公司",
+        " 汶上县宝莱商贸有限公司",
+        " 汶上县耀隆商贸有限公司",
+        " 济宁丰卓商贸有限公司",
+        " 汶上县伟浩商贸有限公司",
+        " 汶上县美良家具有限公司",
+        " 汶上县大金山家具销售有限公司",
+        " 汶上县森镇家具销售中心",
+        " 汶上县晨酉商贸有限公司",
+        " 汶上县金海湾家具有限公司",
+        " 汶上县华翔商贸有限公司",
+        " 汶上县康龙商贸有限公司",
+        " 汶上县中都宏达家俱销售有限公司",
+        " 汶上县汶上镇柳杭舒美沙发厂",
+        " 济宁瀚雅家具销售有限公司",
+        " 汶上县昌增商贸有限公司",
+        " 济宁市聚琛商贸有限公司",
+        " 汶上汶兴家具有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 91370830MA3MNJGK5J",
+        " 91370830MA3MPCXD8U",
+        " 91370830MA3EHWU81Q",
+        " 91370830313043554M",
+        " 91370830321810717K",
+        " 91370830328458963H",
+        " 91370830MA3C5MUH0A",
+        " 91370830MA3C1DU05F",
+        " 91370830MA3C0TC25J",
+        " 913708303262168640",
+        " 91370830MA3BXBEL3U",
+        " 91370830MA3BXMFX8J",
+        " 91370830MA3DF9318K",
+        " 91370830MA3QC3659M",
+        " 91370830089752152W",
+        " 91370830088928726B",
+        " 913708300897521442",
+        " 913708300897744669",
+        " 913708300713029461",
+        " 91370830683246711Y",
+        " 91370830576645119X",
+        " 91370830673189303D",
+        " 913708307657831746",
+        " 91370830MA3D0W9J40",
+        " 91370830MA3M1PA77U",
+        " 91370830MA3F6DRT37",
+        " 91370830MA3N208R64",
+        " 91370830MA3TGX7Y95"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 5283|    家具零售"
+      ],
+      "value_pool": [
+        " 5283|    家具零售"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 批发和零售业-F"
+      ],
+      "value_pool": [
+        " 批发和零售业-F"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

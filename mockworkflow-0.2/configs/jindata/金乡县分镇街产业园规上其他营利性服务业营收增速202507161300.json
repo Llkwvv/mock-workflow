@@ -1,0 +1,127 @@
+{
+  "file_name": "金乡县分镇街产业园规上其他营利性服务业营收增速202507161300.xlsx",
+  "table_name": "金乡县分镇街产业园规上其他营利性服务业营收增速202507161300",
+  "row_count": 36,
+  "columns": [
+    "dq",
+    "nf",
+    "dw",
+    "sz",
+    "qb"
+  ],
+  "fields": [
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县",
+        "金乡街道",
+        "霄云镇",
+        "胡集镇",
+        "羊山镇",
+        "鸡黍镇",
+        "高河街道",
+        "王丕街道",
+        "化雨镇",
+        "卜集镇",
+        "马庙镇",
+        "兴隆镇",
+        "司马镇",
+        "鱼山街道",
+        "高端装备产业园",
+        "新材料产业园",
+        "商贸物流园",
+        "食品产业园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022年",
+        "2023年"
+      ],
+      "value_pool": [
+        "2022年",
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "%"
+      ],
+      "value_pool": [
+        "%"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sz",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "29.76",
+        "-54.37",
+        "-26.72",
+        "31.1",
+        "-26.92",
+        "-13.72",
+        "151.93",
+        "10.76",
+        "-4.92",
+        "20.17",
+        "-2.49",
+        "-60.9",
+        "110.89",
+        "34.97",
+        "26.03",
+        "70.6",
+        "199.44",
+        "-55.36",
+        "-0.12"
+      ],
+      "min_value": -60.9,
+      "max_value": 199.44
+    },
+    {
+      "name": "qb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1-12月"
+      ],
+      "value_pool": [
+        "1-12月"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

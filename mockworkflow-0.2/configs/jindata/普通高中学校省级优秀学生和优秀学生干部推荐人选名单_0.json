@@ -1,0 +1,82 @@
+{
+  "file_name": "普通高中学校省级优秀学生和优秀学生干部推荐人选名单_0.csv",
+  "table_name": "普通高中学校省级优秀学生和优秀学生干部推荐人选名单_0",
+  "row_count": 21,
+  "columns": [
+    "xx",
+    "姓名",
+    "tjlx"
+  ],
+  "fields": [
+    {
+      "name": "xx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡第一中学",
+        "金乡县第二中学"
+      ],
+      "value_pool": [
+        "金乡第一中学",
+        "金乡县第二中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孙舒宇",
+        "曹子松",
+        "胡志昂",
+        "邵铮汉",
+        "祝润侃",
+        "杨纯远",
+        "包朋昌",
+        "代梦宇",
+        "李光省",
+        "孙明荃",
+        "单雨晴",
+        "薛千一",
+        "高松",
+        "张志林",
+        "周梦姝",
+        "张震坤",
+        "李书琪",
+        "李龙鹏",
+        "徐珂怡",
+        "王向天",
+        "张水杉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "优秀学生",
+        "优秀学生干部"
+      ],
+      "value_pool": [
+        "优秀学生",
+        "优秀学生干部"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

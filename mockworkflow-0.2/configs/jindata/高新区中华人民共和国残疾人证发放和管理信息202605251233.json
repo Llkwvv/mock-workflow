@@ -1,0 +1,168 @@
+{
+  "file_name": "高新区中华人民共和国残疾人证发放和管理信息202605251233.xlsx",
+  "table_name": "高新区中华人民共和国残疾人证发放和管理信息202605251233",
+  "row_count": 6,
+  "columns": [
+    "姓名",
+    "slr",
+    "sfzh",
+    "cjlb",
+    "czlx",
+    "cjdj",
+    "bzsj",
+    "lxdh"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "许**",
+        "魏**",
+        "冯**",
+        "谷**",
+        "贾**",
+        "庞**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区*******局"
+      ],
+      "value_pool": [
+        "高新区*******局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********11",
+        "370811**********21",
+        "370811**********28",
+        "370811**********19",
+        "370811**********1X",
+        "370811**********25"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "视力",
+        "听力",
+        "智力",
+        "肢体"
+      ],
+      "value_pool": [
+        "视力",
+        "听力",
+        "智力",
+        "肢体"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "到期换证",
+        "新办证"
+      ],
+      "value_pool": [
+        "到期换证",
+        "新办证"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "四级",
+        "一级",
+        "二级"
+      ],
+      "value_pool": [
+        "四级",
+        "一级",
+        "二级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2022-06-23",
+        "2022-07-16",
+        "2022-07-19",
+        "2022-12-05",
+        "2022-12-09",
+        "2022-12-20"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "176*****276",
+        "188*****331",
+        "135*****558",
+        "137*****422",
+        "152*****536"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

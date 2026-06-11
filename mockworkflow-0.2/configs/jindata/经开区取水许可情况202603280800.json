@@ -1,0 +1,111 @@
+{
+  "file_name": "经开区取水许可情况202603280800.xlsx",
+  "table_name": "经开区取水许可情况202603280800",
+  "row_count": 22,
+  "columns": [
+    "yxqssj",
+    "qsxkzbh",
+    "qsdw",
+    "yxjzsj"
+  ],
+  "fields": [
+    {
+      "name": "yxqssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021-01-01"
+      ],
+      "value_pool": [
+        "2021-01-01"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qsxkzbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "C370801G2021-0016",
+        "C370801G2021-0023",
+        "C370801G2021-0015",
+        "D370829G2025-0002",
+        "D370829G2025-0014",
+        "D370829G2025-0008",
+        "C370829G2021-0083",
+        "C370829G2021-0080",
+        "D370829S2025-0013",
+        "C370801G2021-0066",
+        "D370829G2025-0010",
+        "D370829G2025-0001",
+        "D370829G2025-0009",
+        "C370829G2021-0034",
+        "D370829G2025-0011",
+        "D370829S2025-0003",
+        "D370829G2025-0004",
+        "C370801S2021-0017",
+        "C370801G2021-0018",
+        "C370801G2021-0019",
+        "C370801S2021-0020"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qsdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市爱克森服装有限责任公司",
+        "济宁中联混凝土有限公司经济开发区分公司",
+        "中国石油天然气股份有限公司山东济宁销售分公司",
+        "山东新河矿业有限公司",
+        "济宁经济开发区成康食品厂",
+        "济宁九顶山水业有限公司",
+        "济宁彤辉特种焊材有限公司",
+        "济宁祥通钢管制造有限公司",
+        "华能嘉祥发电有限公司",
+        "济宁宏远钢结构有限公司",
+        "山东泓阳复合板有限公司",
+        "济宁山水水泥有限公司",
+        "伟龙食品有限公司",
+        "济宁经济开发区东凯机械有限公司",
+        "嘉祥县嘉鑫工程机械有限公司",
+        "山东省鲁宁监狱",
+        "济宁港航顺达港有限公司",
+        "济宁经济技术开发区马集镇人民政府",
+        "济宁经济技术开发区疃里镇人民政府"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yxjzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2027-12-31"
+      ],
+      "value_pool": [
+        "2027-12-31"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

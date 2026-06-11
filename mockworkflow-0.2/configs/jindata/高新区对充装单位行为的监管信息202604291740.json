@@ -1,0 +1,285 @@
+{
+  "file_name": "高新区对充装单位行为的监管信息202604291740.xlsx",
+  "table_name": "高新区对充装单位行为的监管信息202604291740",
+  "row_count": 30,
+  "columns": [
+    "jcxmmc",
+    "jgdx",
+    "xzxdrzjlx",
+    "xzxdrzjbm",
+    "jcjg",
+    "ssjg",
+    "jcsj",
+    "jcxwbh",
+    "jgdxlx",
+    "jclb",
+    "jcxwmc",
+    "xzxdr",
+    "xzxdrxz"
+  ],
+  "fields": [
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对充装单位行为的监管"
+      ],
+      "value_pool": [
+        "对充装单位行为的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "91370800*********4",
+        "91370800*********P",
+        "91370800*********W"
+      ],
+      "value_pool": [
+        "91370800*********4",
+        "91370800*********P",
+        "91370800*********W"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "统一社会信用代码"
+      ],
+      "value_pool": [
+        "统一社会信用代码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "91370800*********4",
+        "91370800*********P",
+        "91370800*********W"
+      ],
+      "value_pool": [
+        "91370800*********4",
+        "91370800*********P",
+        "91370800*********W"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市场监管局"
+      ],
+      "value_pool": [
+        "市场监管局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020-05-15",
+        "2020-04-24",
+        "2020-10-26",
+        "2020-06-20",
+        "2020-08-28",
+        "2021-07-21",
+        "2021-07-22",
+        "2020-04-28",
+        "2022-05-23",
+        "2022-04-20",
+        "2022-08-19",
+        "2023-07-21",
+        "2023-10-26",
+        "2024-04-17",
+        "2024-06-23",
+        "2025-05-25",
+        "2025-07-09"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "gxqsjjzj20190515067",
+        "gxqsjjzj20200424049",
+        "gxqsjjzj20200424062",
+        "gxqscjgjwysjyz20200601",
+        "gxqscjgjwysjyz20200801",
+        "gxqscjgjzjc2021106",
+        "gxqscjgjzjc2021107",
+        "gxqscjgjzjc2021108",
+        "gxqscjgjzjc2021139",
+        "gxqscjgjzjc2021140",
+        "gxqsjjzj20190515001",
+        "gxqsjjzj20200424001",
+        "gxqsjjzj20200424002",
+        "gxqsjjzj20200424003",
+        "gxqscjgjwysjyz20210728",
+        "gxqscjgjwysjyz20210729",
+        "gxqscjgjzjc2021133",
+        "gxqscjgjzjc2021155",
+        "gxqscjgjzjc2021144",
+        "gxqscjgjzjc2021125",
+        "gxqscjgjzjc2021178",
+        "gxqscjgjzjc2022022",
+        "gxqscjgjzjc2022003",
+        "gxqscjgjzjc2022008",
+        "gxqscjgjzjc2023089",
+        "gxqsjjzj20234002",
+        "gxqscjgjzjc2024026",
+        "gxqscjgjzjc2024053",
+        "gxqscjgjzjc2025016",
+        "gxqscjgjzjc2025021"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业、个体户、农专社"
+      ],
+      "value_pool": [
+        "企业、个体户、农专社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对充装单位行为的监管"
+      ],
+      "value_pool": [
+        "对充装单位行为的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新区安达服务有限公司加油加气站",
+        "济宁高新安达服务有限公司加油加气站",
+        "济宁中石油昆仑能源有限公司济东加气站",
+        "济宁华润燃气有限公司王因加气母站"
+      ],
+      "value_pool": [
+        "济宁高新区安达服务有限公司加油加气站",
+        "济宁高新安达服务有限公司加油加气站",
+        "济宁中石油昆仑能源有限公司济东加气站",
+        "济宁华润燃气有限公司王因加气母站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "法人"
+      ],
+      "value_pool": [
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

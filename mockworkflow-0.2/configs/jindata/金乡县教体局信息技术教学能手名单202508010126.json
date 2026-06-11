@@ -1,0 +1,116 @@
+{
+  "file_name": "金乡县教体局信息技术教学能手名单202508010126.xlsx",
+  "table_name": "金乡县教体局信息技术教学能手名单202508010126",
+  "row_count": 24,
+  "columns": [
+    "dw",
+    "xk",
+    "姓名",
+    "sj",
+    "jx"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县第二中学",
+        "金乡县第三中学",
+        "金乡县王杰中学",
+        "金乡县鸡黍中学",
+        "金乡县霄云中学",
+        "金乡县实验小学",
+        "济宁教育学院附属小学",
+        "金乡县羊山镇中心小学",
+        "金乡县马庙镇贾楼小学",
+        "金乡县化雨中学",
+        "金乡县职业中等专业学校"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "信息技术"
+      ],
+      "value_pool": [
+        "信息技术"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "代**",
+        "武**",
+        "胡***",
+        "高**",
+        "李**",
+        "顾**",
+        "刘**",
+        "杨**",
+        "尹**",
+        "刘***",
+        "曲**",
+        "王**",
+        "徐***",
+        "吕**",
+        "马***",
+        "陈***",
+        "周***"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2018年"
+      ],
+      "value_pool": [
+        "2018年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "教学能手"
+      ],
+      "value_pool": [
+        "教学能手"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

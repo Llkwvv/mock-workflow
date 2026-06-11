@@ -1,0 +1,276 @@
+{
+  "file_name": "嘉祥县文化和旅游局_嘉祥县游乐场所问题整改信息202512171347.xlsx",
+  "table_name": "嘉祥县文化和旅游局_嘉祥县游乐场所问题整改信息202512171347",
+  "row_count": 35,
+  "columns": [
+    "wtjyms",
+    "jhzgsx",
+    "mqzgqk",
+    "wtssfl",
+    "wtqkcl",
+    "qymc",
+    "wtccsj",
+    "wtfl",
+    "zrdw"
+  ],
+  "fields": [
+    {
+      "name": "wtjyms",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "部分线路设置不规范",
+        "未发现游船信息台账",
+        "安全员未携带上岗证",
+        "未进行防溺水演练",
+        "无",
+        "北安全出口应急灯损坏",
+        "安全出口标志固定架脱落",
+        "空调插座盒损坏裸露",
+        "自查报告不完善",
+        "消防应急灯老化",
+        "安全出口标识线路裸露",
+        "安全通道地铁老化",
+        "安全出口指示牌和指示地贴损坏",
+        "配电箱盖板损坏",
+        "消防通道关闭",
+        "无九月份台账",
+        "应急灯损坏",
+        "无应急灯",
+        "安全出口有杂物",
+        "安全员未佩戴安全员证件",
+        "缺少禁烟标志",
+        "未粘贴安全出口",
+        "安全出口标志损坏",
+        "应急灯不亮",
+        "安全员未带好口罩",
+        "开关盒损坏",
+        "安全出口关闭",
+        "配电间桥架盖板敞开",
+        "缺少灭火器",
+        "应急灯未连接电源",
+        "消防通道口有杂物"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jhzgsx",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2024.7.8",
+        "2024.7.11",
+        "2024.7.16",
+        "2024.7.22",
+        "2024.9.19",
+        "2024.9.24",
+        "2024.10.5",
+        "2024.10.21",
+        "2024.11.15"
+      ],
+      "value_pool": [
+        "2024.7.8",
+        "2024.7.11",
+        "2024.7.16",
+        "2024.7.22",
+        "2024.9.19",
+        "2024.9.24",
+        "2024.10.5",
+        "2024.10.21",
+        "2024.11.15"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mqzgqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "整改完成",
+        "无",
+        "已完成"
+      ],
+      "value_pool": [
+        "整改完成",
+        "无",
+        "已完成"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wtssfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "7.应急准备情况",
+        "2.安全管理制度制定及执行情况",
+        "无",
+        "3.安全风险辨识及管控情况",
+        "1.单位主要负责人安全生产责任落实情况",
+        "8.安全管理制度制定及执行情况",
+        "10.安全管理制度制定及执行情况",
+        "13.安全管理制度制定及执行情况"
+      ],
+      "value_pool": [
+        "7.应急准备情况",
+        "2.安全管理制度制定及执行情况",
+        "无",
+        "3.安全风险辨识及管控情况",
+        "1.单位主要负责人安全生产责任落实情况",
+        "8.安全管理制度制定及执行情况",
+        "10.安全管理制度制定及执行情况",
+        "13.安全管理制度制定及执行情况"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wtqkcl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "现场整改",
+        "当场整改",
+        "无",
+        "限期整改"
+      ],
+      "value_pool": [
+        "现场整改",
+        "当场整改",
+        "无",
+        "限期整改"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县紫夜娱乐城",
+        "吉祥公司乐林游乐园",
+        "嘉祥县麦乐迪娱乐有限公司",
+        "嘉祥夜宴娱乐中心",
+        "嘉祥零号娱乐城",
+        "嘉祥县鑫源时尚娱乐有限公司",
+        "嘉祥县零号娱乐城",
+        "嘉祥县摩登量版式娱乐部",
+        "嘉祥县乐林游乐场",
+        "嘉祥县芭缇雅娱乐有限公司",
+        "嘉祥县动感地带娱乐场所",
+        "济宁乐途旅行社有限公司",
+        "嘉祥县柠檬树娱乐中心",
+        "嘉祥县天都休闲娱乐中心",
+        "嘉祥县夜阑珊歌舞娱乐厅",
+        "乐林游乐园",
+        "金尊ktv娱乐中心",
+        "嘉祥县动感地带娱乐会所",
+        "爱尚量贩式娱乐城",
+        "鑫源时尚娱乐有限公司",
+        "紫夜娱乐城",
+        "动感地带娱乐会所",
+        "摩登量贩式娱乐城"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wtccsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024.7.8",
+        "2024.7.11",
+        "2024.7.16",
+        "2024.7.22",
+        "2024.9.19",
+        "2024.9.24",
+        "2024.10.5",
+        "2024.10.21",
+        "2024.11.15"
+      ],
+      "value_pool": [
+        "2024.7.8",
+        "2024.7.11",
+        "2024.7.16",
+        "2024.7.22",
+        "2024.9.19",
+        "2024.9.24",
+        "2024.10.5",
+        "2024.10.21",
+        "2024.11.15"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wtfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "一般问题",
+        "无"
+      ],
+      "value_pool": [
+        "一般问题",
+        "无"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县紫夜娱乐城",
+        "吉祥公司乐林游乐园",
+        "无",
+        "嘉祥县文化和旅游局",
+        "文化和旅游局"
+      ],
+      "value_pool": [
+        "嘉祥县紫夜娱乐城",
+        "吉祥公司乐林游乐园",
+        "无",
+        "嘉祥县文化和旅游局",
+        "文化和旅游局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

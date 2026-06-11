@@ -1,0 +1,179 @@
+{
+  "file_name": "鱼台县应急局_危化重大危险源信息202506241230.xlsx",
+  "table_name": "鱼台县应急局_危化重大危险源信息202506241230",
+  "row_count": 34,
+  "columns": [
+    "qylx",
+    "zdwxymc",
+    "qymc",
+    "jb",
+    "qydz",
+    "lx"
+  ],
+  "fields": [
+    {
+      "name": "qylx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "危化品生产",
+        "危险化学品生产"
+      ],
+      "value_pool": [
+        "危化品生产",
+        "危险化学品生产"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdwxymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "36万吨/年离子膜烧碱生产装置单元",
+        "37万吨/年聚氯乙烯生产装置单元",
+        "液氯仓库1单元",
+        "液氯仓库2单元",
+        "氯乙烯单体罐区单元",
+        "液氯钢瓶库",
+        "氯乙酸生产装置",
+        "产品罐区",
+        "液氨罐区单元",
+        "油库粗苯罐区单元",
+        "甲醇罐区单元",
+        "焦炉气柜单元",
+        "合成氨装置单元",
+        "终冷洗苯单元",
+        "化产装置单元",
+        "粗苯罐区",
+        "氨基甲酸铵生产装置区域",
+        "氯气气化(区)",
+        "氯化聚丙烯装置",
+        "氯气瓶库",
+        "2.5万吨/年氯乙酸生产单元",
+        "110万吨/年焦化工程化产装置单元",
+        "110万吨/年焦化工程综合罐区的粗苯罐区",
+        "一氯丙酮车间液一氯丙酮车间液氯",
+        "甲类仓库"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "山东鲁泰化学有限公司",
+        "凯本金威特种化学品\n（济宁）有限公司",
+        "济宁福利达精细化工有限公司",
+        "山东济宁盛发焦化有限公司",
+        "济宁中泰煤化有限公司",
+        "济宁弘润吉工贸有限公司",
+        "济宁正东化工有限公司",
+        "山东祥号新材料科技有限公司",
+        "山东金吉利新材料有限公司",
+        "鲁泰化学有限公司"
+      ],
+      "value_pool": [
+        "山东鲁泰化学有限公司",
+        "凯本金威特种化学品\n（济宁）有限公司",
+        "济宁福利达精细化工有限公司",
+        "山东济宁盛发焦化有限公司",
+        "济宁中泰煤化有限公司",
+        "济宁弘润吉工贸有限公司",
+        "济宁正东化工有限公司",
+        "山东祥号新材料科技有限公司",
+        "山东金吉利新材料有限公司",
+        "鲁泰化学有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "三级",
+        "二级",
+        "一级",
+        "四级"
+      ],
+      "value_pool": [
+        "三级",
+        "二级",
+        "一级",
+        "四级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qydz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "张黄化工产业园",
+        "山东省鱼台县张黄工业园",
+        "济宁市鱼台县张黄工业园内",
+        "山东省济宁市鱼台县张黄镇工业园区金威路东首路南",
+        "张黄化工园区",
+        "鱼台县张黄镇鹿洼工业园",
+        "鱼台县张黄化工产业园"
+      ],
+      "value_pool": [
+        "张黄化工产业园",
+        "山东省鱼台县张黄工业园",
+        "济宁市鱼台县张黄工业园内",
+        "山东省济宁市鱼台县张黄镇工业园区金威路东首路南",
+        "张黄化工园区",
+        "鱼台县张黄镇鹿洼工业园",
+        "鱼台县张黄化工产业园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "生产单元",
+        "储存单元",
+        "存储单元",
+        "生产",
+        "储存"
+      ],
+      "value_pool": [
+        "生产单元",
+        "储存单元",
+        "存储单元",
+        "生产",
+        "储存"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

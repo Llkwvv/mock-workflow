@@ -1,0 +1,126 @@
+{
+  "file_name": "高新区房地产开发企业资质审查意见的公示202605251158.xlsx",
+  "table_name": "高新区房地产开发企业资质审查意见的公示202605251158",
+  "row_count": 2,
+  "columns": [
+    "s",
+    "yj",
+    "scbm",
+    "gsmc",
+    "xsq",
+    "gssj",
+    "scyj"
+  ],
+  "fields": [
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "依据《城市房地产开发经营管理条例》、《山东省城市房地产开发经营管理条例》、住房和城乡建设部关于修改《房地产开发企业资质管理规定》的决定、省政府令第320号、省政府令第333号等相关规定"
+      ],
+      "value_pool": [
+        "依据《城市房地产开发经营管理条例》、《山东省城市房地产开发经营管理条例》、住房和城乡建设部关于修改《房地产开发企业资质管理规定》的决定、省政府令第320号、省政府令第333号等相关规定"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "城乡建设和交通局"
+      ],
+      "value_pool": [
+        "城乡建设和交通局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东辰邦置业有限公司",
+        "山东源尚置业有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-08-20",
+        "2026-03-09"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scyj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "对申报房地产开发企业二级资质延续的材料进行了审查，经审查，申报的资质资料符合要求，准予许可"
+      ],
+      "value_pool": [
+        "对申报房地产开发企业二级资质延续的材料进行了审查，经审查，申报的资质资料符合要求，准予许可"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

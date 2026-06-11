@@ -1,0 +1,145 @@
+{
+  "file_name": "梁山县市级特级教师信息202508010213.xlsx",
+  "table_name": "梁山县市级特级教师信息202508010213",
+  "row_count": 37,
+  "columns": [
+    "dw",
+    "xd",
+    "hjjc",
+    "姓名",
+    "rymc"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "梁山一中",
+        "梁山二中",
+        "实验中学",
+        "现代高级中学",
+        "第一实验小学",
+        "第二实验小学",
+        "北关小学",
+        "教研室",
+        "寿张集育英小学",
+        "现代高中",
+        "拳铺中学",
+        "寿张集育才小学",
+        "梁山现代高级中学",
+        "梁山县第二中学",
+        "第二实验中学",
+        "第九实验小学",
+        "杨营中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高中",
+        "初中",
+        "小学"
+      ],
+      "value_pool": [
+        "高中",
+        "初中",
+        "小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjjc",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "4",
+        "3",
+        "2",
+        "6",
+        "5",
+        "7"
+      ],
+      "value_pool": [
+        "1",
+        "4",
+        "3",
+        "2",
+        "6",
+        "5",
+        "7"
+      ],
+      "min_value": 1.0,
+      "max_value": 7.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "周**",
+        "张**",
+        "刘**",
+        "蔡**",
+        "荣**",
+        "王**",
+        "李**",
+        "孙**",
+        "崔**",
+        "苏**",
+        "朱**",
+        "韩**",
+        "乔**",
+        "关**",
+        "冯**",
+        "程**",
+        "董**",
+        "薛**",
+        "高**",
+        "陈**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "市特级教师",
+        "省特级教师",
+        "济宁名师"
+      ],
+      "value_pool": [
+        "市特级教师",
+        "省特级教师",
+        "济宁名师"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

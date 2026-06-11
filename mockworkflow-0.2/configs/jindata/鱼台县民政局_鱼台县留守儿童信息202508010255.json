@@ -1,0 +1,132 @@
+{
+  "file_name": "鱼台县民政局_鱼台县留守儿童信息202508010255.xlsx",
+  "table_name": "鱼台县民政局_鱼台县留守儿童信息202508010255",
+  "row_count": 152,
+  "columns": [
+    "mz",
+    "hjszd",
+    "xb",
+    "姓名",
+    "sfdjhk"
+  ],
+  "fields": [
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉族"
+      ],
+      "value_pool": [
+        "汉族"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjszd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台"
+      ],
+      "value_pool": [
+        "鱼台"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杜**",
+        "郭**",
+        "宋**",
+        "随**",
+        "甄**",
+        "杨**",
+        "王**",
+        "卢**",
+        "路**",
+        "吴**",
+        "李**",
+        "鹿**",
+        "仇**",
+        "刘**",
+        "张**",
+        "巩**",
+        "陈**",
+        "沈**",
+        "赵**",
+        "姚**",
+        "董**",
+        "孙**",
+        "尚**",
+        "邢**",
+        "古**",
+        "韩**",
+        "田**",
+        "侯**",
+        "邓**",
+        "马**",
+        "殷**",
+        "解**",
+        "闫**",
+        "谢**",
+        "蒋**",
+        "徐**",
+        "卜**",
+        "候**",
+        "丁**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfdjhk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

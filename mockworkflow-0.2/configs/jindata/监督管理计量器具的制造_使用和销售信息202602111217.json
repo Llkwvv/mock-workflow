@@ -1,0 +1,121 @@
+{
+  "file_name": "监督管理计量器具的制造_使用和销售信息202602111217.xlsx",
+  "table_name": "监督管理计量器具的制造_使用和销售信息202602111217",
+  "row_count": 24,
+  "columns": [
+    "dwmc",
+    "sfxsjlqj",
+    "ywzgsx",
+    "sfzzjlqj",
+    "sfsyjlqj"
+  ],
+  "fields": [
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁安鸿新材料有限公司",
+        "山东天蕴漆业科技有限公司",
+        "济宁光明制药有限公司",
+        "济宁鑫亿激光科技有限公司",
+        "济宁祥泰和新材料科技有限公司",
+        "济宁众诚燃气有限公司",
+        "嘉祥县恒昌乙炔气有限公司",
+        "嘉祥县嘉星热电有限公司",
+        "嘉祥县利民液化气有限公司",
+        "山东金鹏交通能源科技有限公司",
+        "嘉祥县城区金成计量器材门市部",
+        "嘉祥县刘红梅日用百货店",
+        "嘉祥县六六六厨具店",
+        "济宁嘉厨餐饮设备有限公司",
+        "嘉祥县家世界五金电料商场",
+        "嘉祥县福烁计量器材经销中心",
+        "嘉祥县王铺辉航计量器具中心",
+        "嘉祥县庆占衡器店",
+        "嘉祥县满硐镇秀丽五金店",
+        "嘉祥县辛志远五金百货",
+        "嘉祥县鼎泰五金电料经营商行",
+        "嘉祥县仲山镇保林土产销售部",
+        "嘉祥县曹盛五金土产店",
+        "嘉祥县仲山镇宗建五金电料门市部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfxsjlqj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "不销售",
+        "销售"
+      ],
+      "value_pool": [
+        "不销售",
+        "销售"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ywzgsx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未利用强检平台申请检定，已整改完毕",
+        "没有整改事项"
+      ],
+      "value_pool": [
+        "未利用强检平台申请检定，已整改完毕",
+        "没有整改事项"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzzjlqj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "不制造",
+        "不制造."
+      ],
+      "value_pool": [
+        "不制造",
+        "不制造."
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfsyjlqj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

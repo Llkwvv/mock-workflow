@@ -1,0 +1,129 @@
+{
+  "file_name": "经开区老放映员202510140914.xlsx",
+  "table_name": "经开区老放映员202510140914",
+  "row_count": 20,
+  "columns": [
+    "pqdw",
+    "姓名",
+    "nl",
+    "xb",
+    "fynx"
+  ],
+  "fields": [
+    {
+      "name": "pqdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "社会事业中心"
+      ],
+      "value_pool": [
+        "社会事业中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "闫**",
+        "张**",
+        "刘**",
+        "韩**",
+        "高*",
+        "陈**",
+        "王**",
+        "马**",
+        "董**",
+        "李**",
+        "江**",
+        "付**",
+        "宫**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "77",
+        "79",
+        "76",
+        "73",
+        "75",
+        "69",
+        "67",
+        "66",
+        "68",
+        "64",
+        "63",
+        "62"
+      ],
+      "min_value": 62.0,
+      "max_value": 79.0
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fynx",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "9",
+        "14",
+        "11",
+        "10",
+        "8",
+        "7",
+        "13",
+        "16",
+        "12"
+      ],
+      "value_pool": [
+        "9",
+        "14",
+        "11",
+        "10",
+        "8",
+        "7",
+        "13",
+        "16",
+        "12"
+      ],
+      "min_value": 7.0,
+      "max_value": 16.0
+    }
+  ]
+}

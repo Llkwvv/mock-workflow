@@ -1,0 +1,123 @@
+{
+  "file_name": "汶上县农业农村局_基层农技推广补助项目农民技术员信息202508010128.xlsx",
+  "table_name": "汶上县农业农村局_基层农技推广补助项目农民技术员信息202508010128",
+  "row_count": 25,
+  "columns": [
+    "pxdd",
+    "nd",
+    "sszj",
+    "姓名",
+    "jkrq"
+  ],
+  "fields": [
+    {
+      "name": "pxdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东卓荣农业服务有限公司"
+      ],
+      "value_pool": [
+        "山东卓荣农业服务有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2025"
+      ],
+      "value_pool": [
+        "2025"
+      ],
+      "min_value": 2025.0,
+      "max_value": 2025.0
+    },
+    {
+      "name": "sszj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "中都街道",
+        "苑庄镇",
+        "寅寺镇",
+        "义桥镇",
+        "杨店镇",
+        "汶上街道",
+        "南站街道",
+        "南旺镇",
+        "刘楼镇",
+        "康驿镇",
+        "军屯乡",
+        "郭楼镇",
+        "郭仓镇",
+        "次邱镇",
+        "白石镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "宋**",
+        "梁***",
+        "江***",
+        "张**",
+        "乔**",
+        "高**",
+        "种**",
+        "郭**",
+        "何**",
+        "姬**",
+        "付**",
+        "徐**",
+        "王**",
+        "邵**",
+        "解**",
+        "刘**",
+        "杜**",
+        "房***",
+        "赵**",
+        "安**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jkrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "6月12日"
+      ],
+      "value_pool": [
+        "6月12日"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

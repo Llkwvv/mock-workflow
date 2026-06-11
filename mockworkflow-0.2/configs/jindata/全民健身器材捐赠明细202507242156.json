@@ -1,0 +1,172 @@
+{
+  "file_name": "全民健身器材捐赠明细202507242156.xlsx",
+  "table_name": "全民健身器材捐赠明细202507242156",
+  "row_count": 173,
+  "columns": [
+    "jzdw",
+    "jzsj",
+    "szdw",
+    "sl",
+    "dw",
+    "qcxh",
+    "qcmc"
+  ],
+  "fields": [
+    {
+      "name": "jzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁北湖省级旅游度假区社会事业发展局"
+      ],
+      "value_pool": [
+        "济宁北湖省级旅游度假区社会事业发展局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021.1"
+      ],
+      "value_pool": [
+        "2021.1"
+      ],
+      "min_value": 2021.1,
+      "max_value": 2022.1
+    },
+    {
+      "name": "szdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "石桥镇济东社区",
+        "石桥镇北一村",
+        "石桥镇张东村",
+        "石桥镇陆桥村",
+        "石桥镇姜庄村",
+        "石桥镇北三村",
+        "石桥镇倪庙村",
+        "石桥镇孙庄村",
+        "石桥镇聂庄村",
+        "石桥镇新店村",
+        "许庄街道风韵河都B区",
+        "许庄街道顺河佳园",
+        "许庄街道水运雅居",
+        "许庄街道锦绣花园",
+        "许庄街道清泉美景"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "48",
+        "12",
+        "6",
+        "3",
+        "2"
+      ],
+      "value_pool": [
+        "48",
+        "12",
+        "6",
+        "3",
+        "2"
+      ],
+      "min_value": 1.0,
+      "max_value": 48.0
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "件"
+      ],
+      "value_pool": [
+        "件"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qcxh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "世纪昊佳SJ-003B",
+        "世纪昊佳SJ-026B",
+        "世纪昊佳SJ-027D",
+        "世纪昊佳SJ-007C",
+        "世纪昊佳SJ-014B",
+        "世纪昊佳SJ-013B",
+        "世纪昊佳SJ-001"
+      ],
+      "value_pool": [
+        "世纪昊佳SJ-003B",
+        "世纪昊佳SJ-026B",
+        "世纪昊佳SJ-027D",
+        "世纪昊佳SJ-007C",
+        "世纪昊佳SJ-014B",
+        "世纪昊佳SJ-013B",
+        "世纪昊佳SJ-001"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qcmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "双位漫步机",
+        "上肢牵引器",
+        "棋牌桌",
+        "三位扭腰器",
+        "腿部按摩器",
+        "腰背按摩器",
+        "告示牌"
+      ],
+      "value_pool": [
+        "双位漫步机",
+        "上肢牵引器",
+        "棋牌桌",
+        "三位扭腰器",
+        "腿部按摩器",
+        "腰背按摩器",
+        "告示牌"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "file_name": "鱼台县科协_科普志愿者信息202508010119.xlsx",
+  "table_name": "鱼台县科协_科普志愿者信息202508010119",
+  "row_count": 14,
+  "columns": [
+    "csny",
+    "xb",
+    "dzyx",
+    "姓名",
+    "szdw"
+  ],
+  "fields": [
+    {
+      "name": "csny",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "197507",
+        "197504",
+        "197508",
+        "196804",
+        "196509",
+        "198901",
+        "196908",
+        "199403",
+        "197210",
+        "198311",
+        "197407",
+        "1975年"
+      ],
+      "min_value": 196509.0,
+      "max_value": 199403.0
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dzyx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "email",
+      "enum_values": [
+        "ytkx666@126.com"
+      ],
+      "value_pool": [
+        "ytkx666@126.com"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "鹿**",
+        "任**",
+        "张**",
+        "马**",
+        "姜**",
+        "杨**",
+        "**",
+        "李**",
+        "赵**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县科协",
+        "鱼台县县科协",
+        "王庙镇政府",
+        "张黄镇政府",
+        "王庙镇"
+      ],
+      "value_pool": [
+        "鱼台县科协",
+        "鱼台县县科协",
+        "王庙镇政府",
+        "张黄镇政府",
+        "王庙镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

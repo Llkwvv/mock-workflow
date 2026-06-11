@@ -1,0 +1,129 @@
+{
+  "file_name": "鱼台县工信局_行业领域内安全生产标准化已评审企业名单信息202506271914.xlsx",
+  "table_name": "鱼台县工信局_行业领域内安全生产标准化已评审企业名单信息202506271914",
+  "row_count": 25,
+  "columns": [
+    "zgbm",
+    "zbcydw",
+    "qymc",
+    "zjkfq",
+    "jb"
+  ],
+  "fields": [
+    {
+      "name": "zgbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "工信局"
+      ],
+      "value_pool": [
+        "工信局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zbcydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "应急局",
+        "市场监管局"
+      ],
+      "value_pool": [
+        "应急局",
+        "市场监管局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东艾小麦食品有限公司",
+        "山东星源矿山设备集团有限公司",
+        "鱼台县通茂纺织有限公司",
+        "鱼台县润鑫纺织有限公司",
+        "鱼台县凯兴纺织有限公司",
+        "济宁鲁星电气科技有限公司",
+        "山东贝焙鲜食品科技有限公司",
+        "鱼台县金苗米业有限公司",
+        "鱼台县银鲁米业有限公司",
+        "鱼台李凯米业有限公司",
+        "鱼台县敬承服装加工厂",
+        "鱼台县文刚米业有限公司",
+        "济宁金凤食品有限公司",
+        "济宁经发酒业有限公司",
+        "济宁欣盈纺织有限公司",
+        "济宁赢合塑业有限公司",
+        "中驰桥隧（山东）智能\n装备有限公司",
+        "鱼台领冠食品有限公司",
+        "恩德利（山东）环保科技有限公司",
+        "鱼台县泰和纺织有限公司",
+        "鱼台运通工贸有限公司",
+        "鱼台县丰谷米业有限公司",
+        "鱼台县一品甲米业有限公司",
+        "耀鼎包装有限公司",
+        "济宁谷润工贸有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjkfq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "开发区",
+        "鱼城",
+        "老寨",
+        "张黄",
+        "古亭",
+        "李阁",
+        "罗屯",
+        "鱼城镇",
+        "老砦镇",
+        "王鲁镇",
+        "罗屯镇",
+        "张黄镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "三级",
+        "小微"
+      ],
+      "value_pool": [
+        "三级",
+        "小微"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

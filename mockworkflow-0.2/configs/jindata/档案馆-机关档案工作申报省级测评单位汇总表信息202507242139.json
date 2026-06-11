@@ -1,0 +1,137 @@
+{
+  "file_name": "档案馆-机关档案工作申报省级测评单位汇总表信息202507242139.xlsx",
+  "table_name": "档案馆-机关档案工作申报省级测评单位汇总表信息202507242139",
+  "row_count": 27,
+  "columns": [
+    "dw",
+    "sydw",
+    "sj",
+    "psf",
+    "sjrych"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "马集镇中心小学",
+        "人才交流中心",
+        "诚祥建安集团盛亚分公司",
+        "嘉祥县法院",
+        "金屯派出所",
+        "马集派出所",
+        "疃里派出所",
+        "万张派出所",
+        "孟姑集派出所",
+        "马村派出所",
+        "满硐派出所",
+        "老僧堂派出所",
+        "梁宝寺派出所",
+        "嘉祥县公安局",
+        "嘉祥县兖兰路派出所",
+        "嘉祥县诚祥小额贷款有限公司",
+        "山东诚祥建设集团",
+        "嘉祥县公证处",
+        "国家统计局嘉祥调查队",
+        "嘉祥县检查院",
+        "国家电网嘉祥分公司",
+        "山东嘉祥农村商业银行股份有限公司",
+        "嘉祥街道办事处",
+        "嘉祥县人民医院",
+        "嘉祥县干部信息中心",
+        "纸坊镇中心小学",
+        "万张司法所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "山东省档案局"
+      ],
+      "value_pool": [
+        "山东省档案局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2014.6.7",
+        "2015.6.8",
+        "2016.6.8",
+        "2017.5.6",
+        "2018.5.8",
+        "2019.5.6",
+        "2020.5.10",
+        "2021.4.6",
+        "2022.4.6",
+        "2023.4.6",
+        "2024.4.15",
+        "2024.4.16"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "psf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "86",
+        "87",
+        "88",
+        "89",
+        "90",
+        "91",
+        "92",
+        "93",
+        "95",
+        "96",
+        "97"
+      ],
+      "min_value": 86.0,
+      "max_value": 97.0
+    },
+    {
+      "name": "sjrych",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省档案管理先进单位",
+        "山东省档案管理示范单位"
+      ],
+      "value_pool": [
+        "山东省档案管理先进单位",
+        "山东省档案管理示范单位"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

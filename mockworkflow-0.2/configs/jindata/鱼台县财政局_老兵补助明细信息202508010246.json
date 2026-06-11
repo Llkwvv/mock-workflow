@@ -1,0 +1,167 @@
+{
+  "file_name": "鱼台县财政局_老兵补助明细信息202508010246.xlsx",
+  "table_name": "鱼台县财政局_老兵补助明细信息202508010246",
+  "row_count": 99,
+  "columns": [
+    "ahharbz",
+    "姓名",
+    "qh",
+    "sfjey",
+    "zjlx",
+    "yfjey"
+  ],
+  "fields": [
+    {
+      "name": "ahharbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "到人"
+      ],
+      "value_pool": [
+        "到人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵**",
+        "双**",
+        "刘**",
+        "贾**",
+        "陈**",
+        "杜**",
+        "黄**",
+        "常**",
+        "郑**",
+        "李**",
+        "马**",
+        "田**",
+        "王**",
+        "谭**",
+        "秦**",
+        "聂**",
+        "张**",
+        "任**",
+        "朱**",
+        "段**",
+        "董**",
+        "杨**",
+        "候**",
+        "卢**",
+        "吴**",
+        "仇**",
+        "程**",
+        "韩**",
+        "高**",
+        "屈**",
+        "徐**",
+        "胡**",
+        "梁**",
+        "苏**",
+        "金**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "[370827]鱼台县"
+      ],
+      "value_pool": [
+        "[370827]鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "250",
+        "300",
+        "150",
+        "200",
+        "350",
+        "450",
+        "400"
+      ],
+      "value_pool": [
+        "250",
+        "300",
+        "150",
+        "200",
+        "350",
+        "450",
+        "400"
+      ],
+      "min_value": 150.0,
+      "max_value": 450.0
+    },
+    {
+      "name": "zjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "身份证号"
+      ],
+      "value_pool": [
+        "身份证号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yfjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "250",
+        "300",
+        "150",
+        "200",
+        "350",
+        "450",
+        "400"
+      ],
+      "value_pool": [
+        "250",
+        "300",
+        "150",
+        "200",
+        "350",
+        "450",
+        "400"
+      ],
+      "min_value": 150.0,
+      "max_value": 450.0
+    }
+  ]
+}

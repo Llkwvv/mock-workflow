@@ -1,0 +1,127 @@
+{
+  "file_name": "嘉祥县市场监督管理局-行政处罚文书信息202512261132.xlsx",
+  "table_name": "嘉祥县市场监督管理局-行政处罚文书信息202512261132",
+  "row_count": 3,
+  "columns": [
+    "ajmc",
+    "lasj",
+    "jasj",
+    "sfcqqzcs",
+    "sftz",
+    "sffy",
+    "sfss"
+  ],
+  "fields": [
+    {
+      "name": "ajmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县马娜马集烧鸡店以“反向抹零”的形式在标价之外加价出售商品案",
+        "嘉祥松鼠伙伴超市向未成年人销售酒案",
+        "嘉祥县佑醉小酒馆向未成年人销售酒案"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lasj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-11-08",
+        "2024-10-23"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jasj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-01-06",
+        "2025-01-20",
+        "2025-02-06"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfcqqzcs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sftz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sffy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfss",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

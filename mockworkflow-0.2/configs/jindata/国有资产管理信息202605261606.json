@@ -1,0 +1,135 @@
+{
+  "file_name": "国有资产管理信息202605261606.xlsx",
+  "table_name": "国有资产管理信息202605261606",
+  "row_count": 49,
+  "columns": [
+    "sl",
+    "glks",
+    "bz",
+    "mc",
+    "lb"
+  ],
+  "fields": [
+    {
+      "name": "sl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "80",
+        "15",
+        "4",
+        "2",
+        "100",
+        "1",
+        "7",
+        "0",
+        "-1"
+      ],
+      "value_pool": [
+        "80",
+        "15",
+        "4",
+        "2",
+        "100",
+        "1",
+        "7",
+        "0",
+        "-1"
+      ],
+      "min_value": -1.0,
+      "max_value": 100.0
+    },
+    {
+      "name": "glks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "相关科室",
+        "办公室"
+      ],
+      "value_pool": [
+        "相关科室",
+        "办公室"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "2025年",
+        "2026"
+      ],
+      "value_pool": [
+        "2025年",
+        "2026"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "计算机",
+        "打印机",
+        "复印机",
+        "办公橱",
+        "办公桌",
+        "办公椅",
+        "会议桌",
+        "会议椅",
+        "沙发",
+        "照相机",
+        "终端机",
+        "罗技摄像头",
+        "保密柜",
+        "格力FGR75C空调",
+        "格力FGR72PD1C3Nh-N2空调",
+        "海康监控摄\n像头",
+        "装订一体机",
+        "仰卧起坐分\n析仪",
+        "体育测试人\n脸识别仪",
+        "足球运动数\n据仪",
+        "档案柜",
+        "照相机及器材"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "通用设备",
+        "家具用具"
+      ],
+      "value_pool": [
+        "通用设备",
+        "家具用具"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

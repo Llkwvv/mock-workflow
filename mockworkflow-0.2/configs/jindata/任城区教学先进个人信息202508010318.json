@@ -1,0 +1,201 @@
+{
+  "file_name": "任城区教学先进个人信息202508010318.xlsx",
+  "table_name": "任城区教学先进个人信息202508010318",
+  "row_count": 967,
+  "columns": [
+    "xk",
+    "jb",
+    "jxmc",
+    "姓名",
+    "xd",
+    "hjsj",
+    "xx"
+  ],
+  "fields": [
+    {
+      "name": "xk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "英语",
+        "数学",
+        "物理",
+        "道德与法治",
+        "语文",
+        "生物",
+        "体育",
+        "化学",
+        "地理",
+        "历史",
+        "信息"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "区级"
+      ],
+      "value_pool": [
+        "区级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "教学先进个人"
+      ],
+      "value_pool": [
+        "教学先进个人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "贾**",
+        "范**",
+        "杨**",
+        "史**",
+        "欧**",
+        "李**",
+        "翟**",
+        "谢**",
+        "张**",
+        "王**",
+        "于**",
+        "郭**",
+        "郝**",
+        "咸**",
+        "薛**",
+        "崔**",
+        "孔**",
+        "肖**",
+        "赵**",
+        "阎**",
+        "吕**",
+        "林**",
+        "刘**",
+        "陈**",
+        "徐***",
+        "宋**",
+        "江**",
+        "牛**",
+        "刘****",
+        "石**",
+        "樊**",
+        "张***",
+        "周**",
+        "季**",
+        "田**",
+        "唐**",
+        "杜**",
+        "胡**",
+        "孙**",
+        "褚**",
+        "扈**",
+        "曾**",
+        "吴**",
+        "兰**",
+        "焦**",
+        "聂**",
+        "董**",
+        "郑**",
+        "曹**",
+        "徐**",
+        "尹**",
+        "连**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "初中"
+      ],
+      "value_pool": [
+        "初中"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021年11月"
+      ],
+      "value_pool": [
+        "2021年11月"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市第十五中学",
+        "济宁市第八中学",
+        "济宁市第十四中学",
+        "济宁市任城区安居第一中学",
+        "济宁市任城区安居第二中学",
+        "济宁市任城区大唐学校",
+        "济宁市任城区二十里铺中学",
+        "济宁市实验初中",
+        "济宁市运河实验中学"
+      ],
+      "value_pool": [
+        "济宁市第十五中学",
+        "济宁市第八中学",
+        "济宁市第十四中学",
+        "济宁市任城区安居第一中学",
+        "济宁市任城区安居第二中学",
+        "济宁市任城区大唐学校",
+        "济宁市任城区二十里铺中学",
+        "济宁市实验初中",
+        "济宁市运河实验中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

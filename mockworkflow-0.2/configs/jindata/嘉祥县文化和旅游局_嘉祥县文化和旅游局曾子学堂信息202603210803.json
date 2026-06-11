@@ -1,0 +1,164 @@
+{
+  "file_name": "嘉祥县文化和旅游局_嘉祥县文化和旅游局曾子学堂信息202603210803.xlsx",
+  "table_name": "嘉祥县文化和旅游局_嘉祥县文化和旅游局曾子学堂信息202603210803",
+  "row_count": 30,
+  "columns": [
+    "gzdw",
+    "zj",
+    "姓名",
+    "xb",
+    "lxdh"
+  ],
+  "fields": [
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "1826683****",
+        "1520677****",
+        "1526574****"
+      ],
+      "value_pool": [
+        "1826683****",
+        "1520677****",
+        "1526574****"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "仲山镇",
+        "万张街道",
+        "大张楼镇",
+        "金屯镇",
+        "老僧堂镇",
+        "马村镇",
+        "梁宝寺镇",
+        "孟姑集镇",
+        "嘉祥街道"
+      ],
+      "value_pool": [
+        "仲山镇",
+        "万张街道",
+        "大张楼镇",
+        "金屯镇",
+        "老僧堂镇",
+        "马村镇",
+        "梁宝寺镇",
+        "孟姑集镇",
+        "嘉祥街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "卜晓晨",
+        "李景梅",
+        "陈晓凤",
+        "夏婷",
+        "许先伟",
+        "高同奇",
+        "张长兴",
+        "胡佩剑",
+        "许亚飞",
+        "杜田田",
+        "郑海玲",
+        "杨怀乐",
+        "任仲福",
+        "吴芳慧",
+        "李保贵",
+        "史晨妍",
+        "商珊珊",
+        "王慧莹",
+        "李明涛",
+        "马胜利",
+        "李绪辉",
+        "王传国",
+        "赵海虹",
+        "李树杰",
+        "李冬梅",
+        "刘 鹏",
+        "高萧烟",
+        "国丽娟",
+        "曾红博",
+        "金锋芹"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "北李楼小学",
+        "仲山镇中心小学",
+        "仲山镇人民政府",
+        "万张街道中学",
+        "万张街道陈楼小学",
+        "万张街道中心小学",
+        "大张楼镇中心小学",
+        "大张楼镇杨村村主任",
+        "大张楼镇任四村村文书",
+        "嘉祥县金屯镇中心小学",
+        "嘉祥县金屯镇姜庄小学",
+        "老僧堂镇中学",
+        "老僧堂小学",
+        "老僧堂镇汤垓小学",
+        "马村镇中学",
+        "马村镇中心小学",
+        "嘉祥县梁宝寺镇新建小学",
+        "嘉祥县梁宝寺镇向阳小学",
+        "嘉祥县梁宝寺镇孙垓小学",
+        "孟姑集镇卞联小学",
+        "孟姑集镇明德小学",
+        "孟姑集镇岳楼小学",
+        "嘉祥街道中心小学",
+        "嘉祥街道西关小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

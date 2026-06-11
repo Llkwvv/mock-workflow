@@ -1,0 +1,153 @@
+{
+  "file_name": "限额以上餐饮业法人企业年初存货年度资料202507242150.xlsx",
+  "table_name": "限额以上餐饮业法人企业年初存货年度资料202507242150",
+  "row_count": 30,
+  "columns": [
+    "zbmc",
+    "nd",
+    "dw",
+    "ncch",
+    "frqysg"
+  ],
+  "fields": [
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "餐饮业",
+        "（一）按行业小类分",
+        "正餐服务",
+        "快餐服务",
+        "酒吧服务",
+        "其他饮料及冷饮服务",
+        "餐饮配送服务",
+        "其他未列明餐饮业",
+        "（二）按登记注册类型分",
+        "私营有限责任公司",
+        "其他有限责任公司",
+        "合伙企业",
+        "港澳台投资有限责任公司",
+        "（三）按单位规模分",
+        "中型",
+        "小型",
+        "微型",
+        "（四）按控股情况分",
+        "国有控股",
+        "私人控股",
+        "港澳台商控股",
+        "（五）按经营形式分",
+        "独立门店",
+        "连锁总店(总部)",
+        "连锁加盟店",
+        "其他",
+        "（六）按城乡分",
+        "城镇",
+        "其中：城区",
+        "乡村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023"
+      ],
+      "value_pool": [
+        "2023"
+      ],
+      "min_value": 2023.0,
+      "max_value": 2023.0
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "万元"
+      ],
+      "value_pool": [
+        "万元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ncch",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1104.7",
+        "-",
+        "974.4",
+        "16.3",
+        "0",
+        "7.9",
+        "97.6",
+        "8.5",
+        "757.9",
+        "320",
+        "8.1",
+        "18.7",
+        "46.7",
+        "1038.5",
+        "19.5",
+        "151.1",
+        "945.7",
+        "1055.7",
+        "48.9",
+        "0.1",
+        "1102.2",
+        "1100",
+        "2.5"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "frqysg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "59",
+        "-",
+        "46",
+        "6",
+        "1",
+        "2",
+        "3",
+        "7",
+        "4",
+        "44",
+        "13",
+        "56",
+        "54",
+        "58",
+        "57"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

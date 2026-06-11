@@ -1,0 +1,167 @@
+{
+  "file_name": "小区燃气安全检查的信息202506182049.xlsx",
+  "table_name": "小区燃气安全检查的信息202506182049",
+  "row_count": 47,
+  "columns": [
+    "jcr",
+    "xqmc",
+    "sfczaqyh",
+    "sfzgwc",
+    "wyxqmc"
+  ],
+  "fields": [
+    {
+      "name": "jcr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "朱常文、高中绪"
+      ],
+      "value_pool": [
+        "朱常文、高中绪"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "君临华府",
+        "碧桂园",
+        "玉兰花园",
+        "金祥凤凰城",
+        "书香水岸C区",
+        "星河湾",
+        "丽景国际",
+        "博悦城",
+        "青年广场",
+        "幸福里",
+        "得力生活广场",
+        "祥城北苑三期",
+        "枫林湾",
+        "阳光新城",
+        "福祥丽景",
+        "佰城花园",
+        "佰苑小区",
+        "如意祥城",
+        "祥安名府",
+        "山水家园",
+        "祥炬嘉园",
+        "中和丽府",
+        "优山美地",
+        "金都北苑",
+        "中心花园",
+        "冠亚E区",
+        "麟祥景苑",
+        "金都花苑",
+        "祥曾园",
+        "教育二区东区",
+        "碧城华园",
+        "中央华府",
+        "孔庄南北区",
+        "国际商贸城",
+        "太阳城",
+        "文苑祥居",
+        "大顺花园四期",
+        "立国如意花园",
+        "新城雅居",
+        "翰林学府",
+        "文苑雅居",
+        "红旗花园",
+        "冠亚B区",
+        "冠亚C区",
+        "冠亚D区",
+        "学府名都"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfczaqyh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "是"
+      ],
+      "value_pool": [
+        "否",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzgwc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "否"
+      ],
+      "value_pool": [
+        "是",
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wyxqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东原申物业",
+        "嘉祥碧桂园物业",
+        "绿城绿发物业",
+        "山东大正物业",
+        "嘉祥盛泰物业",
+        "山东明安物业",
+        "嘉祥嘉成物业",
+        "山东瑞家园物业",
+        "嘉祥祥城物业",
+        "上海永升物业",
+        "嘉祥祥炬物业",
+        "济宁铂莱特诺物业",
+        "肥城佳园物业",
+        "山东浩宇物业",
+        "济宁兴润物业",
+        "山东明德物业",
+        "嘉祥宏升物业",
+        "济宁盛世龙腾物业",
+        "嘉祥天诚物业",
+        "嘉祥孔庄物业",
+        "嘉祥康宁物业",
+        "深圳开元国际物业",
+        "济宁润信物业",
+        "济宁汇鑫物业",
+        "深圳保利物业",
+        "山东诚祥物业",
+        "嘉祥长和物业",
+        "济宁金麟物业",
+        "济宁久泰物业"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

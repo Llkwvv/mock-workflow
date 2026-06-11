@@ -1,0 +1,145 @@
+{
+  "file_name": "鱼台县综合行政执法局_城区执法中队巡查台账信息202506271809.xlsx",
+  "table_name": "鱼台县综合行政执法局_城区执法中队巡查台账信息202506271809",
+  "row_count": 54,
+  "columns": [
+    "xcry2",
+    "xcsj",
+    "xcry1",
+    "xcnr",
+    "xcdd"
+  ],
+  "fields": [
+    {
+      "name": "xcry2",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "童海亭",
+        "韩向阳"
+      ],
+      "value_pool": [
+        "童海亭",
+        "韩向阳"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "44562",
+        "44563",
+        "44564",
+        "44565",
+        "44566",
+        "44567",
+        "44569",
+        "44570",
+        "44571",
+        "44572",
+        "44573",
+        "44574",
+        "44575",
+        "44576",
+        "44584",
+        "44585",
+        "44586",
+        "44587",
+        "44588",
+        "44589",
+        "44590",
+        "44591",
+        "44599",
+        "44600",
+        "44601",
+        "44602",
+        "44608",
+        "44609",
+        "44610",
+        "44611",
+        "44612",
+        "44613",
+        "44614",
+        "44627",
+        "44645",
+        "44646",
+        "44647",
+        "44648",
+        "44649",
+        "44650",
+        "44651",
+        "44692",
+        "44693",
+        "44694",
+        "44695",
+        "44696",
+        "44697",
+        "44698",
+        "44699",
+        "2025年度"
+      ],
+      "min_value": 44562.0,
+      "max_value": 44699.0
+    },
+    {
+      "name": "xcry1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "韩向阳",
+        "童海亭"
+      ],
+      "value_pool": [
+        "韩向阳",
+        "童海亭"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "店外经营、超门头经营"
+      ],
+      "value_pool": [
+        "店外经营、超门头经营"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "城区执法一分队辖区"
+      ],
+      "value_pool": [
+        "城区执法一分队辖区"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

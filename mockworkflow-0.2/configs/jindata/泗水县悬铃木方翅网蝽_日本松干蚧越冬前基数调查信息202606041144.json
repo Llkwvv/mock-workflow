@@ -1,0 +1,245 @@
+{
+  "file_name": "泗水县悬铃木方翅网蝽_日本松干蚧越冬前基数调查信息202606041144.xlsx",
+  "table_name": "泗水县悬铃木方翅网蝽_日本松干蚧越冬前基数调查信息202606041144",
+  "row_count": 68,
+  "columns": [
+    "czl",
+    "dczs",
+    "nf",
+    "yczs",
+    "bzdks",
+    "zl",
+    "dcsj",
+    "dd",
+    "ct"
+  ],
+  "fields": [
+    {
+      "name": "czl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "30",
+        "0",
+        "20",
+        "40",
+        "35",
+        "15",
+        "5",
+        "10",
+        "60"
+      ],
+      "value_pool": [
+        "30",
+        "0",
+        "20",
+        "40",
+        "35",
+        "15",
+        "5",
+        "10",
+        "60"
+      ],
+      "min_value": 0.0,
+      "max_value": 60.0
+    },
+    {
+      "name": "dczs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "10",
+        "20"
+      ],
+      "value_pool": [
+        "10",
+        "20"
+      ],
+      "min_value": 10.0,
+      "max_value": 20.0
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "value_pool": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "min_value": 2016.0,
+      "max_value": 2025.0
+    },
+    {
+      "name": "yczs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "3",
+        "0",
+        "2",
+        "8",
+        "7",
+        "1",
+        "4",
+        "6"
+      ],
+      "value_pool": [
+        "3",
+        "0",
+        "2",
+        "8",
+        "7",
+        "1",
+        "4",
+        "6"
+      ],
+      "min_value": 0.0,
+      "max_value": 8.0
+    },
+    {
+      "name": "bzdks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "zl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "方翅网蝽",
+        "日本松干蚧"
+      ],
+      "value_pool": [
+        "方翅网蝽",
+        "日本松干蚧"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "11.5",
+        "11.6",
+        "11.11",
+        "11.19",
+        "11.21",
+        "11.22",
+        "11.12",
+        "11.1",
+        "11.13"
+      ],
+      "value_pool": [
+        "11.5",
+        "11.6",
+        "11.11",
+        "11.19",
+        "11.21",
+        "11.22",
+        "11.12",
+        "11.1",
+        "11.13"
+      ],
+      "min_value": 11.1,
+      "max_value": 11.6
+    },
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "泉源大道两侧",
+        "327国道两侧",
+        "中册镇龙门山",
+        "中册镇西侯幽谷",
+        "柘沟镇安山林场",
+        "泗张镇黄山林场",
+        "泉源大道",
+        "星村镇星吴路",
+        "苗馆镇中心小学",
+        "泗河街道杨家庄",
+        "高峪镇尧王线",
+        "泉林镇中心幼儿园",
+        "泗河街道泉兴路",
+        "圣水峪镇尧王线",
+        "泗张镇中石化加油站",
+        "金庄镇泉兴路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ct",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "成虫",
+        "若虫"
+      ],
+      "value_pool": [
+        "成虫",
+        "若虫"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

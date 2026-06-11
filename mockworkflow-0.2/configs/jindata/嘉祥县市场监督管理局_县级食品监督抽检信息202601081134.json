@@ -1,0 +1,94 @@
+{
+  "file_name": "嘉祥县市场监督管理局_县级食品监督抽检信息202601081134.xlsx",
+  "table_name": "嘉祥县市场监督管理局_县级食品监督抽检信息202601081134",
+  "row_count": 3,
+  "columns": [
+    "bcydwmc",
+    "cydbh",
+    "bcscqymc",
+    "spmc",
+    "bcscqydz"
+  ],
+  "fields": [
+    {
+      "name": "bcydwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县马村镇恒利源商店",
+        "嘉祥百联万张百货店",
+        "嘉祥县马村镇天成万家百货商行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cydbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "XBJ25370829163930504ZX",
+        "XBJ25370829163930499ZX",
+        "XBJ25370829163930490ZX"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcscqymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "菏泽随园食品股份有限公司",
+        "龙口市龙宇食品有限公司",
+        "山东欣和食品工业有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "麻辣花生",
+        "龙口粉丝",
+        "葱伴侣豆瓣酱"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcscqydz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东菏泽市沙土食品工业园",
+        "山东省龙口市龙口经济开发区中村",
+        "山东省莱阳市龙旺庄镇纪格庄"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

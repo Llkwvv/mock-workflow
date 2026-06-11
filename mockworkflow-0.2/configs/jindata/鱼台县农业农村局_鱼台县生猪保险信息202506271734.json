@@ -1,0 +1,116 @@
+{
+  "file_name": "鱼台县农业农村局_鱼台县生猪保险信息202506271734.xlsx",
+  "table_name": "鱼台县农业农村局_鱼台县生猪保险信息202506271734",
+  "row_count": 24,
+  "columns": [
+    "zxcbjgmc",
+    "cbxz",
+    "cbsj",
+    "cbxzmc",
+    "cbqy"
+  ],
+  "fields": [
+    {
+      "name": "zxcbjgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "中国人寿财产保险股份有限公司济宁市鱼台支公司",
+        "泰山财产保险股份有限公司济宁市鱼台支公司",
+        "中国人民财产保险股份\n有限公司鱼台支公司",
+        "中华联合保险股份有限公司济宁市鱼台支公司"
+      ],
+      "value_pool": [
+        "中国人寿财产保险股份有限公司济宁市鱼台支公司",
+        "泰山财产保险股份有限公司济宁市鱼台支公司",
+        "中国人民财产保险股份\n有限公司鱼台支公司",
+        "中华联合保险股份有限公司济宁市鱼台支公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cbxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "育肥猪",
+        "能繁母猪"
+      ],
+      "value_pool": [
+        "育肥猪",
+        "能繁母猪"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cbsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "一年"
+      ],
+      "value_pool": [
+        "一年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cbxzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "谷亭街道",
+        "王鲁镇",
+        "老砦镇",
+        "滨湖街道",
+        "李阁镇",
+        "鱼城镇",
+        "罗屯镇",
+        "清河镇",
+        "张黄镇",
+        "王庙镇",
+        "唐马镇",
+        "鱼台县清河镇",
+        "鱼台县张黄镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cbqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县",
+        "鱼台县清河镇",
+        "鱼台县张黄镇"
+      ],
+      "value_pool": [
+        "鱼台县",
+        "鱼台县清河镇",
+        "鱼台县张黄镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

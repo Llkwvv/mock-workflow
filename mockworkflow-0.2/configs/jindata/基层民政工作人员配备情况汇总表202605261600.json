@@ -1,0 +1,170 @@
+{
+  "file_name": "基层民政工作人员配备情况汇总表202605261600.xlsx",
+  "table_name": "基层民政工作人员配备情况汇总表202605261600",
+  "row_count": 75,
+  "columns": [
+    "zj",
+    "lsghtz",
+    "hj",
+    "nf",
+    "xz",
+    "sy",
+    "gmfwgyxgw"
+  ],
+  "fields": [
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "泗河街道",
+        "济河街道",
+        "金庄镇",
+        "圣水峪镇",
+        "泗张镇",
+        "泉林镇",
+        "苗馆镇",
+        "星村镇",
+        "华村镇",
+        "高峪镇",
+        "中册镇",
+        "柘沟镇",
+        "杨柳镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lsghtz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "1",
+        "2"
+      ],
+      "value_pool": [
+        "0",
+        "1",
+        "2"
+      ],
+      "min_value": 0.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "hj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "3",
+        "2",
+        "5",
+        "4"
+      ],
+      "value_pool": [
+        "3",
+        "2",
+        "5",
+        "4"
+      ],
+      "min_value": 2.0,
+      "max_value": 5.0
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "value_pool": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "min_value": 2019.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "xz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "0"
+      ],
+      "value_pool": [
+        "1",
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "sy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2",
+        "1",
+        "5",
+        "3",
+        "4"
+      ],
+      "value_pool": [
+        "2",
+        "1",
+        "5",
+        "3",
+        "4"
+      ],
+      "min_value": 1.0,
+      "max_value": 5.0
+    },
+    {
+      "name": "gmfwgyxgw",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "1"
+      ],
+      "value_pool": [
+        "0",
+        "1"
+      ],
+      "min_value": 0.0,
+      "max_value": 1.0
+    }
+  ]
+}

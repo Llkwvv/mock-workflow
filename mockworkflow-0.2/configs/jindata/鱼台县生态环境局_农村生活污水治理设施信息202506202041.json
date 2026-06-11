@@ -1,0 +1,182 @@
+{
+  "file_name": "鱼台县生态环境局_农村生活污水治理设施信息202506202041.xlsx",
+  "table_name": "鱼台县生态环境局_农村生活污水治理设施信息202506202041",
+  "row_count": 25,
+  "columns": [
+    "sfzcyx",
+    "ywzt",
+    "wsclssmc",
+    "xq",
+    "zjly",
+    "czmc",
+    "clgmdmn"
+  ],
+  "fields": [
+    {
+      "name": "sfzcyx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "email",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ywzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "山东公用鱼台分公司"
+      ],
+      "value_pool": [
+        "山东公用鱼台分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wsclssmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "清河鹿洼社区污水处理站",
+        "王庙镇污水处理站",
+        "大闵社区污水处理站",
+        "罗屯镇污水处理站",
+        "四联社区污水处理站",
+        "唐马镇污水处理站",
+        "李阁镇污水处理站",
+        "袁洼村污水处理站",
+        "左崮堆村污水处理站",
+        "刘寨村污水处理站",
+        "彭庄村污水处理站",
+        "东段村污水处理站",
+        "西姚村污水处理站",
+        "碌朱屯村污水处理站",
+        "沈集村污水处理站",
+        "大薛村污水处理站",
+        "中东北污水处理站",
+        "中西南污水处理站",
+        "王庙镇王庙污水处理站",
+        "独山村污水处理站",
+        "老砦镇污水处理站",
+        "张庙村污水处理站",
+        "殷王村污水处理站",
+        "张黄镇袁洼村污水处理站",
+        "张黄镇左崮堆村污水处理站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "财政资金+自筹"
+      ],
+      "value_pool": [
+        "财政资金+自筹"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "鹿洼村",
+        "张集村",
+        "仁祖庙村",
+        "罗屯村",
+        "四联村",
+        "甄华村",
+        "李阁村",
+        "袁洼",
+        "左崮堆村",
+        "刘寨",
+        "彭庄",
+        "东段",
+        "西姚",
+        "碌朱屯",
+        "沈集",
+        "大薛",
+        "中东北",
+        "中西南",
+        "王庙",
+        "独山",
+        "老北",
+        "张庙",
+        "殷王",
+        "张黄镇袁洼",
+        "张黄镇左崮堆村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clgmdmn",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "300",
+        "200",
+        "150t/d",
+        "2*25t/d",
+        "40t/d",
+        "30t/d",
+        "50t/d",
+        "200t/d",
+        "75t/d",
+        "50t/d（2*25）",
+        "4*10t/d"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

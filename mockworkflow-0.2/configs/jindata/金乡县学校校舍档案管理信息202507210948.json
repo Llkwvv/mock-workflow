@@ -1,0 +1,84 @@
+{
+  "file_name": "金乡县学校校舍档案管理信息202507210948.xlsx",
+  "table_name": "金乡县学校校舍档案管理信息202507210948",
+  "row_count": 1,
+  "columns": [
+    "gxsj",
+    "zj",
+    "xx",
+    "js",
+    "gcmc"
+  ],
+  "fields": [
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "县直"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡一中"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "js",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "gcmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "办公楼干容量含水率试验报告、砂浆试件、抗压湿度试验报告、混凝土度件抗压湿度试验报告、钢材焊接检验报告"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

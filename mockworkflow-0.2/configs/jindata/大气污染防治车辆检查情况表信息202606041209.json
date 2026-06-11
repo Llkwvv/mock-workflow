@@ -1,0 +1,101 @@
+{
+  "file_name": "大气污染防治车辆检查情况表信息202606041209.xlsx",
+  "table_name": "大气污染防治车辆检查情况表信息202606041209",
+  "row_count": 8,
+  "columns": [
+    "cfje",
+    "clhp",
+    "zfbm",
+    "wfss",
+    "jcsj"
+  ],
+  "fields": [
+    {
+      "name": "cfje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "100"
+      ],
+      "value_pool": [
+        "100"
+      ],
+      "min_value": 100.0,
+      "max_value": 100.0
+    },
+    {
+      "name": "clhp",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁D*22",
+        "鲁Q*AX",
+        "鲁P*45",
+        "鲁H*67",
+        "鲁D*56",
+        "鲁H*82",
+        "鲁H*15",
+        "鲁H*W3"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县交警大队"
+      ],
+      "value_pool": [
+        "县交警大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wfss",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "环保检查排放尾气未达标"
+      ],
+      "value_pool": [
+        "环保检查排放尾气未达标"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2023-01-03",
+        "2023-02-24",
+        "2023-03-15",
+        "2023-04-11",
+        "2023-04-10"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

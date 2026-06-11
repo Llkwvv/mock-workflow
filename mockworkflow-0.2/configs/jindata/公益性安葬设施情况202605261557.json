@@ -1,0 +1,84 @@
+{
+  "file_name": "公益性安葬设施情况202605261557.xlsx",
+  "table_name": "公益性安葬设施情况202605261557",
+  "row_count": 1,
+  "columns": [
+    "ssxz",
+    "jcmws",
+    "jcsj",
+    "ssmc",
+    "dz"
+  ],
+  "fields": [
+    {
+      "name": "ssxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "欢城镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcmws",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "不固定"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025"
+      ],
+      "min_value": 2025.0,
+      "max_value": 2025.0
+    },
+    {
+      "name": "ssmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "欢城镇公益性公墓"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "欢城镇公益性公墓"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

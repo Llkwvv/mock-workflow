@@ -1,0 +1,249 @@
+{
+  "file_name": "道路旅客运输企业信息202512171435.xlsx",
+  "table_name": "道路旅客运输企业信息202512171435",
+  "row_count": 14,
+  "columns": [
+    "xkzffrq",
+    "yhnsyxqz",
+    "yhdz",
+    "xkzschfrq",
+    "xkzyxqz",
+    "xkzyxqq",
+    "yhmc",
+    "jyfw",
+    "xkzh",
+    "gszch"
+  ],
+  "fields": [
+    {
+      "name": "xkzffrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2023-03-22 00:00:00",
+        "2021-06-02 00:00:00",
+        "2024-12-12 00:00:00",
+        "2024-01-02 00:00:00",
+        "2019-02-01 00:00:00",
+        "2023-11-09 00:00:00",
+        "2025-01-17 00:00:00",
+        "2023-11-08 00:00:00",
+        "2023-04-13 00:00:00",
+        "2019-04-09 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhnsyxqz",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2022-06-01 00:00:00",
+        "2024-05-15 00:00:00",
+        "2021-01-06 00:00:00",
+        "2018-04-23 00:00:00",
+        "2025-06-06 00:00:00",
+        "2022-01-20 00:00:00",
+        "2020-11-17 00:00:00",
+        "2007-09-07 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "XX区XX路XX号"
+      ],
+      "value_pool": [
+        "XX区XX路XX号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xkzschfrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2006-08-01 00:00:00",
+        "2021-06-02 00:00:00",
+        "2020-12-14 00:00:00",
+        "2020-01-07 00:00:00",
+        "2013-05-15 00:00:00",
+        "2019-11-12 00:00:00",
+        "2021-01-21 00:00:00",
+        "2019-11-18 00:00:00",
+        "2014-01-03 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xkzyxqz",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2027-03-21 00:00:00",
+        "2025-06-01 00:00:00",
+        "2028-12-11 00:00:00",
+        "2028-01-01 00:00:00",
+        "2021-10-08 00:00:00",
+        "2027-11-08 00:00:00",
+        "2029-01-16 00:00:00",
+        "2027-11-07 00:00:00",
+        "2023-04-08 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xkzyxqq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2023-03-22 00:00:00",
+        "2021-06-02 00:00:00",
+        "2024-12-12 00:00:00",
+        "2024-01-02 00:00:00",
+        "2017-10-09 00:00:00",
+        "2023-11-09 00:00:00",
+        "2025-01-17 00:00:00",
+        "2023-11-08 00:00:00",
+        "2019-04-09 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁交通运输集团有限公司第十分公司",
+        "曲阜文投公共车辆服务有限公司",
+        "济宁市顺通旅游汽车有限公司曲阜分公司",
+        "山东省济宁交通运输集团有限公司第十二分公司",
+        "济宁驰讯汽车服务有限公司",
+        "梁山县水浒客运有限责任公司",
+        "济宁市顺通旅游汽车有限公司泗水分公司",
+        "梁山金河客运有限公司",
+        "济宁交运校车服务有限公司",
+        "济宁市顺通旅游汽车有限公司微山分公司",
+        "济宁安润客运集团有限公司",
+        "山东省济宁交通运输集团有限公司客运分公司",
+        "邹城市运输公司（超期）",
+        "济宁市顺通旅游汽车有限公司汶上分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "一类客运班线  二类客运班线  三类客运班线  四类客运班线（毗邻县）  省际包车客运",
+        "县内包车客运",
+        "省际包车客运  省内包车客运",
+        "市际包车客运  省际包车客运",
+        "客运出租运输  县内班车客运",
+        "省内包车客运",
+        "县内班车客运  县际班车客运  市际班车客运  省际班车客运  市际包车客运  省际包车客运"
+      ],
+      "value_pool": [
+        "一类客运班线  二类客运班线  三类客运班线  四类客运班线（毗邻县）  省际包车客运",
+        "县内包车客运",
+        "省际包车客运  省内包车客运",
+        "市际包车客运  省际包车客运",
+        "客运出租运输  县内班车客运",
+        "省内包车客运",
+        "县内班车客运  县际班车客运  市际班车客运  省际班车客运  市际包车客运  省际包车客运"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xkzh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370008000001",
+        "370881831873",
+        "370008000004",
+        "370800803057",
+        "370832000001",
+        "370800803053",
+        "370800803063",
+        "370800803055",
+        "370008830001"
+      ],
+      "min_value": 370008000001.0,
+      "max_value": 370881831873.0
+    },
+    {
+      "name": "gszch",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370881869529832B",
+        "91370881MA3WLYHN5G",
+        "91370881MA3D14UF49",
+        "91370832869160801R",
+        "91370830MA3CF12N9A",
+        "91370832726201311K",
+        "91370831564058662P",
+        "9137083232843649XP",
+        "91370811MA3QKMYYXD",
+        "91370826573926003Q",
+        "91370829689490133D",
+        "91370800596580527D",
+        "913708831661316684",
+        "913708305652280618"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

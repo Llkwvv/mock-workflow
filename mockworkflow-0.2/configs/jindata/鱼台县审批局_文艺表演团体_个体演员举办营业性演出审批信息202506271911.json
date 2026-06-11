@@ -1,0 +1,125 @@
+{
+  "file_name": "鱼台县审批局_文艺表演团体_个体演员举办营业性演出审批信息202506271911.xlsx",
+  "table_name": "鱼台县审批局_文艺表演团体_个体演员举办营业性演出审批信息202506271911",
+  "row_count": 24,
+  "columns": [
+    "fzdw",
+    "czr",
+    "sxmc",
+    "blsj",
+    "czzt"
+  ],
+  "fields": [
+    {
+      "name": "fzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县行政审批服务局",
+        "济宁市鱼台县行政审批服务局"
+      ],
+      "value_pool": [
+        "鱼台县行政审批服务局",
+        "济宁市鱼台县行政审批服务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "张文馨",
+        "李乐华",
+        "张美娟",
+        "周倩如",
+        "赵启文",
+        "张新奇",
+        "齐新华",
+        "李秀玲",
+        "顾学敏",
+        "吴腾飞",
+        "潘奕娜",
+        "刘冬玲",
+        "高丽娜",
+        "张妍坤",
+        "侯春玲",
+        "郭冬云",
+        "张玉兰",
+        "高桂金",
+        "杨支启",
+        "鱼台县弘豫演艺有限公司",
+        "张*馨",
+        "李*华",
+        "张*娟",
+        "周*如"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "文艺表演团体、个体演员举办营业性演出审批",
+        "济宁市鱼台县文艺表演团体、个体演员举办营业性演出审批"
+      ],
+      "value_pool": [
+        "文艺表演团体、个体演员举办营业性演出审批",
+        "济宁市鱼台县文艺表演团体、个体演员举办营业性演出审批"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020年",
+        "2021年",
+        "2020年度"
+      ],
+      "value_pool": [
+        "2020年",
+        "2021年",
+        "2020年度"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "自然人",
+        "法人"
+      ],
+      "value_pool": [
+        "自然人",
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

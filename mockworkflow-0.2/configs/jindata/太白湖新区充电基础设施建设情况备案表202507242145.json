@@ -1,0 +1,131 @@
+{
+  "file_name": "太白湖新区充电基础设施建设情况备案表202507242145.xlsx",
+  "table_name": "太白湖新区充电基础设施建设情况备案表202507242145",
+  "row_count": 32,
+  "columns": [
+    "cdzlx",
+    "dq",
+    "cdzmc",
+    "cdzjsqy",
+    "nf"
+  ],
+  "fields": [
+    {
+      "name": "cdzlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "专用",
+        "公用"
+      ],
+      "value_pool": [
+        "专用",
+        "公用"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cdzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市城市展览馆充电点",
+        "山东省济宁市济宁学院附属中学太白湖校区充电点",
+        "山东省济宁市任城区御景花园充电点",
+        "山东省济宁市任城区水运雅居充电点",
+        "山东省济宁市太白湖区政府会议中心充电站",
+        "山东省济宁市任城区京杭佳苑D区充电站",
+        "山东省济宁市北湖为民服务中心停车场充电站",
+        "山东省济宁市任城区新城发展充电站",
+        "山东省济宁市任城区北湖高校生活园充电站",
+        "山东省济宁市太白湖区公交旅游出租车公司充电站",
+        "山东省济宁市任城区体育中心充电点",
+        "山东省济宁市任城区晨阳湖润充电站",
+        "济宁理工学院汽车学院充电站",
+        "济宁理工学院行政大楼充电站",
+        "济宁新城发展大厦充电站",
+        "济宁京投总部广场充电站",
+        "冠鲁明德华府",
+        "风韵荷都",
+        "石桥镇为民服务中心",
+        "山东省济宁市任城区南风花园充电点",
+        "山东省济宁市任城区滨湖馨苑充电站",
+        "山东省济宁市太白湖区公交枢纽站充电站",
+        "尹营回迁楼2号楼",
+        "石桥镇政府",
+        "山东省济宁市太白湖区市民公园西停车场充电站",
+        "山东省济宁市太白湖区市民公园东停车场充电站",
+        "任城区体育中心充电点",
+        "任城区晨阳湖润充电站",
+        "理工学院汽车学院充电站",
+        "理工学院行政大楼充电站",
+        "新城发展大厦充电站",
+        "京投总部广场充电站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cdzjsqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "企事业单位内部停车场",
+        "居民小区内部公共停车位",
+        "公共停车场",
+        "公交场站"
+      ],
+      "value_pool": [
+        "企事业单位内部停车场",
+        "居民小区内部公共停车位",
+        "公共停车场",
+        "公交场站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020"
+      ],
+      "value_pool": [
+        "2020"
+      ],
+      "min_value": 2020.0,
+      "max_value": 2020.0
+    }
+  ]
+}

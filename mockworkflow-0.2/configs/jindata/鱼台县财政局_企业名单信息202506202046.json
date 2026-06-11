@@ -1,0 +1,184 @@
+{
+  "file_name": "鱼台县财政局_企业名单信息202506202046.xlsx",
+  "table_name": "鱼台县财政局_企业名单信息202506202046",
+  "row_count": 31,
+  "columns": [
+    "sshy",
+    "zjtxqy",
+    "sjqy",
+    "qymc",
+    "qyjszx",
+    "zyyw"
+  ],
+  "fields": [
+    {
+      "name": "sshy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高端化工",
+        "医药",
+        "高端装备",
+        "新能源",
+        "新材料"
+      ],
+      "value_pool": [
+        "高端化工",
+        "医药",
+        "高端装备",
+        "新能源",
+        "新材料"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjtxqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "省级",
+        "市级",
+        "国家级"
+      ],
+      "value_pool": [
+        "否",
+        "省级",
+        "市级",
+        "国家级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "省级"
+      ],
+      "value_pool": [
+        "否",
+        "省级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东济宁盛发焦化有限公司",
+        "山东鲁泰化学有限公司",
+        "山东辰龙药业有限公司",
+        "济宁市金泰利华化工科技有限公司",
+        "济宁安泰矿山设备制造有限公司",
+        "济宁康华机电科技有限公司",
+        "凯本金威特种化学品(济宁)有限公司",
+        "济宁峰润生物科技有限公司",
+        "济宁市圣奥精细化工有限公司",
+        "济宁康盛彩虹生物科技有限公司",
+        "济宁正鑫化工有限公司",
+        "济宁市益民化工厂",
+        "山东水发环境科技有限公司",
+        "山东宁大钢构有限公司",
+        "鱼台顺驰工贸有限公司",
+        "山东华泰光源有限公司",
+        "山东心传矿山机电设备有限公司",
+        "山东鱼台东源矿用设备有限责任公司",
+        "鱼台长青环保能源有限公司",
+        "山东美健健康防护用品有限公司",
+        "山东格瑞泰新材料有限公司",
+        "山东五子星矿用设备股份有限公司",
+        "济宁市碧海洗涤用品有限公司",
+        "济宁市昊通工程机械有限公司",
+        "山东鲁泰环保建材有限公司",
+        "山东鱼台县骏达工贸有限公司",
+        "济宁福利达精细化工有限公司",
+        "鱼台县三高机械有限公司",
+        "济宁凯特化工有限公司",
+        "济宁宏昌达新材料有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyjszx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "无",
+        "市级",
+        "省级",
+        "未获评"
+      ],
+      "value_pool": [
+        "无",
+        "市级",
+        "省级",
+        "未获评"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zyyw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "炼焦、化工",
+        "烧碱、盐酸、聚氯乙烯",
+        "原料药",
+        "防水中间体",
+        "矿用泵",
+        "矿用钢丝绳检测设备",
+        "氯乙酸",
+        "纤维素钠",
+        "染料中间体",
+        "农药中间体",
+        "塑料助剂",
+        "磷化铝",
+        "水处理设备",
+        "钢结构",
+        "挂车",
+        "灯泡",
+        "风动潜水泵",
+        "生物质发电",
+        "隔离衣",
+        "塑料制品",
+        "洗衣粉",
+        "升降车",
+        "水泥",
+        "氯乙酸甲酯、氯乙酸乙酯",
+        "碾米机",
+        "煅后焦",
+        "碾米机、稻米加工机械"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

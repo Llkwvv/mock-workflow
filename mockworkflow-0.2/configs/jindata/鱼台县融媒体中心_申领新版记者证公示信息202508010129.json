@@ -1,0 +1,156 @@
+{
+  "file_name": "鱼台县融媒体中心_申领新版记者证公示信息202508010129.xlsx",
+  "table_name": "鱼台县融媒体中心_申领新版记者证公示信息202508010129",
+  "row_count": 29,
+  "columns": [
+    "szbm",
+    "jzxm",
+    "szdw",
+    "tjnf",
+    "jzzh"
+  ],
+  "fields": [
+    {
+      "name": "szbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "新闻中心",
+        "对上报道部",
+        "新闻频道",
+        "生活频道",
+        "新媒体部",
+        "电视部",
+        "新闻部",
+        "记者编辑中心"
+      ],
+      "value_pool": [
+        "新闻中心",
+        "对上报道部",
+        "新闻频道",
+        "生活频道",
+        "新媒体部",
+        "电视部",
+        "新闻部",
+        "记者编辑中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "梁**",
+        "霍**",
+        "周**",
+        "刘***",
+        "盛**",
+        "李***",
+        "张**",
+        "张***",
+        "赵**",
+        "郭***",
+        "王***",
+        "陈***",
+        "冀***",
+        "蒋***",
+        "李**",
+        "刘**",
+        "彭**",
+        "邱**",
+        "谭**",
+        "王**",
+        "姜**",
+        "朱**",
+        "徐**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县融媒体中心"
+      ],
+      "value_pool": [
+        "鱼台县融媒体中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjnf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023年",
+        "2024年"
+      ],
+      "value_pool": [
+        "2023年",
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "R37082766000004",
+        "R37082766000017",
+        "R37082766000018",
+        "R37082766000012",
+        "R37082766000009",
+        "R37082766000008",
+        "R37082766000021",
+        "R37082766000020",
+        "R37082766000010",
+        "R37082766000013",
+        "R37082766000016",
+        "R37082766000023",
+        "R37082766000002",
+        "R37082766000003",
+        "R37082766000006",
+        "R37082766000022",
+        "R37082766000007",
+        "R37082766000019",
+        "R37082766000014",
+        "R37082766000015",
+        "R37082766000011",
+        "R37082766000005",
+        "R37082766000026",
+        "R37082766000027",
+        "R37082766000024",
+        "R37082766000025",
+        "R3708276600***9",
+        "R3708276600***8",
+        "R37082766***021"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

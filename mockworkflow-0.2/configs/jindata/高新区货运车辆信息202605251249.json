@@ -1,0 +1,379 @@
+{
+  "file_name": "高新区货运车辆信息202605251249.xlsx",
+  "table_name": "高新区货运车辆信息202605251249",
+  "row_count": 8,
+  "columns": [
+    "cg",
+    "xzqh",
+    "yszyxq",
+    "clzl",
+    "ysz",
+    "yhmc",
+    "yhjjlx",
+    "ck",
+    "cllx",
+    "nsyxqz",
+    "gxqy",
+    "yhdz",
+    "jyfw",
+    "yhdh",
+    "cph",
+    "clzt",
+    "cz",
+    "cpys",
+    "yhxkz"
+  ],
+  "fields": [
+    {
+      "name": "cg",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2700",
+        "2900",
+        "3995",
+        "3150",
+        "2970",
+        "2800",
+        "4000"
+      ],
+      "min_value": 2700.0,
+      "max_value": 4000.0
+    },
+    {
+      "name": "xzqh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市市辖区"
+      ],
+      "value_pool": [
+        "济宁市市辖区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yszyxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2025-02-21至2028-02-20",
+        "2025-03-07至2028-03-06",
+        "2025-04-08至2028-04-07",
+        "2025-04-09至2028-04-08",
+        "2025-04-15至2028-04-14",
+        "2025-03-18至2028-03-17",
+        "2025-04-25至2028-04-24"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "普通货车"
+      ],
+      "value_pool": [
+        "普通货车"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ysz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "宁370811984090",
+        "宁370801030023",
+        "宁370811984180",
+        "宁370811984181",
+        "宁370811984183",
+        "宁370801030030",
+        "宁370811984109",
+        "宁370811984226"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁畅通农业发展有限公司",
+        "济宁东恒运输服务有限公司",
+        "济宁市聚鑫物流有限公司",
+        "延强物流（济宁）有限公司",
+        "济宁市金都运输有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhjjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "有限责任（公司）"
+      ],
+      "value_pool": [
+        "有限责任（公司）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ck",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2550",
+        "2450",
+        "2490"
+      ],
+      "value_pool": [
+        "2550",
+        "2450",
+        "2490"
+      ],
+      "min_value": 2450.0,
+      "max_value": 2550.0
+    },
+    {
+      "name": "cllx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "重型平板半挂车",
+        "重型自卸半挂车",
+        "重型罐式半挂车",
+        "重型仓栅式半挂车",
+        "重型半挂牵引车"
+      ],
+      "value_pool": [
+        "重型平板半挂车",
+        "重型自卸半挂车",
+        "重型罐式半挂车",
+        "重型仓栅式半挂车",
+        "重型半挂牵引车"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nsyxqz",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2026-01-31",
+        "2026-03-06",
+        "2026-04-07",
+        "2026-04-30",
+        "2026-04-14",
+        "2026-03-16"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市高新区"
+      ],
+      "value_pool": [
+        "济宁市高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市高新区接庄街道南贯集二村村西，济邹路去往苗圃路500米处路西",
+        "济宁市高新区王因街道海川路69号创意大厦二号楼1503室",
+        "济宁高新区接庄街道办事处济东新村电厂内",
+        "济宁高新区接庄街道办事处古柳村村东",
+        "济宁高新区戏楼村矿前路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "道路普通货物运输",
+        "货物专用运输（罐式容器）",
+        "货物专用运输（集装箱）、道路普通货物运输"
+      ],
+      "value_pool": [
+        "道路普通货物运输",
+        "货物专用运输（罐式容器）",
+        "货物专用运输（集装箱）、道路普通货物运输"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "159*****386",
+        "132*****555",
+        "198*****666",
+        "155*****391",
+        "155*****881"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cph",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁H0***挂",
+        "鲁H3***挂",
+        "鲁H2***挂",
+        "鲁H3***1",
+        "鲁HT***挂",
+        "鲁H0***1",
+        "鲁HL***挂"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "营运"
+      ],
+      "value_pool": [
+        "营运"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "13000",
+        "11500",
+        "9000",
+        "7410",
+        "7450",
+        "9150"
+      ],
+      "min_value": 7410.0,
+      "max_value": 13000.0
+    },
+    {
+      "name": "cpys",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "黄色"
+      ],
+      "value_pool": [
+        "黄色"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhxkz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "宁370801310658",
+        "宁370801310476",
+        "宁370800802948",
+        "宁370801310179",
+        "宁370801310033"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

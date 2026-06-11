@@ -1,0 +1,197 @@
+{
+  "file_name": "高新区生活长期不能自理经济困难老年人护理补贴信息202508010156.xlsx",
+  "table_name": "高新区生活长期不能自理经济困难老年人护理补贴信息202508010156",
+  "row_count": 752,
+  "columns": [
+    "姓名",
+    "jd",
+    "ssqh",
+    "xsksyf",
+    "sfzhm",
+    "stzk",
+    "btbz",
+    "btlx"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "田**",
+        "陈**",
+        "郝**",
+        "薛**",
+        "刘**",
+        "张**",
+        "赵**",
+        "吴**",
+        "高**",
+        "李**",
+        "杜**",
+        "邵**",
+        "王**",
+        "冯**",
+        "许**",
+        "焦**",
+        "谢**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "接庄街道",
+        "洸河街道",
+        "王因街道",
+        "黄屯街道"
+      ],
+      "value_pool": [
+        "接庄街道",
+        "洸河街道",
+        "王因街道",
+        "黄屯街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssqh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新技术开发区"
+      ],
+      "value_pool": [
+        "济宁高新技术开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsksyf",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2021-09",
+        "2021-01",
+        "2020-10",
+        "2021-08",
+        "2021-06",
+        "2021-03",
+        "2021-07",
+        "2022-07",
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811********054X",
+        "370811********2518",
+        "370811********2522",
+        "370811********2553",
+        "370811********2526",
+        "370811********2525",
+        "370811********2539",
+        "370811********2529",
+        "370811********2537",
+        "370811********251X",
+        "370811********2826",
+        "370811********9518",
+        "370802********2726",
+        "370822********1616",
+        "370822********1641",
+        "372830********282X",
+        "370822********1624",
+        "370822********1628",
+        "370822********1643",
+        "370822********2849",
+        "370822********2813",
+        "370822********2810",
+        "370822********282X",
+        "370822********2823"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "stzk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "三级",
+        "二级"
+      ],
+      "value_pool": [
+        "三级",
+        "二级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "btbz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "85"
+      ],
+      "value_pool": [
+        "85"
+      ],
+      "min_value": 85.0,
+      "max_value": 85.0
+    },
+    {
+      "name": "btlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "护理补贴"
+      ],
+      "value_pool": [
+        "护理补贴"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

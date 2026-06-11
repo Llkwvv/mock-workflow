@@ -1,0 +1,137 @@
+{
+  "file_name": "汶上县农业农村局_基层农技人员信息202508010203.xlsx",
+  "table_name": "汶上县农业农村局_基层农技人员信息202508010203",
+  "row_count": 40,
+  "columns": [
+    "姓名",
+    "gzdw",
+    "zc",
+    "kksj",
+    "lb"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "于****",
+        "马**",
+        "王***",
+        "王**",
+        "孔**",
+        "刘***",
+        "刘**",
+        "苏**",
+        "李***",
+        "李**",
+        "辛***",
+        "沈**",
+        "张**",
+        "周**",
+        "郑**",
+        "胡***",
+        "贺**",
+        "徐**",
+        "高***",
+        "郭**",
+        "黄**",
+        "蒋**",
+        "韩**",
+        "路**",
+        "樊**",
+        "朱**",
+        "闫**",
+        "韦**",
+        "胡**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县农业农村局",
+        "农业农村局土肥站",
+        "农业农村局植保站",
+        "农业农村局执法大队",
+        "寅寺镇农业办公室",
+        "农业农村局蔬菜站",
+        "南旺镇农业办公室",
+        "农业农村局农广校",
+        "汶上街道农业办公室",
+        "郭仓镇农业办公室",
+        "农业农村局",
+        "农业农村局农技站",
+        "农业农村局质监科",
+        "苑庄镇农业办公室",
+        "军屯乡农业办公室",
+        "汶上县农技站",
+        "杨店镇农业办公室",
+        "汶上县植保站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "农艺师",
+        "高级农艺师"
+      ],
+      "value_pool": [
+        "农艺师",
+        "高级农艺师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kksj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "6月10日"
+      ],
+      "value_pool": [
+        "6月10日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "基层农技人员"
+      ],
+      "value_pool": [
+        "基层农技人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

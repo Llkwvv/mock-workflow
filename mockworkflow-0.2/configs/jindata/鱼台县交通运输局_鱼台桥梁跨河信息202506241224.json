@@ -1,0 +1,203 @@
+{
+  "file_name": "鱼台县交通运输局_鱼台桥梁跨河信息202506241224.xlsx",
+  "table_name": "鱼台县交通运输局_鱼台桥梁跨河信息202506241224",
+  "row_count": 28,
+  "columns": [
+    "kjfllx",
+    "qlmc",
+    "qlqk",
+    "kymc",
+    "kjfldm",
+    "pddj",
+    "qmjk"
+  ],
+  "fields": [
+    {
+      "name": "kjfllx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "大桥",
+        "中桥",
+        "小桥"
+      ],
+      "value_pool": [
+        "大桥",
+        "中桥",
+        "小桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "冀马桥",
+        "大魏桥",
+        "乔庄桥",
+        "张庄桥",
+        "刘寨桥",
+        "双集桥",
+        "湾里桥",
+        "幸福桥",
+        "双合北桥",
+        "陈楼桥",
+        "杨庄桥",
+        "董庄桥",
+        "西姚桥",
+        "李阁桥",
+        "戚庄桥",
+        "旧城桥",
+        "郭河桥",
+        "渝河桥",
+        "路屯桥",
+        "郭庄桥",
+        "鱼清河桥",
+        "万福桥",
+        "苏鲁边桥",
+        "红卫河桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qlqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "3.5",
+        "8",
+        "6",
+        "7",
+        "5",
+        "13",
+        "7.5",
+        "15",
+        "13.3",
+        "5.3",
+        "8.5",
+        "9",
+        "10",
+        "16",
+        "8.5米",
+        "8米",
+        "5.3米",
+        "6米"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "东鱼河",
+        "白马河",
+        "复新河",
+        "惠河",
+        "幸福河",
+        "跃进河",
+        "鱼清河",
+        "小苏河",
+        "大运河",
+        "郭河",
+        "小俞河",
+        "老万福河",
+        "苏鲁边河"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kjfldm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2",
+        "3",
+        "4"
+      ],
+      "value_pool": [
+        "2",
+        "3",
+        "4"
+      ],
+      "min_value": 2.0,
+      "max_value": 4.0
+    },
+    {
+      "name": "pddj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "四类",
+        "一类",
+        "五类",
+        "二类"
+      ],
+      "value_pool": [
+        "四类",
+        "一类",
+        "五类",
+        "二类"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qmjk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2.5",
+        "7",
+        "4.7",
+        "6",
+        "4",
+        "12",
+        "6.7",
+        "14",
+        "12.3",
+        "4.3",
+        "8",
+        "5",
+        "9",
+        "15",
+        "8米",
+        "7米",
+        "4.3米",
+        "5米"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "file_name": "鱼台县财政局_低保明细表信息202508010130.xlsx",
+  "table_name": "鱼台县财政局_低保明细表信息202508010130",
+  "row_count": 46,
+  "columns": [
+    "ahharbz",
+    "姓名",
+    "yfjey",
+    "qh",
+    "sfjey"
+  ],
+  "fields": [
+    {
+      "name": "ahharbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "到户"
+      ],
+      "value_pool": [
+        "到户"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "蒋**",
+        "周**",
+        "韩**",
+        "马**",
+        "李**",
+        "侯**",
+        "闫**",
+        "独**",
+        "芦**",
+        "吴**",
+        "王**",
+        "杜**",
+        "谢**",
+        "姜**",
+        "屈**",
+        "卢**",
+        "姚**",
+        "孙**",
+        "张**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yfjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1440",
+        "720",
+        "360",
+        "1080",
+        "1800"
+      ],
+      "value_pool": [
+        "1440",
+        "720",
+        "360",
+        "1080",
+        "1800"
+      ],
+      "min_value": 360.0,
+      "max_value": 1800.0
+    },
+    {
+      "name": "qh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "[370827]鱼台县"
+      ],
+      "value_pool": [
+        "[370827]鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1440",
+        "720",
+        "360",
+        "1080",
+        "1800"
+      ],
+      "value_pool": [
+        "1440",
+        "720",
+        "360",
+        "1080",
+        "1800"
+      ],
+      "min_value": 360.0,
+      "max_value": 1800.0
+    }
+  ]
+}

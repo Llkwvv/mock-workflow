@@ -1,0 +1,145 @@
+{
+  "file_name": "对体校训练基地进行考核202507161311.xlsx",
+  "table_name": "对体校训练基地进行考核202507161311",
+  "row_count": 23,
+  "columns": [
+    "sx",
+    "sj",
+    "dd",
+    "xljdmc",
+    "fzks"
+  ],
+  "fields": [
+    {
+      "name": "sx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "考核测评"
+      ],
+      "value_pool": [
+        "考核测评"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "11月1号",
+        "11月2号",
+        "11月3号",
+        "11月4号",
+        "11月5号",
+        "11月8号",
+        "11月9号",
+        "11月10号",
+        "11月11号",
+        "11月12号",
+        "11月15号",
+        "11月16号",
+        "11月17号",
+        "11月18号",
+        "11月19号",
+        "11月22号",
+        "11月23号",
+        "11月24号",
+        "11月25号",
+        "11月26号",
+        "11月27号",
+        "11月28号",
+        "2024.5.21"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县第一实验中学",
+        "南旺镇第一中学",
+        "郭仓镇中学",
+        "汶上县第一实验小学",
+        "刘楼镇中学",
+        "次邱镇中学",
+        "杨店镇中心小学",
+        "汶上县第五实验中学",
+        "义桥镇中学",
+        "汶上县第六实验小学",
+        "郭楼镇中学",
+        "汶上县第五实验小学东和园校区",
+        "汶上县第三实验小学吉市口校区",
+        "汶上县第四实验小学小楼校区",
+        "汶上县第四实验中学",
+        "汶上县第二实验小学",
+        "中都国际学校",
+        "汶上县第二实验中学",
+        "汶上县第四实验小学",
+        "汶上县第四实验小学东门校区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xljdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "篮球训练基地",
+        "田径训练基地",
+        "排球训练基地",
+        "足球训练基地",
+        "手球、橄榄球训练基地",
+        "羽毛球训练基地",
+        "射箭、田径训练基地",
+        "篮训练基地"
+      ],
+      "value_pool": [
+        "篮球训练基地",
+        "田径训练基地",
+        "排球训练基地",
+        "足球训练基地",
+        "手球、橄榄球训练基地",
+        "羽毛球训练基地",
+        "射箭、田径训练基地",
+        "篮训练基地"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "竞赛训练科、体校"
+      ],
+      "value_pool": [
+        "竞赛训练科、体校"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

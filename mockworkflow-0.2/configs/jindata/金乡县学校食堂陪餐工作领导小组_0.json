@@ -1,0 +1,79 @@
+{
+  "file_name": "金乡县学校食堂陪餐工作领导小组_0.csv",
+  "table_name": "金乡县学校食堂陪餐工作领导小组_0",
+  "row_count": 35,
+  "columns": [
+    "zw",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "组  长：\n",
+        "副组长：\n",
+        "成  员："
+      ],
+      "value_pool": [
+        "组  长：\n",
+        "副组长：\n",
+        "成  员："
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘宗占",
+        "周一鸣",
+        "宋  勇 ",
+        "付新建",
+        "刘昌杰 ",
+        "刘卫奎",
+        "任忠平  ",
+        "李长浩  ",
+        "侯臣彦 ",
+        "李  雷  ",
+        "李宝玉  \n",
+        "王桂菊 ",
+        "刘文化 ",
+        "夏中华  ",
+        "李春梅  ",
+        "周  冰  \n",
+        "岳海潮  ",
+        "周华卿  ",
+        "张心仰    ",
+        "张海东  ",
+        "刘长森    ",
+        "孟武贞  ",
+        "王  超",
+        "乔  斐  ",
+        "杜庆龙  ",
+        "李秀改 ",
+        "孙峰涛  ",
+        "李  超",
+        "李  帅",
+        "刘海龙",
+        "张  庆",
+        "张恒宇  ",
+        "刘  伟  ",
+        "刘  艺",
+        "沙德峰  "
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

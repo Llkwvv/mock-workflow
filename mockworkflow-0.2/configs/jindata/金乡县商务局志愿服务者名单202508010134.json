@@ -1,0 +1,115 @@
+{
+  "file_name": "金乡县商务局志愿服务者名单202508010134.xlsx",
+  "table_name": "金乡县商务局志愿服务者名单202508010134",
+  "row_count": 30,
+  "columns": [
+    "ds",
+    "姓名",
+    "dw",
+    "mc",
+    "xq"
+  ],
+  "fields": [
+    {
+      "name": "ds",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王***",
+        "张**",
+        "高**",
+        "荆**",
+        "周**",
+        "宋***",
+        "吴**",
+        "李**",
+        "王**",
+        "孙**",
+        "徐**",
+        "莫**",
+        "杨**",
+        "韩**",
+        "赵***",
+        "曹**",
+        "杨***",
+        "初**",
+        "郭**",
+        "杜**",
+        "刘**",
+        "王*",
+        "马**",
+        "杨*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "县商务局"
+      ],
+      "value_pool": [
+        "县商务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "志愿服务者"
+      ],
+      "value_pool": [
+        "志愿服务者"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "file_name": "客户服务区域信息202508010128.xlsx",
+  "table_name": "客户服务区域信息202508010128",
+  "row_count": 25,
+  "columns": [
+    "kfxm",
+    "bm",
+    "gw",
+    "fwqy",
+    "fwdh"
+  ],
+  "fields": [
+    {
+      "name": "kfxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘**",
+        "张*",
+        "田*",
+        "薛**",
+        "董**",
+        "孔*",
+        "张**",
+        "卢*",
+        "王*",
+        "葛*",
+        "韩**",
+        "何*",
+        "郭**",
+        "周*",
+        "栾*",
+        "徐**",
+        "胥**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "客户服务部",
+        "生产运营部"
+      ],
+      "value_pool": [
+        "客户服务部",
+        "生产运营部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "安检员",
+        "巡线员",
+        "置换维修员"
+      ],
+      "value_pool": [
+        "安检员",
+        "巡线员",
+        "置换维修员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "城区气代煤四街、八街、六街、杨家庄、五里庙",
+        "气代煤村庄尖山、沙胡同、北孙徐、卧牛庄",
+        "府前花园、天下景城、绿景国际",
+        "杨柳镇气代煤村庄",
+        "城区家属院",
+        "永胜锦城、永胜名筑",
+        "海清圣地、欧洲城、福临城",
+        "气代煤金庄镇",
+        "气代煤中册镇、柘沟镇",
+        "中兴路以西，327国道以南",
+        "中兴路以东，327国道以北",
+        "中兴路以东，327国道以南",
+        "中册镇、柘沟镇、杨柳镇",
+        "中兴路以西，327国道以北",
+        "金庄镇、济河街道、泗河街道",
+        "城区中兴路以东",
+        "城区中兴路以西",
+        "气代煤中册镇",
+        "气代煤柘沟镇",
+        "气代煤杨柳镇",
+        "气代煤城西村庄",
+        "气代煤城东村庄",
+        "天下景城、绿景国际"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "152****9259",
+        "159****0326",
+        "159****8401",
+        "150****4447",
+        "183****3768",
+        "151****5788",
+        "182****2310",
+        "152****3043",
+        "152****2669",
+        "183****1523",
+        "150****9501",
+        "150****8023",
+        "130****6250",
+        "176****7078",
+        "175****5898",
+        "130****5858",
+        "155****6520",
+        "130****6096",
+        "137****3390",
+        "150****0043",
+        "139****4465",
+        "150****6158",
+        "170****9333",
+        "184****3210"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "file_name": "金乡县商务局人员花名册202508010145.xlsx",
+  "table_name": "金乡县商务局人员花名册202508010145",
+  "row_count": 35,
+  "columns": [
+    "ds",
+    "xb",
+    "姓名",
+    "xq",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "ds",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "张**",
+        "高**",
+        "刘**",
+        "荆**",
+        "周**",
+        "宋**",
+        "吴**",
+        "杨**",
+        "李**",
+        "孙**",
+        "徐**",
+        "韩**",
+        "吕**",
+        "赵**",
+        "曹**",
+        "初**",
+        "郭**",
+        "杜**",
+        "马**",
+        "王*",
+        "杨*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "县商务局"
+      ],
+      "value_pool": [
+        "县商务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

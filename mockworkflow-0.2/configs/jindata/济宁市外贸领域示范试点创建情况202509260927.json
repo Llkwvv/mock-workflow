@@ -1,0 +1,122 @@
+{
+  "file_name": "济宁市外贸领域示范试点创建情况202509260927.xlsx",
+  "table_name": "济宁市外贸领域示范试点创建情况202509260927",
+  "row_count": 20,
+  "columns": [
+    "ly",
+    "sfmc",
+    "nd",
+    "sfdw",
+    "sfjb"
+  ],
+  "fields": [
+    {
+      "name": "ly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "国家级",
+        "省级"
+      ],
+      "value_pool": [
+        "国家级",
+        "省级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "出口食品农产品质量\n安全示范区",
+        "外贸转型升级基地",
+        "二手车出口试点企业",
+        "出口农产品质量安全\n示范市",
+        "省级出口专用车及零\n部件质量安全示范县",
+        "外贸转型升级示范县",
+        "加工贸易梯度转移重\n点承接地",
+        "服务贸易特色基地",
+        "跨境电商产业聚集区",
+        "外贸综合服务企业",
+        "内外贸结合市场",
+        "加工贸易转型升级示\n范企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县",
+        "泗水县",
+        "曲阜市",
+        "邹城市",
+        "济宁高新区国家外贸转型升级\n基地（纺织）\n金乡县国家外贸转型升级基地\n（大蒜）",
+        "蜗牛货车网（山东）电子商务\n有限公司",
+        "济宁市",
+        "梁山县",
+        "济宁高新区",
+        "曲阜经济开发区",
+        "曲阜文化产业示范园",
+        "兖州工业园区跨境电商产业聚\n集区",
+        "嘉祥县跨境电商聚集区",
+        "山东蒜都农产品物流园",
+        "济宁海能电子商务产业园",
+        "济宁食品工业技术开发区",
+        "山东山推工程机械进出口有限\n公司",
+        "山东如意科技集团有限公司",
+        "济宁金乡大蒜国际交易市场",
+        "山东太阳纸业股份有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "2020年"
+      ],
+      "value_pool": [
+        "2020年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "外贸"
+      ],
+      "value_pool": [
+        "外贸"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

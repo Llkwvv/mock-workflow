@@ -1,0 +1,134 @@
+{
+  "file_name": "汶上县交通运输局_公交老年卡办理信息202508010309.xlsx",
+  "table_name": "汶上县交通运输局_公交老年卡办理信息202508010309",
+  "row_count": 258,
+  "columns": [
+    "gsmc",
+    "yxsj",
+    "blry",
+    "xydm",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "gsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "汶上县宏盛公交客运有限公司"
+      ],
+      "value_pool": [
+        "汶上县宏盛公交客运有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "1年"
+      ],
+      "value_pool": [
+        "1年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "赵树桥"
+      ],
+      "value_pool": [
+        "赵树桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "91370830349122270H"
+      ],
+      "value_pool": [
+        "91370830349122270H"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杨**",
+        "崔**",
+        "王**",
+        "刘**",
+        "徐**",
+        "郑**",
+        "林**",
+        "李**",
+        "牛**",
+        "孟**",
+        "苏**",
+        "姬**",
+        "张**",
+        "孙**",
+        "何**",
+        "曹**",
+        "赵**",
+        "杜**",
+        "吕**",
+        "陈**",
+        "胡**",
+        "史**",
+        "樊**",
+        "侯**",
+        "朱*",
+        "郭**",
+        "马**",
+        "季**",
+        "朱**",
+        "信**",
+        "任**",
+        "房**",
+        "蔡**",
+        "董**",
+        "艾**",
+        "荣**",
+        "于**",
+        "许**",
+        "段**",
+        "田**",
+        "宁**",
+        "路**",
+        "韩**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

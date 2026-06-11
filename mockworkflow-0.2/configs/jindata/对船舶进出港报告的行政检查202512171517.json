@@ -1,0 +1,198 @@
+{
+  "file_name": "对船舶进出港报告的行政检查202512171517.xlsx",
+  "table_name": "对船舶进出港报告的行政检查202512171517",
+  "row_count": 13,
+  "columns": [
+    "xzxdrdwgr",
+    "jcdd",
+    "jcfs",
+    "jgdx",
+    "jcsj",
+    "bz",
+    "jcry",
+    "jcxwbh",
+    "jcjg"
+  ],
+  "fields": [
+    {
+      "name": "xzxdrdwgr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市万佳航运有限责任公司",
+        "山东宇洋航运有限公司",
+        "济宁港航发展集团船务有限公司",
+        "济宁微梁航运有限公司",
+        "山东通腾物流有限公司",
+        "济宁张山航运有限公司",
+        "济宁市吉源航运有限公司",
+        "山东振燃供应链管理有限公司",
+        "济宁润杨船员服务有限公司",
+        "济宁市宇航航运有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东济宁市济宁金港港务有限公司2号泊位",
+        "济宁友邦京杭运河物流有限公司",
+        "山东济宁市森达美港有限公司2号泊位",
+        "山东济宁市森达美港有限公司7号泊位",
+        "山东济宁市荣信煤化有限责任公司2号泊位",
+        "山东济宁市联合港务有限公司2号泊位",
+        "山东济宁市微山县大运河港务有限公司1号泊",
+        "山东济宁市森达美港有限公司3号泊位",
+        "山东济宁市嘉祥顺达港务有限公司1号泊位",
+        "山东济宁市济宁金港港务有限公司5号泊位",
+        "山东济宁市荣信煤化有限责任公司1号泊位",
+        "山东济宁市森达美港有限公司6号泊位",
+        "山东济宁市微山县鲁桥泗河港公司1号泊位"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "网上核查"
+      ],
+      "value_pool": [
+        "网上核查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "敏感信息，不予开放"
+      ],
+      "value_pool": [
+        "敏感信息，不予开放"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "44381.0",
+        "44389.0",
+        "44393.0",
+        "44385.0",
+        "44379.0",
+        "44384.494",
+        "44381.376",
+        "44378.628",
+        "44381.461",
+        "44395.381",
+        "44383.0",
+        "44392.0"
+      ],
+      "min_value": 44378.628,
+      "max_value": 44395.381
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "网上核查"
+      ],
+      "value_pool": [
+        "网上核查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "刘文秋、赵修洋"
+      ],
+      "value_pool": [
+        "刘文秋、赵修洋"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "2520128",
+        "2520129",
+        "2520130",
+        "2520131",
+        "2520132",
+        "2520133",
+        "2520134",
+        "2520135",
+        "2520136",
+        "2520137",
+        "2520138",
+        "2520139",
+        "2520140"
+      ],
+      "min_value": 2520128.0,
+      "max_value": 2520140.0
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已报港"
+      ],
+      "value_pool": [
+        "已报港"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "file_name": "太白湖新区拟上市企业202508010125.xlsx",
+  "table_name": "太白湖新区拟上市企业202508010125",
+  "row_count": 12,
+  "columns": [
+    "dw",
+    "姓名",
+    "qydjzbscfs",
+    "qylx",
+    "zw"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市丙坤生态牧场股份有限公司",
+        "山东岁耕农业科技股份有限公司",
+        "山东中诺源财税管理咨询股份有限公司",
+        "济宁文通木业股份有限公司",
+        "济宁攸宁服饰股份公司",
+        "推荐陈宜斗科技股份有限公司",
+        "济宁富垄农业科技股份有限公司",
+        "山东圣鼎科技股份有限公司",
+        "山东海建水利有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "李**",
+        "黄**",
+        "陈**",
+        "宋**",
+        "王**",
+        "刘**",
+        "孙**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qydjzbscfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "主板"
+      ],
+      "value_pool": [
+        "主板"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qylx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "中小微企业"
+      ],
+      "value_pool": [
+        "中小微企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经理"
+      ],
+      "value_pool": [
+        "经理"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

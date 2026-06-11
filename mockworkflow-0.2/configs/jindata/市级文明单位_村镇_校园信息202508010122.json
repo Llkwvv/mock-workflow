@@ -1,0 +1,123 @@
+{
+  "file_name": "市级文明单位_村镇_校园信息202508010122.xlsx",
+  "table_name": "市级文明单位_村镇_校园信息202508010122",
+  "row_count": 26,
+  "columns": [
+    "ssdw",
+    "lb",
+    "sslx",
+    "jb",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "ssdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁经济技术开发区"
+      ],
+      "value_pool": [
+        "济宁经济技术开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "新增",
+        "复查"
+      ],
+      "value_pool": [
+        "新增",
+        "复查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sslx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "文明单位",
+        "文明村镇",
+        "文明校园"
+      ],
+      "value_pool": [
+        "文明单位",
+        "文明村镇",
+        "文明校园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市级"
+      ],
+      "value_pool": [
+        "市级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市自然资源和规划局经济开发区服务中心",
+        "济宁市自然资源和规划局经济开发区分局（原济宁市国土资源局经济开发区分局）",
+        "济宁经济开发区马集镇卫生院",
+        "济宁市公安局经济开发区分局",
+        "济宁经济开发区疃里中心卫生院",
+        "济宁经济技术开发区管理委员会（机关）",
+        "济宁经济开发区马集镇云山村",
+        "济宁经济开发区马集镇于桥村",
+        "疃里镇贾桥村",
+        "马集镇上店子村",
+        "马集镇郝庄村",
+        "疃里镇盛庄村",
+        "马集镇沈庄村",
+        "疃里镇后贾村",
+        "疃里镇",
+        "疃里镇崔桥村",
+        "马集镇刘街村",
+        "嘉祥县疃里镇第四中学",
+        "马集镇中心小学",
+        "疃里镇高庙小学",
+        "马集镇中学",
+        "疃里镇前贾小学",
+        "疃里镇第三中学",
+        "疃里镇大王小学",
+        "济宁经济开发区疃里镇明德小学",
+        "济宁经济开发区马集镇鲁寨小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

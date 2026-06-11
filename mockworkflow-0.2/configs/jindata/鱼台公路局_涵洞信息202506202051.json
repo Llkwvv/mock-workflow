@@ -1,0 +1,162 @@
+{
+  "file_name": "鱼台公路局_涵洞信息202506202051.xlsx",
+  "table_name": "鱼台公路局_涵洞信息202506202051",
+  "row_count": 25,
+  "columns": [
+    "xs",
+    "ks",
+    "lx",
+    "kj",
+    "hz",
+    "zh"
+  ],
+  "fields": [
+    {
+      "name": "xs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "拱涵",
+        "板涵",
+        "管涵"
+      ],
+      "value_pool": [
+        "拱涵",
+        "板涵",
+        "管涵"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "1",
+        "2",
+        "12*1.5"
+      ],
+      "value_pool": [
+        "1",
+        "2",
+        "12*1.5"
+      ],
+      "min_value": 1.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "lx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "G237"
+      ],
+      "value_pool": [
+        "G237"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2m",
+        "1.5m",
+        "1m",
+        "2.5m",
+        "0.9m",
+        "1.8m",
+        "0.8m"
+      ],
+      "value_pool": [
+        "2m",
+        "1.5m",
+        "1m",
+        "2.5m",
+        "0.9m",
+        "1.8m",
+        "0.8m"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hz",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "30.5",
+        "32.5",
+        "28.0",
+        "48.0",
+        "26.0",
+        "24.0",
+        "26.5",
+        "25.0",
+        "24.5",
+        "20.0",
+        "18.5",
+        "10.0"
+      ],
+      "min_value": 10.0,
+      "max_value": 48.0
+    },
+    {
+      "name": "zh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "26K+667",
+        "27K+530",
+        "27K+850",
+        "28K+350",
+        "29K+796",
+        "30K+506",
+        "30K+531",
+        "30K+976",
+        "31K+626",
+        "31K+648",
+        "32K+051",
+        "33K+056",
+        "33K+071",
+        "34K+481",
+        "35K+110",
+        "35K+636",
+        "36K+361",
+        "36K+550",
+        "36K+560",
+        "37K+981",
+        "39K+996",
+        "41K+296",
+        "26K+777",
+        "27K+630",
+        "27K+950"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "file_name": "高新区城乡居民基本养老保险关系转入明细202604081739.xlsx",
+  "table_name": "高新区城乡居民基本养老保险关系转入明细202604081739",
+  "row_count": 3,
+  "columns": [
+    "zrhjtsqmc",
+    "zrhxzjdmc",
+    "zrqjtsqmc",
+    "zrhjbjgmc",
+    "姓名",
+    "cbqt",
+    "xb",
+    "jfrylb",
+    "zrrq",
+    "shbzhm",
+    "zrqxzjdmc",
+    "zrqjbjgmc",
+    "zrzje",
+    "zrzdlsh"
+  ],
+  "fields": [
+    {
+      "name": "zrhjtsqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "接*****村",
+        "黄**********村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrhxzjdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "接庄街道办事处",
+        "黄屯街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrqjtsqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "峄****村",
+        "接*****村",
+        "兴*****村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrhjbjgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "高新区居民"
+      ],
+      "value_pool": [
+        "高新区居民"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杨**",
+        "王**",
+        "张**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cbqt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "农村居民"
+      ],
+      "value_pool": [
+        "农村居民"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女"
+      ],
+      "value_pool": [
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jfrylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "普通农民"
+      ],
+      "value_pool": [
+        "普通农民"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-05-16",
+        "2024-06-20",
+        "2024-07-11"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shbzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "429006**********42",
+        "142401**********27",
+        "370882**********42"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrqxzjdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "峄*镇",
+        "接*****村",
+        "兴**镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrqjbjgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市邹城市居民",
+        "接庄街道大郝村居民",
+        "济宁市兖州市居民"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrzje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "4899.14",
+        "2304.41",
+        "713.6"
+      ],
+      "min_value": 713.6,
+      "max_value": 4899.14
+    },
+    {
+      "name": "zrzdlsh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "13022080410256477168",
+        "13022123010259339527",
+        "13021093010225943349"
+      ],
+      "min_value": 1.3021093010225943e+19,
+      "max_value": 1.302212301025934e+19
+    }
+  ]
+}

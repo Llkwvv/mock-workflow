@@ -1,0 +1,139 @@
+{
+  "file_name": "房地产开发企业项目调查表202604081705.xlsx",
+  "table_name": "房地产开发企业项目调查表202604081705",
+  "row_count": 25,
+  "columns": [
+    "xsq",
+    "fdckfqyjcxx",
+    "xh",
+    "fdckfxmxx",
+    "fdckfzzxx"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经开区"
+      ],
+      "value_pool": [
+        "经开区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fdckfqyjcxx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "丰乐置业有限责任公司",
+        "御苑置业有限公司",
+        "祥城投资开发有限责任公司",
+        "济宁鸿顺经开房地",
+        "济宁西控置业有限公司",
+        "济宁大德房地产开发有限公司",
+        "城市开发建设集团有限公司",
+        "济宁中基置业有限公司",
+        "永祥房地产开发有限公司",
+        "斯赛迪（山东）液压科技有限公司",
+        "山东光大线路器材有限公司",
+        "济宁祥城投资集团有限公司",
+        "济宁经开城建开发集团有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "min_value": 1.0,
+      "max_value": 25.0
+    },
+    {
+      "name": "fdckfxmxx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "九里睛川",
+        "英才苑",
+        "新河社区",
+        "鸿顺·吉祥欣苑",
+        "大王庄社区",
+        "济宁·德馨园",
+        "中关村京港澳一期",
+        "双城名都\n双城领域",
+        "朱井社区",
+        "高压、超高压钢丝增强液压软管智能制造项目",
+        "特高压电力金具智能化绿色工厂项目",
+        "济宁经济开发区圣祥小镇南片区创研基地建设项目11#楼",
+        "济宁经济开发区新能源、新材料产业园基础设施项目-配套设施",
+        "济宁经开区“双创”孵化产业示范基地-电商综合楼项目"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fdckfzzxx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "私营",
+        "国有"
+      ],
+      "value_pool": [
+        "私营",
+        "国有"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

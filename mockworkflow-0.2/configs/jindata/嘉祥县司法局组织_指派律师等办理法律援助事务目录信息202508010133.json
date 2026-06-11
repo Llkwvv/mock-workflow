@@ -1,0 +1,88 @@
+{
+  "file_name": "嘉祥县司法局组织_指派律师等办理法律援助事务目录信息202508010133.xlsx",
+  "table_name": "嘉祥县司法局组织_指派律师等办理法律援助事务目录信息202508010133",
+  "row_count": 2,
+  "columns": [
+    "zptj",
+    "zyzt",
+    "姓名",
+    "sslssws",
+    "sssx"
+  ],
+  "fields": [
+    {
+      "name": "zptj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zyzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "执业"
+      ],
+      "value_pool": [
+        "执业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "徐**",
+        "王*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sslssws",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东祥城律师事务所",
+        "山东众翊轩律师事务所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sssx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市嘉祥县"
+      ],
+      "value_pool": [
+        "济宁市嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

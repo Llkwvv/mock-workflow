@@ -1,0 +1,151 @@
+{
+  "file_name": "汶上县农业农村局_农药经营企业检查信息202507210925.xlsx",
+  "table_name": "汶上县农业农村局_农药经营企业检查信息202507210925",
+  "row_count": 27,
+  "columns": [
+    "lxr",
+    "qymc",
+    "jcnr",
+    "jcsj",
+    "jcry"
+  ],
+  "fields": [
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "潘兴国",
+        "曹雪芹",
+        "姬素真",
+        "郭德梅",
+        "高安峰",
+        "胡红星",
+        "胡兆生",
+        "赵根玺",
+        "赵  云",
+        "房刚领",
+        "张忠海",
+        "汪连苓",
+        "何长义",
+        "李德民",
+        "李培军",
+        "李明峰",
+        "李九龙",
+        "孙长春",
+        "刘树领",
+        "冯维玉",
+        "田利河",
+        "孔德龙",
+        "井维生",
+        "王波",
+        "王怀军",
+        "王伟"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县潘克众超市",
+        "汶上县次丘供销社北城农资庄稼医院",
+        "汶上县金科种植农民专业合作社",
+        "汶上县润禾农资有限公司",
+        "汶上县金农科种业",
+        "汶上县旺农农资销售部",
+        "汶上县瑞盛种植农民专业合作社",
+        "汶上县兆生农资超市",
+        "汶上县赛诺农资店",
+        "汶上县秋收种业",
+        "汶上县农友农资商店",
+        "济南市禾安舒生物科技有限公司汶上分公司",
+        "汶上县农丰服务中心（老汪农化）",
+        "济宁联农商贸有限公司",
+        "汶上县德民农资销售店",
+        "汶上县圣都农业生产资料有限责任公司化肥经营第一分公司",
+        "汶上县盛之丰蔬菜种植农民专业合作社",
+        "汶上县吨粮农业服务有限公司汶上分公司",
+        "汶上县嘻哈综合超市",
+        "汶上县润领农资超市",
+        "汶上县农盛农资服务中心",
+        "汶上县富甲农资有限公司",
+        "汶上县富强种植农民专业合作社",
+        "汶上嘉宝农业服务农民专业合作社",
+        "汶上县长城种业",
+        "汶上县南站供销社北村门市部",
+        "汶上县圣农农化"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "农药经营台账记录、农药废弃物回收装置、电子台账等"
+      ],
+      "value_pool": [
+        "农药经营台账记录、农药废弃物回收装置、电子台账等"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "1月16日",
+        "2月27日",
+        "3月6日",
+        "3月16日",
+        "4月8日",
+        "5月19日"
+      ],
+      "value_pool": [
+        "1月16日",
+        "2月27日",
+        "3月6日",
+        "3月16日",
+        "4月8日",
+        "5月19日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "梁吉歌、王宪磊"
+      ],
+      "value_pool": [
+        "梁吉歌、王宪磊"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "file_name": "检验检测机构监管信息202506302128.xlsx",
+  "table_name": "检验检测机构监管信息202506302128",
+  "row_count": 23,
+  "columns": [
+    "jcsj",
+    "jcdx",
+    "jcjg",
+    "jcjg1",
+    "sfzg"
+  ],
+  "fields": [
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2019-05-14",
+        "2020-04-20",
+        "2020-05-06",
+        "2020-05-18",
+        "2020-08-20",
+        "2020-01-14",
+        "2021-05-20",
+        "2021-05-24",
+        "2021-06-16",
+        "2021-07-08",
+        "2021-07-26",
+        "2021-08-03",
+        "2021-10-14",
+        "2021-10-26",
+        "2021-10-27",
+        "2020-12-31"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县恒大机动车检测有限公司",
+        "微山县宏达机动车尾气检测有限公司",
+        "微山县汽车综合性能检测站",
+        "微山县检验检测中心",
+        "微山县鲁兴建筑工程检测有限公司",
+        "微山县鑫衡建设工程质量检测有限公司",
+        "济宁市微山生态环境监控中心",
+        "微山县公安局刑事科学技术室",
+        "济宁凯达汽车检测有限公司",
+        "微山县通发贸易有限公司欢城分公司"
+      ],
+      "value_pool": [
+        "微山县恒大机动车检测有限公司",
+        "微山县宏达机动车尾气检测有限公司",
+        "微山县汽车综合性能检测站",
+        "微山县检验检测中心",
+        "微山县鲁兴建筑工程检测有限公司",
+        "微山县鑫衡建设工程质量检测有限公司",
+        "济宁市微山生态环境监控中心",
+        "微山县公安局刑事科学技术室",
+        "济宁凯达汽车检测有限公司",
+        "微山县通发贸易有限公司欢城分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市局",
+        "省局",
+        "县局"
+      ],
+      "value_pool": [
+        "市局",
+        "省局",
+        "县局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "基本符合",
+        "立案查处",
+        "符合"
+      ],
+      "value_pool": [
+        "基本符合",
+        "立案查处",
+        "符合"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

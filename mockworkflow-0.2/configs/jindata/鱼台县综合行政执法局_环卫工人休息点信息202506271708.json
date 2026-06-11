@@ -1,0 +1,135 @@
+{
+  "file_name": "鱼台县综合行政执法局_环卫工人休息点信息202506271708.xlsx",
+  "table_name": "鱼台县综合行政执法局_环卫工人休息点信息202506271708",
+  "row_count": 31,
+  "columns": [
+    "kfsj",
+    "zgdw",
+    "mc",
+    "lxdh",
+    "wz"
+  ],
+  "fields": [
+    {
+      "name": "kfsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "6:00-18:00",
+        "早6点-晚6点"
+      ],
+      "value_pool": [
+        "6:00-18:00",
+        "早6点-晚6点"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县综合行政执法局"
+      ],
+      "value_pool": [
+        "鱼台县综合行政执法局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "观鱼二路13号（文昌-古亭中间路北）",
+        "新一中保卫科",
+        "安泰保卫科",
+        "金盾驾校保卫科",
+        "越河小区保卫科",
+        "观鱼大街西首星源楼下玛吉斯轮胎",
+        "运北村委会",
+        "站前社区",
+        "鱼台宾馆楼下辰欣大药房",
+        "老农业局对过东岳印务",
+        "观鱼小区保卫科",
+        "三路路口西辰欣",
+        "南苑大酒店旁彩票点",
+        "运驰工贸传达室",
+        "金利粮油传达室",
+        "运河佳苑保卫科",
+        "吉祥家园保卫科",
+        "孝贤广场值班室",
+        "日本沟路东辰欣",
+        "老街路口北辰欣大药店",
+        "桥南路东体彩站",
+        "鱼三路口辰欣",
+        "观鱼大街南路东辰欣",
+        "贯通农贸城",
+        "馨恬佳苑门卫",
+        "贯通农贸城老鸡汤馆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "0537-6623876"
+      ],
+      "value_pool": [
+        "0537-6623876"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "北二环",
+        "北一环",
+        "观鱼大街",
+        "建设路",
+        "鱼新一路",
+        "鱼新二路",
+        "鱼新三路",
+        "东环路",
+        "古亭路",
+        "文昌路",
+        "湖凌一路",
+        "孝贤大道",
+        "湖凌三路",
+        "湖凌四路",
+        "振兴路",
+        "谭庄路",
+        "鱼台县北二环",
+        "鱼台县北一环",
+        "鱼台县观鱼大街"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

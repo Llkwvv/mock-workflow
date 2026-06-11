@@ -1,0 +1,90 @@
+{
+  "file_name": "嘉祥县统计局_镇街公共设施情况信息202512261125.xlsx",
+  "table_name": "嘉祥县统计局_镇街公共设施情况信息202512261125",
+  "row_count": 3,
+  "columns": [
+    "zjmc",
+    "tggjtdcgs",
+    "tyxdsdcgs",
+    "tkdhlwdcgs",
+    "tzlsdcgs"
+  ],
+  "fields": [
+    {
+      "name": "zjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥镇街道",
+        "卧龙山街道",
+        "万张街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tggjtdcgs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "38",
+        "52"
+      ],
+      "min_value": 38.0,
+      "max_value": 52.0
+    },
+    {
+      "name": "tyxdsdcgs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "38",
+        "52"
+      ],
+      "min_value": 38.0,
+      "max_value": 52.0
+    },
+    {
+      "name": "tkdhlwdcgs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "38",
+        "52"
+      ],
+      "min_value": 38.0,
+      "max_value": 52.0
+    },
+    {
+      "name": "tzlsdcgs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "38",
+        "52"
+      ],
+      "min_value": 38.0,
+      "max_value": 52.0
+    }
+  ]
+}

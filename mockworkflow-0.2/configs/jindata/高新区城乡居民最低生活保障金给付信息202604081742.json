@@ -1,0 +1,214 @@
+{
+  "file_name": "高新区城乡居民最低生活保障金给付信息202604081742.xlsx",
+  "table_name": "高新区城乡居民最低生活保障金给付信息202604081742",
+  "row_count": 3,
+  "columns": [
+    "nsr",
+    "cjzh",
+    "姓名",
+    "hybzjedb",
+    "cjdj",
+    "zcxsyf",
+    "sfcjr",
+    "slr",
+    "dbtkzh",
+    "cjlb",
+    "jtdz",
+    "sfzh"
+  ],
+  "fields": [
+    {
+      "name": "nsr",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1200",
+        "2400",
+        "1680"
+      ],
+      "min_value": 1200.0,
+      "max_value": 2400.0
+    },
+    {
+      "name": "cjzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811***********861",
+        "370811***********563",
+        "370811***********X41"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "丁**",
+        "周**",
+        "屈*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hybzjedb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "620",
+        "563",
+        "588"
+      ],
+      "min_value": 563.0,
+      "max_value": 620.0
+    },
+    {
+      "name": "cjdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "一级",
+        "三级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcxsyf",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2016-09",
+        "2018-07",
+        "2009-07"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfcjr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "接*****处"
+      ],
+      "value_pool": [
+        "接*****处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dbtkzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "C37089***********05",
+        "C37081***********35",
+        "01*******2"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "精神",
+        "肢体"
+      ],
+      "value_pool": [
+        "精神",
+        "肢体"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "高新*******村",
+        "济宁*********村",
+        "接庄***********号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********18",
+        "370811**********35",
+        "370811**********7X"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

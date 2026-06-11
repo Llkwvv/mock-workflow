@@ -1,6 +1,11 @@
 from backend.schemas.field import FieldSemantic, FieldSpec, SampleProfile, SqlType
 
 
+def is_probable_id_column(column_name: str) -> bool:
+    normalized = column_name.lower()
+    return normalized == "id" or normalized.endswith("_id")
+
+
 class RuleEngine:
     def infer_fields(self, profile: SampleProfile) -> list[FieldSpec]:
         fields: list[FieldSpec] = []
@@ -14,7 +19,18 @@ class RuleEngine:
                 sql_type = SqlType.varchar
             is_id = semantic == FieldSemantic.id
             is_nullable = bool(column_profile.null_ratio > 0) if column_profile else True
-            enum_values = _infer_enum_values(profile.samples.get(column, []), semantic)
+
+            sample_values = profile.samples.get(column, [])
+            unique_ratio = column_profile.unique_ratio if column_profile else None
+            value_frequency = dict(column_profile.value_frequency) if column_profile else {}
+            min_value = column_profile.min_value if column_profile else None
+            max_value = column_profile.max_value if column_profile else None
+
+            # Distinct, non-empty real values from the sample, preserving order.
+            value_pool = [v for v in dict.fromkeys(str(s) for s in sample_values) if v != ""]
+
+            enum_values = _infer_enum_values(sample_values, semantic, unique_ratio)
+
             fields.append(
                 FieldSpec(
                     name=column,
@@ -28,6 +44,11 @@ class RuleEngine:
                     comment=column,
                     semantic=semantic,
                     enum_values=enum_values,
+                    value_pool=value_pool,
+                    value_frequency=value_frequency,
+                    unique_ratio=unique_ratio,
+                    min_value=min_value,
+                    max_value=max_value,
                     uncertain=confidence < 0.75 and semantic == FieldSemantic.unknown,
                     confidence=confidence,
                 )
@@ -36,25 +57,13 @@ class RuleEngine:
 
 
 def _infer_semantic(column_name: str) -> FieldSemantic:
-    normalized = column_name.lower()
-    if normalized == "id" or normalized.endswith("_id") or "编号" in column_name:
-        return FieldSemantic.id
-    if any(keyword in normalized for keyword in ("time", "date", "created_at", "updated_at")) or any(
-        keyword in column_name for keyword in ("时间", "日期")
-    ):
-        return FieldSemantic.time
-    if any(keyword in normalized for keyword in ("lng", "lon", "latitude", "longitude")) or any(
-        keyword in column_name for keyword in ("经度", "纬度", "坐标")
-    ):
-        return FieldSemantic.coordinate
-    if any(keyword in normalized for keyword in ("status", "state", "type")) or any(
-        keyword in column_name for keyword in ("状态", "类型")
-    ):
-        return FieldSemantic.status
-    if normalized.startswith("is_") or any(keyword in column_name for keyword in ("是否", "标记")):
-        return FieldSemantic.flag
-    if any(keyword in column_name for keyword in ("名称", "姓名", "地址", "描述")):
-        return FieldSemantic.text
+    """Infer field semantic from column name using semantics.yaml configuration."""
+    from backend.rules.semantics import SemanticRegistry
+
+    registry = SemanticRegistry.get()
+    match = registry.match(column_name)
+    if match is not None:
+        return FieldSemantic(match.name)
     return FieldSemantic.unknown
 
 
@@ -81,8 +90,23 @@ def _default_length(sql_type: SqlType) -> int | None:
     return None
 
 
-def _infer_enum_values(samples: list[str], semantic: FieldSemantic) -> list[str]:
-    if semantic not in {FieldSemantic.status, FieldSemantic.flag}:
+def _infer_enum_values(
+    samples: list[str],
+    semantic: FieldSemantic,
+    unique_ratio: float | None = None,
+) -> list[str]:
+    """Detect enum-like columns.
+
+    Beyond the explicit status/flag semantics, any column whose sample has very
+    few distinct values (low unique ratio) is treated as an enumeration so that
+    the generator reuses those real values instead of inventing junk.
+    """
+    values = [v for v in dict.fromkeys(str(value) for value in samples if str(value))]
+    if not values:
         return []
-    values = list(dict.fromkeys(str(value) for value in samples if str(value)))
-    return values[:20]
+    if semantic in {FieldSemantic.status, FieldSemantic.flag}:
+        return values[:20]
+    # Low-cardinality categorical columns: few distinct values relative to rows.
+    if len(values) <= 10 and (unique_ratio is None or unique_ratio <= 0.5):
+        return values[:20]
+    return []

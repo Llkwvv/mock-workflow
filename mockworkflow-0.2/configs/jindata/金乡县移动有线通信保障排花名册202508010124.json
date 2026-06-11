@@ -1,0 +1,111 @@
+{
+  "file_name": "金乡县移动有线通信保障排花名册202508010124.xlsx",
+  "table_name": "金乡县移动有线通信保障排花名册202508010124",
+  "row_count": 13,
+  "columns": [
+    "zjb",
+    "gzdw",
+    "姓名",
+    "zzmm",
+    "gzdwxz"
+  ],
+  "fields": [
+    {
+      "name": "zjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "★有线通信工程师",
+        "★班长兼有线通信技师",
+        "架线员",
+        "线路巡护员",
+        "油机操作员兼驾驶员"
+      ],
+      "value_pool": [
+        "★有线通信工程师",
+        "★班长兼有线通信技师",
+        "架线员",
+        "线路巡护员",
+        "油机操作员兼驾驶员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "中国移动通信集团山东有限公司金乡分公司"
+      ],
+      "value_pool": [
+        "中国移动通信集团山东有限公司金乡分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "冯**",
+        "毕**",
+        "陈**",
+        "周**",
+        "李**",
+        "卓**",
+        "程**",
+        "邵**",
+        "李*",
+        "卓*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzmm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "群众",
+        "中共党员"
+      ],
+      "value_pool": [
+        "群众",
+        "中共党员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdwxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "国有及国有控股企业"
+      ],
+      "value_pool": [
+        "国有及国有控股企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

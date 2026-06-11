@@ -1,0 +1,144 @@
+{
+  "file_name": "鱼台县监管局_校外培训机构办学情况检查抽查对象信息202508010126.xlsx",
+  "table_name": "鱼台县监管局_校外培训机构办学情况检查抽查对象信息202508010126",
+  "row_count": 19,
+  "columns": [
+    "sdjgs",
+    "djjg",
+    "jcdxmc",
+    "jcdxwybm",
+    "fzrxm"
+  ],
+  "fields": [
+    {
+      "name": "sdjgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县市场监督管理局滨湖市场监督管理所",
+        "鱼台县市场监督管理局唐马市场监督管理所",
+        "鱼台县市场监督管理局张黄市场监督管理所",
+        "鱼台县市场监督管理局谷亭市场监督管理所",
+        "唐马市场监督管理所",
+        "张黄市场监督管理所"
+      ],
+      "value_pool": [
+        "鱼台县市场监督管理局滨湖市场监督管理所",
+        "鱼台县市场监督管理局唐马市场监督管理所",
+        "鱼台县市场监督管理局张黄市场监督管理所",
+        "鱼台县市场监督管理局谷亭市场监督管理所",
+        "唐马市场监督管理所",
+        "张黄市场监督管理所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县市场监督管理局"
+      ],
+      "value_pool": [
+        "鱼台县市场监督管理局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台县小莫扎艺术培训学校有限公司",
+        "鱼台县哲瀚教育培训学校有限公司",
+        "鱼台县向阳花艺术教育培训学校有限公司",
+        "鱼台县冰馨艺术培训学校有限公司",
+        "鱼台县创启教育培训学校有限公司",
+        "鱼台县润博教育培训学校有限公司",
+        "鱼台县欲非艺术教育培训学校有限公司",
+        "鱼台县远大教育培训学校有限公司",
+        "鱼台县书香教育培训学校有限公司",
+        "鱼台县博林教育培训学校有限公司",
+        "鱼台县精嘉教育培训学校有限公司",
+        "鱼台县汤姆教育培训学校有限公司",
+        "鱼台且读教育培训学校有限公司",
+        "鱼台县思达教育培训学校有限公司",
+        "鱼台县善智教育培训学校有限公司",
+        "鱼台县珑华书法培训学校有限公司",
+        "鱼台县红粉艺术教育培训学校有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdxwybm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370827MA3NF5XD5A",
+        "91370827MA3M9LUU5Q",
+        "91370827MA3QCQDR66",
+        "91370827MA3PA0N578",
+        "91370827MA3R5R5W10",
+        "91370827MA3R4GPW3K",
+        "91370827MA3QXAG21E",
+        "91370827MA3QLT4218",
+        "91370827MA3PU53H0T",
+        "91370827MA3PABX42Y",
+        "91370827MA3P45BB00",
+        "91370827MA3P33E844",
+        "91370827MA3R7WKA12",
+        "91370827MA3QWEW7XK",
+        "91370827MA3QPLBXXE",
+        "91370827MA3QKH8X25",
+        "91370827MA3Q094X6X",
+        "91370827MA3R5R**10",
+        "91370827MA3R4G**3K"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "刘**",
+        "张**",
+        "宋**",
+        "李**",
+        "闫**",
+        "闵**",
+        "屈**",
+        "徐**",
+        "田**",
+        "黄**",
+        "郭**",
+        "马**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

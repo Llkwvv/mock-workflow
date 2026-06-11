@@ -1,0 +1,159 @@
+{
+  "file_name": "鱼台县监管局_知识产权涉港澳台和外国案件统计信息202506271924.xlsx",
+  "table_name": "鱼台县监管局_知识产权涉港澳台和外国案件统计信息202506271924",
+  "row_count": 33,
+  "columns": [
+    "azwy",
+    "msjewy",
+    "fkjewy",
+    "whjjsswy",
+    "yssfjgajj",
+    "ajzsj",
+    "sbzcrgbdq"
+  ],
+  "fields": [
+    {
+      "name": "azwy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "msjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "fkjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "whjjsswy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "yssfjgajj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "0件"
+      ],
+      "value_pool": [
+        "0",
+        "0件"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "ajzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "0",
+        "0件"
+      ],
+      "value_pool": [
+        "0",
+        "0件"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "sbzcrgbdq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [],
+      "value_pool": [
+        "中国香港",
+        "中国澳门",
+        "中国台湾",
+        "美国",
+        "日本",
+        "德国",
+        "英国",
+        "法国",
+        "俄罗斯",
+        "瑞士",
+        "韩国",
+        "意大利",
+        "新加坡",
+        "维尔京群岛",
+        "澳大利亚",
+        "瑞典",
+        "加拿大",
+        "芬兰",
+        "泰国",
+        "比荷卢",
+        "丹麦",
+        "西班牙",
+        "马来西亚",
+        "哈萨克斯坦",
+        "冰岛",
+        "越南",
+        "蒙古",
+        "罗马尼亚",
+        "新西兰",
+        "其他"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

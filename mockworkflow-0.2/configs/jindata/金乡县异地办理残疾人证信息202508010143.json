@@ -1,0 +1,183 @@
+{
+  "file_name": "金乡县异地办理残疾人证信息202508010143.xlsx",
+  "table_name": "金乡县异地办理残疾人证信息202508010143",
+  "row_count": 30,
+  "columns": [
+    "lxdh",
+    "xzz",
+    "bz",
+    "bldz",
+    "姓名",
+    "hkszd"
+  ],
+  "fields": [
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "158****0386",
+        "151****5808",
+        "150****9659",
+        "176****2219",
+        "159****1410",
+        "185****8927",
+        "176****9345",
+        "158****7014",
+        "153****3578",
+        "136****5168",
+        "156****1431",
+        "136****1653",
+        "136****0164",
+        "159****1909",
+        "139****1025",
+        "158****9333",
+        "176****1705",
+        "133****5643",
+        "139****4000",
+        "199****9857",
+        "159****3761",
+        "183****5266"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县\n鱼山街道\n张庄村",
+        "高河莱河社区",
+        "金乡金宇社区",
+        "高河官庄社区",
+        "金乡金府社区",
+        "胡集辛刘庄",
+        "金乡街道\n金宇社区",
+        "高河街道\n莱河社区",
+        "浙江省绍兴市柯桥区柯岩街道梅墅村",
+        "金乡县金色阳光",
+        "金乡县",
+        "安徽省滁州市定远县张桥镇前孙村委会",
+        "青岛市市北区华阳路44号2号楼1单元202户",
+        "滨州市经济开发区纺苑二区，李化海",
+        "任城区南苑街道狄林社区",
+        "金乡县鸡黍镇鸡黍村",
+        "威海高新区神道口A区",
+        "鸡黍耿楼",
+        "莎岭社区",
+        "金乡金都小区",
+        "金乡县金乡街道真武社区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "金乡评残",
+        "外地评残"
+      ],
+      "value_pool": [
+        "金乡评残",
+        "外地评残"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bldz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "跨省通办",
+        "省内通办"
+      ],
+      "value_pool": [
+        "跨省通办",
+        "省内通办"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "乔**",
+        "吕**",
+        "闫**",
+        "周**",
+        "胡**",
+        "白**",
+        "冯**",
+        "李**",
+        "刘**",
+        "齐**",
+        "解**",
+        "侯**",
+        "张**",
+        "王**",
+        "朱**",
+        "葛**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hkszd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "黑龙江省巴彦县兴隆镇铁东委",
+        "济宁市任城区\n红星西路",
+        "鱼台县罗屯镇大闫村",
+        "江苏省丰县首羡镇温庄村周庄",
+        "黑龙江省克东县建业农场总场",
+        "内蒙古呼伦贝尔市鄂伦春自治旗甘河镇",
+        "菏泽市巨野县\n陶庙镇苏坑",
+        "菏泽市成武县\n大田镇冯楼",
+        "金乡县",
+        "鱼台县李阁镇",
+        "鱼台县王鲁镇",
+        "山东省济宁市金乡县肖云镇周大庄村民委员会",
+        "山东省济宁市金乡县高河街道办事处魏楼村民委员会",
+        "金乡县司马镇前李村",
+        "山东省济宁市金乡县司马镇老李寨村民委员会",
+        "德州市齐河县焦庙镇枣园村",
+        "金乡县王丕街道李集",
+        "黑龙江克山县西城镇联众村",
+        "岳岱区北集坡镇沙家洪沟村",
+        "济南长清区大学园",
+        "兰西县榆林镇街道6委1组"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

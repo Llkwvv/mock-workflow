@@ -1,0 +1,167 @@
+{
+  "file_name": "鱼台县档案馆_查阅记录信息202506202053.xlsx",
+  "table_name": "鱼台县档案馆_查阅记录信息202506202053",
+  "row_count": 50,
+  "columns": [
+    "cysj",
+    "fwry",
+    "cydw",
+    "cydd",
+    "cypj"
+  ],
+  "fields": [
+    {
+      "name": "cysj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "44278",
+        "44272",
+        "44270",
+        "44271",
+        "44245",
+        "44478",
+        "44354",
+        "44467",
+        "44468",
+        "44424",
+        "44480",
+        "44441",
+        "44442",
+        "44439",
+        "44382",
+        "44263",
+        "44285",
+        "44313",
+        "44323",
+        "44648",
+        "44649",
+        "44675",
+        "44677",
+        "44682",
+        "44714",
+        "44715",
+        "44726",
+        "44727",
+        "44728",
+        "44749",
+        "44750",
+        "44751",
+        "44937",
+        "44959",
+        "44994",
+        "45016",
+        "45021",
+        "45024",
+        "45054",
+        "45069",
+        "45076",
+        "45104",
+        "45114",
+        "45166",
+        "45344",
+        "45312",
+        "45318",
+        "45315"
+      ],
+      "min_value": 44245.0,
+      "max_value": 45344.0
+    },
+    {
+      "name": "fwry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "杨建民",
+        "杨*民"
+      ],
+      "value_pool": [
+        "杨建民",
+        "杨*民"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "任城区市场监管局",
+        "济宁市公安局",
+        "鱼台县组织部",
+        "中央党史和文献研究院人事局",
+        "鱼台县纪委监委",
+        "鱼台县交易中心",
+        "鱼台县教体局",
+        "鱼台县普查领导小组",
+        "鱼台县王庙镇",
+        "鱼台县纪委",
+        "鱼台县供销社",
+        "鱼台县人社局",
+        "兖州区人民法院",
+        "鱼台县公安局",
+        "鱼台县党史研究中心",
+        "金乡县文化馆",
+        "鱼台县农机服务中心",
+        "鱼台县张黄镇",
+        "鱼台县唐马镇",
+        "人民法院",
+        "鱼台县镇街"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cydd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "档案馆"
+      ],
+      "value_pool": [
+        "档案馆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cypj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "介绍信",
+        "阅档函",
+        "政审外调函",
+        "调取证据通知书",
+        "查阅证明"
+      ],
+      "value_pool": [
+        "介绍信",
+        "阅档函",
+        "政审外调函",
+        "调取证据通知书",
+        "查阅证明"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

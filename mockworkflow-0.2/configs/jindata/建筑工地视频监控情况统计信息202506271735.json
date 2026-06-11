@@ -1,0 +1,147 @@
+{
+  "file_name": "建筑工地视频监控情况统计信息202506271735.xlsx",
+  "table_name": "建筑工地视频监控情况统计信息202506271735",
+  "row_count": 38,
+  "columns": [
+    "qymc",
+    "spsfjr",
+    "wz",
+    "sxtsl",
+    "hylb"
+  ],
+  "fields": [
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "职教中心",
+        "档案馆",
+        "老年疗养中心",
+        "鲁地一号",
+        "紫辉阳光",
+        "圣都名邸",
+        "青山一标",
+        "青山二标",
+        "肖口社区",
+        "创意园",
+        "星月城",
+        "辛庄安置房",
+        "党校安置房",
+        "金源一品",
+        "房庄棚改",
+        "誉安",
+        "秀水家园",
+        "县医院",
+        "夏镇棚户区一标",
+        "夏镇棚户区二标",
+        "夏镇棚户区三标",
+        "夏镇棚户区四标",
+        "馨和苑",
+        "悦达广场",
+        "疾控救助中心",
+        "润扬社区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spsfjr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "否"
+      ],
+      "value_pool": [
+        "是",
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "新河南街西侧，南阳湖路西侧",
+        "西邻微山湖大道，南邻寨子河",
+        "青山路与商业街交汇处向东50米",
+        "东风东路",
+        "夏镇街道",
+        "微山县微山湖大道与留城路交汇处",
+        "建设西路以北、付村社区西侧",
+        "微山县开发区居委会东临",
+        "微山县昭阳街道老运河南侧",
+        "夏镇街道部城街东侧，东风路南侧",
+        "微山县镇中街以东 东风路以北",
+        "夏镇街道微山湖大道与金源路交汇处",
+        "微山县欢城镇东村社区对过",
+        "夏镇街道商业街19号",
+        "微山商业南街，寨子河北临",
+        "微山县城北部，夏阳路以北，微矿路以南，新河街以西",
+        "微山县城后路北侧，镇中街西侧",
+        "微山县镇中街城后路32号",
+        "微山县夏镇街道城后路32号",
+        "新河街东，微山湖热电有限公司南",
+        "夏镇街道建设路南侧商业街西侧",
+        "夏阳路南侧 滨湖路东侧",
+        "微山县夏镇街道夏阳西路南，建设西路北"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxtsl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "4",
+        "6",
+        "3",
+        "0"
+      ],
+      "value_pool": [
+        "4",
+        "6",
+        "3",
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 6.0
+    },
+    {
+      "name": "hylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "建筑工地",
+        "工地"
+      ],
+      "value_pool": [
+        "建筑工地",
+        "工地"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

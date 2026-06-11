@@ -1,0 +1,92 @@
+{
+  "file_name": "县住建局报刊杂志订购信息202601081030.xlsx",
+  "table_name": "县住建局报刊杂志订购信息202601081030",
+  "row_count": 3,
+  "columns": [
+    "dgdd",
+    "dj",
+    "lwsj",
+    "bkzzmc",
+    "lwdw"
+  ],
+  "fields": [
+    {
+      "name": "dgdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "邮局征订"
+      ],
+      "value_pool": [
+        "邮局征订"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "432",
+        "336",
+        "192"
+      ],
+      "min_value": 192.0,
+      "max_value": 432.0
+    },
+    {
+      "name": "lwsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021.11.1",
+        "2025.11.17"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bkzzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "中国应急管理报",
+        "中国纪检监察报",
+        "中国纪检监察"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lwdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县安全生产委员会",
+        "中共嘉祥县纪律检查委员会"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "file_name": "嘉祥县农作物种子持证企业名单202506271733.xlsx",
+  "table_name": "嘉祥县农作物种子持证企业名单202506271733",
+  "row_count": 37,
+  "columns": [
+    "qyfr",
+    "sfycz",
+    "qydz",
+    "ssqy",
+    "qymc"
+  ],
+  "fields": [
+    {
+      "name": "qyfr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "李梦娇",
+        "钱运华",
+        "张立巧",
+        "曹先振",
+        "孔祥根",
+        "曹景杰",
+        "刘奔",
+        "高新勇",
+        "武庆连",
+        "宋运启",
+        "帅仁堂",
+        "钱振国",
+        "高合国",
+        "曹庆记",
+        "李庆飞",
+        "周振华",
+        "韩松松",
+        "魏敬众",
+        "刘怀峰",
+        "韩冬雨",
+        "曹建国",
+        "田学井",
+        "高路",
+        "田学明",
+        "屈衍丰",
+        "岳俊峰",
+        "赵相珍",
+        "韩兆鑫",
+        "张志廷",
+        "王希领",
+        "王鹏飞",
+        "孔庆华",
+        "李亚东",
+        "宋新萌",
+        "刘龙",
+        "钱振亚",
+        "张厚金"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfycz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qydz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市嘉祥县"
+      ],
+      "value_pool": [
+        "济宁市嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东昊辉种业有限公司",
+        "山东九谷种业有限公司",
+        "山东旭鸿种业有限公司",
+        "嘉祥仓盛种业有限公司",
+        "山东圣鑫种业科技有限公司",
+        "山东鲁育种业科技有限公司",
+        "济宁昊宇种业有限公司",
+        "山东劲豆种业有限公司",
+        "山东宏喜种业有限公司",
+        "嘉祥辉嘉种业有限公司",
+        "山东圣育种业科技有限公司",
+        "山东秋收种业有限公司",
+        "济宁嘉梁种业有限公司",
+        "嘉祥晨禾种业有限公司",
+        "嘉祥腾飞种业有限公司",
+        "山东省普田种业有限公司",
+        "嘉祥九州耕耘农业科技发展有限公司",
+        "济宁嘉润种业有限公司",
+        "济宁市诚轩种业有限公司",
+        "济宁市求实种业有限责任公司",
+        "济宁市圣祥种业有限公司",
+        "嘉祥县俊豪种业有限公司",
+        "济宁圣源种业有限公司",
+        "嘉祥县恒裕种业有限公司",
+        "嘉祥众鑫种业科技有限公司",
+        "山东阳光种苗科技有限公司",
+        "山东嘉禾种业科技有限公司",
+        "山东神农种业有限公司",
+        "山东圣丰种业科技有限公司",
+        "山东圣丰得心种业有限公司",
+        "上游（山东）生物科技有限公司",
+        "济宁市圣地种业有限公司",
+        "山东诚丰种业科技有限公司",
+        "山东省济宁市欣丰种业有限公司",
+        "山东祥丰种业有限责任公司",
+        "山东华亚农业科技有限公司",
+        "山东登海圣丰种业有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "file_name": "微山县居民医疗保险住院定点医院202506271952.xlsx",
+  "table_name": "微山县居民医疗保险住院定点医院202506271952",
+  "row_count": 84,
+  "columns": [
+    "yybm",
+    "yljg",
+    "qy",
+    "xz",
+    "jb"
+  ],
+  "fields": [
+    {
+      "name": "yybm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "080***",
+        "300***",
+        "204***",
+        "088***",
+        "301***",
+        "202***",
+        "210***"
+      ],
+      "value_pool": [
+        "080***",
+        "300***",
+        "204***",
+        "088***",
+        "301***",
+        "202***",
+        "210***"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yljg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "微山县人民医院",
+        "微山县中医院",
+        "微山县第二人民医院",
+        "微山县第三人民医院",
+        "微山县第四人民医院",
+        "微山县留庄中心卫生院",
+        "微山县西平中心卫生院",
+        "微山县韩庄中心卫生院",
+        "微山县鲁桥卫生院",
+        "微山县付村卫生院",
+        "微山县昭阳街道卫生服务中心",
+        "微山开发区卫生服务中心",
+        "微山县南阳卫生院",
+        "微山县张楼卫生院",
+        "微山县微山岛卫生院",
+        "微山县高楼卫生院",
+        "微山县赵庙卫生院",
+        "微山湖医院",
+        "微山医大眼科医院",
+        "微山康立医院",
+        "微山塘湖医院",
+        "微山叙福堂中医院",
+        "微山彭口闸医院",
+        "微山仁泰医院",
+        "微山滨湖医院",
+        "微山城东医院",
+        "微山新城医院",
+        "滕州市中心人民医院",
+        "枣庄王开医院",
+        "枣矿中心医院",
+        "枣矿滕南医院",
+        "枣矿滕南医院柴里分院",
+        "徐州市东方人民医院",
+        "沛县人民医院",
+        "徐州矿务集团第三医院",
+        "沛县胡寨卫生院",
+        "大屯煤电中心医院",
+        "沛县民康中医院",
+        "沛县沛城街道湖屯卫生院",
+        "微山两城康泽医院",
+        "微山县妇幼保健计划生育服务中心",
+        "微山百仁中医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山",
+        "枣庄",
+        "徐州",
+        "微山2025",
+        "枣庄2025",
+        "徐州2025"
+      ],
+      "value_pool": [
+        "微山",
+        "枣庄",
+        "徐州",
+        "微山2025",
+        "枣庄2025",
+        "徐州2025"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "公立",
+        "非公立"
+      ],
+      "value_pool": [
+        "公立",
+        "非公立"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "二级",
+        "一级",
+        "三级"
+      ],
+      "value_pool": [
+        "二级",
+        "一级",
+        "三级"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

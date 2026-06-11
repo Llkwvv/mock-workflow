@@ -1,0 +1,158 @@
+{
+  "file_name": "金乡教体局爱心一日捐名单202508010249.xlsx",
+  "table_name": "金乡教体局爱心一日捐名单202508010249",
+  "row_count": 109,
+  "columns": [
+    "sj",
+    "je",
+    "ks",
+    "姓名",
+    "dq"
+  ],
+  "fields": [
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020年"
+      ],
+      "value_pool": [
+        "2020年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "je",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "100",
+        "200"
+      ],
+      "value_pool": [
+        "100",
+        "200"
+      ],
+      "min_value": 100.0,
+      "max_value": 200.0
+    },
+    {
+      "name": "ks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "安监",
+        "办公室",
+        "党办",
+        "电教",
+        "图书",
+        "督导",
+        "法制科",
+        "妇联",
+        "工会",
+        "规划",
+        "后勤",
+        "计财",
+        "监察",
+        "教研",
+        "教育",
+        "考试",
+        "勤俭",
+        "群体",
+        "人事",
+        "审批",
+        "师训",
+        "体卫艺",
+        "体协",
+        "体育"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "杨**",
+        "刘**",
+        "李**",
+        "付**",
+        "耿**",
+        "郭**",
+        "周**",
+        "王**",
+        "蔡**",
+        "曾**",
+        "单**",
+        "韩**",
+        "林**",
+        "孙**",
+        "吴**",
+        "武**",
+        "袁**",
+        "任**",
+        "侯**",
+        "莫**",
+        "马**",
+        "杜**",
+        "薛**",
+        "岳**",
+        "唐**",
+        "高**",
+        "寻**",
+        "胡**",
+        "郝**",
+        "孟**",
+        "随**",
+        "朱**",
+        "祝**",
+        "姜**",
+        "夏**",
+        "肖**",
+        "商**",
+        "沙**",
+        "牛**",
+        "杭**",
+        "田**",
+        "苗**",
+        "苏**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

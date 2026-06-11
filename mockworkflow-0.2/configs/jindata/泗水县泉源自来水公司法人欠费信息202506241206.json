@@ -1,0 +1,164 @@
+{
+  "file_name": "泗水县泉源自来水公司法人欠费信息202506241206.xlsx",
+  "table_name": "泗水县泉源自来水公司法人欠费信息202506241206",
+  "row_count": 7,
+  "columns": [
+    "tyshxydm",
+    "wyj",
+    "wz",
+    "qfn",
+    "qfy",
+    "sf",
+    "yhh",
+    "frdwmc"
+  ],
+  "fields": [
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370831********1",
+        "370831********5"
+      ],
+      "value_pool": [
+        "370831********1",
+        "370831********5"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wyj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省济宁市泗水县中兴路0537－6598999",
+        "山东省济宁市泗水县中兴路0537——6598999",
+        "新开发区"
+      ],
+      "value_pool": [
+        "山东省济宁市泗水县中兴路0537－6598999",
+        "山东省济宁市泗水县中兴路0537——6598999",
+        "新开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qfn",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023",
+        "2022"
+      ],
+      "value_pool": [
+        "2023",
+        "2022"
+      ],
+      "min_value": 2022.0,
+      "max_value": 2023.0
+    },
+    {
+      "name": "qfy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "6",
+        "8",
+        "9",
+        "10"
+      ],
+      "min_value": 6.0,
+      "max_value": 10.0
+    },
+    {
+      "name": "sf",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "144.05",
+        "3437.1",
+        "304.85",
+        "5530.85",
+        "21.5",
+        "134.0",
+        "4200.9"
+      ],
+      "min_value": 21.5,
+      "max_value": 5530.85
+    },
+    {
+      "name": "yhh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "10370",
+        "10662",
+        "16243"
+      ],
+      "value_pool": [
+        "10370",
+        "10662",
+        "16243"
+      ],
+      "min_value": 10370.0,
+      "max_value": 16243.0
+    },
+    {
+      "name": "frdwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "泗水惠好医院",
+        "泗水明发金昱隔热材料有限公司"
+      ],
+      "value_pool": [
+        "泗水惠好医院",
+        "泗水明发金昱隔热材料有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

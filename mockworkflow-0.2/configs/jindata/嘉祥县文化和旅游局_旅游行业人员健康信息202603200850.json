@@ -1,0 +1,149 @@
+{
+  "file_name": "嘉祥县文化和旅游局_旅游行业人员健康信息202603200850.xlsx",
+  "table_name": "嘉祥县文化和旅游局_旅游行业人员健康信息202603200850",
+  "row_count": 21,
+  "columns": [
+    "dz",
+    "姓名",
+    "sl",
+    "jkwt",
+    "lxdh"
+  ],
+  "fields": [
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金都花园",
+        "嘉祥县满硐乡郗庄村",
+        "嘉祥县马集镇",
+        "嘉祥县卧龙山董山后村",
+        "万张街道张月官屯村",
+        "嘉祥县冠亚B区4号楼",
+        "嘉祥百货小区",
+        "嘉祥县如意祥城10号楼",
+        "嘉祥立国花园",
+        "嘉祥冠亚E区1号楼",
+        "嘉祥县博悦城11号楼",
+        "济宁市太白湖新区锦绣花园小区",
+        "山东省嘉祥县山水嘉园",
+        "嘉祥街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘宗星",
+        "张文彬",
+        "闫慧敏",
+        "陆  宇",
+        "董敏建",
+        "张瑞瑞",
+        "张本玺",
+        "山李娜",
+        "陈素粉",
+        "战曼娜",
+        "魏云",
+        "刘亚坤",
+        "刘英慧",
+        "刘琪",
+        "陈洋",
+        "王炳坦",
+        "徐婷",
+        "陈华新"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "jkwt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "高血压",
+        "智齿消炎中",
+        "吃药期间  不能打",
+        "身体不适在服用药物",
+        "吃药不能接种疫苗",
+        "哺乳期",
+        "备孕期",
+        "孕妇",
+        "怀孕",
+        "备孕",
+        "过敏，停药后检查后接种",
+        "7月27日去接种了，没疫苗，28日去接种",
+        "甲功不稳",
+        "已完成"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "1322081****",
+        "1327537****",
+        "1332993****",
+        "1338449****",
+        "1343905****",
+        "1349361****",
+        "1354817****",
+        "1360273****",
+        "1365729****",
+        "1371185****",
+        "1376641****",
+        "1382097****",
+        "1387553****",
+        "1393009****",
+        "1398465****",
+        "1403921****",
+        "1409377****",
+        "1414833****",
+        "1420289****",
+        "1425745****",
+        "1321547****"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

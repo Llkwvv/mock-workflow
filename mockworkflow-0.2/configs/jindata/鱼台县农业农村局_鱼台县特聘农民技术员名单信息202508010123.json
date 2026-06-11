@@ -1,0 +1,145 @@
+{
+  "file_name": "鱼台县农业农村局_鱼台县特聘农民技术员名单信息202508010123.xlsx",
+  "table_name": "鱼台县农业农村局_鱼台县特聘农民技术员名单信息202508010123",
+  "row_count": 22,
+  "columns": [
+    "zz",
+    "姓名",
+    "xb",
+    "ryxz",
+    "whcd"
+  ],
+  "fields": [
+    {
+      "name": "zz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "王庙镇大奚村",
+        "鱼台县王庙镇鹤来香有限公司",
+        "鱼台县怀兵甜瓜合作社",
+        "鱼台县李阁镇青蒜种植合作社",
+        "鱼台县鱼城镇前蒋村",
+        "鱼台县罗屯镇八户村",
+        "鱼台强利农农业科技服务有限公司",
+        "鱼台县硕轩农资经营部",
+        "鱼台县元仓家庭农场",
+        "张黄镇车楼村",
+        "济宁福硕生态农业有限公司",
+        "鱼台县源润家庭农场",
+        "鱼台县朗德畜禽养殖有限公司",
+        "鱼台县金九鼎商贸有限公司",
+        "老砦镇魏庄村",
+        "谷亭街道运南村",
+        "鱼台县张黄镇杨楼村",
+        "鱼台县梨想家庭农场",
+        "鱼台县老砦镇魏庄村",
+        "鱼台县谷亭街道运南村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "马**",
+        "李**",
+        "黄**",
+        "袁**",
+        "赵**",
+        "蒋**",
+        "张**",
+        "张***",
+        "郭**",
+        "蔡**",
+        "王***",
+        "车**",
+        "鹿**",
+        "屈***",
+        "朱**",
+        "徐**",
+        "刘***"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女",
+        "男性",
+        "女性"
+      ],
+      "value_pool": [
+        "男",
+        "女",
+        "男性",
+        "女性"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ryxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "新型经营主体技术骨干",
+        "农业乡土专家",
+        "乡土专家"
+      ],
+      "value_pool": [
+        "新型经营主体技术骨干",
+        "农业乡土专家",
+        "乡土专家"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "whcd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高 中",
+        "大学",
+        "高中",
+        "中 专",
+        "中专",
+        "大 专"
+      ],
+      "value_pool": [
+        "高 中",
+        "大学",
+        "高中",
+        "中 专",
+        "中专",
+        "大 专"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "file_name": "起重机械检查信息202506132046.xlsx",
+  "table_name": "起重机械检查信息202506132046",
+  "row_count": 21,
+  "columns": [
+    "jcqymc",
+    "fxdwt",
+    "jcry",
+    "zgqk",
+    "jcsj"
+  ],
+  "fields": [
+    {
+      "name": "jcqymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "曹庄港务责任有限公司",
+        "山东葛洲源再生资源有限公司",
+        "微山县兴玉机械制造有限公司",
+        "微山县福启港务有限责任公司",
+        "山东国耀金属科技有限公司",
+        "微山县韩庄装卸运输公司",
+        "微山县国泰港务有限公司",
+        "微山县峰伟港务有限公司",
+        "山东航宇船业集团股份有限公司",
+        "江苏淮阴水利建设有限公司",
+        "微山方源港务有限公司",
+        "微山县鑫源港务有限公司",
+        "山东煜宸矿用机械有限公司",
+        "微山县鸿程金属铸造厂",
+        "微山县球源锻铸有限公司",
+        "微山县东辉铸造有限公司",
+        "济宁市正圆机械制造有限公司",
+        "枣庄市弘大实业有限责任公司微山智能装备分公司",
+        "山东大有矿山机械有限公司",
+        "微山县国威铸造有限公司",
+        "崔庄煤矿"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fxdwt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1.未提供作业人员证书、2未提供应急演练、3技术档案不全、4未提供定期检验报告等。",
+        "未发现问题",
+        "作业人员证书未盖聘用章",
+        "作业人员未加盖聘用章",
+        "现场未提供已办理使用登记的相关材料",
+        "起重机1台，加挂停用标志，现场未见使用",
+        "2台起重机械未按照规定办理使用登记",
+        "现场未能提供已办理使用登记的证明材料",
+        "4台起重机械现场未能提供注册登记相关手续及有效期内检验报告",
+        "5台起重机械现场未能提供注册登记相关手续及有效期内检验报告",
+        "现场未发现经营",
+        "现场未使用，未安装起重吊钩",
+        "3台2.8吨起重机械",
+        "5台2.8吨；2台2吨。",
+        "供应仓库起重机吊钩防脱装置变形，需及时更换"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "李祥祥 张小静",
+        "市场监管局"
+      ],
+      "value_pool": [
+        "李祥祥 张小静",
+        "市场监管局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "整改完毕",
+        "未发现问题",
+        "复查合格"
+      ],
+      "value_pool": [
+        "整改完毕",
+        "未发现问题",
+        "复查合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2022.1.25",
+        "2021.2.24",
+        "2021.3.8",
+        "2021.3.10",
+        "2021.3.23",
+        "2021.3.27",
+        "2021.4.6",
+        "2021.5.25",
+        "2021.5.20",
+        "2021.1.15",
+        "2021.6.10",
+        "2021.7.8",
+        "2021.8.25",
+        "2024.3.3"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "file_name": "金乡县联通通信保障连花名册202508010201.xlsx",
+  "table_name": "金乡县联通通信保障连花名册202508010201",
+  "row_count": 27,
+  "columns": [
+    "zzmm",
+    "gzdw",
+    "姓名",
+    "gzdwxz",
+    "zjb"
+  ],
+  "fields": [
+    {
+      "name": "zzmm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中共党员",
+        "群众",
+        "共青团员",
+        "党员"
+      ],
+      "value_pool": [
+        "中共党员",
+        "群众",
+        "共青团员",
+        "党员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "中国联合网络通信有限公司金乡县分公司"
+      ],
+      "value_pool": [
+        "中国联合网络通信有限公司金乡县分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孙**",
+        "李**",
+        "王**",
+        "刘**",
+        "邓**",
+        "贺**",
+        "周**",
+        "胡**",
+        "侯**",
+        "邱**",
+        "高**",
+        "张**",
+        "杨**",
+        "宋**",
+        "温**",
+        "刘*",
+        "李*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdwxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "国有及国有控股企业"
+      ],
+      "value_pool": [
+        "国有及国有控股企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "★报务员",
+        "★无线电工程师",
+        "★有线电工程师",
+        "调配员",
+        "油机员兼驾驶员",
+        "光缆巡护员",
+        "架线员",
+        "★班长兼有线修理技师（工）",
+        "光缆巡护员兼驾驶员"
+      ],
+      "value_pool": [
+        "★报务员",
+        "★无线电工程师",
+        "★有线电工程师",
+        "调配员",
+        "油机员兼驾驶员",
+        "光缆巡护员",
+        "架线员",
+        "★班长兼有线修理技师（工）",
+        "光缆巡护员兼驾驶员"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

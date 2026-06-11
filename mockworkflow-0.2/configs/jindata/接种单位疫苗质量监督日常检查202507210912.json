@@ -1,0 +1,135 @@
+{
+  "file_name": "接种单位疫苗质量监督日常检查202507210912.xlsx",
+  "table_name": "接种单位疫苗质量监督日常检查202507210912",
+  "row_count": 22,
+  "columns": [
+    "bjcdwfzr",
+    "bjcdwyj",
+    "jcrq",
+    "jczyj",
+    "bjcdw"
+  ],
+  "fields": [
+    {
+      "name": "bjcdwfzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张盟盟",
+        "郭静",
+        "高静",
+        "田道远",
+        "朱广洁",
+        "靳程",
+        "赵远威",
+        "朱玉培",
+        "殷莹莹",
+        "吴月宾",
+        "马杰",
+        "胡硕",
+        "李恩峰",
+        "李建微",
+        "马庆涛",
+        "周新永",
+        "张晓君",
+        "贾德文",
+        "黄秀琴"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjcdwyj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "同意"
+      ],
+      "value_pool": [
+        "同意"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021-11-11 00:00:00",
+        "2021-11-10 00:00:00",
+        "2021-11-08 00:00:00"
+      ],
+      "value_pool": [
+        "2021-11-11 00:00:00",
+        "2021-11-10 00:00:00",
+        "2021-11-08 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jczyj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "基本符合疫苗储运规范",
+        "符合疫苗储运规范"
+      ],
+      "value_pool": [
+        "基本符合疫苗储运规范",
+        "符合疫苗储运规范"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjcdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "留庄中心卫生院预防接种门诊",
+        "微山县第三人民医院产科接种室",
+        "微山县第三人民医院第二预防接种门诊",
+        "微山县第三人民医院预防接种门诊",
+        "微山县第三人民医院狂犬病暴露处置门诊",
+        "南阳卫生院接种门诊",
+        "南阳镇卫生院狂犬病暴露处置门诊",
+        "微山县城区预防接种门诊",
+        "微山县疾病预防控制中心成人预防接种门诊",
+        "微山县人民医院产科接种室",
+        "微山县人民医院狂犬病暴露处置门诊",
+        "微山县妇幼保健计划生育服务中心预防接种门诊",
+        "付村卫生院预防接种门诊",
+        "傅村街道卫生院狂犬病暴露处置门诊",
+        "济宁市微山县夏镇卫生院预防接种站",
+        "鲁桥镇卫生院侯楼防保站预防接种站",
+        "鲁桥卫生院预防接种门诊",
+        "鲁桥镇卫生院狂犬病暴露处置门诊",
+        "微山县第四人民医院产科接种室",
+        "微山县两城镇狂犬疫苗暴露处置门诊",
+        "微山县第四人民医院产科",
+        "两城中心卫生院预防接种门诊"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

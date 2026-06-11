@@ -1,0 +1,134 @@
+{
+  "file_name": "对能源计量进行监督管理信息202602111200.xlsx",
+  "table_name": "对能源计量进行监督管理信息202602111200",
+  "row_count": 20,
+  "columns": [
+    "sfzcyx",
+    "jcnr",
+    "jcjg",
+    "dz",
+    "zdyndwmc"
+  ],
+  "fields": [
+    {
+      "name": "sfzcyx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "email",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "衡器使用情况",
+        "电能表使用情况",
+        "流量计使用情况",
+        "能源计量管理制度建立情况",
+        "能源计量管理人员专业培训情况",
+        "是否已制定节能降耗计划",
+        "计量器具使用情况"
+      ],
+      "value_pool": [
+        "衡器使用情况",
+        "电能表使用情况",
+        "流量计使用情况",
+        "能源计量管理制度建立情况",
+        "能源计量管理人员专业培训情况",
+        "是否已制定节能降耗计划",
+        "计量器具使用情况"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格",
+        "已建立",
+        "需加强",
+        "是"
+      ],
+      "value_pool": [
+        "合格",
+        "已建立",
+        "需加强",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县梁宝寺镇",
+        "嘉祥县城建设南路263号",
+        "嘉祥县城建设南路269号",
+        "嘉祥县经开区",
+        "嘉祥县开发区"
+      ],
+      "value_pool": [
+        "嘉祥县梁宝寺镇",
+        "嘉祥县城建设南路263号",
+        "嘉祥县城建设南路269号",
+        "嘉祥县经开区",
+        "嘉祥县开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdyndwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "肥城矿业集团梁宝寺能源有限责任公司",
+        "山东嘉冠粮油工业集团有限公司",
+        "嘉祥县嘉星热电有限公司",
+        "嘉祥光大环保能源有限公司",
+        "山东世纪阳光科技有限公司",
+        "山东益大新材料股份有限公司",
+        "嘉祥经开区供热有限公司",
+        "山东宏河控股集团嘉祥红旗煤矿有限公司"
+      ],
+      "value_pool": [
+        "肥城矿业集团梁宝寺能源有限责任公司",
+        "山东嘉冠粮油工业集团有限公司",
+        "嘉祥县嘉星热电有限公司",
+        "嘉祥光大环保能源有限公司",
+        "山东世纪阳光科技有限公司",
+        "山东益大新材料股份有限公司",
+        "嘉祥经开区供热有限公司",
+        "山东宏河控股集团嘉祥红旗煤矿有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

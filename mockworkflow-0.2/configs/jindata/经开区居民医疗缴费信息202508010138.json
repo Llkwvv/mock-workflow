@@ -1,0 +1,245 @@
+{
+  "file_name": "经开区居民医疗缴费信息202508010138.xlsx",
+  "table_name": "经开区居民医疗缴费信息202508010138",
+  "row_count": 30,
+  "columns": [
+    "jfztlx",
+    "jdmc",
+    "jbjgmc",
+    "jfztmc",
+    "zje",
+    "ylsjje",
+    "sqmc",
+    "txsj",
+    "zsfs",
+    "yljfrs",
+    "qrsj",
+    "sjje"
+  ],
+  "fields": [
+    {
+      "name": "jfztlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "普通新生儿"
+      ],
+      "value_pool": [
+        "普通新生儿"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "疃里镇"
+      ],
+      "value_pool": [
+        "疃里镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jbjgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "经开区医保局"
+      ],
+      "value_pool": [
+        "经开区医保局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jfztmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "张尚清",
+        "张旭琛",
+        "盛子航",
+        "张嘉宁",
+        "刘安若",
+        "于乐颜",
+        "田翊欢",
+        "朱嘉皓",
+        "梁嘉禾",
+        "刘昊霖"
+      ],
+      "value_pool": [
+        "张尚清",
+        "张旭琛",
+        "盛子航",
+        "张嘉宁",
+        "刘安若",
+        "于乐颜",
+        "田翊欢",
+        "朱嘉皓",
+        "梁嘉禾",
+        "刘昊霖"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "320.0"
+      ],
+      "value_pool": [
+        "320.0"
+      ],
+      "min_value": 320.0,
+      "max_value": 320.0
+    },
+    {
+      "name": "ylsjje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "320.0"
+      ],
+      "value_pool": [
+        "320.0"
+      ],
+      "min_value": 320.0,
+      "max_value": 320.0
+    },
+    {
+      "name": "sqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "后张",
+        "高庙",
+        "马庙",
+        "河东",
+        "田庄",
+        "朱井",
+        "梁集",
+        "大刘"
+      ],
+      "value_pool": [
+        "后张",
+        "高庙",
+        "马庙",
+        "河东",
+        "田庄",
+        "朱井",
+        "梁集",
+        "大刘"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "txsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2025.7.25"
+      ],
+      "value_pool": [
+        "2025.7.25"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zsfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "税务征收同步数据生成"
+      ],
+      "value_pool": [
+        "税务征收同步数据生成"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yljfrs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "qrsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2025.7.25"
+      ],
+      "value_pool": [
+        "2025.7.25"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "320.0"
+      ],
+      "value_pool": [
+        "320.0"
+      ],
+      "min_value": 320.0,
+      "max_value": 320.0
+    }
+  ]
+}

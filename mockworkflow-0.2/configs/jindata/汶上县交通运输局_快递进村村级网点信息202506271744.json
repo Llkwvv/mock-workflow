@@ -1,0 +1,158 @@
+{
+  "file_name": "汶上县交通运输局_快递进村村级网点信息202506271744.xlsx",
+  "table_name": "汶上县交通运输局_快递进村村级网点信息202506271744",
+  "row_count": 30,
+  "columns": [
+    "xz",
+    "hy",
+    "xzcmc",
+    "qy",
+    "cjwdmc"
+  ],
+  "fields": [
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汶上街道",
+        "中都街道",
+        "南站街道",
+        "康驿镇",
+        "南旺镇",
+        "刘楼镇",
+        "次邱镇",
+        "寅寺镇",
+        "郭楼镇",
+        "郭仓镇",
+        "杨店镇",
+        "军屯乡",
+        "白石镇",
+        "苑庄镇",
+        "义桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "寄递"
+      ],
+      "value_pool": [
+        "寄递"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzcmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "莲花湖村",
+        "北坡村",
+        "丽景村",
+        "北城新村",
+        "石村",
+        "宋铺村",
+        "大唐阳村",
+        "李集村",
+        "南旺新村",
+        "南旺三村",
+        "刘楼村",
+        "陈  村",
+        "次丘村",
+        "次店村",
+        "后王庄村",
+        "东寅寺村",
+        "五星新村",
+        "古城村",
+        "北园新村",
+        "高村",
+        "杨柳村",
+        "曹营村",
+        "军屯村",
+        "北陶村",
+        "白石村",
+        "西岗村",
+        "东官庄村",
+        "大秦村",
+        "孔家楼村",
+        "西孙吾村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjwdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "平安超市",
+        "村西头保岩超市",
+        "村委南卫生室",
+        "亲水湾小区西门快递服务部",
+        "极兔快递",
+        "汶上祥祥综合超市",
+        "大唐阳东村乐惠超市",
+        "李集村李集超市：",
+        "南旺新村惠民超市",
+        "南旺三村天天乐购超市",
+        "法德装饰",
+        "速尔物流\n快递超市",
+        "香环超市",
+        "圆通速递（寅寺营业厅）",
+        "兔喜快递",
+        "心连心超市",
+        "古城超市",
+        "北园社区向阳超市",
+        "高村庆海超市",
+        "中通",
+        "军屯乡中国电信营业厅",
+        "供销超市",
+        "圆通快递服务站点",
+        "供销社超市",
+        "永青超市",
+        "万家惠超市",
+        "济泰便利超市",
+        "冯帅超市"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

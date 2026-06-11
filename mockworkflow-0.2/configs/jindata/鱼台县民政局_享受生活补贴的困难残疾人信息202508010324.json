@@ -1,0 +1,153 @@
+{
+  "file_name": "鱼台县民政局_享受生活补贴的困难残疾人信息202508010324.xlsx",
+  "table_name": "鱼台县民政局_享受生活补贴的困难残疾人信息202508010324",
+  "row_count": 2982,
+  "columns": [
+    "zj",
+    "xb",
+    "cjlb",
+    "cjdj",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "滨湖街道"
+      ],
+      "value_pool": [
+        "滨湖街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "视力",
+        "肢体",
+        "智力",
+        "听力",
+        "多重",
+        "精神",
+        "肢体、精神"
+      ],
+      "value_pool": [
+        "视力",
+        "肢体",
+        "智力",
+        "听力",
+        "多重",
+        "精神",
+        "肢体、精神"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "四级",
+        "一级",
+        "三级",
+        "二级"
+      ],
+      "value_pool": [
+        "四级",
+        "一级",
+        "三级",
+        "二级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "于**",
+        "韩**",
+        "闫**",
+        "贾**",
+        "王**",
+        "马**",
+        "张**",
+        "赵**",
+        "李**",
+        "候**",
+        "黄**",
+        "闵**",
+        "谭**",
+        "吴**",
+        "田**",
+        "任**",
+        "石**",
+        "裴**",
+        "刘**",
+        "宋**",
+        "姚**",
+        "董**",
+        "陈**",
+        "屈**",
+        "卢**",
+        "孙**",
+        "盛**",
+        "殷**",
+        "金**",
+        "许**",
+        "郑**",
+        "聂**",
+        "秦**",
+        "柴**",
+        "程**",
+        "蒋**",
+        "解**",
+        "邵**",
+        "胡**",
+        "高**",
+        "杨**",
+        "司**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

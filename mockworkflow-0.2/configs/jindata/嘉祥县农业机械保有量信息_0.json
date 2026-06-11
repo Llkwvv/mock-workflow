@@ -1,0 +1,97 @@
+{
+  "file_name": "嘉祥县农业机械保有量信息_0.csv",
+  "table_name": "嘉祥县农业机械保有量信息_0",
+  "row_count": 25,
+  "columns": [
+    "zbmc",
+    "tt",
+    "nd"
+  ],
+  "fields": [
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "拖拉机保有量",
+        "联合收获机械保有量",
+        "深松机保有量",
+        "旋耕机保有量",
+        "拖拉机配套农机具保有量"
+      ],
+      "value_pool": [
+        "拖拉机保有量",
+        "联合收获机械保有量",
+        "深松机保有量",
+        "旋耕机保有量",
+        "拖拉机配套农机具保有量"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tt",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "10298",
+        "3139",
+        "319",
+        "6040",
+        "33511",
+        "10011",
+        "3094",
+        "314",
+        "32837",
+        "9887",
+        "2953",
+        "308",
+        "5760",
+        "32237",
+        "9503",
+        "2832",
+        "261",
+        "5640",
+        "30917",
+        "9149",
+        "2623",
+        "241",
+        "5490",
+        "30406"
+      ],
+      "min_value": 241.0,
+      "max_value": 33511.0
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015"
+      ],
+      "value_pool": [
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015"
+      ],
+      "min_value": 2015.0,
+      "max_value": 2019.0
+    }
+  ]
+}

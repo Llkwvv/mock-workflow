@@ -1,0 +1,113 @@
+{
+  "file_name": "受理养老关系转入信息202602111122.xlsx",
+  "table_name": "受理养老关系转入信息202602111122",
+  "row_count": 22,
+  "columns": [
+    "blyw",
+    "sj",
+    "slbm",
+    "blwydw",
+    "sfycbh"
+  ],
+  "fields": [
+    {
+      "name": "blyw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "受理养老关系转入"
+      ],
+      "value_pool": [
+        "受理养老关系转入"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025.7.23",
+        "2025.7.24",
+        "2025.7.25",
+        "2025.7.28",
+        "2025.8.11",
+        "2025.8.12",
+        "2025.8.13",
+        "2025.10.22",
+        "2025.10.23",
+        "2025.11.10",
+        "2025.11.13",
+        "2025.11.14",
+        "2025.11.15",
+        "2025.11.16",
+        "2025.11.17",
+        "2025.11.18",
+        "2025.11.19",
+        "2025.11.20",
+        "2025.11.21",
+        "2025.11.24",
+        "2025.11.25",
+        "2025.11.26"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "人社"
+      ],
+      "value_pool": [
+        "人社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blwydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "蒋奥"
+      ],
+      "value_pool": [
+        "蒋奥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfycbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "file_name": "鱼台县交通运输局_限高限宽排查清理信息202506241229.xlsx",
+  "table_name": "鱼台县交通运输局_限高限宽排查清理信息202506241229",
+  "row_count": 25,
+  "columns": [
+    "wzxx",
+    "zzjd",
+    "lxbh",
+    "lb",
+    "wcsj",
+    "zzcs"
+  ],
+  "fields": [
+    {
+      "name": "wzxx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "老砦-宏达集团",
+        "济宁线",
+        "老砦镇沙河村",
+        "独山村东",
+        "工业路与老枣曹线交叉口",
+        "双韩村-土楼村",
+        "谷亭-西姚",
+        "鱼城-清河",
+        "罗屯镇八户村",
+        "鱼城双东村",
+        "唐马镇卷棚楼",
+        "老砦镇独山村",
+        "双合矿西门",
+        "王鲁中学门口南",
+        "东鱼河冀马桥",
+        "东鱼河唐马桥",
+        "丰东线",
+        "郯兰线",
+        "王庙超限站",
+        "鱼台县老砦镇独山村",
+        "鱼台县老砦镇沙河村",
+        "鱼台县双合矿西门",
+        "鱼台县王鲁中学门口南",
+        "鱼台县东鱼河冀马桥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "整治完成阶段"
+      ],
+      "value_pool": [
+        "整治完成阶段"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "X016370827",
+        "G237",
+        "C123",
+        "C132",
+        "S318370827",
+        "CT0981",
+        "Y193",
+        "X028",
+        "C060",
+        "C351",
+        "C045",
+        "C081",
+        "X026",
+        "S328",
+        "S346",
+        "S318"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "限高架",
+        "限宽墩",
+        "检查卡点"
+      ],
+      "value_pool": [
+        "限高架",
+        "限宽墩",
+        "检查卡点"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020-12-01",
+        "2020-12-30",
+        "2019-12-31",
+        "2020-10-31",
+        "2019-12-31 00:00:00",
+        "2020-10-31 00:00:00",
+        "2020-12-30 00:00:00"
+      ],
+      "value_pool": [
+        "2020-12-01",
+        "2020-12-30",
+        "2019-12-31",
+        "2020-10-31",
+        "2019-12-31 00:00:00",
+        "2020-10-31 00:00:00",
+        "2020-12-30 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzcs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "拆除",
+        "完善",
+        "已拆除"
+      ],
+      "value_pool": [
+        "拆除",
+        "完善",
+        "已拆除"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

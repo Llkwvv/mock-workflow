@@ -1,0 +1,153 @@
+{
+  "file_name": "嘉祥县平安校园先进单位个人信息202506271800.xlsx",
+  "table_name": "嘉祥县平安校园先进单位个人信息202506271800",
+  "row_count": 35,
+  "columns": [
+    "xjmd",
+    "sszj",
+    "hjlx",
+    "xxxz",
+    "xd"
+  ],
+  "fields": [
+    {
+      "name": "xjmd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县卧龙山街道卧龙山中学",
+        "嘉祥县大张楼镇中心小学",
+        "嘉祥县特殊教育学校",
+        "嘉祥县金屯镇中学",
+        "嘉祥县嘉祥街道中心小学",
+        "嘉祥县马村镇南陆小学",
+        "嘉祥县祥城中学",
+        "嘉祥县老僧堂镇中学",
+        "柳梦林",
+        "王明明",
+        "胡佩剑",
+        "曹彦霜",
+        "侯代斌",
+        "陆秀廷",
+        "魏春凤",
+        "靳继荣",
+        "胡振东",
+        "钱书静",
+        "于鲁宁",
+        "李建华",
+        "刘艳珍",
+        "王东领",
+        "王丽莉",
+        "韩风雷",
+        "郭炳强",
+        "江凯",
+        "张展",
+        "唐思雨",
+        "马海洋",
+        "窦同社",
+        "陈川",
+        "李香",
+        "马迎",
+        "张继伟",
+        "高国栋"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sszj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "卧龙山街道",
+        "大张楼镇",
+        "县直",
+        "金屯镇",
+        "嘉祥街道",
+        "马村镇",
+        "老僧堂镇",
+        "万张街道",
+        "梁宝寺镇",
+        "黄垓镇",
+        "孟姑集镇",
+        "仲山镇",
+        "纸坊镇",
+        "满硐镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "先进单位",
+        "先进个人"
+      ],
+      "value_pool": [
+        "先进单位",
+        "先进个人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "公办",
+        "民办"
+      ],
+      "value_pool": [
+        "公办",
+        "民办"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中学",
+        "小学",
+        "教体局",
+        "幼儿园",
+        "教办",
+        "高中",
+        "职高"
+      ],
+      "value_pool": [
+        "中学",
+        "小学",
+        "教体局",
+        "幼儿园",
+        "教办",
+        "高中",
+        "职高"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "file_name": "谈判药品备案202508010127.xlsx",
+  "table_name": "谈判药品备案202508010127",
+  "row_count": 22,
+  "columns": [
+    "姓名",
+    "xq",
+    "blsj",
+    "ywlx",
+    "blzt"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "孟**",
+        "贾**",
+        "姚**",
+        "张**",
+        "季**",
+        "孙**",
+        "邓**",
+        "于**",
+        "刘**",
+        "何**",
+        "吴**",
+        "李**",
+        "郭**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021.11.19",
+        "2021.07.22",
+        "2021.10.12",
+        "2021.09.05",
+        "2021.09.02",
+        "2021.07.01",
+        "2021.05.10",
+        "2021.05.31",
+        "2021.05.04",
+        "2021.04.21",
+        "2021.04.28",
+        "2021.03.31",
+        "2021.03.03",
+        "2021.02.09",
+        "2021.01.15",
+        "2021.11.20",
+        "2021.10.26",
+        "2021.09.08",
+        "2024.05.10",
+        "2024.05.31",
+        "2024.05.04",
+        "2024.04.21"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ywlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "谈判药品备案"
+      ],
+      "value_pool": [
+        "谈判药品备案"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "办结"
+      ],
+      "value_pool": [
+        "办结"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

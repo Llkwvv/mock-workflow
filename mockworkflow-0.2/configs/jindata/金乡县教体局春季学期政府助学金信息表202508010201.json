@@ -1,0 +1,123 @@
+{
+  "file_name": "金乡县教体局春季学期政府助学金信息表202508010201.xlsx",
+  "table_name": "金乡县教体局春季学期政府助学金信息表202508010201",
+  "row_count": 2628,
+  "columns": [
+    "xd",
+    "gxsj",
+    "xsq",
+    "szje",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "xd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "学前"
+      ],
+      "value_pool": [
+        "学前"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020年"
+      ],
+      "value_pool": [
+        "2020年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szje",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "700.0",
+        "600.0",
+        "500.0"
+      ],
+      "value_pool": [
+        "700.0",
+        "600.0",
+        "500.0"
+      ],
+      "min_value": 500.0,
+      "max_value": 1250.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "叶**",
+        "王**",
+        "李**",
+        "郝**",
+        "孟**",
+        "苏**",
+        "杨**",
+        "高**",
+        "张**",
+        "刘**",
+        "邵**",
+        "段**",
+        "侯**",
+        "仇**",
+        "安**",
+        "胡**",
+        "崔**",
+        "宋**",
+        "翟**",
+        "于**",
+        "常**",
+        "姚**",
+        "邓**",
+        "赵**",
+        "葛**",
+        "周**",
+        "黄**",
+        "寻**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "file_name": "城区工地统计表202603201003.xlsx",
+  "table_name": "城区工地统计表202603201003",
+  "row_count": 1,
+  "columns": [
+    "cygs",
+    "mc",
+    "lxr",
+    "slwlf",
+    "sprq",
+    "lxfs"
+  ],
+  "fields": [
+    {
+      "name": "cygs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁民建建筑工程有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡城投海棠云颂项目"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杨苗苗"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slwlf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "4.5万立方米"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sprq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-03-05 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "135********"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

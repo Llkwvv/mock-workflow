@@ -151,6 +151,7 @@ class RuleStore:
     def _save(self, rules: list[FieldRule]) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         payload = {
+            "_version": 1,
             "rules": [rule.model_dump(mode="json") for rule in sorted(rules, key=lambda r: r.name)],
         }
         self.path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

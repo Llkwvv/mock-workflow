@@ -1,0 +1,91 @@
+{
+  "file_name": "地方病慢性病防制信息202603200935.xlsx",
+  "table_name": "地方病慢性病防制信息202603200935",
+  "row_count": 2,
+  "columns": [
+    "dz",
+    "dwmc",
+    "jtnr",
+    "电话",
+    "xm"
+  ],
+  "fields": [
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "任城区环城西路乔庄、狄林回迁区A区4号商业楼",
+        "任城区南张街道驻地"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "南苑街道社区卫生服务中心",
+        "南张街道社区卫生服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "居家死亡死亡医学证明（推断）书开具；恶性肿瘤、心脑血管急性事件、住院伤害和慢性呼吸系统疾病发病报告、随访和死亡补发病等。"
+      ],
+      "value_pool": [
+        "居家死亡死亡医学证明（推断）书开具；恶性肿瘤、心脑血管急性事件、住院伤害和慢性呼吸系统疾病发病报告、随访和死亡补发病等。"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "电话",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "178********",
+        "157********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "死因登记报告，恶性肿瘤、心脑血管急性事件、住院伤害和慢性呼吸系统疾病监测报告"
+      ],
+      "value_pool": [
+        "死因登记报告，恶性肿瘤、心脑血管急性事件、住院伤害和慢性呼吸系统疾病监测报告"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "file_name": "鱼台县市场监管局_质量案件统计表_按产品分类_202506241300.xlsx",
+  "table_name": "鱼台县市场监管局_质量案件统计表_按产品分类_202506241300",
+  "row_count": 94,
+  "columns": [
+    "zbmc",
+    "azwy",
+    "msjewy",
+    "fkjewy",
+    "ajzsj",
+    "yssfjgajj",
+    "ybcx"
+  ],
+  "fields": [
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "文教体育用品",
+        "其中：文教用品",
+        "体育用品",
+        "家用电器及电器配件",
+        "其中：电冰箱（冰柜）",
+        "空调",
+        "电视机",
+        "洗衣机",
+        "厨房电器具",
+        "热水器",
+        "电热取暖器具",
+        "美容保健电器具",
+        "电风扇",
+        "燃气灶",
+        "通信设备、计算机及其他电子设备",
+        "其中：手机及其配件",
+        "移动电源（充电宝）",
+        "电子计算机整机",
+        "照相机及器材",
+        "影像投影仪",
+        "复印设备产品及耗材",
+        "音响",
+        "集成电路",
+        "儿童用品",
+        "其中：童车",
+        "玩具",
+        "儿童服装",
+        "儿童鞋",
+        "安全座椅",
+        "儿童用纸制品",
+        "儿童家具",
+        "儿童餐具",
+        "家具及建筑装饰装修材料",
+        "其中：家具",
+        "板材",
+        "涂料",
+        "门窗",
+        "卫生器具",
+        "灯具及照明装置",
+        "服装鞋帽及家用纺织品",
+        "其中：床上用品",
+        "服装",
+        "其中：校服",
+        "鞋",
+        "日用化学制品",
+        "其中：织物洗涤剂",
+        "家居清洁剂",
+        "交通用具及相关产品",
+        "其中：自行车及其零件",
+        "电动自行车及其零件",
+        "摩托车及其零件",
+        "汽车整车",
+        "汽车零配件——电池",
+        "汽车零配件——轮胎",
+        "汽车零配件——制动器衬片",
+        "食品相关产品",
+        "其中：食品用塑料包装容器",
+        "食品用器皿等制品",
+        "餐具洗涤剂",
+        "食品添加剂",
+        "日用杂品",
+        "其中：眼镜和眼镜片",
+        "钟表与计时仪器",
+        "箱、包及类似容器",
+        "烟花爆竹产品",
+        "卫生用纸制品",
+        "珠宝首饰及类似品",
+        "煤炭采选及石油化工产品",
+        "其中：汽油",
+        "柴油",
+        "煤炭",
+        "化学原料、化学制品及化学纤维",
+        "其中：危险化学品",
+        "危险化学品包装物、容器",
+        "农业生产资料",
+        "其中：化学肥料",
+        "农药",
+        "农业机械",
+        "建筑材料",
+        "其中：建筑钢材",
+        "玻璃",
+        "水泥",
+        "防水卷材",
+        "金属冶炼、压延产品及金属制品",
+        "通用设备与专用设备",
+        "其中：消防用品",
+        "计量器具",
+        "电气机械及器材",
+        "其中：电线电缆",
+        "橡胶、塑料及非金属矿物制品",
+        "其他",
+        "烟花爆竹产品（24年度）",
+        "煤炭采选及石油化工产品（24年度）",
+        "其中：汽油（24年度）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "azwy",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.0",
+        "0.24"
+      ],
+      "value_pool": [
+        "0.0",
+        "0.24"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.24
+    },
+    {
+      "name": "msjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "fkjewy",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.0",
+        "0.66",
+        "2.0",
+        "0.641"
+      ],
+      "value_pool": [
+        "0.0",
+        "0.66",
+        "2.0",
+        "0.641"
+      ],
+      "min_value": 0.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "ajzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "0",
+        "1",
+        "5",
+        "1件"
+      ],
+      "value_pool": [
+        "0",
+        "1",
+        "5",
+        "1件"
+      ],
+      "min_value": 0.0,
+      "max_value": 5.0
+    },
+    {
+      "name": "yssfjgajj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "0件"
+      ],
+      "value_pool": [
+        "0",
+        "0件"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "ybcx",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "1",
+        "5"
+      ],
+      "value_pool": [
+        "0",
+        "1",
+        "5"
+      ],
+      "min_value": 0.0,
+      "max_value": 5.0
+    }
+  ]
+}

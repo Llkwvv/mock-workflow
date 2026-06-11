@@ -1,0 +1,107 @@
+{
+  "file_name": "嘉祥县综合行政执法局_农村改厕到户问题排查台账202508010256.xlsx",
+  "table_name": "嘉祥县综合行政执法局_农村改厕到户问题排查台账202508010256",
+  "row_count": 126,
+  "columns": [
+    "sfgc",
+    "nhxm",
+    "sfxzgcyy",
+    "czmc",
+    "sfqdfqgzzm"
+  ],
+  "fields": [
+    {
+      "name": "sfgc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "是"
+      ],
+      "value_pool": [
+        "否",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nhxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杨**",
+        "黄**",
+        "候**",
+        "魏**",
+        "张**",
+        "王*",
+        "鲁**",
+        "刘**",
+        "丁**",
+        "韩**",
+        "靳**",
+        "潘**",
+        "赵**",
+        "李**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfxzgcyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "黄垓黄东村"
+      ],
+      "value_pool": [
+        "黄垓黄东村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfqdfqgzzm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

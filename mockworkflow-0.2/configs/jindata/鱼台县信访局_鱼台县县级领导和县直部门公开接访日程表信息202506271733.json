@@ -1,0 +1,145 @@
+{
+  "file_name": "鱼台县信访局_鱼台县县级领导和县直部门公开接访日程表信息202506271733.xlsx",
+  "table_name": "鱼台县信访局_鱼台县县级领导和县直部门公开接访日程表信息202506271733",
+  "row_count": 23,
+  "columns": [
+    "sbdw",
+    "jfld",
+    "jfdd",
+    "jfrq",
+    "jfbm"
+  ],
+  "fields": [
+    {
+      "name": "sbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县信访局"
+      ],
+      "value_pool": [
+        "鱼台县信访局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jfld",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "刘  健",
+        "高东旭",
+        "田  磊",
+        "张  伟",
+        "张春雷\n楚丰华\n周永恒\n张如涛",
+        "王成广",
+        "李东建",
+        "王身柱",
+        "姚念举",
+        "朱贵友",
+        "臧德宽",
+        "刘国巨",
+        "孔庆国",
+        "颜  斌",
+        "杨力新",
+        "李  进",
+        "罗保祥"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jfdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县信访局\n县“和为贵”社会治理服务中心",
+        "县信访局 县“和为贵”社会治理服务中心"
+      ],
+      "value_pool": [
+        "县信访局\n县“和为贵”社会治理服务中心",
+        "县信访局 县“和为贵”社会治理服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jfrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "45078",
+        "45079",
+        "45082",
+        "45083",
+        "45084",
+        "45085",
+        "45086",
+        "45089",
+        "45090",
+        "45091",
+        "45092",
+        "45093",
+        "45096",
+        "45097",
+        "45098",
+        "45102",
+        "45103",
+        "45104",
+        "45105",
+        "45106",
+        "45107",
+        "45702",
+        "45705"
+      ],
+      "min_value": 45078.0,
+      "max_value": 45705.0
+    },
+    {
+      "name": "jfbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "教体局",
+        "民政局",
+        "法院",
+        "交运局",
+        "信访局",
+        "人社局",
+        "发改局",
+        "检察院",
+        "住建局",
+        "自然资源和规划局",
+        "组织部",
+        "纪委",
+        "文旅局",
+        "政法委",
+        "公安局",
+        "市场监督管理局",
+        "港澳台侨外事和民族宗教委员会工作室",
+        "人大社会建设工作室"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "file_name": "经开区大气污染应急响应期间工地巡查信息202508010121.xlsx",
+  "table_name": "经开区大气污染应急响应期间工地巡查信息202508010121",
+  "row_count": 20,
+  "columns": [
+    "gdwz",
+    "gdmc",
+    "sfczsghw",
+    "jgdw",
+    "bz"
+  ],
+  "fields": [
+    {
+      "name": "gdwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉合路",
+        "呈祥大道南嘉合路东",
+        "杨李村高级中学南",
+        "呈祥大道南嘉兴路西",
+        "美祥路北嘉美路西",
+        "嘉美路东美祥路南",
+        "嘉合路西美祥路北",
+        "呈祥大道路南",
+        "疃里镇矿山村",
+        "省道319路北",
+        "吉祥东路",
+        "嘉丰路东吉祥路北",
+        "迎宾路路西",
+        "汇祥路路北",
+        "美祥路南嘉美路西",
+        "美祥路南嘉丰路东",
+        "呈祥大道路南嘉丰路西",
+        "麟祥路北"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "吉祥欣苑",
+        "城市会客厅",
+        "双城名都",
+        "双城领域",
+        "绿海汇",
+        "九里晴川",
+        "京港澳",
+        "南湖项目",
+        "矿山复垦项目",
+        "祥炬置业",
+        "君临华府",
+        "新河社区",
+        "东汤",
+        "风华里",
+        "宏远钢构",
+        "春风桃李",
+        "新材料产业园",
+        "乾钢金属",
+        "特高压电力金具智能绿化工厂项目",
+        "高压、超高压钢丝增强液压软管智能制造项目"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfczsghw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "渣土办"
+      ],
+      "value_pool": [
+        "渣土办"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "响应期间正常巡查"
+      ],
+      "value_pool": [
+        "响应期间正常巡查"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "file_name": "汶上县农业农村局_农药经营许可证信息202507210920.xlsx",
+  "table_name": "汶上县农业农村局_农药经营许可证信息202507210920",
+  "row_count": 20,
+  "columns": [
+    "jyfw",
+    "zj",
+    "fddbr",
+    "jyztmc",
+    "xkzbh"
+  ],
+  "fields": [
+    {
+      "name": "jyfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "农药（限制使用农药除外）"
+      ],
+      "value_pool": [
+        "农药（限制使用农药除外）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "郭仓镇",
+        "郭楼镇",
+        "杨店镇"
+      ],
+      "value_pool": [
+        "郭仓镇",
+        "郭楼镇",
+        "杨店镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fddbr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "曹立",
+        "柴春秀",
+        "陈胜利",
+        "崔加荣",
+        "杜留昌",
+        "候典庆",
+        "胡成焕",
+        "姜文",
+        "李丽",
+        "孟现民",
+        "宋乐芹",
+        "苏广华",
+        "苏吉川",
+        "孙华鲁",
+        "王桂荣",
+        "于明存",
+        "张洪印",
+        "赵静",
+        "赵利刚",
+        "郑培元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyztmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县丰禾化肥种子经营店",
+        "济宁市鲁汶农资有限公司",
+        "汶上县胜宇种植农民专业合作社",
+        "汶上县诚庄农资超市",
+        "汶上县恒昌农资超市",
+        "汶上县农硕农资服务点",
+        "汶上县绿优优农资经营店",
+        "汶上县禾旺农资销售店",
+        "汶上县子骞农业科技有限公司",
+        "汶上县顺丰农资销售中心",
+        "汶上县刘宇百货超市",
+        "汶上县杨店供销社泗汶门市部",
+        "汶上县老苏农资经营店",
+        "汶上县鲁润农资经营部",
+        "汶上县郭仓镇兴农农资",
+        "汶上县明存农资店",
+        "汶上县顺和农资服务中心",
+        "济宁大粮农业服务有限公司",
+        "汶上县杨店镇赵刚农资",
+        "汶上县杨店供销社农资石油经营部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xkzbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "农药经许（鲁）37083020159",
+        "农药经许（鲁）37083020160",
+        "农药经许（鲁）37083020033",
+        "农药经许（鲁）37083020100",
+        "农药经许（鲁）37083020083",
+        "农药经许（鲁）37083020134",
+        "农药经许（鲁）37083020184",
+        "农药经许（鲁）37083020067",
+        "农药经许（鲁）37083020112",
+        "农药经许（鲁）37083020137",
+        "农药经许（鲁）37083020073",
+        "农药经许（鲁）37083020135",
+        "农药经许（鲁）37083020171",
+        "农药经许（鲁）37083020047",
+        "农药经许（鲁）37083020061",
+        "农药经许（鲁)37083020179",
+        "农药经许（鲁）37083020086",
+        "农药经许（鲁）37083020079",
+        "农药经许（鲁）37083020099",
+        "农药经许（鲁）37083020103"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

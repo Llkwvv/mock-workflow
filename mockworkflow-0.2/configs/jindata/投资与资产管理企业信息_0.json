@@ -1,0 +1,117 @@
+{
+  "file_name": "投资与资产管理企业信息_0.csv",
+  "table_name": "投资与资产管理企业信息_0",
+  "row_count": 23,
+  "columns": [
+    "hydm",
+    "hyml",
+    "qyzwm",
+    "tyshxydm"
+  ],
+  "fields": [
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 7212|    投资与资产管理"
+      ],
+      "value_pool": [
+        " 7212|    投资与资产管理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 租赁和商务服务业-L"
+      ],
+      "value_pool": [
+        " 租赁和商务服务业-L"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyzwm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 汶上县中都投资有限公司",
+        " 济宁市远扬资产管理有限公司",
+        " 汶上县润泽建设工程投资有限公司",
+        " 山东联金资产管理有限公司",
+        " 汶上县泰泽投资有限公司",
+        " 汶上县圣泽乡村振兴产业发展有限公司",
+        " 汶上县金信投资担保有限公司",
+        " 山东银辉投资发展有限公司",
+        " 汶上县城市建设投资有限公司",
+        " 济宁圣联非融资性担保有限公司",
+        " 济宁优通房产信息咨询有限公司",
+        " 山东兴汶开发区运营有限公司",
+        " 汶上县熙隆资产管理有限公司",
+        " 济宁恒丰非融资性担保有限公司",
+        " 汶上县盛宏投资咨询有限公司",
+        " 汶上县康福源投资有限责任公司",
+        " 济宁嘉旭资产管理有限公司",
+        " 济宁联发高新投资有限公司",
+        " 汶上县金财国有资产经营有限公司",
+        " 汶上县民泰新农村建设投资有限公司",
+        " 汶上开元控股集团有限公司",
+        " 山东济宁昊天投资有限公司",
+        " 汶泉有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 913708307207542229",
+        " 91370830MA3P3LX5XQ",
+        " 91370830349070415U",
+        " 91370830MA3C6TGG8F",
+        " 91370830MA3FG8B137",
+        " 91370830MA3QCNJ3XY",
+        " 91370830688250058C",
+        " 91370830562520809K",
+        " 91370830676831269L",
+        " 91370830579382342T",
+        " 91370830698091038D",
+        " 913708306980907997",
+        " 91370830088902139Q",
+        " 91370830MA3D10TC2H",
+        " 91370830068738642R",
+        " 91370830679217459X",
+        " 91370830071318577K",
+        " 91370830698065024M",
+        " 91370830661970071T",
+        " 913708300619764377",
+        " 91370830765795896C",
+        " 91370830695439529Y",
+        " 91370830MA3NJGHU4J"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

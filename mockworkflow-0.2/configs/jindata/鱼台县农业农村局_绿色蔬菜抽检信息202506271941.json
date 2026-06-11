@@ -1,0 +1,156 @@
+{
+  "file_name": "鱼台县农业农村局_绿色蔬菜抽检信息202506271941.xlsx",
+  "table_name": "鱼台县农业农村局_绿色蔬菜抽检信息202506271941",
+  "row_count": 59,
+  "columns": [
+    "cpmcjyxmbcydwbcydwdzcyrycyrq",
+    "bcydwdz",
+    "bcydw",
+    "cpmc",
+    "cyrq",
+    "cyry"
+  ],
+  "fields": [
+    {
+      "name": "cpmcjyxmbcydwbcydwdzcyrycyrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "甲胺磷、氧乐果、甲拌磷(包括甲拌磷砜和甲拌磷亚砜)、对硫磷、甲基对硫磷、甲基异柳磷、水胺硫磷、乐果、敌敌畏、毒死蜱、乙酰甲胺磷、三唑磷、杀螟硫磷、二嗪磷、马拉硫磷、亚胺硫磷、伏杀硫磷、辛硫磷、六六六、氯氰菊酯、氰戊菊酯、甲氰菊酯、氯氟氰菊酯、氟氯氰菊酯、溴氰菊酯、联苯菊酯、氟胺氰菊酯、三唑酮、百菌清、异菌脲、涕灭威(包括涕灭威砜、涕灭威亚砜)、灭多威、克百威(包括3-羟基克百威)、甲萘威、三氯杀螨醇、腐霉利、五氯硝基苯、乙烯菌核利、多菌灵、吡虫啉",
+        "甲胺磷、",
+        "甲胺磷、氧乐果、甲拌磷"
+      ],
+      "value_pool": [
+        "甲胺磷、氧乐果、甲拌磷(包括甲拌磷砜和甲拌磷亚砜)、对硫磷、甲基对硫磷、甲基异柳磷、水胺硫磷、乐果、敌敌畏、毒死蜱、乙酰甲胺磷、三唑磷、杀螟硫磷、二嗪磷、马拉硫磷、亚胺硫磷、伏杀硫磷、辛硫磷、六六六、氯氰菊酯、氰戊菊酯、甲氰菊酯、氯氟氰菊酯、氟氯氰菊酯、溴氰菊酯、联苯菊酯、氟胺氰菊酯、三唑酮、百菌清、异菌脲、涕灭威(包括涕灭威砜、涕灭威亚砜)、灭多威、克百威(包括3-羟基克百威)、甲萘威、三氯杀螨醇、腐霉利、五氯硝基苯、乙烯菌核利、多菌灵、吡虫啉",
+        "甲胺磷、",
+        "甲胺磷、氧乐果、甲拌磷"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcydwdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "老砦镇义和村",
+        "老砦镇城西村",
+        "谷亭镇汪庄村",
+        "唐马镇陈丙村",
+        "李阁镇姜楼村中心路北",
+        "李阁镇姜楼村北首",
+        "李阁镇政府北200米路东",
+        "李阁镇政府北201米路东",
+        "李阁镇政府北202米路东",
+        "李阁镇政府北203米路东",
+        "李阁镇政府北204米路东",
+        "李阁镇政府北205米路东",
+        "李阁镇政府北206米路东",
+        "李阁镇政府北207米路东",
+        "李阁镇政府北208米路东",
+        "王鲁镇前屈村村西"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bcydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "仇盼盼",
+        "杨焕峰",
+        "仇团结",
+        "张永花",
+        "绪得云",
+        "马继雷",
+        "马尊典",
+        "王美荣",
+        "鱼台延润生态农业科技发展有限公司",
+        "济宁驰润农业科技有限公司",
+        "济宁义海农业科技有限公司",
+        "山东双绿生态农业科技有限公司",
+        "王*荣"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cpmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "大蒜",
+        "丝瓜",
+        "雍菜",
+        "韭菜",
+        "大葱",
+        "油麦菜",
+        "生菜",
+        "秋葵",
+        "冬瓜",
+        "瓠瓜",
+        "苋菜",
+        "茄子",
+        "南瓜",
+        "洋葱",
+        "普通白菜\n（小白菜）",
+        "普通白菜\n（小油菜）",
+        "黑木耳"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cyrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022-09-19 00:00:00",
+        "2024年度"
+      ],
+      "value_pool": [
+        "2022-09-19 00:00:00",
+        "2024年度"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cyry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "薛垂喜、李召波",
+        "薛*喜、李*波"
+      ],
+      "value_pool": [
+        "薛垂喜、李召波",
+        "薛*喜、李*波"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

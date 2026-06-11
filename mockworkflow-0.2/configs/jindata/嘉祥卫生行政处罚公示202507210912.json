@@ -1,0 +1,189 @@
+{
+  "file_name": "嘉祥卫生行政处罚公示202507210912.xlsx",
+  "table_name": "嘉祥卫生行政处罚公示202507210912",
+  "row_count": 20,
+  "columns": [
+    "jydz",
+    "ajmc",
+    "dwmc",
+    "zylbzl",
+    "xzcfjdxzqzjqtcsqtclqk",
+    "xzcfjg",
+    "zcxzcfjdrq"
+  ],
+  "fields": [
+    {
+      "name": "jydz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥福林中医院",
+        "嘉祥民康医院",
+        "嘉祥陆庄医院",
+        "嘉祥吉祥医院",
+        "嘉祥儿童医院",
+        "嘉祥复明医院",
+        "嘉祥县孟姑集镇卫生院",
+        "嘉祥夫伟中医诊所",
+        "贺兆杰",
+        "嘉祥县梁宝寺镇韩垓卫生所",
+        "嘉祥县魅儿美妆洗化店",
+        "嘉祥街道史氏正骨卫生室",
+        "嘉祥顺康护理院",
+        "嘉祥县可模可样化妆品店",
+        "嘉祥县香阁主题宾馆",
+        "嘉祥县琴舍会雅保健减肥店",
+        "嘉祥纸坊隋庄中医（综合）诊所",
+        "嘉祥利民中医医院",
+        "嘉祥爱乐体育健身有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ajmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥福林中医院未按规定填写病历资料案",
+        "嘉祥民康医院未按规定填写病历资料案",
+        "嘉祥陆庄医院使用卫生技术人员从事本专业以外诊疗活动案",
+        "嘉祥吉祥医院未按规定填写病历资料案",
+        "嘉祥儿童医院擅自开展母婴保健技术案",
+        "嘉祥儿童医院诊疗活动超出登记范围案",
+        "嘉祥复明医院未按规定填写病历资料案",
+        "嘉祥县孟姑集镇卫生院未按规定填写病历资料案",
+        "嘉祥夫伟中医诊所处方书写不规范案",
+        "贺兆杰未注册取得医师执业证书，从事口腔执业活动案",
+        "嘉祥县梁宝寺镇韩垓卫生所超出登记或者备案范围案",
+        "嘉祥县魅儿美妆洗化店未取得公共场所卫生许可证从事美容服务的公共场所经营活动案；嘉祥县魅儿美妆洗化店安排未获得有效健康合格证明的从业人员从事直接为顾客服务工作案",
+        "嘉祥街道史氏正骨卫生室未取得放射诊疗许可从事放射诊疗工作案",
+        "嘉祥顺康护理院医疗废物暂时贮存设施不符合卫生要求案",
+        "嘉祥县可模可样化妆品店安排未获得有效健康合格证明的从业人员从事直接为顾客服务工作案",
+        "嘉祥县香阁主题宾馆未按照规定对提供给顾客可以反复使用的用品用具进行清洗、消毒、保洁案",
+        "嘉祥县琴舍会雅保健减肥店安排未获得有效健康合格证明的从业人员从事直接为顾客服务工作案",
+        "嘉祥纸坊隋庄中医（综合）诊所未取得放射诊疗许可开展放射诊疗工作案",
+        "嘉祥利民中医医院使用非卫生技术人员从事医疗卫生技术工作案",
+        "嘉祥爱乐体育健身有限公司安排未获得有效健康合格证明的从业人员从事直接为顾客服务工作案"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥福林中医院",
+        "嘉祥民康医院",
+        "嘉祥陆庄医院",
+        "嘉祥吉祥医院",
+        "嘉祥儿童医院",
+        "嘉祥复明医院",
+        "嘉祥县孟姑集镇卫生院",
+        "嘉祥夫伟中医诊所",
+        "贺兆杰",
+        "嘉祥县梁宝寺镇韩垓卫生所",
+        "嘉祥县魅儿美妆洗化店",
+        "嘉祥街道史氏正骨卫生室",
+        "嘉祥顺康护理院",
+        "嘉祥县可模可样化妆品店",
+        "嘉祥县香阁主题宾馆",
+        "嘉祥县琴舍会雅保健减肥店",
+        "嘉祥纸坊隋庄中医（综合）诊所",
+        "嘉祥利民中医医院",
+        "嘉祥爱乐体育健身有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zylbzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "行政处罚"
+      ],
+      "value_pool": [
+        "行政处罚"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzcfjdxzqzjqtcsqtclqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "无"
+      ],
+      "value_pool": [
+        "无"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzcfjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县卫生健康局"
+      ],
+      "value_pool": [
+        "嘉祥县卫生健康局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcxzcfjdrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024/12/31",
+        "2024/12/17",
+        "2024/12/23",
+        "2024/12/18",
+        "2024/11/05",
+        "2024/11/04",
+        "2024/10/17",
+        "2024/09/02",
+        "2024/08/30",
+        "2024/08/26",
+        "2024/07/12",
+        "2024/07/15",
+        "2024/07/11",
+        "2024/06/13",
+        "2024/07/02"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

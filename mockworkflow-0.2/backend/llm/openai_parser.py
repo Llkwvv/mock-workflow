@@ -8,6 +8,8 @@ from openai import APIConnectionError, APIError, APITimeoutError, BadRequestErro
 
 from backend.config import get_settings
 from backend.llm.base import LLMFieldParser
+from backend.llm.model_pool import get_model_pool
+from backend.llm.model_rotator import ModelRotator
 from backend.llm.prompt import build_field_analysis_prompt
 from backend.schemas.field import FieldSpec, SampleProfile, SqlType, FieldSemantic
 
@@ -30,7 +32,7 @@ def _safe_dump(value: Any) -> str:
 
 
 class OpenAIFieldParser(LLMFieldParser):
-    """Parse uncertain fields using OpenAI-compatible API."""
+    """Parse uncertain fields using OpenAI-compatible API with model rotation."""
 
     def __init__(
         self,
@@ -40,6 +42,7 @@ class OpenAIFieldParser(LLMFieldParser):
         timeout: int | None = None,
         max_tokens: int | None = None,
         temperature: float | None = None,
+        enable_rotation: bool = True,
     ):
         settings = get_settings()
 
@@ -64,16 +67,30 @@ class OpenAIFieldParser(LLMFieldParser):
             timeout=self.timeout,
         )
 
+        # Model rotation support
+        self.enable_rotation = enable_rotation
+        self.rotator: ModelRotator | None = None
+        if enable_rotation:
+            pool = get_model_pool()
+            self.rotator = ModelRotator(pool)
+            # If a specific model is forced, tell the rotator
+            if self.model:
+                self.rotator.set_forced_model(self.model)
+
     def parse_fields(
         self,
         profile: SampleProfile,
         target_columns: list[str] | None = None,
+        rag_rules: list[dict] | None = None,
+        rag_samples: list[dict] | None = None,
     ) -> list[FieldSpec]:
         """Parse columns using LLM.
 
         Args:
             profile: Sample profile with column information
             target_columns: Optional list of column names to parse. If omitted, parse all columns.
+            rag_rules: Retrieved similar rules for RAG context injection
+            rag_samples: Retrieved similar sample profiles for RAG context injection
 
         Returns:
             List of FieldSpec for parsed columns
@@ -82,78 +99,100 @@ class OpenAIFieldParser(LLMFieldParser):
         if not columns:
             return []
 
-        prompt = build_field_analysis_prompt(profile, columns)
+        prompt = build_field_analysis_prompt(profile, columns, rag_rules=rag_rules, rag_samples=rag_samples)
 
-        try:
-            response = self.client.chat.completions.create(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": "You are a database schema expert. Always return valid JSON."},
-                    {"role": "user", "content": prompt},
-                ],
-                response_format={"type": "json_object"},
-                max_tokens=self.max_tokens,
-                temperature=self.temperature,
-            )
+        max_retries = 3
+        excluded: set[str] = set()
+        last_error: Exception | None = None
 
-            if response is None:
-                logger.error(
-                    "LLM returned no response: model=%s base_url=%s columns=%s",
-                    self.model,
-                    self.base_url,
-                    columns,
+        for attempt in range(max_retries):
+            model_name = self._select_model(excluded)
+            if not model_name:
+                logger.error("No available model to try after %d attempts", attempt)
+                break
+
+            excluded.add(model_name)
+
+            try:
+                response = self.client.chat.completions.create(
+                    model=model_name,
+                    messages=[
+                        {"role": "system", "content": "You are a database schema expert. Always return valid JSON."},
+                        {"role": "user", "content": prompt},
+                    ],
+                    response_format={"type": "json_object"},
+                    max_tokens=self.max_tokens,
+                    temperature=self.temperature,
                 )
-                raise ValueError("LLM returned no response")
-            if not response.choices:
-                logger.error(
-                    "LLM returned no choices: model=%s base_url=%s columns=%s response=%s",
-                    self.model,
-                    self.base_url,
-                    columns,
-                    _safe_dump(response),
+
+                if response is None:
+                    raise ValueError("LLM returned no response")
+                if not response.choices:
+                    raise ValueError("LLM returned no choices")
+
+                choice = response.choices[0]
+                message = getattr(choice, "message", None)
+                if message is None:
+                    finish_reason = getattr(choice, "finish_reason", None)
+                    raise ValueError(f"LLM returned no message (finish_reason={finish_reason})")
+
+                content = message.content
+                if not content:
+                    raise ValueError("LLM returned empty response")
+
+                # Success – record and return
+                if self.rotator:
+                    self.rotator.record_success(model_name)
+                self.model = model_name  # Update current model
+
+                parsed = json.loads(content)
+                return self._parse_response(parsed, columns)
+
+            except (APITimeoutError, APIConnectionError, BadRequestError, APIError) as e:
+                error_msg = _safe_dump(e)
+                logger.warning(
+                    "Attempt %d: model=%s failed - %s",
+                    attempt + 1,
+                    model_name,
+                    error_msg,
                 )
-                raise ValueError("LLM returned no choices")
-
-            choice = response.choices[0]
-            message = getattr(choice, "message", None)
-            if message is None:
-                finish_reason = getattr(choice, "finish_reason", None)
-                logger.error(
-                    "LLM returned no message: model=%s base_url=%s columns=%s finish_reason=%s choice=%s",
-                    self.model,
-                    self.base_url,
-                    columns,
-                    finish_reason,
-                    _safe_dump(choice),
+                if self.rotator:
+                    self.rotator.record_failure(model_name, error_msg)
+                last_error = e
+                continue
+            except (ValueError, json.JSONDecodeError) as e:
+                # These are response-format errors; also retry
+                logger.warning(
+                    "Attempt %d: model=%s response error - %s",
+                    attempt + 1,
+                    model_name,
+                    str(e),
                 )
-                raise ValueError(f"LLM returned no message (finish_reason={finish_reason})")
+                if self.rotator:
+                    self.rotator.record_failure(model_name, str(e))
+                last_error = e
+                continue
 
-            content = message.content
-            if not content:
-                logger.error(
-                    "LLM returned empty content: model=%s base_url=%s columns=%s message=%s",
-                    self.model,
-                    self.base_url,
-                    columns,
-                    _safe_dump(message),
-                )
-                raise ValueError("LLM returned empty response")
+        # All retries exhausted
+        if isinstance(last_error, APITimeoutError):
+            raise TimeoutError(f"LLM request timed out after {self.timeout}s: {last_error}") from last_error
+        if isinstance(last_error, APIConnectionError):
+            raise ConnectionError(f"Failed to connect to LLM API: {last_error}") from last_error
+        if isinstance(last_error, BadRequestError):
+            raise ValueError(f"LLM bad request: {last_error}") from last_error
+        if isinstance(last_error, APIError):
+            raise ValueError(f"LLM API error: {last_error}") from last_error
+        if isinstance(last_error, json.JSONDecodeError):
+            raise ValueError(f"LLM returned invalid JSON: {last_error}") from last_error
+        raise ValueError(f"All models failed after {len(excluded)} attempts. Last error: {last_error}")
 
-            parsed = json.loads(content)
-            return self._parse_response(parsed, columns)
-
-        except APITimeoutError as e:
-            raise TimeoutError(f"LLM request timed out after {self.timeout}s: {e}") from e
-        except APIConnectionError as e:
-            raise ConnectionError(f"Failed to connect to LLM API: {e}") from e
-        except BadRequestError as e:
-            logger.error("LLM bad request: model=%s base_url=%s error=%s", self.model, self.base_url, _safe_dump(e))
-            raise ValueError(f"LLM bad request: {e}") from e
-        except APIError as e:
-            logger.error("LLM API error: model=%s base_url=%s error=%s", self.model, self.base_url, _safe_dump(e))
-            raise ValueError(f"LLM API error: {e}") from e
-        except json.JSONDecodeError as e:
-            raise ValueError(f"LLM returned invalid JSON: {e}") from e
+    def _select_model(self, excluded: set[str]) -> str | None:
+        """Pick the next model to try (with rotation if enabled)."""
+        if self.rotator:
+            return self.rotator.select_model(requested_model=self.model, excluded=excluded)
+        if self.model not in excluded:
+            return self.model
+        return None
 
     def _parse_response(
         self,

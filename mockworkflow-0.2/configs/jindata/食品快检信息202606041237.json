@@ -1,0 +1,128 @@
+{
+  "file_name": "食品快检信息202606041237.xlsx",
+  "table_name": "食品快检信息202606041237",
+  "row_count": 597,
+  "columns": [
+    "jcdw",
+    "jcjg",
+    "ypmc",
+    "jcsj",
+    "jcxm"
+  ],
+  "fields": [
+    {
+      "name": "jcdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "泗张市场监督管理所",
+        "济河市场监督管理所",
+        "泉林市场监督管理所",
+        "泗河市场监督管理所"
+      ],
+      "value_pool": [
+        "泗张市场监督管理所",
+        "济河市场监督管理所",
+        "泉林市场监督管理所",
+        "泗河市场监督管理所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "阴性"
+      ],
+      "value_pool": [
+        "阴性"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ypmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "油菜",
+        "绿豆芽",
+        "土豆",
+        "洋葱",
+        "角瓜",
+        "小瓜",
+        "黄豆芽",
+        "山药",
+        "西红柿",
+        "西葫芦",
+        "豆角",
+        "藕",
+        "花菜",
+        "芹菜",
+        "萝卜",
+        "菜花",
+        "茄子",
+        "胡萝卜",
+        "冬瓜",
+        "卷心菜",
+        "黄瓜",
+        "菠菜",
+        "辣椒"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2026-03-11 09:30:18",
+        "2026-03-15 09:55:00",
+        "2026-03-16 09:40:09",
+        "2026-03-17 09:41:16",
+        "2026-03-17 09:40:15",
+        "2026-03-17 16:02:33",
+        "2026-03-17 15:56:06",
+        "2026-03-22 15:33:31",
+        "2026-03-22 15:26:55",
+        "2026-03-25 09:18:00",
+        "2026-03-24 09:18:04"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "农药残留"
+      ],
+      "value_pool": [
+        "农药残留"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

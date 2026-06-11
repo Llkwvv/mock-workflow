@@ -1,0 +1,84 @@
+{
+  "file_name": "微山县科技局_企业科技成果202507242142.xlsx",
+  "table_name": "微山县科技局_企业科技成果202507242142",
+  "row_count": 1,
+  "columns": [
+    "qymc",
+    "tyshxydm",
+    "cg",
+    "dz",
+    "ly"
+  ],
+  "fields": [
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东宜居新材料科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370826344515171F"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "石塑阻尼隔音复合墙板"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "微山县经济开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "木塑产业成果"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

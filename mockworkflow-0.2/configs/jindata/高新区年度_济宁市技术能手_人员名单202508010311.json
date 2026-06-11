@@ -1,0 +1,200 @@
+{
+  "file_name": "高新区年度_济宁市技术能手_人员名单202508010311.xlsx",
+  "table_name": "高新区年度_济宁市技术能手_人员名单202508010311",
+  "row_count": 196,
+  "columns": [
+    "姓名",
+    "s",
+    "ssjg",
+    "xsq",
+    "pdnd",
+    "ssdw"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "王**",
+        "田**",
+        "贺**",
+        "李**",
+        "朱**",
+        "夏**",
+        "黄**",
+        "成**",
+        "闫**",
+        "祝**",
+        "吴**",
+        "苏**",
+        "潘**",
+        "郭**",
+        "侯**",
+        "常**",
+        "孙**",
+        "杜**",
+        "高**",
+        "马**",
+        "刘**",
+        "曹**",
+        "崔**",
+        "陆**",
+        "袁**",
+        "项**",
+        "钟**",
+        "胡**",
+        "贾**",
+        "孔**",
+        "孟**",
+        "史**",
+        "尤**",
+        "董**",
+        "娄**",
+        "厉**",
+        "魏**",
+        "聂**",
+        "姜**",
+        "甄**",
+        "吕**",
+        "周**",
+        "邵**",
+        "齐**",
+        "栾**",
+        "乔**",
+        "户**",
+        "薛**",
+        "满**",
+        "宋**",
+        "谢**",
+        "龙**",
+        "臧**",
+        "徐**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "人力资源部"
+      ],
+      "value_pool": [
+        "人力资源部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pdnd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019年",
+        "2020年",
+        "2013年",
+        "2016年",
+        "2017年",
+        "2018年"
+      ],
+      "value_pool": [
+        "2019年",
+        "2020年",
+        "2013年",
+        "2016年",
+        "2017年",
+        "2018年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东广育堂国药有限公司",
+        "济宁市技师学院",
+        "山推工程机械股份有限公司",
+        "济宁天泽乾宝行汽车销售服务有限公司",
+        "济宁众诚汽车销售服务有限公司",
+        "济宁润豪汽车销售服务有限公司",
+        "国网山东省电力公司济宁供电公司",
+        "山东如意毛纺服装集团股份有限公司",
+        "小松山推工程机械有限公司",
+        "山东胜利生物工程有限公司",
+        "迪尔集团有限公司",
+        "济宁天泓雷克萨斯汽车销售服务有限公司",
+        "济宁市东郊热电有限责任公司",
+        "济宁市技术学院实习厂（东方圣地）",
+        "辰欣药业股份有限公司",
+        "山东鲁抗医药股份有限公司",
+        "济宁高新区香港大厦",
+        "山东济宁如意毛纺织股份有限公司",
+        "山东如意科技集团服装公司",
+        "济宁市高新技工学校",
+        "济矿集团有限公司",
+        "小松（山东）工程机械有限公司",
+        "济宁矿业集团有限公司",
+        "山东方健制药有限公司",
+        "山推工程机械结构件有限公司",
+        "小松(山东)工程机械有限公司",
+        "大京(机械)山东有限公司",
+        "济宁丰华汽车销售服务有限公司",
+        "济宁润通汽车销售服务有限公司",
+        "济宁润诚汽车销售服务有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

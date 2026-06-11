@@ -1,0 +1,173 @@
+{
+  "file_name": "任城区教师资格注册人员信息202508010155.xlsx",
+  "table_name": "任城区教师资格注册人员信息202508010155",
+  "row_count": 617,
+  "columns": [
+    "dw",
+    "姓名",
+    "xb",
+    "jszgzl",
+    "nd"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "安居二中",
+        "北门小学",
+        "东门小学",
+        "二十里铺小学",
+        "二十里铺中学",
+        "观音阁小学",
+        "和平街小学",
+        "霍家街小学",
+        "八中",
+        "济宁二中",
+        "洸河路小学",
+        "南池小学",
+        "济宁市实验中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "戈*",
+        "张*",
+        "姜**",
+        "李*",
+        "刘**",
+        "鲍*",
+        "常**",
+        "陈*",
+        "董**",
+        "段**",
+        "冯**",
+        "高*",
+        "郝**",
+        "卢**",
+        "路**",
+        "秦**",
+        "史**",
+        "孙*",
+        "王**",
+        "谢*",
+        "徐**",
+        "张**",
+        "赵**",
+        "赵*",
+        "仲**",
+        "周**",
+        "朱**",
+        "杜**",
+        "唐*",
+        "闫**",
+        "王*",
+        "徐*",
+        "文*",
+        "陈**",
+        "孟**",
+        "邵*",
+        "杨*",
+        "贾**",
+        "何*",
+        "夏**",
+        "唐**",
+        "刘*",
+        "于*",
+        "郑*",
+        "崔**",
+        "黄**",
+        "韩**",
+        "吴**",
+        "孟*",
+        "樊**",
+        "陆**",
+        "庞**",
+        "韩*",
+        "李**",
+        "蒋*",
+        "马**",
+        "苗*",
+        "耿**",
+        "霍*",
+        "吕**",
+        "白**",
+        "曹**",
+        "程**",
+        "贺**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jszgzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高级中学教师资格",
+        "初级中学教师资格",
+        "小学教师资格",
+        "中等职业学校教师资格"
+      ],
+      "value_pool": [
+        "高级中学教师资格",
+        "初级中学教师资格",
+        "小学教师资格",
+        "中等职业学校教师资格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021年"
+      ],
+      "value_pool": [
+        "2021年"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

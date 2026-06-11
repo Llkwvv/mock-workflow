@@ -1,0 +1,153 @@
+{
+  "file_name": "区公共资源交易服务中心工作人员名单202508010119.xlsx",
+  "table_name": "区公共资源交易服务中心工作人员名单202508010119",
+  "row_count": 20,
+  "columns": [
+    "姓名",
+    "xb",
+    "bz",
+    "lxfs",
+    "xh"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "高**",
+        "谢**",
+        "陈*",
+        "时**",
+        "胡**",
+        "焦**",
+        "侯*",
+        "李*",
+        "张*",
+        "司**",
+        "王*",
+        "周**",
+        "刘**",
+        "李**",
+        "冯**",
+        "宋*",
+        "王**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "党组主任",
+        "党组副主任",
+        "办公室主任",
+        "党建科科长",
+        "资金科科长",
+        "督查科科长",
+        "档案科科长",
+        "采购科科长",
+        "科员",
+        "档案科副科长",
+        "工程科副科长",
+        "采购科副科长",
+        "包村干部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "6532206.0",
+        "6532207.0",
+        "6532208.0",
+        "6532209.0",
+        "6532235.0",
+        "6532236.0",
+        "61672.0",
+        "6413.0",
+        "66326.0",
+        "65151.0",
+        "67771.0",
+        "68801.0",
+        "61150.0",
+        "667963.0",
+        "666921.0",
+        "67115.0",
+        "68522.0",
+        "65317.0",
+        "65131.0"
+      ],
+      "min_value": 6413.0,
+      "max_value": 6532236.0
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "19",
+        "20",
+        "21"
+      ],
+      "min_value": 1.0,
+      "max_value": 21.0
+    }
+  ]
+}

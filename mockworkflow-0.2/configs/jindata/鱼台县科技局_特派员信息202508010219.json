@@ -1,0 +1,164 @@
+{
+  "file_name": "鱼台县科技局_特派员信息202508010219.xlsx",
+  "table_name": "鱼台县科技局_特派员信息202508010219",
+  "row_count": 39,
+  "columns": [
+    "zyly",
+    "zcd",
+    "bh",
+    "姓名",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "zyly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "水产养殖",
+        "作物",
+        "蔬菜",
+        "综合",
+        "畜禽",
+        "特种养殖",
+        "农业信息化",
+        "果树茶叶"
+      ],
+      "value_pool": [
+        "水产养殖",
+        "作物",
+        "蔬菜",
+        "综合",
+        "畜禽",
+        "特种养殖",
+        "农业信息化",
+        "果树茶叶"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东鱼台"
+      ],
+      "value_pool": [
+        "山东鱼台"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "202102564",
+        "202102547",
+        "202102508",
+        "202102492",
+        "202102493",
+        "202102495",
+        "202001703",
+        "202000554",
+        "202000518",
+        "202000519",
+        "202000520",
+        "202000522",
+        "202000523",
+        "202000550",
+        "202000521",
+        "202000524",
+        "202000451",
+        "201907748",
+        "201907362",
+        "201907103",
+        "201907096",
+        "201906347",
+        "201906283",
+        "201905924",
+        "201905922",
+        "201905152",
+        "201904878",
+        "201904928",
+        "201904589",
+        "201903480",
+        "201903479",
+        "201903482",
+        "201903481",
+        "201903483",
+        "201903478",
+        "201903486",
+        "201903485",
+        "201900336",
+        "201900337"
+      ],
+      "min_value": 201900336.0,
+      "max_value": 202102564.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "周**",
+        "李**",
+        "高**",
+        "孙**",
+        "袁**",
+        "金**",
+        "杨**",
+        "姚**",
+        "刘**",
+        "王**",
+        "张**",
+        "杜**",
+        "赵**",
+        "朱**",
+        "解**",
+        "楚**",
+        "林**",
+        "蒋**",
+        "唐**",
+        "乔**",
+        "聂**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

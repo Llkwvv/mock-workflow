@@ -1,0 +1,92 @@
+{
+  "file_name": "金乡县水利基本情况202507242134.xlsx",
+  "table_name": "金乡县水利基本情况202507242134",
+  "row_count": 2,
+  "columns": [
+    "qb",
+    "gbzntmjwm",
+    "gdggmjqgq",
+    "nf",
+    "dq"
+  ],
+  "fields": [
+    {
+      "name": "qb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1-12月"
+      ],
+      "value_pool": [
+        "1-12月"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gbzntmjwm",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "77.99"
+      ],
+      "value_pool": [
+        "77.99"
+      ],
+      "min_value": 77.99,
+      "max_value": 77.99
+    },
+    {
+      "name": "gdggmjqgq",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "56.67",
+        "58.22"
+      ],
+      "min_value": 56.67,
+      "max_value": 58.22
+    },
+    {
+      "name": "nf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2023年",
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "file_name": "高峰岗执勤信息202606041207.xlsx",
+  "table_name": "高峰岗执勤信息202606041207",
+  "row_count": 134,
+  "columns": [
+    "rs",
+    "dw",
+    "dd",
+    "sj",
+    "kqry"
+  ],
+  "fields": [
+    {
+      "name": "rs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "五中队 违法处理室",
+        "三中队",
+        "车管所",
+        "指挥中心",
+        "违法处理室",
+        "警务保障室",
+        "政工室",
+        "国保大队",
+        "办公室 渣土办 金庄执法站",
+        "六中队"
+      ],
+      "value_pool": [
+        "五中队 违法处理室",
+        "三中队",
+        "车管所",
+        "指挥中心",
+        "违法处理室",
+        "警务保障室",
+        "政工室",
+        "国保大队",
+        "办公室 渣土办 金庄执法站",
+        "六中队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "泉福路与中兴路",
+        "泉福路与东盛路（泗河小学路口）",
+        "泉福路与圣哲路",
+        "泉兴路与泗河路",
+        "泉兴路与中兴路",
+        "泉兴路与圣哲路（洙泗小学南）",
+        "泉兴路与圣安路",
+        "泉兴路与圣德路",
+        "文化路与泗河路（助学岗）",
+        "文化路与中兴路",
+        "泉济路与圣安路",
+        "泉源路与健康路",
+        "泉源路与人民路",
+        "泉源路与泗河路",
+        "泉源路与中兴路",
+        "青年路与人民路（实小南助学岗）",
+        "青年路与光明路",
+        "青年路与泗河路",
+        "泉衍路与圣安路（龙城小学西助学岗）",
+        "洙泗小学北校区（助学岗）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "4",
+        "6",
+        "2",
+        "3",
+        "5"
+      ],
+      "value_pool": [
+        "4",
+        "6",
+        "2",
+        "3",
+        "5"
+      ],
+      "min_value": 2.0,
+      "max_value": 6.0
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021-08-16 00:00:00",
+        "2021-08-17 00:00:00",
+        "2021-08-18 00:00:00",
+        "2021-08-19 00:00:00",
+        "2021-08-20 00:00:00"
+      ],
+      "value_pool": [
+        "2021-08-16 00:00:00",
+        "2021-08-17 00:00:00",
+        "2021-08-18 00:00:00",
+        "2021-08-19 00:00:00",
+        "2021-08-20 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kqry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "王衍海 苏富祥",
+        "颜振忠 朱冰",
+        "马成纪 张伟",
+        "孔庆莉 王文军"
+      ],
+      "value_pool": [
+        "王衍海 苏富祥",
+        "颜振忠 朱冰",
+        "马成纪 张伟",
+        "孔庆莉 王文军"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

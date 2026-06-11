@@ -1,0 +1,94 @@
+{
+  "file_name": "国有建设用地使用权及房屋所有权注销登记信息202506181954.xlsx",
+  "table_name": "国有建设用地使用权及房屋所有权注销登记信息202506181954",
+  "row_count": 3,
+  "columns": [
+    "qlr",
+    "djlx",
+    "slh",
+    "bdcdyh",
+    "zl"
+  ],
+  "fields": [
+    {
+      "name": "qlr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "中国农业银行股份有限公司嘉祥县支行",
+        "山东省电信公司嘉祥县电信局",
+        "嘉祥城市建设集团有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "国有建设用地使用权及房屋所有权注销登记信息"
+      ],
+      "value_pool": [
+        "国有建设用地使用权及房屋所有权注销登记信息"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "202501160023",
+        "202503180049",
+        "202504220066"
+      ],
+      "min_value": 202501160023.0,
+      "max_value": 202504220066.0
+    },
+    {
+      "name": "bdcdyh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370829102038GB00002F00010002等",
+        "370829106042GB00010F00240001",
+        "370829001001GB00123F00160004等"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "中国农业银行梁宝寺支行1号楼  等4户",
+        "山东省联通通信有限公司嘉祥县分公司金屯镇驻地2号楼",
+        "麟鑫苑16号楼3单元3-102号  等6户"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

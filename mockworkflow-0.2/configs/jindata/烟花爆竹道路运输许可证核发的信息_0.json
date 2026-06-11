@@ -1,0 +1,130 @@
+{
+  "file_name": "烟花爆竹道路运输许可证核发的信息_0.csv",
+  "table_name": "烟花爆竹道路运输许可证核发的信息_0",
+  "row_count": 20,
+  "columns": [
+    "sqrhdw",
+    "bjsj",
+    "bjmc",
+    "sldw",
+    "slsj"
+  ],
+  "fields": [
+    {
+      "name": "sqrhdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "孙卫东",
+        "文辉",
+        "杨奎",
+        "徐妍君",
+        "王涛",
+        "王净净",
+        "魏五香",
+        "张旭文",
+        "周金良",
+        "于海泉",
+        "田海艳",
+        "王潇",
+        "张熙钗",
+        "王秀夏",
+        "甄慧慧",
+        "吴文学",
+        "徐慧婧",
+        "薛忠情",
+        "于风真",
+        "陈洪峰"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:03:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:03:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "关于孙卫东烟花爆竹道路运输许可证核发的业务",
+        "关于文辉烟花爆竹道路运输许可证核发的业务",
+        "关于杨奎烟花爆竹道路运输许可证核发的业务",
+        "关于徐妍君烟花爆竹道路运输许可证核发的业务",
+        "关于王涛烟花爆竹道路运输许可证核发的业务",
+        "关于王净净烟花爆竹道路运输许可证核发的业务",
+        "关于魏五香烟花爆竹道路运输许可证核发的业务",
+        "关于张旭文烟花爆竹道路运输许可证核发的业务",
+        "关于周金良烟花爆竹道路运输许可证核发的业务",
+        "关于于海泉烟花爆竹道路运输许可证核发的业务",
+        "关于田海艳烟花爆竹道路运输许可证核发的业务",
+        "关于王潇烟花爆竹道路运输许可证核发的业务",
+        "关于张熙钗烟花爆竹道路运输许可证核发的业务",
+        "关于王秀夏烟花爆竹道路运输许可证核发的业务",
+        "关于甄慧慧烟花爆竹道路运输许可证核发的业务",
+        "关于吴文学烟花爆竹道路运输许可证核发的业务",
+        "关于徐慧婧烟花爆竹道路运输许可证核发的业务",
+        "关于薛忠情烟花爆竹道路运输许可证核发的业务",
+        "关于于风真烟花爆竹道路运输许可证核发的业务",
+        "关于陈洪峰烟花爆竹道路运输许可证核发的业务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "市中公安分局",
+        "任城公安分局"
+      ],
+      "value_pool": [
+        "市中公安分局",
+        "任城公安分局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:00:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:00:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

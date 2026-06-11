@@ -1,0 +1,110 @@
+{
+  "file_name": "路灯电缆维修记录信息202507120611.xlsx",
+  "table_name": "路灯电缆维修记录信息202507120611",
+  "row_count": 30,
+  "columns": [
+    "sl",
+    "dw",
+    "wxrq",
+    "wxdd",
+    "gscl"
+  ],
+  "fields": [
+    {
+      "name": "sl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "4",
+        "2",
+        "3"
+      ],
+      "value_pool": [
+        "1",
+        "4",
+        "2",
+        "3"
+      ],
+      "min_value": 1.0,
+      "max_value": 4.0
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "住建局"
+      ],
+      "value_pool": [
+        "住建局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wxrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022年"
+      ],
+      "value_pool": [
+        "2022年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wxdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "城祥大道",
+        "兖兰路",
+        "曾子大道",
+        "获麟街",
+        "建设路",
+        "环山路"
+      ],
+      "value_pool": [
+        "城祥大道",
+        "兖兰路",
+        "曾子大道",
+        "获麟街",
+        "建设路",
+        "环山路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gscl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    }
+  ]
+}

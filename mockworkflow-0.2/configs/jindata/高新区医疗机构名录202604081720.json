@@ -1,0 +1,138 @@
+{
+  "file_name": "高新区医疗机构名录202604081720.xlsx",
+  "table_name": "高新区医疗机构名录202604081720",
+  "row_count": 4,
+  "columns": [
+    "frxm",
+    "zlkmmc",
+    "jgdz",
+    "jglb",
+    "jgmc",
+    "cws",
+    "fzrxm"
+  ],
+  "fields": [
+    {
+      "name": "frxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杨**",
+        "郑*",
+        "李**",
+        "张**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zlkmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "口腔科******",
+        "全科医疗科(仅限居家护理服务)******",
+        "中医科******"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市高新区洸河街道金色兰庭三期S1-104号店铺",
+        "济宁高新区黄屯街道融创济宁府A-11商-1-101",
+        "济宁高新区洸河街道置城八号IV-2商住楼1层0114号",
+        "山东省济宁市高新区柳行街道龙城公馆27号楼102-104商铺"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jglb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "口腔诊所（备案）",
+        "口腔门诊部",
+        "护理站",
+        "中医（综合）诊所（备案）"
+      ],
+      "value_pool": [
+        "口腔诊所（备案）",
+        "口腔门诊部",
+        "护理站",
+        "中医（综合）诊所（备案）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市爱雅口腔医疗有限公司洸河口腔诊所",
+        "济宁市正博医疗有限公司黄屯口腔门诊部",
+        "济宁凤凰怡康养老服务评估有限公司护理站",
+        "济宁状元医疗服务有限公司中医（综合）诊所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cws",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "fzrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杨**",
+        "郑*",
+        "李**",
+        "张**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "file_name": "高新区劳务派遣单位年度监督检查工作情况公示202605251222.xlsx",
+  "table_name": "高新区劳务派遣单位年度监督检查工作情况公示202605251222",
+  "row_count": 6,
+  "columns": [
+    "jcdwmc",
+    "jcjg",
+    "xsq",
+    "ssjg",
+    "jcnd",
+    "s"
+  ],
+  "fields": [
+    {
+      "name": "jcdwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁融群劳务有限公司",
+        "山东全景无忧人力资源有限公司",
+        "山东华承人力资本管理有限公司",
+        "山东智云劳务有限公司",
+        "济宁众程建筑工程有限公司",
+        "济宁格正服务外包有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格"
+      ],
+      "value_pool": [
+        "合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "人力资源部"
+      ],
+      "value_pool": [
+        "人力资源部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcnd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2024年"
+      ],
+      "value_pool": [
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "file_name": "工艺美术品及收藏品零售个体户信息_0.csv",
+  "table_name": "工艺美术品及收藏品零售个体户信息_0",
+  "row_count": 29,
+  "columns": [
+    "hyml",
+    "qymc",
+    "tyshxydm"
+  ],
+  "fields": [
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "批发和零售业-F"
+      ],
+      "value_pool": [
+        "批发和零售业-F"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县沾墨艺术培训中心",
+        "汶上县畅泰易馆",
+        "汶上县慧文商贸中心",
+        "汶上县宝塔佛缘阁工艺品店",
+        "汶上县新良环球商店",
+        "汶上县珍玩宝篆工艺品店",
+        "汶上县天玺工艺美术部",
+        "汶上县易香缘工艺品店",
+        "汶上县珍爱工艺品店",
+        "汶上县岗鸿工艺品销售店",
+        "汶上县庆鲁工艺礼品店",
+        "汶上县了凡居工艺品店",
+        "汶上县志航陶艺工作室",
+        "汶上县良彬工艺品店",
+        "汶上县溢慧缘工艺品店",
+        "汶上县咪兰工艺品销售店",
+        "汶上县琳达工艺品销售店",
+        "汶上县领秀工艺品销售店",
+        "汶上县沃美工艺品批发店",
+        "汶上县沸扬工艺品制作店",
+        "汶上县淘淘屋工艺品经销店",
+        "汶上县来家工艺品经销店",
+        "汶上县品良工艺品经销店",
+        "汶上县媛熙工艺品经营店",
+        "汶上县自强工艺品经销店",
+        "汶上县沐凡工艺品店",
+        "汶上县简明工艺品经销店",
+        "汶上县中都文玩店",
+        "汶上县仙韵堂工艺品店"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "92370830MA3DKT7Y5M",
+        "92370830MA3F3GKF6E",
+        "92370830MA3JXP7L4W",
+        "92370830MA3JYAGX43",
+        "92370830MA3JYPD30Q",
+        "92370830MA3K1GL111",
+        "92370830MA3K3A135P",
+        "92370830MA3MD7XJ8C",
+        "92370830MA3MDWXJ6X",
+        "92370830MA3NMCWE4T",
+        "92370830MA3Q0R3847",
+        "92370830MA3QGQLR9D",
+        "92370830MA3QL8WM6Q",
+        "92370830MA3QM2KGX4",
+        "92370830MA3RAKCF59",
+        "92370830MA3RH1TN54",
+        "92370830MA3RHAE9XX",
+        "92370830MA3RHALF3M",
+        "92370830MA3RHANP8Q",
+        "92370830MA3RHAQ37C",
+        "92370830MA3RHCMY00",
+        "92370830MA3RHCWY44",
+        "92370830MA3RHD363H",
+        "92370830MA3RHDD249",
+        "92370830MA3RHDGQXE",
+        "92370830MA3RKEFA1A",
+        "92370830MA3RNKPA8Q",
+        "92370830MA3RW1FK3H",
+        "92370830MA3TWUQ27X"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

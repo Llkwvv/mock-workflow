@@ -1,0 +1,93 @@
+{
+  "file_name": "出租汽车企业服务质量信誉考核信息202512261143.xlsx",
+  "table_name": "出租汽车企业服务质量信誉考核信息202512261143",
+  "row_count": 3,
+  "columns": [
+    "khnd",
+    "khdj",
+    "bz",
+    "xh",
+    "qymc"
+  ],
+  "fields": [
+    {
+      "name": "khnd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023年度"
+      ],
+      "value_pool": [
+        "2023年度"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "khdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "A",
+        "AA"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "网约出租汽车企业"
+      ],
+      "value_pool": [
+        "网约出租汽车企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "163",
+        "164",
+        "165"
+      ],
+      "min_value": 163.0,
+      "max_value": 165.0
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "蓝海科技有限责任公司济宁分公司",
+        "滴滴出行科技有限公司济宁办事处",
+        "深圳万顺叫车云信息技术有限公司济宁分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

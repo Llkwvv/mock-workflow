@@ -1,0 +1,128 @@
+{
+  "file_name": "金乡县保险公司名录202507171739.xlsx",
+  "table_name": "金乡县保险公司名录202507171739",
+  "row_count": 34,
+  "columns": [
+    "szjd",
+    "lx",
+    "mc",
+    "sfwfrjg",
+    "xflx"
+  ],
+  "fields": [
+    {
+      "name": "szjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "金乡街道"
+      ],
+      "value_pool": [
+        "金乡街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "保险"
+      ],
+      "value_pool": [
+        "保险"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "中国平安财产保险股份有限公司金乡支公司",
+        "中国人民财产保险股份有限公司金乡支公司",
+        "阳光财产保险股份有限公司济宁中心支公司金乡营销服务部",
+        "太平财产保险有限公司济宁市金乡支公司",
+        "中国人寿财产保险股份有限公司济宁市金乡支公司",
+        "中华联合财产保险股份有限公司济宁市金乡支公司",
+        "中国大地财产保险股份有限公司金乡支公司",
+        "泰山财产保险股份有限公司济宁市金乡支公司",
+        "安邦财产保险股份有限公司济宁市金乡支公司",
+        "华安财产保险股份有限公司济宁市金乡营销服务部",
+        "永安财产保险股份有限公司济宁中心支公司金乡营销服务部",
+        "中国太平洋财产保险股份有限公司金乡支公司",
+        "渤海财产保险股份有限公司济宁中心支公司金乡营销服务部",
+        "中国人寿保险股份有限公司金乡县支公司",
+        "安华农业保险股份有限公司济宁市金乡支公司",
+        "天安财产保险股份有限公司济宁中心支公司金乡营销服务部",
+        "中国平安人寿保险股份有限公司济宁市金乡支公司",
+        "都邦财产保险股份有限公司济宁中心支公司金乡营销服务部",
+        "中国太平洋人寿保险股份有限公司金乡支公司",
+        "长城人寿保险股份有限公司济宁市金乡支公司",
+        "英大泰和人寿保险股份有限公司济宁市金乡支公司",
+        "民生人寿保险股份有限公司济宁中心支公司金乡营销服务部",
+        "泰康人寿保险有限责任公司山东济宁金乡支公司",
+        "华夏人寿保险股份有限公司济宁市金乡支公司",
+        "太平人寿保险有限公司济宁市金乡支公司",
+        "信泰人寿保险\n股份有限公司济宁市金乡支公司",
+        "华泰人寿保险股份有限公司济宁市金乡支公司",
+        "合众人寿保险股份有限公司济宁中心支公司金乡营销服务部",
+        "德华安顾人寿保险有限公司济宁市金乡营销服务部",
+        "富德生命人寿保险股份有限公司济宁市金乡支公司",
+        "中国人民人寿保险股份有限公司济宁中心支公司金乡县营销服务部",
+        "新华人寿保险股份有限公司济宁市金乡支公司",
+        "百年人寿保险股份有限公司济宁市金乡支公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfwfrjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xflx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "财产保险",
+        "人寿保险",
+        "财险保险"
+      ],
+      "value_pool": [
+        "财产保险",
+        "人寿保险",
+        "财险保险"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

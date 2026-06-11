@@ -1,0 +1,148 @@
+{
+  "file_name": "汶上县农业农村局_农民体育骨干信息202507210931.xlsx",
+  "table_name": "汶上县农业农村局_农民体育骨干信息202507210931",
+  "row_count": 49,
+  "columns": [
+    "xb",
+    "ry",
+    "dw",
+    "dd",
+    "lx"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "周长荣",
+        "周  萍",
+        "郑  慧",
+        "张素英",
+        "张启荣",
+        "张建国",
+        "张桂芹",
+        "张福芝",
+        "尹燕贞",
+        "杨桂平",
+        "徐志红",
+        "肖  廷",
+        "武梅岭",
+        "吴艳菊",
+        "王玉芝",
+        "王玉玲",
+        "王淑平",
+        "王  琳",
+        "田秋云",
+        "孙树英",
+        "盛振姣",
+        "沈志河",
+        "屈小妮",
+        "秦月英",
+        "孟祥芹",
+        "马玉香",
+        "柳群英",
+        "刘西玲",
+        "刘淑艳",
+        "刘巧苓",
+        "刘海燕",
+        "刘春菊",
+        "刘爱美",
+        "李月梅",
+        "李永强",
+        "李香菊",
+        "李瑞雪",
+        "李桂菊",
+        "李凤英",
+        "李东立",
+        "李  艳",
+        "李  鹏",
+        "解秀花",
+        "解秋苓",
+        "郭月荣",
+        "陈香菊",
+        "陈巧玲",
+        "曹秀芳",
+        "曹春连"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "汶上县军屯乡",
+        "汶上县白石镇",
+        "农民体育协会",
+        "汶上县南旺镇"
+      ],
+      "value_pool": [
+        "汶上县军屯乡",
+        "汶上县白石镇",
+        "农民体育协会",
+        "汶上县南旺镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "乡镇培训基地"
+      ],
+      "value_pool": [
+        "乡镇培训基地"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "农民体育骨干"
+      ],
+      "value_pool": [
+        "农民体育骨干"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

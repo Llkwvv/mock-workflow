@@ -1,0 +1,142 @@
+{
+  "file_name": "泗水县教育干部信息202605261601.xlsx",
+  "table_name": "泗水县教育干部信息202605261601",
+  "row_count": 49,
+  "columns": [
+    "jygbxm",
+    "zw",
+    "xb",
+    "ssxx"
+  ],
+  "fields": [
+    {
+      "name": "jygbxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘延标",
+        "夏涛",
+        "李鲲鹏",
+        "张岳",
+        "韩兵",
+        "黄磊",
+        "杨玉成",
+        "高海峰",
+        "段来运",
+        "韩鹏",
+        "牛天河",
+        "朱秀丽",
+        "周利",
+        "肖跃壮",
+        "颜卫华",
+        "张峰",
+        "孟昭伟",
+        "杨林",
+        "谷传金",
+        "乔海坤",
+        "彭宝华",
+        "尤继朴",
+        "李强",
+        "吴洪伟",
+        "陈博",
+        "王海永",
+        "刘刚",
+        "孔振",
+        "张学勇",
+        "张锋",
+        "司玉磊",
+        "宋元清",
+        "王振国",
+        "李甜",
+        "吕英新",
+        "颜世东",
+        "张颖",
+        "张志斌",
+        "任丽芝",
+        "李乐乐",
+        "乔艳丽",
+        "陈洪玉",
+        "张体生",
+        "郑玉莲",
+        "周亚",
+        "张洁",
+        "宋瑞",
+        "李凤梅",
+        "刘萍"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "校长",
+        "副校长",
+        "园长",
+        "副园长"
+      ],
+      "value_pool": [
+        "校长",
+        "副校长",
+        "园长",
+        "副园长"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssxx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "县第一中学",
+        "县第二中学",
+        "县实验中学",
+        "县竞技体育学校",
+        "县特殊教育学校",
+        "县龙城初级中学",
+        "县洙泗初级中学",
+        "县实验小学",
+        "县洙泗小学",
+        "县龙城小学",
+        "县实验幼儿园",
+        "县龙城幼儿园",
+        "县福临城幼儿园",
+        "县泗水滨幼儿园"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

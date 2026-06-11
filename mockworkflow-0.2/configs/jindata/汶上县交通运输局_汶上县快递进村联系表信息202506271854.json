@@ -1,0 +1,130 @@
+{
+  "file_name": "汶上县交通运输局_汶上县快递进村联系表信息202506271854.xlsx",
+  "table_name": "汶上县交通运输局_汶上县快递进村联系表信息202506271854",
+  "row_count": 15,
+  "columns": [
+    "cwlxr",
+    "jzc",
+    "jyr",
+    "xzjd",
+    "xsq"
+  ],
+  "fields": [
+    {
+      "name": "cwlxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "已送件"
+      ],
+      "value_pool": [
+        "已送件"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "莲花湖村",
+        "北城新村",
+        "宋铺村",
+        "大唐阳村",
+        "南旺新村",
+        "刘楼村",
+        "次丘村",
+        "侯之门村",
+        "五星新村",
+        "北园新村",
+        "曹营村",
+        "军屯村",
+        "白石村",
+        "东官庄村",
+        "孔家楼"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "杨福先",
+        "田艳",
+        "程爱珍",
+        "刘淑华",
+        "刘梦巧",
+        "杜  辉",
+        "王秀全",
+        "李健峰",
+        "郑淑梅",
+        "崔向阳",
+        "刘成军",
+        "侯典虎",
+        "夏本东",
+        "王月清",
+        "郭英"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "汶上街道",
+        "中都街道",
+        "南站街道",
+        "康驿镇",
+        "南旺镇",
+        "刘楼镇",
+        "次邱镇",
+        "寅寺镇",
+        "郭楼镇",
+        "郭仓镇",
+        "杨店镇",
+        "军屯乡",
+        "白石镇",
+        "苑庄镇",
+        "义桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

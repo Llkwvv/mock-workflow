@@ -1,0 +1,182 @@
+{
+  "file_name": "济宁市基本医疗保险谈判药品名单-中成药_0.csv",
+  "table_name": "济宁市基本医疗保险谈判药品名单-中成药_0",
+  "row_count": 23,
+  "columns": [
+    "bh",
+    "xyyxq",
+    "zl",
+    "ybzfbz",
+    "bz",
+    "ypmc"
+  ],
+  "fields": [
+    {
+      "name": "bh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "min_value": 1.0,
+      "max_value": 23.0
+    },
+    {
+      "name": "xyyxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020年1月1日至2021年12月31日"
+      ],
+      "value_pool": [
+        "2020年1月1日至2021年12月31日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "乙"
+      ],
+      "value_pool": [
+        "乙"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ybzfbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "2.1元(0.5g/粒)",
+        "0.19元(40mg/丸)",
+        "4.3元(0.4g/粒)",
+        "9.26元(5g/袋)",
+        "4.79元(8g/袋)",
+        "无",
+        "1.44元(0.4g/片)",
+        "7.5元(5g/袋)",
+        "16.5元(0.65g/瓶)",
+        "2.93元(6g/袋)",
+        "6.49元(5g/25粒)",
+        "1.38元(0.3g/粒)",
+        "4.16元(8g/袋)",
+        "0.69元(0.5g/粒)",
+        "16.5元(12mg/片)",
+        "58.5元(0.13g/支)",
+        "22.08元(10ml/支)",
+        "19.68元(2ml/支)",
+        "93.7元(5ml/支)",
+        "10.19元(0.27g/片)",
+        "163元(10g/瓶)",
+        "6.18元(每粒含人参皂苷Rg3 10mg)",
+        "200元(250mg/支)"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "无",
+        "限放疗后急性咽炎的轻症患者。",
+        "限慢性肾衰竭患者。",
+        "限二级及以上医疗机构冠心病心绞痛及冠心病所致左心功能不全II-III级的患者，单次住院最多支付14天。",
+        "限中风病中经络（轻中度脑梗塞）恢复期患者。",
+        "限中风病中经络恢复期患者。",
+        "限中重度脑梗塞、冠心病心绞痛患者。",
+        "限化疗产生心脏毒性引起的心绞痛患者。",
+        "限二级及以上医疗机构脑梗死恢复期患者，单次住院最多支付14天。",
+        "限二级及以上医疗机构重症患者的急救抢救。",
+        "限初治的急性早幼粒细胞白血病。",
+        "限中晚期食道癌所致食道狭窄梗阻的患者。",
+        "限原发性肺癌、肝癌化疗期间使用。",
+        "限二级及以上医疗机构肿瘤患者，单次住院最多支付14天。"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ypmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "芪黄通秘软胶囊",
+        "冬凌草滴丸",
+        "痰热清胶囊",
+        "金花清感颗粒",
+        "麻芩消咳颗粒",
+        "射麻口服液",
+        "参乌益肾片",
+        "芪黄颗粒",
+        "注射用益气复脉(冻干)",
+        "八味芪龙颗粒",
+        "杜蛭丸",
+        "脑心安胶囊",
+        "芪丹通络颗粒",
+        "芪芎通络胶囊",
+        "西红花总苷片",
+        "注射用丹参多酚酸",
+        "血必净注射液",
+        "银杏内酯注射液",
+        "银杏二萜内酯葡胺注射液",
+        "复方黄黛片",
+        "食道平散",
+        "参一胶囊",
+        "注射用黄芪多糖"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

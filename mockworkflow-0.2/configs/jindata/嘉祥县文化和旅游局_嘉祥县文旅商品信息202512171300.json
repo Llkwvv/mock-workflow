@@ -1,0 +1,160 @@
+{
+  "file_name": "嘉祥县文化和旅游局_嘉祥县文旅商品信息202512171300.xlsx",
+  "table_name": "嘉祥县文化和旅游局_嘉祥县文旅商品信息202512171300",
+  "row_count": 22,
+  "columns": [
+    "lb",
+    "lxr",
+    "zpmc",
+    "zz",
+    "xsdw",
+    "lxdh"
+  ],
+  "fields": [
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "鲁锦",
+        "石雕",
+        "酒",
+        "茶"
+      ],
+      "value_pool": [
+        "鲁锦",
+        "石雕",
+        "酒",
+        "茶"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "郝秋霞",
+        "孔祥开",
+        "杜艳丽",
+        "王鹏飞"
+      ],
+      "value_pool": [
+        "郝秋霞",
+        "孔祥开",
+        "杜艳丽",
+        "王鹏飞"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zpmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "鲁锦手绣四件套——玉美人系列",
+        "春秋源鲁锦手工艺品系列",
+        "鲁锦家纺——望乡系列",
+        "鲁锦生态精品——太极服系列",
+        "春秋源新中式男装系列",
+        "春秋源鲁锦文化服饰——婴幼儿系列",
+        "禅意手绘茶席系列",
+        "鲁锦旗袍——虞美人系列",
+        "春秋源鲁锦汉服系列",
+        "大展宏图",
+        "吉祥如意",
+        "连年有余",
+        "走向成功",
+        "情暖人间",
+        "石雕麒麟",
+        "一帆风顺",
+        "马上发财",
+        "毛泽东像",
+        "旅游区酒品定制1",
+        "旅游区酒品定制2",
+        "嘉菊（朵云清）",
+        "祥菊（朵云清）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "张瑞华、杜美菊",
+        "孔祥开",
+        "山东红太阳酒业集团有限公司",
+        "山东朵云清农业股份有限公司"
+      ],
+      "value_pool": [
+        "张瑞华、杜美菊",
+        "孔祥开",
+        "山东红太阳酒业集团有限公司",
+        "山东朵云清农业股份有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥春秋源鲁锦博物馆",
+        "嘉祥县徐氏石业有限责任公司",
+        "山东红太阳酒业集团有限公司",
+        "山东朵云清农业股份有限公司"
+      ],
+      "value_pool": [
+        "嘉祥春秋源鲁锦博物馆",
+        "嘉祥县徐氏石业有限责任公司",
+        "山东红太阳酒业集团有限公司",
+        "山东朵云清农业股份有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "1867873****",
+        "1800537****",
+        "1356379****",
+        "1320537****"
+      ],
+      "value_pool": [
+        "1867873****",
+        "1800537****",
+        "1356379****",
+        "1320537****"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "file_name": "鱼台县档案馆_借阅记录信息202506202040.xlsx",
+  "table_name": "鱼台县档案馆_借阅记录信息202506202040",
+  "row_count": 49,
+  "columns": [
+    "jysj",
+    "jydw",
+    "jydd",
+    "jypj",
+    "fwry"
+  ],
+  "fields": [
+    {
+      "name": "jysj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "44428",
+        "44427",
+        "44383",
+        "44375",
+        "44342",
+        "44378",
+        "44293",
+        "44292",
+        "44158",
+        "44148",
+        "44144",
+        "43973",
+        "43972",
+        "43948",
+        "43762",
+        "43804",
+        "44101",
+        "43755",
+        "44647",
+        "44705",
+        "44747",
+        "44768",
+        "44935",
+        "44979",
+        "44947",
+        "44953",
+        "44950",
+        "44962",
+        "44974",
+        "44984",
+        "44981",
+        "44990",
+        "45011",
+        "45031",
+        "45033",
+        "45073",
+        "45079",
+        "45084",
+        "45101",
+        "45112",
+        "45133",
+        "45216",
+        "45134",
+        "45139",
+        "45151",
+        "45344",
+        "45312",
+        "45318",
+        "45315"
+      ],
+      "min_value": 43755.0,
+      "max_value": 45344.0
+    },
+    {
+      "name": "jydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县纪委",
+        "鱼台县纪委监委",
+        "鱼台县人社局",
+        "鱼台县交易中心",
+        "鱼台县组织部",
+        "鱼台县镇街"
+      ],
+      "value_pool": [
+        "鱼台县纪委",
+        "鱼台县纪委监委",
+        "鱼台县人社局",
+        "鱼台县交易中心",
+        "鱼台县组织部",
+        "鱼台县镇街"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jydd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "档案馆"
+      ],
+      "value_pool": [
+        "档案馆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jypj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "介绍信",
+        "调取证据通知书",
+        "借阅证明",
+        "阅档函"
+      ],
+      "value_pool": [
+        "介绍信",
+        "调取证据通知书",
+        "借阅证明",
+        "阅档函"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "杨建民",
+        "杨*民"
+      ],
+      "value_pool": [
+        "杨建民",
+        "杨*民"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

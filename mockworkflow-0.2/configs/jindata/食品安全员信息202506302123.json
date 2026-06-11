@@ -1,0 +1,150 @@
+{
+  "file_name": "食品安全员信息202506302123.xlsx",
+  "table_name": "食品安全员信息202506302123",
+  "row_count": 40,
+  "columns": [
+    "dz",
+    "khfs",
+    "khjg",
+    "spaqy",
+    "qymc"
+  ],
+  "fields": [
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市微山县昭阳街道昭阳工业园（七籽莲饮食公司北10米）",
+        "微山县留庄镇李庄村文明大街43号",
+        "山东省济宁市微山县留庄镇留庄七村北转盘路东50米路北",
+        "山东省微山县夏镇街道夏阳路西首",
+        "山东省济宁市微山县韩庄镇孟家庄村",
+        "山东省济宁市微山县经济开发区104国道东侧",
+        "山东省济宁市微山县韩庄镇郗山二村104国道1号",
+        "山东省微山县韩庄镇工业园区（104国道微山石庄）",
+        "山东省济宁市微山县昭阳街道西万工业园",
+        "微山县夏镇后洛房村",
+        "山东省济宁市微山县经济开发区青山路10号院内",
+        "山东省济宁市微山县经济开发区国富街1号",
+        "微山县北环路西首",
+        "山东省济宁市微山县留庄镇南羊庄村村委会东800米",
+        "微山县鲁桥镇鲁桥一村幸福中路189号",
+        "山东省济宁市微山县两城镇王庄北500米处",
+        "微山县戚城北街",
+        "山东省济宁市微山县韩庄镇杏树园村花园路041号",
+        "山东省济宁市微山经济开发区（东风东路东首）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "khfs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "97",
+        "100",
+        "94",
+        "90"
+      ],
+      "value_pool": [
+        "97",
+        "100",
+        "94",
+        "90"
+      ],
+      "min_value": 90.0,
+      "max_value": 100.0
+    },
+    {
+      "name": "khjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格",
+        "2024合格"
+      ],
+      "value_pool": [
+        "合格",
+        "2024合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spaqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "刘海",
+        "陈薇薇",
+        "李圆圆",
+        "朱耿雨",
+        "杜知晓",
+        "张倩",
+        "吴清华",
+        "张连成",
+        "王继",
+        "陈正心",
+        "李彦梅",
+        "唐凤群",
+        "马力",
+        "王昌云",
+        "马世强",
+        "马良",
+        "徐化波",
+        "张爱民",
+        "陈川"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山湖味珍食品有限公司",
+        "微山县叶圆贸易有限公司",
+        "微山荣峰湖产品有限公司",
+        "山东微山湖酒业有限公司",
+        "微山信诺食品有限公司",
+        "山东微山湖经贸实业有限公司",
+        "微山县普发湖产食品有限公司",
+        "山东天泉食品有限公司",
+        "微山县永甲湖产食品有限公司",
+        "微山县华建湖产食品加工厂",
+        "山东润智食品有限公司",
+        "山东微山冠荷食品有限公司",
+        "微山县南阳湖禽蛋加工厂",
+        "微山县万盛荷水产品有限公司",
+        "微山县世强湖产品有限公司",
+        "微山薯香园食品有限公司",
+        "微山县鲁南湖产食品有限公司",
+        "微山金荷都食品有限公司",
+        "微山宏达水产食品有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

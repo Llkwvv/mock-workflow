@@ -1,0 +1,178 @@
+{
+  "file_name": "执法中队执法办案考核评分表202507242143.xlsx",
+  "table_name": "执法中队执法办案考核评分表202507242143",
+  "row_count": 43,
+  "columns": [
+    "dw",
+    "kf",
+    "jycx",
+    "zfbadf",
+    "jf",
+    "ybcx"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "执法监察一中队",
+        "执法监察二中队",
+        "执法监察三中队",
+        "执法监察四中队",
+        "执法监察五中队",
+        "执法监察六中队",
+        "执法监察七中队",
+        "渣土管理监察中队",
+        "园林绿化监察中队",
+        "金乡街道执法中队",
+        "鱼山执法中队",
+        "羊山执法中队",
+        "马庙执法中队",
+        "胡集执法中队",
+        "卜集执法中队",
+        "高河街道执法中队",
+        "化雨执法中队",
+        "霄云执法中队",
+        "司马执法中队",
+        "鸡黍执法中队",
+        "兴隆执法中队",
+        "王丕执法中队",
+        "合计",
+        "执法监察八中队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kf",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.0"
+      ],
+      "value_pool": [
+        "0.0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "jycx",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "4",
+        "5",
+        "10",
+        "1",
+        "3",
+        "25",
+        "6",
+        "7",
+        "2",
+        "SUM(C3:C24)",
+        "9",
+        "0",
+        "13",
+        "8",
+        "78"
+      ],
+      "min_value": 0.0,
+      "max_value": 78.0
+    },
+    {
+      "name": "zfbadf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "8",
+        "10",
+        "20",
+        "2",
+        "6",
+        "17",
+        "50",
+        "12",
+        "14",
+        "4",
+        "SUM(G3:G24)",
+        "18",
+        "0",
+        "26",
+        "16",
+        "171"
+      ],
+      "min_value": 0.0,
+      "max_value": 171.0
+    },
+    {
+      "name": "jf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "8",
+        "10",
+        "20",
+        "2",
+        "6",
+        "17",
+        "50",
+        "12",
+        "14",
+        "4",
+        "SUM(F3:F24)",
+        "18",
+        "0",
+        "26",
+        "16",
+        "171"
+      ],
+      "min_value": 0.0,
+      "max_value": 171.0
+    },
+    {
+      "name": "ybcx",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "3",
+        "SUM(D3:D24)",
+        "1",
+        "2"
+      ],
+      "value_pool": [
+        "0",
+        "3",
+        "SUM(D3:D24)",
+        "1",
+        "2"
+      ],
+      "min_value": 0.0,
+      "max_value": 3.0
+    }
+  ]
+}

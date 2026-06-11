@@ -1,0 +1,152 @@
+{
+  "file_name": "微山县加油站夜间错时加油情况202506271942.xlsx",
+  "table_name": "微山县加油站夜间错时加油情况202506271942",
+  "row_count": 61,
+  "columns": [
+    "jyzmc",
+    "sfjjyh",
+    "sfmfxc",
+    "bldgwsfyh",
+    "sfzssw"
+  ],
+  "fields": [
+    {
+      "name": "jyzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "中国石化销售有限公司山东济宁微山第一加油站",
+        "中国石化销售有限公司山东济宁微山第二加油站",
+        "中国石化销售有限公司山东济宁微山第三加油站",
+        "中国石化销售有限公司山东济宁微山第四加油站",
+        "中国石化销售有限公司山东济宁微山第八加油站",
+        "中国石化销售有限公司山东济宁微山第十加油站",
+        "中国石化销售有限公司山东济宁微山第十二加油站",
+        "中国石化销售有限公司山东济宁微山第十四加油站",
+        "中国石化销售有限公司山东济宁微山第十六加油站",
+        "中国石化销售有限公司山东济宁微山第十七加油站",
+        "中国石化销售有限公司山东济宁微山第十八加油站",
+        "中国石化销售有限公司山东济宁微山第十九加油站",
+        "中国石化销售有限公司山东济宁微山第二十加油站",
+        "中国石油微山湖大道站",
+        "中国石油微山留庄站",
+        "中国石油微山韩庄站",
+        "中国石油微山欢城站",
+        "微山县方旭加油站",
+        "微山县信保物资加油站",
+        "微山县付村前寨加油站",
+        "微山县欢城镇广源加油站",
+        "微山县付村宏盛加油站",
+        "微山县欢城镇石庄宏亚加油站",
+        "微山县洪大加油站",
+        "微山县湖西加油站",
+        "微山县欢城城北加油站",
+        "微山县汇鑫贸易有限公司加油站",
+        "微山县两城镇鲁南加油站有限公司",
+        "微山县鲁桥镇路丰加油站",
+        "微山县马坡宗村储齐加油站",
+        "微山县马坡求实加油站",
+        "微山县留庄镇满口加油站",
+        "山东省七五生建煤矿劳动服务公司加油城",
+        "微山县两城镇山水石化加油站",
+        "微山县付村盛东加油站",
+        "微山县顺通加油站",
+        "微山县微山岛久仰加油站",
+        "微山县郗山加油站",
+        "微山县志保加油站",
+        "微山县马坡鑫源加油站",
+        "微山县欢城镇西兴发加油站",
+        "微山县欢城镇尹洼加油站",
+        "微山县欢城镇东加油站",
+        "微山县欢城镇镇南加油站",
+        "山东道中连化工有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfjjyh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "否"
+      ],
+      "value_pool": [
+        "是",
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfmfxc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "是"
+      ],
+      "value_pool": [
+        "否",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bldgwsfyh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "无便利店",
+        "无",
+        "否",
+        "不涉及",
+        "2023"
+      ],
+      "value_pool": [
+        "是",
+        "无便利店",
+        "无",
+        "否",
+        "不涉及",
+        "2023"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzssw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "是"
+      ],
+      "value_pool": [
+        "否",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

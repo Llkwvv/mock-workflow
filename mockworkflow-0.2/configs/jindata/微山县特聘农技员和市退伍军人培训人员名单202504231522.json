@@ -1,0 +1,155 @@
+{
+  "file_name": "微山县特聘农技员和市退伍军人培训人员名单202504231522.xlsx",
+  "table_name": "微山县特聘农技员和市退伍军人培训人员名单202504231522",
+  "row_count": 26,
+  "columns": [
+    "whcd",
+    "sj",
+    "姓名",
+    "gzdw",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "whcd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "大专",
+        "高中",
+        "初中",
+        "中专",
+        "高中或中专",
+        "高职或大专"
+      ],
+      "value_pool": [
+        "大专",
+        "高中",
+        "初中",
+        "中专",
+        "高中或中专",
+        "高职或大专"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "1356119****",
+        "1356272****",
+        "1379170****",
+        "1506372****",
+        "1527576****",
+        "1379232****",
+        "1768612****",
+        "1526378****",
+        "1509267****",
+        "1395470****",
+        "1525479****",
+        "1347576****",
+        "1509279****",
+        "1563452****",
+        "1327516****",
+        "1505371****",
+        "1366537****",
+        "1525374****",
+        "1315373****",
+        "1760711****",
+        "1385477****",
+        "1556235****",
+        "1396376****",
+        "1367867****",
+        "1596577****"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘**",
+        "殷**",
+        "张*",
+        "孙**",
+        "杨**",
+        "王**",
+        "李**",
+        "张**",
+        "仲*",
+        "潘**",
+        "于**",
+        "何**",
+        "冯**",
+        "吴**",
+        "韦**",
+        "丁**",
+        "岳**",
+        "盛**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "多义新村",
+        "微山县饴脆园家庭农场",
+        "昭阳街道西万一村",
+        "夏镇街道李楼村",
+        "傅村街道郑庄村",
+        "微山县依众种植专业合作社",
+        "留庄镇留庄四村",
+        "微山县果旺种植专业合作社负责人",
+        "微山仲一农业有限公司",
+        "微山志国种植有限公司",
+        "南阳镇关王庙村",
+        "张楼镇东丁官屯村",
+        "东明村",
+        "微山县诚信农机专业合作社",
+        "微山县丰产种植专业合作社",
+        "未标注单位",
+        "微山县昭阳街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

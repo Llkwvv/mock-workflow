@@ -1,0 +1,93 @@
+{
+  "file_name": "梁山县交通运输简易处罚案件的信息202605261555.xlsx",
+  "table_name": "梁山县交通运输简易处罚案件的信息202605261555",
+  "row_count": 3,
+  "columns": [
+    "wfsj",
+    "ay",
+    "cfyj",
+    "wfdd",
+    "xydm"
+  ],
+  "fields": [
+    {
+      "name": "wfsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-01-09",
+        "2025-02-05",
+        "2025-02-13"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ay",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "梁山县龙腾货运服务有限公司车辆违法超限运输（总质量超限）案",
+        "济宁航宇水运股份有限公司船舶未按照规定开展开航前自查案",
+        "宿迁市臣辉物流有限公司不按照规定保持船舶自动识别系统处于正常工作状态案"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cfyj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "《中华人民共和国公路法》第七十六条第五项,《公路安全保护条例》第六十四条,《超限运输车辆行驶公路管理规定》第四十三条第一款第二项,《超限运输车辆行驶公路管理规定》第四十七条",
+        "《中华人民共和国船舶安全监督规则》第五十三条,《中华人民共和国行政处罚法》第三十二条",
+        "《中华人民共和国内河交通安全管理条例》第八十一条,《中华人民共和国内河海事行政处罚规定》第十七条第（十四）项"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wfdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "梁山G342孙坊桥段",
+        "济宁港航梁山港"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "9137083205902236XA",
+        "913708267986971256",
+        "91321302MA1WX75RXD"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

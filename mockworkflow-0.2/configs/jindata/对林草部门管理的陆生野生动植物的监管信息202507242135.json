@@ -1,0 +1,84 @@
+{
+  "file_name": "对林草部门管理的陆生野生动植物的监管信息202507242135.xlsx",
+  "table_name": "对林草部门管理的陆生野生动植物的监管信息202507242135",
+  "row_count": 1,
+  "columns": [
+    "jgzq",
+    "jgxxzymc",
+    "jgdd",
+    "jgry",
+    "dzwmc"
+  ],
+  "fields": [
+    {
+      "name": "jgzq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "全年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgxxzymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "野生植物"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "霄云镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "李*忠"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dzwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "银杏"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

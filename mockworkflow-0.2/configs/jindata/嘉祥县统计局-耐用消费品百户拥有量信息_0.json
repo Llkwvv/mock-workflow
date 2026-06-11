@@ -1,0 +1,122 @@
+{
+  "file_name": "嘉祥县统计局-耐用消费品百户拥有量信息_0.csv",
+  "table_name": "嘉祥县统计局-耐用消费品百户拥有量信息_0",
+  "row_count": 23,
+  "columns": [
+    "dw",
+    "bhzs",
+    "nf",
+    "zbmc"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "辆",
+        "台",
+        "线",
+        "部",
+        "架"
+      ],
+      "value_pool": [
+        "辆",
+        "台",
+        "线",
+        "部",
+        "架"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bhzs",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "45.3333333333333",
+        "17.3333333333333",
+        "157.333333333333",
+        "101.333333333333",
+        "104.0",
+        "16.6666666666667",
+        "108.0",
+        "116.666666666667",
+        "92.0",
+        "0.0",
+        "27.3333333333333",
+        "4.66666666666667",
+        "239.333333333333",
+        "180.0",
+        "50.0",
+        "46.0",
+        "2.66666666666667",
+        "1.33333333333333",
+        "6.0",
+        "4.0"
+      ],
+      "min_value": 0.0,
+      "max_value": 239.333333333333
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019.0"
+      ],
+      "value_pool": [
+        "2019.0"
+      ],
+      "min_value": 2019.0,
+      "max_value": 2019.0
+    },
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "    1.家用汽车",
+        "    2.摩托车",
+        "    3.助力车",
+        "    4.洗衣机",
+        "    5.电冰箱（柜）",
+        "    6.微波炉",
+        "    7.彩色电视机",
+        "    8.其中：接入有线电视",
+        "    9.空调",
+        "    10.热水器",
+        "    11.其中：太阳能热水器",
+        "    12.洗碗机",
+        "    13.排油烟机",
+        "    14.固定电话",
+        "    15.移动电话",
+        "    16.其中：接入互联网",
+        "    17.计算机",
+        "    18.其中：接入互联网",
+        "    19.照相机",
+        "    20.中高档乐器",
+        "    21.健身器材",
+        "    22.空气净化器（含新风系统）",
+        "    23.吸尘器"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

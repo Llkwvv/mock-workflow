@@ -1,0 +1,238 @@
+{
+  "file_name": "微山县肢残矫治手术救助信息202506271738.xlsx",
+  "table_name": "微山县肢残矫治手术救助信息202506271738",
+  "row_count": 43,
+  "columns": [
+    "ddyy",
+    "姓名",
+    "xb",
+    "mz",
+    "sfzh",
+    "jbmc",
+    "cjlx",
+    "cjcd"
+  ],
+  "fields": [
+    {
+      "name": "ddyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东第一医科大学附属省立医院",
+        "山东大学齐鲁医院",
+        "济南市儿童医院",
+        "山东省康复研究中心（山东省康复医院）",
+        "济宁医学院附属医院",
+        "山东省立第三医院"
+      ],
+      "value_pool": [
+        "山东第一医科大学附属省立医院",
+        "山东大学齐鲁医院",
+        "济南市儿童医院",
+        "山东省康复研究中心（山东省康复医院）",
+        "济宁医学院附属医院",
+        "山东省立第三医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "侯**",
+        "夏**",
+        "孔**",
+        "高**",
+        "刘**",
+        "严**",
+        "胡**",
+        "张**",
+        "邵**",
+        "孟**",
+        "徐**",
+        "朱**",
+        "吕*",
+        "郑**",
+        "陶**",
+        "盛**",
+        "李**",
+        "陈**",
+        "姜**",
+        "丁**",
+        "马**",
+        "孙**",
+        "王**",
+        "卞**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉族"
+      ],
+      "value_pool": [
+        "汉族"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370826**********26",
+        "370826**********32",
+        "370826**********30",
+        "370826**********1X",
+        "370826**********10",
+        "370826**********3X",
+        "370826**********39",
+        "370826**********24",
+        "370826**********23",
+        "370826**********20",
+        "370826**********15",
+        "370826**********29",
+        "370826**********42",
+        "370826**********57",
+        "370826**********01",
+        "370826**********27",
+        "370826**********5X",
+        "370826**********49",
+        "370826**********18",
+        "320321**********20",
+        "370826**********21",
+        "370826**********13"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "后天性下肢畸形；McCune-Albright综合征；双髋内翻畸形",
+        "双侧先天性马蹄内翻足术后残余畸形",
+        "左髋关节脱位",
+        "膝外翻",
+        "先天性胫骨假关节",
+        "后天性膝外翻",
+        "双侧马蹄内翻足、脑瘫",
+        "马蹄外翻足",
+        "脊柱侧后凸畸形",
+        "腰背部异常隆起3月。剃刀背畸形明显，左侧腰部异常膨隆，双侧肌肉软组织张力不同。双侧臀部大小不对称",
+        "双侧马蹄内翻足",
+        "脊柱侧弯",
+        "后天性髋内翻；McCune-Albright综合征",
+        "1.右侧马蹄足畸形2.左侧马蹄足畸形术后3.脑瘫",
+        "双手多关节挛缩",
+        "双下肢畸形",
+        "双侧扁平足外翻畸形",
+        "髋脱位术后取内固定",
+        "右侧发育性髋关节脱位术后内固定物存留",
+        "神经纤维瘤病合并脊柱侧凸",
+        "下肢畸形",
+        "右下肢畸形",
+        "1.取除外固定装置2.左下肢畸形术后",
+        "1.去除外固定装置2.双下肢畸形术后",
+        "1.双下肢畸形2.脑瘫",
+        "1.左腕部畸形2.左下肢畸形术后3.去除外固定装置",
+        "1.左下肢畸形术后2.取出外固定装置",
+        "DDH术后取内固定",
+        "1.左下肢畸形术后2.去除外固定装置",
+        "左下肢畸形",
+        "胫骨假关节",
+        "脑瘫，足外翻",
+        "左侧髋关节脱位",
+        "髋关节脱位术后"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "肢体",
+        "多重"
+      ],
+      "value_pool": [
+        "肢体",
+        "多重"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjcd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "二级",
+        "三级",
+        "未定级",
+        "四级",
+        "一级"
+      ],
+      "value_pool": [
+        "二级",
+        "三级",
+        "未定级",
+        "四级",
+        "一级"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

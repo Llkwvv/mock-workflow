@@ -1,0 +1,181 @@
+{
+  "file_name": "济宁市普通国省道路侧护栏信息202603280802.xlsx",
+  "table_name": "济宁市普通国省道路侧护栏信息202603280802",
+  "row_count": 24,
+  "columns": [
+    "cd",
+    "qdzh",
+    "lxbh",
+    "zdzh",
+    "fb",
+    "gydw"
+  ],
+  "fields": [
+    {
+      "name": "cd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "100",
+        "216",
+        "235",
+        "385",
+        "480",
+        "2080",
+        "124",
+        "10",
+        "44",
+        "48",
+        "824",
+        "536",
+        "54",
+        "1800",
+        "186",
+        "720",
+        "128",
+        "160",
+        "390",
+        "250",
+        "300",
+        "860",
+        "200"
+      ],
+      "min_value": 10.0,
+      "max_value": 2080.0
+    },
+    {
+      "name": "qdzh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "217600",
+        "221174",
+        "221250",
+        "140675",
+        "145000",
+        "147586",
+        "173000",
+        "175905",
+        "176490",
+        "176510",
+        "180300",
+        "181012",
+        "181610",
+        "181656",
+        "183350",
+        "193930",
+        "195800",
+        "196800",
+        "198520",
+        "201100",
+        "201360",
+        "201750",
+        "217640",
+        "217770"
+      ],
+      "min_value": 140675.0,
+      "max_value": 221250.0
+    },
+    {
+      "name": "lxbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "S242",
+        "S243",
+        "S321"
+      ],
+      "value_pool": [
+        "S242",
+        "S243",
+        "S321"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdzh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "217700",
+        "221390",
+        "221485",
+        "141060",
+        "145480",
+        "149666",
+        "173100",
+        "175915",
+        "176534",
+        "176558",
+        "180712",
+        "181280",
+        "181654",
+        "181710",
+        "184600",
+        "194080",
+        "196420",
+        "196900",
+        "198600",
+        "201300",
+        "201600",
+        "201900",
+        "218500",
+        "217900"
+      ],
+      "min_value": 141060.0,
+      "max_value": 221485.0
+    },
+    {
+      "name": "fb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "上下行",
+        "上行",
+        "下行"
+      ],
+      "value_pool": [
+        "上下行",
+        "上行",
+        "下行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁市公路事业发展中心梁山分中心"
+      ],
+      "value_pool": [
+        "济宁市公路事业发展中心梁山分中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

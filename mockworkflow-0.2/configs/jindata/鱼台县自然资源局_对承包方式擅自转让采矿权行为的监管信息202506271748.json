@@ -1,0 +1,144 @@
+{
+  "file_name": "鱼台县自然资源局_对承包方式擅自转让采矿权行为的监管信息202506271748.xlsx",
+  "table_name": "鱼台县自然资源局_对承包方式擅自转让采矿权行为的监管信息202506271748",
+  "row_count": 60,
+  "columns": [
+    "dd",
+    "sj",
+    "xcfs",
+    "xcry",
+    "xcjgqk"
+  ],
+  "fields": [
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "老砦镇双河煤矿",
+        "张黄镇鹿洼煤矿"
+      ],
+      "value_pool": [
+        "老砦镇双河煤矿",
+        "张黄镇鹿洼煤矿"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "43936",
+        "43962",
+        "43994",
+        "44006",
+        "44016",
+        "44035",
+        "44127",
+        "44137",
+        "44191",
+        "44223",
+        "44255",
+        "44284",
+        "44316",
+        "44345",
+        "44377",
+        "44405",
+        "44431",
+        "44432",
+        "44301",
+        "44327",
+        "44359",
+        "44371",
+        "44381",
+        "44400",
+        "44492",
+        "44502",
+        "44556",
+        "44588",
+        "44620",
+        "44649",
+        "44681",
+        "44710",
+        "44742",
+        "44770",
+        "44796",
+        "44797",
+        "44857",
+        "44867",
+        "44921",
+        "44953",
+        "44985",
+        "45014",
+        "45046",
+        "45075",
+        "45107",
+        "45135",
+        "45161",
+        "45162",
+        "2025年1季度"
+      ],
+      "min_value": 43936.0,
+      "max_value": 45162.0
+    },
+    {
+      "name": "xcfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "日常监督检查"
+      ],
+      "value_pool": [
+        "日常监督检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "屈云标、刘志国"
+      ],
+      "value_pool": [
+        "屈云标、刘志国"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcjgqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "通过对该煤矿采矿权监督检查，未发现擅自转让行为。",
+        "通过对该煤矿采矿权监督检查，未发现擅自转让行为，一切正常。"
+      ],
+      "value_pool": [
+        "通过对该煤矿采矿权监督检查，未发现擅自转让行为。",
+        "通过对该煤矿采矿权监督检查，未发现擅自转让行为，一切正常。"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

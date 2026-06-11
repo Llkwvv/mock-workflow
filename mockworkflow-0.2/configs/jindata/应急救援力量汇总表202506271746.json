@@ -1,0 +1,148 @@
+{
+  "file_name": "应急救援力量汇总表202506271746.xlsx",
+  "table_name": "应急救援力量汇总表202506271746",
+  "row_count": 24,
+  "columns": [
+    "zgbm",
+    "xh",
+    "xz",
+    "dwmc",
+    "zcrs",
+    "jyzc"
+  ],
+  "fields": [
+    {
+      "name": "zgbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "泗水县"
+      ],
+      "value_pool": [
+        "泗水县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "min_value": 1.0,
+      "max_value": 24.0
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "兼职",
+        "公益组织"
+      ],
+      "value_pool": [
+        "兼职",
+        "公益组织"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "蓝天救援大队",
+        "泗水县泉乡义工协会应急救援大队",
+        "华威应急救援队",
+        "百行应急救援队"
+      ],
+      "value_pool": [
+        "蓝天救援大队",
+        "泗水县泉乡义工协会应急救援大队",
+        "华威应急救援队",
+        "百行应急救援队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcrs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "42",
+        "31",
+        "21",
+        "36"
+      ],
+      "value_pool": [
+        "42",
+        "31",
+        "21",
+        "36"
+      ],
+      "min_value": 21.0,
+      "max_value": 42.0
+    },
+    {
+      "name": "jyzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "综合",
+        "陆地搜救"
+      ],
+      "value_pool": [
+        "综合",
+        "陆地搜救"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

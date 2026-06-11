@@ -1,0 +1,155 @@
+{
+  "file_name": "嘉祥县农业农村局机构设置及联系方式信息202506241224.xlsx",
+  "table_name": "嘉祥县农业农村局机构设置及联系方式信息202506241224",
+  "row_count": 27,
+  "columns": [
+    "fzr",
+    "bgdh",
+    "ks",
+    "dw",
+    "kslb"
+  ],
+  "fields": [
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "高春雷",
+        "高秀军",
+        "马登斌",
+        "于洪洲",
+        "汪中民",
+        "付鹏",
+        "周晓芳",
+        "阳立恒",
+        "胡枫冉",
+        "王冬霞",
+        "汤勇",
+        "杨存祥",
+        "吴爱秋",
+        "王桂丽",
+        "李兆安",
+        "魏彦生",
+        "高先涛",
+        "张卫华",
+        "李上县",
+        "褚福宽",
+        "张宝玉",
+        "米宁",
+        "王通庆",
+        "高进涛"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bgdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "0537-6861414",
+        "0537-6866520",
+        "0537-6866501",
+        "0537-6866589",
+        "0537-6866512",
+        "0537-6866587",
+        "0537-6866581",
+        "0537-6866552",
+        "0537-6866559",
+        "0537-6866568",
+        "0537-6829122",
+        "0537-6866508",
+        "0537-6866526",
+        "0537-6866507",
+        "0537-6866505",
+        "0537-6826834",
+        "0537-6820519",
+        "0537-6866582",
+        "0537-6866506"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "办公室",
+        "人事科",
+        "法规科",
+        "政策与改革科",
+        "农村社会事业促进科",
+        "计划财务科",
+        "乡村产业发展与对外合作科",
+        "科技教育科",
+        "农产品质量安全监管科",
+        "种植业管理科",
+        "农业机械化管理科",
+        "农田建设管理科",
+        "棉蔬所",
+        "农业技术综合服务室",
+        "渔业发展中心",
+        "农药管理科",
+        "植物保护植物检疫所",
+        "农业执法大队",
+        "发展规划科",
+        "果树所",
+        "动物卫生监督所",
+        "生猪屠宰管理办公室",
+        "土壤肥料所",
+        "安全监督管理科",
+        "现代种业管理科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县农业农村局"
+      ],
+      "value_pool": [
+        "嘉祥县农业农村局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kslb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "行政科室",
+        "业务科室"
+      ],
+      "value_pool": [
+        "行政科室",
+        "业务科室"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

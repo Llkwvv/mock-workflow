@@ -1,0 +1,149 @@
+{
+  "file_name": "鱼台县民政局_享受护理补贴的重度残疾人信息202508010327.xlsx",
+  "table_name": "鱼台县民政局_享受护理补贴的重度残疾人信息202508010327",
+  "row_count": 3888,
+  "columns": [
+    "cjlb",
+    "xb",
+    "zj",
+    "姓名",
+    "cjdj"
+  ],
+  "fields": [
+    {
+      "name": "cjlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "肢体",
+        "视力",
+        "精神",
+        "听力",
+        "多重",
+        "智力",
+        "言语"
+      ],
+      "value_pool": [
+        "肢体",
+        "视力",
+        "精神",
+        "听力",
+        "多重",
+        "智力",
+        "言语"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "滨湖街道"
+      ],
+      "value_pool": [
+        "滨湖街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "韩**",
+        "王**",
+        "于**",
+        "贾**",
+        "刘**",
+        "马**",
+        "朱**",
+        "赵**",
+        "李**",
+        "张**",
+        "候**",
+        "董**",
+        "魏**",
+        "孙**",
+        "程**",
+        "屈**",
+        "郑**",
+        "路**",
+        "胡**",
+        "杜**",
+        "周**",
+        "吴**",
+        "甘**",
+        "宋**",
+        "甄**",
+        "武**",
+        "田**",
+        "缪**",
+        "谭**",
+        "岳**",
+        "宫**",
+        "任**",
+        "黄**",
+        "石**",
+        "闫**",
+        "聂**",
+        "姚**",
+        "裴**",
+        "黎**",
+        "侯**",
+        "柴**",
+        "殷**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "一级",
+        "二级"
+      ],
+      "value_pool": [
+        "一级",
+        "二级"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

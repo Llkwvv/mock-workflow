@@ -1,0 +1,99 @@
+{
+  "file_name": "嘉祥县行政审批服务局_生产建设项目水土保持方案审批信息202506202043.xlsx",
+  "table_name": "嘉祥县行政审批服务局_生产建设项目水土保持方案审批信息202506202043",
+  "row_count": 1,
+  "columns": [
+    "lxdh",
+    "sxmc",
+    "ywbljg",
+    "sqrhsqdwmc",
+    "ywsbcl",
+    "ywbjsj"
+  ],
+  "fields": [
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "155****5959"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "废弃电器电子回收拆解资源化项目"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ywbljg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "完成办结"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrhsqdwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东省新壹城智能环保科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ywsbcl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "生产建设项目水土保持方案、请求审批水土保持方案的书面申请（实行承诺制管理的项目，提供承诺制管理的项目，提供承诺书）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ywbjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-08-01"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

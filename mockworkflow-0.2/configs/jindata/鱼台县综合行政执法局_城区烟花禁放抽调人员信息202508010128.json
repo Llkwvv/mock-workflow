@@ -1,0 +1,129 @@
+{
+  "file_name": "鱼台县综合行政执法局_城区烟花禁放抽调人员信息202508010128.xlsx",
+  "table_name": "鱼台县综合行政执法局_城区烟花禁放抽调人员信息202508010128",
+  "row_count": 20,
+  "columns": [
+    "ry",
+    "lxdh",
+    "dw",
+    "姓名",
+    "xcdd"
+  ],
+  "fields": [
+    {
+      "name": "ry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "春节假期",
+        "五一期间"
+      ],
+      "value_pool": [
+        "春节假期",
+        "五一期间"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "185****0603",
+        "132****1011",
+        "189****7448",
+        "186****0508",
+        "157****9332",
+        "155****1010",
+        "199****8956",
+        "152****2646",
+        "137****4899",
+        "155****9120",
+        "130****5677",
+        "150****6158",
+        "180****7388",
+        "176****5566",
+        "151****5522",
+        "184****8807",
+        "183****8828"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县综合行政执法局"
+      ],
+      "value_pool": [
+        "鱼台县综合行政执法局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "杨**",
+        "甄**",
+        "宋**",
+        "徐**",
+        "郝**",
+        "谢***",
+        "卢**",
+        "葛***",
+        "王**",
+        "任***",
+        "尹**",
+        "刘**",
+        "赵**",
+        "程**",
+        "奚**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "城区",
+        "谷亭镇",
+        "开发区",
+        "唐马镇"
+      ],
+      "value_pool": [
+        "城区",
+        "谷亭镇",
+        "开发区",
+        "唐马镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "file_name": "公务用车定点维修_定点加油_定点保险企业信息202605261554.xlsx",
+  "table_name": "公务用车定点维修_定点加油_定点保险企业信息202605261554",
+  "row_count": 13,
+  "columns": [
+    "sdfl",
+    "lxr",
+    "qymc",
+    "xh",
+    "lxfs",
+    "yydz"
+  ],
+  "fields": [
+    {
+      "name": "sdfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "定点维修"
+      ],
+      "value_pool": [
+        "定点维修"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "朱*亚",
+        "张*",
+        "赵*杰",
+        "桑*峰",
+        "赵*",
+        "安*峰",
+        "陈*岩",
+        "许*",
+        "周*",
+        "李*",
+        "王*春",
+        "潘*",
+        "梁*安"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山育锋汽车销售服务有限公司",
+        "微山县明凯汽车维修有限公司",
+        "微山县夏镇美佳润换油中心",
+        "微山县鑫德润汽车维修服务有限公司",
+        "微山县宝得宝汽车服务有限公司",
+        "济宁骏峰汽车维修有限公司",
+        "微山县利微汽车维修服务有限公司",
+        "微山县鲁宏汽车修理有限责任公司",
+        "微山县祥泰汽修有限责任公司",
+        "微山鑫鸿源汽车销售服务有限公司",
+        "微山县春鹏汽修有限公司",
+        "微山县震展汽车销售服务有限公司",
+        "微山县欢城镇保安汽修厂"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "2025"
+      ],
+      "value_pool": [
+        "2025"
+      ],
+      "min_value": 2025.0,
+      "max_value": 2025.0
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "187****3000",
+        "136****5801",
+        "152****1089",
+        "150****2566",
+        "139****9111",
+        "199****5789",
+        "139****6587",
+        "053****91499",
+        "155****2257",
+        "135****0077",
+        "137****7268",
+        "159****6999",
+        "132****7798"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yydz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市微山县夏镇街道建设路11-2号",
+        "山东省济宁市微山县夏镇街道4号",
+        "山东省济宁市微山县夏镇留城路金源别墅南门对过",
+        "微山县原104国道西侧铝业公司内",
+        "山东省济宁市微山县夏镇街道建设路滨湖春天北门4-19号",
+        "山东省济宁市微山县夏镇街道微山湖大道58号",
+        "山东省济宁市微山县东风路4号",
+        "山东省济宁市微山县经济开发区泰康街与104国道交汇处南100米路西",
+        "山东省济宁市微山县夏镇街道商业街南首",
+        "微山县夏镇街道微欢路",
+        "山东省济宁市微山县夏镇新河北街30-5号",
+        "微山县夏镇街道新河北街49-2",
+        "微山县欢城镇西外环十字路口北300米路东"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

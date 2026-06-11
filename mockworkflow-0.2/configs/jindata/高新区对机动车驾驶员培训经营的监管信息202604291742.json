@@ -1,0 +1,324 @@
+{
+  "file_name": "高新区对机动车驾驶员培训经营的监管信息202604291742.xlsx",
+  "table_name": "高新区对机动车驾驶员培训经营的监管信息202604291742",
+  "row_count": 35,
+  "columns": [
+    "jgdxlx",
+    "jcxwbh",
+    "ssjg",
+    "xzxdrxz",
+    "jcxwmc",
+    "jcjg",
+    "xzxdrzjlx",
+    "xzxdr",
+    "jcsj",
+    "jcxmmc",
+    "jclb",
+    "jgdx",
+    "xzxdrzjbm"
+  ],
+  "fields": [
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "上传为《监管对象信息要素表》",
+        "企业、个体户、农专社"
+      ],
+      "value_pool": [
+        "上传为《监管对象信息要素表》",
+        "企业、个体户、农专社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "鲁济高交监020200918005",
+        "2020050800506190003",
+        "2020050800506190005",
+        "2020050800506190006",
+        "2020050800506280001",
+        "20210715004",
+        "检2020050800506190002",
+        "济高交202006001",
+        "鲁济高交监020200910002",
+        "鲁济高交监020200910003",
+        "鲁济高交监020200910004",
+        "鲁济高交监020200910005",
+        "鲁济高交监20200910001",
+        "鲁济高交（04）审20200508005",
+        "2020050800506190021",
+        "2020050800506190022",
+        "2020050800506280023",
+        "20210715023",
+        "检2020050800506190042",
+        "鲁济高交监020200910017",
+        "鲁济高交监020200910019",
+        "鲁济高交监020200910021",
+        "鲁济高交监020200910023",
+        "鲁济高交监管20220527101060002",
+        "鲁济高交监管20221112101060013",
+        "鲁济高交监管20221112101060014",
+        "20240305日常004",
+        "20240305日常005",
+        "20240305日常006",
+        "20240418日常001",
+        "20240701日常003",
+        "20250803日常003",
+        "20251208日常001",
+        "20251223日常002"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新技术产业开发区综合行政执法局"
+      ],
+      "value_pool": [
+        "济宁高新技术产业开发区综合行政执法局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "法人"
+      ],
+      "value_pool": [
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "对济宁长虹机动车驾驶员培训有限公司行政检查",
+        "济宁市通达机动车驾驶学校有限公司车辆年审",
+        "济宁长虹机动车驾驶员培训有限公司信誉度考核",
+        "济宁市济东机动车驾驶员培训有限公司信誉度考核",
+        "济宁市长济驾驶员培训有限公司信誉度考核",
+        "对机动车驾驶员培训经营的检查",
+        "济宁市通达机动车驾驶学校有限公司信誉度考核",
+        "对济宁圣华驾校信誉度考核",
+        "对济宁交运驾驶员培训有限公司日常检查",
+        "对济宁长虹机动车驾驶员培训有限公司日常检查",
+        "对济宁市济东机动车驾驶员培训有限公司日常检查",
+        "对济宁市通达机动车驾驶学校有限公司日常检查",
+        "对济宁金恒驾驶员培训有限公司安全检查",
+        "济宁交运驾驶员培训有限公司信誉度考核",
+        "对济宁市长济驾驶员培训有限公司进行检查",
+        "对机动车驾驶员培训经营的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "统一社会信用代码"
+      ],
+      "value_pool": [
+        "统一社会信用代码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁长虹机动车驾驶员培训有限公司",
+        "济宁市通达机动车驾驶学校有限公司",
+        "济宁市济东机动车驾驶员培训有限公司",
+        "济宁市长济驾驶员培训有限公司",
+        "济宁圣华驾驶员培训有限公司",
+        "济宁交运驾驶员培训有限公司",
+        "济宁金恒驾驶员培训有限公司"
+      ],
+      "value_pool": [
+        "济宁长虹机动车驾驶员培训有限公司",
+        "济宁市通达机动车驾驶学校有限公司",
+        "济宁市济东机动车驾驶员培训有限公司",
+        "济宁市长济驾驶员培训有限公司",
+        "济宁圣华驾驶员培训有限公司",
+        "济宁交运驾驶员培训有限公司",
+        "济宁金恒驾驶员培训有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020-09-18",
+        "2020-12-01",
+        "2021-07-15",
+        "2020-12-02",
+        "2021-07-23",
+        "2021-08-12",
+        "2021-09-14",
+        "2022-05-27",
+        "2022-11-12",
+        "2024-03-05",
+        "2024-04-18",
+        "2024-07-01",
+        "2025-08-03",
+        "2025-12-08",
+        "2025-12-23"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对机动车驾驶员培训经营的监管"
+      ],
+      "value_pool": [
+        "对机动车驾驶员培训经营的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁长虹机动车驾驶员培训有限公司",
+        "济宁市通达机动车驾驶学校有限公司",
+        "济宁市济东机动车驾驶员培训有限公司",
+        "济宁市长济驾驶员培训有限公司",
+        "济宁圣华驾驶员培训有限公司",
+        "济宁交运驾驶员培训有限公司",
+        "济宁金恒驾驶员培训有限公司"
+      ],
+      "value_pool": [
+        "济宁长虹机动车驾驶员培训有限公司",
+        "济宁市通达机动车驾驶学校有限公司",
+        "济宁市济东机动车驾驶员培训有限公司",
+        "济宁市长济驾驶员培训有限公司",
+        "济宁圣华驾驶员培训有限公司",
+        "济宁交运驾驶员培训有限公司",
+        "济宁金恒驾驶员培训有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "91370800MA3CB69E1P",
+        "91370800782344843Q",
+        "91370800MA3FC03N9T",
+        "91370800785013193J",
+        "913708005952348416",
+        "913708003103057156",
+        "91370800079653927T"
+      ],
+      "value_pool": [
+        "91370800MA3CB69E1P",
+        "91370800782344843Q",
+        "91370800MA3FC03N9T",
+        "91370800785013193J",
+        "913708005952348416",
+        "913708003103057156",
+        "91370800079653927T"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

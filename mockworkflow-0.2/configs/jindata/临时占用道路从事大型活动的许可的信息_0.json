@@ -1,0 +1,130 @@
+{
+  "file_name": "临时占用道路从事大型活动的许可的信息_0.csv",
+  "table_name": "临时占用道路从事大型活动的许可的信息_0",
+  "row_count": 20,
+  "columns": [
+    "sldw",
+    "bjmc",
+    "bjsj",
+    "slsj",
+    "sqrhsqdw"
+  ],
+  "fields": [
+    {
+      "name": "sldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "任城公安分局",
+        "市中公安分局"
+      ],
+      "value_pool": [
+        "任城公安分局",
+        "市中公安分局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "关于王涛临时占用道路从事大型活动的许可的业务",
+        "关于王净净临时占用道路从事大型活动的许可的业务",
+        "关于魏五香临时占用道路从事大型活动的许可的业务",
+        "关于张旭文临时占用道路从事大型活动的许可的业务",
+        "关于周金良临时占用道路从事大型活动的许可的业务",
+        "关于吴文学临时占用道路从事大型活动的许可的业务",
+        "关于徐慧婧临时占用道路从事大型活动的许可的业务",
+        "关于薛忠情临时占用道路从事大型活动的许可的业务",
+        "关于杨奎临时占用道路从事大型活动的许可的业务",
+        "关于于风真临时占用道路从事大型活动的许可的业务",
+        "关于于海泉临时占用道路从事大型活动的许可的业务",
+        "关于孙卫东临时占用道路从事大型活动的许可的业务",
+        "关于王秀夏临时占用道路从事大型活动的许可的业务",
+        "关于文辉临时占用道路从事大型活动的许可的业务",
+        "关于徐妍君临时占用道路从事大型活动的许可的业务",
+        "关于田海艳临时占用道路从事大型活动的许可的业务",
+        "关于张熙钗临时占用道路从事大型活动的许可的业务",
+        "关于王潇临时占用道路从事大型活动的许可的业务",
+        "关于甄慧慧临时占用道路从事大型活动的许可的业务",
+        "关于陈洪峰临时占用道路从事大型活动的许可的业务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:03:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:03:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020/11/3 9:00:29"
+      ],
+      "value_pool": [
+        "2020/11/3 9:00:29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrhsqdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "王涛",
+        "王净净",
+        "魏五香",
+        "张旭文",
+        "周金良",
+        "吴文学",
+        "徐慧婧",
+        "薛忠情",
+        "杨奎",
+        "于风真",
+        "于海泉",
+        "孙卫东",
+        "王秀夏",
+        "文辉",
+        "徐妍君",
+        "田海艳",
+        "张熙钗",
+        "王潇",
+        "甄慧慧",
+        "陈洪峰"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "file_name": "微山县渔管委志愿者服务人员名单202508010154.xlsx",
+  "table_name": "微山县渔管委志愿者服务人员名单202508010154",
+  "row_count": 37,
+  "columns": [
+    "mz",
+    "姓名",
+    "xb",
+    "dw",
+    "fwnr"
+  ],
+  "fields": [
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "邵**",
+        "种**",
+        "胡**",
+        "王**",
+        "唐***",
+        "苏**",
+        "刘**",
+        "冯***",
+        "段**",
+        "朱**",
+        "张**",
+        "陈**",
+        "赵**",
+        "殷***",
+        "雷**",
+        "徐**",
+        "王***",
+        "张***",
+        "杨***",
+        "丁**",
+        "孟***",
+        "刘***",
+        "曹***",
+        "宋**",
+        "付***",
+        "邢***",
+        "程***",
+        "张*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县渔管委",
+        "县南四湖管委会"
+      ],
+      "value_pool": [
+        "微山县渔管委",
+        "县南四湖管委会"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "文明劝导、政策宣传、卫生清理"
+      ],
+      "value_pool": [
+        "文明劝导、政策宣传、卫生清理"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

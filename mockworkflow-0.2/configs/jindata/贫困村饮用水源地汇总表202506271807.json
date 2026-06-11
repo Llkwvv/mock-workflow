@@ -1,0 +1,163 @@
+{
+  "file_name": "贫困村饮用水源地汇总表202506271807.xlsx",
+  "table_name": "贫困村饮用水源地汇总表202506271807",
+  "row_count": 50,
+  "columns": [
+    "czsq",
+    "sfhdbhqhbhfw",
+    "x",
+    "sydmc",
+    "xzjdb",
+    "sydgm"
+  ],
+  "fields": [
+    {
+      "name": "czsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "高楼村",
+        "利民村",
+        "王楼村",
+        "渭河村",
+        "小闸村",
+        "盐店村",
+        "仇海村",
+        "丁楼村",
+        "东渡口村",
+        "东姚村",
+        "管闸村",
+        "李桥村",
+        "李埝村",
+        "梁庄村",
+        "柳沟村",
+        "卢埝村",
+        "梅屯村",
+        "王占一村",
+        "西渡口村",
+        "石楼村",
+        "独东村",
+        "东单前村",
+        "东单后村",
+        "独西村",
+        "里张阿村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfhdbhqhbhfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "是2023"
+      ],
+      "value_pool": [
+        "是",
+        "是2023"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "x",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县"
+      ],
+      "value_pool": [
+        "微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sydmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "高楼村水源地",
+        "利民村北庄台水源地",
+        "王楼村水源地",
+        "渭河村水源地",
+        "小闸村水源地",
+        "利民村南庄台水源地",
+        "仇海村水厂",
+        "丁楼村水厂",
+        "东渡口村水厂",
+        "东姚村水厂",
+        "管闸村水厂",
+        "李桥村水厂",
+        "李埝村水厂",
+        "梁庄村水厂",
+        "柳沟村水厂",
+        "卢埝村水厂",
+        "梅屯村水厂",
+        "王占一村水厂",
+        "西渡口村水厂",
+        "石楼供水公司",
+        "独东供水公司",
+        "东单前村供水公司",
+        "东单后村供水公司",
+        "独西村供水公司",
+        "张阿片区水源地"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzjdb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高楼乡",
+        "南阳镇",
+        "两城镇",
+        "微山岛镇"
+      ],
+      "value_pool": [
+        "高楼乡",
+        "南阳镇",
+        "两城镇",
+        "微山岛镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sydgm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "“千吨万人”以下"
+      ],
+      "value_pool": [
+        "“千吨万人”以下"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

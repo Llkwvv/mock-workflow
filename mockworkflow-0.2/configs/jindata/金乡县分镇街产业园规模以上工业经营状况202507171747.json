@@ -1,0 +1,154 @@
+{
+  "file_name": "金乡县分镇街产业园规模以上工业经营状况202507171747.xlsx",
+  "table_name": "金乡县分镇街产业园规模以上工业经营状况202507171747",
+  "row_count": 18,
+  "columns": [
+    "dq",
+    "dw",
+    "lr",
+    "ys",
+    "qb",
+    "nf"
+  ],
+  "fields": [
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县",
+        "金乡街道",
+        "高河街道",
+        "鱼山街道",
+        "王丕街道",
+        "羊山镇",
+        "胡集镇",
+        "霄云镇",
+        "鸡黍镇",
+        "司马镇",
+        "马庙镇",
+        "化雨镇",
+        "卜集镇",
+        "兴隆镇",
+        "高端装备产业园",
+        "新材料产业园",
+        "食品产业园",
+        "商贸物流园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "万元"
+      ],
+      "value_pool": [
+        "万元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lr",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "195052.0",
+        "517.0",
+        "92028.0",
+        "5406.0",
+        "297.0",
+        "-1039.0",
+        "731.0",
+        "875.0",
+        "694.0",
+        "252.0",
+        "2632.0",
+        "980.0",
+        "41.0",
+        "42.0",
+        "10360.0",
+        "70177.0",
+        "11055.0"
+      ],
+      "min_value": -1039.0,
+      "max_value": 195052.0
+    },
+    {
+      "name": "ys",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2838941.0",
+        "32741.0",
+        "191097.0",
+        "78295.0",
+        "18895.0",
+        "59259.0",
+        "12450.0",
+        "8335.0",
+        "31747.0",
+        "7457.0",
+        "92962.0",
+        "13364.0",
+        "9045.0",
+        "3646.0",
+        "292014.0",
+        "1554011.0",
+        "433615.0"
+      ],
+      "min_value": 3646.0,
+      "max_value": 2838941.0
+    },
+    {
+      "name": "qb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1-12月"
+      ],
+      "value_pool": [
+        "1-12月"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023年"
+      ],
+      "value_pool": [
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

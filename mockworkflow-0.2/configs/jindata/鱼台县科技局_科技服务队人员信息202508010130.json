@@ -1,0 +1,160 @@
+{
+  "file_name": "鱼台县科技局_科技服务队人员信息202508010130.xlsx",
+  "table_name": "鱼台县科技局_科技服务队人员信息202508010130",
+  "row_count": 20,
+  "columns": [
+    "sdskjfwdmc",
+    "kjtpybh",
+    "kjtpyxm",
+    "xb",
+    "ssqx",
+    "zw"
+  ],
+  "fields": [
+    {
+      "name": "sdskjfwdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁市鱼台县家庭生态养殖科技扶贫服务队",
+        "济宁市鱼台县东山菌业珍菌种植科技扶贫服务队",
+        "济宁市鱼台县蛋鸭养殖与深加工科技扶贫服务队",
+        "济宁市鱼台县优质稻米生产科技扶贫服务队",
+        "济宁市鱼台县渔业科技扶贫服务队"
+      ],
+      "value_pool": [
+        "济宁市鱼台县家庭生态养殖科技扶贫服务队",
+        "济宁市鱼台县东山菌业珍菌种植科技扶贫服务队",
+        "济宁市鱼台县蛋鸭养殖与深加工科技扶贫服务队",
+        "济宁市鱼台县优质稻米生产科技扶贫服务队",
+        "济宁市鱼台县渔业科技扶贫服务队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kjtpybh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "201907103",
+        "201906347",
+        "201905152",
+        "201905157",
+        "201906283",
+        "无号",
+        "201904195",
+        "201904878",
+        "201904745",
+        "201904526",
+        "201906801",
+        "201904597",
+        "201904582",
+        "201904584",
+        "202407103",
+        "202406347"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kjtpyxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "王**",
+        "张**",
+        "刘**",
+        "陈**",
+        "朱**",
+        "黄**",
+        "高**",
+        "周**",
+        "郑**",
+        "杨**"
+      ],
+      "value_pool": [
+        "王**",
+        "张**",
+        "刘**",
+        "陈**",
+        "朱**",
+        "黄**",
+        "高**",
+        "周**",
+        "郑**",
+        "杨**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女",
+        "男性"
+      ],
+      "value_pool": [
+        "男",
+        "女",
+        "男性"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssqx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县",
+        "济宁市内",
+        "任城区"
+      ],
+      "value_pool": [
+        "鱼台县",
+        "济宁市内",
+        "任城区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "队长",
+        "队员"
+      ],
+      "value_pool": [
+        "队长",
+        "队员"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "file_name": "鱼台县农业农村局_鱼台县基层农机推广科技示范户名单信息202506271706.xlsx",
+  "table_name": "鱼台县农业农村局_鱼台县基层农机推广科技示范户名单信息202506271706",
+  "row_count": 27,
+  "columns": [
+    "dw",
+    "bbld",
+    "kjzdy",
+    "ztjs",
+    "sfzt"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县农业农村局",
+        "县农业农村局"
+      ],
+      "value_pool": [
+        "鱼台县农业农村局",
+        "县农业农村局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bbld",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "沙琴",
+        "沙*"
+      ],
+      "value_pool": [
+        "沙琴",
+        "沙*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kjzdy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "曹茹雪",
+        "侯  勇",
+        "马凡涛",
+        "张秋丽",
+        "高照峰",
+        "马*涛"
+      ],
+      "value_pool": [
+        "曹茹雪",
+        "侯  勇",
+        "马凡涛",
+        "张秋丽",
+        "高照峰",
+        "马*涛"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ztjs",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "小麦、水稻机械化生产",
+        "水稻机械化生产"
+      ],
+      "value_pool": [
+        "小麦、水稻机械化生产",
+        "水稻机械化生产"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "夏洪标",
+        "邵雪峰",
+        "王夫均",
+        "李建设",
+        "张宁宁",
+        "蒋高峰",
+        "蒋尊运",
+        "蒋尊旭",
+        "李小群",
+        "陈雪梅",
+        "于长江",
+        "王为清",
+        "张冉冉",
+        "于兴华",
+        "王卫东",
+        "焦士清",
+        "焦士昌",
+        "焦根栓",
+        "焦明强",
+        "郑荣彬"
+      ],
+      "value_pool": [
+        "夏洪标",
+        "邵雪峰",
+        "王夫均",
+        "李建设",
+        "张宁宁",
+        "蒋高峰",
+        "蒋尊运",
+        "蒋尊旭",
+        "李小群",
+        "陈雪梅",
+        "于长江",
+        "王为清",
+        "张冉冉",
+        "于兴华",
+        "王卫东",
+        "焦士清",
+        "焦士昌",
+        "焦根栓",
+        "焦明强",
+        "郑荣彬",
+        "胡从彬",
+        "胡  韦",
+        "胡明建",
+        "程保顺",
+        "程保安",
+        "于*华",
+        "王*东"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

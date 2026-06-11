@@ -1,0 +1,150 @@
+{
+  "file_name": "鱼台县教育和体育局_地方课程征订信息202506271928.xlsx",
+  "table_name": "鱼台县教育和体育局_地方课程征订信息202506271928",
+  "row_count": 37,
+  "columns": [
+    "cbdw",
+    "jsysdj",
+    "jcmc",
+    "synj",
+    "lsj"
+  ],
+  "fields": [
+    {
+      "name": "cbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "山东教育出版社（六三制）",
+        "齐鲁书社（五四制）",
+        "济南出版社",
+        "青岛出版社",
+        "青岛出版社（五四制）",
+        "泰山出版社（六三制）",
+        "山东人民出版社"
+      ],
+      "value_pool": [
+        "山东教育出版社（六三制）",
+        "齐鲁书社（五四制）",
+        "济南出版社",
+        "青岛出版社",
+        "青岛出版社（五四制）",
+        "泰山出版社（六三制）",
+        "山东人民出版社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jsysdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "25",
+        "12",
+        "10",
+        "46",
+        "10.5",
+        "42",
+        "11.5",
+        "22",
+        "20",
+        "18",
+        "28",
+        "33",
+        "14.1",
+        "25元",
+        "12元",
+        "10元",
+        "46元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "中华优秀传统文化",
+        "安全教育",
+        "环境教育",
+        "人生规划"
+      ],
+      "value_pool": [
+        "中华优秀传统文化",
+        "安全教育",
+        "环境教育",
+        "人生规划"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "synj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "一年级",
+        "二年级",
+        "三年级",
+        "四年级",
+        "五年级",
+        "六年级",
+        "七年级",
+        "八年级",
+        "九年级"
+      ],
+      "value_pool": [
+        "一年级",
+        "二年级",
+        "三年级",
+        "四年级",
+        "五年级",
+        "六年级",
+        "七年级",
+        "八年级",
+        "九年级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "5.63",
+        "3.17",
+        "3.12",
+        "7.27",
+        "3.99",
+        "3.94",
+        "7.22",
+        "7.21",
+        "5.63元",
+        "3.17元",
+        "3.12元"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

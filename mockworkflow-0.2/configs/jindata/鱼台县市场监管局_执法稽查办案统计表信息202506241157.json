@@ -1,0 +1,283 @@
+{
+  "file_name": "鱼台县市场监管局_执法稽查办案统计表信息202506241157.xlsx",
+  "table_name": "鱼台县市场监管局_执法稽查办案统计表信息202506241157",
+  "row_count": 27,
+  "columns": [
+    "zbmc",
+    "sjjb",
+    "jdjc",
+    "msjewy",
+    "tsjb",
+    "fkjewy",
+    "azwy",
+    "qtbmys",
+    "ajzsj",
+    "yssfjgajj",
+    "ybcx"
+  ],
+  "fields": [
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "标准化违法案件",
+        "认证认可违法案件",
+        "计量违法案件",
+        "质量违法案件",
+        "侵害消费者权益案件",
+        "合同违法案件",
+        "拍卖违法案件",
+        "知识产权案件",
+        "其中：商标",
+        "专利",
+        "食品安全违法案件",
+        "其中：保健食品",
+        "军服违法案件",
+        "非法卫星电视地面接收设施及网络共享设备产品案件",
+        "非法出版物案件",
+        "其中：政治性非法出版物案件",
+        "涉黄出版物案件",
+        "政治性敏感商品案件",
+        "非法进口商品案件",
+        "野生动物植物保护违法案件",
+        "其中：野生动物",
+        "野外植物",
+        "文物保护违法案件",
+        "其他案件"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjjb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "jdjc",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "4",
+        "2",
+        "9",
+        "0",
+        "30",
+        "8",
+        "20",
+        "79"
+      ],
+      "value_pool": [
+        "1",
+        "4",
+        "2",
+        "9",
+        "0",
+        "30",
+        "8",
+        "20",
+        "79"
+      ],
+      "min_value": 0.0,
+      "max_value": 79.0
+    },
+    {
+      "name": "msjewy",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "0.514",
+        "0.467",
+        "0.031",
+        "0.467万元"
+      ],
+      "value_pool": [
+        "0",
+        "0.514",
+        "0.467",
+        "0.031",
+        "0.467万元"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.514
+    },
+    {
+      "name": "tsjb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "fkjewy",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.051",
+        "1.985",
+        "2.1",
+        "6.1",
+        "0",
+        "2.915",
+        "1.16",
+        "1.505",
+        "56.631",
+        "2.915万元"
+      ],
+      "value_pool": [
+        "0.051",
+        "1.985",
+        "2.1",
+        "6.1",
+        "0",
+        "2.915",
+        "1.16",
+        "1.505",
+        "56.631",
+        "2.915万元"
+      ],
+      "min_value": 0.0,
+      "max_value": 56.631
+    },
+    {
+      "name": "azwy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "qtbmys",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "ajzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "4",
+        "2",
+        "9",
+        "0",
+        "30",
+        "8",
+        "20",
+        "79",
+        "0件",
+        "30件"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yssfjgajj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "ybcx",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "4",
+        "2",
+        "9",
+        "0",
+        "30",
+        "8",
+        "20",
+        "79"
+      ],
+      "value_pool": [
+        "1",
+        "4",
+        "2",
+        "9",
+        "0",
+        "30",
+        "8",
+        "20",
+        "79"
+      ],
+      "min_value": 0.0,
+      "max_value": 79.0
+    }
+  ]
+}

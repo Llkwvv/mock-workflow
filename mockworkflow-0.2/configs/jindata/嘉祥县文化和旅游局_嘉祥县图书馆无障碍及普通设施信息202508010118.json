@@ -1,0 +1,178 @@
+{
+  "file_name": "嘉祥县文化和旅游局_嘉祥县图书馆无障碍及普通设施信息202508010118.xlsx",
+  "table_name": "嘉祥县文化和旅游局_嘉祥县图书馆无障碍及普通设施信息202508010118",
+  "row_count": 21,
+  "columns": [
+    "ssmc",
+    "sslx",
+    "ssdd",
+    "sfsywzass",
+    "sfpbgly",
+    "glyxm",
+    "zxdh"
+  ],
+  "fields": [
+    {
+      "name": "ssmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "无障碍通道",
+        "无障碍轮椅",
+        "无障碍电梯",
+        "无障碍卫生间",
+        "无障碍盲文",
+        "无障碍视听资源",
+        "朗读亭",
+        "阅报机",
+        "电子图书借阅机",
+        "听书蛋椅",
+        "电子阅览室",
+        "少儿触摸教学屏",
+        "幼儿智力开发屏",
+        "4DAR科普大屏",
+        "听书郎",
+        "机器人",
+        "县图书馆微信APP",
+        "官网",
+        "嘉数素养平台",
+        "嘉图快递网借",
+        "待增加"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sslx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "线下",
+        "线上",
+        "待增加"
+      ],
+      "value_pool": [
+        "线下",
+        "线上",
+        "待增加"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县图书馆门口",
+        "县图书馆室内",
+        "县图书馆阅览室",
+        "微信公众号",
+        "嘉祥县图书馆官方网站",
+        "山东通",
+        "待增加"
+      ],
+      "value_pool": [
+        "县图书馆门口",
+        "县图书馆室内",
+        "县图书馆阅览室",
+        "微信公众号",
+        "嘉祥县图书馆官方网站",
+        "山东通",
+        "待增加"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfsywzass",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "是",
+        "否",
+        "其他"
+      ],
+      "value_pool": [
+        "是",
+        "否",
+        "其他"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfpbgly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "是",
+        "其他"
+      ],
+      "value_pool": [
+        "是",
+        "其他"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "glyxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "高*军",
+        "王*",
+        "杨*",
+        "李*",
+        "其*"
+      ],
+      "value_pool": [
+        "高*军",
+        "王*",
+        "杨*",
+        "李*",
+        "其*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "0537-6802123",
+        "其他"
+      ],
+      "value_pool": [
+        "0537-6802123",
+        "其他"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

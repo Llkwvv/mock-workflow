@@ -1,0 +1,218 @@
+{
+  "file_name": "国家双随机任务传染病防治双随机单位信息202601081021.xlsx",
+  "table_name": "国家双随机任务传染病防治双随机单位信息202601081021",
+  "row_count": 28,
+  "columns": [
+    "jdzy",
+    "qx",
+    "cjjg",
+    "jcjyxm",
+    "ccfwhsl",
+    "ccyj",
+    "jydz",
+    "bjddw",
+    "cjdx"
+  ],
+  "fields": [
+    {
+      "name": "jdzy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "传染病防治"
+      ],
+      "value_pool": [
+        "传染病防治"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格",
+        "不合格"
+      ],
+      "value_pool": [
+        "合格",
+        "不合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjyxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "预防接种管理情况。接种单位和人员资质情况"
+      ],
+      "value_pool": [
+        "预防接种管理情况。接种单位和人员资质情况"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ccfwhsl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "抽查辖区内5%的基层医疗机构。",
+        "抽检辖区内30%的二级以上医院。"
+      ],
+      "value_pool": [
+        "抽查辖区内5%的基层医疗机构。",
+        "抽检辖区内30%的二级以上医院。"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ccyj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "国家双随机任务"
+      ],
+      "value_pool": [
+        "国家双随机任务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jydz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市嘉祥县大张楼镇彭后村",
+        "嘉祥县顺河路235号",
+        "嘉祥县兖兰路21号",
+        "山东省济宁市嘉祥县黄垓乡张垓村",
+        "山东省济宁市嘉祥县梁宝寺镇屈店村",
+        "嘉祥县老僧堂镇西杜村",
+        "嘉祥县仲山镇文化路33号",
+        "嘉祥县城区迎凤路",
+        "山东省济宁市嘉祥县马村镇梨行村",
+        "嘉祥街道北关昌盛街",
+        "嘉祥县万张街道骆堂村",
+        "嘉祥县兖兰东街93号",
+        "嘉祥县万张街道忙店村",
+        "嘉祥县顺河路103号",
+        "山东省济宁市嘉祥县大张楼镇许楼村",
+        "嘉祥街道惠农商城",
+        "嘉祥县万张街道周庄村",
+        "嘉祥县金屯镇金屯村",
+        "嘉祥县万张街道元王村",
+        "嘉祥县万张街道楚庄村",
+        "嘉祥县嘉祥街道唐庄村",
+        "嘉祥县五星家俱城东500米，338省道北侧",
+        "嘉祥县黄垓乡前进村",
+        "山东省济宁市嘉祥县满硐镇赵坊村",
+        "嘉祥县老僧堂镇大曹村",
+        "嘉祥县孟姑集镇西赵村",
+        "嘉祥县迎宾花园12号楼7号",
+        "嘉祥县城兖兰东路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjddw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县大张楼镇彭后卫生所",
+        "嘉祥谷美英诊所",
+        "嘉祥口腔医院",
+        "嘉祥县黄垓镇张垓卫生所",
+        "嘉祥县梁宝寺镇屈店卫生所",
+        "嘉祥县老僧堂镇西杜卫生所",
+        "嘉祥县仲山镇卫生院",
+        "嘉祥街道北关卫生所",
+        "嘉祥县马村镇梨行卫生所",
+        "嘉祥街道北关昌盛街口腔卫生所",
+        "嘉祥县万张街道骆堂卫生所",
+        "嘉祥惠民医院",
+        "嘉祥县万张街道忙店卫生所",
+        "嘉祥街道西关顺河中路卫生所",
+        "嘉祥县大张楼镇许楼卫生所",
+        "嘉祥街道惠民商城卫生所",
+        "嘉祥县万张街道周庄卫生所",
+        "嘉祥县金屯镇金屯卫生所",
+        "嘉祥县万张街道元王卫生所",
+        "嘉祥县万张街道楚庄卫生所",
+        "嘉祥街道唐庄卫生所",
+        "嘉祥街道社区卫生服务中心",
+        "嘉祥县黄垓镇前进卫生所",
+        "嘉祥县满硐镇赵坊卫生所",
+        "嘉祥县老僧堂镇大曹卫生所",
+        "嘉祥县孟姑集镇西赵卫生所",
+        "嘉祥赵体政内科诊所",
+        "嘉祥街道东关兖兰东路卫生所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "基层医疗机构",
+        "二级以上医院"
+      ],
+      "value_pool": [
+        "基层医疗机构",
+        "二级以上医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

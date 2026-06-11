@@ -1,0 +1,144 @@
+{
+  "file_name": "高新区林木采伐证办理信息202605251205.xlsx",
+  "table_name": "高新区林木采伐证办理信息202605251205",
+  "row_count": 3,
+  "columns": [
+    "slsj",
+    "cfsl",
+    "dz",
+    "bh",
+    "bjsj",
+    "lxdh",
+    "sqr",
+    "gssj"
+  ],
+  "fields": [
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-11-06",
+        "2024-11-15",
+        "2024-11-28"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cfsl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "30",
+        "20"
+      ],
+      "min_value": 20.0,
+      "max_value": 30.0
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "接庄镇十里营村",
+        "柳行街道王厂村",
+        "接庄镇官庄村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "2024196",
+        "2024218",
+        "2024231"
+      ],
+      "min_value": 2024196.0,
+      "max_value": 2024231.0
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-11-06",
+        "2024-11-15",
+        "2024-11-28"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "151*****113",
+        "138*****294",
+        "151*****998"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "宋**",
+        "郝**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gssj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-11-06",
+        "2024-11-15",
+        "2024-11-28"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

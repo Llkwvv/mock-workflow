@@ -1,0 +1,173 @@
+{
+  "file_name": "泗水县公厕建设统计信息202606041143.xlsx",
+  "table_name": "泗水县公厕建设统计信息202606041143",
+  "row_count": 66,
+  "columns": [
+    "jsfs",
+    "zjmc",
+    "jsnf",
+    "xsq",
+    "czmc"
+  ],
+  "fields": [
+    {
+      "name": "jsfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "建设方式",
+        "新建",
+        "改建"
+      ],
+      "value_pool": [
+        "建设方式",
+        "新建",
+        "改建"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "镇街名称",
+        "泗河街道",
+        "济河街道",
+        "泉林镇",
+        "星村镇",
+        "柘沟镇",
+        "杨柳镇",
+        "中册镇",
+        "高峪镇",
+        "苗馆镇",
+        "金庄镇",
+        "泗张镇",
+        "圣水峪镇",
+        "华村镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jsnf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "建设年份",
+        "2019"
+      ],
+      "value_pool": [
+        "建设年份",
+        "2019"
+      ],
+      "min_value": 2019.0,
+      "max_value": 2019.0
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县市区",
+        "泗水县"
+      ],
+      "value_pool": [
+        "县市区",
+        "泗水县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "村庄名称",
+        "大鲍村",
+        "鲍王庄村",
+        "立石村",
+        "南尚舒村",
+        "东高村",
+        "尖山村",
+        "沙胡同",
+        "党家庙",
+        "卞一村",
+        "石漏村",
+        "历山村",
+        "马连村",
+        "青龙庄",
+        "北泽沟",
+        "星三村",
+        "岳陵村",
+        "林泉东村",
+        "北陈家庄",
+        "张家庄村",
+        "星四村",
+        "岔河村",
+        "圣府岭",
+        "柘沟四村",
+        "西马村",
+        "尚庄村",
+        "孔家村",
+        "乔家村",
+        "后琴柏村",
+        "夏李庄村",
+        "中三村",
+        "西候村",
+        "石桥村",
+        "贺庄",
+        "寺台村",
+        "马家峪",
+        "尧山村",
+        "杨家桥",
+        "李家坡",
+        "东故安村",
+        "西故安村",
+        "松山社区",
+        "马家井社区",
+        "马头山",
+        "卞家庄",
+        "金欣社区AB区",
+        "金欣社区CD区",
+        "金峪社区",
+        "大厂村",
+        "元卜村",
+        "小山庄",
+        "南陈村",
+        "石门村",
+        "大峪口",
+        "庠厂村",
+        "安德村",
+        "小城子村",
+        "南仲都",
+        "西仲都",
+        "大黄沟",
+        "演马坡村",
+        "西崇义村",
+        "北庄"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

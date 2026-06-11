@@ -1,0 +1,146 @@
+{
+  "file_name": "金乡县教体局教育招生考试工作先进个人202508010248.xlsx",
+  "table_name": "金乡县教体局教育招生考试工作先进个人202508010248",
+  "row_count": 119,
+  "columns": [
+    "jx",
+    "xsq",
+    "dw",
+    "姓名",
+    "sj"
+  ],
+  "fields": [
+    {
+      "name": "jx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "招生考试工作先进个人"
+      ],
+      "value_pool": [
+        "招生考试工作先进个人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "金乡县教体局"
+      ],
+      "value_pool": [
+        "金乡县教体局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "赵***",
+        "王**",
+        "刘**",
+        "杨**",
+        "乔**",
+        "高**",
+        "吴**",
+        "田**",
+        "崔**",
+        "苏**",
+        "周**",
+        "吕**",
+        "张***",
+        "朱**",
+        "赵**",
+        "宗**",
+        "张**",
+        "史**",
+        "王***",
+        "陈**",
+        "闫**",
+        "寻**",
+        "宋**",
+        "周***",
+        "代**",
+        "臧**",
+        "袁**",
+        "辛***",
+        "詹**",
+        "刘***",
+        "沈***",
+        "高***",
+        "马**",
+        "徐**",
+        "纪**",
+        "姜**",
+        "陈***",
+        "薛***",
+        "向**",
+        "褚**",
+        "孙***",
+        "寻***",
+        "孟**",
+        "仇**",
+        "侯**",
+        "冯**",
+        "武**",
+        "薛**",
+        "唐**",
+        "胡***",
+        "胡**",
+        "殷**",
+        "江***",
+        "丁**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020年"
+      ],
+      "value_pool": [
+        "2020年"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "file_name": "经开区战略性新兴产业重点项目汇总表202507210930.xlsx",
+  "table_name": "经开区战略性新兴产业重点项目汇总表202507210930",
+  "row_count": 21,
+  "columns": [
+    "dwgg",
+    "jsdw",
+    "xmwz",
+    "xmly",
+    "xh",
+    "xmmc"
+  ],
+  "fields": [
+    {
+      "name": "dwgg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "规上",
+        "规下",
+        "非规上",
+        "/",
+        "-"
+      ],
+      "value_pool": [
+        "规上",
+        "规下",
+        "非规上",
+        "/",
+        "-"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jsdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东神力索具有限公司",
+        "济宁金牛重工有限公司",
+        "山东省煤炭地质局",
+        "山东乾钢金属科技有限公司",
+        "山东中亿烯创新材料科技有限公司",
+        "山东楷益塑业科技有限公司",
+        "远东电缆有限公司",
+        "中北润良新能源（济宁）股份有限公司",
+        "山东中科泰阳光电科技有限公司",
+        "菲特环保科技（济宁）有限公司",
+        "美天为华环境工程（山东）有限公司",
+        "济宁市爱克森服装有限责任公司",
+        "山东久邦重工集团有限公司",
+        "济宁移动嘉祥分公司",
+        "-",
+        "亿万卡智能装备（山东）有限公司",
+        "山东嘉源塑胶科技股份有限公司",
+        "济宁华隆机械制造有限公司",
+        "山东华屹环境科技工程有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经开区"
+      ],
+      "value_pool": [
+        "经开区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高端装备",
+        "新材料",
+        "新能源",
+        "绿色环保",
+        "新一代信息技术产业",
+        "高端装备制造产业",
+        "新材料产业",
+        "新能源产业"
+      ],
+      "value_pool": [
+        "高端装备",
+        "新材料",
+        "新能源",
+        "绿色环保",
+        "新一代信息技术产业",
+        "高端装备制造产业",
+        "新材料产业",
+        "新能源产业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "min_value": 1.0,
+      "max_value": 21.0
+    },
+    {
+      "name": "xmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "80级以上级别高档索具及轨道交通核心零部件智能制造与绿色工厂建设项目",
+        "年产10万台套工程机械配件底盘件全自动智能化生产项目",
+        "煤炭地质装备研发生产项目",
+        "年产65万吨绿色高性能金属复合材料项目",
+        "石墨烯系列产品生产基地",
+        "TPU新型环保材料研发与生产项目",
+        "远东（北方）智慧能源产业园项目",
+        "中北润良锂离子电池生产基地",
+        "年产30MW铜铟镓硒薄膜太阳能高端发电芯片生产项目",
+        "年产30台STC环保无泥处置系统的研发生产项目",
+        "美天为华环境工程（山东）有限公司，绿色环保项目",
+        "服装个性定制大规模智能制造供应链网络协同示范项目",
+        "专用车生产基地项目",
+        "经开区5G建设项目",
+        "国家机器人创新中心济宁基地项目",
+        "亿万卡智能装备制造产业园项目",
+        "新型石墨烯复合材料自动化制备及应用",
+        "医用防护服整套生产链建设项目",
+        "高性能废纸处理全套制浆设备关键技术的研发及产业化",
+        "新型医用材料研发生产项目",
+        "60台（套）/年建筑垃圾资源化利用高端装备制造项目"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

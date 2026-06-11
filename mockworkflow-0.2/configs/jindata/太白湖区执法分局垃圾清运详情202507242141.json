@@ -1,0 +1,177 @@
+{
+  "file_name": "太白湖区执法分局垃圾清运详情202507242141.xlsx",
+  "table_name": "太白湖区执法分局垃圾清运详情202507242141",
+  "row_count": 33,
+  "columns": [
+    "rq",
+    "ch",
+    "xh",
+    "fh",
+    "sh",
+    "sj"
+  ],
+  "fields": [
+    {
+      "name": "rq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-10-01",
+        "2022-10-03",
+        "2023-10-01",
+        "2022-10-01",
+        "2021-10-11",
+        "2021-10-05",
+        "2021-10-03",
+        "2021-10-15",
+        "2021-10-06",
+        "2021-10-09",
+        "2021-10-02",
+        "2021-10-16",
+        "2021-10-13 00:00:00",
+        "2021-10-15 00:00:00",
+        "2022-10-11 00:00:00",
+        "2021-10-16 00:00:00",
+        "2021-10-19 00:00:00",
+        "2021-10-12 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ch",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁V20158",
+        "鲁V20095",
+        "鲁G29580",
+        "鲁V20111",
+        "鲁V20211",
+        "鲁V20258",
+        "鲁V20295",
+        "鲁G29280",
+        "鲁V20195",
+        "鲁G29180",
+        "鲁V20311"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "min_value": 1.0,
+      "max_value": 33.0
+    },
+    {
+      "name": "fh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "太白湖新区环卫处"
+      ],
+      "value_pool": [
+        "太白湖新区环卫处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "瀚蓝固废处置有限公司"
+      ],
+      "value_pool": [
+        "瀚蓝固废处置有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-10-01 00:00:00",
+        "2022-10-03 00:00:00",
+        "2023-10-01 00:00:00",
+        "2022-10-01 00:00:00",
+        "2021-10-11 00:00:00",
+        "2021-10-05 00:00:00",
+        "2021-10-03 00:00:00",
+        "2021-10-15 00:00:00",
+        "2021-10-06 00:00:00",
+        "2021-10-09 00:00:00",
+        "2021-10-02 00:00:00",
+        "2021-10-16 00:00:00",
+        "2021-10-13 00:00:00",
+        "2022-10-11 00:00:00",
+        "2021-10-19 00:00:00",
+        "2021-10-12 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

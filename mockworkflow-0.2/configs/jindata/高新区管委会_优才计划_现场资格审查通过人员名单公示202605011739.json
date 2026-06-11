@@ -1,0 +1,110 @@
+{
+  "file_name": "高新区管委会_优才计划_现场资格审查通过人员名单公示202605011739.xlsx",
+  "table_name": "高新区管委会_优才计划_现场资格审查通过人员名单公示202605011739",
+  "row_count": 8,
+  "columns": [
+    "gwmc",
+    "姓名",
+    "zgbm",
+    "zkzh",
+    "ycdw"
+  ],
+  "fields": [
+    {
+      "name": "gwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "建设工程管理",
+        "政务服务管理",
+        "综合执法",
+        "市场监管",
+        "综合管理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "杨**",
+        "陈**",
+        "刘**",
+        "闫**",
+        "柳**",
+        "徐**",
+        "王**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区管委会",
+        "济宁高新区柳行街道办事处",
+        "济宁高新区黄屯街道办事处",
+        "济宁高新区王因街道办事处",
+        "济宁高新区接庄街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zkzh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2503082000328",
+        "2503082001428",
+        "2503082001122",
+        "2503082001229",
+        "2503082000210",
+        "2503082000222",
+        "2503082000524",
+        "2503082000311"
+      ],
+      "min_value": 2503082000210.0,
+      "max_value": 2503082001428.0
+    },
+    {
+      "name": "ycdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区管委会所属事业单位",
+        "济宁高新区柳行街道所属事业单位",
+        "济宁高新区黄屯街道所属事业单位",
+        "济宁高新区王因街道所属事业单位",
+        "济宁高新区接庄街道所属事业单位"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

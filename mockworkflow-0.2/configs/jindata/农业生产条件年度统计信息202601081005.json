@@ -1,0 +1,94 @@
+{
+  "file_name": "农业生产条件年度统计信息202601081005.xlsx",
+  "table_name": "农业生产条件年度统计信息202601081005",
+  "row_count": 3,
+  "columns": [
+    "sl",
+    "zbmc",
+    "nd",
+    "dw",
+    "dm"
+  ],
+  "fields": [
+    {
+      "name": "sl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "-",
+        "220903",
+        "768846"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "一、乡村人口与从业人员（万户、万人）",
+        "乡村户数",
+        "乡村人口数"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019年"
+      ],
+      "value_pool": [
+        "2019年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "-",
+        "户",
+        "口"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "-",
+        "1",
+        "2"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

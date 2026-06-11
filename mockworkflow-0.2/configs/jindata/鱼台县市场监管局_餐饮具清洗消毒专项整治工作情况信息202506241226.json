@@ -1,0 +1,142 @@
+{
+  "file_name": "鱼台县市场监管局_餐饮具清洗消毒专项整治工作情况信息202506241226.xlsx",
+  "table_name": "鱼台县市场监管局_餐饮具清洗消毒专项整治工作情况信息202506241226",
+  "row_count": 29,
+  "columns": [
+    "xm",
+    "sl",
+    "nr",
+    "tbrq",
+    "tbdw"
+  ],
+  "fields": [
+    {
+      "name": "xm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "辖区内持有《食品经营许可证》的餐饮服务提供者数量（家）",
+        "使用集中消毒餐饮具的餐饮服务提供者数量（家）",
+        "自行清洗消毒餐饮具的餐饮服务提供者数量（家）",
+        "辖区内小餐饮数量（家）",
+        "使用集中消毒餐饮具的小餐饮数量（家）",
+        "自行清洗消毒餐饮具的小餐饮数量（家）",
+        "检查餐饮单位数量（家）",
+        "　检查进度率（%）",
+        "　其中：检查使用集中消毒餐饮具的单位数量（家）",
+        "　　　　检查自行清洗消毒餐饮具的单位数量（家）",
+        "发放张贴“明白纸”（家）",
+        "　张贴进度率（%）",
+        "责令改正（家）",
+        "立案查处（起）",
+        "罚没金额（万元）",
+        "吊销许可证（个）",
+        "移送司法案件数（件）",
+        "抽检集中消毒餐饮具（批次）",
+        "　其中：合格批次",
+        "　　　　不合格批次",
+        "抽检自消毒餐饮具（批次）",
+        "查处家数（家）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1087",
+        "807",
+        "251",
+        "140",
+        "80",
+        "60",
+        "100",
+        "876",
+        "211",
+        "56",
+        "70",
+        "49.6",
+        "1",
+        "30",
+        "0",
+        "10",
+        "2",
+        "140家",
+        "80家",
+        "60家"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "基本情况",
+        "检查情况",
+        "监督抽检情况",
+        "查处无照餐饮具集中消毒服务单位"
+      ],
+      "value_pool": [
+        "基本情况",
+        "检查情况",
+        "监督抽检情况",
+        "查处无照餐饮具集中消毒服务单位"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tbrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "44842",
+        "45573",
+        "45574",
+        "45575"
+      ],
+      "value_pool": [
+        "44842",
+        "45573",
+        "45574",
+        "45575"
+      ],
+      "min_value": 44842.0,
+      "max_value": 45575.0
+    },
+    {
+      "name": "tbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县市场监督管理局"
+      ],
+      "value_pool": [
+        "鱼台县市场监督管理局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

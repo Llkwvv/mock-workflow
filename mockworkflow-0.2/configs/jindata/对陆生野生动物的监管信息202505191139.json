@@ -1,0 +1,123 @@
+{
+  "file_name": "对陆生野生动物的监管信息202505191139.xlsx",
+  "table_name": "对陆生野生动物的监管信息202505191139",
+  "row_count": 37,
+  "columns": [
+    "jcr",
+    "fs",
+    "jcsj",
+    "jg",
+    "cs"
+  ],
+  "fields": [
+    {
+      "name": "jcr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "孙全刚"
+      ],
+      "value_pool": [
+        "孙全刚"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "实地检查"
+      ],
+      "value_pool": [
+        "实地检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "45302",
+        "45516",
+        "45711",
+        "45706",
+        "44715",
+        "44898",
+        "2023年4月8月",
+        "2023年9月17月",
+        "44199",
+        "43833",
+        "43837",
+        "43846",
+        "43853",
+        "43861",
+        "44230",
+        "43864",
+        "43868",
+        "43877",
+        "43884",
+        "43889",
+        "44258",
+        "43893",
+        "43928",
+        "43967",
+        "43974",
+        "43982"
+      ],
+      "min_value": 43833.0,
+      "max_value": 45711.0
+    },
+    {
+      "name": "jg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题",
+        "消毒措施加强",
+        "卫生条件提升"
+      ],
+      "value_pool": [
+        "未发现问题",
+        "消毒措施加强",
+        "卫生条件提升"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县善岭鹦鹉养殖场",
+        "汶上县万萌鹦鹉养殖场"
+      ],
+      "value_pool": [
+        "汶上县善岭鹦鹉养殖场",
+        "汶上县万萌鹦鹉养殖场"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

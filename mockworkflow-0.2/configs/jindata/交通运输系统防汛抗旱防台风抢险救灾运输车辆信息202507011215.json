@@ -1,0 +1,147 @@
+{
+  "file_name": "交通运输系统防汛抗旱防台风抢险救灾运输车辆信息202507011215.xlsx",
+  "table_name": "交通运输系统防汛抗旱防台风抢险救灾运输车辆信息202507011215",
+  "row_count": 28,
+  "columns": [
+    "xsq",
+    "cx",
+    "dz",
+    "dwmc",
+    "clph"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "客车",
+        "重型仓栅式货车",
+        "重型仓栅式半挂车",
+        "重型仓栅式半挂",
+        "重型普通半挂车",
+        "重型自卸货车"
+      ],
+      "value_pool": [
+        "客车",
+        "重型仓栅式货车",
+        "重型仓栅式半挂车",
+        "重型仓栅式半挂",
+        "重型普通半挂车",
+        "重型自卸货车"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县汽车站",
+        "汶上县经济开发区(南站镇路林村105国道东国道东",
+        "汶上县经济开发区(南站镇路林村105国道东",
+        "汶上县苑庄镇西贾柏村西门面房",
+        "汶上县城圣泽大街东段",
+        "汶上县康驿镇政府南1000米（前石塘村）"
+      ],
+      "value_pool": [
+        "汶上县汽车站",
+        "汶上县经济开发区(南站镇路林村105国道东国道东",
+        "汶上县经济开发区(南站镇路林村105国道东",
+        "汶上县苑庄镇西贾柏村西门面房",
+        "汶上县城圣泽大街东段",
+        "汶上县康驿镇政府南1000米（前石塘村）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "交运集团九公司",
+        "济宁恒顺物流有限公司",
+        "汶上县盛鑫物流有限公司",
+        "济宁云帆物流有限公司",
+        "汶上县康顺物流有限公司"
+      ],
+      "value_pool": [
+        "交运集团九公司",
+        "济宁恒顺物流有限公司",
+        "汶上县盛鑫物流有限公司",
+        "济宁云帆物流有限公司",
+        "汶上县康顺物流有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clph",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁H30H57",
+        "鲁H54A87",
+        "鲁H17W89",
+        "鲁H31W71",
+        "鲁H11Y66",
+        "鲁HW5670",
+        "鲁HW2859",
+        "鲁HAJ91挂",
+        "鲁HW5010",
+        "鲁HW6626",
+        "鲁HAV62挂",
+        "鲁HW2136",
+        "鲁HAG30挂",
+        "鲁HW5925",
+        "鲁HAC57挂",
+        "鲁H73G57",
+        "鲁HS88挂",
+        "鲁H70D78",
+        "鲁HLY06挂",
+        "鲁HH5367",
+        "鲁HLV81挂",
+        "鲁HW6333",
+        "鲁HAC13挂",
+        "鲁H48C65",
+        "鲁HA6171",
+        "鲁HW0862",
+        "鲁H18B77",
+        "鲁HF6089"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

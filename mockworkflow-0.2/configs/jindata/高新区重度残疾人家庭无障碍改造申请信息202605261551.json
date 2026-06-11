@@ -1,0 +1,182 @@
+{
+  "file_name": "高新区重度残疾人家庭无障碍改造申请信息202605261551.xlsx",
+  "table_name": "高新区重度残疾人家庭无障碍改造申请信息202605261551",
+  "row_count": 12,
+  "columns": [
+    "zjlx",
+    "zjbh",
+    "slr",
+    "lxdh",
+    "sxmc",
+    "sqrxm",
+    "gzxm",
+    "gznd"
+  ],
+  "fields": [
+    {
+      "name": "zjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "残疾证"
+      ],
+      "value_pool": [
+        "残疾证"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "370811************61",
+        "370882************52",
+        "370822************42",
+        "622623************72",
+        "370882************11",
+        "370882************42",
+        "370882************41",
+        "133027************62",
+        "370883************31",
+        "370882************71"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "接庄街道办事处",
+        "王因街道办事处"
+      ],
+      "value_pool": [
+        "接庄街道办事处",
+        "王因街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "1596*****98",
+        "1369*****84",
+        "1826*****98",
+        "1836*****51",
+        "1506*****48",
+        "1860*****33",
+        "1366*****65",
+        "1379*****50",
+        "1575*****89",
+        "1525*****53",
+        "1526*****55",
+        "1510*****36"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "重度残疾人家庭无障碍改造申请"
+      ],
+      "value_pool": [
+        "重度残疾人家庭无障碍改造申请"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "丁**",
+        "高**",
+        "储**",
+        "张**",
+        "赵**",
+        "薛**",
+        "景**",
+        "殷**",
+        "王*",
+        "尹**",
+        "程*",
+        "吕**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "GPRS定位呼叫手环、密码刀具箱",
+        "扶手、升降餐桌、沐浴椅",
+        "电子交流板、闪光电水壶、智能无障碍电饭煲",
+        "自动升降衣架",
+        "护理床、防褥床垫",
+        "护理床"
+      ],
+      "value_pool": [
+        "GPRS定位呼叫手环、密码刀具箱",
+        "扶手、升降餐桌、沐浴椅",
+        "电子交流板、闪光电水壶、智能无障碍电饭煲",
+        "自动升降衣架",
+        "护理床、防褥床垫",
+        "护理床"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gznd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022年10月"
+      ],
+      "value_pool": [
+        "2022年10月"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

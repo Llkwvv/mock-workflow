@@ -1,0 +1,153 @@
+{
+  "file_name": "济宁市人事考试中心_社会工作者职业水平考试合格人员数据202508010202.xlsx",
+  "table_name": "济宁市人事考试中心_社会工作者职业水平考试合格人员数据202508010202",
+  "row_count": 5265,
+  "columns": [
+    "gzdw",
+    "zsh",
+    "zy",
+    "jb",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "XX公司"
+      ],
+      "value_pool": [
+        "XX公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zsh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "b9c2a61972a19bf21b06b0ddb8ba642d"
+      ],
+      "value_pool": [
+        "b9c2a61972a19bf21b06b0ddb8ba642d"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "社会工作"
+      ],
+      "value_pool": [
+        "社会工作"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "助理社会工作师",
+        "社会工作师"
+      ],
+      "value_pool": [
+        "助理社会工作师",
+        "社会工作师"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈**",
+        "冯**",
+        "张**",
+        "翟**",
+        "孙**",
+        "苏**",
+        "王**",
+        "侯**",
+        "刘**",
+        "薛**",
+        "赵**",
+        "仇**",
+        "李**",
+        "姚*",
+        "耿**",
+        "王*",
+        "武**",
+        "黄*",
+        "阚**",
+        "贾**",
+        "蒋**",
+        "居*",
+        "沙**",
+        "陶*",
+        "杨**",
+        "孔**",
+        "黄**",
+        "姜**",
+        "张*",
+        "汪**",
+        "祝**",
+        "杨*",
+        "陆*",
+        "官*",
+        "万*",
+        "李*",
+        "阙**",
+        "冷**",
+        "司**",
+        "闫*",
+        "郑**",
+        "谢*",
+        "徐*",
+        "韩*",
+        "武*",
+        "潘**",
+        "刘*",
+        "陈*",
+        "尹**",
+        "姚**",
+        "高*",
+        "马*",
+        "朱**",
+        "毛**",
+        "路*",
+        "温**",
+        "房*",
+        "贾*",
+        "董**",
+        "董*"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "file_name": "济宁市任城区消费维权服务站名单信息202507021544.xlsx",
+  "table_name": "济宁市任城区消费维权服务站名单信息202507021544",
+  "row_count": 20,
+  "columns": [
+    "xfwqfwzzbdwmc",
+    "frdbhfzr",
+    "dz",
+    "scjgshxfzxhfhmc",
+    "jzqylx"
+  ],
+  "fields": [
+    {
+      "name": "xfwqfwzzbdwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁万丰米业有限公司维权服务站",
+        "济宁市阳春面业有限公司维权服务站",
+        "济宁松嘉食品有限公司维权服务站",
+        "济宁初彩食品有限公司维权服务站",
+        "济宁市顶好面业有限公司维权服务站",
+        "济宁铭远食品有限公司维权服务站",
+        "山东肉多多食品有限公司维权服务站",
+        "山东济宁亿家宜食品有限公司维权服务站",
+        "山东兴振食品有限公司维权服务站",
+        "济宁市新味食品有限公司维权服务站",
+        "济宁益能沃金食品有限公司维权服务站",
+        "济宁奥可特食品有限公司维权服务站",
+        "济宁山月食品有限公司维权服务站",
+        "山东禧天龙食品有限公司维权服务站",
+        "济宁市任城区福忠饮用水加工部维权服务站",
+        "济宁市任城区永泽调味食品厂维权服务站",
+        "济宁唐生面业有限公司维权服务站",
+        "山东柏源食品有限公司维权服务站",
+        "济宁新民饮品有限公司维权服务站",
+        "济宁市味乐调味品有限公司维权服务站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "frdbhfzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孙延涛",
+        "王利红",
+        "杜可",
+        "王广亮",
+        "戈秀平",
+        "李承升",
+        "孟令省",
+        "常广建",
+        "赵红增",
+        "田仁春",
+        "代娟",
+        "杨振娟",
+        "吴田田",
+        "刘云茜",
+        "马宁波",
+        "梅秀辉",
+        "薛孝义",
+        "张庆刚",
+        "栾西友",
+        "季铭"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市任城区",
+        "济宁市任城区幸福大街",
+        "济宁市任城区G105",
+        "济宁市任城区G105(京澳线)",
+        "济宁市任城区S321"
+      ],
+      "value_pool": [
+        "济宁市任城区",
+        "济宁市任城区幸福大街",
+        "济宁市任城区G105",
+        "济宁市任城区G105(京澳线)",
+        "济宁市任城区S321"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scjgshxfzxhfhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "唐口",
+        "南张"
+      ],
+      "value_pool": [
+        "唐口",
+        "南张"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzqylx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "其他"
+      ],
+      "value_pool": [
+        "其他"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

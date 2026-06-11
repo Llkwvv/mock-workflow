@@ -1,0 +1,133 @@
+{
+  "file_name": "汶上县农业农村局_高素质农民种植大户信息202508010252.xlsx",
+  "table_name": "汶上县农业农村局_高素质农民种植大户信息202508010252",
+  "row_count": 142,
+  "columns": [
+    "ztmc",
+    "xyxm",
+    "sqfs",
+    "pxdd",
+    "lb"
+  ],
+  "fields": [
+    {
+      "name": "ztmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "种植大户"
+      ],
+      "value_pool": [
+        "种植大户"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xyxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "曹**",
+        "陈**",
+        "崔**",
+        "催**",
+        "丁**",
+        "杜**",
+        "付**",
+        "高**",
+        "郭**",
+        "韩**",
+        "何**",
+        "贺**",
+        "侯**",
+        "胡*",
+        "胡**",
+        "姬**",
+        "贾**",
+        "解**",
+        "景**",
+        "孔**",
+        "李**",
+        "李*",
+        "梁**",
+        "林**",
+        "刘**",
+        "刘*",
+        "陆**",
+        "路**",
+        "马**",
+        "庞**",
+        "强**",
+        "任**",
+        "盛**",
+        "宋**",
+        "苏**",
+        "粟*",
+        "隋**",
+        "孙*",
+        "孙**",
+        "唐**",
+        "田**",
+        "王**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "主管部门推荐"
+      ],
+      "value_pool": [
+        "主管部门推荐"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东卓荣农业服务有限公司"
+      ],
+      "value_pool": [
+        "山东卓荣农业服务有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "高素质农民"
+      ],
+      "value_pool": [
+        "高素质农民"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

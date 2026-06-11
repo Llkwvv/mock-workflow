@@ -1,0 +1,208 @@
+{
+  "file_name": "金乡县残疾人精准扶贫户家庭改造情况202506302145.xlsx",
+  "table_name": "金乡县残疾人精准扶贫户家庭改造情况202506302145",
+  "row_count": 15,
+  "columns": [
+    "jtzz",
+    "zj",
+    "nl",
+    "xh",
+    "cjrxm",
+    "sfjzfph",
+    "xb",
+    "gzxm"
+  ],
+  "fields": [
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "司马镇茶棚村",
+        "司马镇张洼村",
+        "霄云镇秦庄村",
+        "霄云镇店子村",
+        "霄云镇周大庄村",
+        "霄云镇程庄村",
+        "鱼山街道小赵楼村",
+        "鱼山街道金沙村肖庄",
+        "鱼山街道小赵楼村李庄",
+        "鱼山街道金城村寻楼",
+        "鱼山街道侯楼村",
+        "鸡黍镇田口",
+        "鸡黍二荣楼",
+        "鸡黍孙菜园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "司马镇",
+        "霄云",
+        "鱼山",
+        "鸡黍"
+      ],
+      "value_pool": [
+        "司马镇",
+        "霄云",
+        "鱼山",
+        "鸡黍"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "64",
+        "55",
+        "28",
+        "47",
+        "72",
+        "39",
+        "71",
+        "78",
+        "45",
+        "75",
+        "66",
+        "80"
+      ],
+      "min_value": 28.0,
+      "max_value": 80.0
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115",
+        "116",
+        "117",
+        "118"
+      ],
+      "min_value": 104.0,
+      "max_value": 118.0
+    },
+    {
+      "name": "cjrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张凤兰",
+        "李小国",
+        "秦念根",
+        "刘东振",
+        "杨玉连",
+        "李川东",
+        "程井香",
+        "田淑成",
+        "苏爱苓",
+        "荆兰英",
+        "范金明",
+        "候艳清",
+        "李峰",
+        "赵方法",
+        "陈玉兰"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfjzfph",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否",
+        "是"
+      ],
+      "value_pool": [
+        "否",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "护理床2160 防褥疮垫630",
+        "洗澡间扶手300 坐便椅480 浴凳496 感应灯120 4G紧急呼叫器430 轮椅960",
+        "轮椅960 坐便椅480 床边扶手620 浴凳496 洗澡间扶手300",
+        "线路改造1400 遥控灯450",
+        "轮椅960 扶手300、4G紧急呼叫器430 感应灯120",
+        "定位手环600 智能遥控灯450",
+        "线路改造1400 智能遥控灯 450",
+        "坐便椅480 轮椅960 扶手300、4G紧急呼叫器430 靠背浴凳496",
+        "护理床2160、防褥疮垫630",
+        "地面平整45平方4950",
+        "靠背支架140 靠背浴凳496、4G紧急呼叫器430  轮椅960 感应灯120",
+        "浴凳496 扶手300 靠背支架140、4G紧急呼叫器430 感应灯120 轮椅960"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

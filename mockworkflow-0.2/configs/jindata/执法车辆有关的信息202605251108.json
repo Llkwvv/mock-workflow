@@ -1,0 +1,112 @@
+{
+  "file_name": "执法车辆有关的信息202605251108.xlsx",
+  "table_name": "执法车辆有关的信息202605251108",
+  "row_count": 42,
+  "columns": [
+    "lxdh",
+    "yxzk",
+    "sszd",
+    "cph",
+    "lxr"
+  ],
+  "fields": [
+    {
+      "name": "lxdh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "4490799"
+      ],
+      "value_pool": [
+        "4490799"
+      ],
+      "min_value": 4490799.0,
+      "max_value": 4490799.0
+    },
+    {
+      "name": "yxzk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "正常"
+      ],
+      "value_pool": [
+        "正常"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sszd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "办公室"
+      ],
+      "value_pool": [
+        "办公室"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cph",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁H6XZ07",
+        "鲁HL3896",
+        "鲁HL0020",
+        "鲁H3M269",
+        "鲁H70L06",
+        "鲁H3R090",
+        "鲁H3P091",
+        "鲁H391U3",
+        "鲁H391U6",
+        "鲁H3Y091",
+        "鲁H391U9",
+        "鲁H3U091",
+        "鲁H391U8",
+        "鲁H3J091",
+        "鲁H6EV01",
+        "鲁H391U5",
+        "鲁H3P090",
+        "鲁H391U7",
+        "鲁H3Y090",
+        "鲁H3R091",
+        "鲁H6EV02"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "陈帅"
+      ],
+      "value_pool": [
+        "陈帅"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "file_name": "高新区注册幼儿园情况202605251201.xlsx",
+  "table_name": "高新区注册幼儿园情况202605251201",
+  "row_count": 2,
+  "columns": [
+    "s",
+    "dz",
+    "ssjd",
+    "yeymc",
+    "fzrxm",
+    "xsq"
+  ],
+  "fields": [
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区崇文名都小区",
+        "济宁高新区柳行街道杨柳国际新城B区幼儿园1-3层0101号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "柳行街道"
+      ],
+      "value_pool": [
+        "柳行街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yeymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区贝享崇文幼儿园",
+        "济宁高新区森林童话幼儿园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "王*"
+      ],
+      "value_pool": [
+        "王*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

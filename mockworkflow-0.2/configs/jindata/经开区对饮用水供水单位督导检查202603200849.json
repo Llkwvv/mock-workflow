@@ -1,0 +1,177 @@
+{
+  "file_name": "经开区对饮用水供水单位督导检查202603200849.xlsx",
+  "table_name": "经开区对饮用水供水单位督导检查202603200849",
+  "row_count": 20,
+  "columns": [
+    "lxr",
+    "电话",
+    "dz",
+    "wz",
+    "jqpp",
+    "sl"
+  ],
+  "fields": [
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "李孟丽",
+        "闫法夏",
+        "闫法久",
+        "张勇",
+        "康云香",
+        "丁贞良",
+        "王敏",
+        "崔功元",
+        "张来平",
+        "张子超"
+      ],
+      "value_pool": [
+        "李孟丽",
+        "闫法夏",
+        "闫法久",
+        "张勇",
+        "康云香",
+        "丁贞良",
+        "王敏",
+        "崔功元",
+        "张来平",
+        "张子超"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "电话",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "183********",
+        "132********",
+        "147********",
+        "155********",
+        "135********",
+        "136********",
+        "156********",
+        "184********"
+      ],
+      "value_pool": [
+        "183********",
+        "132********",
+        "147********",
+        "155********",
+        "135********",
+        "136********",
+        "156********",
+        "184********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "疃里镇空山村",
+        "疃里镇前赵村",
+        "疃里镇进士张村",
+        "疃里镇梁集村",
+        "疃里镇西王村",
+        "疃里镇高庙村",
+        "疃里镇王集村",
+        "疃里镇三刘村",
+        "疃里镇驻地",
+        "疃里镇土山村",
+        "疃里镇后张村",
+        "疃里镇杨家",
+        "疃里镇杨李村",
+        "疃里镇崔桥村",
+        "疃里镇大张村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "空山前超市",
+        "前赵超市",
+        "华伍超市",
+        "发广超市",
+        "小燕子超市",
+        "西王村东头",
+        "晨鑫超市",
+        "中心幼儿园门口超市",
+        "王集小学东80米路北",
+        "名毅超市",
+        "天赐超市",
+        "发久超市",
+        "阳光超市",
+        "生活超市",
+        "村委会门口",
+        "社区门口",
+        "吉祥超市",
+        "世赢超市",
+        "宏旭超市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jqpp",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "爱思唯特",
+        "格美",
+        "水平方"
+      ],
+      "value_pool": [
+        "爱思唯特",
+        "格美",
+        "水平方"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1台",
+        "2台"
+      ],
+      "value_pool": [
+        "1台",
+        "2台"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "file_name": "微山县共享电车信息202605261549.xlsx",
+  "table_name": "微山县共享电车信息202605261549",
+  "row_count": 4,
+  "columns": [
+    "dcmc",
+    "zdh",
+    "tfdwz",
+    "zrr",
+    "gxdcqymc",
+    "xnzdwz",
+    "lxdh"
+  ],
+  "fields": [
+    {
+      "name": "dcmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "松果出行共享电单车"
+      ],
+      "value_pool": [
+        "松果出行共享电单车"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "93",
+        "94",
+        "95",
+        "96"
+      ],
+      "min_value": 93.0,
+      "max_value": 96.0
+    },
+    {
+      "name": "tfdwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "体育馆东门南侧",
+        "体育馆北门东侧",
+        "微山湖医院西门南侧",
+        "星月城东门北侧"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "张振华",
+        "赵国庆"
+      ],
+      "value_pool": [
+        "张振华",
+        "赵国庆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxdcqymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "天津松果租赁有限公司微山分公司"
+      ],
+      "value_pool": [
+        "天津松果租赁有限公司微山分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xnzdwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "体育馆东门",
+        "体育馆北门",
+        "微山湖医院西门",
+        "星月城东门"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "156****7787",
+        "151****4966"
+      ],
+      "value_pool": [
+        "156****7787",
+        "151****4966"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

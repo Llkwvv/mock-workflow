@@ -1,0 +1,212 @@
+{
+  "file_name": "济宁经开区执法证信息202603201026.xlsx",
+  "table_name": "济宁经开区执法证信息202603201026",
+  "row_count": 174,
+  "columns": [
+    "姓名",
+    "gzdw",
+    "xb",
+    "zfqy",
+    "zfzh",
+    "zjyxq"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "秦胜阁",
+        "张国亮",
+        "王新良",
+        "魏素英",
+        "王景闪",
+        "冯春丽",
+        "刘敦坤",
+        "杨春国",
+        "马鹏海",
+        "丁亚",
+        "马士通",
+        "刘冬梅",
+        "欧阳兆印",
+        "仲耸",
+        "吕性祥",
+        "李玉霞",
+        "李相梅",
+        "曹科军",
+        "李春光",
+        "李金香",
+        "王立",
+        "刘伟",
+        "史亚楠",
+        "王国强",
+        "黄学锋",
+        "张新钰",
+        "陈党生",
+        "杨建设",
+        "白志灿",
+        "宗妹函",
+        "韩秋霞",
+        "邱晨阳",
+        "柳明印",
+        "高军之",
+        "张立新",
+        "陈银玲",
+        "李大浩",
+        "王建国",
+        "杜传贤",
+        "严爱美",
+        "王永茂",
+        "种玉梅",
+        "赵诗心",
+        "董海龙",
+        "张志文",
+        "李存永",
+        "田成宏",
+        "贾虎",
+        "李华",
+        "丁献伟",
+        "任茂林",
+        "吕鹏",
+        "韩新军",
+        "谢允娟",
+        "李飞",
+        "田静",
+        "孙本峰",
+        "张如征",
+        "岳海红",
+        "李宁",
+        "曹春香",
+        "鲁延红",
+        "宋建华",
+        "董琪",
+        "任倩倩",
+        "林恒",
+        "郭志刚",
+        "郏祎",
+        "付卫华",
+        "王利华",
+        "马向前",
+        "刘路",
+        "尹航",
+        "梁艳君",
+        "杜爱胜",
+        "曾凡华",
+        "杜秀宁",
+        "韩成",
+        "田锦绣",
+        "郑钦友",
+        "朱美霞",
+        "王丽",
+        "韩峰",
+        "刘宝记",
+        "周新",
+        "张旭",
+        "路军",
+        "严庆双",
+        "郭倩楠",
+        "李瑞霞",
+        "邓桂亮",
+        "杨富贵",
+        "杨艳",
+        "张志强",
+        "张继同",
+        "张金嵋",
+        "郭彦德",
+        "张兆飞",
+        "杨妍妍",
+        "吕远燕"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁经济开发区管理委员会"
+      ],
+      "value_pool": [
+        "济宁经济开发区管理委员会"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁经济开发区"
+      ],
+      "value_pool": [
+        "济宁经济开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "150********"
+      ],
+      "value_pool": [
+        "150********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjyxq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021-06-30",
+        "2022-06-30"
+      ],
+      "value_pool": [
+        "2021-06-30",
+        "2022-06-30"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

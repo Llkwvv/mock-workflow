@@ -1,0 +1,146 @@
+{
+  "file_name": "汶上县农业农村局_农产品质量安全追溯平台应用管理信息202507161315.xlsx",
+  "table_name": "汶上县农业农村局_农产品质量安全追溯平台应用管理信息202507161315",
+  "row_count": 30,
+  "columns": [
+    "dd",
+    "lxr",
+    "zj",
+    "pxsj",
+    "ztmc"
+  ],
+  "fields": [
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "307会议室"
+      ],
+      "value_pool": [
+        "307会议室"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "郑海军",
+        "张虎",
+        "郁立伟",
+        "伊同印",
+        "闫保国",
+        "徐晓晓",
+        "徐卫军",
+        "夏卫国",
+        "吴振鲁",
+        "王光峰",
+        "宋连营",
+        "全明礼",
+        "庞国冲",
+        "吕颜礼",
+        "柳拥军",
+        "刘勇",
+        "刘亭印",
+        "刘思尚",
+        "林凡华",
+        "蒋  晓",
+        "黄海龙",
+        "郭庆凯",
+        "郭  超",
+        "宫庆飞",
+        "付双月",
+        "付海涛",
+        "樊庆武",
+        "崔志华",
+        "崔光军",
+        "程明强"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汶上街道",
+        "苑庄镇",
+        "康驿镇",
+        "杨店镇",
+        "寅寺镇",
+        "刘楼镇",
+        "郭仓镇",
+        "郭楼镇",
+        "南旺镇",
+        "次邱镇",
+        "中都街道",
+        "军屯乡",
+        "白石镇",
+        "南站街道",
+        "义桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "4月10日"
+      ],
+      "value_pool": [
+        "4月10日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ztmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "镇街平台管理员",
+        "汶上县道立种植农民专业合作社",
+        "汶上县轩丰种植农民专业合作社",
+        "山东春华农业科技有限公司",
+        "汶上县鲁迎种植农民专业合作社",
+        "汶上县绿科农民种植专业合作社",
+        "济宁大粮农业服务有限公司",
+        "汶上县棉花繁育原种场",
+        "济宁丰泽农业科技有限公司",
+        "济宁泰东农业科技有限公司",
+        "可心果优质果蔬标准化生产基地",
+        "济宁景明生态农业有限公司",
+        "吉月沼气服务农民专业合作社",
+        "济宁裕凯农业科技有限公司",
+        "山东菱花集团汶上农场",
+        "汶佳田园农业科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

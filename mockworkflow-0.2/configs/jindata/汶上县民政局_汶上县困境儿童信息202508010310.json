@@ -1,0 +1,137 @@
+{
+  "file_name": "汶上县民政局_汶上县困境儿童信息202508010310.xlsx",
+  "table_name": "汶上县民政局_汶上县困境儿童信息202508010310",
+  "row_count": 272,
+  "columns": [
+    "姓名",
+    "xsq",
+    "zj",
+    "xb",
+    "lb"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "孟*",
+        "王**",
+        "胡**",
+        "宋**",
+        "郭**",
+        "苑**",
+        "张**",
+        "赵**",
+        "徐**",
+        "尹**",
+        "高**",
+        "郑**",
+        "陈**",
+        "廉**",
+        "王*",
+        "朱**",
+        "雷**",
+        "刘**",
+        "伊**",
+        "薛**",
+        "蒋**",
+        "黄**",
+        "张*",
+        "邵**",
+        "闫**",
+        "曾**",
+        "马**",
+        "于**",
+        "苏**",
+        "林**",
+        "付**",
+        "顾**",
+        "吴**",
+        "白**",
+        "魏**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上",
+        "中都",
+        "南站",
+        "康驿",
+        "南旺"
+      ],
+      "value_pool": [
+        "汶上",
+        "中都",
+        "南站",
+        "康驿",
+        "南旺"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "重点困境儿童"
+      ],
+      "value_pool": [
+        "重点困境儿童"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

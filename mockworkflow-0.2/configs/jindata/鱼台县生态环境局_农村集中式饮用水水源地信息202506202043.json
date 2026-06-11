@@ -1,0 +1,156 @@
+{
+  "file_name": "鱼台县生态环境局_农村集中式饮用水水源地信息202506202043.xlsx",
+  "table_name": "鱼台县生态环境局_农村集中式饮用水水源地信息202506202043",
+  "row_count": 25,
+  "columns": [
+    "xz",
+    "sylx",
+    "symc",
+    "cjd",
+    "bhqfw"
+  ],
+  "fields": [
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "谷亭街道",
+        "滨湖街道",
+        "清河镇",
+        "王鲁镇",
+        "张黄镇",
+        "王庙镇",
+        "李阁镇",
+        "鱼台县张黄镇",
+        "鱼台县王庙镇"
+      ],
+      "value_pool": [
+        "谷亭街道",
+        "滨湖街道",
+        "清河镇",
+        "王鲁镇",
+        "张黄镇",
+        "王庙镇",
+        "李阁镇",
+        "鱼台县张黄镇",
+        "鱼台县王庙镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sylx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "地下水"
+      ],
+      "value_pool": [
+        "地下水"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "symc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "谷亭街道双韩村地下水型水源地",
+        "滨湖街道吴集地下水型水源地",
+        "滨湖街道大李庄地下水型水源地",
+        "清河镇清河村地下水型水源地",
+        "清河镇潘庄村地下水型水源地",
+        "清河镇袁家村地下水型水源地",
+        "王鲁镇宋庄地下水型水源地",
+        "王鲁镇碌碡屯地下水型水源地",
+        "王鲁镇陈堂地下水型水源地",
+        "张黄镇后杜村地下水型水源地",
+        "张黄镇大翟村地下水型水源地",
+        "张黄镇大闵村地下水型水源地",
+        "张黄镇小吴村地下水型水源地",
+        "张黄镇张黄村地下水型水源地",
+        "张黄镇王庄村地下水型水源地",
+        "张黄镇西刘村地下水型水源地",
+        "张黄镇高庙村地下水型水源地",
+        "王庙镇大奚村地下水型水源地",
+        "王庙镇炳灵村地下水型水源地",
+        "王庙镇周楼村地下水型水源地",
+        "李阁镇王庙村地下水型水源地",
+        "李阁镇陈峨村地下水型水源地",
+        "李阁镇李阁村地下水型水源地",
+        "鱼台县张黄镇高庙村地下水型水源地",
+        "鱼台县王庙镇大奚村地下水型水源地"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "双韩村",
+        "吴集",
+        "大李庄",
+        "清河村",
+        "潘庄村",
+        "袁家村",
+        "宋庄",
+        "碌碡屯",
+        "陈堂",
+        "后杜村",
+        "大翟村",
+        "大闵村",
+        "小吴村",
+        "张黄村",
+        "王庄村",
+        "西刘村",
+        "高庙村",
+        "大奚村",
+        "炳灵村",
+        "周楼村",
+        "王庙村",
+        "陈峨村",
+        "李阁村",
+        "张黄镇高庙村",
+        "王庙镇大奚村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bhqfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "以取水井为中心，半径为30m的圆形区域",
+        "以取水井半径为30m的圆形区域"
+      ],
+      "value_pool": [
+        "以取水井为中心，半径为30m的圆形区域",
+        "以取水井半径为30m的圆形区域"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

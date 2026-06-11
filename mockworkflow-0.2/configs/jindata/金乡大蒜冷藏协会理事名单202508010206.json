@@ -1,0 +1,154 @@
+{
+  "file_name": "金乡大蒜冷藏协会理事名单202508010206.xlsx",
+  "table_name": "金乡大蒜冷藏协会理事名单202508010206",
+  "row_count": 38,
+  "columns": [
+    "dw",
+    "zw",
+    "yb",
+    "xq",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县聚鑫源贸易有限公司",
+        "金乡县粤宣城果蔬制品有限公司",
+        "金乡县胡集镇蓝天恒温库",
+        "济宁嘉汇果蔬有限公司",
+        "金乡县天发贸易有限公司",
+        "金乡县金昊源农贸有限公司",
+        "金乡县长城农贸有限公司",
+        "金昊公司",
+        "济宁市继超农产品股份有限公司",
+        "山东诚强实业股份有限公司",
+        "金乡县国浩蒜业有限公司",
+        "山东金祥源粮油食品有限公司",
+        "金乡县宏腾果蔬有限公司",
+        "金乡县宏宇冷藏加工有限公司",
+        "金乡县宏祥农副产品有限责任公司",
+        "山东宏大食品股份有限公司",
+        "金乡县万兴食品有限公司",
+        "济宁市中蒜网络科技有限公司",
+        "金乡县天佳商贸有限公司",
+        "济宁市鲁峰冷藏集团有限公司",
+        "金乡县崇文食品有限公司",
+        "山东东宝食品有限公司",
+        "金乡县山林农贸有限公司",
+        "山东凯盛农产品物流园有限公司",
+        "山东金恒农产品冷链物流有限公司",
+        "金乡县嘉旭贸易有限公司",
+        "华鑫农贸",
+        "金乡县爱菲尔网络科技有限公司",
+        "金乡县同酬商贸有限公司",
+        "金乡县寻坊农贸有限公司",
+        "中蒜仓储有限责任公司",
+        "金乡县雪原果蔬有限公司",
+        "金乡县东运进出口有限公司",
+        "金乡县盛隆贸易有限公司",
+        "金乡县翼新包装科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "理事"
+      ],
+      "value_pool": [
+        "理事"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "272200"
+      ],
+      "value_pool": [
+        "272200"
+      ],
+      "min_value": 272200.0,
+      "max_value": 272200.0
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "高河",
+        "胡集",
+        "化雨",
+        "鸡黍",
+        "金乡街道",
+        "马庙",
+        "食品园区",
+        "司马",
+        "物流园区",
+        "霄云",
+        "兴隆",
+        "羊山",
+        "鱼山街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "侯**",
+        "邝**",
+        "朱**",
+        "杨**",
+        "吴**",
+        "李**",
+        "刘**",
+        "陈**",
+        "周**",
+        "秦**",
+        "王**",
+        "毕**",
+        "程**",
+        "邵**",
+        "宣**",
+        "徐**",
+        "任**",
+        "吕**",
+        "孔**",
+        "寻**",
+        "韩**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "file_name": "农村已改厕所信息台账202508010156.xlsx",
+  "table_name": "农村已改厕所信息台账202508010156",
+  "row_count": 763,
+  "columns": [
+    "hzxm",
+    "gzfs",
+    "syqk",
+    "zjd",
+    "cz",
+    "xsq"
+  ],
+  "fields": [
+    {
+      "name": "hzxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "刘**",
+        "单**",
+        "江**",
+        "赵**",
+        "栗**",
+        "王**",
+        "杨**",
+        "吴**",
+        "张**",
+        "满**",
+        "夏**",
+        "董**",
+        "代**",
+        "周**",
+        "宋**",
+        "纪**",
+        "吕**",
+        "曹**",
+        "马**",
+        "武**",
+        "孙**",
+        "孟**",
+        "石**",
+        "胡**",
+        "李*",
+        "徐**",
+        "冯**",
+        "薛**",
+        "孔**",
+        "韩**",
+        "辛**",
+        "祝**",
+        "殷**",
+        "苏**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "三格式化粪池"
+      ],
+      "value_pool": [
+        "三格式化粪池"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "syqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "使用"
+      ],
+      "value_pool": [
+        "使用"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "卜集镇",
+        "霄云镇",
+        "王丕街道"
+      ],
+      "value_pool": [
+        "卜集镇",
+        "霄云镇",
+        "王丕街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "宋庙村",
+        "大刘楼村",
+        "李堂村",
+        "金鱼店村",
+        "东门屯村",
+        "石庙村",
+        "邢庄村",
+        "白坨村",
+        "周集村",
+        "纪庄村",
+        "周庄村",
+        "西王楼",
+        "鲍楼村",
+        "石庄村",
+        "店子村",
+        "郑大楼",
+        "郑小楼",
+        "吕庄村",
+        "李固楼村",
+        "祭田",
+        "彭井村",
+        "孙店",
+        "张暗楼",
+        "牌坊林",
+        "胡井",
+        "王丕庄村",
+        "西吴岗",
+        "东吴岗"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

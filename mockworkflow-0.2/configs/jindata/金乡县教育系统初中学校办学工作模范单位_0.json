@@ -1,0 +1,59 @@
+{
+  "file_name": "金乡县教育系统初中学校办学工作模范单位_0.csv",
+  "table_name": "金乡县教育系统初中学校办学工作模范单位_0",
+  "row_count": 21,
+  "columns": [
+    "md",
+    "jx"
+  ],
+  "fields": [
+    {
+      "name": "md",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "王杰中学",
+        "马集中学",
+        "实验中学",
+        "金乡三中",
+        "化雨中学",
+        "奎星中学",
+        "高河中学",
+        "青华园学校",
+        "文峰中学",
+        "金曼克中学",
+        "胡集中学",
+        "育才学校",
+        "卜集中学",
+        "肖云中学",
+        "兴隆中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "初中素质教育展演先进单位",
+        "初中教育教学先进单位",
+        "初中教育教学进步单位"
+      ],
+      "value_pool": [
+        "初中素质教育展演先进单位",
+        "初中教育教学先进单位",
+        "初中教育教学进步单位"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

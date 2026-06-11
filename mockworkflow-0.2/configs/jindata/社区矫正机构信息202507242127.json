@@ -1,0 +1,124 @@
+{
+  "file_name": "社区矫正机构信息202507242127.xlsx",
+  "table_name": "社区矫正机构信息202507242127",
+  "row_count": 13,
+  "columns": [
+    "电话",
+    "mc",
+    "dz",
+    "jdsj",
+    "yzbm"
+  ],
+  "fields": [
+    {
+      "name": "电话",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "185****6007",
+        "186****9886",
+        "186****8022",
+        "186****9868",
+        "132****3166",
+        "186****9887",
+        "155****7117",
+        "186****8952",
+        "151****5789",
+        "185****6005",
+        "186****8032",
+        "139****0887",
+        "178****3705"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "泗河司法所",
+        "济河司法所",
+        "金庄司法所",
+        "杨柳司法所",
+        "柘沟司法所",
+        "中册司法所",
+        "高峪司法所",
+        "星村司法所",
+        "华村司法所",
+        "泉林司法所",
+        "泗张司法所",
+        "圣水峪司法所",
+        "苗馆司法所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "泗水县泗河街道办事处二楼",
+        "泗水县泉衍路济河街道办事处一楼107，108",
+        "金庄镇政府东，金庄镇和为贵社会治理中心一楼",
+        "泗水县杨柳镇政府门口西侧",
+        "泗水县柘沟镇驻地",
+        "泗水县中册镇政府驻地",
+        "泗水县高峪镇人民政府驻地（泗水县泗楼路19号）",
+        "泗水县星村镇星村大街24号",
+        "泗水县华村镇政府驻地",
+        "泗水县泉林镇政府院门口东侧",
+        "泗水县泗张镇政府东临",
+        "泗水县圣水峪镇人民政府院内",
+        "泗水县苗馆镇327国道路北苗馆镇人民政府院内西侧"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jdsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "8:30-12:00\n14:00-18:00"
+      ],
+      "value_pool": [
+        "8:30-12:00\n14:00-18:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yzbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "273200"
+      ],
+      "value_pool": [
+        "273200"
+      ],
+      "min_value": 273200.0,
+      "max_value": 273200.0
+    }
+  ]
+}

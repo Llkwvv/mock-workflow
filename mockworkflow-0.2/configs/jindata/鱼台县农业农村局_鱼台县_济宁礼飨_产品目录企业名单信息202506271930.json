@@ -1,0 +1,151 @@
+{
+  "file_name": "鱼台县农业农村局_鱼台县_济宁礼飨_产品目录企业名单信息202506271930.xlsx",
+  "table_name": "鱼台县农业农村局_鱼台县_济宁礼飨_产品目录企业名单信息202506271930",
+  "row_count": 39,
+  "columns": [
+    "gsss",
+    "gsmc",
+    "cpmc",
+    "sqpc",
+    "sj"
+  ],
+  "fields": [
+    {
+      "name": "gsss",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "济宁市鱼台县",
+        "鱼台县"
+      ],
+      "value_pool": [
+        "济宁市鱼台县",
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东中垦美晶米业有限公司",
+        "鱼台县丰谷米业有限公司",
+        "鱼台县昌健食用菌种植专业合作社",
+        "山东鲁王集团有限公司",
+        "山东东粮农业科技有限公司",
+        "济宁鲁恒食品有限公司",
+        "山东鹤来香食品有限公司",
+        "山东旭农农业科技有限公司",
+        "鱼台县信博食用菌有限公司",
+        "鱼台县东珠农业种植专业合作社",
+        "鱼台县龙虾协会",
+        "济宁市汉友农产品有限公司",
+        "山东天晴生物科技有限公司",
+        "济宁驰润农业科技有限公司",
+        "鱼台县栋梁蔬菜种植专业合作社",
+        "山东湖中鲜食品有限公司",
+        "鱼台县淯源谷物种植专业合作社",
+        "济宁市穗丰农资有限责任公司",
+        "济宁市湖珍湖产品有限公司",
+        "济宁裕米丰生态农业有限公司",
+        "鱼台县轩源养鸡场",
+        "山东孝贤食品有限公司",
+        "济宁南阳湖湖产品有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cpmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "大米",
+        "毛木耳",
+        "特精粉",
+        "生猪",
+        "龙虾",
+        "鲢鱼",
+        "鲫鱼",
+        "草鱼",
+        "鲤鱼",
+        "鳙鱼",
+        "茄子",
+        "黄瓜",
+        "辣椒",
+        "番茄",
+        "韭菜",
+        "南瓜",
+        "绿豆",
+        "小龙虾",
+        "鱼台大米",
+        "毛木耳挂面",
+        "蒜苗",
+        "大豆",
+        "咸鸭蛋",
+        "鲜鸡蛋"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqpc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "首批",
+        "第二批",
+        "第三批",
+        "第四批"
+      ],
+      "value_pool": [
+        "首批",
+        "第二批",
+        "第三批",
+        "第四批"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2018.04",
+        "2018.09",
+        "2019.04",
+        "2019.1",
+        "2019年度"
+      ],
+      "value_pool": [
+        "2018.04",
+        "2018.09",
+        "2019.04",
+        "2019.1",
+        "2019年度"
+      ],
+      "min_value": 2018.04,
+      "max_value": 2019.1
+    }
+  ]
+}

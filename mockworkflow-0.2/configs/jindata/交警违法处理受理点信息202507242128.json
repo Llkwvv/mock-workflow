@@ -1,0 +1,156 @@
+{
+  "file_name": "交警违法处理受理点信息202507242128.xlsx",
+  "table_name": "交警违法处理受理点信息202507242128",
+  "row_count": 4,
+  "columns": [
+    "电话",
+    "wd",
+    "jd",
+    "xzqhdm",
+    "mc",
+    "ssxzqh",
+    "dz",
+    "dd"
+  ],
+  "fields": [
+    {
+      "name": "电话",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "152****9558",
+        "155****9886",
+        "186****3258",
+        "155****9891"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "35.25763",
+        "35.85",
+        "35.899",
+        "35.763"
+      ],
+      "min_value": 35.25763,
+      "max_value": 35.899
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "116.44901",
+        "116.098",
+        "115.913",
+        "116.137"
+      ],
+      "min_value": 115.913,
+      "max_value": 116.44901
+    },
+    {
+      "name": "xzqhdm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370829",
+        "370832"
+      ],
+      "value_pool": [
+        "370829",
+        "370832"
+      ],
+      "min_value": 370829.0,
+      "max_value": 370832.0
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县公安局交通警察大队金屯中队",
+        "梁山县公安局交通警察大队二中队",
+        "梁山县公安局交通警察大队四中队",
+        "济宁市梁山县交警大队违章处理大厅"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssxzqh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市嘉祥县",
+        "济宁市梁山县"
+      ],
+      "value_pool": [
+        "济宁市嘉祥县",
+        "济宁市梁山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县京澳线金屯客运站",
+        "梁山县水泊大街延伸段后码头村北梁山港南200米",
+        "梁山县242省道与342国道交叉口南120米",
+        "梁山县忠义路东段路南"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县交警大队",
+        "梁山县交警大队"
+      ],
+      "value_pool": [
+        "嘉祥县交警大队",
+        "梁山县交警大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

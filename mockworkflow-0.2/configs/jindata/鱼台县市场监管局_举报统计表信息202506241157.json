@@ -1,0 +1,317 @@
+{
+  "file_name": "鱼台县市场监管局_举报统计表信息202506241157.xlsx",
+  "table_name": "鱼台县市场监管局_举报统计表信息202506241157",
+  "row_count": 31,
+  "columns": [
+    "1hlwpt",
+    "msjewy",
+    "sljbajzsj",
+    "azwy",
+    "gtgsh",
+    "ylaj",
+    "yssfjgajj",
+    "gyjtjgykgqy",
+    "zbmc",
+    "nmzyhzs",
+    "wstzqy",
+    "fkjewy",
+    "zrr",
+    "syqy",
+    "qg1pt"
+  ],
+  "fields": [
+    {
+      "name": "1hlwpt",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "msjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "sljbajzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "0",
+        "49",
+        "269",
+        "18",
+        "55",
+        "49件",
+        "0件",
+        "269件"
+      ],
+      "value_pool": [
+        "0",
+        "49",
+        "269",
+        "18",
+        "55",
+        "49件",
+        "0件",
+        "269件"
+      ],
+      "min_value": 0.0,
+      "max_value": 269.0
+    },
+    {
+      "name": "azwy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "gtgsh",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.0",
+        "16.0",
+        "15.0"
+      ],
+      "value_pool": [
+        "0.0",
+        "16.0",
+        "15.0"
+      ],
+      "min_value": 0.0,
+      "max_value": 16.0
+    },
+    {
+      "name": "ylaj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "0件"
+      ],
+      "value_pool": [
+        "0",
+        "0件"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "yssfjgajj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "gyjtjgykgqy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "违反登记管理行为",
+        "不正当竞争行为",
+        "其中：利用预付费（卡）形式侵害消费者权益行为",
+        "产品质量违法行为",
+        "合同行政违法行为",
+        "拍卖违法行为",
+        "广告违法行为",
+        "直销违规行为",
+        "传销行为",
+        ".违反《人民币管理条例》的行为",
+        "垄断行为",
+        "违反网络商品交易管理法规",
+        "违法农资的违法行为",
+        "药品违法行为",
+        "医疗器械违法行为",
+        "化妆品违法行为",
+        "价格违法行为",
+        "商标违法行为",
+        "专利违法行为",
+        "地理标志违法行为",
+        "标准违法行为",
+        "计量违法行为",
+        "认证违法行为",
+        "特种设备违法行为",
+        "生产许可违法行为",
+        "食品违法行为",
+        "其他市场监管领域违法行为",
+        "其中：无照经营"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nmzyhzs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "wstzqy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "fkjewy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "zrr",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "syqy",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "qg1pt",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "49",
+        "269",
+        "18",
+        "55"
+      ],
+      "value_pool": [
+        "0",
+        "49",
+        "269",
+        "18",
+        "55"
+      ],
+      "min_value": 0.0,
+      "max_value": 269.0
+    }
+  ]
+}

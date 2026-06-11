@@ -1,0 +1,148 @@
+{
+  "file_name": "任城区商务局老字号企业名录202507242139.xlsx",
+  "table_name": "任城区商务局老字号企业名录202507242139",
+  "row_count": 28,
+  "columns": [
+    "qymc",
+    "zcsb",
+    "ds",
+    "pc",
+    "lzhlx"
+  ],
+  "fields": [
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东玉堂酱园有限责任公司",
+        "济宁市任城区清真马大兴食品厂",
+        "济宁市任城区周香坊第一甏",
+        "山东爱客多商贸有限公司",
+        "山东济宁心心酒业有限公司",
+        "济宁市瑞元亭餐饮有限公司",
+        "济宁市任城区孝全清真烧鸡店",
+        "济宁玉园酿造食品有限公司",
+        "微山县湖产品加工总厂",
+        "金乡县金蜂糕点食品厂",
+        "梁山县鲁锦专业手工织绣有限公司",
+        "梁山水浒斋文化发展有限公司",
+        "梁山县水泊酿造厂",
+        "梁山解放桥烧鸡店",
+        "梁山县李家驴肉店",
+        "曲阜市扶兴和笔庄",
+        "曲阜市万成公食品有限公司",
+        "曲阜市琉璃瓦厂",
+        "金乡县羊山镇玉凤斋熏鱼店",
+        "金乡县工商联副食加工厂"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcsb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "玉堂",
+        "马大兴",
+        "周香坊第一甏",
+        "兰芳斋",
+        "心",
+        "瑞元亭",
+        "孝全",
+        "玉园",
+        "微山湖",
+        "金蜂",
+        "汉绣坊",
+        "柴大官人",
+        "梁山好汉",
+        "梁山解放桥",
+        "拳铺李家",
+        "扶兴和",
+        "万成公",
+        "孔府御圣公",
+        "玉凤斋",
+        "金商"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ds",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "任城区",
+        "微山县",
+        "金乡县",
+        "梁山县",
+        "曲阜市"
+      ],
+      "value_pool": [
+        "任城区",
+        "微山县",
+        "金乡县",
+        "梁山县",
+        "曲阜市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "第一批",
+        "第二批",
+        "第三批",
+        "第四批",
+        "第五批"
+      ],
+      "value_pool": [
+        "第一批",
+        "第二批",
+        "第三批",
+        "第四批",
+        "第五批"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lzhlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "中华老字号",
+        "山东老字号",
+        "济宁老字号"
+      ],
+      "value_pool": [
+        "中华老字号",
+        "山东老字号",
+        "济宁老字号"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

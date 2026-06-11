@@ -1,0 +1,94 @@
+{
+  "file_name": "小区暖气使用情况安全检查信息202601081042.xlsx",
+  "table_name": "小区暖气使用情况安全检查信息202601081042",
+  "row_count": 3,
+  "columns": [
+    "jcr",
+    "xqmc",
+    "wygsmc",
+    "wygslxr",
+    "sfzc"
+  ],
+  "fields": [
+    {
+      "name": "jcr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高中绪、刘桂圆"
+      ],
+      "value_pool": [
+        "高中绪、刘桂圆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "立国如意花园",
+        "碧桂园",
+        "福祥丽景"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wygsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁汇鑫物业",
+        "嘉祥碧桂园物业",
+        "嘉祥嘉成物业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wygslxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "权尊海",
+        "王芳",
+        "李国强"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

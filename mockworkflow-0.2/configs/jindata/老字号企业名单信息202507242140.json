@@ -1,0 +1,152 @@
+{
+  "file_name": "老字号企业名单信息202507242140.xlsx",
+  "table_name": "老字号企业名单信息202507242140",
+  "row_count": 26,
+  "columns": [
+    "pc",
+    "lzhlx",
+    "ds",
+    "zcsb",
+    "qymc"
+  ],
+  "fields": [
+    {
+      "name": "pc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "第一批",
+        "第二批",
+        "第三批",
+        "第四批",
+        "第五批",
+        "第六批"
+      ],
+      "value_pool": [
+        "第一批",
+        "第二批",
+        "第三批",
+        "第四批",
+        "第五批",
+        "第六批"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lzhlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "中华老字号",
+        "山东老字号"
+      ],
+      "value_pool": [
+        "中华老字号",
+        "山东老字号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ds",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcsb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "微山湖",
+        "玉堂",
+        "金蜂",
+        "马大兴",
+        "汉纺绣",
+        "广育堂",
+        "柴大官人",
+        "拳铺李家",
+        "扶兴和",
+        "万成公",
+        "御圣公",
+        "兖字",
+        "梁山解放桥",
+        "周香坊第一甏",
+        "玉凤斋",
+        "汶水",
+        "金商",
+        "徐坊",
+        "马坡金谷",
+        "御桥",
+        "兰芳斋",
+        "南阳湖",
+        "心",
+        "瑞元亭",
+        "寅阳寺",
+        "南四湖"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "微山县湖产品加工总厂",
+        "山东玉堂酱园有限责任公司",
+        "金乡县金蜂糕点食品厂",
+        "济宁市任城区清真马大兴食品厂",
+        "山东枫栖服饰有限责任公司",
+        "山东广育堂国药有限公司",
+        "梁山水浒斋文化发展有限公司",
+        "梁山同军驴肉有限公司",
+        "曲阜市扶兴和笔庄有限公司",
+        "曲阜市万成公食品有限公司",
+        "曲阜市琉璃瓦厂有限公司",
+        "山东运河之都生态酒庄有限公司",
+        "梁山县解放桥烧鸡店",
+        "济宁市任城区周香坊甏肉干饭",
+        "金乡县玉凤斋食品厂",
+        "山东金秋农牧科技股份有限公司",
+        "金乡县工商联副食品加工厂",
+        "山东梁山徐坊大曲有限公司",
+        "金乡圣丰谷源米业有限公司",
+        "济宁市兖州区御桥小磨香油有限公司",
+        "山东兰芳斋食品有限公司",
+        "山东济宁南阳湖农场有限公司",
+        "山东济宁心心酒业有限公司",
+        "济宁市瑞元亭餐饮有限公司",
+        "山东省济宁玉粮食品有限公司",
+        "微山县远华湖产食品有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

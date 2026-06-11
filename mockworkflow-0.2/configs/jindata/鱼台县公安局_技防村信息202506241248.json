@@ -1,0 +1,148 @@
+{
+  "file_name": "鱼台县公安局_技防村信息202506241248.xlsx",
+  "table_name": "鱼台县公安局_技防村信息202506241248",
+  "row_count": 37,
+  "columns": [
+    "txccsjt",
+    "jdmc",
+    "lwjrqk",
+    "sxjslt",
+    "xzc"
+  ],
+  "fields": [
+    {
+      "name": "txccsjt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "30",
+        "30天内"
+      ],
+      "value_pool": [
+        "30",
+        "30天内"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "谷亭街道",
+        "王鲁镇",
+        "鱼台县谷亭街道"
+      ],
+      "value_pool": [
+        "谷亭街道",
+        "王鲁镇",
+        "鱼台县谷亭街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lwjrqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已接入"
+      ],
+      "value_pool": [
+        "已接入"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sxjslt",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "8",
+        "17",
+        "12",
+        "7",
+        "9",
+        "10",
+        "11",
+        "5",
+        "4",
+        "1"
+      ],
+      "value_pool": [
+        "8",
+        "17",
+        "12",
+        "7",
+        "9",
+        "10",
+        "11",
+        "5",
+        "4",
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 17.0
+    },
+    {
+      "name": "xzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汪庄村",
+        "杨楼村",
+        "周堂村",
+        "双韩村",
+        "姜庄村",
+        "八里湾村",
+        "土楼村",
+        "李庄村",
+        "东段村",
+        "西段村",
+        "胡集村",
+        "西姚村",
+        "龙申村",
+        "缪集村",
+        "王子亮村",
+        "蒋庄村",
+        "李更卜村",
+        "后闫村",
+        "王响村",
+        "田庙村",
+        "碌朱屯村",
+        "闫庙村",
+        "小周村",
+        "潘庄村",
+        "刘庄村",
+        "窦闫李村",
+        "张庙村",
+        "李集村",
+        "魏堂村",
+        "孟楼村",
+        "史楼村",
+        "陈堂村",
+        "耿庄村"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

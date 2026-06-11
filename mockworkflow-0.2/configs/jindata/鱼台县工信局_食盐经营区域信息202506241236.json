@@ -1,0 +1,135 @@
+{
+  "file_name": "鱼台县工信局_食盐经营区域信息202506241236.xlsx",
+  "table_name": "鱼台县工信局_食盐经营区域信息202506241236",
+  "row_count": 21,
+  "columns": [
+    "gg",
+    "pp",
+    "cz",
+    "xz",
+    "mc"
+  ],
+  "fields": [
+    {
+      "name": "gg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "400克"
+      ],
+      "value_pool": [
+        "400克"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pp",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鲁晶"
+      ],
+      "value_pool": [
+        "鲁晶"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "贯通商贸",
+        "镇驻地",
+        "周堂",
+        "胡阁",
+        "佃户里",
+        "观鱼社区",
+        "路屯",
+        "滨湖区",
+        "滨湖街道范围、谷亭街道范围"
+      ],
+      "value_pool": [
+        "贯通商贸",
+        "镇驻地",
+        "周堂",
+        "胡阁",
+        "佃户里",
+        "观鱼社区",
+        "路屯",
+        "滨湖区",
+        "滨湖街道范围、谷亭街道范围"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "谷亭",
+        "王庙",
+        "鱼城",
+        "王鲁",
+        "罗屯",
+        "李阁",
+        "张黄",
+        "老砦",
+        "清河",
+        "唐马",
+        "城区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "田民干菜店",
+        "王明商贸",
+        "团结生鲜超市",
+        "林家菜店",
+        "郭军",
+        "胡华军",
+        "交运生活超市",
+        "李祥和购物超市",
+        "善宾超市",
+        "曼迪超市",
+        "路强超市",
+        "海波批发超市",
+        "徐宁超市",
+        "青田联华",
+        "玉堂酱菜调料",
+        "华联购物中心",
+        "青田华联",
+        "多乐购生活超市",
+        "丽都购物广场",
+        "飞跃购物广场"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

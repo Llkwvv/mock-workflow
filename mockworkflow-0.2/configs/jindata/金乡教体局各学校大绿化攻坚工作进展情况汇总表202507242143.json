@@ -1,0 +1,114 @@
+{
+  "file_name": "金乡教体局各学校大绿化攻坚工作进展情况汇总表202507242143.xlsx",
+  "table_name": "金乡教体局各学校大绿化攻坚工作进展情况汇总表202507242143",
+  "row_count": 1,
+  "columns": [
+    "sj",
+    "jbyq",
+    "zjl",
+    "jblhnr",
+    "xm",
+    "xmxx",
+    "zrld"
+  ],
+  "fields": [
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jbyq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "加强养护管理，确保 2018年绿化全覆盖，不存在裸露地面；大门两侧绿化池内补栽乔木（胸径大于5公分的白蜡、栾树等），花灌木（独杆紫薇、西府海棠），球类；南教学楼后补栽乔木（胸径大于5公分的白蜡、栾树等），花灌木（独杆紫薇、西府海棠），地被；7号宿舍楼西绿化池内补栽乔木（胸径大于5公分的白蜡、栾树等），花灌木（独杆紫薇、西府海棠）。加强养护管理，保住省级花园式单位的荣誉称号。"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "32000"
+      ],
+      "min_value": 32000.0,
+      "max_value": 32000.0
+    },
+    {
+      "name": "jblhnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "白蜡树50棵、栾树2棵、山楂树10棵、大雪花树30棵、南天竺20棵、棕榈树10棵"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "挖坑、购树、栽植 浇水"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmxx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "二中"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrld",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "曹静"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

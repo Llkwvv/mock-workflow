@@ -1,0 +1,139 @@
+{
+  "file_name": "嘉祥县退役军人事务局_嘉祥县义务兵家属优待金发放信息202508010312.xlsx",
+  "table_name": "嘉祥县退役军人事务局_嘉祥县义务兵家属优待金发放信息202508010312",
+  "row_count": 455,
+  "columns": [
+    "jtzz",
+    "rwnd",
+    "rylb",
+    "姓名",
+    "ydjse"
+  ],
+  "fields": [
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rwnd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023年-2024年"
+      ],
+      "value_pool": [
+        "2023年-2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "西藏",
+        "普通"
+      ],
+      "value_pool": [
+        "西藏",
+        "普通"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "夏**",
+        "黄**",
+        "王**",
+        "孙**",
+        "刘**",
+        "侯**",
+        "李*",
+        "胡**",
+        "聂**",
+        "李**",
+        "宋**",
+        "付**",
+        "吴**",
+        "田**",
+        "汤**",
+        "高**",
+        "朱**",
+        "姬**",
+        "臧*",
+        "金*",
+        "郝**",
+        "山**",
+        "赵**",
+        "杨**",
+        "陈**",
+        "阎**",
+        "孟**",
+        "曹**",
+        "路**",
+        "杜**",
+        "韩**",
+        "司**",
+        "苑**",
+        "楚**",
+        "董**",
+        "闫**",
+        "万**",
+        "王*",
+        "陆**",
+        "苏**",
+        "冯**",
+        "庞**",
+        "任**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ydjse",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "25645.0",
+        "12822.5"
+      ],
+      "value_pool": [
+        "25645.0",
+        "12822.5"
+      ],
+      "min_value": 12822.5,
+      "max_value": 25645.0
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "file_name": "鱼台县自然资源和规划局_对越界开采矿产资源行为的监管信息202506271808.xlsx",
+  "table_name": "鱼台县自然资源和规划局_对越界开采矿产资源行为的监管信息202506271808",
+  "row_count": 46,
+  "columns": [
+    "xcdd",
+    "sj",
+    "xcqk",
+    "xcry",
+    "xcfs"
+  ],
+  "fields": [
+    {
+      "name": "xcdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "老砦镇双河煤矿",
+        "张黄镇鹿洼煤矿"
+      ],
+      "value_pool": [
+        "老砦镇双河煤矿",
+        "张黄镇鹿洼煤矿"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "43936",
+        "43966",
+        "44007",
+        "44035",
+        "44040",
+        "44056",
+        "44079",
+        "44100",
+        "44137",
+        "44198",
+        "44229",
+        "44233",
+        "44259",
+        "44295",
+        "44324",
+        "44349",
+        "44385",
+        "44417",
+        "44441",
+        "44301",
+        "44331",
+        "44372",
+        "44400",
+        "44405",
+        "44421",
+        "44444",
+        "44465",
+        "44502",
+        "44563",
+        "44594",
+        "44598",
+        "44624",
+        "44660",
+        "44689",
+        "44714",
+        "44750",
+        "44782",
+        "44806",
+        "2025年1季度"
+      ],
+      "min_value": 43936.0,
+      "max_value": 44806.0
+    },
+    {
+      "name": "xcqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "通过对该辖区监督巡查，未发现越界开采矿产资源行为。",
+        "通过对该辖区监督巡查，未发现越界开采矿产资源行为，一切正常。"
+      ],
+      "value_pool": [
+        "通过对该辖区监督巡查，未发现越界开采矿产资源行为。",
+        "通过对该辖区监督巡查，未发现越界开采矿产资源行为，一切正常。"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "屈云标、刘志国、张崇良、韩廷宝"
+      ],
+      "value_pool": [
+        "屈云标、刘志国、张崇良、韩廷宝"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xcfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "季度监督检查"
+      ],
+      "value_pool": [
+        "季度监督检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

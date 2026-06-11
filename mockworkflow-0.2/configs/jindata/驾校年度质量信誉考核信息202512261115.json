@@ -1,0 +1,92 @@
+{
+  "file_name": "驾校年度质量信誉考核信息202512261115.xlsx",
+  "table_name": "驾校年度质量信誉考核信息202512261115",
+  "row_count": 3,
+  "columns": [
+    "jxmc",
+    "khdj",
+    "xh",
+    "bz",
+    "khnd"
+  ],
+  "fields": [
+    {
+      "name": "jxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "西城驾校",
+        "运河之都驾校",
+        "星光驾校"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "khdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "AA",
+        "A"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "64",
+        "65",
+        "66"
+      ],
+      "min_value": 64.0,
+      "max_value": 66.0
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "2023AA",
+        "2023A"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "khnd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023"
+      ],
+      "value_pool": [
+        "2023"
+      ],
+      "min_value": 2023.0,
+      "max_value": 2023.0
+    }
+  ]
+}

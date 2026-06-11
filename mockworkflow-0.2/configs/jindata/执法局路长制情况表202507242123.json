@@ -1,0 +1,152 @@
+{
+  "file_name": "执法局路长制情况表202507242123.xlsx",
+  "table_name": "执法局路长制情况表202507242123",
+  "row_count": 24,
+  "columns": [
+    "zfjlzzqkbdd",
+    "zfjlzzqkbgj",
+    "zfjlzzqkbrq",
+    "zfjlzzqkbry",
+    "zfjlzzqkbks"
+  ],
+  "fields": [
+    {
+      "name": "zfjlzzqkbdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "文峰路中段金山街至奎星路段"
+      ],
+      "value_pool": [
+        "文峰路中段金山街至奎星路段"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfjlzzqkbgj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "小桶、垃圾夹"
+      ],
+      "value_pool": [
+        "小桶、垃圾夹"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfjlzzqkbrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "44528",
+        "44529",
+        "44530",
+        "44531",
+        "44532",
+        "44533",
+        "44534",
+        "44535",
+        "44536",
+        "44537",
+        "44538",
+        "44539",
+        "44540",
+        "44541",
+        "44542",
+        "44543",
+        "44544",
+        "44545",
+        "44546",
+        "44547",
+        "44548",
+        "44549",
+        "44550",
+        "2023"
+      ],
+      "min_value": 2023.0,
+      "max_value": 44550.0
+    },
+    {
+      "name": "zfjlzzqkbry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "杨伟生",
+        "牛 梅",
+        "周 媛",
+        "陈 江",
+        "朱肖华",
+        "梁薇",
+        "门 光",
+        "韩邵晴",
+        "刘 璇",
+        "李保轩",
+        "郝建华",
+        "李新华",
+        "周卫东",
+        "樊埝英",
+        "程 杰",
+        "李运森",
+        "张敏秀",
+        "罗文慧",
+        "李 正",
+        "刘连威",
+        "鲁 静",
+        "王艳春",
+        "高 峰",
+        "朱*华"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfjlzzqkbks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "政策法规科",
+        "市容环境管理科",
+        "装备财务科",
+        "监督检查科",
+        "人事科",
+        "党建科",
+        "办公室",
+        "纪检检查科",
+        "环卫园林管理科"
+      ],
+      "value_pool": [
+        "政策法规科",
+        "市容环境管理科",
+        "装备财务科",
+        "监督检查科",
+        "人事科",
+        "党建科",
+        "办公室",
+        "纪检检查科",
+        "环卫园林管理科"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

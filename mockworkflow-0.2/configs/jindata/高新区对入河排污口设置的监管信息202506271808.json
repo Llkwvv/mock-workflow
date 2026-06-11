@@ -1,0 +1,343 @@
+{
+  "file_name": "高新区对入河排污口设置的监管信息202506271808.xlsx",
+  "table_name": "高新区对入河排污口设置的监管信息202506271808",
+  "row_count": 54,
+  "columns": [
+    "jcsj",
+    "jcxmmc",
+    "jg",
+    "ssjg",
+    "xzxdrzjbm",
+    "xzxdrzjlx",
+    "xzxdr",
+    "xzxdrxz",
+    "jcxwmc",
+    "jclb",
+    "jcxwbh",
+    "jgdxlx",
+    "jgdx"
+  ],
+  "fields": [
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020-11-27",
+        "2020-11-10",
+        "2020-10-26",
+        "2020-10-23",
+        "2020-07-17",
+        "2020-01-10",
+        "2020-06-15",
+        "2020-02-21",
+        "2020-06-16",
+        "2019-08-30",
+        "2019-10-25",
+        "2020-04-23",
+        "2019-11-21",
+        "2019-12-26",
+        "2020-05-09",
+        "2020-05-08",
+        "2020-03-12",
+        "2019-09-11",
+        "2021-05-18",
+        "2021-06-20",
+        "2021-08-25",
+        "2022-06-15",
+        "2022-11-23",
+        "2023-02-25",
+        "2023-03-06",
+        "2024-03-26",
+        "2024-05-17",
+        "2024-09-01"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "加强入河排污口的核查; 排污口排放指标",
+        "加强入河排污口的核查;排污口排放指标",
+        "加强入河排污口的核查；排污口排放指标"
+      ],
+      "value_pool": [
+        "加强入河排污口的核查; 排污口排放指标",
+        "加强入河排污口的核查;排污口排放指标",
+        "加强入河排污口的核查；排污口排放指标"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格"
+      ],
+      "value_pool": [
+        "合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "环保局"
+      ],
+      "value_pool": [
+        "环保局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370000267174130H",
+        "91370000706092808K",
+        "913708007535330050",
+        "91370800565204924M",
+        "913700001660824960",
+        "91370000MA3F40FX3C",
+        "9137080069806665X1",
+        "91370000HA3N40NX3T",
+        "91370000706092808Q",
+        "91370800HA3H1T7L7A",
+        "91370800565204924H",
+        "913708007535330393",
+        "913700001660825360"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "统一社会信用代码"
+      ],
+      "value_pool": [
+        "统一社会信用代码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东省田庄煤矿有限公司",
+        "兖州煤业股份有限公司济宁二号煤矿",
+        "济宁银河水务有限公司",
+        "济宁美陵污水净化有限公司",
+        "兖州煤业股份有限公司杨村煤矿",
+        "山东许厂煤矿有限公司",
+        "济宁银河污水处理有限公司",
+        "济宁市正润环保科技有限公司"
+      ],
+      "value_pool": [
+        "山东省田庄煤矿有限公司",
+        "兖州煤业股份有限公司济宁二号煤矿",
+        "济宁银河水务有限公司",
+        "济宁美陵污水净化有限公司",
+        "兖州煤业股份有限公司杨村煤矿",
+        "山东许厂煤矿有限公司",
+        "济宁银河污水处理有限公司",
+        "济宁市正润环保科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "法人"
+      ],
+      "value_pool": [
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对入河排污口设置的监管"
+      ],
+      "value_pool": [
+        "对入河排污口设置的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "91370000267174130H001",
+        "91370000706092808K026",
+        "913708007535330000000",
+        "91370800565204924M024",
+        "913700001660825000000",
+        "91370800565204924M0015",
+        "91370000MA3F40FX3C014",
+        "9137080069806665X1004",
+        "91370000267174130H008",
+        "91370800565204924M0009",
+        "91370000706092808K011",
+        "9137080069806665X1013",
+        "91370800565204924M021",
+        "91370000706092808K003",
+        "91370800565204924M0003",
+        "91370000267174130H002",
+        "9137080069806665X1",
+        "91370000MA3F40FX3C003",
+        "91370000267174130H",
+        "913708007535330050",
+        "91370800565204924M",
+        "91370000MA3F40FX3C001",
+        "9137080075353300000000",
+        "91370000267174130H0004",
+        "91370000706092808K002",
+        "9137000016608250000000",
+        "0691370800MA3M1C7L7A",
+        "91370000706092808K001",
+        "91370800565204924M0002",
+        "9137080069806665X1001",
+        "91370000MA3F40FX3C002",
+        "91370800565204924M001",
+        "913700001660824960",
+        "9137080069806665X10003",
+        "913708007535330393",
+        "9137080075353303930001",
+        "91370800565204924M0001",
+        "913700001660825360001",
+        "9137000016608253600005",
+        "9137080069806665X1008",
+        "913700001660825000001",
+        "91370000706092808K035",
+        "9137080069806665X1026",
+        "91370800565204924M035",
+        "91370000706092808K064"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业、个体户、农专社"
+      ],
+      "value_pool": [
+        "企业、个体户、农专社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "91370000267174130H",
+        "91370000706092808K",
+        "913708007535330050",
+        "91370800565204924M",
+        "913700001660824960",
+        "91370000MA3F40FX3C",
+        "9137080069806665X1",
+        "91370800MA3M1C7L7A",
+        "913708007535330393",
+        "913700001660825360"
+      ],
+      "value_pool": [
+        "91370000267174130H",
+        "91370000706092808K",
+        "913708007535330050",
+        "91370800565204924M",
+        "913700001660824960",
+        "91370000MA3F40FX3C",
+        "9137080069806665X1",
+        "91370800MA3M1C7L7A",
+        "913708007535330393",
+        "913700001660825360"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

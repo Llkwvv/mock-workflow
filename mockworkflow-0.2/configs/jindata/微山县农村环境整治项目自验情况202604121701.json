@@ -1,0 +1,172 @@
+{
+  "file_name": "微山县农村环境整治项目自验情况202604121701.xlsx",
+  "table_name": "微山县农村环境整治项目自验情况202604121701",
+  "row_count": 40,
+  "columns": [
+    "syczsl",
+    "c",
+    "syrks",
+    "xz",
+    "xmmc",
+    "xmwcsj"
+  ],
+  "fields": [
+    {
+      "name": "syczsl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "5",
+        "SUM(E3:E21)"
+      ],
+      "value_pool": [
+        "1",
+        "5",
+        "SUM(E3:E21)"
+      ],
+      "min_value": 1.0,
+      "max_value": 5.0
+    },
+    {
+      "name": "c",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "沟南村",
+        "杨村",
+        "郗山一村",
+        "前性义村",
+        "庞庄村",
+        "刘昌庄、",
+        "西万二村",
+        "爱湖村",
+        "童庄村",
+        "付楼村",
+        "昭阳村",
+        "邢堂村\n虎庄村\n虎庄村\n尹洼村\n二龙岗村",
+        "卜寨村",
+        "下辛庄村",
+        "王庄村",
+        "西田陈村",
+        "於村村",
+        "小屯村",
+        "留庄五村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "syrks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "1337",
+        "1220",
+        "576",
+        "859",
+        "1858",
+        "2863",
+        "956",
+        "1135",
+        "404",
+        "650",
+        "1078",
+        "7988",
+        "1012",
+        "1145",
+        "1008",
+        "1256",
+        "1325",
+        "1045",
+        "1360",
+        "SUM(F3:F21)"
+      ],
+      "min_value": 404.0,
+      "max_value": 7988.0
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山岛镇",
+        "韩庄镇",
+        "西平镇",
+        "昭阳街道",
+        "夏镇街道",
+        "高楼乡",
+        "欢城镇",
+        "留庄镇",
+        "8"
+      ],
+      "value_pool": [
+        "微山岛镇",
+        "韩庄镇",
+        "西平镇",
+        "昭阳街道",
+        "夏镇街道",
+        "高楼乡",
+        "欢城镇",
+        "留庄镇",
+        "8"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "生活污水处理项目",
+        "合计",
+        "生活污水处理"
+      ],
+      "value_pool": [
+        "生活污水处理项目",
+        "合计",
+        "生活污水处理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmwcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2019.12",
+        "2019年12",
+        "2019"
+      ],
+      "value_pool": [
+        "2019.12",
+        "2019年12",
+        "2019"
+      ],
+      "min_value": 2019.0,
+      "max_value": 2019.12
+    }
+  ]
+}

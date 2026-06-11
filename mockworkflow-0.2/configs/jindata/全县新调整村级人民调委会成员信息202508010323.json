@@ -1,0 +1,161 @@
+{
+  "file_name": "全县新调整村级人民调委会成员信息202508010323.xlsx",
+  "table_name": "全县新调整村级人民调委会成员信息202508010323",
+  "row_count": 2023,
+  "columns": [
+    "mz",
+    "xb",
+    "whcd",
+    "csq",
+    "姓名",
+    "xh"
+  ],
+  "fields": [
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "whcd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "大专",
+        "高中",
+        "初中",
+        "中专",
+        "本科",
+        "小学"
+      ],
+      "value_pool": [
+        "大专",
+        "高中",
+        "初中",
+        "中专",
+        "本科",
+        "小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "大路口村",
+        "大张村",
+        "东姜",
+        "东张博",
+        "冯那里",
+        "贾固堆",
+        "孔那里",
+        "刘举楼",
+        "戚家村",
+        "清堂李",
+        "任楼村",
+        "双庙村",
+        "双星村",
+        "陶那里村",
+        "王朝刚",
+        "王芝茂西刘",
+        "文那里",
+        "西乔",
+        "西张博村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "吕**",
+        "陈**",
+        "姜**",
+        "刘**",
+        "冯**",
+        "王**",
+        "段*",
+        "贾**",
+        "胡**",
+        "李**",
+        "孔**",
+        "黄**",
+        "戚**",
+        "许**",
+        "左**",
+        "祁**",
+        "周**",
+        "孔*",
+        "于**",
+        "项**",
+        "赵**",
+        "彭**",
+        "乔*",
+        "乔**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "大路口镇"
+      ],
+      "value_pool": [
+        "大路口镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

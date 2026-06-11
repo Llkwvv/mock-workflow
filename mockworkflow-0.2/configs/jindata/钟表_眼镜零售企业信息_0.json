@@ -1,0 +1,123 @@
+{
+  "file_name": "钟表_眼镜零售企业信息_0.csv",
+  "table_name": "钟表_眼镜零售企业信息_0",
+  "row_count": 26,
+  "columns": [
+    "tyshxydm",
+    "qyzwm",
+    "hydm",
+    "hyml"
+  ],
+  "fields": [
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 91370830MA3F371E2W",
+        " 91370830MA3MR9N27F",
+        " 91370830MA3CDKKP0J",
+        " 91370830MA3MKYND74",
+        " 91370830MA3F0MUK0D",
+        " 91370830321815200L",
+        " 91370830313026236Y",
+        " 913708303130603544",
+        " 91370830312910636K",
+        " 91370830MA3C42BL2P",
+        " 91370830MA3C20YE5Q",
+        " 91370830MA3BX9NC1C",
+        " 91370830MA3QC25927",
+        " 91370830MA3MXRJ154",
+        " 91370830MA3NNA33XB",
+        " 91370830MA3Q7DBBXP",
+        " 91370830MA3RCK4L4G",
+        " 91370830MA3QWHWD7M",
+        " 91370830MA3QXMM14W",
+        " 91370830MA3R9FPW8W",
+        " 91370830MA3R9UXF0F",
+        " 91370830MA3R9W0H2A",
+        " 91370830MA3RA8CG0E",
+        " 91370830MA3R978W8X",
+        " 91370830MA3TP3A231",
+        " 91370830MA3TPD14XQ"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyzwm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 汶上县星眸眼镜店",
+        " 汶上县曙尔光眼镜有限公司",
+        " 汶上县百亮眼镜有限公司第一分公司",
+        " 汶上县远泽商贸有限公司",
+        " 汶上县韵泽眼镜销售中心",
+        " 汶上县百亮眼镜有限公司",
+        " 汶上县茂昌眼镜商行",
+        " 汶上县光明眼镜有限公司",
+        " 汶上县卡伦斯商贸有限公司",
+        " 汶上县斌英眼镜店",
+        " 济宁格拉塞斯商贸有限公司",
+        " 汶上县光明眼镜有限公司汶上县第二分公司",
+        " 汶上县百亮眼镜有限公司义桥分公司",
+        " 汶上县诺恒眼镜销售中心",
+        " 汶上县亮眸眼镜店",
+        " 汶上视清眼镜有限公司",
+        " 汶上县百亮眼镜有限公司第二分公司",
+        " 汶上县姜玉坤眼镜有限公司",
+        " 汶上县姜玉坤眼镜有限公司南旺分公司",
+        " 汶上县博视眼镜有限责任公司",
+        " 汶上县明亮眼镜商行郭楼店",
+        " 汶上县明亮眼镜商行圣泽大街分店",
+        " 汶上县马宁眼镜销售有限公司",
+        " 暴龙眼镜销售（汶上县）店",
+        " 汶上凝视光学眼镜有限公司",
+        " 汶上县光明眼镜有限公司第三分公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 5236|    钟表、眼镜零售"
+      ],
+      "value_pool": [
+        " 5236|    钟表、眼镜零售"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 批发和零售业-F"
+      ],
+      "value_pool": [
+        " 批发和零售业-F"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

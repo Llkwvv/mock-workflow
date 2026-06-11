@@ -1,0 +1,158 @@
+{
+  "file_name": "金乡县大中型宾馆名单202506271755.xlsx",
+  "table_name": "金乡县大中型宾馆名单202506271755",
+  "row_count": 32,
+  "columns": [
+    "zb",
+    "qy",
+    "fzr",
+    "yb",
+    "qymc"
+  ],
+  "fields": [
+    {
+      "name": "zb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1组",
+        "2组",
+        "3组",
+        "三组"
+      ],
+      "value_pool": [
+        "1组",
+        "2组",
+        "3组",
+        "三组"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "姜亚涛",
+        "李浩然",
+        "韩运锁",
+        "苗静静",
+        "朱启华",
+        "鲁平阵",
+        "李传芝",
+        "解先帅",
+        "赵振江",
+        "颜士勇",
+        "刘燕",
+        "张伟伟",
+        "龙伟利",
+        "姜瑞香",
+        "孟华",
+        "吴建民",
+        "王孝敏",
+        "孙现国",
+        "李乐",
+        "孙文娟",
+        "曹亚萍",
+        "殷玉婷",
+        "张红伟",
+        "周凤玲",
+        "金小平",
+        "刘经理",
+        "杨光",
+        "李同兴",
+        "吕云",
+        "李雪妮",
+        "刘喜梅",
+        "祝凤英"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "272200"
+      ],
+      "value_pool": [
+        "272200"
+      ],
+      "min_value": 272200.0,
+      "max_value": 272200.0
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "天亚维京酒店",
+        "锦绣丽都假日酒店",
+        "紫竹轩假日连锁酒店",
+        "希岸壹品酒店",
+        "嘉逸豪庭商务宾馆",
+        "御林名景商务酒店",
+        "水云台宾馆",
+        "东湖国际大酒店",
+        "建国饭店",
+        "速8酒店（飞家酒店）",
+        "雅朵酒店",
+        "格林豪泰智选酒店",
+        "时代国际酒店（蓝鲲酒店）",
+        "海景丽家酒店",
+        "金星悦客快捷酒店",
+        "西苑快捷酒店",
+        "盛威酒店",
+        "格林酒店（瑞特酒店）",
+        "丽江宾馆",
+        "盛慷威大酒店",
+        "金龙湾大酒店",
+        "凯盛商务酒店",
+        "金四季商务酒店",
+        "万邦酒店",
+        "浙江金氏酒店",
+        "汇华酒店",
+        "柏曼酒店",
+        "6号宾馆",
+        "锦江商务宾馆",
+        "金乡县金烨商务酒店",
+        "金乡县金顺商务宾馆有限公司",
+        "金乡县金乡街道嘉逸豪庭商务宾馆"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

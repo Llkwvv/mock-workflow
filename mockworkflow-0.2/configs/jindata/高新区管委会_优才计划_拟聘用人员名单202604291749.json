@@ -1,0 +1,142 @@
+{
+  "file_name": "高新区管委会_优才计划_拟聘用人员名单202604291749.xlsx",
+  "table_name": "高新区管委会_优才计划_拟聘用人员名单202604291749",
+  "row_count": 8,
+  "columns": [
+    "bkgw",
+    "zzbm",
+    "xsq",
+    "bkdw",
+    "bmxh",
+    "姓名",
+    "s"
+  ],
+  "fields": [
+    {
+      "name": "bkgw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "建设工程管理",
+        "政务服务管理",
+        "综合执法",
+        "市场监管",
+        "综合管理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "人力资源部"
+      ],
+      "value_pool": [
+        "人力资源部"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bkdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区管委会所属事业单位",
+        "济宁高新区柳行街道所属事业单位",
+        "济宁高新区黄屯街道所属事业单位",
+        "济宁高新区王因街道所属事业单位",
+        "济宁高新区接庄街道所属事业单位"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bmxh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "2503082000328",
+        "2503082001428",
+        "2503082001122",
+        "2503082001229",
+        "2503082000210",
+        "2503082000222",
+        "2503082000524",
+        "2503082000311"
+      ],
+      "min_value": 2503082000210.0,
+      "max_value": 2503082001428.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "杨**",
+        "陈**",
+        "刘**",
+        "闫**",
+        "柳**",
+        "徐**",
+        "王**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

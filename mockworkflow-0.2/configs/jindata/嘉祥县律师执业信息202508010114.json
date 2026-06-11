@@ -1,0 +1,145 @@
+{
+  "file_name": "嘉祥县律师执业信息202508010114.xlsx",
+  "table_name": "嘉祥县律师执业信息202508010114",
+  "row_count": 31,
+  "columns": [
+    "zyzh",
+    "姓名",
+    "xb",
+    "sssx",
+    "zyjg"
+  ],
+  "fields": [
+    {
+      "name": "zyzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1370819971074****",
+        "1370820001088****",
+        "1370820141157****",
+        "1370820131134****",
+        "1370820051052****",
+        "1370820171030****",
+        "1370820161153****",
+        "1370820191008****",
+        "1370820131050****",
+        "实习",
+        "1370819951095****",
+        "1370819901087****",
+        "1370819891015****",
+        "1370820161043****",
+        "1370820191010****",
+        "1370820201121****",
+        "1370820121098****",
+        "1370820111072****",
+        "1370820111006****",
+        "1370820161041****",
+        "1370820161029****",
+        "137082018100*****",
+        "1370820171059****",
+        "1370820171127****",
+        "1370820181104****",
+        "1370820201016****",
+        "1370820201118****",
+        "1370820201021****"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "郗**",
+        "王**",
+        "宋**",
+        "徐**",
+        "李**",
+        "贾**",
+        "鲁**",
+        "高*",
+        "李*",
+        "楚**",
+        "黄**",
+        "杨**",
+        "袁**",
+        "赵**",
+        "朱**",
+        "候**",
+        "韩**",
+        "牛**",
+        "潘**",
+        "张**",
+        "于*",
+        "田*",
+        "周**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sssx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市嘉祥县"
+      ],
+      "value_pool": [
+        "济宁市嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zyjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东祥城律师事务所",
+        "山东永正务实律师事务所",
+        "山东众翊轩律师事务所"
+      ],
+      "value_pool": [
+        "山东祥城律师事务所",
+        "山东永正务实律师事务所",
+        "山东众翊轩律师事务所"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

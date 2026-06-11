@@ -1,0 +1,214 @@
+{
+  "file_name": "出租汽车驾驶员注册信息202512171649.xlsx",
+  "table_name": "出租汽车驾驶员注册信息202512171649",
+  "row_count": 19,
+  "columns": [
+    "zcrq",
+    "zcfwdw",
+    "姓名",
+    "cyzgzh",
+    "zz",
+    "xh",
+    "sfzh",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "zcrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "43539",
+        "44958",
+        "43536",
+        "45021",
+        "45020",
+        "43479",
+        "45075",
+        "45273",
+        "44203",
+        "45085"
+      ],
+      "min_value": 43479.0,
+      "max_value": 45273.0
+    },
+    {
+      "name": "zcfwdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "山东省济宁新交运出租汽车有限公司"
+      ],
+      "value_pool": [
+        "山东省济宁新交运出租汽车有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "郭海军",
+        "李京东",
+        "程光庆",
+        "陈兴福",
+        "王士华",
+        "张良",
+        "王乐",
+        "王加理",
+        "王中峰",
+        "张峰",
+        "孔旭彪",
+        "范秋伟",
+        "张志峰",
+        "刘朋",
+        "姬光阔",
+        "王丹麦",
+        "陈长楼",
+        "王红伟",
+        "周勇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cyzgzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "37080219*********3",
+        "37080219*********1",
+        "37082619*********3",
+        "37080219*********2",
+        "37081119*********6",
+        "37082919*********1",
+        "37081119*********5",
+        "37082619*********9",
+        "37081197101041812",
+        "37080219*********8",
+        "3708111986011971811",
+        "37082619*********5",
+        "37081119*********1",
+        "37048119*********7",
+        "37081119*********7",
+        "37081119*********2",
+        "37080219*********7"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "XX区XX路XX号"
+      ],
+      "value_pool": [
+        "XX区XX路XX号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "2068",
+        "2069",
+        "2070",
+        "2071",
+        "2072",
+        "2073",
+        "2074",
+        "2075",
+        "2076",
+        "2077",
+        "2078",
+        "2079",
+        "2080",
+        "2081",
+        "2082",
+        "2083",
+        "2084",
+        "2085",
+        "2086"
+      ],
+      "min_value": 2068.0,
+      "max_value": 2086.0
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "3708021970****3913",
+        "3708021968****2711",
+        "3708261968****6813",
+        "3708021969****3612",
+        "3708111973****3036",
+        "3708291990****5631",
+        "3708111990****2015",
+        "3708261984****6819",
+        "3708119710****812",
+        "3708021979****1218",
+        "3708111986****71811",
+        "3708261977****6815",
+        "3708111967****4031",
+        "3704811983****3237",
+        "3708111990****2535",
+        "3708111988****4057",
+        "3708111966****1232",
+        "3708021975****2417",
+        "3708021975****3313"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

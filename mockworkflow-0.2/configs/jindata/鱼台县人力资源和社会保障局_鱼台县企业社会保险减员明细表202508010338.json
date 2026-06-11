@@ -1,0 +1,173 @@
+{
+  "file_name": "鱼台县人力资源和社会保障局_鱼台县企业社会保险减员明细表202508010338.xlsx",
+  "table_name": "鱼台县人力资源和社会保障局_鱼台县企业社会保险减员明细表202508010338",
+  "row_count": 11,
+  "columns": [
+    "jyyy",
+    "tblb",
+    "shbzhm",
+    "cbrylb",
+    "xb",
+    "csrq",
+    "姓名",
+    "jyny"
+  ],
+  "fields": [
+    {
+      "name": "jyyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "在职人员辞职",
+        "在职人员解除劳动合同",
+        "在职人员统筹范围内转出"
+      ],
+      "value_pool": [
+        "在职人员辞职",
+        "在职人员解除劳动合同",
+        "在职人员统筹范围内转出"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tblb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业养老,失业,工伤",
+        "工伤"
+      ],
+      "value_pool": [
+        "企业养老,失业,工伤",
+        "工伤"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shbzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "52222****X",
+        "37082****7",
+        "32032****9",
+        "52212****3",
+        "36073****8",
+        "51342****4",
+        "15260****X",
+        "37082****8",
+        "51343****2"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cbrylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "在职人员"
+      ],
+      "value_pool": [
+        "在职人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "36175",
+        "20491",
+        "32117",
+        "35558",
+        "27338",
+        "33605",
+        "31516",
+        "36025",
+        "35289"
+      ],
+      "min_value": 20491.0,
+      "max_value": 36175.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "上***",
+        "欧***",
+        "阿*******",
+        "司***",
+        "安***",
+        "各***",
+        "胡****",
+        "陈***",
+        "吉***"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyny",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2022年",
+        "2023年"
+      ],
+      "value_pool": [
+        "2022年",
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "file_name": "高新区对义务教育工作的监管信息202602111300.xlsx",
+  "table_name": "高新区对义务教育工作的监管信息202602111300",
+  "row_count": 36,
+  "columns": [
+    "xzxdrxz",
+    "xzxdrzjbm",
+    "jcxwbh",
+    "jgdxlx",
+    "jcjg",
+    "jcxwmc",
+    "jgdx",
+    "xzxdr",
+    "jclb",
+    "jcsj",
+    "jcxmmc",
+    "xzxdrzjlx",
+    "ssjg"
+  ],
+  "fields": [
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "法人"
+      ],
+      "value_pool": [
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "123708**********69",
+        "123708**********2K",
+        "123708**********7B",
+        "123708**********44",
+        "123708**********3X",
+        "123708**********08",
+        "123708**********X6",
+        "123708**********91",
+        "123708**********1E",
+        "523708**********7P",
+        "123708**********3A",
+        "123708**********1H"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "sfj2021-004",
+        "sfj2021-003",
+        "sfj2021-002",
+        "sfjjyc-2020018",
+        "sfjjyc-2020020",
+        "sfjjyc-2020021",
+        "sfjjyc-2020016",
+        "sfjjyc-2020017",
+        "sfj2019y001",
+        "sfjjyc-2020025",
+        "sfj2020s001",
+        "sfj2020y003",
+        "sfj2020x046",
+        "sfj2020x045",
+        "sfj2021x101",
+        "sfj2021-09",
+        "sfj2021-010",
+        "sfj2021-0101",
+        "sfj2021-012",
+        "sfj2021x102",
+        "sfj2021-016",
+        "sfj2021x108",
+        "sfj2021x105",
+        "sfj2021x104",
+        "sfj2021110",
+        "FBJ2022-007",
+        "FBJ2022-005",
+        "FBJ2022-002",
+        "FBJ2022-022",
+        "SFJ-JTC002",
+        "SFJ-JTC003",
+        "SFJ-JTC008",
+        "SFJ-JTC015",
+        "SFJ-JTC048",
+        "SFJ-JTC054",
+        "SFJ-JTC062"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "非企业"
+      ],
+      "value_pool": [
+        "非企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对义务教育工作的监管",
+        "对义务教育学校教师执教行为的行政检查",
+        "对适龄儿童、少年接受义务教育的行政检查",
+        "对义务教育经费拨付和使用情况的行政检查"
+      ],
+      "value_pool": [
+        "对义务教育工作的监管",
+        "对义务教育学校教师执教行为的行政检查",
+        "对适龄儿童、少年接受义务教育的行政检查",
+        "对义务教育经费拨付和使用情况的行政检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区济东中学",
+        "济宁高新区第五中学",
+        "济宁高新区附小科苑校区",
+        "济宁高新区济东小学",
+        "济宁高新区第四小学",
+        "济宁高新区第四中学",
+        "济宁高新区第二中学",
+        "杨村煤矿中学",
+        "济宁高新区第二小学",
+        "济宁市科苑小学",
+        "济宁海达行知中学",
+        "济宁高新技术产业开发区济东学校",
+        "济宁高新技术产业开发区接庄中心小学",
+        "济宁高新区第二高级中学",
+        "济宁高新区蓼河新城外国语学校",
+        "济宁高新技术产业开发区蓼河新城外国语学校",
+        "济宁高新技术产业开发区杨村煤矿中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁高新区济东中学",
+        "济宁高新区第五中学",
+        "济宁高新区附小科苑校区",
+        "济宁高新区济东小学",
+        "济宁高新区第四小学",
+        "济宁高新区第四中学",
+        "济宁高新区第二中学",
+        "杨村煤矿中学",
+        "济宁高新区第二小学",
+        "济宁市科苑小学",
+        "济宁海达行知中学",
+        "济宁高新技术产业开发区济东学校",
+        "济宁高新技术产业开发区接庄中心小学",
+        "济宁高新区第二高级中学",
+        "济宁高新区蓼河新城外国语学校",
+        "济宁高新技术产业开发区蓼河新城外国语学校",
+        "济宁高新技术产业开发区杨村煤矿中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021-03-26",
+        "2020-12-23",
+        "2020-10-27",
+        "2021-09-07",
+        "2021-09-23",
+        "2021-07-20",
+        "2021-07-21",
+        "2022-05-25",
+        "2022-09-29",
+        "2023-04-20",
+        "2023-08-16",
+        "2024-03-15",
+        "2024-06-23",
+        "2024-08-19",
+        "2024-10-25",
+        "2025-03-27"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "适龄儿童、少年接受义务教育情况检查;对本地适龄儿童、少年辍学情况的检查",
+        "经费使用检查;对义务教育经费拨付和使用情况的行政检查",
+        "残疾适龄儿童、少年随班就读检查；规范班级划分检查；学生管理检查；控辍保学检查；课程设置和教科书选用检查；规范办学检查；规范新生入学检查",
+        "规范义务教育学校教师执教行为",
+        "对本地适龄儿童、少年辍学情况的检查；适龄儿童、少年接受义务教育情况检查",
+        "对义务教育经费拨付和使用情况的行政检查；经费使用检查",
+        "对义务教育工作的监管"
+      ],
+      "value_pool": [
+        "适龄儿童、少年接受义务教育情况检查;对本地适龄儿童、少年辍学情况的检查",
+        "经费使用检查;对义务教育经费拨付和使用情况的行政检查",
+        "残疾适龄儿童、少年随班就读检查；规范班级划分检查；学生管理检查；控辍保学检查；课程设置和教科书选用检查；规范办学检查；规范新生入学检查",
+        "规范义务教育学校教师执教行为",
+        "对本地适龄儿童、少年辍学情况的检查；适龄儿童、少年接受义务教育情况检查",
+        "对义务教育经费拨付和使用情况的行政检查；经费使用检查",
+        "对义务教育工作的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "统一社会信用代码"
+      ],
+      "value_pool": [
+        "统一社会信用代码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "发展软环境保障局"
+      ],
+      "value_pool": [
+        "发展软环境保障局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

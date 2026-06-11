@@ -1,0 +1,155 @@
+{
+  "file_name": "高新区驾驶证申领信息202508010317.xlsx",
+  "table_name": "高新区驾驶证申领信息202508010317",
+  "row_count": 847,
+  "columns": [
+    "slbm",
+    "s",
+    "xsq",
+    "sljg",
+    "xzxksx",
+    "zcrxm"
+  ],
+  "fields": [
+    {
+      "name": "slbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市公安局交通警察支队"
+      ],
+      "value_pool": [
+        "济宁市公安局交通警察支队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sljg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "准予许可"
+      ],
+      "value_pool": [
+        "准予许可"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxksx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "驾驶证申领"
+      ],
+      "value_pool": [
+        "驾驶证申领"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "周**",
+        "冯**",
+        "陈**",
+        "芦**",
+        "孙**",
+        "代**",
+        "何**",
+        "王**",
+        "朱**",
+        "付**",
+        "马**",
+        "杨**",
+        "陆**",
+        "韩**",
+        "范**",
+        "孔**",
+        "赵**",
+        "凌**",
+        "宋**",
+        "卞**",
+        "耿**",
+        "胡**",
+        "刘**",
+        "张**",
+        "李**",
+        "丁**",
+        "牛**",
+        "谢**",
+        "程**",
+        "邵**",
+        "寇**",
+        "吕**",
+        "高**",
+        "黄**",
+        "倪**",
+        "梁**",
+        "曹**",
+        "董**",
+        "常**",
+        "汪**",
+        "罗**",
+        "苏**",
+        "候**",
+        "孟**",
+        "徐**",
+        "邓**",
+        "崔**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

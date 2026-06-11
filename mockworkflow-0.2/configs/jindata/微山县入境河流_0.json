@@ -1,0 +1,104 @@
+{
+  "file_name": "微山县入境河流_0.csv",
+  "table_name": "微山县入境河流_0",
+  "row_count": 28,
+  "columns": [
+    "xsq",
+    "syxsq",
+    "hlmc"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "韩庄镇",
+        "微山岛镇",
+        "昭阳街道",
+        "夏镇街道",
+        "欢城镇",
+        "留庄镇",
+        "两城镇",
+        "张楼镇",
+        "赵庙镇",
+        "高楼镇"
+      ],
+      "value_pool": [
+        "韩庄镇",
+        "微山岛镇",
+        "昭阳街道",
+        "夏镇街道",
+        "欢城镇",
+        "留庄镇",
+        "两城镇",
+        "张楼镇",
+        "赵庙镇",
+        "高楼镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "syxsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "枣庄市",
+        "徐州市"
+      ],
+      "value_pool": [
+        "枣庄市",
+        "徐州市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "解放沟",
+        "赵庄河",
+        "蒋官庄河",
+        "郗山河",
+        "张庄河",
+        "潘庄河",
+        "蒋集河",
+        "大沙河",
+        "泥沟河",
+        "新薛河",
+        "老薛王河",
+        "房庄河",
+        "袁楼河",
+        "城郭河",
+        "汁泥河",
+        "段庄引河",
+        "荆河",
+        "北沙河",
+        "徐楼河",
+        "辛安河",
+        "岗头河",
+        "顺堤河",
+        "杨官屯河",
+        "挖工庄河",
+        "沿河",
+        "鹿口河",
+        "郑集河"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

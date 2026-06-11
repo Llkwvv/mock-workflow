@@ -1,0 +1,139 @@
+{
+  "file_name": "微山县统计局_人口信息202506271750.xlsx",
+  "table_name": "微山县统计局_人口信息202506271750",
+  "row_count": 28,
+  "columns": [
+    "zb",
+    "nms",
+    "dw",
+    "nf",
+    "xq"
+  ],
+  "fields": [
+    {
+      "name": "zb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "年末全县常住人口",
+        "城镇化率",
+        "户籍总人口",
+        "城镇人口",
+        "乡村人口",
+        "男性",
+        "女性"
+      ],
+      "value_pool": [
+        "年末全县常住人口",
+        "城镇化率",
+        "户籍总人口",
+        "城镇人口",
+        "乡村人口",
+        "男性",
+        "女性"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nms",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "60.32",
+        "55.57",
+        "72.1",
+        "33.2",
+        "38.9",
+        "38.4",
+        "33.7",
+        "60.99",
+        "54.55",
+        "72.09",
+        "33.18",
+        "38.91",
+        "38.36",
+        "33.73",
+        "61.49",
+        "53.87",
+        "73.08",
+        "33.64",
+        "39.44",
+        "38.81",
+        "34.27",
+        "59.76",
+        "56.69",
+        "71.346",
+        "32.798",
+        "38.548",
+        "38.038",
+        "33.308"
+      ],
+      "min_value": 32.798,
+      "max_value": 73.08
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "万人",
+        "百分比"
+      ],
+      "value_pool": [
+        "万人",
+        "百分比"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023",
+        "2022",
+        "2021",
+        "2024"
+      ],
+      "value_pool": [
+        "2023",
+        "2022",
+        "2021",
+        "2024"
+      ],
+      "min_value": 2021.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县"
+      ],
+      "value_pool": [
+        "微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

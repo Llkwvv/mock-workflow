@@ -1,0 +1,138 @@
+{
+  "file_name": "汶上县农业农村局_示范场管理信息202508010121.xlsx",
+  "table_name": "汶上县农业农村局_示范场管理信息202508010121",
+  "row_count": 22,
+  "columns": [
+    "ztmc",
+    "sszj",
+    "fzrxm",
+    "dj",
+    "nd"
+  ],
+  "fields": [
+    {
+      "name": "ztmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县崔氏家庭农场",
+        "汶上县存运家庭农场",
+        "汶上县福星家庭农场",
+        "汶上县红磊家庭农场",
+        "汶上县华康家庭农场",
+        "汶上县金路发家庭农场",
+        "汶上县凯沃家庭农场",
+        "汶上县绿丰农场",
+        "汶上县明茂薯类种植农场",
+        "汶上县南站镇泉河养殖场",
+        "汶上县南站镇兆东家庭农场",
+        "汶上县润众家庭农场",
+        "汶上县顺朋家庭农场",
+        "汶上县万沃家庭农场",
+        "汶上县沃丰家庭农场",
+        "汶上县向阳家庭农场",
+        "汶上县鑫宏家庭农场",
+        "汶上县业丰家庭农场",
+        "汶上县莹柯利家庭农场",
+        "汶上县远大渔业家庭农场",
+        "汶上县长庆家庭农场",
+        "汶上县梓恒家庭农场"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sszj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "寅寺镇",
+        "南站街道",
+        "苑庄镇",
+        "刘楼镇",
+        "康驿镇",
+        "郭仓镇",
+        "南旺镇",
+        "次邱镇",
+        "汶上街道",
+        "义桥镇",
+        "郭楼镇",
+        "杨店镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "徐**",
+        "杨**",
+        "殷**",
+        "林**",
+        "李**",
+        "王**",
+        "冯***",
+        "梁**",
+        "韩**",
+        "路**",
+        "张**",
+        "郭**",
+        "孔**",
+        "宋**",
+        "李***",
+        "邵**",
+        "于**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市级",
+        "省级"
+      ],
+      "value_pool": [
+        "市级",
+        "省级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2025年度"
+      ],
+      "value_pool": [
+        "2025年度"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

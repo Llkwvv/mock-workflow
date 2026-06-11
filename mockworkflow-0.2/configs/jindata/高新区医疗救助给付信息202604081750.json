@@ -1,0 +1,160 @@
+{
+  "file_name": "高新区医疗救助给付信息202604081750.xlsx",
+  "table_name": "高新区医疗救助给付信息202604081750",
+  "row_count": 3,
+  "columns": [
+    "ssqx",
+    "sfzhm",
+    "ssc",
+    "xb",
+    "ssjd",
+    "sfbj",
+    "姓名",
+    "jbdw",
+    "sfmy"
+  ],
+  "fields": [
+    {
+      "name": "ssqx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********19",
+        "370811**********65",
+        "370481**********6X"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "接庄*****村",
+        "接**道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "接庄街道"
+      ],
+      "value_pool": [
+        "接庄街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfbj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "张**",
+        "王*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "高新区医保局"
+      ],
+      "value_pool": [
+        "高新区医保局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfmy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

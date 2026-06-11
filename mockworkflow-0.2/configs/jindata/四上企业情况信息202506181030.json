@@ -1,0 +1,166 @@
+{
+  "file_name": "四上企业情况信息202506181030.xlsx",
+  "table_name": "四上企业情况信息202506181030",
+  "row_count": 58,
+  "columns": [
+    "ssqyzsg",
+    "lb",
+    "xsq",
+    "tjdw",
+    "nd"
+  ],
+  "fields": [
+    {
+      "name": "ssqyzsg",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "229",
+        "102",
+        "62",
+        "36",
+        "71",
+        "53",
+        "55",
+        "25",
+        "73",
+        "97",
+        "124",
+        "167",
+        "12",
+        "5",
+        "365",
+        "131",
+        "103",
+        "45",
+        "85",
+        "40",
+        "113",
+        "228",
+        "28",
+        "7",
+        "181",
+        "372",
+        "125",
+        "42",
+        "175",
+        "44",
+        "91",
+        "81",
+        "240",
+        "27",
+        "8",
+        "298",
+        "10",
+        "150",
+        "172",
+        "158",
+        "140",
+        "560",
+        "135",
+        "211",
+        "144",
+        "215",
+        "123",
+        "281",
+        "7343",
+        "6737"
+      ],
+      "min_value": 5.0,
+      "max_value": 7343.0
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "限上批零住餐企业"
+      ],
+      "value_pool": [
+        "限上批零住餐企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "任城区",
+        "兖州区",
+        "微山县",
+        "鱼台县",
+        "金乡县",
+        "嘉祥县",
+        "汶上县",
+        "泗水县",
+        "梁山县",
+        "曲阜市",
+        "邹城市",
+        "高新区",
+        "太白湖",
+        "经开区",
+        "太白湖新区",
+        "济宁高新区",
+        "济宁经开区",
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁市商务局"
+      ],
+      "value_pool": [
+        "济宁市商务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019年度",
+        "2020年度",
+        "2021年度",
+        "2022年1-8月份",
+        "2023年度",
+        "2024年度"
+      ],
+      "value_pool": [
+        "2019年度",
+        "2020年度",
+        "2021年度",
+        "2022年1-8月份",
+        "2023年度",
+        "2024年度"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

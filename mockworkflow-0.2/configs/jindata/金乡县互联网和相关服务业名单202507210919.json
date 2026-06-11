@@ -1,0 +1,193 @@
+{
+  "file_name": "金乡县互联网和相关服务业名单202507210919.xlsx",
+  "table_name": "金乡县互联网和相关服务业名单202507210919",
+  "row_count": 1,
+  "columns": [
+    "jyfw",
+    "tyshxydm",
+    "clrq",
+    "sscs",
+    "gslx",
+    "jyzt",
+    "xh",
+    "ssqx",
+    "sssf",
+    "fddbr",
+    "gsmc",
+    "sshy"
+  ],
+  "fields": [
+    {
+      "name": "jyfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "互联网上网服务；预包装食品、卷烟零售。（依法须经批准的项目，经相关部门批准后方可开展经营活动）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370828MA3C926M6K"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2002-05-29 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sscs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gslx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "个人独资企业"
+      ],
+      "value_pool": [
+        "个人独资企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "在营"
+      ],
+      "value_pool": [
+        "在营"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "71"
+      ],
+      "min_value": 71.0,
+      "max_value": 71.0
+    },
+    {
+      "name": "ssqx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sssf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fddbr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "郭德生"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县万佳网络星光加盟店"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sshy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "互联网和相关服务"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

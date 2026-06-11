@@ -1,0 +1,179 @@
+{
+  "file_name": "中餐烹饪人员培训合格人员信息202508010211.xlsx",
+  "table_name": "中餐烹饪人员培训合格人员信息202508010211",
+  "row_count": 38,
+  "columns": [
+    "姓名",
+    "pxksrq",
+    "pxzy",
+    "pxjsrq",
+    "sfzhm",
+    "pxzl",
+    "pxjgmz",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "王**",
+        "仲**",
+        "祝**",
+        "盛**",
+        "丁**",
+        "杨**",
+        "雷**",
+        "曹**",
+        "周**",
+        "张**",
+        "马**",
+        "刘**",
+        "金**",
+        "吴**",
+        "肖**",
+        "吕**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxksrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "20211013"
+      ],
+      "value_pool": [
+        "20211013"
+      ],
+      "min_value": 20211013.0,
+      "max_value": 20211013.0
+    },
+    {
+      "name": "pxzy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "中餐烹饪人员"
+      ],
+      "value_pool": [
+        "中餐烹饪人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxjsrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "20211017"
+      ],
+      "value_pool": [
+        "20211017"
+      ],
+      "min_value": 20211017.0,
+      "max_value": 20211017.0
+    },
+    {
+      "name": "sfzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370826********5726",
+        "370826********6884",
+        "370826********6824",
+        "370826********6861",
+        "370826********684X",
+        "370826********688X",
+        "370826********6880",
+        "370826********6846",
+        "370826********5728",
+        "370826********6845",
+        "370826********6843",
+        "370826********6829",
+        "370826********6228",
+        "370826********5729",
+        "370826********6863",
+        "370826********6904",
+        "370826********6825",
+        "370826********6883",
+        "370826********6841",
+        "370826********5723",
+        "370826********5745"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "就业技能培训",
+        "技能培训"
+      ],
+      "value_pool": [
+        "就业技能培训",
+        "技能培训"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxjgmz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市海天职业培训学校（微山）"
+      ],
+      "value_pool": [
+        "济宁市海天职业培训学校（微山）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女"
+      ],
+      "value_pool": [
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

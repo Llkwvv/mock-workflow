@@ -1,0 +1,196 @@
+{
+  "file_name": "鱼台县卫生健康局_职业病防治检查结果公示信息202506271739.xlsx",
+  "table_name": "鱼台县卫生健康局_职业病防治检查结果公示信息202506271739",
+  "row_count": 26,
+  "columns": [
+    "dwzylb",
+    "jddwmc",
+    "jdrq",
+    "jcjg",
+    "jdjcxs",
+    "dwmc",
+    "cljg",
+    "jcdd"
+  ],
+  "fields": [
+    {
+      "name": "dwzylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "职业病防治",
+        "职业病防治类"
+      ],
+      "value_pool": [
+        "职业病防治",
+        "职业病防治类"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jddwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县卫生健康综合执法大队"
+      ],
+      "value_pool": [
+        "鱼台县卫生健康综合执法大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jdrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021.2.1",
+        "2021.3.1",
+        "2021.3.23",
+        "2021.3.25",
+        "2021.3.26",
+        "2021.3.29",
+        "2021.3.30",
+        "2021.4.1",
+        "2021.4.7",
+        "2021.4.13",
+        "2021.4.14",
+        "2021.4.15",
+        "2021.4.16",
+        "2021.4.27",
+        "2021.4.29"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "合格",
+        "不合格"
+      ],
+      "value_pool": [
+        "合格",
+        "不合格"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jdjcxs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "日常监督",
+        "日常监督检查"
+      ],
+      "value_pool": [
+        "日常监督",
+        "日常监督检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁凯特化工有限公司",
+        "济宁天铸建材有限公司",
+        "济宁志和新材料有限公司",
+        "山东金吉利新材料有限公司",
+        "金乡中联混凝土有限公司鱼台分公司",
+        "鱼台长青环保能源有限公司",
+        "济宁金凤食品有限公司",
+        "山东辰龙药业有限公司",
+        "济宁宏昌达新材料有限公司",
+        "济宁峰润生物科技有限公司",
+        "济宁同拓生物科技有限公司",
+        "济宁市圣奥精细化工有限公司",
+        "济宁丰迪新型建材有限公司",
+        "山东宁大钢构有限公司",
+        "济宁中泰煤化有限公司",
+        "山东东明石化集团济宁能源销售有限公司壹三零壹加油站",
+        "山东鲁王集团有限公司",
+        "山东华泰光源有限公司",
+        "山东鲁泰控股集团有限公司鹿洼煤矿",
+        "山东安立泰泵业股份有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cljg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "***信息项无数据",
+        "警告",
+        "罚款20000元",
+        "罚款30000元"
+      ],
+      "value_pool": [
+        "***信息项无数据",
+        "警告",
+        "罚款20000元",
+        "罚款30000元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "张黄镇化工园区金威路21号",
+        "鱼城镇东鱼河桥北100米",
+        "鱼城镇东鱼河桥北101米",
+        "张黄工业园区",
+        "唐马镇政府南58米路西",
+        "鱼城镇乔庄北",
+        "鱼台县东环路西",
+        "鱼城镇李树白村西(老棉厂院内)",
+        "经济开发区",
+        "老砦镇张埝桥东",
+        "鱼台县北三环路北、窦闫李村西",
+        "王鲁镇政府对过",
+        "张黄工业园"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

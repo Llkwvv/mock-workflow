@@ -1,0 +1,152 @@
+{
+  "file_name": "新型农业经营主体带头人蔬菜产业培训班学员信息202508010233.xlsx",
+  "table_name": "新型农业经营主体带头人蔬菜产业培训班学员信息202508010233",
+  "row_count": 73,
+  "columns": [
+    "jkrq",
+    "姓名",
+    "pxzy",
+    "zj",
+    "sqfs",
+    "nd"
+  ],
+  "fields": [
+    {
+      "name": "jkrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "5月26日"
+      ],
+      "value_pool": [
+        "5月26日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "于**",
+        "马**",
+        "王**",
+        "尹**",
+        "田**",
+        "代**",
+        "毕**",
+        "朱**",
+        "刘**",
+        "李**",
+        "杨**",
+        "杨*",
+        "何**",
+        "汪**",
+        "张**",
+        "陈**",
+        "房**",
+        "孟**",
+        "胡**",
+        "信**",
+        "袁**",
+        "夏**",
+        "顾*",
+        "候**",
+        "徐**",
+        "高**",
+        "郭**",
+        "曹**",
+        "崔**",
+        "梁**",
+        "董**",
+        "路**",
+        "解**",
+        "颜**",
+        "潘**",
+        "魏**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxzy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "蔬菜产业"
+      ],
+      "value_pool": [
+        "蔬菜产业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "白石镇",
+        "寅寺镇",
+        "苑庄镇",
+        "杨店镇",
+        "军屯乡"
+      ],
+      "value_pool": [
+        "白石镇",
+        "寅寺镇",
+        "苑庄镇",
+        "杨店镇",
+        "军屯乡"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "主管部门推荐"
+      ],
+      "value_pool": [
+        "主管部门推荐"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2025"
+      ],
+      "value_pool": [
+        "2025"
+      ],
+      "min_value": 2025.0,
+      "max_value": 2025.0
+    }
+  ]
+}

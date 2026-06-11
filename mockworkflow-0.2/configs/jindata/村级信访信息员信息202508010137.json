@@ -1,0 +1,137 @@
+{
+  "file_name": "村级信访信息员信息202508010137.xlsx",
+  "table_name": "村级信访信息员信息202508010137",
+  "row_count": 77,
+  "columns": [
+    "xb",
+    "xq",
+    "zj",
+    "nd",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "太白湖新区"
+      ],
+      "value_pool": [
+        "太白湖新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "许庄街道",
+        "石桥镇"
+      ],
+      "value_pool": [
+        "许庄街道",
+        "石桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020",
+        "2024"
+      ],
+      "value_pool": [
+        "2020",
+        "2024"
+      ],
+      "min_value": 2020.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "蔡**",
+        "陈**",
+        "贾**",
+        "魏**",
+        "郑**",
+        "胡**",
+        "宋**",
+        "张**",
+        "刘**",
+        "高**",
+        "曹**",
+        "王**",
+        "辛**",
+        "陶**",
+        "李**",
+        "孙**",
+        "褚**",
+        "孟**",
+        "马**",
+        "白**",
+        "任**",
+        "苏**",
+        "黄**",
+        "崔**",
+        "郝**",
+        "陆**",
+        "杨**",
+        "朱**",
+        "韩**",
+        "杜**",
+        "郭**",
+        "卓**",
+        "姜**",
+        "尚**",
+        "姚**",
+        "闫**",
+        "施**",
+        "赵**",
+        "周**",
+        "吴**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

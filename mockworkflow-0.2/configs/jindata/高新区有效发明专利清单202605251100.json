@@ -1,0 +1,249 @@
+{
+  "file_name": "高新区有效发明专利清单202605251100.xlsx",
+  "table_name": "高新区有效发明专利清单202605251100",
+  "row_count": 3,
+  "columns": [
+    "sqr",
+    "zlqrmc",
+    "dljgdm",
+    "tjdz",
+    "zlqryb",
+    "zflh",
+    "sfmc",
+    "sqrkr",
+    "dljgmc",
+    "fmmc",
+    "zllx",
+    "csmc",
+    "zlqrlx",
+    "sqh"
+  ],
+  "fields": [
+    {
+      "name": "sqr",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "20190918",
+        "20201202",
+        "20190424"
+      ],
+      "min_value": 20190424.0,
+      "max_value": 20201202.0
+    },
+    {
+      "name": "zlqrmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山推工程机械股份有限公司",
+        "山东奥斯登房车有限公司",
+        "山东省科学院激光研究所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dljgdm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "11332",
+        "11697",
+        "11316"
+      ],
+      "min_value": 11316.0,
+      "max_value": 11697.0
+    },
+    {
+      "name": "tjdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "山东省济宁市高新区327国道58号",
+        "山东省济宁市高新区同济路126号",
+        "山东省济宁市海川路9号高新区产学研基地A3-B"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zlqryb",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "272073",
+        "272100",
+        "272071"
+      ],
+      "min_value": 272071.0,
+      "max_value": 272100.0
+    },
+    {
+      "name": "zflh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "F01N0009000000",
+        "B60P0003070000",
+        "G01B0011160000"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "山东省"
+      ],
+      "value_pool": [
+        "山东省"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrkr",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "20210319",
+        "20210309",
+        "20210720"
+      ],
+      "min_value": 20210309.0,
+      "max_value": 20210720.0
+    },
+    {
+      "name": "dljgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "北京品源专利代理有限公司",
+        "济南圣达知识产权代理有限公司",
+        "北京一格知识产权代理事务所（普通合伙）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "一种尾气后处理系统的控制方法及尾气后处理系统",
+        "一种用于房车的装卸装置",
+        "一种应变光缆及光缆的制作方法"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zllx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "发明"
+      ],
+      "value_pool": [
+        "发明"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "csmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zlqrlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业",
+        "科研机构"
+      ],
+      "value_pool": [
+        "企业",
+        "科研机构"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2019091808246",
+        "2020120257364",
+        "2019042429317"
+      ],
+      "min_value": 2019042429317.0,
+      "max_value": 2020120257364.0
+    }
+  ]
+}

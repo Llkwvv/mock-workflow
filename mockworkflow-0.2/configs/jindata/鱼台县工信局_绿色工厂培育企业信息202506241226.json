@@ -1,0 +1,125 @@
+{
+  "file_name": "鱼台县工信局_绿色工厂培育企业信息202506241226.xlsx",
+  "table_name": "鱼台县工信局_绿色工厂培育企业信息202506241226",
+  "row_count": 22,
+  "columns": [
+    "gjj",
+    "sj",
+    "dwmc",
+    "sbxm",
+    "sj1"
+  ],
+  "fields": [
+    {
+      "name": "gjj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "培育",
+        "无"
+      ],
+      "value_pool": [
+        "是",
+        "培育",
+        "无"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "无",
+        "培育",
+        "是"
+      ],
+      "value_pool": [
+        "无",
+        "培育",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东鲁泰环保建材有限公司",
+        "山东鲁泰化学有限公司",
+        "鱼台长青环保能源有限公司",
+        "山东水发环境科技有限公司",
+        "济宁心传矿山机电设备有限公司",
+        "山东星源矿山设备集团有限公司",
+        "山东京泰耐磨材料有限责任公司",
+        "鱼台县三高机械有限公司",
+        "山东鱼台东源矿用设备有限责任公司",
+        "济宁康盛彩虹生物科技有限公司",
+        "山东辰龙药业有限公司",
+        "山东五子星矿用设备股份有限公司",
+        "山东华泰光源有限公司",
+        "济宁市圣奥精细化工有限公司",
+        "济宁南阳湖湖产品有限公司",
+        "山东格瑞泰新材料有限公司",
+        "济宁市金泰利华化工科技有限公司",
+        "济宁市邦良生物科技有限公司",
+        "济宁峰润生物科技有限公司",
+        "鱼台县丰鲁再生资源有限公司",
+        "鱼台众邦智能科技有限公司",
+        "济宁安泰矿山设备制造有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "绿色工厂"
+      ],
+      "value_pool": [
+        "绿色工厂"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "无",
+        "培育",
+        "是"
+      ],
+      "value_pool": [
+        "无",
+        "培育",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

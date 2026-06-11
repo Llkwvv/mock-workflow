@@ -71,7 +71,7 @@ class TaskManager:
             ]
             self._storage_path.parent.mkdir(parents=True, exist_ok=True)
             self._storage_path.write_text(
-                json.dumps({"tasks": tasks_list}, ensure_ascii=False, indent=2),
+                json.dumps({"_version": 1, "tasks": tasks_list}, ensure_ascii=False, indent=2),
                 encoding="utf-8"
             )
         except Exception:

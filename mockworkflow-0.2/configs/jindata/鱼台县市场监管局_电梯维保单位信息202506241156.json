@@ -1,0 +1,150 @@
+{
+  "file_name": "鱼台县市场监管局_电梯维保单位信息202506241156.xlsx",
+  "table_name": "鱼台县市场监管局_电梯维保单位信息202506241156",
+  "row_count": 23,
+  "columns": [
+    "jgdw",
+    "wbfw",
+    "lxr",
+    "wbdw",
+    "lxdh"
+  ],
+  "fields": [
+    {
+      "name": "jgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县市场监督管理局"
+      ],
+      "value_pool": [
+        "鱼台县市场监督管理局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wbfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县",
+        "济宁市鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县",
+        "济宁市鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王玉",
+        "夏志旭",
+        "王浩义",
+        "宋小四",
+        "陈景民",
+        "王闫天陨",
+        "姚树忠",
+        "盛致富",
+        "孙一凡",
+        "魏洪亮",
+        "马静",
+        "闫胜庆",
+        "周再宾",
+        "孙学锡",
+        "韩勇",
+        "宋业文",
+        "顾子忠",
+        "李旺",
+        "陈继东",
+        "王令凯",
+        "陈景*",
+        "王闫*",
+        "姚树*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "上海三菱电梯有限公司山东分公司",
+        "日立电梯（中国）有限公司山东分公司",
+        "山东佰安迪电梯有限公司",
+        "济宁上菱电梯有限公司",
+        "鱼台县翼驰电梯销售有限公司",
+        "无锡科达电梯有限公司",
+        "山东北恒机电科技有限公司",
+        "济宁华通电梯工程有限公司",
+        "济宁市鸿盛电梯有限公司",
+        "山东富士电梯有限公司",
+        "枣庄申达电梯有限公司",
+        "通力电梯有限公司济南分公司",
+        "凯尔菱电（山东）电梯有限公司",
+        "山东万佳电梯有限公司",
+        "济南新安达电梯工程有限公司",
+        "济宁广日电梯安装工程有限公司",
+        "德州瑞光商贸有限公司",
+        "济宁立联机电设备有限公司",
+        "奥的斯机电电梯有限公司济南分公司",
+        "济宁荣泰电梯有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "133****3030",
+        "152****8695",
+        "151****2365",
+        "136****3268",
+        "132****8383",
+        "155****1799",
+        "186****3078",
+        "186****1879",
+        "132****0686",
+        "188****3562",
+        "133****3820",
+        "185****0993",
+        "0537-7268179",
+        "155****3363",
+        "139****1163",
+        "132****1283",
+        "133****0008",
+        "138****1222",
+        "185****5637",
+        "139****9895"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

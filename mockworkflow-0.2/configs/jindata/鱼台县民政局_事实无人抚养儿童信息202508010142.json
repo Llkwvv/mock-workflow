@@ -1,0 +1,135 @@
+{
+  "file_name": "鱼台县民政局_事实无人抚养儿童信息202508010142.xlsx",
+  "table_name": "鱼台县民政局_事实无人抚养儿童信息202508010142",
+  "row_count": 113,
+  "columns": [
+    "xb",
+    "zj",
+    "lb",
+    "hj",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "滨湖",
+        "谷亭",
+        "李阁",
+        "罗屯",
+        "清河",
+        "唐马",
+        "王鲁",
+        "王庙",
+        "老砦",
+        "鱼城",
+        "张黄"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "事实无人抚养儿童"
+      ],
+      "value_pool": [
+        "事实无人抚养儿童"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台"
+      ],
+      "value_pool": [
+        "鱼台"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "张**",
+        "岳**",
+        "吴**",
+        "任**",
+        "殷**",
+        "董**",
+        "候**",
+        "马**",
+        "许**",
+        "王**",
+        "田**",
+        "姚**",
+        "杨**",
+        "武**",
+        "刘**",
+        "随**",
+        "米**",
+        "孙**",
+        "闫**",
+        "沈**",
+        "强**",
+        "鹿**",
+        "胡**",
+        "葛**",
+        "侯**",
+        "陈**",
+        "仇**",
+        "段**",
+        "郭**",
+        "徐**",
+        "樊**",
+        "袁**",
+        "倪**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

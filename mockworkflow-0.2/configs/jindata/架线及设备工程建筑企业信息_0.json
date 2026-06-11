@@ -1,0 +1,125 @@
+{
+  "file_name": "架线及设备工程建筑企业信息_0.csv",
+  "table_name": "架线及设备工程建筑企业信息_0",
+  "row_count": 27,
+  "columns": [
+    "tyshxydm",
+    "hyml",
+    "hydm",
+    "qyzwm"
+  ],
+  "fields": [
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 91370830MA3P8MHE15",
+        " 91370830MA3PU9RF8M",
+        " 91370830MA3PY10M3U",
+        " 91370830MA3PY17836",
+        " 91370830MA3QM6CX9U",
+        " 91370830MA3P5UBJX2",
+        " 91370830MA3Q1MCD4D",
+        " 91370830MA3QJP7L4A",
+        " 91370830MA3MCFU77P",
+        " 91370830MA3P19L927",
+        " 913708300579208874",
+        " 913708300673707437",
+        " 913708307892850576",
+        " 91370830786112417P",
+        " 91370830MA3N7B6F28",
+        " 91370830MA3PK4DR9W",
+        " 91370830MA3RC34T30",
+        " 91370830MA3RF9TC6A",
+        " 91370830MA3R6E6D2U",
+        " 91370830MA3R24NW7E",
+        " 91370830MA3RBH994B",
+        " 91370830MA3RBCUW2T",
+        " 91370830MA3TAJ6E8X",
+        " 91370830MA3TBJ6GXQ",
+        " 91370830MA3T23446P",
+        " 91370830MA3T4QB1XT",
+        " 91370830MA3TJ4N852"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 建筑业-E"
+      ],
+      "value_pool": [
+        " 建筑业-E"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        " 4851|    架线及设备工程建筑"
+      ],
+      "value_pool": [
+        " 4851|    架线及设备工程建筑"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qyzwm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        " 昊天通讯工程（汶上）有限公司",
+        " 济宁市北通通信工程有限公司",
+        " 维创通信工程（济宁）有限公司",
+        " 速网通信工程（济宁）有限公司",
+        " 济宁市金源通信工程有限公司",
+        " 济宁梦淼通信工程有限公司",
+        " 济宁德硕通信工程有限公司",
+        " 济宁圣钦电力工程有限公司",
+        " 山东银江市政工程有限公司",
+        " 济宁纳盛通信工程有限公司",
+        " 汶上县伟澳通讯工程有限公司",
+        " 济宁存发通信工程有限公司",
+        " 汶上县新通工程有限公司",
+        " 济宁市华龙管线工程有限公司",
+        " 汶上县安腾电力工程有限公司",
+        " 汶上县圣坤通信工程有限公司",
+        " 济宁鑫盛源通信工程有限公司",
+        " 山东华睿通信工程有限公司",
+        " 汶上思诚通信工程有限公司",
+        " 济宁市旭辉顺康通信工程有限公司",
+        " 山东清茂通信有限公司",
+        " 济宁兴田通讯工程有限公司",
+        " 山东顾德通信工程有限公司",
+        " 济宁汶峰通信工程有限公司",
+        " 济宁千鼎管线工程有限公司",
+        " 汶上博雅通信工程有限公司",
+        " 山东圣维通信工程有限责任公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

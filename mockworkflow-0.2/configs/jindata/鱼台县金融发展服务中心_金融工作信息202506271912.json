@@ -1,0 +1,148 @@
+{
+  "file_name": "鱼台县金融发展服务中心_金融工作信息202506271912.xlsx",
+  "table_name": "鱼台县金融发展服务中心_金融工作信息202506271912",
+  "row_count": 24,
+  "columns": [
+    "mc",
+    "fs",
+    "nf",
+    "qs",
+    "bt",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "金融工作信息"
+      ],
+      "value_pool": [
+        "金融工作信息"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "8"
+      ],
+      "value_pool": [
+        "8"
+      ],
+      "min_value": 8.0,
+      "max_value": 8.0
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021",
+        "2024"
+      ],
+      "value_pool": [
+        "2021",
+        "2024"
+      ],
+      "min_value": 2021.0,
+      "max_value": 2024.0
+    },
+    {
+      "name": "qs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "min_value": 1.0,
+      "max_value": 20.0
+    },
+    {
+      "name": "bt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "全县金融辅导队工作推进会议召开",
+        "康盛彩虹上市推进工作调研会议",
+        "全县金融支持产业集群重点技改项目政金企合作对接会议召开",
+        "推动政金企沟通常态化 实现互利共赢",
+        "快起来 高频次召开政金企专题对接会议",
+        "对标先进学经验 补齐短板促发展",
+        "查短板 补弱项 再前行",
+        "服务企业发展 助推企业上市",
+        "全县金融防电诈骗APP安装推进会召开",
+        "开展“行长走厂长”、“行长走村长”活动——走进张黄化工园区站",
+        "汇聚金融力量 助力能源保供",
+        "金融支撑企业发展 全力冲刺第四季度",
+        "把握企业发展动态  为企业排忧解难",
+        "聚焦企业发展（上市康盛彩虹IPO\n项目启动",
+        "优化提升金融服务体系能力",
+        "鱼台县金融发展服务中心 “政银保”三方合作，化解企业融资难题",
+        "创新创优金融服务 金融辅导队工作会议在我县召开",
+        "鱼台县金融发展服务中心 点对点对接 推进政金企合作",
+        "我县召开保险业承担社会责任会议"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县金融发展服务中心",
+        "鱼台县运行监测中心"
+      ],
+      "value_pool": [
+        "鱼台县金融发展服务中心",
+        "鱼台县运行监测中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

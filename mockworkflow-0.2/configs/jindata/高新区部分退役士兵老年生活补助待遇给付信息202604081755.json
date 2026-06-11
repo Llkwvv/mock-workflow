@@ -1,0 +1,158 @@
+{
+  "file_name": "高新区部分退役士兵老年生活补助待遇给付信息202604081755.xlsx",
+  "table_name": "高新区部分退役士兵老年生活补助待遇给付信息202604081755",
+  "row_count": 7,
+  "columns": [
+    "zjbh",
+    "zjlx",
+    "lxdh",
+    "slr",
+    "sqsx",
+    "sqrxm",
+    "slsj",
+    "bjjg"
+  ],
+  "fields": [
+    {
+      "name": "zjbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********13",
+        "370811**********12",
+        "370811**********17",
+        "370811**********19",
+        "370822**********17",
+        "370822**********12"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "身份证"
+      ],
+      "value_pool": [
+        "身份证"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "151*****970",
+        "134*****625",
+        "182*****565",
+        "138*****665",
+        "134*****581",
+        "139*****880",
+        "136*****212"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "接庄街道办事处",
+        "王因街道办事处"
+      ],
+      "value_pool": [
+        "接庄街道办事处",
+        "王因街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqsx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "部分退役士兵老年生活补助待遇给付"
+      ],
+      "value_pool": [
+        "部分退役士兵老年生活补助待遇给付"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张**",
+        "樊**",
+        "房**",
+        "米**",
+        "潘**",
+        "温**",
+        "苗**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023-03-30"
+      ],
+      "value_pool": [
+        "2023-03-30"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "办结"
+      ],
+      "value_pool": [
+        "办结"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

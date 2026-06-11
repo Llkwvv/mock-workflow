@@ -1,0 +1,151 @@
+{
+  "file_name": "档案馆-档案资料汇编信息202606041109.xlsx",
+  "table_name": "档案馆-档案资料汇编信息202606041109",
+  "row_count": 31,
+  "columns": [
+    "zs",
+    "sm",
+    "cbfxh",
+    "zz",
+    "nd"
+  ],
+  "fields": [
+    {
+      "name": "zs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1.2万字",
+        "1.3万字",
+        "1.4万字",
+        "3.5万字",
+        "1.6万字",
+        "2.7万字",
+        "1.8万字",
+        "2.9万字",
+        "1.10万字",
+        "2.11万字",
+        "0.5万字",
+        "0.3万字",
+        "0.6万字",
+        "0.4万字",
+        "0.2万字",
+        "0.8万字",
+        "1.7万字",
+        "1.9万字",
+        "3.10万字"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "民族瑰宝威威汉风汉代武氏墓群石刻",
+        "嘉祥县工会第八、九、十次代表大会简介",
+        "从快速发展到全面繁荣嘉祥档案工作30年",
+        "妻教典型嘉祥古代三贤妻",
+        "加强档案馆和新农村档案工作调研报告",
+        "古今咏萌山诗选编",
+        "侯王建议始末",
+        "“四乡”文化集萃",
+        "吾志复不卑工业如皋夔",
+        "特藏室汉代石刻拓片档案概述",
+        "档案利用典型档案事例汇编",
+        "青山史料汇编",
+        "尹伯敏讲话汇编",
+        "南部山区资料汇编",
+        "各级招生工作的汇编",
+        "梁济运河资料汇编上、下册",
+        "嘉祥汉画像石故事集锦",
+        "《曾子文化-曾子故事档案资政参考专题 》",
+        "《传承红色文化档案资政参考专题》",
+        "《档案里的旧城记忆档案资政参考专题》",
+        "《档案服务企业资政参考专题》"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cbfxh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "内部发行"
+      ],
+      "value_pool": [
+        "内部发行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "申福生",
+        "李霞",
+        "曾小敏",
+        "马瑶",
+        "程雪英"
+      ],
+      "value_pool": [
+        "申福生",
+        "李霞",
+        "曾小敏",
+        "马瑶",
+        "程雪英"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2024",
+        "2022",
+        "2023",
+        "2025",
+        "2026"
+      ],
+      "min_value": 2008.0,
+      "max_value": 2026.0
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "file_name": "经开区体育名录库202603280803.xlsx",
+  "table_name": "经开区体育名录库202603280803",
+  "row_count": 29,
+  "columns": [
+    "sshy",
+    "sdgl",
+    "fr",
+    "mc",
+    "yyzk"
+  ],
+  "fields": [
+    {
+      "name": "sshy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "体育"
+      ],
+      "value_pool": [
+        "体育"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sdgl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "疃里镇",
+        "马集镇"
+      ],
+      "value_pool": [
+        "疃里镇",
+        "马集镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "崔宗锦",
+        "闫法珂",
+        "张尚稳",
+        "沈丽",
+        "张辉",
+        "刘长军",
+        "闫政廷",
+        "张凯伦",
+        "郭栋",
+        "董远飞",
+        "杨涛涛",
+        "江延飞",
+        "贾垂勇",
+        "王学可",
+        "刘海强",
+        "高润泽",
+        "马秀珍",
+        "马方军",
+        "孙娜娜",
+        "孙云龙",
+        "李树雷",
+        "王伟",
+        "邓涵",
+        "李诗雯",
+        "寇天威",
+        "秦美丽",
+        "张长江",
+        "陈通"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁经济开发区乔氏台球俱乐部",
+        "济宁经济开发区星耀台球俱乐部",
+        "济宁经济开发区闲乐台球俱乐部",
+        "聚鑫台球俱乐部",
+        "山东致青春体育文化发展有限公司",
+        "济宁经济开发区大树文化艺术培训学校有限公司",
+        "英森台球俱乐部",
+        "济宁经济开发区疃里镇飞扬舞蹈培训学校有限公司",
+        "济宁经济开发区勇搏跆拳道馆",
+        "济宁经济开发区疃里镇央美天乐艺术培训学校有限公司",
+        "济宁经济开发区之梁台球俱乐部",
+        "济宁经济开发区新壹台球俱乐部",
+        "济宁经济开发区大树美术培训学校有限公司",
+        "济宁经济开发区从星台球厅",
+        "济宁经济开发区马集镇精武跆拳道培训学校有限公司",
+        "济宁经济开发区马集镇天乐艺术培训学校有限公司",
+        "济宁经济开发区君泽跆拳道健身馆",
+        "济宁经济开发区蕴杰艺术培训学校有限公司",
+        "济宁广华体育设施工程有限公司",
+        "济宁市世纪嘉诚职业培训学校",
+        "济宁市鸿胜职业培训学校",
+        "济宁市宗圣职业培训学校",
+        "济宁市华和职业培训学校",
+        "济宁亿尊挖掘机职业培训学校",
+        "济宁经济开发区立大职业培训学校",
+        "济宁经济开发区天鸿职业培训学校",
+        "济宁市利昂博众职业培训学校",
+        "济宁市卓远职业培训学校",
+        "济宁正德职业培训学校"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yyzk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "营业"
+      ],
+      "value_pool": [
+        "营业"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "file_name": "汶上县卫生健康局_汶上县城乡医院对口支援派驻人员登记表202508010121.xlsx",
+  "table_name": "汶上县卫生健康局_汶上县城乡医院对口支援派驻人员登记表202508010121",
+  "row_count": 25,
+  "columns": [
+    "zyyy",
+    "pzryxm",
+    "pcsj",
+    "xsq",
+    "syyy",
+    "syks",
+    "ks",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "zyyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县人民医院",
+        "汶上县中医院",
+        "汶上县妇幼保健计划生育服务中心"
+      ],
+      "value_pool": [
+        "汶上县人民医院",
+        "汶上县中医院",
+        "汶上县妇幼保健计划生育服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pzryxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "束**",
+        "杜**",
+        "刘**",
+        "展**",
+        "刘*",
+        "李**",
+        "徐*",
+        "邵**",
+        "杨**",
+        "徐**",
+        "郭**",
+        "赵**",
+        "张*",
+        "付**",
+        "王*",
+        "王**",
+        "陈**",
+        "孟*",
+        "张**",
+        "孙**",
+        "马**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "45778",
+        "45783"
+      ],
+      "value_pool": [
+        "45778",
+        "45783"
+      ],
+      "min_value": 45778.0,
+      "max_value": 45783.0
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "syyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上街道社区卫生服务中心",
+        "南旺医院",
+        "汶上县第三人民医院",
+        "汶上县白石医院",
+        "杨店医院"
+      ],
+      "value_pool": [
+        "汶上街道社区卫生服务中心",
+        "南旺医院",
+        "汶上县第三人民医院",
+        "汶上县白石医院",
+        "杨店医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "syks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "影响科",
+        "麻醉科",
+        "五官科",
+        "内科",
+        "院前",
+        "外科",
+        "妇科",
+        "中医科",
+        "影像科",
+        "儿科",
+        "公卫",
+        "放射科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "医学影像科",
+        "麻醉科",
+        "眼科",
+        "神经内科二区",
+        "院前",
+        "消化内科",
+        "心血管内科一区",
+        "心胸外科",
+        "妇科",
+        "血液肿瘤科",
+        "治未病科",
+        "骨伤二科",
+        "影像二科",
+        "针灸、脾一科",
+        "心一、肿二科",
+        "重症医学科",
+        "儿科",
+        "影像一科",
+        "心病二科",
+        "外科二区",
+        "感染管理科",
+        "公共卫生科",
+        "康复医学科",
+        "放射科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "file_name": "鱼台县残联-全县残疾人意外伤害保险补助发放信息202512171659.xlsx",
+  "table_name": "鱼台县残联-全县残疾人意外伤害保险补助发放信息202512171659",
+  "row_count": 24124,
+  "columns": [
+    "ssxq",
+    "zgdw",
+    "btlbdxmc",
+    "jtbtnr",
+    "姓名",
+    "sfzh",
+    "shzt",
+    "lrsj",
+    "gxsj",
+    "cjsj"
+  ],
+  "fields": [
+    {
+      "name": "ssxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "残联",
+        "鱼台县残联"
+      ],
+      "value_pool": [
+        "残联",
+        "鱼台县残联"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "btlbdxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "残疾人意外伤害保险"
+      ],
+      "value_pool": [
+        "残疾人意外伤害保险"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtbtnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "残疾人意外伤害保险"
+      ],
+      "value_pool": [
+        "残疾人意外伤害保险"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "蒋*",
+        "王*",
+        "张*",
+        "李*",
+        "黄*",
+        "杨*",
+        "徐*",
+        "郭*",
+        "刘*",
+        "马*",
+        "卞*",
+        "解*",
+        "许*",
+        "任*",
+        "潘*",
+        "姜*",
+        "邵*",
+        "袁*",
+        "施*",
+        "郑*",
+        "于*",
+        "秦*",
+        "孙*",
+        "孟*",
+        "吕*",
+        "肖*",
+        "周*",
+        "路*",
+        "庞*",
+        "冷*",
+        "侯*",
+        "随*",
+        "常*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "3708271946********",
+        "3708271948********",
+        "3708271979********",
+        "3708271955********",
+        "3708271947********",
+        "3708271963********",
+        "3708271932********",
+        "3708271998********",
+        "3708271977********",
+        "3708271969********",
+        "3708271980********",
+        "3708272007********",
+        "3708271949********",
+        "3708271988********",
+        "3708271975********",
+        "3708271972********",
+        "3708272005********",
+        "3708271965********",
+        "3708272000********",
+        "3708271954********",
+        "3708271989********",
+        "3708271970********",
+        "3708271956********",
+        "3708271999********",
+        "3708271951********",
+        "3708271968********",
+        "3708271958********",
+        "3708271953********",
+        "3708271971********",
+        "3708271962********",
+        "3708271952********",
+        "3708271930********",
+        "5221311967********",
+        "3708271987********",
+        "3708831987********",
+        "3708272002********",
+        "3708272006********",
+        "3708271944********",
+        "3708271981********",
+        "3708271937********",
+        "3708271943********",
+        "3708271950********",
+        "3708271973********",
+        "3708271967********",
+        "3708271996********",
+        "3708271985********",
+        "3708271964********",
+        "3708271941********",
+        "3708271940********",
+        "3708271984********",
+        "3708271957********",
+        "3708271933********",
+        "3708271992********",
+        "3708271938********",
+        "3708271986********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "已发布"
+      ],
+      "value_pool": [
+        "已发布"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lrsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021-11-23 09:49:48",
+        "2021-11-23 09:50:22"
+      ],
+      "value_pool": [
+        "2021-11-23 09:49:48",
+        "2021-11-23 09:50:22"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-10-25 10:27:08.0"
+      ],
+      "value_pool": [
+        "2024-10-25 10:27:08.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-05-22 22:36:59.0"
+      ],
+      "value_pool": [
+        "2024-05-22 22:36:59.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

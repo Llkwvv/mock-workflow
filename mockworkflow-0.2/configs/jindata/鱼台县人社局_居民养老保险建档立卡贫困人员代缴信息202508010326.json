@@ -1,0 +1,173 @@
+{
+  "file_name": "鱼台县人社局_居民养老保险建档立卡贫困人员代缴信息202508010326.xlsx",
+  "table_name": "鱼台县人社局_居民养老保险建档立卡贫困人员代缴信息202508010326",
+  "row_count": 1215,
+  "columns": [
+    "姓名",
+    "jtsqmc",
+    "xb",
+    "xzjdmc",
+    "zje",
+    "jfrylb"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "仇**",
+        "赵**",
+        "张**",
+        "徐**",
+        "谢**",
+        "王**",
+        "黄**",
+        "武**",
+        "房**",
+        "刘**",
+        "胡**",
+        "高**",
+        "马**",
+        "于**",
+        "蒋**",
+        "郭**",
+        "程**",
+        "范**",
+        "袁**",
+        "任**",
+        "郑**",
+        "孙**",
+        "朱**",
+        "许**",
+        "田**",
+        "董**",
+        "常**",
+        "宋**",
+        "宗**",
+        "吴**",
+        "韩**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtsqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "鱼城镇杨楼村",
+        "王庙镇集体户",
+        "王庙镇王庙村",
+        "王庙镇谢庄村",
+        "王庙镇张集村",
+        "王庙镇后楼村",
+        "王庙镇南房村",
+        "王庙镇海北村",
+        "王庙镇小乡村",
+        "王庙镇海南村",
+        "王庙镇东高村",
+        "王庙镇西高村",
+        "王庙镇杨店村",
+        "王庙镇袁庄村",
+        "王庙镇魏堂村",
+        "王庙镇任庙村",
+        "王庙镇张玉村",
+        "王庙镇赵古同村",
+        "王庙镇田吴村",
+        "王庙镇东谢村",
+        "王庙镇常店村",
+        "王庙镇程庄村",
+        "王庙镇宋庄村",
+        "王庙镇苗庄村",
+        "王庙镇古李村",
+        "王庙镇北房村",
+        "王庙镇东堤村",
+        "王庙镇北堤村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzjdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼城镇",
+        "王庙镇"
+      ],
+      "value_pool": [
+        "鱼城镇",
+        "王庙镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "660",
+        "130",
+        "100"
+      ],
+      "value_pool": [
+        "660",
+        "130",
+        "100"
+      ],
+      "min_value": 100.0,
+      "max_value": 660.0
+    },
+    {
+      "name": "jfrylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "农村建档立卡已标注脱贫贫困人员"
+      ],
+      "value_pool": [
+        "农村建档立卡已标注脱贫贫困人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

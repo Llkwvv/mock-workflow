@@ -1,0 +1,125 @@
+{
+  "file_name": "低保免费电量补贴标准202508010332.xlsx",
+  "table_name": "低保免费电量补贴标准202508010332",
+  "row_count": 22326,
+  "columns": [
+    "yfje",
+    "jdxzmc",
+    "姓名",
+    "ahhzarbz",
+    "sfje"
+  ],
+  "fields": [
+    {
+      "name": "yfje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "8.4"
+      ],
+      "value_pool": [
+        "8.4"
+      ],
+      "min_value": 8.4,
+      "max_value": 8.4
+    },
+    {
+      "name": "jdxzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "韩庄镇"
+      ],
+      "value_pool": [
+        "韩庄镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "华**",
+        "梁**",
+        "张**",
+        "袁**",
+        "殷**",
+        "曹**",
+        "沙**",
+        "吕**",
+        "刘**",
+        "孔**",
+        "丁**",
+        "王**",
+        "赵**",
+        "付**",
+        "黄**",
+        "高**",
+        "陈**",
+        "陆**",
+        "侯**",
+        "郑**",
+        "徐**",
+        "李**",
+        "邵**",
+        "褚**",
+        "岳**",
+        "许**",
+        "祁**",
+        "乔**",
+        "谢**",
+        "杨**",
+        "里***",
+        "马**",
+        "窦**",
+        "郭**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ahhzarbz",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "8.4"
+      ],
+      "value_pool": [
+        "8.4"
+      ],
+      "min_value": 8.4,
+      "max_value": 8.4
+    },
+    {
+      "name": "sfje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "8.4"
+      ],
+      "value_pool": [
+        "8.4"
+      ],
+      "min_value": 8.4,
+      "max_value": 8.4
+    }
+  ]
+}

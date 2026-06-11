@@ -1,0 +1,379 @@
+{
+  "file_name": "高新区法人变更信息202603220800.xlsx",
+  "table_name": "高新区法人变更信息202603220800",
+  "row_count": 10000,
+  "columns": [
+    "qxmc",
+    "qxdm",
+    "jgmc",
+    "tyshxydm",
+    "hyml",
+    "hydm",
+    "qylx",
+    "clrq",
+    "bgsj",
+    "bgsx",
+    "bgcs",
+    "sjbjw",
+    "cxbj",
+    "gxsj",
+    "rksj"
+  ],
+  "fields": [
+    {
+      "name": "qxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁高新区"
+      ],
+      "value_pool": [
+        "济宁高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qxdm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370833"
+      ],
+      "value_pool": [
+        "370833"
+      ],
+      "min_value": 370833.0,
+      "max_value": 370833.0
+    },
+    {
+      "name": "jgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市信诺网络工程有限公司",
+        "山东瀚辰网络科技有限公司",
+        "利邦（山东）品牌服装有限公司",
+        "济宁东阳线业有限公司",
+        "山东洋霖企业管理咨询有限公司",
+        "山东源达生物科技材料有限公司",
+        "济宁华飞经贸有限公司",
+        "济宁佩晨国际贸易有限公司",
+        "山东星骋建筑工程有限公司",
+        "济宁富醇建筑材料有限公司",
+        "济宁安德水机电科技有限公司",
+        "济宁市禄樽建筑工程有限公司",
+        "济宁市坤峰设备安装有限责任公司",
+        "济宁德泰机电成套设备有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370800MA3CDAJW4Y",
+        "91370800MA7FCKFL03",
+        "91370800MA94T45C6L",
+        "91370800076994144H",
+        "91370800MA3TWLUH0T",
+        "913708007292869047",
+        "91370800MA3BXL5CXK",
+        "91370800MA3LYBNU9K",
+        "91370800MABM695Q9U",
+        "91370800MABRW09G4E",
+        "91370811MA3R8MF300",
+        "91370811MA7C0CBC1X",
+        "913708001659401568",
+        "91370800665740919E"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "信息传输、软件和信息技术服务业-I",
+        "批发和零售业-F",
+        "租赁和商务服务业-L",
+        "制造业-C",
+        "居民服务、修理和其他服务业-O",
+        "建筑业-E"
+      ],
+      "value_pool": [
+        "信息传输、软件和信息技术服务业-I",
+        "批发和零售业-F",
+        "租赁和商务服务业-L",
+        "制造业-C",
+        "居民服务、修理和其他服务业-O",
+        "建筑业-E"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "6599|其他未列明信息技术服务业",
+        "6519|其他软件开发",
+        "5232|服装零售",
+        "5174|五金产品批发",
+        "7249|其他专业咨询与调查",
+        "1495|食品及饲料添加剂制造",
+        "5281|五金零售",
+        "5199|其他未列明批发业",
+        "8060|摄影扩印服务",
+        "5165|建材批发",
+        "3484|机械零部件加工",
+        "4710|住宅房屋建筑",
+        "5279|其他电子产品零售"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qylx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "有限责任公司(自然人独资)",
+        "其他有限责任公司",
+        "有限责任公司(自然人投资或控股)",
+        "有限责任公司(自然人投资或控股的法人独资)"
+      ],
+      "value_pool": [
+        "有限责任公司(自然人独资)",
+        "其他有限责任公司",
+        "有限责任公司(自然人投资或控股)",
+        "有限责任公司(自然人投资或控股的法人独资)"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2016-07-06",
+        "2022-01-25",
+        "2021-09-01",
+        "2013-08-29",
+        "2020-09-01",
+        "2001-07-14",
+        "2015-10-21",
+        "2018-06-06",
+        "2022-04-25",
+        "2022-06-28",
+        "2019-12-19",
+        "2021-11-15",
+        "1994-09-28",
+        "2007-08-16"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bgsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023-07-28",
+        "2023-07-27",
+        "2023-07-26"
+      ],
+      "value_pool": [
+        "2023-07-28",
+        "2023-07-27",
+        "2023-07-26"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bgsx",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "70",
+        "74",
+        "10",
+        "12",
+        "81",
+        "27",
+        "71",
+        "8",
+        "5",
+        "72",
+        "3",
+        "264",
+        "22",
+        "262",
+        "21",
+        "26",
+        "23",
+        "263",
+        "166",
+        "1",
+        "98",
+        "2",
+        "164",
+        "126",
+        "165",
+        "163",
+        "25",
+        "24",
+        "161",
+        "991",
+        "100",
+        "61",
+        "11",
+        "162",
+        "265",
+        "50"
+      ],
+      "min_value": 1.0,
+      "max_value": 999.0
+    },
+    {
+      "name": "bgcs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2",
+        "1",
+        "3",
+        "5"
+      ],
+      "value_pool": [
+        "2",
+        "1",
+        "3",
+        "5"
+      ],
+      "min_value": 1.0,
+      "max_value": 16.0
+    },
+    {
+      "name": "sjbjw",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "2"
+      ],
+      "value_pool": [
+        "1",
+        "2"
+      ],
+      "min_value": 1.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "cxbj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "变更"
+      ],
+      "value_pool": [
+        "变更"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2023-07-28 16:12:19",
+        "2023-07-28 15:53:16",
+        "2023-07-28 11:06:00",
+        "2023-07-27 14:04:36",
+        "2023-07-27 15:29:59",
+        "2023-07-27 16:29:39",
+        "2023-07-27 16:46:51",
+        "2023-07-27 11:29:09",
+        "2023-07-28 17:27:01",
+        "2023-07-28 09:59:35",
+        "2023-07-28 15:24:08",
+        "2023-07-27 16:53:43",
+        "2023-07-26 11:18:29",
+        "2023-07-26 09:25:44"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rksj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023-08-02 04:39:22"
+      ],
+      "value_pool": [
+        "2023-08-02 04:39:22"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

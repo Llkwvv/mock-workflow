@@ -1,0 +1,132 @@
+{
+  "file_name": "鱼台县综合行政执法局_共享单车信息202506271946.xlsx",
+  "table_name": "鱼台县综合行政执法局_共享单车信息202506271946",
+  "row_count": 69,
+  "columns": [
+    "gxdcpp",
+    "hcqrl",
+    "hcqwz",
+    "zgdw",
+    "jczq"
+  ],
+  "fields": [
+    {
+      "name": "gxdcpp",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "美团",
+        "青桔",
+        "哈喽",
+        "美团电单车"
+      ],
+      "value_pool": [
+        "美团",
+        "青桔",
+        "哈喽",
+        "美团电单车"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hcqrl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "10",
+        "8",
+        "6",
+        "12"
+      ],
+      "value_pool": [
+        "10",
+        "8",
+        "6",
+        "12"
+      ],
+      "min_value": 6.0,
+      "max_value": 12.0
+    },
+    {
+      "name": "hcqwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "教体局",
+        "执法局",
+        "快乐网吧",
+        "联友超市",
+        "姜家水饺",
+        "四季洗浴",
+        "双新小区",
+        "中海石油",
+        "孝贤大厦",
+        "上城如意",
+        "锦绣华城1期",
+        "锦绣华城2期",
+        "锦绣华城3期",
+        "锦绣华城4期",
+        "滨湖中学",
+        "市民中心",
+        "县政府",
+        "贵宾园",
+        "交警大队",
+        "市场监管局",
+        "国税局",
+        "教体局门口",
+        "执法局门口",
+        "快乐网吧门口",
+        "联友超市门口",
+        "姜家水饺门口",
+        "四季洗浴门口"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县综合行政执法局"
+      ],
+      "value_pool": [
+        "鱼台县综合行政执法局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jczq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "每月",
+        "每周"
+      ],
+      "value_pool": [
+        "每月",
+        "每周"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

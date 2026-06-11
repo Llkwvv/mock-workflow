@@ -1,0 +1,159 @@
+{
+  "file_name": "鱼台县农业农村局_鱼台县美丽乡村建设验收信息202506271741.xlsx",
+  "table_name": "鱼台县农业农村局_鱼台县美丽乡村建设验收信息202506271741",
+  "row_count": 47,
+  "columns": [
+    "ysqk",
+    "dj",
+    "cm",
+    "sj",
+    "zj"
+  ],
+  "fields": [
+    {
+      "name": "ysqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已验收"
+      ],
+      "value_pool": [
+        "已验收"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "省级",
+        "市级"
+      ],
+      "value_pool": [
+        "省级",
+        "市级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "周堂村",
+        "刘庄村",
+        "东段村",
+        "大闫村",
+        "杨邵村",
+        "缪集镇",
+        "马莪村",
+        "王刘村",
+        "孟楼村",
+        "罗屯村",
+        "屈庄村",
+        "吴庄村",
+        "王响村",
+        "魏堂村",
+        "冯楼村",
+        "古李村",
+        "姜庄村",
+        "八里湾村",
+        "西段村",
+        "汪庄村",
+        "高庄村",
+        "华村",
+        "李白村",
+        "陈堂村",
+        "闫庙村",
+        "小周村",
+        "龙申村",
+        "王堂村",
+        "前蒋村",
+        "杨楼村",
+        "后付村",
+        "郭楼村",
+        "旧城里村",
+        "北堤村",
+        "朱庙村",
+        "王庄村",
+        "乔口村",
+        "后蒋村",
+        "大闵村",
+        "武台村",
+        "新骆村",
+        "陈堂",
+        "闫庙",
+        "魏堂"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2017年度",
+        "2018年度",
+        "2019年度",
+        "2020年度",
+        "2019年"
+      ],
+      "value_pool": [
+        "2017年度",
+        "2018年度",
+        "2019年度",
+        "2020年度",
+        "2019年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "谷亭街道",
+        "罗屯镇",
+        "鱼城镇",
+        "王鲁镇",
+        "王庙镇",
+        "唐马镇",
+        "张黄镇",
+        "王鲁"
+      ],
+      "value_pool": [
+        "谷亭街道",
+        "罗屯镇",
+        "鱼城镇",
+        "王鲁镇",
+        "王庙镇",
+        "唐马镇",
+        "张黄镇",
+        "王鲁"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "file_name": "鱼台县民政局_全县慈善精准扶贫_情暖万家_救助信息202508010159.xlsx",
+  "table_name": "鱼台县民政局_全县慈善精准扶贫_情暖万家_救助信息202508010159",
+  "row_count": 1344,
+  "columns": [
+    "zj",
+    "xsq",
+    "姓名",
+    "xb",
+    "nf",
+    "jtzz"
+  ],
+  "fields": [
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "谷亭街道",
+        "滨湖街道",
+        "老砦镇"
+      ],
+      "value_pool": [
+        "谷亭街道",
+        "滨湖街道",
+        "老砦镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台"
+      ],
+      "value_pool": [
+        "鱼台"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "蒋**",
+        "韩**",
+        "马**",
+        "杨**",
+        "朱**",
+        "李**",
+        "屈**",
+        "王**",
+        "闫**",
+        "随**",
+        "潘**",
+        "古**",
+        "张**",
+        "程**",
+        "姚**",
+        "夏**",
+        "赵**",
+        "凌**",
+        "宋**",
+        "闵**",
+        "郑**",
+        "文**",
+        "胡**",
+        "刘**",
+        "周**",
+        "田**",
+        "于**",
+        "谭**",
+        "徐**",
+        "聂**",
+        "陈**",
+        "金**",
+        "许**",
+        "肖**",
+        "申**",
+        "魏**",
+        "彭**",
+        "付**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023"
+      ],
+      "value_pool": [
+        "2023"
+      ],
+      "min_value": 2023.0,
+      "max_value": 2023.0
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "蒋庄村",
+        "八里湾村",
+        "古亭社区运南村",
+        "古亭社区建设村",
+        "王子亮村",
+        "古亭社区和平村",
+        "杨楼村",
+        "古亭社区爱国村",
+        "演武坡村周堂",
+        "胡集村",
+        "土楼村",
+        "龙申村",
+        "演武坡村东段",
+        "演武坡村姜庄",
+        "演武坡村李庄",
+        "临河村",
+        "佃户李村",
+        "米滩村",
+        "大聂村",
+        "新民村",
+        "新华村",
+        "城西村后聂",
+        "城西村吴集",
+        "陈年村",
+        "七所楼村",
+        "套楼村",
+        "方与社区",
+        "彭庄村",
+        "东里村",
+        "独山村"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "file_name": "济宁市人力资源和社会保障局_济宁市技师工作站名单202601081014.xlsx",
+  "table_name": "济宁市人力资源和社会保障局_济宁市技师工作站名单202601081014",
+  "row_count": 25,
+  "columns": [
+    "ptmc",
+    "szdw",
+    "szd",
+    "xh",
+    "sscs"
+  ],
+  "fields": [
+    {
+      "name": "ptmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁市技师工作站"
+      ],
+      "value_pool": [
+        "济宁市技师工作站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市矿业集团",
+        "山东如意科技集团",
+        "迪尔集团",
+        "山东山矿机械有限公司",
+        "中国重汽(济宁)商用汽车有限公司",
+        "山东鲁泰煤业有限公司",
+        "山推工程机械股份有限公司",
+        "山东太阳纸业有限公司",
+        "汶上县义桥煤矿有限责任公司",
+        "济宁市烹饪餐饮协会",
+        "山东山推机械有限公司",
+        "山东博特精工股份有限公司",
+        "山东聚源热力有限责任公司",
+        "山东东山王楼煤矿有限公司",
+        "济宁碳素集团有限公司",
+        "曲阜天博汽车零部件制造有限公司",
+        "梁山供电公司",
+        "汶上县供电公司",
+        "山东宁建建设集团有限公司",
+        "山东省兖州市大统矿业公司",
+        "山东宏河矿业集团邹城市横河煤矿",
+        "山拖农机装备有限公司",
+        "汶上如意天荣纺织有限公司",
+        "山东济东园林工程建设有限公司",
+        "山东联诚集团有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区",
+        "任城区",
+        "兖州区",
+        "汶上县",
+        "曲阜市",
+        "梁山县",
+        "邹城市"
+      ],
+      "value_pool": [
+        "高新区",
+        "任城区",
+        "兖州区",
+        "汶上县",
+        "曲阜市",
+        "梁山县",
+        "邹城市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "min_value": 1.0,
+      "max_value": 25.0
+    },
+    {
+      "name": "sscs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

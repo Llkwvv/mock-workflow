@@ -1,0 +1,162 @@
+{
+  "file_name": "嘉祥县供电公司电力故障报修联系方式202506182047.xlsx",
+  "table_name": "嘉祥县供电公司电力故障报修联系方式202506182047",
+  "row_count": 20,
+  "columns": [
+    "gxfw",
+    "fwsj",
+    "bzxx",
+    "dlwz",
+    "bxdh",
+    "dwmc"
+  ],
+  "fields": [
+    {
+      "name": "gxfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县",
+        "嘉祥县嘉祥街道",
+        "嘉祥县万张街道",
+        "嘉祥县卧龙山街道",
+        "嘉祥县満硐镇",
+        "嘉祥县马村镇",
+        "嘉祥县老僧堂镇",
+        "嘉祥县仲山镇",
+        "嘉祥县金屯镇",
+        "嘉祥县梁宝寺镇",
+        "嘉祥县孟姑集镇",
+        "嘉祥县纸坊镇",
+        "嘉祥县张楼镇",
+        "嘉祥县黄垓乡"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "24小时服务"
+      ],
+      "value_pool": [
+        "24小时服务"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzxx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "如遇突发停电情况，请及时拨打辖区供电所抢修电话，国网嘉祥县供电公司真诚为每一位客户用心服务，感谢您的支持和理解。"
+      ],
+      "value_pool": [
+        "如遇突发停电情况，请及时拨打辖区供电所抢修电话，国网嘉祥县供电公司真诚为每一位客户用心服务，感谢您的支持和理解。"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dlwz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县嘉祥街道机场路8号",
+        "嘉祥县中心街133号",
+        "嘉祥县万张街道沿湖路97号",
+        "嘉祥县卧龙山镇政府路口往西50米路北",
+        "嘉祥县满硐镇244省道为民服务中心北50米",
+        "嘉祥县马村镇马村中心卫生院东100米",
+        "嘉祥县老僧堂乡政府东20米路北",
+        "嘉祥县仲山工业园内明德路路东，新民路路北",
+        "金屯镇派出所东临",
+        "嘉祥县梁宝寺镇政府往南500米路东",
+        "嘉祥县孟姑集镇工业园区南50米",
+        "嘉祥县纸坊镇第三人民医院东100米路北",
+        "嘉祥县张楼镇第一中学西400米",
+        "嘉祥县黄垓乡邮政局南700米"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bxdh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "8399592",
+        "8399559",
+        "8399833",
+        "8399835",
+        "8399851",
+        "8399852",
+        "8399891",
+        "8399892",
+        "8399886",
+        "8399887",
+        "8399916",
+        "8399876",
+        "8399911",
+        "8399873",
+        "8399881",
+        "8399922",
+        "8399901",
+        "8399897",
+        "8399907"
+      ],
+      "min_value": 8399559.0,
+      "max_value": 8399922.0
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "国网嘉祥县供电公司",
+        "国网嘉祥县供电公司应急办公室",
+        "国网嘉祥县供电公司应急值班室",
+        "城区供电所",
+        "万张供电所",
+        "卧龙山供电所",
+        "満硐供电所",
+        "马村供电所",
+        "老僧堂供电所",
+        "仲山供电所",
+        "金屯供电所",
+        "梁宝寺供电所",
+        "孟姑集供电所",
+        "纸坊供电所",
+        "张楼供电所",
+        "黄垓供电所"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

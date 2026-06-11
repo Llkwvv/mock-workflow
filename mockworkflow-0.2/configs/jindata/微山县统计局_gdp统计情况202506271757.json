@@ -1,0 +1,191 @@
+{
+  "file_name": "微山县统计局_gdp统计情况202506271757.xlsx",
+  "table_name": "微山县统计局_gdp统计情况202506271757",
+  "row_count": 39,
+  "columns": [
+    "zbmc",
+    "sl",
+    "dw",
+    "zzl",
+    "xq",
+    "nf"
+  ],
+  "fields": [
+    {
+      "name": "zbmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "全县生产总值",
+        "第一产业增加值",
+        "第二产业增加值",
+        "第三产业增加值",
+        "农林牧渔业增加值",
+        "工业增加值",
+        "建筑业增加值",
+        "批发和零售业增加值",
+        "交通运输、仓储和邮政业增加值",
+        "住宿和餐饮业增加值",
+        "金融业增加值",
+        "房地产业增加值",
+        "其他服务业增加值"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "449.0",
+        "67.0",
+        "146.0",
+        "236.0",
+        "72.0",
+        "137.0",
+        "10.0",
+        "73.0",
+        "36.0",
+        "15.0",
+        "19.0",
+        "11.0",
+        "75.0",
+        "444.28",
+        "64.92",
+        "153.53",
+        "225.83",
+        "69.39",
+        "146.09",
+        "7.78",
+        "74.47",
+        "37.73",
+        "13.35",
+        "17.98",
+        "8.67",
+        "68.82",
+        "476.71",
+        "70.14",
+        "160.25",
+        "246.32",
+        "75.77",
+        "145.31",
+        "16.06",
+        "72.86",
+        "43.17",
+        "11.44",
+        "17.45",
+        "13.41",
+        "81.23"
+      ],
+      "min_value": 7.78,
+      "max_value": 476.71
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "亿元"
+      ],
+      "value_pool": [
+        "亿元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "5.9",
+        "4.4",
+        "6.5",
+        "4.7",
+        "16.2",
+        "6.2",
+        "9.1",
+        "8.1",
+        "1.5",
+        "5.5",
+        "4.1",
+        "5.0",
+        "7.5",
+        "1.8",
+        "9.2",
+        "-17.0",
+        "-2.8",
+        "13.5",
+        "-3.1",
+        "10.0",
+        "4.6",
+        "-0.2",
+        "5.8",
+        "4.2",
+        "6.1",
+        "6.0",
+        "13.8",
+        "7.4",
+        "3.1",
+        "7.8",
+        "18.8",
+        "0.6",
+        "3.6"
+      ],
+      "min_value": -17.0,
+      "max_value": 18.8
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山县"
+      ],
+      "value_pool": [
+        "微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023",
+        "2022",
+        "2024"
+      ],
+      "value_pool": [
+        "2023",
+        "2022",
+        "2024"
+      ],
+      "min_value": 2022.0,
+      "max_value": 2024.0
+    }
+  ]
+}

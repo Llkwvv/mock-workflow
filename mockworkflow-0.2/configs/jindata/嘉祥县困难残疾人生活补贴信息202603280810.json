@@ -1,0 +1,779 @@
+{
+  "file_name": "嘉祥县困难残疾人生活补贴信息202603280810.xlsx",
+  "table_name": "嘉祥县困难残疾人生活补贴信息202603280810",
+  "row_count": 3807,
+  "columns": [
+    "bh",
+    "qhbm",
+    "ds",
+    "qx",
+    "zj",
+    "jzd",
+    "cjrxm",
+    "cjlb",
+    "cjdj",
+    "ffje",
+    "dbzfj",
+    "czzfj",
+    "btbz",
+    "btlx",
+    "zhxm",
+    "nd",
+    "yd",
+    "jtzz",
+    "hjszd",
+    "yzbm",
+    "fzks",
+    "fzbm",
+    "zjdwqk",
+    "ffpc",
+    "sfffdr",
+    "sfxsdb",
+    "czzk"
+  ],
+  "fields": [
+    {
+      "name": "bh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "36477",
+        "36478",
+        "36479",
+        "36480",
+        "36481",
+        "36482",
+        "36483",
+        "36484",
+        "36485",
+        "36486",
+        "36487",
+        "36488",
+        "36489",
+        "36490",
+        "36491",
+        "36492",
+        "36493",
+        "36494",
+        "36495",
+        "36496",
+        "36497",
+        "36498",
+        "36499",
+        "36500",
+        "36501",
+        "36502",
+        "36503",
+        "36504",
+        "36505",
+        "36506",
+        "36507",
+        "36508",
+        "36509",
+        "36510",
+        "36511",
+        "36512",
+        "36513",
+        "36514",
+        "36515",
+        "36516",
+        "36517",
+        "36518",
+        "36519",
+        "36520",
+        "36521",
+        "36522",
+        "36523",
+        "36524",
+        "36525",
+        "36526",
+        "36527",
+        "36528",
+        "36529",
+        "36530",
+        "36531",
+        "36532",
+        "36533",
+        "36534",
+        "36535",
+        "36536",
+        "36537",
+        "36538",
+        "36539",
+        "36540",
+        "36541",
+        "36542",
+        "36543",
+        "36544",
+        "36545",
+        "36546",
+        "36547",
+        "36548",
+        "36549",
+        "36550",
+        "36551",
+        "36552",
+        "36553",
+        "36554",
+        "36555",
+        "36556",
+        "36557",
+        "36558",
+        "36559",
+        "36560",
+        "36561",
+        "36562",
+        "36563",
+        "36564",
+        "36565",
+        "36566",
+        "36567",
+        "36568",
+        "36569",
+        "36570",
+        "36571",
+        "36572",
+        "36573",
+        "36574",
+        "36575",
+        "36576"
+      ],
+      "min_value": 36477.0,
+      "max_value": 40283.0
+    },
+    {
+      "name": "qhbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370829"
+      ],
+      "value_pool": [
+        "370829"
+      ],
+      "min_value": 370829.0,
+      "max_value": 370829.0
+    },
+    {
+      "name": "ds",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥街道"
+      ],
+      "value_pool": [
+        "嘉祥街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jzd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥街道"
+      ],
+      "value_pool": [
+        "嘉祥街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杨心朕",
+        "胡春美",
+        "李民安",
+        "杜金付",
+        "孙红兵",
+        "张联东",
+        "郝守才",
+        "孙瑞一",
+        "孔祥连",
+        "郑利君",
+        "权建伟",
+        "何西珍",
+        "郭西峰",
+        "张书平",
+        "梁粉粉",
+        "蒋一通",
+        "候远高",
+        "刘训尚",
+        "李取欢",
+        "宋衔贺",
+        "李取清",
+        "权爱山",
+        "侯忠高",
+        "李福金",
+        "李自俭",
+        "刘金花",
+        "张培标",
+        "蒋春记",
+        "冯爱真",
+        "曹明文",
+        "郑运喜",
+        "李国庆",
+        "陈根喜",
+        "郭玉珊",
+        "李晓花",
+        "张满荣",
+        "冯作东",
+        "张新帅",
+        "李秀荣",
+        "梁月娥",
+        "徐善同",
+        "石性元",
+        "李永奇",
+        "董敏仙",
+        "李传美",
+        "王嘉得",
+        "闫占占",
+        "杜贻斌",
+        "高东军",
+        "山水化",
+        "梁之斗",
+        "曹明敏",
+        "梁超",
+        "杜昌凯",
+        "贾志勇",
+        "孔祥周",
+        "王加鸿",
+        "冯建利",
+        "傅玉莉",
+        "孙国强",
+        "孟丹丹",
+        "李建军",
+        "陈法启",
+        "陈允田",
+        "王贵桥",
+        "陈进法",
+        "曾正先",
+        "陈兴稳",
+        "高燕",
+        "候峰高",
+        "尹四义",
+        "夏芝友",
+        "李传芳",
+        "郭保民",
+        "冯春菊",
+        "权福军",
+        "高力",
+        "崔志国",
+        "刘训波",
+        "金平现",
+        "杜地",
+        "穆敬苏",
+        "何敬弟",
+        "崔志林",
+        "冯兴慧",
+        "孙善金",
+        "曹书玮",
+        "侯仰军",
+        "曹百祥",
+        "王振华",
+        "石可冕",
+        "王思现",
+        "胡翠丽",
+        "鹿星星",
+        "张永新",
+        "李永清",
+        "楚丹丹",
+        "李秀春",
+        "孙笑天",
+        "黄贤栋"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "肢体残疾",
+        "多重残疾",
+        "视力残疾",
+        "言语残疾",
+        "精神残疾",
+        "智力残疾",
+        "听力残疾"
+      ],
+      "value_pool": [
+        "肢体残疾",
+        "多重残疾",
+        "视力残疾",
+        "言语残疾",
+        "精神残疾",
+        "智力残疾",
+        "听力残疾"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "一级",
+        "三级",
+        "二级"
+      ],
+      "value_pool": [
+        "一级",
+        "三级",
+        "二级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ffje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "199",
+        "149"
+      ],
+      "value_pool": [
+        "199",
+        "149"
+      ],
+      "min_value": 149.0,
+      "max_value": 199.0
+    },
+    {
+      "name": "dbzfj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "czzfj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0"
+      ],
+      "value_pool": [
+        "0"
+      ],
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    {
+      "name": "btbz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "199",
+        "149"
+      ],
+      "value_pool": [
+        "199",
+        "149"
+      ],
+      "min_value": 149.0,
+      "max_value": 199.0
+    },
+    {
+      "name": "btlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "生活补贴"
+      ],
+      "value_pool": [
+        "生活补贴"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zhxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "杨心朕",
+        "胡春美",
+        "李民安",
+        "杜金付",
+        "孙红兵",
+        "张联东",
+        "郝守才",
+        "孙瑞一",
+        "孔祥连",
+        "郑利君",
+        "权建伟",
+        "何西珍",
+        "郭西峰",
+        "张书平",
+        "梁粉粉",
+        "蒋一通",
+        "候远高",
+        "刘训尚",
+        "李取欢",
+        "宋衔贺",
+        "李取清",
+        "权爱山",
+        "侯忠高",
+        "李福金",
+        "李自俭",
+        "刘金花",
+        "张培标",
+        "蒋春记",
+        "冯爱真",
+        "曹明文",
+        "郑运喜",
+        "李国庆",
+        "陈根喜",
+        "郭玉珊",
+        "李晓花",
+        "张满荣",
+        "冯作东",
+        "张新帅",
+        "李秀荣",
+        "梁月娥",
+        "徐善同",
+        "石性元",
+        "李永奇",
+        "董敏仙",
+        "李传美",
+        "王嘉得",
+        "闫占占",
+        "杜贻斌",
+        "高东军",
+        "山水化",
+        "梁之斗",
+        "曹明敏",
+        "梁超",
+        "杜昌凯",
+        "贾志勇",
+        "孔祥周",
+        "王加鸿",
+        "冯建利",
+        "傅玉莉",
+        "孙国强",
+        "孟丹丹",
+        "李建军",
+        "陈法启",
+        "陈允田",
+        "王贵桥",
+        "陈进法",
+        "曾正先",
+        "陈兴稳",
+        "高燕",
+        "候峰高",
+        "尹四义",
+        "夏芝友",
+        "李传芳",
+        "郭保民",
+        "冯春菊",
+        "权福军",
+        "高力",
+        "崔志国",
+        "刘训波",
+        "金平现",
+        "杜地",
+        "穆敬苏",
+        "何敬弟",
+        "崔志林",
+        "冯兴慧",
+        "孙善金",
+        "曹书玮",
+        "侯仰军",
+        "曹百祥",
+        "王振华",
+        "石可冕",
+        "王思现",
+        "胡翠丽",
+        "鹿星星",
+        "张永新",
+        "李永清",
+        "楚丹丹",
+        "李秀春",
+        "孙笑天",
+        "黄贤栋"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2026"
+      ],
+      "value_pool": [
+        "2026"
+      ],
+      "min_value": 2026.0,
+      "max_value": 2026.0
+    },
+    {
+      "name": "yd",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2026-03"
+      ],
+      "value_pool": [
+        "2026-03"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥街道"
+      ],
+      "value_pool": [
+        "嘉祥街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hjszd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥街道"
+      ],
+      "value_pool": [
+        "嘉祥街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yzbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "272400"
+      ],
+      "value_pool": [
+        "272400"
+      ],
+      "min_value": 272400.0,
+      "max_value": 272400.0
+    },
+    {
+      "name": "fzks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "儿童福利科"
+      ],
+      "value_pool": [
+        "儿童福利科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "民政部门"
+      ],
+      "value_pool": [
+        "民政部门"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjdwqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已到位"
+      ],
+      "value_pool": [
+        "已到位"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ffpc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "每月"
+      ],
+      "value_pool": [
+        "每月"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfffdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfxsdb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czzk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "持证"
+      ],
+      "value_pool": [
+        "持证"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

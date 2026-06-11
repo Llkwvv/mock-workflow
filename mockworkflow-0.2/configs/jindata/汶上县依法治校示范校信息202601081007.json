@@ -1,0 +1,146 @@
+{
+  "file_name": "汶上县依法治校示范校信息202601081007.xlsx",
+  "table_name": "汶上县依法治校示范校信息202601081007",
+  "row_count": 22,
+  "columns": [
+    "pcsj",
+    "bxcc",
+    "psnf",
+    "xxmc",
+    "xxlb"
+  ],
+  "fields": [
+    {
+      "name": "pcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "第一批",
+        "第三批（省级）",
+        "第四批（省级）",
+        "第二批",
+        "第五批（省级）",
+        "第三批",
+        "第四批",
+        "第五批",
+        "第六批"
+      ],
+      "value_pool": [
+        "第一批",
+        "第三批（省级）",
+        "第四批（省级）",
+        "第二批",
+        "第五批（省级）",
+        "第三批",
+        "第四批",
+        "第五批",
+        "第六批"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bxcc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高中",
+        "小学",
+        "初中",
+        "职业教育"
+      ],
+      "value_pool": [
+        "高中",
+        "小学",
+        "初中",
+        "职业教育"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "psnf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2008",
+        "2009",
+        "2010",
+        "2012",
+        "2014",
+        "2016",
+        "2018"
+      ],
+      "value_pool": [
+        "2008",
+        "2009",
+        "2010",
+        "2012",
+        "2014",
+        "2016",
+        "2018"
+      ],
+      "min_value": 2008.0,
+      "max_value": 2018.0
+    },
+    {
+      "name": "xxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县第一中学",
+        "汶上县实验小学",
+        "汶上县苑庄镇第二中学",
+        "汶上县职教中心",
+        "汶上县第二实验中学",
+        "汶上县次丘镇高庄小学",
+        "汶上县郭楼镇明德小学",
+        "汶上县刘楼乡中学",
+        "汶上县杨店乡中心小学",
+        "汶上县义桥镇义桥小学",
+        "汶上县次丘镇第一中学",
+        "汶上县郭楼镇中学",
+        "汶上县杨店镇泗汶小学",
+        "汶上县次丘镇中心小学",
+        "汶上县寅寺镇中心小学",
+        "汶上县军屯乡明德小学",
+        "汶上县圣泽中学",
+        "汶上县第二实验小学",
+        "汶上县南站镇中学"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "公办",
+        "民办"
+      ],
+      "value_pool": [
+        "公办",
+        "民办"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

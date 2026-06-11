@@ -1,0 +1,204 @@
+{
+  "file_name": "地区降雨监测信息202506202034.xlsx",
+  "table_name": "地区降雨监测信息202506202034",
+  "row_count": 10000,
+  "columns": [
+    "czbm",
+    "tjsj",
+    "sdjsl",
+    "sdz",
+    "sjlx",
+    "sss",
+    "sss1",
+    "ssx",
+    "qhbm",
+    "czzt"
+  ],
+  "fields": [
+    {
+      "name": "czbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "5***1800",
+        "5***2600",
+        "5***2701",
+        "5***2000",
+        "5***2101",
+        "5***3400",
+        "5***4501",
+        "5***5100",
+        "5***5701"
+      ],
+      "value_pool": [
+        "5***1800",
+        "5***2600",
+        "5***2701",
+        "5***2000",
+        "5***2101",
+        "5***3400",
+        "5***4501",
+        "5***5100",
+        "5***5701"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "1/1/2016 01:00:00",
+        "1/1/2016 02:00:00",
+        "1/1/2016 03:00:00",
+        "1/1/2016 04:00:00",
+        "1/1/2016 05:00:00",
+        "1/1/2016 06:00:00",
+        "1/1/2016 07:00:00",
+        "1/1/2016 08:00:00",
+        "1/1/2016 09:00:00",
+        "1/1/2016 10:00:00",
+        "1/1/2016 11:00:00",
+        "1/1/2016 12:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sdjsl",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.0"
+      ],
+      "value_pool": [
+        "0.0"
+      ],
+      "min_value": 0.0,
+      "max_value": 47.5
+    },
+    {
+      "name": "sdz",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1.0"
+      ],
+      "value_pool": [
+        "1.0"
+      ],
+      "min_value": 0.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "sjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "实时数据"
+      ],
+      "value_pool": [
+        "实时数据"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sss",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "山东省"
+      ],
+      "value_pool": [
+        "山东省"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sss1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qhbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "370829"
+      ],
+      "value_pool": [
+        "370829"
+      ],
+      "min_value": 370829.0,
+      "max_value": 370829.0
+    },
+    {
+      "name": "czzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "正常"
+      ],
+      "value_pool": [
+        "正常"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

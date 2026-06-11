@@ -1,0 +1,172 @@
+{
+  "file_name": "嘉祥县医师执业注册信息202508010130.xlsx",
+  "table_name": "嘉祥县医师执业注册信息202508010130",
+  "row_count": 4,
+  "columns": [
+    "姓名",
+    "xb",
+    "zsbm",
+    "yszgzsbm",
+    "zylb",
+    "zyfw",
+    "zydd",
+    "zyzyjg",
+    "fzjg"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘*",
+        "石*峰",
+        "党*",
+        "周*威"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zsbm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "210370829000750",
+        "210370829000015",
+        "110511302002068",
+        "241370829000252"
+      ],
+      "min_value": 110511302002068.0,
+      "max_value": 241370829000252.0
+    },
+    {
+      "name": "yszgzsbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2024372103****************0",
+        "2003371103****************X",
+        "2007511105****************0",
+        "2024372413****************0"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "临床",
+        "中医"
+      ],
+      "value_pool": [
+        "临床",
+        "中医"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zyfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "精神卫生专业",
+        "医学影像和放射治疗专业",
+        "中医专业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zydd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东济宁市嘉祥县",
+        "山东省"
+      ],
+      "value_pool": [
+        "山东济宁市嘉祥县",
+        "山东省"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zyzyjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥民康医院",
+        "嘉祥县孟姑集镇卫生院",
+        "嘉祥陆庄医院",
+        "嘉祥耳鼻喉医院"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县行政审批服务局"
+      ],
+      "value_pool": [
+        "嘉祥县行政审批服务局"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

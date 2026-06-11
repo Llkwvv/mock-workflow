@@ -1,0 +1,132 @@
+{
+  "file_name": "主要畜牧业生产情况_年度资料_202507242144.xlsx",
+  "table_name": "主要畜牧业生产情况_年度资料_202507242144",
+  "row_count": 21,
+  "columns": [
+    "sl",
+    "nd",
+    "xx",
+    "dx",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "sl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "42705",
+        "4851",
+        "98610",
+        "7904",
+        "5198",
+        "2262",
+        "2935",
+        "2996",
+        "634",
+        "11445",
+        "42605",
+        "13989",
+        "28615",
+        "71857",
+        "1041",
+        "1557933",
+        "421703",
+        "1136229",
+        "2359373",
+        "3174",
+        "20181"
+      ],
+      "min_value": 634.0,
+      "max_value": 2359373.0
+    },
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023"
+      ],
+      "value_pool": [
+        "2023"
+      ],
+      "min_value": 2023.0,
+      "max_value": 2023.0
+    },
+    {
+      "name": "xx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "存栏",
+        "能繁母猪",
+        "出栏",
+        "肉产量",
+        "其中：肉牛",
+        "其中：奶牛",
+        "牛奶产量",
+        "其中：山羊",
+        "其中：绵羊",
+        "其中：肉禽",
+        "其中：蛋禽",
+        "禽肉产量",
+        "禽蛋"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "生猪",
+        "牛",
+        "羊",
+        "禽"
+      ],
+      "value_pool": [
+        "生猪",
+        "牛",
+        "羊",
+        "禽"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "头",
+        "吨",
+        "只"
+      ],
+      "value_pool": [
+        "头",
+        "吨",
+        "只"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

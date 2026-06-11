@@ -1,0 +1,277 @@
+{
+  "file_name": "鱼台县教体局-全县教育领域寄宿生生活补助信息202512171658.xlsx",
+  "table_name": "鱼台县教体局-全县教育领域寄宿生生活补助信息202512171658",
+  "row_count": 12355,
+  "columns": [
+    "ssxq",
+    "ffdw",
+    "jssshbz",
+    "jtxxmc",
+    "bzdxxm",
+    "sfzh",
+    "shfbzt",
+    "btjey",
+    "ffsj",
+    "lrsj",
+    "gxsj",
+    "cjsj"
+  ],
+  "fields": [
+    {
+      "name": "ssxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ffdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "教体局"
+      ],
+      "value_pool": [
+        "教体局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jssshbz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "寄宿生生活补助"
+      ],
+      "value_pool": [
+        "寄宿生生活补助"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtxxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县2021年春季（1月份-6月份）义务教育寄宿生生活补助",
+        "2023年春季寄宿生生活补助"
+      ],
+      "value_pool": [
+        "鱼台县2021年春季（1月份-6月份）义务教育寄宿生生活补助",
+        "2023年春季寄宿生生活补助"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzdxxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "谭*",
+        "王*",
+        "刘*",
+        "李*",
+        "张*",
+        "宋*",
+        "魏*",
+        "杜*",
+        "段*",
+        "高*",
+        "毛*",
+        "冷*",
+        "刁*",
+        "谢*",
+        "宁*",
+        "徐*",
+        "田*",
+        "马*",
+        "翟*",
+        "郭*",
+        "黄*",
+        "宗*",
+        "尹*",
+        "林*",
+        "冀*",
+        "甄*",
+        "董*",
+        "古*",
+        "朱*",
+        "程*",
+        "崔*",
+        "孙*",
+        "袁*",
+        "房*",
+        "胡*",
+        "别*",
+        "樊*",
+        "戚*",
+        "盛*",
+        "任*",
+        "陈*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "3708272007********",
+        "3708272006********",
+        "6104252005********",
+        "3708272005********",
+        "3708272008********",
+        "3708262006********",
+        "3203212008********",
+        "3708272004********",
+        "5222252005********",
+        "3708272003********"
+      ],
+      "value_pool": [
+        "3708272007********",
+        "3708272006********",
+        "6104252005********",
+        "3708272005********",
+        "3708272008********",
+        "3708262006********",
+        "3203212008********",
+        "3708272004********",
+        "5222252005********",
+        "3708272003********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shfbzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "已发布",
+        "待审核"
+      ],
+      "value_pool": [
+        "已发布",
+        "待审核"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "btjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "625"
+      ],
+      "value_pool": [
+        "625"
+      ],
+      "min_value": 500.0,
+      "max_value": 625.0
+    },
+    {
+      "name": "ffsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021-05-26",
+        "2023-05-26"
+      ],
+      "value_pool": [
+        "2021-05-26",
+        "2023-05-26"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lrsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021-06-21 17:38:24",
+        "2023-06-07 16:40:06"
+      ],
+      "value_pool": [
+        "2021-06-21 17:38:24",
+        "2023-06-07 16:40:06"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-10-25 10:27:11.0"
+      ],
+      "value_pool": [
+        "2024-10-25 10:27:11.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-05-22 22:55:30.0"
+      ],
+      "value_pool": [
+        "2024-05-22 22:55:30.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

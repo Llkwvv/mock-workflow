@@ -1,0 +1,108 @@
+{
+  "file_name": "家用电子产品修理个体户信息_0.csv",
+  "table_name": "家用电子产品修理个体户信息_0",
+  "row_count": 27,
+  "columns": [
+    "tyshxydm",
+    "hyml",
+    "qymc"
+  ],
+  "fields": [
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "92370830MA3DN30D4A",
+        "92370830MA3DN4T21G",
+        "92370830MA3F2MU83P",
+        "92370830MA3F9T8G6P",
+        "92370830MA3JW6EE4U",
+        "92370830MA3JWBFJ5W",
+        "92370830MA3JWBPK7H",
+        "92370830MA3JXYPW3F",
+        "92370830MA3K09X99T",
+        "92370830MA3K0D6Q7E",
+        "92370830MA3K3L8A75",
+        "92370830MA3K40K26F",
+        "92370830MA3K4AX69X",
+        "92370830MA3MAE89X8",
+        "92370830MA3NELMY5A",
+        "92370830MA3NRL0G96",
+        "92370830MA3P1Y2G7C",
+        "92370830MA3PDDED7F",
+        "92370830MA3PGLJK4W",
+        "92370830MA3PL16HXR",
+        "92370830MA3PMJW43B",
+        "92370830MA3QJPPL9H",
+        "92370830MA3QNM5N15",
+        "92370830MA3QQF5C9P",
+        "92370830MA3R4BAU8B",
+        "92370830MA3RRM7Y75",
+        "92370830MA3TD25K05"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyml",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "居民服务、修理和其他服务业-O"
+      ],
+      "value_pool": [
+        "居民服务、修理和其他服务业-O"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县捷诚家电维修部",
+        "汶上县德贤电脑维修部",
+        "汶上县远明蓄电池维修部",
+        "汶上县三才商贸中心",
+        "汶上县德生家电服务部",
+        "汶上县来笑家电维修服务中心",
+        "汶上县虹桥家电制冷维修服务中心",
+        "汶上县承来家电经销商行",
+        "汶上县鑫民车饰美容中心",
+        "汶上县冰源制冷配件部",
+        "汶上县同顺家电维修部",
+        "汶上县家乐制冷维修部",
+        "汶上县迅捷制冷设备维修部",
+        "汶上县方万家电维修服务部",
+        "汶上县李家钟表维修店",
+        "汶上县技嘉电脑维修中心",
+        "汶上县瑞哲家电维修服务中心",
+        "汶上县通驰电器服务中心",
+        "汶上县丁宁家电维修中心",
+        "汶上县橙歌手机维修店",
+        "汶上县志昂制冷维修服务店",
+        "汶上县振鑫家电维修中心",
+        "汶上县路雨家电维修服务中心",
+        "汶上县宋培成家电维修铺",
+        "汶上县维清家电维修店",
+        "汶上县玖玖电子设备经营店",
+        "汶上县惠久劳务信息咨询服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

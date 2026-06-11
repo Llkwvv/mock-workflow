@@ -1,0 +1,123 @@
+{
+  "file_name": "货运经营者没有采取必要措施防止货物脱落_扬撒等信息202506271748.xlsx",
+  "table_name": "货运经营者没有采取必要措施防止货物脱落_扬撒等信息202506271748",
+  "row_count": 26,
+  "columns": [
+    "cfyj",
+    "cfjdnr",
+    "cflx",
+    "wfxwmc",
+    "xzcfxdrmc"
+  ],
+  "fields": [
+    {
+      "name": "cfyj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "《道路货物运输及站场管理规定》第六十一条第（二）项,《中华人民共和国道路运输条例》第六十九条第（五）项",
+        "《中华人民共和国道路运输条例》第六十八条第二款"
+      ],
+      "value_pool": [
+        "《道路货物运输及站场管理规定》第六十一条第（二）项,《中华人民共和国道路运输条例》第六十九条第（五）项",
+        "《中华人民共和国道路运输条例》第六十八条第二款"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cfjdnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "罚款贰仟元整",
+        "罚款壹仟元整"
+      ],
+      "value_pool": [
+        "罚款贰仟元整",
+        "罚款壹仟元整"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cflx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "罚款"
+      ],
+      "value_pool": [
+        "罚款"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wfxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "货运经营者没有采取必要措施防止货物脱落、扬撒等",
+        "道路货运经营者没有采取必要措施防止货物脱落扬撒"
+      ],
+      "value_pool": [
+        "货运经营者没有采取必要措施防止货物脱落、扬撒等",
+        "道路货运经营者没有采取必要措施防止货物脱落扬撒"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzcfxdrmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "安阳安广现代物流有限公司",
+        "安阳市卓越运输有限公司",
+        "北京福通顺达物流有限公司",
+        "沧县锦昊汽车运输有限公司",
+        "沧州市启航货物运输有限公司",
+        "成安县腾驰运输队",
+        "茌平县义鑫物流运输有限公司",
+        "赤峰市广阔物流有限公司",
+        "单县万达运输有限公司",
+        "德州驰翔汽车服务有限公司",
+        "定陶县冉通运输有限公司",
+        "东阿汇丰物流服务有限公司",
+        "东阿县浩然物流有限公司",
+        "东平恒昌汽车运输有限公司",
+        "东平全盛汽车运输有限公司",
+        "东平瑞东汽贸有限公司",
+        "东平顺泽运输有限公司",
+        "东平县国通物流有限公司",
+        "东平县航润路桥工程有限公司",
+        "东平县鑫通汽车销售服务有限公司",
+        "东平运丰运输有限公司",
+        "肥城市广通物流有限公司",
+        "高青力通运输有限公司",
+        "邯郸市肥乡区浩龙运输有限公司",
+        "梁山鼎航运输有限公司",
+        "济宁千帆汽贸有限责任公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

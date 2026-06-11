@@ -1,0 +1,140 @@
+{
+  "file_name": "鱼台县民政局_红白理事会成员信息202506271733.xlsx",
+  "table_name": "鱼台县民政局_红白理事会成员信息202506271733",
+  "row_count": 36,
+  "columns": [
+    "xsq",
+    "zw",
+    "zj",
+    "md",
+    "jb"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台",
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "会长",
+        "副会长",
+        "理事员",
+        "会  长"
+      ],
+      "value_pool": [
+        "会长",
+        "副会长",
+        "理事员",
+        "会  长"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "滨湖街道",
+        "谷亭街道",
+        "老砦镇",
+        "李阁镇",
+        "罗屯镇",
+        "清河镇",
+        "唐马镇",
+        "王鲁镇",
+        "鱼城镇",
+        "张黄镇",
+        "王庙镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "md",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "张乃祥",
+        "贾海防",
+        "常振 刘涛 李建福 董建军 刘劲松",
+        "张彬",
+        "甄恩佳",
+        "刘雪萍  郭飞飞",
+        "夏旭",
+        "朱恒立",
+        "李炳辰、田芳芳、徐英",
+        "冯学民",
+        "李新玲",
+        "李福春、王强、王成成、吕玉真",
+        "赵廷玉",
+        "程中民",
+        "武建军、屈士俊、贾玉芹",
+        "许留金",
+        "杜坤鹏",
+        "朱方圆、闫丽、马培华",
+        "陶敏",
+        "刘顺明",
+        "李新雷、朱圣勇、王奇、杨连军",
+        "李红伟",
+        "丁粮峰",
+        "赵玄、张华猛、刘保生、任小宝、樊维鹪、高芬",
+        "张洪波",
+        "刘黄龙",
+        "王田田、贾辉、邓金娟",
+        "李国兵",
+        "盛保文、李光举",
+        "李开勤、盛春东、盛春合、张忠亮",
+        "肖爱丽",
+        "林长立",
+        "潘军计、闫文洁、李停停"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "镇级"
+      ],
+      "value_pool": [
+        "镇级"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

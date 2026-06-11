@@ -1,0 +1,163 @@
+{
+  "file_name": "北湖限高限宽设施表202507242127.xlsx",
+  "table_name": "北湖限高限宽设施表202507242127",
+  "row_count": 50,
+  "columns": [
+    "spdw",
+    "lxmc",
+    "xzdj",
+    "jsdj",
+    "lxbh"
+  ],
+  "fields": [
+    {
+      "name": "spdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "五方部门联合审批",
+        "石桥镇政府"
+      ],
+      "value_pool": [
+        "五方部门联合审批",
+        "石桥镇政府"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "倪庙-东石佛大桥",
+        "石桥镇秦庄-三号井",
+        "秦庄路",
+        "三号井公路（矿外路与运煤公路交叉口南）",
+        "三号井-新闸",
+        "石桥镇秦庄—三号井（三号井老加油站北）",
+        "三号井-新闸（运煤路加油站南）",
+        "三号井-新闸（运煤路桥洞南）",
+        "北王小学—河堤",
+        "陆桥村东到西浦路",
+        "接庄镇南贯集—三号井路（韩店村北入口）",
+        "齐营村到泗河堤",
+        "郝楼村东到西浦路",
+        "孙庄村到泗河堤",
+        "聂庄村东到西浦路",
+        "靳庄村东到至西浦路",
+        "栗河涯村东到西浦路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "村道",
+        "乡道"
+      ],
+      "value_pool": [
+        "村道",
+        "乡道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jsdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "二级公路",
+        "四级公路",
+        "三级公路"
+      ],
+      "value_pool": [
+        "二级公路",
+        "四级公路",
+        "三级公路"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "C192370811",
+        "C192370812",
+        "C192370813",
+        "C192370814",
+        "C192370815",
+        "C192370816",
+        "C192370817",
+        "C192370818",
+        "C192370819",
+        "C192370820",
+        "C192370821",
+        "C192370822",
+        "C192370823",
+        "C192370824",
+        "C192370825",
+        "C192370826",
+        "C192370827",
+        "C192370828",
+        "C192370829",
+        "C192370830",
+        "C192370831",
+        "C192370832",
+        "C192370833",
+        "C192370834",
+        "C192370835",
+        "C192370836",
+        "C192370837",
+        "C192370838",
+        "C192370839",
+        "C192370840",
+        "C192370841",
+        "C192370842",
+        "C192370843",
+        "C192370844",
+        "C192370845",
+        "C192370846",
+        "C192370847",
+        "C192370848",
+        "C192370849",
+        "C192370850",
+        "C192370851",
+        "C192370852",
+        "C192370853",
+        "C192370854",
+        "C192370855",
+        "C192370856",
+        "C192370857",
+        "C192370858",
+        "C192370859",
+        "C192370860"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

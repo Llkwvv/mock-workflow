@@ -1,0 +1,207 @@
+{
+  "file_name": "现有监控平台调查信息_0.csv",
+  "table_name": "现有监控平台调查信息_0",
+  "row_count": 24,
+  "columns": [
+    "col",
+    "col1",
+    "col2",
+    "col3",
+    "col4",
+    "dvrnvr",
+    "col5",
+    "col6"
+  ],
+  "fields": [
+    {
+      "name": "col",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "н╒иҐоь╧Зл╘╦шнЯспоч╧╚к╬",
+        "н╒иҐоь╨╚в╞в╟пІткйД╧╚к╬",
+        "н╒иҐоьЇЕн╟╦шнЯспоч╧╚к╬",
+        "н╒иҐтк╨с╦шнЯспоч╧╚к╬",
+        "иҐІ╚©ётЄ╦шнЯспоч╧╚к╬",
+        "н╒иҐоь╡Щб║╦шнЯспоч╧╚к╬",
+        "н╒иҐоьЄчв╞ц╨©СспочтПхн╧╚к╬",
+        "н╒иҐ╩ІЁгкну╒╦шнЯспоч╧╚к╬",
+        "н╒иҐоькЁЇ╒╦шнЯспоч╧╚к╬",
+        "н╒иҐ╩ЫтЄ╦шнЯспоч╧╚к╬",
+        "н╒иҐпЛ╪рлц╦шнЯспоч╧╚к╬",
+        "н╒иҐоьҐПиҐ╦шнЯспоч╧╚к╬",
+        "н╒иҐоьа╙Жн╦шнЯспоч╧╚к╬",
+        "иҐІ╚доЇҐ╦шнЯспоч╧╚к╬",
+        "н╒иҐй╒ЄО╦шнЯспоч╧╚к╬",
+        "н╒иҐбЁкЁ╦шнЯспоч╧╚к╬",
+        "н╒иҐоьсюй╒цЁрвспоч╧╚к╬",
+        "н╒иҐ╦ёфТ╦шнЯспоч╧╚к╬",
+        "н╒иҐнВ╩Цвс╦шнЯспоч╧╚к╬",
+        "н╒иҐ╡эв╞╦шнЯспоч╧╚к╬",
+        "н╒иҐ╩ЦвсІ╚╦шнЯспоч╧╚к╬",
+        "н╒иҐоьЄСтк╨с╦шнЯспоч╧╚к╬",
+        "н╒иҐчхЄ╨╦шнЯспоч╧╚к╬",
+        "н╒иҐ╦ІЄЕ╦шнЯспоч╧╚к╬"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col1",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "╨ё©╣мЧйс"
+      ],
+      "value_pool": [
+        "╨ё©╣мЧйс"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col2",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "╨╚в╞уР",
+        "уяяТҐж╣ю",
+        "╦ІЄЕҐж╣ю",
+        "╩ІЁгуР",
+        "аТв╞уР",
+        "бМфбуР",
+        "бЁгеуР",
+        "утцМуР",
+        "одуРҐж╣ю"
+      ],
+      "value_pool": [
+        "╨╚в╞уР",
+        "уяяТҐж╣ю",
+        "╦ІЄЕҐж╣ю",
+        "╩ІЁгуР",
+        "аТв╞уР",
+        "бМфбуР",
+        "бЁгеуР",
+        "утцМуР",
+        "одуРҐж╣ю"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col3",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "ЇЯ"
+      ],
+      "value_pool": [
+        "ЇЯ"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col4",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "4"
+      ],
+      "value_pool": [
+        "4"
+      ],
+      "min_value": 4.0,
+      "max_value": 4.0
+    },
+    {
+      "name": "dvrnvr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "╪Ю©ьфҐл╗"
+      ],
+      "value_pool": [
+        "╪Ю©ьфҐл╗"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col5",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "╧Зл╘╦шнЯ",
+        "╨╚в╞╦шнЯ",
+        "ЇЕн╟╦шнЯ",
+        "тк╨с╦шнЯ",
+        "©ётЄ╦шнЯ",
+        "╡Щб║╦шнЯ",
+        "Єчв╞ц╨©С",
+        "кну╒╦шнЯ",
+        "кЁЇ╒╦шнЯ",
+        "╩ЫтЄ╦шнЯ",
+        "пЛ╪рлц╦шнЯ",
+        "ҐПиҐ╦шнЯ",
+        "а╙Жн╦шнЯ",
+        "доЇҐ╦шнЯ",
+        "й╒ЄО╦шнЯ",
+        "бЁкЁ╦шнЯ",
+        "сюй╒цЁрв",
+        "╦ёфТ╦шнЯ",
+        "нВ╩Цвс╦шнЯ",
+        "╡эв╞╦шнЯ",
+        "╩ЦвсІ╚╦шнЯ",
+        "ЄСтк╨с╦шнЯ",
+        "аТв╞юо╦ш",
+        "╦ІЄЕ╦шнЯ"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "col6",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "╣Гпе",
+        "а╙м╗",
+        "рфІ╞в╗оъ"
+      ],
+      "value_pool": [
+        "╣Гпе",
+        "а╙м╗",
+        "рфІ╞в╗оъ"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

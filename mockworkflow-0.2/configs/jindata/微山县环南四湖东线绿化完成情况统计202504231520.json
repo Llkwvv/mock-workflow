@@ -1,0 +1,176 @@
+{
+  "file_name": "微山县环南四湖东线绿化完成情况统计202504231520.xlsx",
+  "table_name": "微山县环南四湖东线绿化完成情况统计202504231520",
+  "row_count": 55,
+  "columns": [
+    "xz",
+    "sz",
+    "qy",
+    "lz",
+    "mj",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "微山岛镇",
+        "韩庄镇",
+        "昭阳街道",
+        "夏镇街道",
+        "傅村街道",
+        "欢城镇",
+        "鲁桥镇",
+        "马坡镇"
+      ],
+      "value_pool": [
+        "微山岛镇",
+        "韩庄镇",
+        "昭阳街道",
+        "夏镇街道",
+        "傅村街道",
+        "欢城镇",
+        "鲁桥镇",
+        "马坡镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "樱花木槿连翘冬青",
+        "红枫、白皮松、木槿",
+        "红枫白皮松木槿连翘",
+        "海棠白皮松连翘",
+        "樱花木槿黄杨",
+        "红枫木槿冬青",
+        "流苏紫薇连翘",
+        "玉玲花木槿连翘",
+        "黄金槐木槿紫穗槐",
+        "大叶女贞海棠连翘",
+        "海棠紫薇连翘",
+        "樱花木槿连翘",
+        "白蜡木槿",
+        "樱花紫穗槐",
+        "柳樱花石楠",
+        "柳石楠",
+        "女贞石楠",
+        "柳",
+        "女贞",
+        "海棠",
+        "白蜡",
+        "柳石楠连翘扶芳藤",
+        "国槐石楠连翘锦带",
+        "国槐石楠连翘"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "南四湖堤",
+        "泗河堤",
+        "泗河"
+      ],
+      "value_pool": [
+        "南四湖堤",
+        "泗河堤",
+        "泗河"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "护岸林"
+      ],
+      "value_pool": [
+        "护岸林"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "5",
+        "15",
+        "4",
+        "14",
+        "7",
+        "27",
+        "6",
+        "45",
+        "42",
+        "2",
+        "3",
+        "16",
+        "8",
+        "31",
+        "30",
+        "34",
+        "11",
+        "10",
+        "9",
+        "24",
+        "20",
+        "21",
+        "22",
+        "18",
+        "105",
+        "95",
+        "52",
+        "53"
+      ],
+      "min_value": 1.0,
+      "max_value": 105.0
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "亩"
+      ],
+      "value_pool": [
+        "亩"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

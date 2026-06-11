@@ -1,0 +1,278 @@
+{
+  "file_name": "高新区居民养老保险终保丧葬补助金及个人账户发放明细202604081724.xlsx",
+  "table_name": "高新区居民养老保险终保丧葬补助金及个人账户发放明细202604081724",
+  "row_count": 11,
+  "columns": [
+    "fhzje",
+    "fhyhmc",
+    "szf",
+    "jtsqmc",
+    "fhyhzh",
+    "jcrxm",
+    "姓名",
+    "bgyy",
+    "shbzhm",
+    "jcrsfzhm",
+    "grzhylj",
+    "bzdgrzhylj"
+  ],
+  "fields": [
+    {
+      "name": "fhzje",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "752.48",
+        "600.0",
+        "1439.18",
+        "2277.15",
+        "2589.99",
+        "4364.79",
+        "6876.28",
+        "4480.45",
+        "4858.13",
+        "6845.31",
+        "11208.18"
+      ],
+      "min_value": 600.0,
+      "max_value": 11208.18
+    },
+    {
+      "name": "fhyhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "农行社保卡",
+        "建行社保卡",
+        "农信社保卡"
+      ],
+      "value_pool": [
+        "农行社保卡",
+        "建行社保卡",
+        "农信社保卡"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "600"
+      ],
+      "value_pool": [
+        "600"
+      ],
+      "min_value": 600.0,
+      "max_value": 600.0
+    },
+    {
+      "name": "jtsqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "接庄街道东贾村",
+        "接庄街道西贾村",
+        "接庄街道前栗村",
+        "接庄街道后栗村"
+      ],
+      "value_pool": [
+        "接庄街道东贾村",
+        "接庄街道西贾村",
+        "接庄街道前栗村",
+        "接庄街道后栗村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fhyhzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "622823**********564",
+        "622823**********665",
+        "622823**********161",
+        "621700**********441",
+        "621700**********108",
+        "622320********55",
+        "621700**********397",
+        "622823**********567",
+        "622823**********063",
+        "622823**********964",
+        "622823**********361"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈**",
+        "寇**",
+        "于**",
+        "贾**",
+        "马**",
+        "白**",
+        "徐**",
+        "孙**",
+        "张**",
+        "姜**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈**",
+        "何**",
+        "于**",
+        "寇**",
+        "王**",
+        "白**",
+        "文**",
+        "张**",
+        "姜**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bgyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "领待人员死亡"
+      ],
+      "value_pool": [
+        "领待人员死亡"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shbzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********11",
+        "370811**********2X",
+        "370811**********12",
+        "370811**********31",
+        "370811**********47",
+        "370811**********66",
+        "370811**********1X",
+        "370811**********24",
+        "370811**********37"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcrsfzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********16",
+        "370811**********38",
+        "370811**********10",
+        "370811**********33",
+        "370811**********19",
+        "370826**********68",
+        "370811**********13",
+        "370811**********37",
+        "370811**********22",
+        "370882**********43",
+        "370811**********17"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "grzhylj",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.0",
+        "348.42",
+        "1792.81"
+      ],
+      "value_pool": [
+        "0.0",
+        "348.42",
+        "1792.81"
+      ],
+      "min_value": 0.0,
+      "max_value": 1792.81
+    },
+    {
+      "name": "bzdgrzhylj",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "152.48",
+        "0.0",
+        "839.18",
+        "1677.15",
+        "1989.99",
+        "3764.79",
+        "5883.95",
+        "3880.45",
+        "4258.13",
+        "6245.31",
+        "8796.74"
+      ],
+      "min_value": 0.0,
+      "max_value": 8796.74
+    }
+  ]
+}

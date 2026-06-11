@@ -1,0 +1,155 @@
+{
+  "file_name": "高素质农民生产技能参训信息202507161338.xlsx",
+  "table_name": "高素质农民生产技能参训信息202507161338",
+  "row_count": 56,
+  "columns": [
+    "ry",
+    "pxdd",
+    "xb",
+    "kksj",
+    "zj"
+  ],
+  "fields": [
+    {
+      "name": "ry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "孔维涛",
+        "李廷栋",
+        "陈绪池",
+        "王永申",
+        "李念波",
+        "任宪良",
+        "高玉乐",
+        "赵  晗",
+        "沈利民",
+        "吴秀英",
+        "李祥法",
+        "贺树文",
+        "康传红",
+        "毕研珠",
+        "信恒俊",
+        "王德峰",
+        "王玉芝",
+        "尹承海",
+        "刘际申",
+        "李梦廷",
+        "李敬民",
+        "杨顺利",
+        "张汉顺",
+        "张成全",
+        "徐万齐",
+        "徐夫元",
+        "徐东方",
+        "徐品明",
+        "曹春连",
+        "解秀花",
+        "解振荣",
+        "解培伟",
+        "王正建",
+        "王振",
+        "王增良",
+        "刘欢",
+        "孙庆房",
+        "杜立兵",
+        "杜纪昌",
+        "李国五",
+        "张川",
+        "张从贞",
+        "张延民",
+        "侯广启",
+        "唐玉峰",
+        "景运红",
+        "颜双喜",
+        "颜秉锐",
+        "马爱华",
+        "王召峰",
+        "王昭群",
+        "刘本军",
+        "刘明志",
+        "何敬锋",
+        "贾维俭",
+        "盛存良"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县大粮农业科技有限公司"
+      ],
+      "value_pool": [
+        "汶上县大粮农业科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kksj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "5月26日"
+      ],
+      "value_pool": [
+        "5月26日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "白石镇",
+        "军屯乡",
+        "苑庄镇",
+        "寅寺镇"
+      ],
+      "value_pool": [
+        "白石镇",
+        "军屯乡",
+        "苑庄镇",
+        "寅寺镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

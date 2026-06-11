@@ -1,0 +1,498 @@
+{
+  "file_name": "高新区省际包车客运信息202506271739.xlsx",
+  "table_name": "高新区省际包车客运信息202506271739",
+  "row_count": 44,
+  "columns": [
+    "kcjx",
+    "cllx",
+    "ysz",
+    "cph",
+    "gxqy",
+    "clzl",
+    "clzt",
+    "yhxkz",
+    "yhdz",
+    "gjyxqz",
+    "zcrq",
+    "yhjjlx",
+    "yhmc",
+    "cpys",
+    "djpdyxqz",
+    "jyfw",
+    "nsyxqz",
+    "yszyxq",
+    "yhdh",
+    "yynxz"
+  ],
+  "fields": [
+    {
+      "name": "kcjx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "大型高一级",
+        "特大型高一级",
+        "中型中级",
+        "中型高一级",
+        "大型普通级"
+      ],
+      "value_pool": [
+        "大型高一级",
+        "特大型高一级",
+        "中型中级",
+        "中型高一级",
+        "大型普通级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cllx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "大型普通客车"
+      ],
+      "value_pool": [
+        "大型普通客车"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ysz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "宁370800804161",
+        "宁370800804162",
+        "宁370800804163",
+        "宁370800804164",
+        "宁370800804165",
+        "宁370800804353",
+        "宁370800804582",
+        "宁370800804583",
+        "宁370800804584",
+        "宁370800804585",
+        "宁370800804586",
+        "宁370800804589",
+        "宁370800804590",
+        "宁370800804591",
+        "宁370800804592",
+        "宁370800804761",
+        "宁370800804770",
+        "宁370800804785",
+        "宁370800804786",
+        "宁370800804787",
+        "宁370800804335",
+        "宁370800804549",
+        "宁370800804982",
+        "宁370800803648",
+        "宁370800807530",
+        "宁370800807436",
+        "宁370800805709"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cph",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁H53L95",
+        "鲁H17R29",
+        "鲁H99R96",
+        "鲁H37Q75",
+        "鲁H57Q53",
+        "鲁H17U07",
+        "鲁H71N03",
+        "鲁H17P23",
+        "鲁H87L28",
+        "鲁H51R29",
+        "鲁H61L57",
+        "鲁H35M23",
+        "鲁H72U98",
+        "鲁H05U62",
+        "鲁H02P36",
+        "鲁H25P13",
+        "鲁H11Q37",
+        "鲁H37R20",
+        "鲁H70Q53",
+        "鲁H35Z55",
+        "鲁H87L29",
+        "鲁H17U28",
+        "鲁H51R52",
+        "鲁H23U65",
+        "鲁H55R18",
+        "鲁HG0208",
+        "鲁HC1898",
+        "鲁H230J9"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市高新区"
+      ],
+      "value_pool": [
+        "济宁市高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "包车客运车辆"
+      ],
+      "value_pool": [
+        "包车客运车辆"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "clzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "营运"
+      ],
+      "value_pool": [
+        "营运"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhxkz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "宁370800803049",
+        "宁370800804982",
+        "宁370800803648"
+      ],
+      "value_pool": [
+        "宁370800803049",
+        "宁370800804982",
+        "宁370800803648"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新区王因镇张家村"
+      ],
+      "value_pool": [
+        "济宁高新区王因镇张家村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gjyxqz",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2020-09-27",
+        "2020-12-03",
+        "2021-03-06",
+        "2021-03-13",
+        "2021-03-31",
+        "2021-06-05",
+        "2021-06-23",
+        "2021-07-14",
+        "2023-06-04",
+        "2023-06-22",
+        "2024-12-31",
+        "2026-03-12",
+        "2026-08-23",
+        "2027-01-14",
+        "2026-11-22",
+        "2027-08-28",
+        "2027-05-20",
+        "2027-07-31",
+        "2027-02-25",
+        "2025-06-23",
+        "2026-07-24"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zcrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2019-09-26",
+        "2019-12-03",
+        "2020-01-21",
+        "2020-03-12",
+        "2020-03-27",
+        "2020-06-05",
+        "2020-06-23",
+        "2020-07-13",
+        "2021-12-06",
+        "2022-02-20",
+        "2024-08-26",
+        "2021-08-03",
+        "2022-05-30"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhjjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "有限责任（公司）"
+      ],
+      "value_pool": [
+        "有限责任（公司）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁泉润客运服务有限公司"
+      ],
+      "value_pool": [
+        "济宁泉润客运服务有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cpys",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "黄色"
+      ],
+      "value_pool": [
+        "黄色"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "djpdyxqz",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2021-09-08",
+        "2021-11-25",
+        "2021-01-21",
+        "2021-03-11",
+        "2021-03-26",
+        "2021-06-04",
+        "2021-06-22",
+        "2021-07-12",
+        "2023-06-04",
+        "2023-06-22",
+        "2024-12-31",
+        "2026-03-31",
+        "2025-08-31",
+        "2026-01-31",
+        "2025-11-30",
+        "2025-05-31",
+        "2025-07-31",
+        "2026-02-28",
+        "2025-04-30"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jyfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "省际包车客运"
+      ],
+      "value_pool": [
+        "省际包车客运"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nsyxqz",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2021-09-08",
+        "2021-11-25",
+        "2021-01-20",
+        "2021-03-11",
+        "2021-03-26",
+        "2021-06-04",
+        "2021-06-22",
+        "2021-07-12",
+        "2023-06-04",
+        "2023-06-22",
+        "2024-12-31",
+        "2025-09-30",
+        "2025-08-31",
+        "2025-07-31",
+        "2025-11-30",
+        "2026-01-31",
+        "2025-05-31"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yszyxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2019-10-14至2022-10-13",
+        "2019-12-06至2022-12-05",
+        "2020-01-21至2023-01-20",
+        "2020-03-12至2023-03-11",
+        "2020-03-27至2023-03-26",
+        "2020-06-12至2023-06-11",
+        "2020-07-01至2023-06-30",
+        "2020-07-22至2023-07-21",
+        "2020-12-06至2023-12-05",
+        "2021-01-21至2024-01-20",
+        "2021-12-06至2024-12-05",
+        "2022-02-20至2025-02-19",
+        "2023-03-13至2026-03-12",
+        "2023-08-24至2026-03-12",
+        "2024-01-15至2026-03-12",
+        "2023-11-23至2026-03-12",
+        "2024-08-29至2026-03-12",
+        "2024-05-21至2026-03-12",
+        "2024-08-01至2026-03-12",
+        "2024-02-26至2026-03-12",
+        "2022-06-29至2026-03-12",
+        "2023-07-25至2026-03-12"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yhdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "1866*****33"
+      ],
+      "value_pool": [
+        "1866*****33"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yynxz",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2026-09-25",
+        "2026-12-02",
+        "2027-01-20",
+        "2026-01-20",
+        "2027-03-11",
+        "2027-03-26",
+        "2027-06-04",
+        "2026-06-22",
+        "2027-07-12",
+        "2026-12-05",
+        "2027-02-19",
+        "2031-08-25",
+        "2027-08-02",
+        "2027-05-29"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

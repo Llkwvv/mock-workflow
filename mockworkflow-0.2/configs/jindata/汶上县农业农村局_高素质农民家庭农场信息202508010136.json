@@ -1,0 +1,122 @@
+{
+  "file_name": "汶上县农业农村局_高素质农民家庭农场信息202508010136.xlsx",
+  "table_name": "汶上县农业农村局_高素质农民家庭农场信息202508010136",
+  "row_count": 30,
+  "columns": [
+    "zj",
+    "rylb",
+    "sqfs",
+    "xyxm",
+    "ztmc"
+  ],
+  "fields": [
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "杨店镇",
+        "刘楼镇",
+        "南旺镇",
+        "白石镇",
+        "义桥镇"
+      ],
+      "value_pool": [
+        "杨店镇",
+        "刘楼镇",
+        "南旺镇",
+        "白石镇",
+        "义桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "高素质农民"
+      ],
+      "value_pool": [
+        "高素质农民"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "主管部门推荐"
+      ],
+      "value_pool": [
+        "主管部门推荐"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xyxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "曹**",
+        "陈**",
+        "杜**",
+        "付**",
+        "郭**",
+        "韩**",
+        "贾**",
+        "孔**",
+        "李**",
+        "刘**",
+        "路**",
+        "孟**",
+        "邵**",
+        "宋**",
+        "孙**",
+        "吴**",
+        "武**",
+        "肖**",
+        "徐**",
+        "杨**",
+        "张**",
+        "赵**",
+        "郑**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ztmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "家庭农场"
+      ],
+      "value_pool": [
+        "家庭农场"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

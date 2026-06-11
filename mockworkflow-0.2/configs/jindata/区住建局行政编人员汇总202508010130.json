@@ -1,0 +1,142 @@
+{
+  "file_name": "区住建局行政编人员汇总202508010130.xlsx",
+  "table_name": "区住建局行政编人员汇总202508010130",
+  "row_count": 20,
+  "columns": [
+    "brsf",
+    "mz",
+    "姓名",
+    "xb",
+    "bzxz",
+    "xh"
+  ],
+  "fields": [
+    {
+      "name": "brsf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "公务员",
+        "机关工勤"
+      ],
+      "value_pool": [
+        "公务员",
+        "机关工勤"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "王**",
+        "刘**",
+        "张**",
+        "陈**",
+        "郑**",
+        "郭**",
+        "唐**",
+        "宫**",
+        "孙**",
+        "谢**",
+        "吴**",
+        "杨**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bzxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "行政"
+      ],
+      "value_pool": [
+        "行政"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6",
+        "7",
+        "9",
+        "10",
+        "11",
+        "12",
+        "14",
+        "15",
+        "16",
+        "17",
+        "19",
+        "20",
+        "22",
+        "24",
+        "26",
+        "27"
+      ],
+      "min_value": 1.0,
+      "max_value": 27.0
+    }
+  ]
+}

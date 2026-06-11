@@ -1,0 +1,84 @@
+{
+  "file_name": "微山县退役军人和其他优抚对象困难帮扶统计情况202605261601.xlsx",
+  "table_name": "微山县退役军人和其他优抚对象困难帮扶统计情况202605261601",
+  "row_count": 1,
+  "columns": [
+    "nl",
+    "knbfjjffjewy",
+    "xb",
+    "xzjd",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "84"
+      ],
+      "min_value": 84.0,
+      "max_value": 84.0
+    },
+    {
+      "name": "knbfjjffjewy",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "0.9"
+      ],
+      "min_value": 0.9,
+      "max_value": 0.9
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "夏镇街道办事处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘*"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

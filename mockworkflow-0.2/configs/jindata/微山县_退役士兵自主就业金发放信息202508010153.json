@@ -1,0 +1,165 @@
+{
+  "file_name": "微山县_退役士兵自主就业金发放信息202508010153.xlsx",
+  "table_name": "微山县_退役士兵自主就业金发放信息202508010153",
+  "row_count": 297,
+  "columns": [
+    "xb",
+    "fynx",
+    "mz",
+    "je",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fynx",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "5.0",
+        "2.0",
+        "8.0",
+        "12.0",
+        "9.5",
+        "9.0",
+        "16.0",
+        "1.0",
+        "3.5",
+        "4.0"
+      ],
+      "value_pool": [
+        "5.0",
+        "2.0",
+        "8.0",
+        "12.0",
+        "9.5",
+        "9.0",
+        "16.0",
+        "1.0",
+        "3.5",
+        "4.0"
+      ],
+      "min_value": 1.0,
+      "max_value": 16.0
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "je",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "22500",
+        "9000",
+        "10000",
+        "36000",
+        "54000",
+        "42750",
+        "40500",
+        "72000",
+        "25000",
+        "4500",
+        "15750",
+        "18000"
+      ],
+      "min_value": 4500.0,
+      "max_value": 80000.0
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "朱**",
+        "赵**",
+        "张**",
+        "殷**",
+        "华**",
+        "陈**",
+        "鹿**",
+        "韩**",
+        "蒿**",
+        "雷**",
+        "王**",
+        "高**",
+        "仲**",
+        "蔡**",
+        "卜**",
+        "付**",
+        "刘**",
+        "丁**",
+        "吕**",
+        "李**",
+        "曹**",
+        "种**",
+        "卢**",
+        "董**",
+        "范**",
+        "任**",
+        "国**",
+        "孙**",
+        "满**",
+        "田**",
+        "杜**",
+        "姚**",
+        "宋**",
+        "房**",
+        "於**",
+        "冯**",
+        "郑**",
+        "段**",
+        "盛**",
+        "于**",
+        "谢**",
+        "岳**",
+        "沈**",
+        "侯**",
+        "仇**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

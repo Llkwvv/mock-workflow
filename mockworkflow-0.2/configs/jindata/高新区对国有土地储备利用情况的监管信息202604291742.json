@@ -1,0 +1,322 @@
+{
+  "file_name": "高新区对国有土地储备利用情况的监管信息202604291742.xlsx",
+  "table_name": "高新区对国有土地储备利用情况的监管信息202604291742",
+  "row_count": 38,
+  "columns": [
+    "ssjg",
+    "jcjg",
+    "xzxdrzjbm",
+    "jcsj",
+    "jcxwmc",
+    "jgdx",
+    "jgdxlx",
+    "xzxdrxz",
+    "jcxmmc",
+    "jcxwbh",
+    "jclb",
+    "xzxdrzjlx",
+    "xzxdr"
+  ],
+  "fields": [
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "国土局"
+      ],
+      "value_pool": [
+        "国土局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "12370800*********0",
+        "91370800*********W",
+        "91370800*********2",
+        "91370800*********E",
+        "91370000*********9",
+        "91370800********W",
+        "91370000********9"
+      ],
+      "value_pool": [
+        "12370800*********0",
+        "91370800*********W",
+        "91370800*********2",
+        "91370800*********E",
+        "91370000*********9",
+        "91370800********W",
+        "91370000********9"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2020-03-18",
+        "2020-04-23",
+        "2020-05-21",
+        "2020-06-20",
+        "2020-09-16",
+        "2020-12-31",
+        "2021-02-23",
+        "2021-04-20",
+        "2022-05-24",
+        "2022-05-25",
+        "2022-10-02",
+        "2022-10-03",
+        "2022-10-06",
+        "2022-11-09",
+        "2022-11-15",
+        "2023-04-21",
+        "2023-09-13",
+        "2023-10-25",
+        "2024-04-08",
+        "2024-06-29",
+        "2025-06-23",
+        "2025-04-13"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对国有土地储备利用情况的监管"
+      ],
+      "value_pool": [
+        "对国有土地储备利用情况的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "12370800*********0",
+        "91370800*********W",
+        "91370800*********2",
+        "91370800*********E",
+        "91370000*********9",
+        "91370800********W",
+        "91370000********9"
+      ],
+      "value_pool": [
+        "12370800*********0",
+        "91370800*********W",
+        "91370800*********2",
+        "91370800*********E",
+        "91370000*********9",
+        "91370800********W",
+        "91370000********9"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "非企业",
+        "企业、个体户、农专社",
+        "场地场所"
+      ],
+      "value_pool": [
+        "非企业",
+        "企业、个体户、农专社",
+        "场地场所"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "法人"
+      ],
+      "value_pool": [
+        "法人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "对国有土地储备利用情况的监管"
+      ],
+      "value_pool": [
+        "对国有土地储备利用情况的监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "jgxgj[2020]001",
+        "jgxgj[2020]002",
+        "jgxgj[2020]003",
+        "jgxgj[2020]004",
+        "jgxgj[2020]005",
+        "jgxgj[2020]006",
+        "jgxgj[2020]015",
+        "jgxgj[2021]001",
+        "jgxgj[2021]002",
+        "jgxqj[2021]003",
+        "jgxqj[2021]004",
+        "jgxqj[2022]001",
+        "jgxqj[2022]1001",
+        "jgxqj[2022]1005",
+        "jgxqj[2022]1004",
+        "jgxqj[2022]1003",
+        "gxqj[2022]1015",
+        "gxqj[2022]1014",
+        "gxqj[2022]1013",
+        "jgxqj[2022]1012",
+        "jgxqj[2022]1011",
+        "jgxqj[2022]1010",
+        "jgxqj[2022]1009",
+        "jgxqj[2022]1008",
+        "jgxqj[2022]1007",
+        "jgxqj[2022]1006",
+        "ly110603",
+        "LY110901",
+        "ly110905",
+        "lyk111501",
+        "lyk111502",
+        "gxqzrzy202304211",
+        "gxqzrzy202309131",
+        "gxqzrzy202310251",
+        "gxqzrzy202404082",
+        "gxqzrzy202406291",
+        "gxqzrzy20250623",
+        "gxqzrzy20250413"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdrzjlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "统一社会信用代码"
+      ],
+      "value_pool": [
+        "统一社会信用代码"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新技术产业开发区土地储备中心",
+        "济宁高新城市发展有限公司",
+        "济宁海达仁居置业有限公司",
+        "济宁高新产业发展集团有限公司",
+        "济宁市鲁顺汽车销售服务有限公司",
+        "山东省地矿工程集团有限公司"
+      ],
+      "value_pool": [
+        "济宁高新技术产业开发区土地储备中心",
+        "济宁高新城市发展有限公司",
+        "济宁海达仁居置业有限公司",
+        "济宁高新产业发展集团有限公司",
+        "济宁市鲁顺汽车销售服务有限公司",
+        "山东省地矿工程集团有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

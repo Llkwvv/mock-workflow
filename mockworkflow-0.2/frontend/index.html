@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mockworkflow - 样本驱动的 Mock 数据生成</title>
+    <title>Mockworkflow</title>
     <link rel="stylesheet" href="static/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -14,10 +14,50 @@
 <body style="background:var(--bg-gradient);color:var(--text-primary);font-family:system-ui,-apple-system,sans-serif;min-height:100vh;overflow-x:hidden;cursor:none !important;">
 <div id="particles-bg"></div>
 
+<!-- Login Overlay -->
+<div id="login-overlay" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:9999;justify-content:center;align-items:center;flex-direction:column;">
+    <div id="login-form" style="background:var(--glass-bg);backdrop-filter:blur(20px);padding:40px 50px;border-radius:16px;border:1px solid var(--glass-border);text-align:center;max-width:360px;width:90%;box-shadow:0 8px 32px rgba(0,0,0,0.4);">
+        <div style="font-size:2.5rem;margin-bottom:12px;">🔒</div>
+        <h2 style="margin-bottom:8px;">需要登录</h2>
+        <p style="opacity:0.7;margin-bottom:20px;font-size:14px;">请输入用户名和密码以继续使用</p>
+        <input type="text" id="login-username" placeholder="用户名" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:12px;outline:none;box-sizing:border-box;" value="admin">
+        <input type="password" id="login-password" placeholder="密码" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:16px;outline:none;box-sizing:border-box;">
+        <button onclick="doLogin()" style="width:100%;padding:12px;border-radius:8px;border:none;background:linear-gradient(135deg,#06b6d4,#3b82f6);color:#fff;font-size:15px;font-weight:600;cursor:pointer;">登 录</button>
+        <div style="margin-top:16px;text-align:center;font-size:14px;">
+            <a href="#" onclick="showRegisterForm()" style="color:#3b82f6;text-decoration:none;">还没有账号？立即注册</a>
+        </div>
+        <div id="login-error" style="color:#ef4444;margin-top:12px;font-size:13px;display:none;"></div>
+    </div>
+
+    <!-- Register Form (initially hidden) -->
+    <div id="register-form" style="display:none;background:var(--glass-bg);backdrop-filter:blur(20px);padding:40px 50px;border-radius:16px;border:1px solid var(--glass-border);text-align:center;max-width:360px;width:90%;box-shadow:0 8px 32px rgba(0,0,0,0.4);">
+        <div style="font-size:2.5rem;margin-bottom:12px;">📝</div>
+        <h2 style="margin-bottom:8px;">用户注册</h2>
+        <p style="opacity:0.7;margin-bottom:20px;font-size:14px;">创建新账号以使用系统功能</p>
+        <input type="text" id="register-username" placeholder="用户名 (3-50字符)" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:12px;outline:none;box-sizing:border-box;">
+        <input type="password" id="register-password" placeholder="密码 (至少6字符)" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:12px;outline:none;box-sizing:border-box;">
+        <input type="text" id="register-display-name" placeholder="显示名称 (可选)" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:16px;outline:none;box-sizing:border-box;">
+        <div style="display:flex;gap:8px;">
+            <button onclick="showLoginForm()" style="flex:1;padding:12px;border-radius:8px;border:1px solid var(--glass-border);background:transparent;color:var(--text-primary);font-size:15px;font-weight:600;cursor:pointer;">返回登录</button>
+            <button onclick="doRegister()" style="flex:1;padding:12px;border-radius:8px;border:none;background:linear-gradient(135deg,#10b981,#059669);color:#fff;font-size:15px;font-weight:600;cursor:pointer;">注 册</button>
+        </div>
+        <div id="register-error" style="color:#ef4444;margin-top:12px;font-size:13px;display:none;"></div>
+        <div id="register-success" style="color:#10b981;margin-top:12px;font-size:13px;display:none;"></div>
+    </div>
+</div>
+
 <button class="theme-toggle" onclick="toggleTheme()">
     <span id="theme-icon">🌙</span>
     <span id="theme-text">暗色模式</span>
 </button>
+
+<!-- User Menu -->
+<div id="user-menu" style="position:fixed;top:20px;right:120px;z-index:10000;display:none;">
+    <div style="background:var(--glass-bg);backdrop-filter:blur(20px);border:1px solid var(--glass-border);border-radius:8px;padding:8px 16px;display:flex;align-items:center;gap:8px;box-shadow:0 4px 16px rgba(0,0,0,0.3);">
+        <span id="username-display">未登录</span>
+        <button onclick="doLogout()" style="background:linear-gradient(135deg,#ef4444,#dc2626);color:white;border:none;border-radius:6px;padding:6px 12px;font-size:13px;cursor:pointer;">退出登录</button>
+    </div>
+</div>
 
 <div class="container">
     <!-- HOME PAGE -->
@@ -89,7 +129,7 @@
             <div class="glass-card" onclick="navigateTo('plugins')">
                 <div style="font-size:3rem;text-align:center;margin-bottom:16px;">🔧</div>
                 <h2 style="text-align:center;margin-bottom:10px;">插件扩展</h2>
-                <p style="text-align:center;opacity:0.7;font-size:14px;">Faker Provider、缓存层与自定义生成器</p>
+                <p style="text-align:center;opacity:0.7;font-size:14px;">Reader 插件管理：查看已安装格式，用 LLM 自动生成新解析器</p>
                 <div style="margin-top:16px;text-align:center;">
                     <span class="neon-btn">进入 →</span>
                 </div>
@@ -276,7 +316,7 @@
             <div class="drop-zone" id="sampleDropZone" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)" onclick="document.getElementById('sampleFileInput').click()">
                 <p style="font-size:2.5rem;margin-bottom:10px;">📁</p>
                 <p>拖拽文件到此处或点击选择</p>
-                <p style="font-size:0.85rem;opacity:0.6;margin-top:6px;">支持 CSV, XLS, XLSX 格式</p>
+                <p id="sampleAcceptHint" style="font-size:0.85rem;opacity:0.6;margin-top:6px;">支持 CSV, XLS, XLSX 格式</p>
             </div>
             <input type="file" id="sampleFileInput" style="display:none" accept=".csv,.xls,.xlsx" onchange="handleFileSelect(event)">
             <div id="uploadPreview" style="margin-top:12px;display:none;">
@@ -345,7 +385,7 @@
             <div class="drop-zone" onclick="document.getElementById('batchFileInput').click()">
                 <p style="font-size:2.5rem;margin-bottom:10px;">📂</p>
                 <p>选择单个或多个文件创建任务</p>
-                <p style="font-size:0.85rem;opacity:0.6;margin-top:6px;">支持 CSV, XLS, XLSX 格式</p>
+                <p id="batchAcceptHint" style="font-size:0.85rem;opacity:0.6;margin-top:6px;">支持 CSV, XLS, XLSX 格式</p>
             </div>
             <input type="file" id="batchFileInput" style="display:none" multiple accept=".csv,.xls,.xlsx" onchange="handleBatchFiles(event)">
             <div id="batchFilesList" style="margin-top:16px;"></div>
@@ -433,10 +473,30 @@
             </div>
         </div>
         <div class="glass-card" style="margin-top:20px;">
-            <div class="card-header"><div class="card-title">🔍 Prometheus 指标 / 审计日志（预留）</div></div>
-            <div style="margin-top:16px;opacity:0.7;">
-                <p>📡 Prometheus 指标暴露：<code>/metrics</code> 端点（待实现）</p>
-                <p>📝 审计日志：记录谁、何时、用哪个样本生成了多少数据（待实现）</p>
+            <div class="card-header">
+                <div class="card-title">📡 Prometheus 指标</div>
+                <button class="neon-btn secondary" style="padding:4px 10px;font-size:12px;" onclick="loadMetrics()">🔄 刷新</button>
+            </div>
+            <div id="metricsDisplay" style="margin-top:8px;">
+                <p style="text-align:center;color:var(--text-muted);padding:20px;">加载中...</p>
+            </div>
+        </div>
+        <div class="glass-card" style="margin-top:20px;">
+            <div class="card-header">
+                <div class="card-title">📝 审计日志</div>
+                <div style="display:flex;gap:8px;align-items:center;">
+                    <select id="auditEventFilter" class="glow-input" style="padding:4px 8px;font-size:12px;width:auto;" onchange="loadAuditLogs()">
+                        <option value="">全部事件</option>
+                        <option value="login_success">登录成功</option>
+                        <option value="login_failure">登录失败</option>
+                        <option value="logout">退出登录</option>
+                        <option value="task_generated">任务生成</option>
+                    </select>
+                    <button class="neon-btn secondary" style="padding:4px 10px;font-size:12px;" onclick="loadAuditLogs()">🔄 刷新</button>
+                </div>
+            </div>
+            <div id="auditLogList" style="max-height:400px;overflow-y:auto;margin-top:8px;">
+                <p style="text-align:center;color:var(--text-muted);padding:40px;">加载中...</p>
             </div>
         </div>
     </div>
@@ -448,42 +508,104 @@
             <button class="back-btn" onclick="goHome()">← 返回首页</button>
             <h1 class="page-title">🎛️ 生成引擎</h1>
         </div>
-        <div class="grid-2">
-            <div class="glass-card">
-                <div class="card-header"><div class="card-title">✏️ 字段级在线编辑</div></div>
-                <div style="margin-top:16px;opacity:0.7;">
-                    <p>允许手动调整推断出的字段类型、长度、语义后再生成（待实现）</p>
+
+        <!-- Engine toolbar -->
+        <div class="glass-card" style="margin-bottom:16px;">
+            <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+                <select id="engineSample" class="glow-input" style="flex:1;min-width:200px;">
+                    <option value="">-- 选择样本文件分析 --</option>
+                </select>
+                <button class="neon-btn" onclick="runEngineAnalyze()" id="engineAnalyzeBtn">🔍 分析引擎管线</button>
+                <span id="engineStatusBadge" style="font-size:12px;opacity:0.6;"></span>
+            </div>
+        </div>
+
+        <!-- Always-visible: engine system status -->
+        <div class="glass-card" style="margin-bottom:16px;">
+            <div class="card-title">🖥️ 引擎状态</div>
+            <div id="engineSysStatus" style="margin-top:12px;font-size:13px;line-height:1.9;">
+                <p style="opacity:0.5;">加载中...</p>
+            </div>
+        </div>
+
+        <!-- Loading state -->
+        <div id="engineLoading" style="display:none;text-align:center;padding:40px;">
+            <div style="font-size:2rem;margin-bottom:12px;">⚙️</div>
+            <p style="opacity:0.7;">引擎分析中...</p>
+        </div>
+
+        <!-- Results container (hidden until analysis) -->
+        <div id="engineResults" style="display:none;">
+
+            <!-- Row 1: Resolution pipeline -->
+            <div class="glass-card" style="margin-bottom:16px;">
+                <div class="card-title">🔀 解析管线</div>
+                <div style="margin-top:12px;">
+                    <canvas id="resolutionChart" style="max-height:170px;"></canvas>
+                </div>
+                <div id="resolutionLegend" style="margin-top:8px;display:flex;flex-wrap:wrap;gap:8px;font-size:13px;"></div>
+            </div>
+
+            <!-- Row 2: Field strategy pipeline table -->
+            <div class="glass-card" style="margin-bottom:16px;">
+                <div class="card-header">
+                    <div class="card-title">📋 字段策略管道 (11-Layer Pipeline)</div>
+                    <span id="fieldCount" style="font-size:13px;opacity:0.6;"></span>
+                </div>
+                <div style="margin-top:12px;overflow-x:auto;">
+                    <table class="tech-table" style="font-size:13px;">
+                        <thead>
+                            <tr>
+                                <th>字段名</th>
+                                <th>SQL类型</th>
+                                <th>语义</th>
+                                <th>置信度</th>
+                                <th>策略层</th>
+                                <th>策略说明</th>
+                                <th>枚举/值池</th>
+                            </tr>
+                        </thead>
+                        <tbody id="fieldStrategyBody"></tbody>
+                    </table>
                 </div>
             </div>
-            <div class="glass-card">
-                <div class="card-header"><div class="card-title">📐 分布拟合生成</div></div>
-                <div style="margin-top:16px;opacity:0.7;">
-                    <p>基于样本统计分布（正态、泊松、幂律）生成数据（待实现）</p>
+
+            <!-- Row 3: Coherence + Constraints -->
+            <div class="grid-2" style="margin-bottom:16px;">
+                <div class="glass-card">
+                    <div class="card-title">🔗 跨字段关联 (Coherence)</div>
+                    <div id="coherenceContent" style="margin-top:12px;">
+                        <p style="opacity:0.5;">无跨字段关联</p>
+                    </div>
+                </div>
+                <div class="glass-card">
+                    <div class="card-title">⚖️ 约束规则 (Constraints)</div>
+                    <div id="constraintsContent" style="margin-top:12px;">
+                        <p style="opacity:0.5;">无约束规则</p>
+                    </div>
                 </div>
             </div>
-            <div class="glass-card">
-                <div class="card-header"><div class="card-title">📈 数据趋势模拟</div></div>
-                <div style="margin-top:16px;opacity:0.7;">
-                    <p>时间序列数据支持趋势、季节性、异常值模拟（待实现）</p>
+
+            <!-- Row 4: Distributions -->
+            <div class="glass-card" style="margin-bottom:16px;" id="distributionCard">
+                <div class="card-title">📐 分布拟合 (Distribution Fitting)</div>
+                <div id="distributionContent" style="margin-top:12px;">
+                    <p style="opacity:0.5;">无数值列需要分布拟合</p>
                 </div>
             </div>
-            <div class="glass-card">
-                <div class="card-header"><div class="card-title">🔒 数据脱敏模式</div></div>
-                <div style="margin-top:16px;opacity:0.7;">
-                    <p>差分隐私处理真实样本，输出脱敏版本（待实现）</p>
+
+            <!-- Row 5: RAG matches -->
+            <div class="glass-card" style="margin-bottom:16px;" id="ragCard">
+                <div class="card-title">🔗 Embedding 相似列匹配 (RAG)</div>
+                <div id="ragContent" style="margin-top:12px;">
+                    <p style="opacity:0.5;">无相似匹配或向量库未初始化</p>
                 </div>
             </div>
-            <div class="glass-card">
-                <div class="card-header"><div class="card-title">📏 数据量预估</div></div>
-                <div style="margin-top:16px;opacity:0.7;">
-                    <p>根据字段数和目标行数预估存储占用与生成时长（待实现）</p>
-                </div>
-            </div>
-            <div class="glass-card">
-                <div class="card-header"><div class="card-title">🔗 Embedding 相似列匹配</div></div>
-                <div style="margin-top:16px;opacity:0.7;">
-                    <p>向量相似度匹配历史规则，解决列名不同语义相同（待实现）</p>
-                </div>
+
+            <!-- Row 6: SQL preview -->
+            <div class="glass-card" style="margin-bottom:16px;">
+                <div class="card-title">📝 生成 DDL</div>
+                <pre id="engineSQL" style="margin-top:8px;padding:12px;background:#0d1117;border-radius:8px;font-size:13px;overflow-x:auto;color:#7ee787;"></pre>
             </div>
         </div>
     </div>
@@ -497,27 +619,48 @@
         </div>
         <div class="grid-2">
             <div class="glass-card">
-                <div class="card-header"><div class="card-title">🔧 插件化 Faker Provider</div></div>
-                <div style="margin-top:16px;opacity:0.7;">
-                    <p>允许用户注册自定义生成器：医疗术语、法律条款、金融工具（待实现）</p>
+                <div class="card-header">
+                    <div class="card-title">� 已安装 Reader 插件</div>
+                    <button class="neon-btn secondary" style="padding:6px 14px;font-size:12px;" onclick="loadPlugins()">🔄 刷新</button>
+                </div>
+                <div id="pluginReaderList" style="margin-top:12px;max-height:300px;overflow-y:auto;">
+                    <p style="text-align:center;color:var(--text-muted);padding:20px;">加载中...</p>
                 </div>
             </div>
             <div class="glass-card">
-                <div class="card-header"><div class="card-title">💾 结果缓存层</div></div>
-                <div style="margin-top:16px;opacity:0.7;">
-                    <p>相同样本+参数的请求缓存预览结果，减少重复计算（待实现）</p>
+                <div class="card-header">
+                    <div class="card-title">🧩 生成新 Reader 插件</div>
                 </div>
-            </div>
-            <div class="glass-card">
-                <div class="card-header"><div class="card-title">🧪 自动数据质量评估</div></div>
-                <div style="margin-top:16px;opacity:0.7;">
-                    <p>生成后用 LLM 或规则检查数据一致性，自动标记异常（待实现）</p>
-                </div>
-            </div>
-            <div class="glass-card">
-                <div class="card-header"><div class="card-title">🎓 Few-shot 样本学习</div></div>
-                <div style="margin-top:16px;opacity:0.7;">
-                    <p>LLM 学习样本值风格特征，如特定公司的产品命名规则（待实现）</p>
+                <div id="codegenPanel" style="margin-top:12px;">
+                    <p style="opacity:0.7;font-size:13px;margin-bottom:12px;">用自然语言描述你想支持的新文件格式，LLM 会自动生成解析插件。</p>
+                    <div class="form-group" style="margin-bottom:10px;">
+                        <label>文件后缀（如 rdf, parquet）</label>
+                        <input type="text" id="codegenSuffix" class="glow-input" placeholder="rdf">
+                    </div>
+                    <div class="form-group" style="margin-bottom:10px;">
+                        <label>格式描述（可选）</label>
+                        <input type="text" id="codegenDesc" class="glow-input" placeholder="RDF/XML 语义网数据">
+                    </div>
+                    <div class="form-group" style="margin-bottom:10px;">
+                        <label>解析策略（可选）</label>
+                        <input type="text" id="codegenStrategy" class="glow-input" placeholder="流式解析，100MB以上降频采样">
+                    </div>
+                    <div class="form-group" style="margin-bottom:10px;">
+                        <label>样本文件（可选，帮助 LLM 精确生成）</label>
+                        <input type="file" id="codegenSampleFile" class="glow-input" onchange="handleCodegenFileSelect(event)">
+                        <p id="codegenFileInfo" style="font-size:12px;opacity:0.6;margin-top:4px;"></p>
+                    </div>
+                    <button class="neon-btn" onclick="generateReader()">🚀 生成 Reader 插件</button>
+                    <div id="codegenResult" style="margin-top:12px;display:none;">
+                        <div style="padding:12px;background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.3);border-radius:8px;">
+                            <p style="opacity:0.7;font-size:13px;">生成结果</p>
+                            <p id="codegenMsg" style="font-size:14px;"></p>
+                        </div>
+                        <details style="margin-top:8px;">
+                            <summary style="cursor:pointer;font-size:13px;opacity:0.8;">查看代码</summary>
+                            <pre id="codegenCode" style="margin-top:8px;padding:10px;background:#0d1117;border-radius:6px;overflow-x:auto;font-size:12px;"></pre>
+                        </details>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,129 @@
+{
+  "file_name": "鱼台县工信局_纺织服装行业协会企业名单信息202506241217.xlsx",
+  "table_name": "鱼台县工信局_纺织服装行业协会企业名单信息202506241217",
+  "row_count": 23,
+  "columns": [
+    "sfgsqy",
+    "cylb",
+    "qymc",
+    "sd",
+    "hy"
+  ],
+  "fields": [
+    {
+      "name": "sfgsqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是",
+        "否"
+      ],
+      "value_pool": [
+        "是",
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "理事单位",
+        "监事单位"
+      ],
+      "value_pool": [
+        "理事单位",
+        "监事单位"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "鱼台凯华纺织有限公司",
+        "济宁华锦纺织有限公司",
+        "鱼台鑫辰纺织有限公司",
+        "鱼台县润鑫纺织有限公司",
+        "鱼台县通茂纺织品有限公司",
+        "鱼台县泰和纺织有限公司",
+        "鱼台信合纺织有限公司",
+        "鱼台县宏达纺织制品有限公司",
+        "鱼台华屹纺织有限公司",
+        "鱼台鑫恒纺织有限公司鱼台鑫辰纺织有限公司",
+        "鱼台县通源服装有限公司",
+        "鱼台峰源服装有限公司",
+        "鱼台县敬承服装加工厂",
+        "鱼台县原源服装\n有限公司",
+        "鱼台县瑞宝纺织品有\n限公司",
+        "鱼台县霓裳服装有限公司",
+        "济宁欣盈有限公司",
+        "济宁嘉德服饰有限公司",
+        "鱼台凯兴纺织有限公司",
+        "鱼台县美缘服装有限公司",
+        "鱼台合恒服装有限公司",
+        "济宁晴尔服装有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鱼城",
+        "唐马",
+        "老砦",
+        "罗屯",
+        "王鲁",
+        "开发区",
+        "清河",
+        "张黄",
+        "王庙",
+        "李阁",
+        "唐马镇驻地"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "纺织行业",
+        "服装行业",
+        "服饰行业"
+      ],
+      "value_pool": [
+        "纺织行业",
+        "服装行业",
+        "服饰行业"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

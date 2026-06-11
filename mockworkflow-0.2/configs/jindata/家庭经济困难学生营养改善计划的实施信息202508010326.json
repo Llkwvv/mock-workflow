@@ -1,0 +1,163 @@
+{
+  "file_name": "家庭经济困难学生营养改善计划的实施信息202508010326.xlsx",
+  "table_name": "家庭经济困难学生营养改善计划的实施信息202508010326",
+  "row_count": 3016,
+  "columns": [
+    "姓名",
+    "zzjey",
+    "x",
+    "xqhxn",
+    "xxmc"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孔*",
+        "樊*",
+        "翟*",
+        "张*",
+        "冯*",
+        "贾*",
+        "孙*",
+        "王*",
+        "辛*",
+        "邢*",
+        "徐*",
+        "董*",
+        "杜*",
+        "刘*",
+        "卢*",
+        "朱*",
+        "鞠*",
+        "盛*",
+        "温*",
+        "陈*",
+        "侯*",
+        "李*",
+        "宋*",
+        "周*",
+        "姚*",
+        "郝*",
+        "邵*",
+        "蒋*",
+        "孟*",
+        "秦*",
+        "相*",
+        "许*",
+        "尤*",
+        "段*",
+        "巩*",
+        "郭*",
+        "黄*",
+        "汤*",
+        "吴*",
+        "谢*",
+        "颜*",
+        "赵*",
+        "程*",
+        "单*",
+        "范*",
+        "高*",
+        "宫*",
+        "韩*",
+        "胡*",
+        "简*",
+        "马*",
+        "庞*",
+        "司*",
+        "杨*",
+        "殷*",
+        "袁*",
+        "姬*",
+        "闫*",
+        "蔡*",
+        "郎*",
+        "魏*",
+        "曾*",
+        "肖*",
+        "康*",
+        "沙*",
+        "田*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "300"
+      ],
+      "value_pool": [
+        "300"
+      ],
+      "min_value": 300.0,
+      "max_value": 300.0
+    },
+    {
+      "name": "x",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "泗水县"
+      ],
+      "value_pool": [
+        "泗水县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xqhxn",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021年春季"
+      ],
+      "value_pool": [
+        "2021年春季"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "泗水大志学校",
+        "泗水九巨龙慈善学校",
+        "泗水圣源小学",
+        "泗水县卞桥小学"
+      ],
+      "value_pool": [
+        "泗水大志学校",
+        "泗水九巨龙慈善学校",
+        "泗水圣源小学",
+        "泗水县卞桥小学"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

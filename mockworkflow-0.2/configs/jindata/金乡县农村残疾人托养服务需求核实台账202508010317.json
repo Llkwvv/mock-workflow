@@ -1,0 +1,217 @@
+{
+  "file_name": "金乡县农村残疾人托养服务需求核实台账202508010317.xlsx",
+  "table_name": "金乡县农村残疾人托养服务需求核实台账202508010317",
+  "row_count": 413,
+  "columns": [
+    "cjdj",
+    "cjlb",
+    "xxcjy",
+    "jd",
+    "sqhzc",
+    "qx",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "cjdj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "二级",
+        "一级",
+        "三级",
+        "四级"
+      ],
+      "value_pool": [
+        "二级",
+        "一级",
+        "三级",
+        "四级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjlb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "智力",
+        "肢体",
+        "精神",
+        "多重"
+      ],
+      "value_pool": [
+        "智力",
+        "肢体",
+        "精神",
+        "多重"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxcjy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "周奉雷",
+        "刘汉菊",
+        "李令晓",
+        "郭方同",
+        "代景强",
+        "吕学军",
+        "王娟",
+        "刘凤芹",
+        "董灿灿",
+        "寻书轩",
+        "韩东海"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "金乡街道办事处",
+        "高河街道办事处",
+        "羊山镇",
+        "胡集镇",
+        "肖云镇",
+        "鸡黍镇"
+      ],
+      "value_pool": [
+        "金乡街道办事处",
+        "高河街道办事处",
+        "羊山镇",
+        "胡集镇",
+        "肖云镇",
+        "鸡黍镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqhzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "霍堌村民委员会",
+        "韩庄村民委员会",
+        "周油坊村民委员会",
+        "马河崖村民委员会",
+        "胡庄村民委员会",
+        "牛桥村民委员会",
+        "后周村民委员会",
+        "鹿湾村民委员会",
+        "后于庄村民委员会",
+        "冯土村民委员会",
+        "郑大楼村民委员会",
+        "郭楼村民委员会",
+        "韩楼村民委员会",
+        "界牌堂村民委员会",
+        "杨庄村民委员会",
+        "张小楼村民委员会",
+        "谢集村民委员会",
+        "张华楼村民委员会",
+        "周大庄村民委员会",
+        "邵集村民委员会",
+        "张寨村民委员会",
+        "杜河村民委员会",
+        "吕庙村民委员会",
+        "宗营村民委员会",
+        "介庙村民委员会",
+        "郑楼村民委员会",
+        "孙菜园村民委员会"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "赵**",
+        "韩**",
+        "周**",
+        "范**",
+        "陈**",
+        "尚**",
+        "张**",
+        "于**",
+        "戚**",
+        "冯**",
+        "江**",
+        "姚**",
+        "季**",
+        "孙**",
+        "朱**",
+        "王**",
+        "郑**",
+        "李**",
+        "孟**",
+        "杨**",
+        "马**",
+        "石**",
+        "渠**",
+        "谢**",
+        "卜**",
+        "丁**",
+        "苏**",
+        "徐**",
+        "邵**",
+        "邢**",
+        "袁**",
+        "武**",
+        "杜**",
+        "吴**",
+        "吕**",
+        "刘**",
+        "宗**",
+        "魏**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

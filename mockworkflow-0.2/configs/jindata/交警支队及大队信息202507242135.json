@@ -1,0 +1,129 @@
+{
+  "file_name": "交警支队及大队信息202507242135.xlsx",
+  "table_name": "交警支队及大队信息202507242135",
+  "row_count": 1,
+  "columns": [
+    "wd",
+    "jd",
+    "xzqhdm",
+    "电话",
+    "mc",
+    "dz",
+    "ssxzqh",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "wd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "35.763"
+      ],
+      "min_value": 35.763,
+      "max_value": 35.763
+    },
+    {
+      "name": "jd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "116.137"
+      ],
+      "min_value": 116.137,
+      "max_value": 116.137
+    },
+    {
+      "name": "xzqhdm",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370832"
+      ],
+      "min_value": 370832.0,
+      "max_value": 370832.0
+    },
+    {
+      "name": "电话",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "155****9891"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "梁山县公安局交通警察大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市梁山县忠义路东段路南"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssxzqh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市梁山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "梁山县交警大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

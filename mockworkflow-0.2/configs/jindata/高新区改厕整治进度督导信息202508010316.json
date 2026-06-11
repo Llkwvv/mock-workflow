@@ -1,0 +1,189 @@
+{
+  "file_name": "高新区改厕整治进度督导信息202508010316.xlsx",
+  "table_name": "高新区改厕整治进度督导信息202508010316",
+  "row_count": 379,
+  "columns": [
+    "zgsfhg",
+    "sfsbyzg",
+    "sfzg",
+    "pcfxwt",
+    "xz",
+    "cz",
+    "xsq",
+    "nhxm"
+  ],
+  "fields": [
+    {
+      "name": "zgsfhg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfsbyzg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pcfxwt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1、冲水桶损坏\n2、排气管断裂脱落",
+        "冲水桶损坏",
+        "排气管断裂脱落"
+      ],
+      "value_pool": [
+        "1、冲水桶损坏\n2、排气管断裂脱落",
+        "冲水桶损坏",
+        "排气管断裂脱落"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "王因街道",
+        "接庄街道"
+      ],
+      "value_pool": [
+        "王因街道",
+        "接庄街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "寺上村",
+        "北辛村",
+        "垞河村",
+        "常营村",
+        "大郝村",
+        "丁庄村",
+        "东村",
+        "古柳村"
+      ],
+      "value_pool": [
+        "寺上村",
+        "北辛村",
+        "垞河村",
+        "常营村",
+        "大郝村",
+        "丁庄村",
+        "东村",
+        "古柳村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nhxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "姚**",
+        "侯**",
+        "刘**",
+        "王**",
+        "张**",
+        "郑**",
+        "乔**",
+        "赵**",
+        "吴**",
+        "付**",
+        "樊**",
+        "徐**",
+        "史**",
+        "岳**",
+        "石**",
+        "尹**",
+        "常**",
+        "孟**",
+        "陈**",
+        "丁**",
+        "谢**",
+        "冯**",
+        "宫**",
+        "耿**",
+        "潘**",
+        "文**",
+        "宋**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

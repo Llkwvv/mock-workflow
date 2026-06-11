@@ -1,0 +1,84 @@
+{
+  "file_name": "金乡县分镇街产业园规上工业总产值增速202507210917.xlsx",
+  "table_name": "金乡县分镇街产业园规上工业总产值增速202507210917",
+  "row_count": 1,
+  "columns": [
+    "sz",
+    "qb",
+    "dw",
+    "nf",
+    "dq"
+  ],
+  "fields": [
+    {
+      "name": "sz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "-"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1-6月"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "%"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [],
+      "value_pool": [
+        "商贸物流园"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

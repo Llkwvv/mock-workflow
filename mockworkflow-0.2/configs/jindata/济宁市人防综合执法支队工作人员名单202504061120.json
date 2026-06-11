@@ -1,0 +1,120 @@
+{
+  "file_name": "济宁市人防综合执法支队工作人员名单202504061120.xlsx",
+  "table_name": "济宁市人防综合执法支队工作人员名单202504061120",
+  "row_count": 30,
+  "columns": [
+    "nd",
+    "bgdd",
+    "mz",
+    "xb",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "nd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2019",
+        "2020",
+        "2021"
+      ],
+      "value_pool": [
+        "2019",
+        "2020",
+        "2021"
+      ],
+      "min_value": 2019.0,
+      "max_value": 2021.0
+    },
+    {
+      "name": "bgdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "市人防大厦12楼",
+        "市人防指挥所3楼"
+      ],
+      "value_pool": [
+        "市人防大厦12楼",
+        "市人防指挥所3楼"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉族"
+      ],
+      "value_pool": [
+        "汉族"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "陈* 勇",
+        "王*涛",
+        "吴*源",
+        "王*同",
+        "王*贺",
+        "李*龙",
+        "李*元",
+        "王* 琦",
+        "冯*梅",
+        "许* 鹏"
+      ],
+      "value_pool": [
+        "陈* 勇",
+        "王*涛",
+        "吴*源",
+        "王*同",
+        "王*贺",
+        "李*龙",
+        "李*元",
+        "王* 琦",
+        "冯*梅",
+        "许* 鹏"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

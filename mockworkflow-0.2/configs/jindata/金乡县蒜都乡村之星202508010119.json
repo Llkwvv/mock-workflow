@@ -1,0 +1,137 @@
+{
+  "file_name": "金乡县蒜都乡村之星202508010119.xlsx",
+  "table_name": "金乡县蒜都乡村之星202508010119",
+  "row_count": 20,
+  "columns": [
+    "jb",
+    "jlmc",
+    "姓名",
+    "ssxq",
+    "dwmc"
+  ],
+  "fields": [
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "首批",
+        "第二批"
+      ],
+      "value_pool": [
+        "首批",
+        "第二批"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jlmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "蒜都乡村之星"
+      ],
+      "value_pool": [
+        "蒜都乡村之星"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "李**",
+        "岳*",
+        "齐**",
+        "董*",
+        "卓**",
+        "周**",
+        "刘**",
+        "孙**",
+        "史**",
+        "周***",
+        "袁**",
+        "韩**",
+        "周*",
+        "卢***",
+        "任**",
+        "侯**",
+        "李*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "金乡经济开发区",
+        "卜集镇",
+        "食品园区",
+        "鸡黍镇",
+        "霄云镇",
+        "高河街道",
+        "金乡街道",
+        "王丕街道",
+        "司马镇",
+        "胡集镇",
+        "马庙镇",
+        "鱼山镇",
+        "化雨镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东宏大食品股份有限公司",
+        "金乡县卜集镇殷李村",
+        "卜集镇东门屯村",
+        "山东聚汇物流有限公司",
+        "董亮农机专业合作社",
+        "霄云镇戴庙村",
+        "高河街道牛桥村",
+        "金乡街道高创科技园",
+        "济宁南澳绿亨农业科技有限公司",
+        "司马镇塘坊村",
+        "胡集镇后史屯村",
+        "山东省齐盛食品有限公司",
+        "金乡县马坡金谷农民种植合作社",
+        "金乡县东运进出口有限公司",
+        "金乡县鸡黍镇百果庄园家庭农场",
+        "金乡县圣丰果树种植专业合作社",
+        "金乡县聚龙商贸有限公司",
+        "马庙镇咸古店村",
+        "金乡县晨雨食用菌专业合作社",
+        "山东畅益生物科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

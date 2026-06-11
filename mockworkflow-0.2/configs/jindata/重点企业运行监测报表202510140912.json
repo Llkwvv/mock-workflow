@@ -1,0 +1,174 @@
+{
+  "file_name": "重点企业运行监测报表202510140912.xlsx",
+  "table_name": "重点企业运行监测报表202510140912",
+  "row_count": 21,
+  "columns": [
+    "xsq",
+    "sfgsqy",
+    "qymc",
+    "xh",
+    "zycp",
+    "hyfl"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁经开区"
+      ],
+      "value_pool": [
+        "济宁经开区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfgsqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "欣格瑞（山东）环境科技有限公司",
+        "山东格瑞水务有限公司",
+        "山东连环机械科技有限公司",
+        "济宁金牛重工有限公司",
+        "济宁市爱克森服装有限责任公司",
+        "山东光大线路器材有限公司",
+        "山东瑞祥模具有限公司",
+        "山东嘉源塑胶科技股份有限公司",
+        "济宁恒大复合板材有限公司",
+        "山东神力索具有限公司",
+        "伟龙食品有限公司",
+        "济宁市嘉兴包装有限责任公司",
+        "山东楷益塑业科技有限公司",
+        "山东膜泰环保科技股份有限公司",
+        "济宁市星宇机械有限公司",
+        "山东禾念食品有限公司",
+        "山东凯诺尔机电工程有限公司",
+        "济宁久邦工程机械设备有限公司",
+        "山东天和环保工程有限公司",
+        "山东艾克索仑电气有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "min_value": 1.0,
+      "max_value": 21.0
+    },
+    {
+      "name": "zycp",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "license_plate",
+      "enum_values": [],
+      "value_pool": [
+        "化学品水处理剂和工业清洗服务",
+        "污水及中水回用设备 净水设备",
+        "滚焊机",
+        "支重轮",
+        "服装",
+        "铁件",
+        "试块产品",
+        "桌布",
+        "镀锌带钢",
+        "索具",
+        "食品生产",
+        "机械设备",
+        "纸制品制造",
+        "塑胶制品生产、制造、销售",
+        "超滤膜的生产研发销售",
+        "金属结构制造；矿山机械制造",
+        "建筑工程机械设备、矿山机械设备、混凝土搅",
+        "环保设备、水处理设备",
+        "矿用永磁电动滚筒、工业用永磁电机、矿用变频器、矿山机电设备"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hyfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "节能环保产业",
+        "高端装备制造",
+        "新材料",
+        "医疗",
+        "高端装备",
+        "新能源",
+        "节能环保"
+      ],
+      "value_pool": [
+        "节能环保产业",
+        "高端装备制造",
+        "新材料",
+        "医疗",
+        "高端装备",
+        "新能源",
+        "节能环保"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "file_name": "经开区综合执法局市容管理科巡查信息202508010108.xlsx",
+  "table_name": "经开区综合执法局市容管理科巡查信息202508010108",
+  "row_count": 24,
+  "columns": [
+    "czbm",
+    "wgxw",
+    "bz",
+    "czqk",
+    "ld"
+  ],
+  "fields": [
+    {
+      "name": "czbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "执法一大队",
+        "执法二大队"
+      ],
+      "value_pool": [
+        "执法一大队",
+        "执法二大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wgxw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "户外宣传广告",
+        "违规条幅",
+        "沿街晾挂",
+        "违规宣传标语",
+        "占道经营",
+        "门前乱堆乱放",
+        "户外违规牌匾"
+      ],
+      "value_pool": [
+        "户外宣传广告",
+        "违规条幅",
+        "沿街晾挂",
+        "违规宣传标语",
+        "占道经营",
+        "门前乱堆乱放",
+        "户外违规牌匾"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "及时"
+      ],
+      "value_pool": [
+        "及时"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "czqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已处理"
+      ],
+      "value_pool": [
+        "已处理"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ld",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "吉祥路路南1",
+        "吉祥路路南2",
+        "吉祥路路南3",
+        "吉祥路路北1",
+        "吉祥路路北",
+        "吉祥路路北2",
+        "汇祥路路南",
+        "汇祥路路北",
+        "呈祥大道南韩段",
+        "美祥路",
+        "嘉诚路东",
+        "嘉诚路",
+        "嘉诚路西"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

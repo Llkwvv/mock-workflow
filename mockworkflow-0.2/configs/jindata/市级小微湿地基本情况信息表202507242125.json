@@ -1,0 +1,146 @@
+{
+  "file_name": "市级小微湿地基本情况信息表202507242125.xlsx",
+  "table_name": "市级小微湿地基本情况信息表202507242125",
+  "row_count": 34,
+  "columns": [
+    "sjxwsd",
+    "bz",
+    "zdmj",
+    "zjd",
+    "sdxhqk"
+  ],
+  "fields": [
+    {
+      "name": "sjxwsd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "大李庄",
+        "喻兴园",
+        "艾庄",
+        "唐口街道戈户村",
+        "唐口街道坡里王村",
+        "唐口街道姚刘王村",
+        "唐口街道前王村"
+      ],
+      "value_pool": [
+        "大李庄",
+        "喻兴园",
+        "艾庄",
+        "唐口街道戈户村",
+        "唐口街道坡里王村",
+        "唐口街道姚刘王村",
+        "唐口街道前王村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "2024.2.19",
+        "2024.4.12",
+        "2024.6.14",
+        "2024.7.20",
+        "2024.8.31",
+        "2024.9.14",
+        "2024.11.10",
+        "2021.2.20",
+        "2021.3.4",
+        "2021.3.17",
+        "2021.4.1",
+        "2021.4.9",
+        "2021.4.28",
+        "2021.5.11",
+        "2021.5.20",
+        "2021.5.31",
+        "2021.6.4",
+        "2021.6.10",
+        "2021.6.21",
+        "2021.6.30",
+        "2021.7.5",
+        "2021.7.15",
+        "2021.7.27",
+        "2021.8.4",
+        "2021.8.20",
+        "2021.9.3",
+        "2021.9.24"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zdmj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "35亩",
+        "200亩",
+        "5亩",
+        "6亩",
+        "10亩",
+        "3.5亩",
+        "4.5亩",
+        "35亩，"
+      ],
+      "value_pool": [
+        "35亩",
+        "200亩",
+        "5亩",
+        "6亩",
+        "10亩",
+        "3.5亩",
+        "4.5亩",
+        "35亩，"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "喻屯镇",
+        "唐口街道"
+      ],
+      "value_pool": [
+        "喻屯镇",
+        "唐口街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sdxhqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "自然生态，无污染"
+      ],
+      "value_pool": [
+        "自然生态，无污染"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

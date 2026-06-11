@@ -1,0 +1,111 @@
+{
+  "file_name": "修改门诊大病备案信息202508010120.xlsx",
+  "table_name": "修改门诊大病备案信息202508010120",
+  "row_count": 20,
+  "columns": [
+    "sj",
+    "slbm",
+    "sfycbh",
+    "blrydw",
+    "blyw"
+  ],
+  "fields": [
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2025.7.23"
+      ],
+      "value_pool": [
+        "2025.7.23"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经开区医保"
+      ],
+      "value_pool": [
+        "经开区医保"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfycbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blrydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "盛玉水",
+        "许斌",
+        "付成金",
+        "刘香菊",
+        "崔雪梅",
+        "沈玉莲",
+        "田鹏琦",
+        "刘三英",
+        "苏家轩",
+        "吴凤英",
+        "李邓氏",
+        "闫循猛",
+        "马建福",
+        "马闫氏",
+        "孙有振",
+        "杜昌法",
+        "孙本钱",
+        "贾垂广",
+        "秦浩",
+        "商爱菊"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blyw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "门慢门特登记变更"
+      ],
+      "value_pool": [
+        "门慢门特登记变更"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

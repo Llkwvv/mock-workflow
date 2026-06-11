@@ -1,0 +1,214 @@
+{
+  "file_name": "市级森林公园总体规划审批202504061108.xlsx",
+  "table_name": "市级森林公园总体规划审批202504061108",
+  "row_count": 16,
+  "columns": [
+    "pfmj",
+    "pfwh",
+    "dw",
+    "spjg",
+    "xh",
+    "pjsj",
+    "jb",
+    "gymc"
+  ],
+  "fields": [
+    {
+      "name": "pfmj",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "590.0",
+        "2136.5",
+        "4780.46",
+        "844.0",
+        "793.1",
+        "2240.2",
+        "3000.0",
+        "705.0",
+        "1333.3",
+        "321.5",
+        "212.0",
+        "866.6",
+        "700.0",
+        "620.0",
+        "786.7",
+        "214.0"
+      ],
+      "min_value": 212.0,
+      "max_value": 4780.46
+    },
+    {
+      "name": "pfwh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "林造批字[1992]154号",
+        "林场许准[2012]1763号",
+        "林场许准[2014]12号",
+        "鲁林场发[2011]153号",
+        "鲁林场字[2013]532号",
+        "鲁林场字〔2012〕491号",
+        "鲁林场发[2009]168号",
+        "鲁林场字[2015]445号",
+        "济林字（2005)58号",
+        "济林字[2010]46号",
+        "济林字[2009]59号",
+        "济林字[2010]124号",
+        "济林字[2005]58号",
+        "济林字〔2005〕58号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "公顷"
+      ],
+      "value_pool": [
+        "公顷"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "国家林业局",
+        "山东省林业厅",
+        "山东省林业局",
+        "济宁市林业局"
+      ],
+      "value_pool": [
+        "国家林业局",
+        "山东省林业厅",
+        "山东省林业局",
+        "济宁市林业局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "min_value": 1.0,
+      "max_value": 16.0
+    },
+    {
+      "name": "pjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "1992.9",
+        "2012.9",
+        "2014.2",
+        "2011.12",
+        "2013.12",
+        "2009.11",
+        "2009.12",
+        "2015.12",
+        "2005.9",
+        "2010.5",
+        "2010.12",
+        "2005.7"
+      ],
+      "min_value": 1992.9,
+      "max_value": 2015.12
+    },
+    {
+      "name": "jb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "国家级",
+        "省级",
+        "市级"
+      ],
+      "value_pool": [
+        "国家级",
+        "省级",
+        "市级"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "曲阜尼山国家森林公园",
+        "邹城峄山国家森林公园",
+        "泗水泉林国家森林公园",
+        "泗水青龙山省级森林公园",
+        "邹城凤凰山省级森林公园",
+        "嘉祥青山省级森林公园",
+        "水泊梁山省级森林公园",
+        "邹城梨杭省级森林公园",
+        "曲阜九仙山市级森林公园",
+        "泗水九奇山市级森林公园",
+        "泗水圣公山市级森林公园",
+        "邹城连青山市级森林公园",
+        "邹城狼舞山市级森林公园",
+        "邹城凫山市级森林公园",
+        "微山鲁山市级森林公园",
+        "金乡县白洼市级森林公园"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

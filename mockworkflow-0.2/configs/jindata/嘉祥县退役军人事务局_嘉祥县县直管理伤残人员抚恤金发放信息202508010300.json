@@ -1,0 +1,187 @@
+{
+  "file_name": "嘉祥县退役军人事务局_嘉祥县县直管理伤残人员抚恤金发放信息202508010300.xlsx",
+  "table_name": "嘉祥县退役军人事务局_嘉祥县县直管理伤残人员抚恤金发放信息202508010300",
+  "row_count": 204,
+  "columns": [
+    "bz",
+    "rylb",
+    "fxjjey",
+    "xb",
+    "姓名",
+    "gzdwhzz"
+  ],
+  "fields": [
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "已发"
+      ],
+      "value_pool": [
+        "已发"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "因公6级伤残",
+        "因公8级伤残",
+        "因公7级伤残",
+        "因公5级伤残",
+        "因病6级伤残",
+        "因战5级伤残",
+        "因病5级伤残",
+        "因战8级伤残"
+      ],
+      "value_pool": [
+        "因公6级伤残",
+        "因公8级伤残",
+        "因公7级伤残",
+        "因公5级伤残",
+        "因病6级伤残",
+        "因战5级伤残",
+        "因病5级伤残",
+        "因战8级伤残"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fxjjey",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "4015.0",
+        "1830.0",
+        "2833.0",
+        "4749.0",
+        "3297.0",
+        "5586.0",
+        "4287.0",
+        "2056.0"
+      ],
+      "value_pool": [
+        "4015.0",
+        "1830.0",
+        "2833.0",
+        "4749.0",
+        "3297.0",
+        "5586.0",
+        "4287.0",
+        "2056.0"
+      ],
+      "min_value": 997.0,
+      "max_value": 10475.74
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "黄**",
+        "张**",
+        "李**",
+        "渐**",
+        "刘*",
+        "汤**",
+        "杨**",
+        "王**",
+        "魏**",
+        "闫**",
+        "轩**",
+        "高**",
+        "赵**",
+        "杜**",
+        "陈**",
+        "商**",
+        "于**",
+        "史**",
+        "谷**",
+        "孟**",
+        "申**",
+        "薛**",
+        "马*",
+        "顾**",
+        "刘**",
+        "胡**",
+        "尹**",
+        "任**",
+        "王*",
+        "马**",
+        "曹**",
+        "甘**",
+        "韩**",
+        "冯**",
+        "宋**",
+        "庞**",
+        "程**",
+        "路**",
+        "辛**",
+        "贾**",
+        "翟**",
+        "夹**",
+        "谷*",
+        "郏**",
+        "袁**",
+        "寇**",
+        "孔**",
+        "包**",
+        "牛**",
+        "周**",
+        "司**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdwhzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "嘉祥县"
+      ],
+      "value_pool": [
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

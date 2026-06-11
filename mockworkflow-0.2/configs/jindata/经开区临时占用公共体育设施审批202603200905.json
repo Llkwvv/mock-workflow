@@ -1,0 +1,127 @@
+{
+  "file_name": "经开区临时占用公共体育设施审批202603200905.xlsx",
+  "table_name": "经开区临时占用公共体育设施审批202603200905",
+  "row_count": 25,
+  "columns": [
+    "sxmc",
+    "bz",
+    "slsj",
+    "lxfs",
+    "sqr"
+  ],
+  "fields": [
+    {
+      "name": "sxmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "经开区临时占用公共体育设施审批"
+      ],
+      "value_pool": [
+        "经开区临时占用公共体育设施审批"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "刘**申请经开区临时占用公共体育设施审批"
+      ],
+      "value_pool": [
+        "刘**申请经开区临时占用公共体育设施审批"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2026.02.26"
+      ],
+      "value_pool": [
+        "2026.02.26"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "183******70",
+        "189******41",
+        "176******39",
+        "183******71",
+        "183******52",
+        "158******93",
+        "152******60",
+        "155******04",
+        "183******69",
+        "157******66",
+        "187******87",
+        "155******34",
+        "150******99",
+        "155******40",
+        "152******09",
+        "156******34",
+        "182******29",
+        "150******10",
+        "155******41",
+        "152******10",
+        "156******35",
+        "182******30",
+        "150******25",
+        "155******42",
+        "152******13"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "刘**",
+        "江**",
+        "张**",
+        "庞**",
+        "秦**",
+        "杨**",
+        "李**",
+        "贾**",
+        "闫**",
+        "崔**",
+        "唐**",
+        "胡**",
+        "袁**",
+        "窦**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

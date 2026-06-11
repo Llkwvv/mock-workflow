@@ -1,0 +1,74 @@
+{
+  "file_name": "任城区预防接种单位信息202603210811.xlsx",
+  "table_name": "任城区预防接种单位信息202603210811",
+  "row_count": 2,
+  "columns": [
+    "dwmc",
+    "dz",
+    "电话",
+    "yfjzfwfw"
+  ],
+  "fields": [
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "金城街道（鲁抗）社区卫生服务中心预防接种门诊",
+        "南苑街道社区卫生服务中心第二预防接种门诊"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "任城区新华路96号",
+        "南苑街道南苑社区小北湖路5号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "电话",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "157********",
+        "150********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yfjzfwfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "儿童、成人"
+      ],
+      "value_pool": [
+        "儿童、成人"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

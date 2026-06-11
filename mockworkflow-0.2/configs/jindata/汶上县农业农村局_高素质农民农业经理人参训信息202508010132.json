@@ -1,0 +1,126 @@
+{
+  "file_name": "汶上县农业农村局_高素质农民农业经理人参训信息202508010132.xlsx",
+  "table_name": "汶上县农业农村局_高素质农民农业经理人参训信息202508010132",
+  "row_count": 30,
+  "columns": [
+    "姓名",
+    "pxlx",
+    "zj",
+    "sqfs",
+    "pxdd"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "付**",
+        "郭**",
+        "韩**",
+        "胡**",
+        "姬**",
+        "孔**",
+        "李**",
+        "林**",
+        "刘**",
+        "路**",
+        "孟**",
+        "牛**",
+        "庞**",
+        "秦**",
+        "宋**",
+        "孙**",
+        "吴**",
+        "于**",
+        "袁**",
+        "张**",
+        "张*",
+        "赵***",
+        "赵**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "农业经理人"
+      ],
+      "value_pool": [
+        "农业经理人"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "南旺镇",
+        "中都街道",
+        "郭楼镇",
+        "次邱镇",
+        "南站街道",
+        "寅寺镇",
+        "郭仓镇",
+        "杨店镇",
+        "军屯乡",
+        "白石镇",
+        "苑庄镇",
+        "汶上街道",
+        "刘楼镇",
+        "康驿镇",
+        "义桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sqfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "主管部门推荐"
+      ],
+      "value_pool": [
+        "主管部门推荐"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济南龙凤庄园"
+      ],
+      "value_pool": [
+        "济南龙凤庄园"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

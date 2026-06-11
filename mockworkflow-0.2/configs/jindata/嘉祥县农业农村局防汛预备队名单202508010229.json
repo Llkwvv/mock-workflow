@@ -1,0 +1,172 @@
+{
+  "file_name": "嘉祥县农业农村局防汛预备队名单202508010229.xlsx",
+  "table_name": "嘉祥县农业农村局防汛预备队名单202508010229",
+  "row_count": 72,
+  "columns": [
+    "zw",
+    "dw",
+    "xb",
+    "姓名",
+    "ks"
+  ],
+  "fields": [
+    {
+      "name": "zw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "队长",
+        "副队长",
+        "成员"
+      ],
+      "value_pool": [
+        "队长",
+        "副队长",
+        "成员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县农业农村局"
+      ],
+      "value_pool": [
+        "嘉祥县农业农村局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "曹*华",
+        "胡*",
+        "孙*强",
+        "张*峰",
+        "刘*清",
+        "李*县",
+        "胡*伟",
+        "程*强",
+        "刘*利",
+        "王*",
+        "王*春",
+        "杨*祥",
+        "薛*领",
+        "孟*民",
+        "付*",
+        "袁*",
+        "汤*",
+        "张*蓬",
+        "杨*队",
+        "马*忠",
+        "王*国",
+        "褚*宽",
+        "陈*信",
+        "马*斌",
+        "姚*玉",
+        "沈*红",
+        "宋*霞",
+        "孙*林",
+        "丁*臣",
+        "张*斌",
+        "刘*伟",
+        "贾*刚",
+        "吕*环",
+        "薛*娟",
+        "陈*明",
+        "蔡*军",
+        "朱*丛",
+        "李*安",
+        "范*伟",
+        "张*关",
+        "杨*",
+        "李*瑞",
+        "吕*光",
+        "梁*华",
+        "朱*霞",
+        "申*真",
+        "刘*峰",
+        "王*慧",
+        "孟*丽",
+        "王*勇",
+        "周*海",
+        "张*",
+        "朱*涛",
+        "张*新",
+        "陈*坤",
+        "张*玲",
+        "崔*荣",
+        "韩*",
+        "王*启",
+        "罗*竹",
+        "崔*秋",
+        "杜*赫",
+        "胡*泉",
+        "胡*锦"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ks",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "种子站",
+        "农技站",
+        "生产科",
+        "发展规划科",
+        "办公室",
+        "渔政",
+        "农田",
+        "执法大队",
+        "财务科",
+        "农机",
+        "信息科",
+        "土肥站",
+        "法规科",
+        "工会"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

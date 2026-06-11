@@ -1,0 +1,113 @@
+{
+  "file_name": "医保工作人员名单202508010222.xlsx",
+  "table_name": "医保工作人员名单202508010222",
+  "row_count": 2,
+  "columns": [
+    "xb",
+    "ryzt",
+    "姓名",
+    "mz",
+    "zzmm",
+    "zy"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ryzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "在职",
+        "在职2025"
+      ],
+      "value_pool": [
+        "在职",
+        "在职2025"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "张**"
+      ],
+      "value_pool": [
+        "张**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉族"
+      ],
+      "value_pool": [
+        "汉族"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzmm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "群众"
+      ],
+      "value_pool": [
+        "群众"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "工学"
+      ],
+      "value_pool": [
+        "工学"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

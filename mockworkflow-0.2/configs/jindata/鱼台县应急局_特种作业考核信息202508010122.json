@@ -1,0 +1,211 @@
+{
+  "file_name": "鱼台县应急局_特种作业考核信息202508010122.xlsx",
+  "table_name": "鱼台县应急局_特种作业考核信息202508010122",
+  "row_count": 34,
+  "columns": [
+    "zcxm",
+    "kslx",
+    "sfhg",
+    "xb",
+    "rylx",
+    "llcj",
+    "sccj",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "zcxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "熔化焊接与热切割作业",
+        "焊接、热切割"
+      ],
+      "value_pool": [
+        "熔化焊接与热切割作业",
+        "焊接、热切割"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kslx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "初培",
+        "初级培训"
+      ],
+      "value_pool": [
+        "初培",
+        "初级培训"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfhg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "不合格",
+        "合格",
+        "否",
+        "是"
+      ],
+      "value_pool": [
+        "不合格",
+        "合格",
+        "否",
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女",
+        "男性"
+      ],
+      "value_pool": [
+        "男",
+        "女",
+        "男性"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "rylx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "特种作业人员"
+      ],
+      "value_pool": [
+        "特种作业人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "llcj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "无",
+        "75",
+        "73",
+        "85",
+        "66",
+        "81",
+        "62",
+        "93",
+        "59",
+        "84",
+        "67",
+        "89",
+        "78",
+        "99",
+        "94",
+        "64",
+        "95",
+        "未参加"
+      ],
+      "min_value": 59.0,
+      "max_value": 99.0
+    },
+    {
+      "name": "sccj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "无",
+        "100.0",
+        "22.0",
+        "95.0",
+        "99.0",
+        "98.0",
+        "94.0",
+        "93.0",
+        "未参加",
+        "100"
+      ],
+      "value_pool": [
+        "无",
+        "100.0",
+        "22.0",
+        "95.0",
+        "99.0",
+        "98.0",
+        "94.0",
+        "93.0",
+        "未参加",
+        "100"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "袁**",
+        "孙**",
+        "曹**",
+        "李**",
+        "孔**",
+        "徐**",
+        "窦**",
+        "田**",
+        "刘**",
+        "张**",
+        "林**",
+        "王**",
+        "葛**",
+        "邢**",
+        "赵**",
+        "梅**",
+        "吴**",
+        "闫**",
+        "甄**",
+        "宋**",
+        "郭**",
+        "苑**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

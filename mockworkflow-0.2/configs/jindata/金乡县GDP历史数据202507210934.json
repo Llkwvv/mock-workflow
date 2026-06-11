@@ -1,0 +1,104 @@
+{
+  "file_name": "金乡县GDP历史数据202507210934.xlsx",
+  "table_name": "金乡县GDP历史数据202507210934",
+  "row_count": 5,
+  "columns": [
+    "yc",
+    "gyy",
+    "sc",
+    "ec",
+    "nf"
+  ],
+  "fields": [
+    {
+      "name": "yc",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "69.125",
+        "76.176",
+        "80.104",
+        "82.546",
+        "88.066"
+      ],
+      "min_value": 69.125,
+      "max_value": 88.066
+    },
+    {
+      "name": "gyy",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "219.871",
+        "256.452",
+        "270.87",
+        "283.759",
+        "298.874"
+      ],
+      "min_value": 219.871,
+      "max_value": 298.874
+    },
+    {
+      "name": "sc",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "88.204",
+        "100.727",
+        "112.208",
+        "119.138",
+        "124.544"
+      ],
+      "min_value": 88.204,
+      "max_value": 124.544
+    },
+    {
+      "name": "ec",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "62.542",
+        "79.55",
+        "78.558",
+        "82.075",
+        "86.264"
+      ],
+      "min_value": 62.542,
+      "max_value": 86.264
+    },
+    {
+      "name": "nf",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "min_value": 2020.0,
+      "max_value": 2024.0
+    }
+  ]
+}

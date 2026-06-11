@@ -1,0 +1,193 @@
+{
+  "file_name": "高新区退伍军人抚恤金定期发放信息202604081743.xlsx",
+  "table_name": "高新区退伍军人抚恤金定期发放信息202604081743",
+  "row_count": 5,
+  "columns": [
+    "xsq",
+    "sfzh",
+    "xb",
+    "zjd",
+    "sb",
+    "姓名",
+    "c",
+    "sd",
+    "jtzzhdw",
+    "s"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370811**********50",
+        "370822**********14",
+        "370822**********19",
+        "370822**********70",
+        "370822**********93"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "洸河街道",
+        "王因街道"
+      ],
+      "value_pool": [
+        "洸河街道",
+        "王因街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "60周岁以上农村籍退役士兵",
+        "60岁退役老兵"
+      ],
+      "value_pool": [
+        "60周岁以上农村籍退役士兵",
+        "60岁退役老兵"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "毕**",
+        "刘**",
+        "徐**",
+        "张**",
+        "王**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "c",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "三**委",
+        "丁*",
+        "后*",
+        "社*",
+        "西*美"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "洸河街道",
+        "王因街道"
+      ],
+      "value_pool": [
+        "洸河街道",
+        "王因街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzzhdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "洸**道",
+        "丁*",
+        "后*",
+        "社*",
+        "西*美"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "file_name": "鱼台县气象局_防雷安全培训计划表信息202506241200.xlsx",
+  "table_name": "鱼台县气象局_防雷安全培训计划表信息202506241200",
+  "row_count": 54,
+  "columns": [
+    "pxnyf",
+    "zrdw",
+    "pxts",
+    "pxdx",
+    "pxnr",
+    "cbdw",
+    "cxrs"
+  ],
+  "fields": [
+    {
+      "name": "pxnyf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2020年1月",
+        "2020年2月",
+        "2020年3月",
+        "2020年4月",
+        "2020年5月",
+        "2020年6月",
+        "2020年7月",
+        "2020年8月",
+        "2020年9月",
+        "2020年10月",
+        "2020年11月",
+        "2020年12月",
+        "2021年1月",
+        "2021年2月",
+        "2021年3月",
+        "2021年4月",
+        "2021年5月",
+        "2021年6月",
+        "2021年7月",
+        "2021年8月",
+        "2021年9月",
+        "2021年10月",
+        "2021年11月",
+        "2021年12月",
+        "2022年1月",
+        "2022年2月",
+        "2022年3月",
+        "2022年4月",
+        "2022年5月",
+        "2022年6月",
+        "2022年7月",
+        "2022年8月",
+        "2022年9月",
+        "2022年10月",
+        "2022年11月",
+        "2022年12月",
+        "2023年1月",
+        "2023年2月",
+        "2023年3月",
+        "2023年4月",
+        "2023年5月",
+        "2023年6月",
+        "2023年7月",
+        "2023年8月",
+        "2023年9月",
+        "45292",
+        "45323",
+        "45352",
+        "45383",
+        "45413",
+        "45444",
+        "45474",
+        "45505",
+        "45536"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "鱼台县气象局"
+      ],
+      "value_pool": [
+        "鱼台县气象局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxts",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1"
+      ],
+      "value_pool": [
+        "1"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "pxdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "防灾减灾人员"
+      ],
+      "value_pool": [
+        "防灾减灾人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [],
+      "value_pool": [
+        "雷电的形成和分类",
+        "雷电和雷电流参数",
+        "雷电的危害",
+        "建筑物的防雷分类防雷保护区",
+        "现代防雷技术和方法",
+        "避雷器与电涌抑制器件",
+        "接地技术",
+        "防雷装置检测技术",
+        "雷电灾害调查与分析",
+        "雷电监测与预警预报",
+        "综合防雷工程",
+        "雷电灾害风险评估"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "防灾减灾办公室"
+      ],
+      "value_pool": [
+        "防灾减灾办公室"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cxrs",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2",
+        "3"
+      ],
+      "value_pool": [
+        "2",
+        "3"
+      ],
+      "min_value": 2.0,
+      "max_value": 3.0
+    }
+  ]
+}

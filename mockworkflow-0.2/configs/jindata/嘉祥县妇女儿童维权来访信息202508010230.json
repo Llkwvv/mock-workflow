@@ -1,0 +1,169 @@
+{
+  "file_name": "嘉祥县妇女儿童维权来访信息202508010230.xlsx",
+  "table_name": "嘉祥县妇女儿童维权来访信息202508010230",
+  "row_count": 4,
+  "columns": [
+    "lfrxm",
+    "xb",
+    "nl",
+    "jfsj",
+    "whcd",
+    "hk",
+    "lflb",
+    "jtzz",
+    "cljg"
+  ],
+  "fields": [
+    {
+      "name": "lfrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "匿*"
+      ],
+      "value_pool": [
+        "匿*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女"
+      ],
+      "value_pool": [
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "40",
+        "42",
+        "51",
+        "38"
+      ],
+      "min_value": 38.0,
+      "max_value": 51.0
+    },
+    {
+      "name": "jfsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2023.10.11",
+        "2023.10.31",
+        "2022.02.26",
+        "2024.05.22"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "whcd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "初中"
+      ],
+      "value_pool": [
+        "初中"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已婚"
+      ],
+      "value_pool": [
+        "已婚"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lflb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "家庭暴力",
+        "治病求助",
+        "婚姻家庭"
+      ],
+      "value_pool": [
+        "家庭暴力",
+        "治病求助",
+        "婚姻家庭"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县大张楼镇张东社区",
+        "济宁经开区疃里镇",
+        "嘉祥县纸坊镇",
+        "嘉祥县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cljg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "已完结"
+      ],
+      "value_pool": [
+        "已完结"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

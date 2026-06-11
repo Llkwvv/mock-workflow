@@ -1,0 +1,119 @@
+{
+  "file_name": "微山县机关事务服务中心人事信息_0.csv",
+  "table_name": "微山县机关事务服务中心人事信息_0",
+  "row_count": 24,
+  "columns": [
+    "mz",
+    "zzmm",
+    "姓名",
+    "dw",
+    "xb"
+  ],
+  "fields": [
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zzmm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "中共党员",
+        "群众"
+      ],
+      "value_pool": [
+        "中共党员",
+        "群众"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "孙黎明",
+        "孔昭伟",
+        "满艳军",
+        "陈锦龄",
+        "郑晓丹",
+        "尹  文",
+        "曹晓娇",
+        "王  菲",
+        "田翔宇",
+        "朱信忠",
+        "裴中华",
+        "张永芳",
+        "殷晓东",
+        "李  建",
+        "娄立起",
+        "王慧芬",
+        "褚  飞",
+        "张良明",
+        "曾  凯",
+        "王晓莹",
+        "卜祥壮",
+        "钟  然",
+        "许帅帅",
+        "裴广熙"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县机关事务服务中心"
+      ],
+      "value_pool": [
+        "微山县机关事务服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

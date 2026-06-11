@@ -1,0 +1,133 @@
+{
+  "file_name": "济宁市民政局婚姻登记处基本信息202504231532.xlsx",
+  "table_name": "济宁市民政局婚姻登记处基本信息202504231532",
+  "row_count": 56,
+  "columns": [
+    "bgdd",
+    "dw",
+    "lxdh",
+    "nd",
+    "ywfw"
+  ],
+  "fields": [
+    {
+      "name": "bgdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市任城区太白东路45号",
+        "济宁市兖州区中御桥北路29号",
+        "曲阜市星光天地为民服务中心",
+        "泗水县中兴路政务服务中心二楼",
+        "邹城市民政大街296号",
+        "微山县金源路为民服务中心",
+        "鱼台县湖陵三路南首路西",
+        "金乡县政务服务中心",
+        "嘉祥县呈祥街3号为民服务中心西附楼4楼",
+        "汶上县中都街道尚书路东段50号",
+        "梁山县水泊中路南端",
+        "济宁市红星中路24号福彩大楼"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "任城区婚姻登记处",
+        "兖州区婚姻登记处",
+        "曲阜市婚姻登记处",
+        "泗水县婚姻登记处",
+        "邹城市婚姻登记处",
+        "微山县婚姻登记处",
+        "鱼台县婚姻登记处",
+        "金乡县婚姻登记处",
+        "嘉祥县婚姻登记处",
+        "汶上县婚姻登记处",
+        "梁山县婚姻登记处",
+        "济宁市民政婚姻登记处"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "0537-2386560",
+        "0537-3413119",
+        "0537-4463178",
+        "0537-4239417",
+        "0537-5257877",
+        "0537-8267700",
+        "0537-6257177",
+        "0537-8712384",
+        "0537-6861507",
+        "0537-7295469",
+        "0537-7325292",
+        "0537-2253917"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2020年",
+        "2021年",
+        "2022年",
+        "2023年",
+        "2024年"
+      ],
+      "value_pool": [
+        "2020年",
+        "2021年",
+        "2022年",
+        "2023年",
+        "2024年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ywfw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "内地居民",
+        "涉外登记",
+        "涉外、内地居民"
+      ],
+      "value_pool": [
+        "内地居民",
+        "涉外登记",
+        "涉外、内地居民"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

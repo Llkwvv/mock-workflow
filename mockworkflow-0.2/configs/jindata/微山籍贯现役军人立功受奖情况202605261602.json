@@ -1,0 +1,145 @@
+{
+  "file_name": "微山籍贯现役军人立功受奖情况202605261602.xlsx",
+  "table_name": "微山籍贯现役军人立功受奖情况202605261602",
+  "row_count": 12,
+  "columns": [
+    "rljl",
+    "zjsfff",
+    "jlsj",
+    "sdxbsj",
+    "jtzz",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "rljl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "21年度\n三等功",
+        "2025三等功"
+      ],
+      "value_pool": [
+        "21年度\n三等功",
+        "2025三等功"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjsfff",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jlsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2021.11.16",
+        "2021.12",
+        "2021.04.03",
+        "2021.05.08",
+        "2021.11.27",
+        "2021.12.09",
+        "2022.01.10",
+        "2022.03.01",
+        "2022.01.18",
+        "2022.08.08",
+        "2025"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sdxbsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022.01.17",
+        "2022.01.26",
+        "2022.03.31",
+        "2022.09.14",
+        "2025"
+      ],
+      "value_pool": [
+        "2022.01.17",
+        "2022.01.26",
+        "2022.03.31",
+        "2022.09.14",
+        "2025"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "韩庄镇车站村",
+        "夏镇街道微湖佳苑",
+        "驩城镇房庄村/龙顺御园",
+        "夏镇街道苏园二村",
+        "夏镇街道夏阳小区",
+        "夏镇街道龙城公馆",
+        "留庄镇一村留庄大桥东",
+        "夏镇街道阳光华府/傅村社区",
+        "奎文路金盛佳苑",
+        "驩城镇渡口新村",
+        "微山县马坡镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "张*",
+        "於*",
+        "曹*",
+        "徐*",
+        "朱*",
+        "安*",
+        "孙*",
+        "史*",
+        "王*",
+        "张*康",
+        "刘*礼"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "file_name": "任城区法律援助工作站202507210942.xlsx",
+  "table_name": "任城区法律援助工作站202507210942",
+  "row_count": 42,
+  "columns": [
+    "s",
+    "xq",
+    "jgmc",
+    "yzzdz",
+    "yzfy"
+  ],
+  "fields": [
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "任城区"
+      ],
+      "value_pool": [
+        "任城区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "任城区阜桥街道法律援助工作站",
+        "任城区仙营街道法律援助工作站",
+        "任城区李营街道法律援助工作站",
+        "任城区南张街道法律援助工作站",
+        "任城区长沟镇法律援助工作站",
+        "任城区二十里铺街道法律援助工作站",
+        "任城区安居街道法律援助工作站",
+        "任城区唐口街道法律援助工作站",
+        "任城区喻屯镇法律援助工作站",
+        "任城区越河街道法律援助工作站",
+        "任城区南苑街道法律援助工作站",
+        "任城区金城街道法律援助工作站",
+        "任城区观音阁街道法律援助工作站",
+        "任城区济阳街道法律援助工作站",
+        "任城区古槐街道法律援助工作站",
+        "驻任城区人民法院法律援助工作站",
+        "驻任城区人民检察院法律援助工作站",
+        "任城区劳动争议法律援助工作站",
+        "任城区军人军属法律援助工作站",
+        "任城区人武部法律援助工作站",
+        "任城区妇女儿童法律援助工作站",
+        "任城区廿里铺街道法律援助工作站",
+        "任城区人民武装部法律援助工作站",
+        "任城区退役军人法律援助工作站"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yzzdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "任城区司法局阜桥司法所",
+        "任城区司法局仙营司法所",
+        "任城区司法局李营司法所",
+        "任城区司法局南张司法所",
+        "任城区司法局长沟司法所",
+        "任城区司法局二十里铺司法所",
+        "任城区司法局安居司法所",
+        "任城区司法局唐口司法所",
+        "任城区司法局喻屯司法所",
+        "任城区司法局越河司法所",
+        "任城区司法局南苑司法所",
+        "任城区司法局金城司法所",
+        "任城区司法局观音阁司法所",
+        "任城区司法局济阳司法所",
+        "任城区司法局古槐司法所",
+        "任城区人民法院诉讼服务中心",
+        "任城区人民检察院办公楼一楼",
+        "任城区人力资源与社会保障综合服务大厅一楼",
+        "任城区公共法律服务中心一楼",
+        "济宁市供销路与金宇路交叉口",
+        "任城区建设北路86号",
+        "任城区司法局廿里铺司法所",
+        "涉密",
+        "任城区建设路43号"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yzfy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "免费"
+      ],
+      "value_pool": [
+        "免费"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

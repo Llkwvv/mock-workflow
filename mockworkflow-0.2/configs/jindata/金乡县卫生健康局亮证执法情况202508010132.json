@@ -1,0 +1,178 @@
+{
+  "file_name": "金乡县卫生健康局亮证执法情况202508010132.xlsx",
+  "table_name": "金乡县卫生健康局亮证执法情况202508010132",
+  "row_count": 28,
+  "columns": [
+    "xb",
+    "zfsj",
+    "zjyxq",
+    "zfzh",
+    "zfqy",
+    "gzdw",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "法定工作日上午8:30-12:00，下午14:00-18:00",
+        "法定工作日"
+      ],
+      "value_pool": [
+        "法定工作日上午8:30-12:00，下午14:00-18:00",
+        "法定工作日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zjyxq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023-06-30 00:00:00",
+        "2022-06-30 00:00:00"
+      ],
+      "value_pool": [
+        "2023-06-30 00:00:00",
+        "2022-06-30 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "150****2048",
+        "150****2009",
+        "150****2022",
+        "150****2032",
+        "150****2045",
+        "150****2019",
+        "150****2044",
+        "150****2067",
+        "150****2008",
+        "150****2013",
+        "150****2037",
+        "150****2054",
+        "150****2029",
+        "150****2004",
+        "150****2039",
+        "150****2012",
+        "150****2024",
+        "150****2025",
+        "150****2047",
+        "150****2023",
+        "150****2041",
+        "150****2003",
+        "150****2014",
+        "150****2007",
+        "150****2052",
+        "150****2026"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市金乡县",
+        "金乡县"
+      ],
+      "value_pool": [
+        "济宁市金乡县",
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "金乡县卫生健康综合执法大队"
+      ],
+      "value_pool": [
+        "金乡县卫生健康综合执法大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "董**",
+        "夏**",
+        "曹**",
+        "杜**",
+        "肖*",
+        "张*",
+        "石*",
+        "渠*",
+        "周**",
+        "孙*",
+        "焦**",
+        "陈*",
+        "李**",
+        "史**",
+        "王**",
+        "孙**",
+        "荆*",
+        "李*",
+        "王*",
+        "卓**",
+        "周*",
+        "郝**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

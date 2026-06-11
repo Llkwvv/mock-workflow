@@ -1,0 +1,144 @@
+{
+  "file_name": "汶上县农业农村局_农资市场专项检查信息202507210934.xlsx",
+  "table_name": "汶上县农业农村局_农资市场专项检查信息202507210934",
+  "row_count": 29,
+  "columns": [
+    "jcry",
+    "zj",
+    "jcdx",
+    "jcnr",
+    "jcsj"
+  ],
+  "fields": [
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "梁吉歌、王宪磊"
+      ],
+      "value_pool": [
+        "梁吉歌、王宪磊"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "寅寺镇",
+        "康驿镇",
+        "郭仓镇政府驻地",
+        "郭仓镇",
+        "苑庄镇",
+        "汶上街道",
+        "杨店镇驻地",
+        "杨店镇",
+        "次邱镇",
+        "中都街道"
+      ],
+      "value_pool": [
+        "寅寺镇",
+        "康驿镇",
+        "郭仓镇政府驻地",
+        "郭仓镇",
+        "苑庄镇",
+        "汶上街道",
+        "杨店镇驻地",
+        "杨店镇",
+        "次邱镇",
+        "中都街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县三赢商贸中心",
+        "汶上县东草农资超市",
+        "汶上县张芹农资销售部",
+        "汶上县凯斌农资门市部",
+        "汶上县金硕种业",
+        "汶上县春良农资店",
+        "汶上县润田种植农民专业合作社",
+        "汶上县寅寺供销合作社王堂村门市部",
+        "汶上县寅寺镇农业技术推广服务站",
+        "汶上县寅寺镇供销合作社何湾门市部",
+        "汶上县寅寺镇供销合作社聚福门市部",
+        "济宁润物生物科技有限公司",
+        "汶上县益农农资门市部",
+        "圣都公司康驿供销社农资部",
+        "济宁大粮农业服务有限公司",
+        "济宁农祥农业科技有限公司",
+        "济宁巨光生物科技有限公司",
+        "山东省汶上县根叶园农资经营部",
+        "济宁润青商贸有限公司",
+        "汶上县杨店供销社农资石油经营部",
+        "汶上县杨店镇赵刚农资",
+        "汶上县德丰农资超市",
+        "汶上县鲁佳农资",
+        "汶上县鹿湾农资经营店",
+        "汶上县领航农资经营部",
+        "汶上县开放农资超市",
+        "汶上县大商农资超市",
+        "汶上县圣都农业生产资料有限责任公司化肥经营第一分公司",
+        "汶上县农盛农资服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "农药进销货台账、农资储存方式、农药废弃物处置等"
+      ],
+      "value_pool": [
+        "农药进销货台账、农资储存方式、农药废弃物处置等"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "3月",
+        "4月",
+        "5月",
+        "6月"
+      ],
+      "value_pool": [
+        "3月",
+        "4月",
+        "5月",
+        "6月"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "file_name": "金乡县教体局各学校支教_交流_人数分配表202506302121.xlsx",
+  "table_name": "金乡县教体局各学校支教_交流_人数分配表202506302121",
+  "row_count": 25,
+  "columns": [
+    "sfkzdkjz",
+    "hj",
+    "zrjs",
+    "xx",
+    "dgzj",
+    "sj",
+    "jdzd"
+  ],
+  "fields": [
+    {
+      "name": "sfkzdkjz",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "15",
+        "11",
+        "2",
+        "5",
+        "12",
+        "7",
+        "8",
+        "3",
+        "1",
+        "6",
+        "10",
+        "18"
+      ],
+      "min_value": 1.0,
+      "max_value": 18.0
+    },
+    {
+      "name": "hj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "32",
+        "24",
+        "5",
+        "11",
+        "26",
+        "16",
+        "17",
+        "7",
+        "3",
+        "4",
+        "13",
+        "21",
+        "15",
+        "22",
+        "38"
+      ],
+      "min_value": 3.0,
+      "max_value": 38.0
+    },
+    {
+      "name": "zrjs",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "314",
+        "205",
+        "49",
+        "89",
+        "276",
+        "272",
+        "192",
+        "67",
+        "23",
+        "20",
+        "34",
+        "117",
+        "154",
+        "316",
+        "189",
+        "136",
+        "258",
+        "245",
+        "143",
+        "113",
+        "196",
+        "305",
+        "408",
+        "227"
+      ],
+      "min_value": 20.0,
+      "max_value": 408.0
+    },
+    {
+      "name": "xx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "王杰中学",
+        "金曼克中学",
+        "实验中学",
+        "金乡三中",
+        "实验小学教育集团",
+        "学院附小教育集团",
+        "中心教育集团",
+        "春城小学",
+        "香城小学",
+        "东城小学",
+        "金乡街道教育联区",
+        "鱼山教育联区",
+        "高河教育联区",
+        "马庙教育联区",
+        "鸡黍教育联区",
+        "马集教育联区",
+        "化雨教育联区",
+        "肖云教育联区",
+        "司马教育联区",
+        "王丕教育联区",
+        "兴隆教育联区",
+        "羊山教育联区",
+        "胡集教育联区",
+        "卜集教育联区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dgzj",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2.0",
+        "1.0"
+      ],
+      "value_pool": [
+        "2.0",
+        "1.0"
+      ],
+      "min_value": 1.0,
+      "max_value": 2.0
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020-2021学年度"
+      ],
+      "value_pool": [
+        "2020-2021学年度"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jdzd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "15",
+        "11",
+        "2",
+        "5",
+        "12",
+        "7",
+        "8",
+        "3",
+        "1",
+        "6",
+        "10",
+        "18"
+      ],
+      "min_value": 1.0,
+      "max_value": 18.0
+    }
+  ]
+}

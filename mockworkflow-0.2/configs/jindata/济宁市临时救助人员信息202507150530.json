@@ -1,0 +1,218 @@
+{
+  "file_name": "济宁市临时救助人员信息202507150530.xlsx",
+  "table_name": "济宁市临时救助人员信息202507150530",
+  "row_count": 10622,
+  "columns": [
+    "knyy",
+    "jtrk",
+    "jzje",
+    "knlx",
+    "ffsj",
+    "姓名",
+    "jtzz"
+  ],
+  "fields": [
+    {
+      "name": "knyy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "因病",
+        "因意外",
+        "其他"
+      ],
+      "value_pool": [
+        "因病",
+        "因意外",
+        "其他"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtrk",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1",
+        "4",
+        "5",
+        "2",
+        "3"
+      ],
+      "value_pool": [
+        "1",
+        "4",
+        "5",
+        "2",
+        "3"
+      ],
+      "min_value": 1.0,
+      "max_value": 8.0
+    },
+    {
+      "name": "jzje",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2000",
+        "5000",
+        "50413",
+        "36000",
+        "900",
+        "1500",
+        "3000",
+        "1000",
+        "1400",
+        "400",
+        "800",
+        "1200",
+        "500",
+        "600",
+        "7000",
+        "300",
+        "1800",
+        "1100",
+        "3200",
+        "3500",
+        "7900",
+        "10000",
+        "2700",
+        "8500",
+        "4500"
+      ],
+      "min_value": 0.0,
+      "max_value": 50413.0
+    },
+    {
+      "name": "knlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "低保",
+        "其他",
+        "特困",
+        "低保边缘"
+      ],
+      "value_pool": [
+        "低保",
+        "其他",
+        "特困",
+        "低保边缘"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ffsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2025-01-01",
+        "2025-01-02",
+        "2025-01-03",
+        "2025-01-06",
+        "2025-01-07",
+        "2025-01-08"
+      ],
+      "value_pool": [
+        "2025-01-01",
+        "2025-01-02",
+        "2025-01-03",
+        "2025-01-06",
+        "2025-01-07",
+        "2025-01-08"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王**",
+        "李**",
+        "武**",
+        "孙**",
+        "白**",
+        "徐**",
+        "周**",
+        "蒋**",
+        "胡**",
+        "冯**",
+        "张**",
+        "秦**",
+        "高**",
+        "郭**",
+        "杨**",
+        "陈**",
+        "刘**",
+        "何**",
+        "侯**",
+        "邵**",
+        "郑**",
+        "尹**",
+        "赵**",
+        "解**",
+        "仇**",
+        "仲**",
+        "段**",
+        "邓**",
+        "姜**",
+        "史**",
+        "汪**",
+        "黄**",
+        "步**",
+        "董**",
+        "马**",
+        "常**",
+        "吴**",
+        "田**",
+        "龚**",
+        "褚**",
+        "魏**",
+        "乔**",
+        "卢**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "XX区XX路XX号"
+      ],
+      "value_pool": [
+        "XX区XX路XX号"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

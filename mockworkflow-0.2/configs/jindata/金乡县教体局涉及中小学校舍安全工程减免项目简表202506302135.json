@@ -1,0 +1,149 @@
+{
+  "file_name": "金乡县教体局涉及中小学校舍安全工程减免项目简表202506302135.xlsx",
+  "table_name": "金乡县教体局涉及中小学校舍安全工程减免项目简表202506302135",
+  "row_count": 49,
+  "columns": [
+    "gxsj",
+    "jmfs",
+    "sfxm",
+    "sfbm",
+    "xsq"
+  ],
+  "fields": [
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020年"
+      ],
+      "value_pool": [
+        "2020年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jmfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "全免"
+      ],
+      "value_pool": [
+        "全免"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "土地复垦费",
+        "耕地开垦费",
+        "土地闲置费",
+        "土地登记费",
+        "征（土）地管理费",
+        "地质成果资料费",
+        "矿产资源补偿费",
+        "新菜地开发建设基金",
+        "水利建设基金",
+        "房屋所有权登记费",
+        "城市房屋安全鉴定费",
+        "白蚁防治费",
+        "城市排水设施有偿使用费",
+        "城市道路占用挖掘费",
+        "城市环境卫生费",
+        "城市绿化补偿费",
+        "城市污水处理费（限于事业单位）",
+        "委托拆迁费",
+        "城市基础设施配套费",
+        "城市公用事业附加",
+        "新型墙体材料专项基金",
+        "水资源费",
+        "河道采砂管理费",
+        "河道工程修建维护管理费",
+        "水土流失防治费",
+        "水土保持设施补偿费",
+        "占用农业灌溉水源及设施补偿费",
+        "城市教育费附加",
+        "地方教育附加",
+        "证照费",
+        "防空地下室易地建设费",
+        "门(楼)牌工本费",
+        "卫生监测费",
+        "卫生质量检验费",
+        "疫情处理费",
+        "排污收费",
+        "环境监测服务费",
+        "产品质量监督检验收费",
+        "特种设备检验检测收费",
+        "测绘成果成图资料收费",
+        "测绘产品质量监督检验费",
+        "测绘仪器检测收费",
+        "档案收费",
+        "科学技术档案信息资源收费",
+        "绿化费",
+        "林地补偿费",
+        "森林植被恢复费",
+        "其他项目等"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "国土资源",
+        "住房与城乡建设",
+        "水利",
+        "教育",
+        "税务",
+        "人防办",
+        "公安",
+        "卫生",
+        "环保",
+        "质检",
+        "测绘",
+        "档案",
+        "林业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "金乡县"
+      ],
+      "value_pool": [
+        "金乡县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

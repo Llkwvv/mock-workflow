@@ -1,0 +1,137 @@
+{
+  "file_name": "微山县科技发展计划申请项目202506302122.xlsx",
+  "table_name": "微山县科技发展计划申请项目202506302122",
+  "row_count": 30,
+  "columns": [
+    "sj",
+    "fl",
+    "sbdw",
+    "xmmc",
+    "bz"
+  ],
+  "fields": [
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2022年",
+        "2021年",
+        "2021"
+      ],
+      "value_pool": [
+        "2022年",
+        "2021年",
+        "2021"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "工业类",
+        "农业类"
+      ],
+      "value_pool": [
+        "工业类",
+        "农业类"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sbdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东宜居新材料科技有限公司",
+        "山东派智新能源科技有限公司",
+        "微山宏捷机械有限公司",
+        "微山钢研稀土材料有限公司",
+        "济宁市田农机械有限公司",
+        "山东中晶新能源有限公司",
+        "济宁鑫科船舶科技开发有限公司",
+        "山东远信物流有限公司",
+        "山东星通易航通信科技有限公司",
+        "山东微山湖稀土有限公司",
+        "山东阁林板建材科技有限公司",
+        "鲁冉光电（微山）有限公司",
+        "山东皓翔纺织品有限公司",
+        "山东诺泰机电设备有限公司",
+        "枣庄矿业集团付村煤业有限公司",
+        "易净星（山东）科技有限公司",
+        "济宁森立生物科技有限公司",
+        "山东航宇船业集团股份有限公司",
+        "山东传奇贝贝儿童用品有\n限公司",
+        "山东派智新能源科技有限公司(德朗能）",
+        "山东欣荣生物科技有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "绿色低碳复合材料先进技术成果研发及产业化",
+        "硅基负极超低温高比能量圆柱锂离子电池",
+        "大型发动机用高可靠性机油冷却技术及产业化",
+        "新型石晶地板的关键技术研究",
+        "储能电源用中倍率稀土储氢材料研发",
+        "合梁机技术在新能源成套设备制造中的应用研发",
+        "太阳能直流点解水制氢系统",
+        "微生物降解堆肥式智控马桶的研究与应用",
+        "智能仓储系统研发与应用",
+        "VDE物理层FPGA算法研究与FPGA实现",
+        "碳酸铈钠开发利用研究",
+        "高强度角铁在建筑铝模板行业的推广应用",
+        "一种高效反射的遮蔽型镜片的研发项目",
+        "面料智能印染及复合整理关键技术",
+        "无级调整功能的滚轮罐耳缓冲器的研发",
+        "选煤厂自动加介系统的研究与应用",
+        "一种新型甲醛去除剂的研发及应用",
+        "生物法制备苯氧基丙酸的技术研究",
+        "内河 28 米顶推轮的研制与推广",
+        "高端智能遥感多功能儿童推车",
+        "高容量18650磷酸铁锂锂离子电池制备技术",
+        "呼吸道病原微生物超多重PCR检测试剂盒"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "齐全"
+      ],
+      "value_pool": [
+        "齐全"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

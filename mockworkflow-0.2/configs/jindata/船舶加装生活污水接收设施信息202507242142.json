@@ -1,0 +1,150 @@
+{
+  "file_name": "船舶加装生活污水接收设施信息202507242142.xlsx",
+  "table_name": "船舶加装生活污水接收设施信息202507242142",
+  "row_count": 40,
+  "columns": [
+    "cm",
+    "cbsyr",
+    "azzt",
+    "ns",
+    "zd"
+  ],
+  "fields": [
+    {
+      "name": "cm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁济宁驳0158",
+        "鲁济宁拖2079",
+        "鲁济宁拖2098",
+        "鲁济宁拖2099",
+        "鲁济宁拖2027",
+        "鲁济宁拖2106",
+        "鲁济宁拖2121",
+        "鲁济宁货3863",
+        "鲁济宁拖1985",
+        "鲁济宁拖2026",
+        "鲁济宁驳7606",
+        "鲁济宁拖0755",
+        "鲁济宁驳12038",
+        "鲁济宁驳12055",
+        "鲁济宁驳12063",
+        "鲁济宁驳12065",
+        "鲁济宁驳12077",
+        "鲁济宁驳12099",
+        "鲁济宁驳12377",
+        "鲁济宁驳12381",
+        "鲁济宁驳12382",
+        "鲁济宁驳12383",
+        "鲁济宁驳12385",
+        "鲁济宁驳12909",
+        "鲁济宁驳12961",
+        "鲁济宁驳12963",
+        "鲁济宁驳12965",
+        "鲁济宁驳12969",
+        "鲁济宁驳13009",
+        "鲁济宁驳13068",
+        "鲁济宁驳13128",
+        "鲁济宁驳13851"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cbsyr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市龙腾航运有限责任公司"
+      ],
+      "value_pool": [
+        "济宁市龙腾航运有限责任公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "azzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "已安装"
+      ],
+      "value_pool": [
+        "已安装"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ns",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2021"
+      ],
+      "value_pool": [
+        "2021"
+      ],
+      "min_value": 2021.0,
+      "max_value": 2021.0
+    },
+    {
+      "name": "zd",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "397",
+        "123",
+        "149",
+        "159",
+        "125",
+        "298",
+        "102",
+        "147",
+        "387",
+        "603",
+        "599",
+        "596",
+        "597",
+        "471",
+        "602",
+        "573",
+        "589",
+        "455",
+        "464",
+        "473",
+        "474",
+        "472",
+        "570",
+        "470",
+        "581",
+        "486",
+        "124",
+        "604",
+        "600",
+        "601"
+      ],
+      "min_value": 102.0,
+      "max_value": 604.0
+    }
+  ]
+}

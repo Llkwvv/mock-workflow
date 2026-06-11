@@ -1,0 +1,164 @@
+{
+  "file_name": "任城区城镇其他居民独生子女父母计划生育奖励扶助信息202508010325.xlsx",
+  "table_name": "任城区城镇其他居民独生子女父母计划生育奖励扶助信息202508010325",
+  "row_count": 3478,
+  "columns": [
+    "xcznqk",
+    "dxje",
+    "xb",
+    "姓名",
+    "sszjsq"
+  ],
+  "fields": [
+    {
+      "name": "xcznqk",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1.0"
+      ],
+      "value_pool": [
+        "1.0"
+      ],
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "dxje",
+      "type": "INT",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1200.0"
+      ],
+      "value_pool": [
+        "1200.0"
+      ],
+      "min_value": 1200.0,
+      "max_value": 1200.0
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "女",
+        "男"
+      ],
+      "value_pool": [
+        "女",
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "陈**",
+        "苗**",
+        "邵**",
+        "黄**",
+        "张**",
+        "闫**",
+        "姜**",
+        "李**",
+        "汪**",
+        "王**",
+        "杨**",
+        "吴**",
+        "赵**",
+        "苏**",
+        "范**",
+        "马**",
+        "陈*",
+        "魏**",
+        "方**",
+        "孙**",
+        "曾**",
+        "王*",
+        "谷**",
+        "孙*",
+        "宋*",
+        "丰**",
+        "宁**",
+        "史**",
+        "朱**",
+        "刘**",
+        "玄**",
+        "于**",
+        "高**",
+        "郑**",
+        "崔**",
+        "江**",
+        "邓**",
+        "胡**",
+        "渠*",
+        "荣**",
+        "白**",
+        "廉**",
+        "郭**",
+        "姚**",
+        "岳**",
+        "谢**",
+        "徐**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sszjsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "李营街道液压件",
+        "李营街道苗营",
+        "汇翠园",
+        "任兴家园",
+        "李营",
+        "镇机关",
+        "苗营",
+        "液压件厂宿舍",
+        "郑营",
+        "南刘庄",
+        "南刘庄小区",
+        "薛口家园",
+        "代庄医院",
+        "罗马假日",
+        "北城国际",
+        "济宁毛巾厂",
+        "岱庄医院",
+        "慧博人力",
+        "个人",
+        "济宁鲁南化工厂",
+        "李楼村",
+        "镇直",
+        "宋南村",
+        "吴庄村",
+        "玄楼村",
+        "仙营街道东红庙社区",
+        "仙营街道秦庄社区"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

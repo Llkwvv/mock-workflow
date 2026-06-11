@@ -1,0 +1,161 @@
+{
+  "file_name": "汶上县农业农村局_农产品检测信息202507161313.xlsx",
+  "table_name": "汶上县农业农村局_农产品检测信息202507161313",
+  "row_count": 26,
+  "columns": [
+    "mc",
+    "jclb",
+    "jcjg",
+    "jcry",
+    "jcxs",
+    "lxr"
+  ],
+  "fields": [
+    {
+      "name": "mc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "汶上县润金种植农民专业合作社",
+        "汶上县鲁迎种植农民专业合作社",
+        "山东儒兴农业发展有限公司",
+        "汶上县吉月沼气服务农民专业合作社",
+        "济宁裕凯农业科技有限公司",
+        "汶上县轩丰种植农民专业合作社",
+        "汶上县问心堂家庭农场",
+        "济宁泰东农业开发有限公司",
+        "山东春华农业科技有限公司",
+        "汶上县鲁辉种植农民专业合作社",
+        "山东济宁丰泽农业科技有限公司",
+        "汶上县乐民植保技术农民专业合作社",
+        "汶上县庆农蔬菜种植农民专业合作社",
+        "济宁景明生态农业有限公司",
+        "汶上县鑫湖财科种植农民专业合作社",
+        "汶上县翔鑫农业科技有限公司",
+        "汶上县兴茂家庭农场",
+        "济宁四季无忧农业科技有限公司",
+        "汶上县丰茂种植农民专业合作社"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "value_pool": [
+        "未发现问题终止检查并向监管对象告知检查结果"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "刘登云、高旷",
+        "高旷、李银平",
+        "高旷、刘登云"
+      ],
+      "value_pool": [
+        "刘登云、高旷",
+        "高旷、李银平",
+        "高旷、刘登云"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "县级第二次监督检查",
+        "市级级第一次监督检查",
+        "市级级重点时段监督抽查",
+        "市级重点时段监督抽查",
+        "市级第二次监督抽检",
+        "县级第三次监督抽检",
+        "省级第一次例行抽检"
+      ],
+      "value_pool": [
+        "县级第二次监督检查",
+        "市级级第一次监督检查",
+        "市级级重点时段监督抽查",
+        "市级重点时段监督抽查",
+        "市级第二次监督抽检",
+        "县级第三次监督抽检",
+        "省级第一次例行抽检"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王广田",
+        "王春英",
+        "孔德华",
+        "付双月",
+        "付海涛",
+        "伊同印",
+        "刘传珠",
+        "刘亭印",
+        "闫保国",
+        "江辉",
+        "杨光君",
+        "杨峰",
+        "张春昌",
+        "张保军",
+        "郑则强",
+        "宫庆飞",
+        "顾兴里",
+        "徐建华",
+        "高中生",
+        "郭宗斌",
+        "强广均"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

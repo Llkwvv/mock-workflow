@@ -2,7 +2,7 @@
   "schedules": [
     {
       "id": "adb0c253-2af0-46e9-9c49-285c84d0802c",
-      "sample_filename": "samples/12720340A_购物车导出清单_20260531_1780226241596.xlsx",
+      "sample_filename": "data/12720340A_购物车导出清单_20260531_1780226241596.xlsx",
       "table_name": "auto_table",
       "rows": 100,
       "enable_db_export": false,

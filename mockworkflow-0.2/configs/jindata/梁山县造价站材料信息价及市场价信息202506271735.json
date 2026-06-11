@@ -1,0 +1,143 @@
+{
+  "file_name": "梁山县造价站材料信息价及市场价信息202506271735.xlsx",
+  "table_name": "梁山县造价站材料信息价及市场价信息202506271735",
+  "row_count": 24,
+  "columns": [
+    "bz",
+    "gg",
+    "dw",
+    "xxj",
+    "clmc"
+  ],
+  "fields": [
+    {
+      "name": "bz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "含税"
+      ],
+      "value_pool": [
+        "含税"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "HPB400Eφ6.5",
+        "HRB400E≤10",
+        "HRB400E＞10",
+        "6-12mm",
+        "14-26mm",
+        "42.5MPa",
+        "无规格信息",
+        "240*115*53",
+        "240*115*90",
+        "C-15",
+        "C-20",
+        "C-25",
+        "C-30",
+        "C-35",
+        "C-40",
+        "B1"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "t",
+        "m³",
+        "吨",
+        "千块"
+      ],
+      "value_pool": [
+        "t",
+        "m³",
+        "吨",
+        "千块"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxj",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "3680",
+        "3360",
+        "3270",
+        "3410",
+        "3280",
+        "380",
+        "170",
+        "160",
+        "110",
+        "300",
+        "420",
+        "500",
+        "120",
+        "290",
+        "260",
+        "310",
+        "320",
+        "330",
+        "345",
+        "360"
+      ],
+      "min_value": 110.0,
+      "max_value": 3680.0
+    },
+    {
+      "name": "clmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "钢筋",
+        "钢板",
+        "水泥",
+        "黄砂（过筛中砂）",
+        "碎石",
+        "片石",
+        "毛石",
+        "生石灰",
+        "烧结煤矸石普通砖",
+        "烧结煤矸石多孔砖",
+        "加气砼砌块",
+        "自保温砌块",
+        "蒸压加气混凝土板(ALC)",
+        "商品砼",
+        "细石砼",
+        "挤塑保温板"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

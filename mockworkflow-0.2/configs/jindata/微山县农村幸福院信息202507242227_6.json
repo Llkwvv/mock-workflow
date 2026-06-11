@@ -1,0 +1,74 @@
+{
+  "file_name": "微山县农村幸福院信息202507242227_6.csv",
+  "table_name": "微山县农村幸福院信息202507242227_6",
+  "row_count": 10000,
+  "columns": [
+    "jzmj",
+    "jgmc",
+    "xxdz",
+    "szcws",
+    "xzjdmc"
+  ],
+  "fields": [
+    {
+      "name": "jzmj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xxdz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szcws",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzjdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

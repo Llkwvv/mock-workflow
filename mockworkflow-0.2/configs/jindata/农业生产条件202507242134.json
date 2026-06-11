@@ -1,0 +1,134 @@
+{
+  "file_name": "农业生产条件202507242134.xlsx",
+  "table_name": "农业生产条件202507242134",
+  "row_count": 17,
+  "columns": [
+    "jdl",
+    "zs",
+    "xm",
+    "jldw",
+    "sj"
+  ],
+  "fields": [
+    {
+      "name": "jdl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "-",
+        "950086",
+        "334105",
+        "11538",
+        "7663",
+        "130183",
+        "79406",
+        "10935",
+        "385515",
+        "894039",
+        "317590",
+        "11384",
+        "7180",
+        "123002",
+        "75836",
+        "10117"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "-",
+        "-2.6",
+        "-3.3",
+        "4.2",
+        "-3.2",
+        "-3.9",
+        "-1.7",
+        "-5.2",
+        "2.8",
+        "-2.7",
+        "-2.46",
+        "-1.21",
+        "-2.88",
+        "-2.14",
+        "-2.24",
+        "-3.8"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "农用化肥施用量",
+        "（1）化肥实物量合计",
+        "（2）化肥折纯量合计",
+        "农用塑料薄膜使用量",
+        "其中:地膜使用量",
+        "地膜覆盖面积",
+        "农用柴油使用量",
+        "农药使用量",
+        "农村用电量"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jldw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "-",
+        "吨",
+        "公顷",
+        "万千瓦时"
+      ],
+      "value_pool": [
+        "-",
+        "吨",
+        "公顷",
+        "万千瓦时"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021年",
+        "2023年"
+      ],
+      "value_pool": [
+        "2021年",
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

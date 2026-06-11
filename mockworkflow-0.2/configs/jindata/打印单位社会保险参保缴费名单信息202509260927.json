@@ -1,0 +1,115 @@
+{
+  "file_name": "打印单位社会保险参保缴费名单信息202509260927.xlsx",
+  "table_name": "打印单位社会保险参保缴费名单信息202509260927",
+  "row_count": 24,
+  "columns": [
+    "sfycbh",
+    "sj",
+    "blyw",
+    "blrydw",
+    "slbm"
+  ],
+  "fields": [
+    {
+      "name": "sfycbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "是"
+      ],
+      "value_pool": [
+        "是"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2023-09-01 00:00:00",
+        "2023-09-02 00:00:00",
+        "2023-09-03 00:00:00",
+        "2023-09-04 00:00:00",
+        "2023-09-05 00:00:00",
+        "2023-09-06 00:00:00",
+        "2023-09-07 00:00:00",
+        "2023-09-08 00:00:00",
+        "2023-09-09 00:00:00",
+        "2023-09-10 00:00:00",
+        "2023-09-11 00:00:00",
+        "2023-09-12 00:00:00",
+        "2023-09-13 00:00:00",
+        "2023-09-14 00:00:00",
+        "2023-09-15 00:00:00",
+        "2023-09-16 00:00:00",
+        "2023-09-17 00:00:00",
+        "2023-09-18 00:00:00",
+        "2023-09-19 00:00:00",
+        "2023-09-20 00:00:00",
+        "2023-09-21 00:00:00",
+        "2023-09-22 00:00:00",
+        "2023-09-23 00:00:00",
+        "2023-09-24 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blyw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "打印单位社会保险参保缴费名单信息"
+      ],
+      "value_pool": [
+        "打印单位社会保险参保缴费名单信息"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "blrydw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "韩思雨"
+      ],
+      "value_pool": [
+        "韩思雨"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "slbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经开区人力资源和社会保障服务中心"
+      ],
+      "value_pool": [
+        "经开区人力资源和社会保障服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

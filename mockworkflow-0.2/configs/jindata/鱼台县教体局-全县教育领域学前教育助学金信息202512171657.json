@@ -1,0 +1,297 @@
+{
+  "file_name": "鱼台县教体局-全县教育领域学前教育助学金信息202512171657.xlsx",
+  "table_name": "鱼台县教体局-全县教育领域学前教育助学金信息202512171657",
+  "row_count": 12143,
+  "columns": [
+    "ssxq",
+    "zgdw",
+    "ssly",
+    "jybzmc",
+    "jtbzmx",
+    "xsxm",
+    "sfzh",
+    "shzt",
+    "btjey",
+    "bzsj",
+    "lrsj",
+    "gxsj",
+    "cjsj"
+  ],
+  "fields": [
+    {
+      "name": "ssxq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "鱼台县"
+      ],
+      "value_pool": [
+        "鱼台县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "教体局"
+      ],
+      "value_pool": [
+        "教体局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "教育补贴"
+      ],
+      "value_pool": [
+        "教育补贴"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jybzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "学前教育助学金"
+      ],
+      "value_pool": [
+        "学前教育助学金"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtbzmx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "秋季学前教育助学金",
+        "年春季学前教育助学金",
+        "6月 2023年春季学前教育助学金"
+      ],
+      "value_pool": [
+        "秋季学前教育助学金",
+        "年春季学前教育助学金",
+        "6月 2023年春季学前教育助学金"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "王*",
+        "马*",
+        "常*",
+        "张*",
+        "翟*",
+        "赵*",
+        "林*",
+        "杨*",
+        "董*",
+        "夏*",
+        "袁*",
+        "陈*",
+        "段*",
+        "靳*",
+        "程*",
+        "郑*",
+        "朱*",
+        "迟*",
+        "武*",
+        "谢*",
+        "刘*",
+        "闵*",
+        "李*",
+        "鉴*",
+        "宋*",
+        "狄*",
+        "孟*",
+        "于*",
+        "郝*",
+        "车*",
+        "卜*",
+        "尹*",
+        "孙*",
+        "阚*",
+        "解*",
+        "郭*",
+        "丁*"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "37082*************",
+        "3708**************",
+        "3708262***********",
+        "3708272019********",
+        "3708272018********",
+        "3701042019********",
+        "3708271979********",
+        "3708112018********",
+        "3708272017********",
+        "3714252018********",
+        "3708272016********",
+        "3708262017********",
+        "3708262016********",
+        "3708262019********",
+        "3708272014********",
+        "3713262019********"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "已发布",
+        "待审核"
+      ],
+      "value_pool": [
+        "已发布",
+        "待审核"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "btjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "600",
+        "700",
+        "500"
+      ],
+      "value_pool": [
+        "600",
+        "700",
+        "500"
+      ],
+      "min_value": 400.0,
+      "max_value": 700.0
+    },
+    {
+      "name": "bzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023-12-04 00:00:00",
+        "2023-05-30 00:00:00",
+        "2020-12-04 00:00:00",
+        "2023-05-30"
+      ],
+      "value_pool": [
+        "2023-12-04 00:00:00",
+        "2023-05-30 00:00:00",
+        "2020-12-04 00:00:00",
+        "2023-05-30"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lrsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021-01-20 16:40:50",
+        "2023-06-07 15:26:40",
+        "2023-06-07 15:26:42"
+      ],
+      "value_pool": [
+        "2021-01-20 16:40:50",
+        "2023-06-07 15:26:40",
+        "2023-06-07 15:26:42"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2024-10-25 10:27:12.0"
+      ],
+      "value_pool": [
+        "2024-10-25 10:27:12.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2023-11-16 17:09:16.0"
+      ],
+      "value_pool": [
+        "2023-11-16 17:09:16.0"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

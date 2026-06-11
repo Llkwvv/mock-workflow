@@ -1,0 +1,151 @@
+{
+  "file_name": "嘉祥县建筑市场_双随机_一公开_在建项目检查情况公示信息_0.csv",
+  "table_name": "嘉祥县建筑市场_双随机_一公开_在建项目检查情况公示信息_0",
+  "row_count": 31,
+  "columns": [
+    "jcsj",
+    "xmmc",
+    "jcr",
+    "wffbzbwffbdqk",
+    "nmggzzfqk",
+    "ryqk"
+  ],
+  "fields": [
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2020.05.14",
+        "2020.06.16",
+        "2020.07.16",
+        "2020.08.17",
+        "2020.9.8",
+        "2020.9.9",
+        "2020.10.15",
+        "2020.10.19"
+      ],
+      "value_pool": [
+        "2020.05.14",
+        "2020.06.16",
+        "2020.07.16",
+        "2020.08.17",
+        "2020.9.8",
+        "2020.9.9",
+        "2020.10.15",
+        "2020.10.19"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "嘉祥县太阳城",
+        "晨雨原著1#、2#、6#-8#、11#-13#项目",
+        "颐高电子商务产业园4#、7#、12#、13#住宅楼及幼儿园项目",
+        "祥炬景苑",
+        "桂雨江南",
+        "山东创洁洗涤科技有限公司仓库一项目",
+        "针状焦高精细化学材料综合利用项目三修车间",
+        "济宁史丹利天成农业服务有限公司科研楼项目",
+        "金屯镇明德小学综合楼项目",
+        "麒麟万象城",
+        "盛润公馆",
+        "碧桂园一标",
+        "梧樾公馆",
+        "春晓南苑",
+        "西关二标",
+        "西关一标",
+        "建设路银泰广场",
+        "嘉祥祥安名府",
+        "疏港佳苑",
+        "晨雨原著",
+        "颐高电子",
+        "鲁西南灭火与救援中心",
+        "疾病预防控制中心",
+        "护山批发市场",
+        "农商行",
+        "刘庄",
+        "文苑祥居",
+        "中心花园",
+        "祥城国际"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "刘恩奉、张利贤"
+      ],
+      "value_pool": [
+        "刘恩奉、张利贤"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wffbzbwffbdqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现违法发包、转包、违法分包等情况"
+      ],
+      "value_pool": [
+        "未发现违法发包、转包、违法分包等情况"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "nmggzzfqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "符合要求"
+      ],
+      "value_pool": [
+        "符合要求"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ryqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "项目负责人和项目总监符合要求"
+      ],
+      "value_pool": [
+        "项目负责人和项目总监符合要求"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "file_name": "创全国文明城市志愿者名单202508010120.xlsx",
+  "table_name": "创全国文明城市志愿者名单202508010120",
+  "row_count": 24,
+  "columns": [
+    "ryfl",
+    "xb",
+    "zwmc",
+    "姓名",
+    "ssbm",
+    "lxdh"
+  ],
+  "fields": [
+    {
+      "name": "ryfl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "部门领导正职",
+        "部门领导副职",
+        "不占职数人员"
+      ],
+      "value_pool": [
+        "部门领导正职",
+        "部门领导副职",
+        "不占职数人员"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "主任",
+        "副主任",
+        "副科级干部",
+        "工会主席",
+        "办公室主任",
+        "招商联络科科长",
+        "办公室副主任",
+        "办公室工作人员",
+        "事业单位试用期人员",
+        "助理农经师",
+        "招商联络二科科长",
+        "投资服务科科长",
+        "统计考核科科长",
+        "统计考核科副科长",
+        "工会副主席",
+        "综合调研科科长"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "刘*",
+        "王**",
+        "蔡**",
+        "徐**",
+        "王*",
+        "于**",
+        "程*",
+        "鲁**",
+        "石**",
+        "张**",
+        "孟*",
+        "刘**",
+        "杨**",
+        "杨*",
+        "马**",
+        "李**",
+        "高*",
+        "逯**",
+        "江**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssbm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "办公室",
+        "招商联络科",
+        "投资服务科",
+        "统计考核科",
+        "督查调度科",
+        "工会",
+        "综合调研科"
+      ],
+      "value_pool": [
+        "办公室",
+        "招商联络科",
+        "投资服务科",
+        "统计考核科",
+        "督查调度科",
+        "工会",
+        "综合调研科"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": true,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "150****2755",
+        "150****8899",
+        "186****0456",
+        "186****9888",
+        "150****5079",
+        "155****3966",
+        "132****9196",
+        "151****5739",
+        "132****5290",
+        "153****9683",
+        "156****6235",
+        "153****2460",
+        "176****8202",
+        "136****0988",
+        "155****2886",
+        "156****9956",
+        "156****2218",
+        "180****8017",
+        "155****3789",
+        "135****7670",
+        "136****7289",
+        "153****2021",
+        "159****5654"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

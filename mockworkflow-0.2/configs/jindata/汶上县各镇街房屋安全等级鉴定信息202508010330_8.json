@@ -1,0 +1,145 @@
+{
+  "file_name": "汶上县各镇街房屋安全等级鉴定信息202508010330_8.csv",
+  "table_name": "汶上县各镇街房屋安全等级鉴定信息202508010330_8",
+  "row_count": 1000,
+  "columns": [
+    "xq",
+    "pddj",
+    "cm",
+    "姓名",
+    "xzjd"
+  ],
+  "fields": [
+    {
+      "name": "xq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汶上县"
+      ],
+      "value_pool": [
+        "汶上县"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pddj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "B",
+        "A"
+      ],
+      "value_pool": [
+        "B",
+        "A"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "东芦庄村",
+        "东沙庄村",
+        "东张村",
+        "冯庄",
+        "冯庄村",
+        "古路沟",
+        "后张吾",
+        "后张吾村",
+        "孔家楼村",
+        "孔楼村"
+      ],
+      "value_pool": [
+        "东芦庄村",
+        "东沙庄村",
+        "东张村",
+        "冯庄",
+        "冯庄村",
+        "古路沟",
+        "后张吾",
+        "后张吾村",
+        "孔家楼村",
+        "孔楼村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "芦**",
+        "朱*",
+        "潘**",
+        "乔**",
+        "李**",
+        "梁**",
+        "孔**",
+        "王**",
+        "黄**",
+        "孙**",
+        "肖**",
+        "崔**",
+        "纪**",
+        "代**",
+        "成**",
+        "柳**",
+        "郭**",
+        "周**",
+        "徐**",
+        "史**",
+        "刘**",
+        "吴**",
+        "高**",
+        "侯**",
+        "续**",
+        "张**",
+        "谷**",
+        "袁**",
+        "宫**",
+        "刘*",
+        "郑**",
+        "尚**",
+        "胡**",
+        "马**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [
+        "义桥镇"
+      ],
+      "value_pool": [
+        "义桥镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

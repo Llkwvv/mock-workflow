@@ -1,5 +1,7 @@
 from backend.schemas.field import FieldSpec, SqlType, TableSpec
 
+MYSQL_DIALECT = "mysql"
+
 
 def generate_create_table_sql(table: TableSpec) -> str:
     columns = [_column_definition(field) for field in table.fields]

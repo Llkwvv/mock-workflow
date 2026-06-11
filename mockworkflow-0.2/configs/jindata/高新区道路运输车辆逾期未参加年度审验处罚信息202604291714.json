@@ -1,0 +1,291 @@
+{
+  "file_name": "高新区道路运输车辆逾期未参加年度审验处罚信息202604291714.xlsx",
+  "table_name": "高新区道路运输车辆逾期未参加年度审验处罚信息202604291714",
+  "row_count": 4,
+  "columns": [
+    "wfdd",
+    "ajly",
+    "cphmzc",
+    "ay",
+    "fkjewy",
+    "layj",
+    "xzcfxdrmc",
+    "ajzt",
+    "wfxwmc",
+    "tyshxydm",
+    "cfjdrq",
+    "zfdw",
+    "cfyj",
+    "wfsj",
+    "cclx",
+    "ah"
+  ],
+  "fields": [
+    {
+      "name": "wfdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新区交通运输管理局运管科",
+        "济宁高新区交通运输管理局直属大队办公室"
+      ],
+      "value_pool": [
+        "济宁高新区交通运输管理局运管科",
+        "济宁高新区交通运输管理局直属大队办公室"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ajly",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "车辆道路经营许可证年审"
+      ],
+      "value_pool": [
+        "车辆道路经营许可证年审"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cphmzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "鲁HK*****************挂车",
+        "鲁H4******************挂车）",
+        "鲁H5***************货车",
+        "鲁H9*****************挂车"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ay",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "道路运输车辆逾期未参加年度审验案"
+      ],
+      "value_pool": [
+        "道路运输车辆逾期未参加年度审验案"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fkjewy",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0.3",
+        "0.1"
+      ],
+      "value_pool": [
+        "0.3",
+        "0.1"
+      ],
+      "min_value": 0.1,
+      "max_value": 0.3
+    },
+    {
+      "name": "layj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "《山东省道路运输条例》第五十四条"
+      ],
+      "value_pool": [
+        "《山东省道路运输条例》第五十四条"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzcfxdrmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市红鼎运输有限公司",
+        "济宁辉耀天邦运输有限公司",
+        "济宁汇泽渣土运输有限公司",
+        "济宁森泰物流有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ajzt",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "结束"
+      ],
+      "value_pool": [
+        "结束"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wfxwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "道路运输车辆逾期未参加年度审验"
+      ],
+      "value_pool": [
+        "道路运输车辆逾期未参加年度审验"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tyshxydm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "91370800592644343F",
+        "91370800MA3MMYW683",
+        "91370800MA3RX1R600",
+        "913708004932943763"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cfjdrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2022-08-18",
+        "2022-04-06",
+        "2022-06-20",
+        "2022-06-22"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zfdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "济宁高新技术产业开发区交通运输监察直属大队"
+      ],
+      "value_pool": [
+        "济宁高新技术产业开发区交通运输监察直属大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cfyj",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "《山东省道路运输条例》第六十五条第（六）项"
+      ],
+      "value_pool": [
+        "《山东省道路运输条例》第六十五条第（六）项"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wfsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2022-08-18",
+        "2022-04-06",
+        "2022-06-20",
+        "2022-06-22"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cclx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "普货"
+      ],
+      "value_pool": [
+        "普货"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ah",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "J370871202200055",
+        "J370871202200026",
+        "J370871202200034",
+        "J370871202200037"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

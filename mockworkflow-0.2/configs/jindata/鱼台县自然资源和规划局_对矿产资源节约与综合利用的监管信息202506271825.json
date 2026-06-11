@@ -1,0 +1,222 @@
+{
+  "file_name": "鱼台县自然资源和规划局_对矿产资源节约与综合利用的监管信息202506271825.xlsx",
+  "table_name": "鱼台县自然资源和规划局_对矿产资源节约与综合利用的监管信息202506271825",
+  "row_count": 78,
+  "columns": [
+    "jgdxlx",
+    "jcfs",
+    "jcjg",
+    "jcsj",
+    "xzxdr",
+    "jcxs",
+    "jclb",
+    "jcry"
+  ],
+  "fields": [
+    {
+      "name": "jgdxlx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "企业、个体户、农专社",
+        "企业"
+      ],
+      "value_pool": [
+        "企业、个体户、农专社",
+        "企业"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcfs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "重点监管"
+      ],
+      "value_pool": [
+        "重点监管"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "未发现问题",
+        "无问题"
+      ],
+      "value_pool": [
+        "未发现问题",
+        "无问题"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "44202",
+        "44206",
+        "44222",
+        "44233",
+        "44247",
+        "44255",
+        "44260",
+        "44272",
+        "44285",
+        "44292",
+        "44301",
+        "44314",
+        "44322",
+        "44333",
+        "44344",
+        "44354",
+        "44363",
+        "44372",
+        "44378",
+        "44382",
+        "44567",
+        "44571",
+        "44587",
+        "44598",
+        "44612",
+        "44620",
+        "44625",
+        "44637",
+        "44650",
+        "44657",
+        "44666",
+        "44679",
+        "44687",
+        "44698",
+        "44709",
+        "44719",
+        "44728",
+        "44737",
+        "44743",
+        "44747",
+        "44780",
+        "44794",
+        "44807",
+        "44824",
+        "44842",
+        "44855",
+        "44870",
+        "44888",
+        "44903",
+        "44923",
+        "44932",
+        "44936",
+        "44952",
+        "44963",
+        "44977",
+        "44985",
+        "44990",
+        "45002",
+        "45015",
+        "45022",
+        "45031",
+        "45044",
+        "45052",
+        "45063",
+        "45074",
+        "45084",
+        "45093",
+        "45102",
+        "45108",
+        "45122",
+        "45133",
+        "45156",
+        "45166",
+        "2025年度"
+      ],
+      "min_value": 44202.0,
+      "max_value": 45166.0
+    },
+    {
+      "name": "xzxdr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "山东双合煤矿有限公司",
+        "山东鲁泰控股集团有限公司鹿洼煤矿"
+      ],
+      "value_pool": [
+        "山东双合煤矿有限公司",
+        "山东鲁泰控股集团有限公司鹿洼煤矿"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcxs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "日常检查"
+      ],
+      "value_pool": [
+        "日常检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jclb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "现场检查"
+      ],
+      "value_pool": [
+        "现场检查"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "屈云标、刘志国"
+      ],
+      "value_pool": [
+        "屈云标、刘志国"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

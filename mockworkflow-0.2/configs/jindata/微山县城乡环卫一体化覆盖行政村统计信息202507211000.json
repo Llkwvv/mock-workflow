@@ -1,0 +1,84 @@
+{
+  "file_name": "微山县城乡环卫一体化覆盖行政村统计信息202507211000.xlsx",
+  "table_name": "微山县城乡环卫一体化覆盖行政村统计信息202507211000",
+  "row_count": 1,
+  "columns": [
+    "fgqk",
+    "xzc",
+    "wybjgs",
+    "xzhjd",
+    "xsq"
+  ],
+  "fields": [
+    {
+      "name": "fgqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "已覆盖"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "南马山"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "wybjgs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "伟琦物业公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzhjd",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "coordinate",
+      "enum_values": [],
+      "value_pool": [
+        "韩庄镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "微山县"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "file_name": "区文化和旅游局服务事项清单信息202506161156.xlsx",
+  "table_name": "区文化和旅游局服务事项清单信息202506161156",
+  "row_count": 27,
+  "columns": [
+    "fwqd",
+    "fwdw",
+    "fwdx",
+    "fwdd",
+    "fwsj"
+  ],
+  "fields": [
+    {
+      "name": "fwqd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "旅行社业务许可证核发（行政许可、下放实质性审核权）",
+        "旅行社分社备案（其他权利）",
+        "1A、2A景区质量等级评定（公共服务事项）",
+        "旅游投诉处理服务指南（公共服务事项）",
+        "信息公开服务指南（公共服务事项）",
+        "非物质文化遗产代表性传承人认定（行政确认）",
+        "安装和使用卫星地面接收设施审核(行政许可)",
+        "国有文物保护单位改变用途审核(行政许可)",
+        "文物保护工程资质审批(行政许可)",
+        "开办视频点播业务审批(行政许可)",
+        "利用不可移动文物举办展览、展销、演出审批(行政许可)",
+        "文物保护单位及未核定为文物保护单位的不可移动文物修缮审批(行政许可)",
+        "文物保护单位原址保护措施审批 (行政许可)",
+        "印刷经营许可证核发（出版物除外） —— 设立包装装潢印刷品印刷企业许可(行政许可)",
+        "印刷经营许可证核发（出版物除外） —— 设立其他印刷品印刷企业许可(行政许可)",
+        "印刷经营许可证核发（出版物除外） —— 印刷企业变更主要登记事项许可(行政许可)",
+        "有线电视安装设计审批(行政许可)",
+        "《电视剧制作许可证（乙种）》核发(行政许可)",
+        "非国有文物收藏单位和其他单位借用国有馆藏二级及以下文物举办展览许可(行政许可)",
+        "广播电视节目制作经营单位设立审批(行政许可)",
+        "广播电视站设立审批(行政许可)",
+        "广播电台、电视台申请调整节目套数（包括高清节目等）、台名、技术参数等事项审核(行政许可)",
+        "广播电视专用频段内无线广播电视发射台、转播台的频率指配证明的核发(行政许可)",
+        "卫星电视广播地面接收设施安装服务许可(行政许可)",
+        "设置卫星电视广播地面接收设施审批(行政许可)",
+        "市级行政区域内经营广播电视节目传送业务审批(行政许可)",
+        "内部资料性出版物准印审批(行政许可)"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "太白湖新区文旅局"
+      ],
+      "value_pool": [
+        "太白湖新区文旅局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwdx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "新区群众"
+      ],
+      "value_pool": [
+        "新区群众"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwdd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市为民服务中心"
+      ],
+      "value_pool": [
+        "济宁市为民服务中心"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fwsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "星期一至星期五"
+      ],
+      "value_pool": [
+        "星期一至星期五"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

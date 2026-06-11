@@ -1,0 +1,123 @@
+{
+  "file_name": "涉爆粉尘企业专项检查情况202506271848.xlsx",
+  "table_name": "涉爆粉尘企业专项检查情况202506271848",
+  "row_count": 13,
+  "columns": [
+    "hylb",
+    "jcsj",
+    "qymc",
+    "ssxz",
+    "zgqk"
+  ],
+  "fields": [
+    {
+      "name": "hylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "机械",
+        "纺织",
+        "轻工"
+      ],
+      "value_pool": [
+        "机械",
+        "纺织",
+        "轻工"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jcsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2025-01-09 00:00:00",
+        "2025-01-10 00:00:00",
+        "2025-01-13 00:00:00",
+        "2025-01-19 00:00:00",
+        "2025-02-25 00:00:00",
+        "2025-02-26 00:00:00",
+        "2025-02-27 00:00:00",
+        "2025-03-04 00:00:00",
+        "2025-03-05 00:00:00",
+        "2025-04-02 00:00:00"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "山东正德货架有限公司",
+        "山东戎马机械有限公司",
+        "山东凯格环保设备有限公司",
+        "山东新意纺织材料有限公司",
+        "济宁冠豪木业有限公司",
+        "山东裕得金属制品股份有限公司",
+        "山东泉河酒业有限公司",
+        "山东驰胜智能科技集团有限公司",
+        "济宁慧晨电子有限公司",
+        "山东海正阳光仓储设备有限公司",
+        "汶上县凯迪木业有限公司",
+        "济宁跃高工贸有限公司",
+        "济宁逸城工贸有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "开发区",
+        "康驿镇",
+        "次邱镇",
+        "郭楼镇",
+        "郭仓镇"
+      ],
+      "value_pool": [
+        "开发区",
+        "康驿镇",
+        "次邱镇",
+        "郭楼镇",
+        "郭仓镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zgqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "完成整改"
+      ],
+      "value_pool": [
+        "完成整改"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

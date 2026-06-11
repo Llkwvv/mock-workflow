@@ -1,0 +1,124 @@
+{
+  "file_name": "金乡县分镇街产业园固定资产投资增速202507210919.xlsx",
+  "table_name": "金乡县分镇街产业园固定资产投资增速202507210919",
+  "row_count": 18,
+  "columns": [
+    "sz",
+    "nf",
+    "dq",
+    "qb",
+    "dw"
+  ],
+  "fields": [
+    {
+      "name": "sz",
+      "type": "DECIMAL",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "14.6",
+        "-14.651",
+        "23.322",
+        "-34.049",
+        "-34.67",
+        "87.611",
+        "78.508",
+        "-32.12",
+        "1.162",
+        "-13.125",
+        "378.958",
+        "105.879",
+        "83.278",
+        "91.019",
+        "34.298",
+        "71.081",
+        "-33.974",
+        "-40.114"
+      ],
+      "min_value": -40.114,
+      "max_value": 378.958
+    },
+    {
+      "name": "nf",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "2023年"
+      ],
+      "value_pool": [
+        "2023年"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "region",
+      "enum_values": [],
+      "value_pool": [
+        "金乡县",
+        "金乡街道",
+        "高河街道",
+        "鱼山街道",
+        "王丕街道",
+        "羊山镇",
+        "胡集镇",
+        "霄云镇",
+        "鸡黍镇",
+        "司马镇",
+        "马庙镇",
+        "化雨镇",
+        "卜集镇",
+        "兴隆镇",
+        "高端装备产业园",
+        "新材料产业园",
+        "食品产业园",
+        "商贸物流园"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "qb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "1-12月"
+      ],
+      "value_pool": [
+        "1-12月"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "%"
+      ],
+      "value_pool": [
+        "%"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

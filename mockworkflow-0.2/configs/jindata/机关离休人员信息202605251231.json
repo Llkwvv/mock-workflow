@@ -1,0 +1,191 @@
+{
+  "file_name": "机关离休人员信息202605251231.xlsx",
+  "table_name": "机关离休人员信息202605251231",
+  "row_count": 2,
+  "columns": [
+    "dfjgmc",
+    "姓名",
+    "dwxz",
+    "dwmc",
+    "lxdh",
+    "ltxrq",
+    "dwbh",
+    "yhzh",
+    "xb",
+    "cjgzrq",
+    "shbzhm"
+  ],
+  "fields": [
+    {
+      "name": "dfjgmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山中国银行"
+      ],
+      "value_pool": [
+        "微山中国银行"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "钟**",
+        "索**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwxz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "机关"
+      ],
+      "value_pool": [
+        "机关"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "公安局"
+      ],
+      "value_pool": [
+        "公安局"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [
+        "0537-8222***"
+      ],
+      "value_pool": [
+        "0537-8222***"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ltxrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "1990-12-01",
+        "1993-12-01"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dwbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [
+        "604010007"
+      ],
+      "value_pool": [
+        "604010007"
+      ],
+      "min_value": 604010007.0,
+      "max_value": 604010007.0
+    },
+    {
+      "name": "yhzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "382766020062930****",
+        "382769020041649****"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男"
+      ],
+      "value_pool": [
+        "男"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cjgzrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "1941-03-01",
+        "1948-10-01"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shbzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370826****0515****",
+        "370826****0109****"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

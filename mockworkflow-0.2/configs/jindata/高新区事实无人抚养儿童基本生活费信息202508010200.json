@@ -1,0 +1,232 @@
+{
+  "file_name": "高新区事实无人抚养儿童基本生活费信息202508010200.xlsx",
+  "table_name": "高新区事实无人抚养儿童基本生活费信息202508010200",
+  "row_count": 1395,
+  "columns": [
+    "xsq",
+    "ffsj",
+    "shfjey",
+    "flzhm",
+    "姓名",
+    "zz",
+    "xb",
+    "sfzh"
+  ],
+  "fields": [
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ffsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2018-02-05",
+        "2018-06-25",
+        "2018-09-16",
+        "2018-11-26",
+        "2020-12-16",
+        "2021-01-26",
+        "2021-02-05",
+        "2021-03-19"
+      ],
+      "value_pool": [
+        "2018-02-05",
+        "2018-06-25",
+        "2018-09-16",
+        "2018-11-26",
+        "2020-12-16",
+        "2021-01-26",
+        "2021-02-05",
+        "2021-03-19"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "shfjey",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2550",
+        "5100",
+        "850",
+        "2760",
+        "2091",
+        "1818",
+        "1794",
+        "1911",
+        "1839",
+        "2076",
+        "1400",
+        "1078",
+        "1076",
+        "1068",
+        "922",
+        "1057"
+      ],
+      "min_value": 850.0,
+      "max_value": 5100.0
+    },
+    {
+      "name": "flzhm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "（鲁）济*****0",
+        "（鲁）济*****2",
+        "（鲁）济*****8",
+        "（鲁）济*****7",
+        "（鲁）济*****4",
+        "（鲁）济*****3",
+        "（鲁）济*****9",
+        "（鲁）济*****5",
+        "事实***养"
+      ],
+      "value_pool": [
+        "（鲁）济*****0",
+        "（鲁）济*****2",
+        "（鲁）济*****8",
+        "（鲁）济*****7",
+        "（鲁）济*****4",
+        "（鲁）济*****3",
+        "（鲁）济*****9",
+        "（鲁）济*****5",
+        "事实***养"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "朱**",
+        "文**",
+        "韩**",
+        "刘**",
+        "边**",
+        "苏**",
+        "魏**",
+        "张**",
+        "赵**",
+        "郑**",
+        "李**",
+        "唐**",
+        "颜**",
+        "王**",
+        "吕**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "长*村",
+        "王*村",
+        "韩*村",
+        "寺*村",
+        "苏*村",
+        "前*村",
+        "后*村",
+        "街*村",
+        "郭*村",
+        "仁**村",
+        "戏*村",
+        "吕*村",
+        "南*村"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370882**********17",
+        "370882**********1X",
+        "370882**********11",
+        "370882**********12",
+        "370882**********19",
+        "370882**********18",
+        "370882**********38",
+        "370882**********45",
+        "210106**********36",
+        "370882**********2X",
+        "370812**********15",
+        "370882**********30",
+        "370882**********10",
+        "370882**********52",
+        "370882**********13",
+        "370882**********21",
+        "370882**********64",
+        "370882**********16",
+        "370882**********40",
+        "370882**********48",
+        "370882**********47",
+        "370882**********20",
+        "370882**********57"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

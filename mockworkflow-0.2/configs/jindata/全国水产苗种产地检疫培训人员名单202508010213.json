@@ -1,0 +1,171 @@
+{
+  "file_name": "全国水产苗种产地检疫培训人员名单202508010213.xlsx",
+  "table_name": "全国水产苗种产地检疫培训人员名单202508010213",
+  "row_count": 49,
+  "columns": [
+    "姓名",
+    "xb",
+    "gzdw",
+    "pxsj",
+    "pxnr",
+    "mz",
+    "pxxs"
+  ],
+  "fields": [
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "牟**",
+        "雷**",
+        "程**",
+        "陈**",
+        "刘**",
+        "曹**",
+        "朱**",
+        "赵**",
+        "范**",
+        "王*",
+        "杨**",
+        "张*",
+        "段**",
+        "冯*",
+        "张**",
+        "李**",
+        "安**",
+        "付*",
+        "李*",
+        "卜**",
+        "渠**",
+        "董**",
+        "徐**",
+        "王**",
+        "刘*",
+        "曹*",
+        "程*",
+        "满**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gzdw",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "微山县渔业发展服务中心",
+        "微山县渔业发展服务中心会",
+        "南四湖管理综合执法大队",
+        "微山县鱼种场",
+        "微山县特种水产养殖试验场",
+        "微山县特种水产养殖试验",
+        "微山县南四湖管理综合执法大队"
+      ],
+      "value_pool": [
+        "微山县渔业发展服务中心",
+        "微山县渔业发展服务中心会",
+        "南四湖管理综合执法大队",
+        "微山县鱼种场",
+        "微山县特种水产养殖试验场",
+        "微山县特种水产养殖试验",
+        "微山县南四湖管理综合执法大队"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [
+        "2021年6月3日-2021年6月4日",
+        "2024年6月25日-2024年6月27日"
+      ],
+      "value_pool": [
+        "2021年6月3日-2021年6月4日",
+        "2024年6月25日-2024年6月27日"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxnr",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "text",
+      "enum_values": [
+        "解读《动物防疫法》动物检疫要求，解读水生动物检疫技术规程，介绍动物检疫电子出证有关做法，介绍动物卫生监督执法办案程序与执法文书应用，介绍水生动物疑似疾病的判断，交流工作经验等",
+        "解读《动物检疫管理办法》《鱼类产地检疫规程》《甲壳类产地检疫规程》和《贝类产地检疫规程》等，介绍水生动物疫病诊断技术。"
+      ],
+      "value_pool": [
+        "解读《动物防疫法》动物检疫要求，解读水生动物检疫技术规程，介绍动物检疫电子出证有关做法，介绍动物卫生监督执法办案程序与执法文书应用，介绍水生动物疑似疾病的判断，交流工作经验等",
+        "解读《动物检疫管理办法》《鱼类产地检疫规程》《甲壳类产地检疫规程》和《贝类产地检疫规程》等，介绍水生动物疫病诊断技术。"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "mz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "汉"
+      ],
+      "value_pool": [
+        "汉"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "pxxs",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "线上直播培训"
+      ],
+      "value_pool": [
+        "线上直播培训"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "file_name": "高新区排污许可证发证信息202605251204.xlsx",
+  "table_name": "高新区排污许可证发证信息202605251204",
+  "row_count": 3,
+  "columns": [
+    "hylb",
+    "szqx",
+    "sfxzg",
+    "yxqx",
+    "fzsj",
+    "bllx",
+    "bjsj",
+    "hfjg",
+    "xkzgllb"
+  ],
+  "fields": [
+    {
+      "name": "hylb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "7724|危险废物治理",
+        "1331|食用植物油加工",
+        "1495|食品及饲料添加剂制造"
+      ],
+      "value_pool": [
+        "7724|危险废物治理",
+        "1331|食用植物油加工",
+        "1495|食品及饲料添加剂制造"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "szqx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新技术产业开发区"
+      ],
+      "value_pool": [
+        "济宁高新技术产业开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfxzg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "否"
+      ],
+      "value_pool": [
+        "否"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yxqx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "2019-06-28至2022-06-27",
+        "2020-01-13至2023-01-12",
+        "2020-06-22至2023-06-21"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fzsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2019-06-28",
+        "2020-01-13",
+        "2020-06-22"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bllx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "申请",
+        "变更"
+      ],
+      "value_pool": [
+        "申请",
+        "变更"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "bjsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2019-06-28",
+        "2020-01-13",
+        "2020-06-22"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "hfjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "济宁市生态环境局",
+        "济宁市生态环境局（高新）"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xkzgllb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "status",
+      "enum_values": [
+        "重点管理",
+        "简化管理"
+      ],
+      "value_pool": [
+        "重点管理",
+        "简化管理"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

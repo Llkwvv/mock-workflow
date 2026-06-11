@@ -1,0 +1,126 @@
+{
+  "file_name": "高新区基本医疗保险谈判药品名单202605251207.xlsx",
+  "table_name": "高新区基本医疗保险谈判药品名单202605251207",
+  "row_count": 2,
+  "columns": [
+    "zfbl",
+    "jg",
+    "tym",
+    "xsyz",
+    "gg",
+    "jx",
+    "spm"
+  ],
+  "fields": [
+    {
+      "name": "zfbl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "个人先行自付比例:20%"
+      ],
+      "value_pool": [
+        "个人先行自付比例:20%"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "14.8元",
+        "25.16元"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "tym",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "碳酸氢钠林格注射液"
+      ],
+      "value_pool": [
+        "碳酸氢钠林格注射液"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsyz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "影响电解质平衡"
+      ],
+      "value_pool": [
+        "影响电解质平衡"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "gg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "500ml/袋",
+        "1000ml/袋"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jx",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "注射剂"
+      ],
+      "value_pool": [
+        "注射剂"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "spm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "碳酸氢钠林格注射液"
+      ],
+      "value_pool": [
+        "碳酸氢钠林格注射液"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

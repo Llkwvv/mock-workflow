@@ -1,0 +1,388 @@
+{
+  "file_name": "经开区拖拉机农机信息202603200847.xlsx",
+  "table_name": "经开区拖拉机农机信息202603200847",
+  "row_count": 20,
+  "columns": [
+    "gjdxzl",
+    "jjdl",
+    "xmhzzmc",
+    "fdmc",
+    "xz",
+    "yktkhh",
+    "jxsmc",
+    "cz",
+    "scqymc",
+    "dz",
+    "jjxh",
+    "jjpm",
+    "jjbh",
+    "x",
+    "jjxl"
+  ],
+  "fields": [
+    {
+      "name": "gjdxzl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "农用动力机械",
+        "收获机械",
+        "种植施肥机械",
+        "耕整地机械"
+      ],
+      "value_pool": [
+        "农用动力机械",
+        "收获机械",
+        "种植施肥机械",
+        "耕整地机械"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jjdl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "农用动力机械",
+        "收获机械",
+        "种植施肥机械",
+        "耕整地机械"
+      ],
+      "value_pool": [
+        "农用动力机械",
+        "收获机械",
+        "种植施肥机械",
+        "耕整地机械"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xmhzzmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "王玉龙",
+        "马根安",
+        "马云堂",
+        "江继仲",
+        "张德奎",
+        "韩红卫",
+        "张森",
+        "韩东华",
+        "王庆利",
+        "梁德丰",
+        "崔红",
+        "王明臣",
+        "杨会让",
+        "王青海",
+        "秦新喜",
+        "朱振奎"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "fdmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "50-60马力两轮驱动拖拉机",
+        "140-160马力四轮驱动拖拉机",
+        "200马力及以上四轮驱动拖拉机",
+        "5行及以上自走式纵轴流玉米籽粒联合收获机(脱粒滚筒长度2.9m及以上)",
+        "6-10行机械式精量播种机",
+        "2.5m及以上秸秆粉碎还田机",
+        "单轴2.5m及以上旋耕机",
+        "2-2.5m秸秆粉碎还田机",
+        "70-80马力两轮驱动拖拉机",
+        "80-90马力四轮驱动拖拉机",
+        "单轴1.5-2m旋耕机",
+        "70-80马力四轮驱动拖拉机",
+        "50-60马力四轮驱动拖拉机"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "疃里镇"
+      ],
+      "value_pool": [
+        "疃里镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yktkhh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "min_value": 1.0,
+      "max_value": 20.0
+    },
+    {
+      "name": "jxsmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "嘉祥县聚丰农机销售有限公司",
+        "济宁市昆仑汽车贸易有限公司",
+        "嘉祥县八方农机有限公司",
+        "嘉祥县汇民农业机械有限公司",
+        "嘉祥县四方农业机械有限公司",
+        "嘉祥县瑞沃商贸有限公司",
+        "山东华东拖拉机制造有限公司",
+        "临沂金铭机械有限公司",
+        "嘉祥县耕耘农机有限公司",
+        "嘉祥耕耘农机有限公司"
+      ],
+      "value_pool": [
+        "嘉祥县聚丰农机销售有限公司",
+        "济宁市昆仑汽车贸易有限公司",
+        "嘉祥县八方农机有限公司",
+        "嘉祥县汇民农业机械有限公司",
+        "嘉祥县四方农业机械有限公司",
+        "嘉祥县瑞沃商贸有限公司",
+        "山东华东拖拉机制造有限公司",
+        "临沂金铭机械有限公司",
+        "嘉祥县耕耘农机有限公司",
+        "嘉祥耕耘农机有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "疃里镇"
+      ],
+      "value_pool": [
+        "疃里镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "scqymc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [],
+      "value_pool": [
+        "潍坊力王农业装备有限公司",
+        "第一拖拉机股份有限公司",
+        "洛阳瑞得拖拉机有限公司",
+        "山东兖泰拖拉机制造有限公司",
+        "德州市华北农机装备有限公司",
+        "山东航舵智能装备有限公司",
+        "河北双天机械制造有限公司",
+        "山东华东拖拉机制造有限公司",
+        "临沂金铭机械有限公司",
+        "潍坊稻耕农业装备制造有限公司",
+        "河北利宏农业机械制造有限公司",
+        "河北耕耘农业机械制造有限公司"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "疃里镇"
+      ],
+      "value_pool": [
+        "疃里镇"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jjxh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "铁拖-500",
+        "LX1504",
+        "BT2404",
+        "4YL-5M5",
+        "2BDF-6",
+        "1JHY-250A",
+        "1GKN-280",
+        "1JHY-220A",
+        "SK700",
+        "804-A",
+        "1GKN-160",
+        "RE704",
+        "LN2004",
+        "兖泰500B",
+        "AE504"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jjpm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "轮式拖拉机",
+        "玉米收获机",
+        "单粒（精密）播种机",
+        "秸秆粉碎还田机",
+        "旋耕机"
+      ],
+      "value_pool": [
+        "轮式拖拉机",
+        "玉米收获机",
+        "单粒（精密）播种机",
+        "秸秆粉碎还田机",
+        "旋耕机"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jjbh",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": true,
+      "semantic": "id",
+      "enum_values": [],
+      "value_pool": [
+        "B3708010023200101000001",
+        "B3708010023200101000002",
+        "B3708010023200101000003",
+        "B3708010023200101000004",
+        "B3708010023200101000005",
+        "B3708010023050105000001",
+        "B3708010023050105000002",
+        "B3708010023050105000003",
+        "B3708010023020203000001",
+        "B3708010023050601000001",
+        "B3708010023010102000001",
+        "B3708010023050601000002",
+        "B3708010023050105000004",
+        "B3708010023200101000006",
+        "B3708010023200101000007",
+        "B3708010023010102000002",
+        "B3708010023200101000008",
+        "B3708010023200101000009",
+        "B3708010023200101000010",
+        "B3708010023200101000011"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "x",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "经开区"
+      ],
+      "value_pool": [
+        "经开区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jjxl",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "拖拉机",
+        "粮食作物收获机械",
+        "播种机械（可含施肥功能）",
+        "秸秆收集处理机械",
+        "耕地机械"
+      ],
+      "value_pool": [
+        "拖拉机",
+        "粮食作物收获机械",
+        "播种机械（可含施肥功能）",
+        "秸秆收集处理机械",
+        "耕地机械"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

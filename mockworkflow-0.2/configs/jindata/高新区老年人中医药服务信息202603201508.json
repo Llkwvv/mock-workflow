@@ -1,0 +1,203 @@
+{
+  "file_name": "高新区老年人中医药服务信息202603201508.xlsx",
+  "table_name": "高新区老年人中医药服务信息202603201508",
+  "row_count": 6,
+  "columns": [
+    "nl",
+    "sfrq",
+    "xb",
+    "grdah",
+    "csrq",
+    "lxdh",
+    "xzqy",
+    "sfzh",
+    "ssjg",
+    "姓名"
+  ],
+  "fields": [
+    {
+      "name": "nl",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "80",
+        "70",
+        "68",
+        "76",
+        "81"
+      ],
+      "min_value": 68.0,
+      "max_value": 81.0
+    },
+    {
+      "name": "sfrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024-10-14",
+        "2024-10-15",
+        "2024-10-19",
+        "2024-10-20",
+        "2024-12-06",
+        "2025-01-10"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xb",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "男",
+        "女"
+      ],
+      "value_pool": [
+        "男",
+        "女"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "grdah",
+      "type": "INT",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "37082230116000045",
+        "37082230133000132",
+        "37082230125000107",
+        "37082230110001235",
+        "37082230134000176",
+        "37082230156000400"
+      ],
+      "min_value": 3.708223011000123e+16,
+      "max_value": 3.70822301560004e+16
+    },
+    {
+      "name": "csrq",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "19*******1",
+        "19*******4",
+        "19*******3",
+        "19*******8",
+        "19*******6"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "lxdh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "phone_number",
+      "enum_values": [],
+      "value_pool": [
+        "1369*****20",
+        "1505*****59",
+        "1351*****59",
+        "1570*****21",
+        "1595*****32",
+        "1328*****68"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xzqy",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁高新技术产业开发区"
+      ],
+      "value_pool": [
+        "济宁高新技术产业开发区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sfzh",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "370822**********32",
+        "370822**********48",
+        "370822**********41",
+        "370822**********21",
+        "370822**********10",
+        "370822**********23"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ssjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "07王因镇河口卫生室",
+        "03王因镇前侯村卫生室",
+        "07王因镇柳沟卫生室",
+        "05王因镇东娄卫生室",
+        "04王因镇前仁美卫生室",
+        "06王因镇玉皇庙村卫生室"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "姓名",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "储**",
+        "韩**",
+        "程**",
+        "周**",
+        "李**",
+        "焦**"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

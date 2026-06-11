@@ -1,0 +1,97 @@
+{
+  "file_name": "高新区肢体残疾人康复救助信息202605251214.xlsx",
+  "table_name": "高新区肢体残疾人康复救助信息202605251214",
+  "row_count": 6,
+  "columns": [
+    "cjrxm",
+    "xsq",
+    "kfxqxm",
+    "jtzz",
+    "s"
+  ],
+  "fields": [
+    {
+      "name": "cjrxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [],
+      "value_pool": [
+        "苗**",
+        "王**",
+        "陈**",
+        "张**",
+        "储**",
+        "魏**"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xsq",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "高新区"
+      ],
+      "value_pool": [
+        "高新区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "kfxqxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "康复需求"
+      ],
+      "value_pool": [
+        "康复需求"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "jtzz",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁*****街道"
+      ],
+      "value_pool": [
+        "济宁*****街道"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "s",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "济宁市"
+      ],
+      "value_pool": [
+        "济宁市"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

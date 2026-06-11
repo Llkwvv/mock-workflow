@@ -1,0 +1,140 @@
+{
+  "file_name": "任城区南四湖自然保护区巡护员名单信息202507242132.xlsx",
+  "table_name": "任城区南四湖自然保护区巡护员名单信息202507242132",
+  "row_count": 28,
+  "columns": [
+    "xhqk",
+    "zrbhqmc",
+    "xhsj",
+    "xhry",
+    "dd"
+  ],
+  "fields": [
+    {
+      "name": "xhqk",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "南四湖区域候鸟保护巡查工作",
+        "对自然保护地的行政检查",
+        "自然保护地巡查",
+        "自然保护地安全生产排查整治工作",
+        "南四湖水生态环境保护大排查大整治专项行动",
+        "环保督察回头看点位排查工作",
+        "南四湖水生态环境保护排查整治",
+        "学习督察曝光典型案例开展自查自纠工作",
+        "南四湖省级自然保护区问题整治“回头看”",
+        "南四湖省级自然保护区遥感动态变化监测点位实地核查",
+        "南四湖省级自然保护区菹草治理工作",
+        "南四湖预防学生溺水联防联控检查",
+        "自然保护地自查自纠和问题整改“回头看”专项行动",
+        "自然保护区内违法违规问题排查整改",
+        "自然保护地卫片执法工作",
+        "自然保护地疑似问题卫片图斑整改督导复核工作",
+        "环保督察及南四湖专项督察",
+        "自然保护地内省级遥感监测问题点位核查整改工作"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "zrbhqmc",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "company_name",
+      "enum_values": [
+        "南四湖省级自然保护区"
+      ],
+      "value_pool": [
+        "南四湖省级自然保护区"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xhsj",
+      "type": "DATETIME",
+      "length": null,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "time",
+      "enum_values": [],
+      "value_pool": [
+        "2024.1.25",
+        "2024.4.22",
+        "2024.7.27",
+        "2024.9.20",
+        "2024.11.4",
+        "2021.2.20",
+        "2021.3.4",
+        "2021.3.17",
+        "2021.4.1",
+        "2021.4.9",
+        "2021.4.28",
+        "2021.5.11",
+        "2021.5.20",
+        "2021.5.31",
+        "2021.6.4",
+        "2021.6.10",
+        "2021.6.21",
+        "2021.6.30",
+        "2021.7.5",
+        "2021.7.15",
+        "2021.7.27",
+        "2021.8.4",
+        "2021.8.20",
+        "2021.9.3",
+        "2021.9.24",
+        "2021.10.8",
+        "2021.10.22",
+        "2021.10.25"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "xhry",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "秦冲、张茜",
+        "秦冲、钱晓燕、张茜",
+        "秦冲、钱晓燕",
+        "于丽华、秦冲"
+      ],
+      "value_pool": [
+        "秦冲、张茜",
+        "秦冲、钱晓燕、张茜",
+        "秦冲、钱晓燕",
+        "于丽华、秦冲"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "dd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "喻屯、唐口"
+      ],
+      "value_pool": [
+        "喻屯、唐口"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}

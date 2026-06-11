@@ -1,0 +1,155 @@
+{
+  "file_name": "水质臭和味报告202504231532.xlsx",
+  "table_name": "水质臭和味报告202504231532",
+  "row_count": 58,
+  "columns": [
+    "cyxm",
+    "sjdcyjg",
+    "yjdcyjg",
+    "ejdcyjg",
+    "cydd"
+  ],
+  "fields": [
+    {
+      "name": "cyxm",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "person_name",
+      "enum_values": [
+        "臭和味（等级）0"
+      ],
+      "value_pool": [
+        "臭和味（等级）0"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "sjdcyjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "未检出"
+      ],
+      "value_pool": [
+        "0",
+        "未检出"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "yjdcyjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "未检出"
+      ],
+      "value_pool": [
+        "0",
+        "未检出"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "ejdcyjg",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [
+        "0",
+        "未检出"
+      ],
+      "value_pool": [
+        "0",
+        "未检出"
+      ],
+      "min_value": null,
+      "max_value": null
+    },
+    {
+      "name": "cydd",
+      "type": "VARCHAR",
+      "length": 255,
+      "nullable": false,
+      "primary_key": false,
+      "semantic": "unknown",
+      "enum_values": [],
+      "value_pool": [
+        "进厂水",
+        "出厂水",
+        "1#",
+        "2#",
+        "3#",
+        "4#",
+        "5#",
+        "6#",
+        "7#",
+        "9#",
+        "11#",
+        "白庄社区",
+        "龙顺御园",
+        "鹿鸣新城",
+        "城管局",
+        "御景花苑",
+        "陆杨社区",
+        "星月城",
+        "中信广场",
+        "滨湖春天",
+        "南门口社区",
+        "警苑二村",
+        "李谷堆",
+        "滨湖花苑",
+        "金泰花园",
+        "苏园社区",
+        "容商豪庭",
+        "阳光花苑",
+        "怡园小区",
+        "进厂水-2024",
+        "出厂水-2024",
+        "1#-2024",
+        "2#-2024",
+        "3#-2024",
+        "4#-2024",
+        "5#-2024",
+        "6#-2024",
+        "7#-2024",
+        "9#-2024",
+        "11#-2024",
+        "白庄社区-2024",
+        "龙顺御园-2024",
+        "鹿鸣新城-2024",
+        "城管局-2024",
+        "御景花苑-2024",
+        "陆杨社区-2024",
+        "星月城-2024",
+        "中信广场-2024",
+        "滨湖春天-2024",
+        "南门口社区-2024",
+        "警苑二村-2024",
+        "李谷堆-2024",
+        "滨湖花苑-2024",
+        "金泰花园-2024",
+        "苏园社区-2024",
+        "容商豪庭-2024",
+        "阳光花苑-2024",
+        "怡园小区-2024"
+      ],
+      "min_value": null,
+      "max_value": null
+    }
+  ]
+}
