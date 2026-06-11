@@ -9,6 +9,39 @@
     <style>
         * { cursor: none !important; }
         html, body { cursor: none !important; }
+
+        /* 登录弹窗动画效果 */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        #login-overlay {
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        /* 按钮悬停效果 */
+        #login-overlay button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        /* 输入框聚焦效果 */
+        #login-overlay input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+        }
+
+        /* 卡片阴影效果 */
+        #login-form, #register-form {
+            transition: all 0.3s ease;
+        }
+
+        #login-form:hover, #register-form:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+        }
     </style>
 </head>
 <body style="background:var(--bg-gradient);color:var(--text-primary);font-family:system-ui,-apple-system,sans-serif;min-height:100vh;overflow-x:hidden;cursor:none !important;">
@@ -16,30 +49,72 @@
 
 <!-- Login Overlay -->
 <div id="login-overlay" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:9999;justify-content:center;align-items:center;flex-direction:column;">
-    <div id="login-form" style="background:var(--glass-bg);backdrop-filter:blur(20px);padding:40px 50px;border-radius:16px;border:1px solid var(--glass-border);text-align:center;max-width:360px;width:90%;box-shadow:0 8px 32px rgba(0,0,0,0.4);">
-        <div style="font-size:2.5rem;margin-bottom:12px;">🔒</div>
-        <h2 style="margin-bottom:8px;">需要登录</h2>
-        <p style="opacity:0.7;margin-bottom:20px;font-size:14px;">请输入用户名和密码以继续使用</p>
-        <input type="text" id="login-username" placeholder="用户名" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:12px;outline:none;box-sizing:border-box;" value="admin">
-        <input type="password" id="login-password" placeholder="密码" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:16px;outline:none;box-sizing:border-box;">
-        <button onclick="doLogin()" style="width:100%;padding:12px;border-radius:8px;border:none;background:linear-gradient(135deg,#06b6d4,#3b82f6);color:#fff;font-size:15px;font-weight:600;cursor:pointer;">登 录</button>
-        <div style="margin-top:16px;text-align:center;font-size:14px;">
+    <div id="login-form" style="background:var(--glass-bg);backdrop-filter:blur(20px);padding:40px 50px;border-radius:16px;border:1px solid var(--glass-border);text-align:center;max-width:360px;width:90%;box-shadow:0 8px 32px rgba(0,0,0,0.4);position:relative;overflow:hidden;">
+        <!-- 装饰性背景元素 -->
+        <div style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;opacity:0.1;">
+            <div style="position:absolute;top:20px;right:20px;width:60px;height:60px;border-radius:50%;background:linear-gradient(135deg,#06b6d4,#3b82f6);"></div>
+            <div style="position:absolute;bottom:20px;left:20px;width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#10b981,#059669);"></div>
+        </div>
+
+        <!-- Logo区域 -->
+        <div style="margin-bottom:20px;position:relative;z-index:1;">
+            <div style="display:flex;justify-content:center;margin-bottom:10px;">
+                <div style="width:60px;height:60px;background:linear-gradient(135deg,#667eea,#764ba2);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 4px 15px rgba(102,126,234,0.3);">
+                    📊
+                </div>
+            </div>
+            <h2 style="margin-bottom:4px;font-size:20px;letter-spacing:-0.5px;">Mockworkflow</h2>
+            <p style="opacity:0.7;font-size:13px;margin-bottom:8px;">企业级模拟数据生成平台</p>
+        </div>
+
+        <!-- 登录表单 -->
+        <div style="position:relative;z-index:1;">
+            <input type="text" id="login-username" placeholder="用户名" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:12px;outline:none;box-sizing:border-box;" value="admin">
+            <input type="password" id="login-password" placeholder="密码" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:16px;outline:none;box-sizing:border-box;">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+                <label style="display:flex;align-items:center;cursor:pointer;font-size:13px;color:var(--text-secondary);">
+                    <input type="checkbox" id="remember-me" style="margin-right:6px;">
+                    记住密码
+                </label>
+                <a href="#" onclick="forgotPassword()" style="color:#3b82f6;font-size:13px;text-decoration:none;">忘记密码?</a>
+            </div>
+            <button onclick="doLogin()" style="width:100%;padding:12px;border-radius:8px;border:none;background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;font-size:15px;font-weight:600;cursor:pointer;transition:transform 0.2s;">登 录</button>
+        </div>
+
+        <div style="margin-top:20px;text-align:center;font-size:14px;">
             <a href="#" onclick="showRegisterForm()" style="color:#3b82f6;text-decoration:none;">还没有账号？立即注册</a>
         </div>
         <div id="login-error" style="color:#ef4444;margin-top:12px;font-size:13px;display:none;"></div>
     </div>
 
     <!-- Register Form (initially hidden) -->
-    <div id="register-form" style="display:none;background:var(--glass-bg);backdrop-filter:blur(20px);padding:40px 50px;border-radius:16px;border:1px solid var(--glass-border);text-align:center;max-width:360px;width:90%;box-shadow:0 8px 32px rgba(0,0,0,0.4);">
-        <div style="font-size:2.5rem;margin-bottom:12px;">📝</div>
-        <h2 style="margin-bottom:8px;">用户注册</h2>
-        <p style="opacity:0.7;margin-bottom:20px;font-size:14px;">创建新账号以使用系统功能</p>
-        <input type="text" id="register-username" placeholder="用户名 (3-50字符)" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:12px;outline:none;box-sizing:border-box;">
-        <input type="password" id="register-password" placeholder="密码 (至少6字符)" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:12px;outline:none;box-sizing:border-box;">
-        <input type="text" id="register-display-name" placeholder="显示名称 (可选)" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:16px;outline:none;box-sizing:border-box;">
-        <div style="display:flex;gap:8px;">
-            <button onclick="showLoginForm()" style="flex:1;padding:12px;border-radius:8px;border:1px solid var(--glass-border);background:transparent;color:var(--text-primary);font-size:15px;font-weight:600;cursor:pointer;">返回登录</button>
-            <button onclick="doRegister()" style="flex:1;padding:12px;border-radius:8px;border:none;background:linear-gradient(135deg,#10b981,#059669);color:#fff;font-size:15px;font-weight:600;cursor:pointer;">注 册</button>
+    <div id="register-form" style="display:none;background:var(--glass-bg);backdrop-filter:blur(20px);padding:40px 50px;border-radius:16px;border:1px solid var(--glass-border);text-align:center;max-width:360px;width:90%;box-shadow:0 8px 32px rgba(0,0,0,0.4);position:relative;overflow:hidden;">
+        <!-- 装饰性背景元素 -->
+        <div style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;opacity:0.1;">
+            <div style="position:absolute;top:20px;right:20px;width:60px;height:60px;border-radius:50%;background:linear-gradient(135deg,#10b981,#059669);"></div>
+            <div style="position:absolute;bottom:20px;left:20px;width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#667eea,#764ba2);"></div>
+        </div>
+
+        <!-- 注册标题 -->
+        <div style="margin-bottom:20px;position:relative;z-index:1;">
+            <div style="display:flex;justify-content:center;margin-bottom:10px;">
+                <div style="width:60px;height:60px;background:linear-gradient(135deg,#10b981,#059669);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 4px 15px rgba(16,185,129,0.3);">
+                    📝
+                </div>
+            </div>
+            <h2 style="margin-bottom:4px;font-size:20px;letter-spacing:-0.5px;">用户注册</h2>
+            <p style="opacity:0.7;font-size:13px;margin-bottom:8px;">创建新账号以使用系统功能</p>
+        </div>
+
+        <!-- 注册表单 -->
+        <div style="position:relative;z-index:1;">
+            <input type="text" id="register-username" placeholder="用户名 (3-50字符)" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:12px;outline:none;box-sizing:border-box;">
+            <input type="password" id="register-password" placeholder="密码 (至少6字符)" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:12px;outline:none;box-sizing:border-box;">
+            <input type="text" id="register-display-name" placeholder="显示名称 (可选)" style="width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass-bg);color:var(--text-primary);font-size:15px;margin-bottom:16px;outline:none;box-sizing:border-box;">
+            <div style="display:flex;gap:8px;">
+                <button onclick="showLoginForm()" style="flex:1;padding:12px;border-radius:8px;border:1px solid var(--glass-border);background:transparent;color:var(--text-primary);font-size:15px;font-weight:600;cursor:pointer;">返回登录</button>
+                <button onclick="doRegister()" style="flex:1;padding:12px;border-radius:8px;border:none;background:linear-gradient(135deg,#10b981,#059669);color:#fff;font-size:15px;font-weight:600;cursor:pointer;">注 册</button>
+            </div>
         </div>
         <div id="register-error" style="color:#ef4444;margin-top:12px;font-size:13px;display:none;"></div>
         <div id="register-success" style="color:#10b981;margin-top:12px;font-size:13px;display:none;"></div>

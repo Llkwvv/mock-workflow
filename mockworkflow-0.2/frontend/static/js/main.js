@@ -537,11 +537,26 @@ let currentCsrfToken = '';
 function showLogin() {
     document.getElementById('login-overlay').style.display = 'flex';
     document.getElementById('login-username').focus();
+
+    // 加载记住的凭据
+    loadRememberedCredentials();
+
     // Fetch fresh CSRF token each time login is shown
     fetch(API_BASE + '/api/auth/csrf')
         .then(r => r.json())
         .then(d => { currentCsrfToken = d.token; })
         .catch(() => { currentCsrfToken = ''; });
+}
+
+// 加载记住的凭据
+function loadRememberedCredentials() {
+    const username = localStorage.getItem('remembered_username');
+    const encryptedPwd = localStorage.getItem('remembered_password');
+
+    if (username && encryptedPwd) {
+        document.getElementById('login-username').value = username;
+        document.getElementById('remember-me').checked = true;
+    }
 }
 
 function hideLogin() {
@@ -554,12 +569,21 @@ function hideLogin() {
 async function doLogin() {
     const username = document.getElementById('login-username').value.trim();
     const pwd = document.getElementById('login-password').value.trim();
+    const rememberMe = document.getElementById('remember-me').checked;
     const errEl = document.getElementById('login-error');
+
     if (!username || !pwd) {
         errEl.textContent = '请输入用户名和密码';
         errEl.style.display = 'block';
         return;
     }
+
+    // 显示加载状态
+    const loginBtn = document.querySelector('#login-overlay button');
+    const originalText = loginBtn.textContent;
+    loginBtn.textContent = '登录中...';
+    loginBtn.disabled = true;
+
     try {
         const r = await fetch(API_BASE + '/api/auth/login', {
             method: 'POST',
@@ -571,20 +595,38 @@ async function doLogin() {
                 csrf_token: currentCsrfToken
             })
         });
+
         if (r.status === 403) {
             const data = await r.json();
             errEl.textContent = '尝试次数过多，请' + Math.round((data.retry_after || 900) / 60) + '分钟后再试';
             errEl.style.display = 'block';
             return;
         }
+
         const data = await r.json();
         if (!r.ok || !data.success) {
             errEl.textContent = data.message || '登录失败';
             errEl.style.display = 'block';
             return;
         }
+
+        // 处理记住密码
+        if (rememberMe) {
+            try {
+                // 这里应该实现加密存储，为了简化暂时使用localStorage
+                localStorage.setItem('remembered_username', username);
+                // 注意：实际项目中应该加密存储密码
+            } catch (e) {
+                console.warn('记住密码失败');
+            }
+        } else {
+            // 清除记住的密码
+            localStorage.removeItem('remembered_username');
+        }
+
         hideLogin();
         showToast('欢迎，' + (data.username || '') + '！');
+
         // Retry queued calls
         const queue = loginRetryQueue.slice();
         loginRetryQueue = [];
@@ -592,6 +634,9 @@ async function doLogin() {
     } catch (e) {
         errEl.textContent = '网络错误，请重试';
         errEl.style.display = 'block';
+    } finally {
+        loginBtn.textContent = originalText;
+        loginBtn.disabled = false;
     }
 }
 
@@ -644,6 +689,12 @@ function showLoginForm() {
     document.getElementById('login-form').style.display = 'block';
     // 清空错误信息
     document.getElementById('login-error').style.display = 'none';
+}
+
+// 忘记密码功能
+async function forgotPassword() {
+    showToast('忘记密码功能正在开发中...', 'warning');
+    // 在实际项目中，这里会打开忘记密码对话框或跳转到忘记密码页面
 }
 
 async function doRegister() {
