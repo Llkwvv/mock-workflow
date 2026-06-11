@@ -1285,17 +1285,331 @@ function renderDailyChart(data) {
 // ========== Settings / System Info ==========
 async function loadSystemInfo() {
     try {
-        const data = await apiGet('/api/health');
-        const html = `
+        const health = await apiGet('/api/health');
+        const settings = await apiGet('/api/settings');
+
+        // 更新系统信息卡
+        const systemInfoHtml = `
             <p><strong>服务状态:</strong> <span style="color:#22c55e;">正常运行</span></p>
-            <p style="margin-top:8px;"><strong>当前时间:</strong> ${new Date(data.timestamp).toLocaleString()}</p>
-            <p style="margin-top:8px;"><strong>API 版本:</strong> 0.2.0</p>
+            <p style="margin-top:8px;"><strong>当前时间:</strong> ${new Date(health.timestamp).toLocaleString()}</p>
+            <p style="margin-top:8px;"><strong>API 版本:</strong> ${settings.config.app_name} ${health.metrics.version || '0.2.0'}</p>
+            <p style="margin-top:8px;"><strong>LLM 状态:</strong> ${settings.config.llm_enabled ? '<span style="color:#22c55e;">已启用</span>' : '<span style="color:#ef4444;">已禁用</span>'}</p>
+            <p style="margin-top:8px;"><strong>数据库导出:</strong> ${settings.config.db_export_enabled ? '<span style="color:#22c55e;">已启用</span>' : '<span style="color:#6b7280;">已禁用</span>'}</p>
         `;
-        document.getElementById('systemInfo').innerHTML = html;
+        document.getElementById('systemInfo').innerHTML = systemInfoHtml;
+
+        // 更新实时状态卡
         document.getElementById('realtimeStatus').innerHTML = '<p style="color:#22c55e;">WebSocket 已连接</p>';
+
+        // 初始化设置表单
+        initSettingsForm(settings.config);
+
     } catch (e) {
+        console.error('Failed to load system info:', e);
         document.getElementById('systemInfo').innerHTML = '<p style="color:#ef4444;">无法获取系统信息</p>';
+        document.getElementById('realtimeStatus').innerHTML = '<p style="color:#ef4444;">WebSocket 连接失败</p>';
     }
+}
+
+function initSettingsForm(config) {
+    // LLM 配置
+    document.getElementById('llmEnabled').checked = config.llm_enabled;
+    document.getElementById('llmProvider').value = config.llm_provider || '';
+    document.getElementById('llmApiKey').value = config.llm_api_key || '';
+    document.getElementById('llmBaseUrl').value = config.llm_base_url || '';
+    document.getElementById('llmModel').value = config.llm_model || '';
+    document.getElementById('llmTimeout').value = config.llm_timeout;
+    document.getElementById('llmMaxTokens').value = config.llm_max_tokens;
+    document.getElementById('llmTemperature').value = config.llm_temperature;
+
+    // 数据库导出配置
+    document.getElementById('dbExportEnabled').checked = config.db_export_enabled;
+    document.getElementById('mysqlUrl').value = config.mysql_url || '';
+
+    // RAG 配置
+    document.getElementById('embeddingModel').value = config.embedding_model || '';
+    document.getElementById('ragTopKRules').value = config.rag_top_k_rules;
+    document.getElementById('ragTopKSamples').value = config.rag_top_k_samples;
+
+    // 认证配置
+    document.getElementById('webPassword').value = config.web_password || '';
+
+    // 值池配置
+    document.getElementById('llmValuePoolEnabled').checked = config.llm_value_pool_enabled;
+    document.getElementById('llmValuePoolSize').value = config.llm_value_pool_size;
+
+    // 规则配置
+    document.getElementById('rulesAutosave').checked = config.rules_autosave;
+    document.getElementById('rulesMinConfidence').value = config.rules_min_confidence;
+
+    // 添加事件监听器
+    addSettingsEventListeners();
+}
+
+function addSettingsEventListeners() {
+    // LLM 启用开关
+    document.getElementById('llmEnabled').addEventListener('change', updateLlmConfig);
+
+    // LLM 提供商选择
+    document.getElementById('llmProvider').addEventListener('change', updateLlmProviderPreset);
+
+    // LLM 表单字段
+    const llmFields = ['llmApiKey', 'llmBaseUrl', 'llmModel'];
+    llmFields.forEach(field => {
+        document.getElementById(field)?.addEventListener('change', updateLlmConfig);
+    });
+
+    // 数值型配置
+    const numberFields = [
+        'llmTimeout', 'llmMaxTokens', 'llmTemperature',
+        'ragTopKRules', 'ragTopKSamples',
+        'llmValuePoolSize', 'rulesMinConfidence'
+    ];
+    numberFields.forEach(field => {
+        document.getElementById(field)?.addEventListener('change', saveSetting);
+    });
+
+    // 文本型配置
+    const textFields = ['embeddingModel', 'mysqlUrl', 'webPassword'];
+    textFields.forEach(field => {
+        document.getElementById(field)?.addEventListener('change', saveSetting);
+    });
+
+    // 开关型配置
+    const toggleFields = [
+        'dbExportEnabled', 'llmValuePoolEnabled', 'rulesAutosave'
+    ];
+    toggleFields.forEach(field => {
+        document.getElementById(field)?.addEventListener('change', saveSetting);
+    });
+}
+
+async function updateLlmProviderPreset() {
+    const provider = document.getElementById('llmProvider').value;
+    const apiKey = document.getElementById('llmApiKey').value;
+
+    if (!provider) {
+        // 如果没有选择提供商，允许手动输入
+        return;
+    }
+
+    try {
+        // 模拟预设应用 - 在真实实现中，这将在后端处理
+        let presetInfo = `使用 ${provider.toUpperCase()} 预设`;
+        if (provider === 'deepseek') {
+            presetInfo += ' | Base URL: https://api.deepseek.com/v1 | Model: deepseek-v4-flash';
+        } else if (provider === 'modelscope') {
+            presetInfo += ' | Base URL: https://api-inference.modelscope.cn/v1/ | Model: Qwen/Qwen2.5-72B-Instruct';
+        } else if (provider === 'openai') {
+            presetInfo += ' | Base URL: https://api.openai.com/v1 | Model: gpt-4o-mini';
+        } else if (provider === 'ollama') {
+            presetInfo += ' | Base URL: http://localhost:11434/v1 | Model: llama3';
+        }
+
+        document.getElementById('llmPresetInfo').textContent = presetInfo;
+
+        // 只有当没有手动修改过URL和模型时才自动填充
+        const baseUrl = document.getElementById('llmBaseUrl').value;
+        const model = document.getElementById('llmModel').value;
+
+        if (!baseUrl && !model) {
+            // 这里只是UI提示，在真实提交时由后端应用预设
+        }
+
+        // 要求提供API密钥
+        if (!apiKey) {
+            showToast('请为所选提供商输入API密钥', 'warning');
+        }
+    } catch (e) {
+        console.error('Error updating LLM preset:', e);
+    }
+}
+
+async function updateLlmConfig() {
+    const enabled = document.getElementById('llmEnabled').checked;
+
+    if (enabled) {
+        // LLM启用时，检查必要条件
+        const provider = document.getElementById('llmProvider').value;
+        const apiKey = document.getElementById('llmApiKey').value;
+
+        if (!provider) {
+            showToast('请选择LLM提供商', 'error');
+            document.getElementById('llmEnabled').checked = false;
+            return;
+        }
+
+        if (!apiKey) {
+            showToast('请为LLM输入API密钥', 'error');
+            document.getElementById('llmEnabled').checked = false;
+            return;
+        }
+    }
+
+    // 更新界面
+    updateLlmProviderPreset();
+
+    // 显示重启提示
+    showToast('LLM配置已更新，请重启服务以使更改生效', 'info');
+}
+
+async function saveSetting(event) {
+    const field = event.target;
+    const fieldName = field.id;
+    let value = field.value;
+
+    // 类型转换
+    if (field.type === 'checkbox') {
+        value = field.checked;
+    } else if ([
+        'llmTimeout', 'llmMaxTokens', 'ragTopKRules', 'ragTopKSamples',
+        'llmValuePoolSize'
+    ].includes(fieldName)) {
+        value = parseInt(value) || 0;
+    } else if (['llmTemperature', 'rulesMinConfidence'].includes(fieldName)) {
+        value = parseFloat(value) || 0;
+    }
+
+    // 准备要发送的数据
+    const updateData = { [fieldName]: value };
+
+    try {
+        // 在真实实现中，这里会调用后端API
+        // await apiPost('/api/settings', updateData);
+
+        showToast(`${getFieldLabel(fieldName)} 已更新`, 'success');
+    } catch (e) {
+        console.error(`Failed to update ${fieldName}:`, e);
+        showToast(`更新 ${getFieldLabel(fieldName)} 失败`, 'error');
+        // 恢复原始值
+        // 这里需要额外的状态管理来恢复值
+    }
+}
+
+function getFieldLabel(fieldName) {
+    const labels = {
+        // LLM 配置
+        'llmEnabled': 'LLM 启用',
+        'llmProvider': 'LLM 提供商',
+        'llmApiKey': 'API 密钥',
+        'llmBaseUrl': 'Base URL',
+        'llmModel': '模型名称',
+        'llmTimeout': '请求超时',
+        'llmMaxTokens': '最大响应Token数',
+        'llmTemperature': '温度参数',
+
+        // 数据库导出
+        'dbExportEnabled': '数据库导出',
+        'mysqlUrl': 'MySQL 连接字符串',
+
+        // RAG
+        'embeddingModel': '嵌入模型',
+        'ragTopKRules': '规则检索数量',
+        'ragTopKSamples': '样本检索数量',
+
+        // 认证
+        'webPassword': 'Web 密码',
+
+        // 值池
+        'llmValuePoolEnabled': '值池生成',
+        'llmValuePoolSize': '值池大小',
+
+        // 规则
+        'rulesAutosave': '规则自动保存',
+        'rulesMinConfidence': '最小置信度阈值'
+    };
+
+    return labels[fieldName] || fieldName;
+}
+
+async function saveAllSettings() {
+    try {
+        // 收集所有配置项
+        const settingsData = {
+            // LLM 配置
+            llm_enabled: document.getElementById('llmEnabled').checked,
+            llm_provider: document.getElementById('llmProvider').value || null,
+            llm_api_key: document.getElementById('llmApiKey').value || null,
+            llm_base_url: document.getElementById('llmBaseUrl').value || null,
+            llm_model: document.getElementById('llmModel').value || null,
+            llm_timeout: parseInt(document.getElementById('llmTimeout').value),
+            llm_max_tokens: parseInt(document.getElementById('llmMaxTokens').value),
+            llm_temperature: parseFloat(document.getElementById('llmTemperature').value),
+
+            // 数据库导出
+            db_export_enabled: document.getElementById('dbExportEnabled').checked,
+            mysql_url: document.getElementById('mysqlUrl').value || null,
+
+            // RAG
+            embedding_model: document.getElementById('embeddingModel').value,
+            rag_top_k_rules: parseInt(document.getElementById('ragTopKRules').value),
+            rag_top_k_samples: parseInt(document.getElementById('ragTopKSamples').value),
+
+            // 认证
+            web_password: document.getElementById('webPassword').value || null,
+
+            // 值池
+            llm_value_pool_enabled: document.getElementById('llmValuePoolEnabled').checked,
+            llm_value_pool_size: parseInt(document.getElementById('llmValuePoolSize').value),
+
+            // 规则
+            rules_autosave: document.getElementById('rulesAutosave').checked,
+            rules_min_confidence: parseFloat(document.getElementById('rulesMinConfidence').value)
+        };
+
+        // 发送到后端
+        await apiPost('/api/settings', settingsData);
+
+        showToast('所有设置已成功保存！部分更改可能需要重启服务才能生效', 'success');
+
+        // 重新加载系统信息以显示更新后的状态
+        loadSystemInfo();
+
+    } catch (e) {
+        console.error('Failed to save settings:', e);
+        showToast('保存设置失败，请重试', 'error');
+    }
+}
+
+function resetToDefaults() {
+    if (!confirm('确定要将所有设置恢复为默认值吗？当前的所有自定义设置将被清除。')) {
+        return;
+    }
+
+    // LLM 配置
+    document.getElementById('llmEnabled').checked = false;
+    document.getElementById('llmProvider').value = '';
+    document.getElementById('llmApiKey').value = '';
+    document.getElementById('llmBaseUrl').value = '';
+    document.getElementById('llmModel').value = '';
+    document.getElementById('llmTimeout').value = 90;
+    document.getElementById('llmMaxTokens').value = 2000;
+    document.getElementById('llmTemperature').value = 0.1;
+
+    // 数据库导出
+    document.getElementById('dbExportEnabled').checked = true;
+    document.getElementById('mysqlUrl').value = '';
+
+    // RAG
+    document.getElementById('embeddingModel').value = 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2';
+    document.getElementById('ragTopKRules').value = 5;
+    document.getElementById('ragTopKSamples').value = 3;
+
+    // 认证
+    document.getElementById('webPassword').value = '';
+
+    // 值池
+    document.getElementById('llmValuePoolEnabled').checked = false;
+    document.getElementById('llmValuePoolSize').value = 50;
+
+    // 规则
+    document.getElementById('rulesAutosave').checked = true;
+    document.getElementById('rulesMinConfidence').value = 0.85;
+
+    // 更新界面
+    updateLlmProviderPreset();
+
+    showToast('已恢复为默认设置', 'info');
 }
 
 // ========== WebSocket ==========

@@ -748,6 +748,7 @@
             <button class="back-btn" onclick="goHome()">← 返回首页</button>
             <h1 class="page-title">⚙️ 系统设置</h1>
         </div>
+
         <div class="grid-2">
             <div class="glass-card">
                 <div class="card-title">🖥️ 系统信息</div>
@@ -762,7 +763,191 @@
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- LLM 配置面板 -->
+        <div class="glass-card" style="margin-top:20px;">
+            <div class="card-header">
+                <div class="card-title">🤖 大语言模型 (LLM) 配置</div>
+            </div>
+            <div class="form-row">
+                <div class="form-group" style="flex: 1; min-width: 300px;">
+                    <label>LLM 启用开关</label>
+                    <label class="toggle-switch-container">
+                        <input type="checkbox" id="llmEnabled" onchange="updateLlmConfig()">
+                        <span class="toggle-switch"></span>
+                    </label>
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">启用或禁用大语言模型功能</p>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>LLM 提供商 <span style="color:#ef4444;">*</span></label>
+                    <select id="llmProvider" class="glow-input" onchange="updateLlmProviderPreset()">
+                        <option value="">-- 选择提供商 --</option>
+                        <option value="deepseek">Deepseek</option>
+                        <option value="modelscope">Modelscope</option>
+                        <option value="openai">OpenAI</option>
+                        <option value="ollama">Ollama</option>
+                    </select>
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">选择LLM服务提供商</p>
+                </div>
+                <div class="form-group">
+                    <label>API 密钥 <span style="color:#ef4444;">*</span></label>
+                    <input type="password" id="llmApiKey" class="glow-input" placeholder="输入API密钥">
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">用于身份验证的API密钥</p>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Base URL</label>
+                    <input type="text" id="llmBaseUrl" class="glow-input" placeholder="https://api.example.com/v1">
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">LLM API基础URL，如使用预设则自动填充</p>
+                </div>
+                <div class="form-group">
+                    <label>模型名称</label>
+                    <input type="text" id="llmModel" class="glow-input" placeholder="gpt-4o-mini">
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">要使用的具体模型名称</p>
+                </div>
+            </div>
+
+            <div id="llmPresetInfo" style="margin-top:16px; padding:12px; background:rgba(59,130,246,0.1); border:1px solid rgba(59,130,246,0.3); border-radius:8px; font-size:13px; color:#3b82f6; display:none;">
+                <!-- 预设信息将在这里显示 -->
+            </div>
+
+            <div class="form-row" style="margin-top:16px;">
+                <div class="form-group">
+                    <label>请求超时 (秒)</label>
+                    <input type="number" id="llmTimeout" class="glow-input" min="1" max="300" value="90">
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">LLM请求的最大等待时间</p>
+                </div>
+                <div class="form-group">
+                    <label>最大响应Token数</label>
+                    <input type="number" id="llmMaxTokens" class="glow-input" min="100" max="8000" value="2000">
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">LLM响应的最大token数量</p>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>温度参数</label>
+                    <input type="number" id="llmTemperature" class="glow-input" min="0" max="2" step="0.1" value="0.1">
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">控制生成文本的创造性 (0=保守, 2=创意)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 数据库与RAG配置面板 -->
+        <div class="grid-2" style="margin-top:20px;">
+            <!-- 数据库导出配置 -->
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-title">💾 数据库导出</div>
+                </div>
+                <div class="form-group" style="margin-top:12px;">
+                    <label>数据库导出功能</label>
+                    <label class="toggle-switch-container">
+                        <input type="checkbox" id="dbExportEnabled">
+                        <span class="toggle-switch"></span>
+                    </label>
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">启用自动生成表和数据导出到MySQL</p>
+                </div>
+                <div class="form-group" style="margin-top:16px;">
+                    <label>MySQL连接字符串</label>
+                    <input type="text" id="mysqlUrl" class="glow-input" placeholder="mysql+pymysql://user:pass@host:3306/db">
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">格式: mysql+pymysql://user:pass@host:3306/db</p>
+                </div>
+            </div>
+
+            <!-- RAG配置 -->
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-title">🔍 检索增强生成 (RAG)</div>
+                </div>
+                <div class="form-group" style="margin-top:12px;">
+                    <label>嵌入模型</label>
+                    <input type="text" id="embeddingModel" class="glow-input" value="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2">
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">用于向量嵌入的Sentence-Transformer模型</p>
+                </div>
+                <div class="form-row" style="margin-top:16px;">
+                    <div class="form-group">
+                        <label>规则检索数量</label>
+                        <input type="number" id="ragTopKRules" class="glow-input" min="1" max="20" value="5">
+                    </div>
+                    <div class="form-group">
+                        <label>样本检索数量</label>
+                        <input type="number" id="ragTopKSamples" class="glow-input" min="1" max="10" value="3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 认证与高级配置面板 -->
+        <div class="grid-2" style="margin-top:20px;">
+            <!-- 认证配置 -->
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-title">🔐 认证与安全</div>
+                </div>
+                <div class="form-group" style="margin-top:12px;">
+                    <label>Web界面密码</label>
+                    <input type="password" id="webPassword" class="glow-input" placeholder="留空表示无需认证">
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">访问Web界面所需的密码</p>
+                </div>
+            </div>
+
+            <!-- 值池配置 -->
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-title">🔄 值池生成</div>
+                </div>
+                <div class="form-group" style="margin-top:12px;">
+                    <label>值池生成功能</label>
+                    <label class="toggle-switch-container">
+                        <input type="checkbox" id="llmValuePoolEnabled">
+                        <span class="toggle-switch"></span>
+                    </label>
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">通过LLM为字段生成持久化值池</p>
+                </div>
+                <div class="form-group" style="margin-top:16px;">
+                    <label>值池大小</label>
+                    <input type="number" id="llmValuePoolSize" class="glow-input" min="1" max="500" value="50">
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">每个生成值池的目标条目数量</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 规则配置面板 -->
+        <div class="glass-card" style="margin-top:20px;">
+            <div class="card-header">
+                <div class="card-title">📋 规则与处理</div>
+            </div>
+            <div class="grid-2" style="margin-top:12px;">
+                <div class="form-group">
+                    <label>规则自动保存</label>
+                    <label class="toggle-switch-container">
+                        <input type="checkbox" id="rulesAutosave">
+                        <span class="toggle-switch"></span>
+                    </label>
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">是否自动保存解析规则</p>
+                </div>
+                <div class="form-group">
+                    <label>最小置信度阈值</label>
+                    <input type="number" id="rulesMinConfidence" class="glow-input" min="0" max="1" step="0.01" value="0.85">
+                    <p style="margin-top:8px; opacity:0.7; font-size:13px;">应用规则所需的最低置信度分数</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 操作按钮 -->
+        <div class="glass-card" style="margin-top:20px; text-align:center;">
+            <button class="neon-btn" style="width:auto; margin-right:12px;" onclick="saveAllSettings()">💾 保存所有设置</button>
+            <button class="neon-btn secondary" style="width:auto;" onclick="resetToDefaults()">↺ 恢复默认</button>
+            <p style="margin-top:12px; opacity:0.7; font-size:13px;">
+                注意：某些更改需要重启服务才能生效
+            </p>
+        </div>
 
     <!-- SCHEMA IMPORT PAGE -->
     <div id="page-schema" style="display:none;">

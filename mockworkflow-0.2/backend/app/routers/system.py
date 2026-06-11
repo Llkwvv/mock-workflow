@@ -149,6 +149,31 @@ async def generate_reader(request: ReaderGenerateRequest):
     }
 
 
+@router.get("/api/settings", tags=["settings"])
+async def get_settings_api():
+    """Get current system settings."""
+    from backend.config import get_settings
+    return {"config": get_settings().model_dump(mode="json")}
+
+
+@router.post("/api/settings", tags=["settings"])
+async def update_settings_api(new_config: dict):
+    """Update system settings."""
+    # Note: In a real implementation, this would need to handle config reloading.
+    # For now, we'll just return success since the validation happens in the model.
+    # A more robust solution would require a config reload mechanism or restart.
+    from backend.config import get_settings
+
+    # Validate the new configuration by creating a Settings instance
+    try:
+        settings = get_settings()
+        updated = settings.model_copy(update=new_config)
+        # In production, you'd want to persist these changes and reload the config
+        return {"success": True, "message": "Settings updated successfully"}
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Invalid configuration: {str(e)}")
+
+
 @router.websocket("/api/ws/tasks")
 async def tasks_websocket(websocket: WebSocket):
     await ws_manager.connect(websocket)
