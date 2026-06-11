@@ -1,0 +1,252 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+.Python
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  requirement: https://github.com/pyinstaller/pyinstaller/discussions/1113
+#  https://github.com/pyinstaller/pyinstaller/blob/develop/PyInstaller/utils/hooks/README.md
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache/
+.pytest_cache/
+.pycov/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+.Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyproject/
+.spyproject/
+
+# Rope project settings
+.ropeproject/
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+ehthumbs.db
+
+# Local config files
+.local
+
+# Data files
+/data/
+/output/
+/samples/
+
+# Cache files
+*.cache
+.cache/
+
+# Temporary and cache directories
+/.pytest_cache/
+/.venv/
+/.claude/
+/paraphrase-multilingual-MiniLM-L12-v2/.cache/
+
+# Build and distribution directories
+/dist/
+/build/
+/wheelhouse/
+
+# Test directories
+/tests/*/__pycache__/
+/tests/__pycache__/
+
+# Audit files
+*.audit.log
+.audit.log
+
+# Sessions files
+.sessions.json
+
+# Python virtual environments
+venv/
+env/
+virtualenv/
+.venv/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+~*
+
+# Log files
+*.log
+
+# Configuration files (keep these)
+!.env.example
+!pyproject.toml
+!Dockerfile
+!docker-compose.yml
+
+# Model files (ignore large model files)
+**/models/**
+**/model_data/**
+**/trained_models/**
+
+# Generated files (but keep some important ones)
+**/*.generated.py
+**/*.generated.js
+!src/generated/**  # Keep generated source code
+
+# Large binary files and datasets
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bin
+*.dat
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.xlsx
+*.xls
+*.json
+*.sql
+*.gz
+*.bz2
+*.xz
+*.rdf
+*.sql
+
+# Large model files and data
+**/models/**
+**/model_data/**
+**/trained_models/**
+**/data/**
+**/datasets/**
+**/samples/**
+**/large_files/**
+**/large_data/**
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+/dist/
+/build/
+/wheelhouse/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+virtualenv/
+.venv/
